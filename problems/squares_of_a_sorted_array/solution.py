@@ -1,17 +1,13 @@
-class Solution:
-    def sortedSquares(self, nums: List[int]) -> List[int]:
-        n = len(nums)
-        res = [0] * n
-        i, j, p = 0, n - 1, n - 1
+class Solution(object):
+    def sortedSquares(self, A):
+        """
+        :type A: List[int]
+        :rtype: List[int]
+        """
+        lst = []
+        for i in A:
+            lst.append(i**2)
         
-        while i <= j:
-            if abs(nums[i]) >= abs(nums[j]):
-                res[p] = nums[i] * nums[i]
-                i += 1
-            else:
-                res[p] = nums[j] * nums[j]
-                j -= 1
+        lst.sort()
+        return lst
             
-            p -= 1
-        
-        return res
