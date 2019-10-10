@@ -1,7 +1,5 @@
-class Solution:
-    @cache
-    def tribonacci(self, n: int) -> int:
-        if n == 0: return 0
-        if n <= 2: return 1
-        
-        return self.tribonacci(n - 1) + self.tribonacci(n - 2) + self.tribonacci(n - 3)
+class Solution(object):
+    def tribonacci(self, n):
+        a, b, c = 1, 0, 0
+        for _ in xrange(n): a, b, c = b, c, a + b + c
+        return c
