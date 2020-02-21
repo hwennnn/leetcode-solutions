@@ -1,17 +1,4 @@
-class Solution(object):
-    def numJewelsInStones(self, J, S):
-        """
-        :type J: str
-        :type S: str
-        :rtype: int
-        """
-        lst = []
-        for i in J:
-            lst.append(i)
-        count=0
+class Solution:
+    def numJewelsInStones(self, J: str, S: str) -> int:
         
-        for i in S:
-            if i in lst:
-                count+=1
-        return count
-            
+        return sum([i in J for i in S])
