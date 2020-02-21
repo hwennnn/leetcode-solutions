@@ -1,10 +1,9 @@
 class Solution:
     def subtractProductAndSum(self, n: int) -> int:
-        p = 1
-        c = 0
         
-        for i,x in enumerate(str(n)):
-            p *= int(x)
-            c += int(x)
+        lst = [int(i) for i in str(n)]
+        prod = 1
+        for i in lst:
+            prod *= i
         
-        return p - c
+        return prod - sum(lst)
