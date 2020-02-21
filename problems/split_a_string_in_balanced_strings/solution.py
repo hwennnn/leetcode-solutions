@@ -1,11 +1,10 @@
 class Solution:
     def balancedStringSplit(self, s: str) -> int:
-        r = l = res = 0
         
-        for c in s:
-            if c == "R": r += 1
-            else: l += 1
+        r_count = l_count = total = 0
+        for i in s:
+            l_count += (i=="L")
+            r_count += (i=="R")
+            total += (l_count==r_count)
             
-            res += l == r
-        
-        return res
+        return total
