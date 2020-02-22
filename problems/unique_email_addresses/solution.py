@@ -1,36 +1,9 @@
-class Solution(object):
-    def numUniqueEmails(self, emails):
-        """
-        :type emails: List[str]
-        :rtype: int
-        """
-
-        lst = []
-        for x in emails:
- 
-            res = ""
-            a_index = x.index("@")
-            try:
-                var = x.index("+")
-            except:
-                var = None
-
-            for i in range(len(x)):
-                if var != None:
-                    if var<=i<a_index:
-                        continue
-                if i < a_index:
-                    if x[i] == "." :
-                        continue
-                    else:
-                        res+=x[i]
-
-                else:
-                    res+=x[i]
-
-            lst.append(res)
-            
-
-        return (len(set(lst)))
-                    
-                
+class Solution:
+    def numUniqueEmails(self, emails: List[str]) -> int:
+        email_set = set()
+        for email in emails:
+            local_name,domain_name = email.split("@")
+            local_name ="".join(local_name.split('+')[0].split('.'))
+            email = local_name +'@' + domain_name
+            email_set.add(email)
+        return len(email_set)
