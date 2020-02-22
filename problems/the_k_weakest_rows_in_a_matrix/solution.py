@@ -1,31 +1,12 @@
-class Solution:
-    def kWeakestRows(self, mat: List[List[int]], k: int) -> List[int]:
-        heap = []
+class Solution(object):
+    def kWeakestRows(self, mat, k):
+        """
+        :type mat: List[List[int]]
+        :type k: int
+        :rtype: List[int]
+        """
         
-        def countSoldier(row):
-            left, right = 0, len(row)
-            
-            while left < right:
-                mid = left + (right - left) // 2
-                
-                if row[mid] == 1:
-                    left = mid + 1
-                else:
-                    right = mid
-            
-            return left
-        
-        for index, row in enumerate(mat):
-            curr = (-countSoldier(row), -index)
-            if len(heap) == k:
-                heapq.heappushpop(heap, curr)
-            else:
-                heapq.heappush(heap, curr)
-        
-        res = []
-        
-        for _ in range(k):
-            _, index = heapq.heappop(heap)
-            res.append(-index)
-        
-        return res[::-1]
+        temp = [[sum(mat[i]),i ]for i in range(len(mat))]
+        lst = sorted(temp)
+
+        return ([i[1] for i in lst[:k]])
