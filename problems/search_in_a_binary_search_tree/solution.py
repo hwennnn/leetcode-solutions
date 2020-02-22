@@ -1,20 +1,21 @@
 # Definition for a binary tree node.
 # class TreeNode:
-#     def __init__(self, val=0, left=None, right=None):
-#         self.val = val
-#         self.left = left
-#         self.right = right
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
 class Solution:
-    def searchBST(self, root: Optional[TreeNode], val: int) -> Optional[TreeNode]:
+    def searchBST(self, root: TreeNode, val: int) -> TreeNode:
         
-        def search(node):
-            if not node: return None
+        if root == None:
+            return None
+        
+        while (root and root.val != val):
+            if root.val > val:
+                root = self.searchBST(root.left,val)
             
-            if val == node.val:
-                return node
-            elif val < node.val:
-                return search(node.left)
             else:
-                return search(node.right)
-        
-        return search(root)
+                root = self.searchBST(root.right,val)
+                
+        return root
