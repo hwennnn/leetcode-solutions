@@ -1,8 +1,9 @@
-class Solution:
-    def heightChecker(self, heights: List[int]) -> int:
-        res = 0
+class Solution(object):
+    def heightChecker(self, heights):
+        """
+        :type heights: List[int]
+        :rtype: int
+        """
         
-        for a,b in zip(heights, sorted(heights)):
-            res += int(a != b)
+        return sum([sum1 != sum2 for sum1,sum2 in zip(heights,sorted(heights))])
         
-        return res
