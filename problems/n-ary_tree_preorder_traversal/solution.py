@@ -1,23 +1,25 @@
 """
 # Definition for a Node.
-class Node:
+class Node(object):
     def __init__(self, val=None, children=None):
         self.val = val
         self.children = children
 """
-
-class Solution:
-    def preorder(self, root: 'Node') -> List[int]:
-        if not root: return []
+class Solution(object):
+    def preorder(self, root):
+        """
+        :type root: Node
+        :rtype: List[int]
+        """
+        temp = []
+        if root == None: return None
         
-        res = []
+        def recursion(root,temp):
+            temp.append(root.val)
+            for child in root.children:
+                recursion(child,temp)
+                
         
-        def go(node):
-            res.append(node.val)
-            
-            for child in node.children:
-                go(child)
-            
+        recursion(root,temp)
         
-        go(root)
-        return res
+        return temp
