@@ -1,16 +1,21 @@
 class Solution:
-    def sortArrayByParityII(self, nums: List[int]) -> List[int]:
-        n = len(nums)
-        i, j = 0, 1
+    def sortArrayByParityII(self, A: List[int]) -> List[int]:
         
-        while i < n and j < n:
-            while i < n and nums[i] & 1 == 0:
-                i += 2
-            
-            while j < n and nums[j] & 1:
-                j += 2
-            
-            if i < n and j < n:
-                nums[i], nums[j] = nums[j], nums[i]
+        A.sort()
         
-        return nums
+        odd_lst = [i for i in A if i%2!=0]
+        
+        even_lst = [i for i in A if i%2==0]
+        
+        temp = []
+        
+        
+        for i in range(len(A)):
+            count = len(temp)//2
+            if i%2 == 0:
+                temp.append(even_lst[count])
+                
+            else:
+                temp.append(odd_lst[count])
+                
+        return temp
