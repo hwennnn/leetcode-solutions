@@ -1,14 +1,24 @@
 class Solution:
-    def matrixReshape(self, mat: List[List[int]], r: int, c: int) -> List[List[int]]:
-        rows, cols = len(mat), len(mat[0])
-        if rows * cols != c * r: return mat
+    def matrixReshape(self, nums: List[List[int]], r: int, c: int) -> List[List[int]]:
         
-        res = [[0] * c for _ in range(r)]
-        index = 0
+        row = len(nums)
+        column = len(nums[0])
+
+        if row<=r and column<=c:
+            return nums
+
+
+        lst = [x for i in nums for x in i]
+        count = 0
+        ans = []
+
+        for _ in range(r):
+            temp = []
+
+            for _ in range(c):
+                temp.append(lst[count])
+                count+=1
+            ans.append(temp)
+
         
-        for i in range(rows):
-            for j in range(cols):
-                res[index // c][index % c] = mat[i][j]
-                index += 1
-        
-        return res
+        return ans
