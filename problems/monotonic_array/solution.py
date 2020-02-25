@@ -1,13 +1,22 @@
 class Solution:
-    def isMonotonic(self, nums: List[int]) -> bool:
-        n = len(nums)
-        inc = dec = 0
+    def isMonotonic(self, A: List[int]) -> bool:
         
-        for i in range(n - 1):
-            if nums[i] <= nums[i + 1]:
-                inc += 1
+        n = len(A)
+        if n <= 2: return True
+        
+        increase = False
+        decrease = False
+        
+        for i in range(1,n):
+            if A[i-1] > A[i]:
+                increase = True
+                
+            if A[i-1] < A[i]:
+                decrease = True
+                
+            if increase and decrease:
+                return False
             
-            if nums[i] >= nums[i + 1]:
-                dec += 1
-        
-        return inc == n - 1 or dec == n - 1
+        return True
+                
+            
