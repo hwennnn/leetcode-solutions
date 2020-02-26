@@ -1,7 +1,6 @@
 class Solution:
     def isAlienSorted(self, words: List[str], order: str) -> bool:
-        O = {x: i for i, x in enumerate(order)}
         
-        words = [[O[x] for x in word] for word in words]
-        
-        return all(x1 <= x2 for x1, x2 in zip(words, words[1:]))
+        m = {c: i for i, c in enumerate(order)}
+        words = [[m[c] for c in w] for w in words]
+        return (all(w1 <= w2 for w1, w2 in zip(words, words[1:])))
