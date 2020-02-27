@@ -1,3 +1,9 @@
 class Solution:
     def findTheDifference(self, s: str, t: str) -> str:
-        return "".join(Counter(t) - Counter(s))
+        
+        ans = 0
+        
+        for i in s+t:
+            ans ^= ord(i)
+        
+        return chr(ans)
