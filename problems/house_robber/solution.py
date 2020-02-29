@@ -1,8 +1,12 @@
 class Solution:
     def rob(self, nums: List[int]) -> int:
-        take = skip = 0
+        if not nums:
+            return 0
+        if len(nums) < 2:
+            return nums[0]
+        nums[1] = max(nums[0], nums[1])
+        for i in range(2, len(nums)):
+            nums[i] = max((nums[i-2]+nums[i]), nums[i-1])
+        return nums[-1]
         
-        for x in nums:
-            take, skip = max(take, skip + x), max(skip, take)
-            
-        return take
+   
