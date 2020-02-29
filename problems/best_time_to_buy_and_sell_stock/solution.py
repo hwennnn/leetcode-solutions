@@ -1,11 +1,11 @@
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        buy = float('inf')
-        sell = 0
         
-        for x in prices:
-            buy = min(buy, x)
-            sell = max(sell, x - buy)
+        buy,sold = float('inf'),0
         
-        return sell
-        
+        for price in prices:
+            buy = min(price,buy)
+            profit = price - buy
+            sold = max(sold,profit)
+            
+        return sold
