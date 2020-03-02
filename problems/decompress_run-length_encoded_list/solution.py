@@ -1,9 +1,4 @@
 class Solution:
-    def decompressRLElist(self, nums: List[int]) -> List[int]:
-        res = []
-        n = len(nums)
-        for i in range(0,n,2):
-            for _ in range(nums[i]):
-                res.append(nums[i+1])
+    def decompressRLElist(self, A: List[int]) -> List[int]:
         
-        return res
+        return [x for a, b in zip(A[0::2], A[1::2]) for x in [b] * a]
