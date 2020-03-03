@@ -1,16 +1,15 @@
 class Solution:
-    def canPlaceFlowers(self, flowerbed: List[int], k: int) -> bool:
-        n = len(flowerbed)
-        put = i = 0
+    def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
         
-        while i < n:
-            if flowerbed[i] == 1:
-                i += 2
-            else:
-                if i == n - 1 or (i + 1 < n and flowerbed[i + 1] == 0):
-                    put += 1
-                    i += 2
-                else:
-                    i += 1
+        plots = [0] + flowerbed + [0]
         
-        return put >= k
+        i = 1
+        
+        while i<= len(flowerbed) and n>0:
+            if plots[i] == 0 and plots[i-1] == 0 and plots[i+1] == 0:
+                plots[i] = 1
+                n-=1
+            
+            i += 1
+            
+        return n == 0
