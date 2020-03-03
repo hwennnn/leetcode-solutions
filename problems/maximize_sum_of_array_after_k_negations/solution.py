@@ -1,25 +1,11 @@
 class Solution:
-    def largestSumAfterKNegations(self, nums: List[int], k: int) -> int:
-        neg = []
-        pos = []
+    def largestSumAfterKNegations(self, A: List[int], K: int) -> int:
         
-        for x in nums:
-            if x < 0:
-                neg.append(x)
-            else:
-                pos.append(x)
+        A.sort()
+        i = 0
         
-        pos.sort()
+        while A[i]<0 and i<len(A) and i<K:
+            A[i] = -A[i]
+            i += 1
         
-        if k >= len(neg):
-            k -= len(neg)
-            nums = sorted(abs(x) for x in nums)
-            
-            if k % 2 == 1:
-                return -nums[0] + sum(nums[1:])
-            else:
-                return sum(nums)
-        else:
-            neg.sort()
-            
-            return sum(pos) - sum(neg[:k]) + sum(neg[k:])
+        return sum(A) - (K-i)%2 * min(A) * 2
