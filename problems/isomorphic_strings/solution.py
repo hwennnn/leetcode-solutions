@@ -1,17 +1,15 @@
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
         
-        def construct(s):
-            s = list(s)
-            mp = {}
-            res = ""
-            
-            for i, x in enumerate(s):
-                if x not in mp:
-                    mp[x] = len(mp)
-                s[i] = mp[x]
-                
-            return s
+        def decode(s):
+            dic = {}
+            lst = []
+            for char in s:
+                if char not in dic:
+                    dic[char] = len(dic)
+                lst.append(dic[char])
+            return str(lst)
         
-        return construct(s) == construct(t)
+        
             
+        return decode(s) == decode(t)
