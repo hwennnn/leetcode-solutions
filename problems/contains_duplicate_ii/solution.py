@@ -3,17 +3,17 @@ class Solution:
         
         d = {}
         
-        for i, n in enumerate(nums):
+        for i,num in enumerate(nums):
             
-            if n not in d:
-                d[n] = i
+            if num not in d:
+                d[num] = i
             
             else:
-                if abs(d[n]-i) <= k:
+                
+                if i - d[num] <= k:
                     return True
                 
-                d[n] = i
-        
+                d[num] = i
+            
         return False
-                
             
