@@ -1,16 +1,21 @@
 class Solution:
     def maxProfit(self, prices: List[int], fee: int) -> int:
+        
         n = len(prices)
         
-        min_buy = prices[0]
-        res = 0
+        if n < 2: return 0
         
-        for i in range(1, n):
-            if prices[i] < min_buy:
-                min_buy = prices[i]
+        mini = prices[0] 
+        
+        ans = 0
+        
+        for i in range(1,n):
             
-            elif prices[i] > min_buy + fee:
-                res += prices[i] - min_buy - fee
-                min_buy = prices[i] - fee
-        
-        return res
+            if prices[i] < mini:
+                mini = prices[i]
+                
+            elif prices[i] > mini + fee:
+                ans += prices[i] - mini - fee
+                mini = prices[i] - fee
+                
+        return ans
