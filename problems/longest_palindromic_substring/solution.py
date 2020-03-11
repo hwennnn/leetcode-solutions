@@ -1,20 +1,19 @@
-class Solution:
-    def longestPalindrome(self, s: str) -> str:
-        n = len(s)
-        if n == 1: return s
-        
-        def pal(i, j):
-            while i >= 0 and j < n and s[i] == s[j]:
-                i -= 1
-                j += 1
-            
-            i += 1
-            j -= 1
-            
-            return s[i : j + 1]
-        
-        res = ''
-        for i in range(n - 1):
-            res = max(res, pal(i, i), pal(i, i + 1), key = len)
-        
+class Solution(object):
+    def longestPalindrome(self, s):
+        """
+        :type s: str
+        :rtype: str
+        """
+
+        res = ""
+        for i in range(len(s)):
+            res = max(self.helper(s,i,i), self.helper(s,i,i+1), res, key=len)
+
         return res
+       
+        
+    def helper(self,s,l,r):
+        
+        while 0<=l and r < len(s) and s[l]==s[r]:
+                l-=1; r+=1
+        return s[l+1:r]
