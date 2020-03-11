@@ -1,25 +1,17 @@
 class Solution:
     def validPalindrome(self, s: str) -> bool:
-        valid = True
-        n = len(s)
-        i, j = 0, n - 1
         
-        @cache
-        def isPalindrome(i, j):
-            nonlocal valid
+        i, j = 0, len(s) - 1
+        
+        
+        
+        while i < j:
             
-            while i < j:
-                if s[i] == s[j]:
-                    i += 1
-                    j -= 1
-                else:
-                    if valid:
-                        valid = False
-                        return isPalindrome(i + 1, j) or isPalindrome(i, j - 1)
-                    else:
-                        return False
-        
-        
-            return i >= j
-        
-        return isPalindrome(i, j)
+            if s[i] != s[j]:
+                one, two = s[i:j], s[i + 1: j + 1]
+                
+                return one == one[::-1] or two == two[::-1]
+                
+            i, j = i + 1, j-1
+            
+        return True
