@@ -1,16 +1,22 @@
 class Solution:
-    def backspaceCompare(self, s: str, t: str) -> bool:
+    def backspaceCompare(self, S: str, T: str) -> bool:
         
-        def check(A):
+        def convert(word):
             stack = []
             
-            for x in A:
-                if x == '#':
-                    if stack:
+            for w in word:
+                if w == "#":
+                    if len(stack) > 0:
                         stack.pop()
+                
                 else:
-                    stack.append(x)
-            
-            return stack
+                    stack.append(w)
+                    
+            return "".join(stack)
         
-        return check(s) == check(t)
+        return convert(S) == convert(T)
+            
+                
+            
+        
+        
