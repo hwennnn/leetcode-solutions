@@ -1,19 +1,22 @@
 class Solution:
-    def numIslands(self, grid: List[List[str]]) -> int:
-        rows, cols = len(grid), len(grid[0])
-        res = 0
+    def numIslands(self, grid):
+        if not grid:
+            return 0
+
+        count = 0
+        for i in range(len(grid)):
+            for j in range(len(grid[0])):
+                if grid[i][j] == '1':
+                    self.dfs(grid, i, j)
+                    count += 1
+        return count
+
+    def dfs(self, grid, i, j):
+        if i<0 or j<0 or i>=len(grid) or j>=len(grid[0]) or grid[i][j] != '1':
+            return
+        grid[i][j] = '#'
+        self.dfs(grid, i+1, j)
+        self.dfs(grid, i-1, j)
+        self.dfs(grid, i, j+1)
+        self.dfs(grid, i, j-1)
         
-        def go(x, y):
-            grid[x][y] = "0"
-            
-            for dx, dy in [(x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)]:
-                if 0 <= dx < rows and 0 <= dy < cols and grid[dx][dy] == "1":
-                    go(dx, dy)
-        
-        for x in range(rows):
-            for y in range(cols):
-                if grid[x][y] == "1":
-                    res += 1
-                    go(x, y)
-        
-        return res
