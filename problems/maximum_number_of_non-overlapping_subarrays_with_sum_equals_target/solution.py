@@ -1,16 +1,22 @@
 class Solution:
     def maxNonOverlapping(self, nums: List[int], target: int) -> int:
         
-        d = {0:-1}
+        n = len(nums)
+        total = count = 0
         last = -1
-        s = res = 0
+        d = {0:-1}
         
-        for i,num in enumerate(nums):
-            s += num
-            if s - target in d and d[s-target] >= last:
-                last = i
-                res += 1
+        for i in range(n):
             
-            d[s] = i
+            total += nums[i]
+            
+            if total-target in d and d[total-target] >= last:
+                count += 1
+                last = i
+                
+            d[total] = i
         
-        return res
+        return count
+                
+            
+            
