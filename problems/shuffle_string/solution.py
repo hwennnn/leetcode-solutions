@@ -1,9 +1,10 @@
 class Solution:
     def restoreString(self, s: str, indices: List[int]) -> str:
-        res = [None] * len(s)
         
-        for idx,x in enumerate(indices):
-            res[x] = s[idx]
+        n = len(s)
+        temp = [None] * n
         
-        return "".join(res)
+        for i in range(n):
+            temp[indices[i]] = s[i]
             
+        return "".join(temp)
