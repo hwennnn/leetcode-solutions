@@ -1,9 +1,14 @@
-class Solution(object):
-    def distributeCandies(self, candies, n):
-        res = [0] * n
-        i = 0
+class Solution:
+    def distributeCandies(self, candies: int, n: int) -> List[int]:
+        
+        ans = [0] * n
+        
+        base = 0
+        
         while candies > 0:
-            res[i % n] += min(candies, i + 1)
-            candies -= i + 1
-            i += 1
-        return res
+            ans[base%n] += min(candies, base+1)
+            candies -= base + 1
+            base += 1
+        
+        return ans
+            
