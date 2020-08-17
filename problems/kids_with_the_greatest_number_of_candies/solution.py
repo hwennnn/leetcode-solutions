@@ -1,11 +1,16 @@
 class Solution:
-    def kidsWithCandies(self, candies: List[int], ec: int) -> List[bool]:
+    def kidsWithCandies(self, candies: List[int], extraCandies: int) -> List[bool]:
+        
         m = max(candies)
+        n = len(candies)
         
-        res = []
-        
-        for i, c in enumerate(candies):
-            res.append(c+ec >= m)
-        
-        return res
-            
+        for i in range(n):
+            candy = candies[i] + extraCandies
+            if candy >= m:
+                candies[i] = True
+            else:
+                candies[i] = False
+                
+
+        return candies
+       
