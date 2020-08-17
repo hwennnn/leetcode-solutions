@@ -1,13 +1,10 @@
 class Solution:
     def maxDistToClosest(self, seats: List[int]) -> int:
-        n = len(seats)
-        res, last = 0, -1
+        res, last, n = 0, -1, len(seats)
         
-        for i, x in enumerate(seats):
-            if x == 1:
-                res = max(res, i if last == -1 else (i - last) // 2)
+        for i in range(n):
+            if seats[i]:
+                res = max(res, i if last < 0 else (i-last)//2)
                 last = i
         
-        res = max(res, n - last - 1)
-        
-        return res
+        return max(res, n - last - 1)
