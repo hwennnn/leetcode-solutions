@@ -1,10 +1,17 @@
 class Solution:
-    def maxSubArray(self, a: List[int]) -> int:
+    def maxSubArray(self, nums: List[int]) -> int:
         
-        for i in range(1,len(a)):
+        n = len(nums)
+        ans = nums[0]
+        
+        for i in range(1,n):
             
-            if a[i-1] > 0:
-                a[i] += a[i-1]
+            if nums[i-1] > 0:
+                nums[i] += nums[i-1]
+            
+            ans = max(ans, nums[i])
+        
+            
+        return ans
         
         
-        return max(a)
