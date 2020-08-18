@@ -1,12 +1,15 @@
 class Solution:
+    def __init__(self):
+        self.mem = {0:0, 1:1, 2:2}
+        
     def climbStairs(self, n: int) -> int:
         
-        if n < 4: return n
-        
-        dp = [0,1,2,3]
-        
-        for i in range(4,n+1):
-            dp.append(dp[i-1] + dp[i-2])
+        def climb(x):
+            if x in self.mem: return self.mem[x]
             
-        return dp[-1]
+            self.mem[x] = climb(x-1) + climb(x-2)
+            
+            return self.mem[x]
         
+        return climb(n)
+            
