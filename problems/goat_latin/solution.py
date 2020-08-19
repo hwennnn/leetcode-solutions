@@ -1,31 +1,22 @@
 class Solution:
     def toGoatLatin(self, S: str) -> str:
-        
-        vowel = ["a","e","i","o","u"]
-        
-        words = [i for i in S.split(" ")]
-
-        count = 1
-        lst= []
+    
+        vowel = {"a","e","i","o","u"}
+        words = S.split(" ")
+        i = 1
+        ans = []
         for word in words:
-            temp = ""
+            a = ""
+            
             if word[0].lower() in vowel:
-                for char in word:
-                    temp += char
-
-                temp+="ma"
-
+                a = word + "ma"
             else:
-                l = word[0]
-                for i in range(1,len(word)):
-                    temp+=word[i]
-
-                temp+=l
-                temp+="ma"
-
-            for _ in range(count):
-                temp+="a"
-            count+=1
-            lst.append(temp)
-
-        return " ".join(lst)
+                a = word[1:] + word[0] + "ma"
+            
+            a += "a"*i
+            i+=1
+        
+            ans.append(a)
+        
+        return " ".join(ans)
+                
