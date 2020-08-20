@@ -1,9 +1,13 @@
 class Solution:
     def minStartValue(self, nums: List[int]) -> int:
-        mmin = curr = 0
+        min_less = float("inf")
+        curr = 0
         
-        for x in nums:
-            curr += x
-            mmin = min(mmin, curr)
+        for num in nums:
+            curr += num
+            min_less = min(min_less, curr)
+                
+        return -min_less+1 if min_less < 1 else 1
+            
         
-        return mmin if mmin > 0 else abs(mmin) + 1
+        
