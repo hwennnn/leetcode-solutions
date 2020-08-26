@@ -1,23 +1,16 @@
 class Solution:
-    def numSplits(self, S: str) -> int:
-        n = len(S)
-        prefix = [None] * n
-        suffix = [None] * n
-        mp = set()
+    def numSplits(self, s: str) -> int:
+        left_count = collections.Counter()
+        right_count = collections.Counter(s)
         res = 0
-        
-        for i in range(n):
-            mp.add(S[i])
-            prefix[i] = len(mp)
+        for c in s:
+            left_count[c] += 1
+            right_count[c] -= 1
+            if right_count[c] == 0:
+                del right_count[c]
             
-        mp.clear()
-        
-        for i in reversed(range(n)):
-            mp.add(S[i])
-            suffix[i] = len(mp)
-        
-
-        for i in range(1,n):
-            res += prefix[i-1] == suffix[i]
-        
+            if len(left_count) == len(right_count):
+                res += 1
+                
         return res
+		
