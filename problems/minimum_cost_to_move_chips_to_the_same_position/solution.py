@@ -1,11 +1,11 @@
 class Solution:
-    def minCostToMoveChips(self, position: List[int]) -> int:
+    def minCostToMoveChips(self, chips: List[int]) -> int:
         odd = even = 0
         
-        for x in position:
-            if x % 2 == 0:
-                even += 1
-            else:
+        for chip in chips:
+            if chip % 2:
                 odd += 1
-        
-        return min(even, odd)
+            else:
+                even += 1
+                
+        return min(odd, even)
