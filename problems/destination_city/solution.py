@@ -1,12 +1,14 @@
 class Solution:
     def destCity(self, paths: List[List[str]]) -> str:
+        a = set()
         
-        mp = collections.defaultdict(int)
+        for path in paths:
+            a.add(path[1])
         
-        for a, b in paths:
-            mp[a] += 1
-            mp[b] += 1
-        
-        for a,b in paths:
-            if mp[b] == 1:
-                return b
+        for path in paths:
+            if path[0] in a:
+                a.remove(path[0])
+            
+        return a.pop()
+            
+                
