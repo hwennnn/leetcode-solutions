@@ -1,21 +1,25 @@
 class Solution:
     def getMaxLen(self, nums: List[int]) -> int:
-        res = negCount = 0
-        zeroPos = negPos = -1
+        firstNegative = -1
+        zeroPosition = -1
+        res = 0
+        neg = 0
         
-        for i, x in enumerate(nums):
+        for i,x in enumerate(nums):
             if x < 0:
-                negCount += 1
-                if negPos == -1:
-                    negPos = i
-            elif x == 0:
-                negCount = 0
-                zeroPos = i
-                negPos = -1
+                neg += 1
+                if firstNegative == -1:
+                    firstNegative = i
             
-            if negCount % 2 == 0:
-                res = max(res, i - zeroPos)
+            if x == 0:
+                firstNegative = -1
+                zeroPosition = i
+                neg = 0
+            
             else:
-                res = max(res, i - negPos)
+                if neg % 2 == 0:
+                    res = max(res, i - zeroPosition)
+                else:
+                    res = max(res, i - firstNegative)
         
         return res
