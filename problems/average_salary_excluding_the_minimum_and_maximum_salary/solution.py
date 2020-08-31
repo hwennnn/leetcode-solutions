@@ -1,11 +1,13 @@
 class Solution:
     def average(self, salary: List[int]) -> float:
-        mmax, mmin = max(salary), min(salary)
-        res = count = 0
+        s_min = float('inf')
+        s_max = float('-inf')
+        n = len(salary)
+        res = 0
         
-        for x in salary:
-            if x != mmax and x != mmin:
-                res += x
-                count += 1
-        
-        return res / count
+        for s in salary:
+            res += s
+            s_min = min(s_min, s)
+            s_max = max(s_max, s)
+
+        return (res-s_min-s_max)/(n-2)
