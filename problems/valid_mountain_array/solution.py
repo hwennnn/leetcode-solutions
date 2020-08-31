@@ -1,10 +1,11 @@
 class Solution:
     def validMountainArray(self, A: List[int]) -> bool:
+        n = len(A)
+        i = 0
+        j = n-1
         
-        l, r, n = 0, len(A)-1, len(A)
+        while i+1 < n and A[i+1] > A[i]: i+=1
         
-        while l + 1 < n and A[l + 1] > A[l]: l += 1
-        while r > 0 and A[r - 1] > A[r]: r -= 1
+        while j > 0 and A[j-1] > A[j]: j-=1
         
-        return 0 < l == r < n-1
-            
+        return i > 0 and i == j and j < n-1
