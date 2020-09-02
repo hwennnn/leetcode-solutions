@@ -1,20 +1,14 @@
 class Solution:
-    def fourSumCount(self, nums1: List[int], nums2: List[int], nums3: List[int], nums4: List[int]) -> int:
-        
-        def construct(A, B):
-            mp = collections.defaultdict(int)
-            
-            for a in A:
-                for b in B:
-                    mp[a + b] += 1
-            
-            return mp
-        
+    def fourSumCount(self, A: List[int], B: List[int], C: List[int], D: List[int]) -> int:
+        AB = {}
         res = 0
-        mp1 = construct(nums1, nums2)
-        mp2 = construct(nums3, nums4)
         
-        for k, v in mp1.items():
-            res += v * mp2[-k]
+        for a in A:
+            for b in B:
+                AB[a+b] = AB.get(a+b,0) + 1
+        
+        for c in C:
+            for d in D:
+                res += AB.get(-c-d,0)
         
         return res
