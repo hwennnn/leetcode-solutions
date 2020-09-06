@@ -1,24 +1,17 @@
 class Solution:
-    def numWays(self, S: str) -> int:
-        n = len(S)
-        M = 10 ** 9 + 7
-        ones = S.count("1")
-        
-        if ones % 3: return 0
-        
-        if ones == 0: return (((n-1) * (n-2)) // 2) % M
-        
-        ones /= 3
-        first = second = c = 0
-        
-        for s in S:
-            if s == "1":
-                c += 1
-            
-            if c == ones:
-                first += 1
-            
-            elif c == ones*2:
-                second += 1
-        
-        return (first * second) % M
+    def numWays(self, s: str) -> int:
+        ones, n = s.count('1'), len(s)
+        if ones == 0:
+            return (n - 2) * (n - 1) // 2 % (10 ** 9 + 7)
+        if ones % 3 != 0:
+            return 0
+        ones //= 3
+        count = lo = hi = 0
+        for char in s:
+            if char == '1':
+                count += 1
+            if count == ones:
+                lo += 1
+            elif count == 2 * ones:
+                hi += 1
+        return lo * hi % (10 **9 + 7)
