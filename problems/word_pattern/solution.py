@@ -1,17 +1,19 @@
 class Solution:
     def wordPattern(self, pattern: str, s: str) -> bool:
+        S = s.split()
+        dic = {}
         
-        def generate(s):
-            seen = {}
-            res = []
-            
-            for word in s:
-                if word not in seen:
-                    seen[word] = len(seen)
-                    
-                res.append(seen[word])
-            
-            return "".join(map(str, res))
+        if len(S) != len(pattern): return False
         
-        return generate(pattern) == generate(s.split())
+        for i in range(len(S)):
+            if S[i] not in dic:
+                if pattern[i] in dic.values():
+                    return False
+                dic[S[i]] = pattern[i]
+        
+        for i in range(len(S)):
+            if pattern[i] != dic[S[i]]:
+                return False
+        
+        return True
             
