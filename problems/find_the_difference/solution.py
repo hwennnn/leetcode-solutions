@@ -1,9 +1,8 @@
 class Solution:
     def findTheDifference(self, s: str, t: str) -> str:
+        res = 0
         
-        ans = 0
-        
-        for i in s+t:
-            ans ^= ord(i)
-        
-        return chr(ans)
+        for c in s+t:
+            res ^= ord(c)
+            
+        return chr(res)
