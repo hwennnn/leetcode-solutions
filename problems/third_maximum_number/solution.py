@@ -1,16 +1,19 @@
 class Solution:
     def thirdMax(self, nums: List[int]) -> int:
+        if not nums: return 0
         
-        one = two = three = -float('inf')
+        first = second = third = float('-inf')
         
-        for i in nums:
-            if i > one:
-                one, two, three = i, one, two
+        for num in nums:
+            if num > first:
+                first, second, third = num, first, second
             
-            elif i > two and i < one:
-                two, three = i, two
-                
-            elif i > three and i < two:
-                three = i
-                
-        return three if three != -float('inf') else one
+            elif num > second and num < first:
+                second, third = num, second
+            
+            elif num > third and num < second:
+                third = num
+            
+            print(first, second, third)
+        
+        return third if third != float('-inf') else first
