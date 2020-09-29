@@ -1,13 +1,15 @@
 class Solution:
-    def wordBreak(self, s: str, words: List[str]) -> bool:
+    def wordBreak(self, s: str, wordDict: List[str]) -> bool:
         
         n = len(s)
-        
-        check = [False] * n
+        check = [False] * (n+1)
+        check[0] = True
         
         for i in range(n):
-            for word in words:
-                if word == s[i-len(word)+1:i+1] and (check[i-len(word)] or i-len(word) == -1):
-                    check[i] = True
+            if check[i]:
+                for j in range(i, n):
+                    if s[i:j+1] in wordDict:
+                        check[j+1] = True
         
         return check[-1]
+        
