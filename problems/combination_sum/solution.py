@@ -1,22 +1,17 @@
 class Solution:
-    def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
-        n = len(candidates)
+    def combinationSum(self, candidates, target):
+
         res = []
+        candidates.sort()
         
-        def go(index, curr, total):
-            nonlocal res
-            
-            if total == target:
-                res.append(curr)
-                return
-            
-            if index == n:
-                return
-            
-            for j in range(index, n):
-                if total + candidates[j] <= target:
-                    go(j, curr + [candidates[j]], total + candidates[j])
+        def dfs(target, index, path):
+            if target < 0:
+                return  # backtracking
+            if target == 0:
+                res.append(path)
+                return 
+            for i in range(index, len(candidates)):
+                dfs(target-candidates[i], i, path+[candidates[i]])
         
-        go(0, [], 0)
-        
+        dfs(target, 0, [])
         return res
