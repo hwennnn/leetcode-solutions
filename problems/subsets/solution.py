@@ -1,20 +1,17 @@
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
-        res = []
-        seen = set()
+        
         n = len(nums)
+        ans = [[]]
         
-        for mask in range(1 << n):
-            h = 0
-            curr = []
+        for i in range(n):
+            tmp = []
+            for num in ans:
+                c = num + [nums[i]]
+                tmp.append(c)
             
-            for j in range(n):
-                if mask & (1 << j) > 0:
-                    curr.append(nums[j])
-                    h |= (1 << j)
-            
-            if h not in seen:
-                res.append(curr)
-                seen.add(h)
+            ans += tmp
         
-        return res
+        return ans
+                
+        
