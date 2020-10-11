@@ -1,18 +1,15 @@
 class Solution:
     def removeDuplicateLetters(self, s: str) -> str:
-        counter = Counter(s)
-        stack = []
-        put = set()
+        counter, visited, stack = collections.Counter(s), set(), []
         
-        for x in s:
-            counter[x] -= 1
-            
-            if x in put: continue
+        for c in s:
+            counter[c] -= 1
+            if c in visited: continue
                 
-            while stack and x < stack[-1] and counter[stack[-1]] > 0:
-                put.remove(stack.pop())
+            while stack and stack[-1] > c and counter[stack[-1]] > 0:
+                visited.remove(stack.pop())
             
-            stack.append(x)
-            put.add(x)
-
+            visited.add(c)
+            stack.append(c)
+        
         return "".join(stack)
