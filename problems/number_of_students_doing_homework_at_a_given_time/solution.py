@@ -1,9 +1,9 @@
 class Solution:
-    def busyStudent(self, startTime: List[int], endTime: List[int], queryTime: int) -> int:
+    def busyStudent(self, start: List[int], end: List[int], k: int) -> int:
         
-        count = 0
+        res = 0
+        for i,j in zip(start, end):
+            if k >= i and k <= j:
+                res += 1
         
-        for i,j in zip(startTime, endTime):
-            count += queryTime<= j and queryTime >= i
-            
-        return count
+        return res
