@@ -1,19 +1,14 @@
 class Solution:
-    def makeGood(self, s: str) -> str:
-        
-        n = len(s)
+    def makeGood(self, S: str) -> str:
         
         stack = []
         
-        for i in range(n):
+        for s in S:
             
-            if stack and abs(ord(stack[-1])-ord(s[i])) == 32:
+            if stack and (stack[-1] != s and stack[-1].lower() == s.lower()):
                 stack.pop()
-            
             else:
-                stack.append(s[i])
+                stack.append(s)
         
-
         return "".join(stack)
-                
                 
