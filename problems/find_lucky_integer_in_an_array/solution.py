@@ -1,10 +1,10 @@
 class Solution:
     def findLucky(self, arr: List[int]) -> int:
-        lst = collections.Counter(arr)
-        ans = -1
-        for num in lst:
-            if num == lst[num]:
-                if num > ans:
-                    ans = num
-
-        return ans
+        
+        C = collections.Counter(arr)
+        res = -1
+        for c in C:
+            if c == C[c]:
+                res = max(res, c)
+        
+        return res
