@@ -7,10 +7,11 @@
 class Solution:
     def goodNodes(self, root: TreeNode) -> int:
         
-        def dfs(node, mmax):
-            if not node: return 0
-            mmax = max(mmax, node.val)
+        def count(root, v):
+            if not root: return 0
             
-            return (node.val >= mmax) + dfs(node.left, mmax) + dfs(node.right, mmax)
+            m = max(root.val, v)
+            
+            return (root.val >= v) + count(root.left, max(root.val,v)) + count(root.right, max(root.val, v))
         
-        return dfs(root, root.val)
+        return count(root, root.val)
