@@ -1,13 +1,13 @@
 class Solution:
-    def maxSatisfaction(self, satisfaction: List[int]) -> int:
-        n = len(satisfaction)
-        satisfaction.sort()
+    def maxSatisfaction(self, S: List[int]) -> int:
+        S.sort()
         
-        res = m = c = 0
-        
-        for i in range(n - 1, -1, -1):
-            m += c + satisfaction[i]
-            c += satisfaction[i]
+        res = c = m = 0
+        for i in reversed(range(len(S))):
+            m += c + S[i]
+            c += S[i]
             res = max(res, m)
-        
+            
         return res
+        
+        
