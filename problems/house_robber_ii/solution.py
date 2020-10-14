@@ -1,38 +1,15 @@
 class Solution:
+    
+    def rob1(self, nums, start, end):
+        rob, not_rob = 0, 0
+        for i in range(start, end):
+            rob, not_rob = nums[i] + not_rob, max(rob, not_rob)
+        
+        return max(rob, not_rob)
+            
+        
+    
     def rob(self, nums: List[int]) -> int:
-        
-        def rob0(nums):
-            n = len(nums)
-            ifRobbed = ifNotRobbed = 0
-            
-            for i in range(n-1):
-                rob_this = ifNotRobbed + nums[i]
-                
-                dont_rob_this = max(ifRobbed, ifNotRobbed)
-                
-                ifRobbed = rob_this
-                
-                ifNotRobbed = dont_rob_this
-                
-            return max(ifRobbed, ifNotRobbed)
-        
-        
-        def rob1(nums):
-            n = len(nums)
-            ifRobbed = ifNotRobbed = 0
-            
-            for i in range(1,n):
-                rob_this = ifNotRobbed + nums[i]
-                
-                dont_rob_this = max(ifRobbed, ifNotRobbed)
-                
-                ifRobbed = rob_this
-                
-                ifNotRobbed = dont_rob_this
-                
-            return max(ifRobbed, ifNotRobbed)
-                
-        
-        if len(nums) == 1: return nums[0]
-        
-        return max(rob0(nums), rob1(nums))
+        n = len(nums)
+        if n == 1: return nums[0]
+        return max(self.rob1(nums, 0, n-1), self.rob1(nums, 1, n))
