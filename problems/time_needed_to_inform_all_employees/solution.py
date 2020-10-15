@@ -1,19 +1,12 @@
 class Solution:
     def numOfMinutes(self, n: int, headID: int, manager: List[int], informTime: List[int]) -> int:
-        graph = defaultdict(list)
+        children = [[] for _ in range(n)]
         
-        for x, y in enumerate(manager):
-            if y == -1: continue
-                
-            graph[y].append(x)
+        for i, m in enumerate(manager):
+            if m >= 0:
+                children[m].append(i)
         
-        @cache
-        def go(node):
-            res = 0
-            
-            for nei in graph[node]:
-                res = max(res, go(nei) + informTime[node])
-            
-            return res
+        def dfs(i):
+            return max([dfs(j) for j in children[i]] or [0]) + informTime[i]
         
-        return go(headID)
+        return dfs(headID)
