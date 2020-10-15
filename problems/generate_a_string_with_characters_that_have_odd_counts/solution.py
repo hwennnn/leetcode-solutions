@@ -1,10 +1,7 @@
 class Solution:
     def generateTheString(self, n: int) -> str:
         if n == 1: return "a"
-        first = "a"
-        second = "b"
-        
-        if n % 2 == 0:
-            return first*(n-1) + second*1
+        if n % 2:
+            return "a"*(n-2) + "b" + "c"
         else:
-            return first*n
+            return "a"*(n-1) + "b"
