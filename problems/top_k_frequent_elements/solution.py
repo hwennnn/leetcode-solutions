@@ -1,16 +1,12 @@
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+        buckets = [[] for _ in range(len(nums)+1)]
         
-        dic = {}
-        
-        for num in nums:
+        c = collections.Counter(nums).items()
+
+        for num,freq in c:
+            buckets[freq].append(num)
             
-            if num in dic:
-                dic[num] += 1
-            
-            else:
-                dic[num] = 1
+        arr = list(chain(*buckets))
         
-        arr = sorted(dic, key = dic.get,reverse = True)
-        
-        return arr[:k]
+        return arr[::-1][:k]
