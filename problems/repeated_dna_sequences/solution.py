@@ -1,21 +1,15 @@
 class Solution:
-    def findRepeatedDnaSequences(self, s: str) -> List[str]:
-        mp = {"A": 1, "C": 2, "G": 3, "T": 4}
-        q = (1 << 31) - 1
-        h = (pow(4, 9)) % q
-        seen, res = set(), set()
-        t = 0
+    def findRepeatedDnaSequences(self, S: str) -> List[str]:
+        n = len(S)
+        if n <= 10: return []
         
-        for i, x  in enumerate(s):
-            if i >= 10:
-                t -= (mp[s[i - 10]] * h)
-            t = (4 * t + mp[x]) % q
-
-            if i >= 9 and t in seen:
-                res.add(s[i - 9: i + 1])
-            else:
-                seen.add(t)
+        mp = collections.defaultdict(int)
         
-        return list(res)
+        res = []
+        for i in range(n-9):
+            key = S[i:i+10]
+            mp[key] += 1
+            if mp[key] == 2:
+                res.append(key)
         
-        
+        return res
