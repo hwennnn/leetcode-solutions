@@ -4,20 +4,20 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def rotateRight(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
+    def rotateRight(self, head: ListNode, k: int) -> ListNode:
+        
         if not head or not head.next: return head
         
-        length = 1
+        l = 1
         curr = head
-        
         while curr.next:
-            length += 1
+            l += 1
             curr = curr.next
-        
-        k %= length
+            
+        k %= l
         curr.next = head
         
-        for _ in range(length - k):
+        for _ in range(l-k):
             curr = curr.next
         
         head = curr.next
