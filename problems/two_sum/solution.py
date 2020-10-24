@@ -1,10 +1,9 @@
 class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
-        dic = {}
+    def twoSum(self, nums: List[int], t: int) -> List[int]:
+        mp = collections.defaultdict(int)
         
-        for i,num in enumerate(nums):
-            if target-num in dic:
-                return [dic[target-num],i]
+        for i,v in enumerate(nums):
+            if t - v not in mp:
+                mp[v] = i
             else:
-                dic[num] = i
-        
+                return [mp[t-v], i]
