@@ -1,46 +1,36 @@
 class Solution:
-    def prisonAfterNDays(self, cells: List[int], days: int) -> List[int]:
-        
-        def g(cells):
-            masks = 0
-            
-            for cell, occupied in enumerate(cells):
-                if occupied:
-                    masks |= (1 << cell)
-            
-            return masks
-        
-        def transform(cells):
-            new_cells = [0] * 8
-            
-            for i in range(1, 7):
-                if cells[i - 1] == cells[i + 1]:
-                    new_cells[i] = 1
-            
-            return new_cells
-        
-        original = cells[:]
-        seen = set()
-        cycle = 0
+    def nextDay(self, cells):
+        tmp = [0] * len(cells)
+        for i in range(1,len(cells) - 1):
+            if (cells[i-1] == cells[i+1]):
+                tmp[i] = 1
+            else:
+                tmp[i] = 0
+
+        return tmp
+
+                        
+    def prisonAfterNDays(self, cells: List[int], N: int) -> List[int]:
+        if not cells or N <= 0: return cells
         hasCycle = False
+        cycle = 0
+        s = set()
         
-        for _ in range(days):
-            next_cells = transform(cells)
-            masks = g(next_cells)
-            
-            if masks in seen:
+        for i in range(N):
+            nxt = self.nextDay(cells)
+            if tuple(nxt) not in s:
+                s.add(tuple(nxt))
+                cycle += 1
+            else:
                 hasCycle = True
                 break
-            else:
-                seen.add(masks)
-                cycle += 1
             
-            cells = next_cells
+            cells = nxt
         
         if hasCycle:
-            count = days % cycle
-            
-            for _ in range(count):
-                cells = transform(cells)
-            
+            turns = N % cycle
+            for i in range(turns):
+                cells = self.nextDay(cells)
+        
+        
         return cells
