@@ -1,10 +1,13 @@
 class Solution:
     def canFormArray(self, arr: List[int], pieces: List[List[int]]) -> bool:
-        mp = {x[0]:x for x in pieces}
+        n1 = len(arr)
+        n2 = len(pieces)
         
-        res = []
+        tmp = []
+        for i in range(n1):
+            tmp.append(arr[i])
+
+            if tmp in pieces:
+                tmp = []
         
-        for num in arr:
-            res += mp.get(num, [])
-        
-        return arr == res
+        return len(tmp) == 0
