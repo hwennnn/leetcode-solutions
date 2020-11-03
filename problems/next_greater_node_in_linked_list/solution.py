@@ -4,23 +4,15 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def nextLargerNodes(self, head: Optional[ListNode]) -> List[int]:
-        A = []
+    def nextLargerNodes(self, head: ListNode) -> List[int]:
+        res, stack = [], []
         
         while head:
-            A.append(head.val)
-            head = head.next
-        
-        n = len(A)
-        res = [0] * n
-        
-        stack = []
-        
-        for i, x in enumerate(A):
-            while stack and x > A[stack[-1]]:
-                index = stack.pop()
-                res[index] = x
+            while stack and stack[-1][1] < head.val:
+                res[stack.pop()[0]] = head.val
             
-            stack.append(i)
+            stack.append([len(res), head.val])
+            res.append(0)
+            head = head.next
         
         return res
