@@ -1,16 +1,14 @@
 class Solution:
-    def maxPower(self, s: str) -> int:
-        n = len(s)
-        curr = s[0]
-        count = res = 1
+    def maxPower(self, S: str) -> int:
+        if not S: return 0
+        res = c = 1
         
-        for i in range(1, n):
-            if s[i] == curr:
-                count += 1
+        for i in range(1,len(S)):
+            if S[i] == S[i-1]:
+                c += 1
+                res = max(res, c)
             else:
-                count = 1
-                curr = s[i]
+                c = 1
             
-            res = max(res, count)
-        
         return res
+            
