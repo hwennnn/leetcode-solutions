@@ -1,8 +1,19 @@
 class Solution:
     def getNoZeroIntegers(self, n: int) -> List[int]:
         
-        a = 1
-        while '0' in f'{a}{n-a}':
-            a+=1
+        def findZeroes(n):
+            return str(n).count("0") > 0
+        
+        a, b = 1, n - 1
+        
+        while findZeroes(a) or findZeroes(b):
+            if findZeroes(a):
+                a += 1
+                b -= 1
+            if findZeroes(b):
+                a += 1
+                b -= 1
+        
+        return [a,b]
             
-        return [a,n-a]
+        
