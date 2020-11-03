@@ -1,24 +1,21 @@
 class Solution:
     def makeConnected(self, n: int, connections: List[List[int]]) -> int:
-        m = len(connections)
+        if len(connections) < n - 1: return - 1
         
-        if m < n - 1: return -1
+        s = [set() for _ in range(n)]
         
-        graph = collections.defaultdict(list)
-        visited = [False] * n
+        for c1,c2 in connections:
+            s[c1].add(c2)
+            s[c2].add(c1)
         
-        for x, y in connections:
-            graph[x].append(y)
-            graph[y].append(x)
+        seen = [0] * n
         
-        def go(node):
-            if visited[node]: return 0
+        def dfs(i):
+            if seen[i]: return 0
+            seen[i] = 1
             
-            visited[node] = True
-            
-            for nei in graph[node]:
-                go(nei)
+            for j in s[i]: dfs(j)
             
             return 1
         
-        return sum(go(node) for node in range(n)) - 1
+        return sum(dfs(i) for i in range(n)) - 1
