@@ -1,19 +1,18 @@
 class Solution:
     def smallestDivisor(self, nums: List[int], threshold: int) -> int:
-        n = len(nums)
         
-        left, right = 1, max(nums)
-        
-        def good(k):
-            count = 0
+        def good(divisor):
+            total = 0
+            for num in nums:
+                total += (num-1)//divisor + 1
             
-            for x in nums:
-                count += ceil(x / k)
+            return total <= threshold
             
-            return count <= threshold
+        left = 1
+        right = 10 ** 8
         
         while left < right:
-            mid = left + (right - left) // 2
+            mid = (left + right) // 2
             
             if good(mid):
                 right = mid
