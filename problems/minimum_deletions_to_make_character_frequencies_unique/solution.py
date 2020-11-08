@@ -1,16 +1,18 @@
 class Solution:
-    def minDeletions(self, s: str) -> int:
-        count = Counter(s)
+    def minDeletions(self, S: str) -> int:
+        c = Counter(S)
+        s = set()
         res = 0
-        seen = set()
         
-        for v in count.values():
-            while v > 0 and v in seen:
-                res += 1
-                v -= 1
+        for v in c.values():
+            t = v
             
-            if v > 0:
-                seen.add(v)
+            while t in s:
+                res += 1
+                t -= 1
+            
+            if t != 0:
+                s.add(t)
             
         return res
         
