@@ -11,11 +11,13 @@ class Solution:
         res = 0
         
         while pq and orders > 0:
-            top, count = heappop(pq)
+            top, count = pq[0]
             top = -top
+            heappop(pq)
             
             while pq and top == -pq[0][0]:
-                count += heappop(pq)[1]
+                count += pq[0][1]
+                heappop(pq)
             
             nextTop = 0
             if pq:
