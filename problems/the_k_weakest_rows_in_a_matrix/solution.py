@@ -1,12 +1,16 @@
-class Solution(object):
-    def kWeakestRows(self, mat, k):
-        """
-        :type mat: List[List[int]]
-        :type k: int
-        :rtype: List[int]
-        """
+class Solution:
+    def kWeakestRows(self, mat: List[List[int]], k: int) -> List[int]:
+        arr = [None] * len(mat)
         
-        temp = [[sum(mat[i]),i ]for i in range(len(mat))]
-        lst = sorted(temp)
-
-        return ([i[1] for i in lst[:k]])
+        for i,r in enumerate(mat):
+            arr[i] = (-sum(1 for x in r if x == 1), -i)
+        
+        arr.sort()
+        arr.reverse()
+        
+        res = []
+        
+        for i in range(k):
+            res.append(-arr[i][1])
+        
+        return res
