@@ -1,22 +1,16 @@
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
-        n = len(nums)
+        visited = set()
         res = []
-        
-        def go(curr, seen):
-            nonlocal res
-            
-            if len(curr) == n:
-                res.append(curr[:])
-                return
-            
-            for i, x in enumerate(nums):
-                if i in seen: continue
-                seen.add(i)
-                curr.append(x)
-                go(curr, seen)
-                seen.remove(i)
-                curr.pop()
-        
-        go([], set())
+        self.backtracking(res,visited,[],nums)
         return res
+    
+    def backtracking(self,res,visited,subset,nums):
+        if len(subset) == len(nums):
+            res.append(subset)
+        for i in range(len(nums)):
+            if i not in visited:
+                visited.add(i)
+                self.backtracking(res,visited,subset+[nums[i]],nums)
+                visited.remove(i)
+        
