@@ -2,21 +2,20 @@ class Solution:
     def minOperations(self, nums: List[int], x: int) -> int:
         n = len(nums)
         total = sum(nums)
-        
         if total == x: return n
+        target = total - x
         
         res = float('-inf')
-        target = total - x
-        mp = {0:-1}
-        curr = 0
+        s = 0
+        mp = collections.defaultdict(int)
+        mp[0] = -1
         
-        for i, x in enumerate(nums):
-            curr += x
+        for i,num in enumerate(nums):
+            s += num
             
-            if curr - target in mp:
-                res = max(res, i - mp[curr - target])
+            if s - target in mp:
+                res = max(res, i - mp[s-target])
             
-            if curr not in mp:
-                mp[curr] = i
+            if s not in mp: mp[s] = i
         
-        return -1 if res == float('-inf') else n - res
+        return n - res if res != float('-inf') else -1
