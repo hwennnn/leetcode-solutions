@@ -1,25 +1,23 @@
 class Solution:
     def minimumJumps(self, forbidden: List[int], a: int, b: int, x: int) -> int:
+        
+        visited = set()
         f = set(forbidden)
+        max_val = max([x]+forbidden) + a + b
+        deque = collections.deque([(0,0,0)])
         
-        queue = deque([(0, 0, False)])
-        maxVal = max([x] + forbidden) + a + b
-        visited = set([0])
-        
-        while queue:
-            curr, steps, isBackward = queue.popleft()
+        while deque:
+            now, count, isBackward = deque.popleft()
             
-            if curr == x:
-                return steps
+            if now == x: return count
             
-            forward = curr + a
-            if forward <= maxVal and forward not in f and (forward, False) not in visited:
-                visited.add((forward, False))
-                queue.append((forward, steps + 1, False))
+            if now + a not in f and now + a <= max_val and (now+a, False) not in visited:
+                visited.add((now+a, False))
+                deque.append((now+a, count+1, False))
             
-            backward = curr - b
-            if not isBackward and backward >= 0 and backward not in f and (backward, True) not in visited:
-                visited.add((backward, True))
-                queue.append((backward, steps + 1, True))
+            if now - b not in f and now - b >= 0 and not isBackward and (now-b, False) not in visited:
+                visited.add((now-b, True))
+                deque.append((now-b, count+1, True))
         
         return -1
+                
