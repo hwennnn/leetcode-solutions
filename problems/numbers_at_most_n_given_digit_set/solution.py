@@ -1,21 +1,11 @@
 class Solution:
-    def atMostNGivenDigitSet(self, digits: List[str], n: int) -> int:
-        nStr = str(n)
-        res = 0
-        digits = list(map(int, digits))
-        
-        for i in range(1, len(nStr)):
-            res += pow(len(digits), i)
-        
-        for i in range(len(nStr)):
-            hasSameNumber = False
-            
-            for digit in digits:
-                if digit < int(nStr[i]):
-                    res += pow(len(digits), len(nStr) - i - 1)
-                elif digit == int(nStr[i]):
-                    hasSameNumber = True
-            
-            if not hasSameNumber: return res
-        
-        return res + 1
+    def atMostNGivenDigitSet(self, D, N):
+        N = str(N)
+        n = len(N)
+        res = sum(len(D) ** i for i in range(1, n))
+        i = 0
+        while i < len(N):
+            res += sum(c < N[i] for c in D) * (len(D) ** (n - i - 1))
+            if N[i] not in D: break
+            i += 1
+        return res + (i == n)
