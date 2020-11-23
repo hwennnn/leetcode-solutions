@@ -5,21 +5,29 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def rob(self, root: Optional[TreeNode]) -> int:
+    def rob(self, root: TreeNode) -> int:
+        cache = {}
         
-        @cache
-        def rob(node):
+        def rob_this(node):
             if not node: return 0
             
-            rob_this = node.val + not_rob(node.left) + not_rob(node.right)
-            not_rob_this = not_rob(node)
+            if node in cache: return cache[node]
             
-            return max(rob_this, not_rob_this)
+            rob = node.val + not_rob_this(node.left) + not_rob_this(node.right)
+            
+            not_rob = 0 + rob_this(node.left) + rob_this(node.right)
+            
+            cache[node] = max(rob, not_rob)
+            
+            return cache[node]
+            
         
-        @cache
-        def not_rob(node):
+        def not_rob_this(node):
             if not node: return 0
             
-            return 0 + rob(node.left) + rob(node.right)
+            return 0 + rob_this(node.left) + rob_this(node.right)
         
-        return rob(root)
+        
+        return rob_this(root)
+            
+            
