@@ -1,15 +1,18 @@
 class Solution:
     def maxOperations(self, nums: List[int], k: int) -> int:
-        counter = Counter(nums)
+        
+        c = collections.Counter(nums)
         res = 0
-        keys = sorted(counter.keys())
         
-        for x in keys:
-            if x > k: break
+        for x in nums:
+            if c[x] > 0 and c[k-x] > 0:
+                c[x] -= 1
+                c[k-x] -= 1
+                res += 1
                 
-            target = k - x
-            
-            d = min(counter[target], counter[x])
-            res += d
+                if c[x] < 0:
+                    res -= 1
         
-        return res // 2
+        return res
+        
+        
