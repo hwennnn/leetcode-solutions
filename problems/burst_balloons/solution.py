@@ -1,14 +1,18 @@
 class Solution:
     def maxCoins(self, nums: List[int]) -> int:
+        
         nums = [1] + nums + [1]
-        n = len(nums)
-        dp = [[0] * n for _ in range(n)]
+        n = len(nums) - 1
+        mp = [[0 for i in range(n)] for j in range(n)]
         
-        for k in range(2, n):
-            for left in range(n - k):
-                right = left + k
-                
-                for i in range(left + 1, right):
-                    dp[left][right] = max(dp[left][right], nums[left] * nums[i] * nums[right] + dp[left][i] + dp[i][right])
+        for p in range(1,n):
+            for j in range(p, n):
+                i = j - p
+                mp[i][j] = max(
+                    mp[i][k] + mp[k+1][j] + \
+                      nums[i] * nums[k+1] * nums[j+1]
+                    
+                    for k in range(i,j)
+                )
         
-        return dp[0][n - 1]
+        return mp[0][n-1]
