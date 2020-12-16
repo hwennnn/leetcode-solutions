@@ -5,18 +5,9 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def isValidBST(self, root: Optional[TreeNode]) -> bool:
+    def isValidBST(self, root, lessThan = float('inf'), largerThan = float('-inf')) -> bool:
+        if not root: return True
         
-        def dfs(node, mmax, mmin):
-            if not (mmin < node.val < mmax):
-                return False
-            
-            if node.left and not dfs(node.left, node.val, mmin):
-                return False
-            
-            if node.right and not dfs(node.right, mmax, node.val):
-                return False
-            
-            return True
+        if root.val >= lessThan or root.val <= largerThan: return False
         
-        return dfs(root, inf, -inf)
+        return self.isValidBST(root.left, min(lessThan, root.val), largerThan) and self.isValidBST(root.right, lessThan, max(largerThan, root.val)) 
