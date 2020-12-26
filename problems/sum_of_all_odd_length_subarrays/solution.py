@@ -1,16 +1,13 @@
 class Solution:
     def sumOddLengthSubarrays(self, arr: List[int]) -> int:
         n = len(arr)
+        k = 3
         res = sum(arr)
         
-        odd = 3
-        
-        while odd <= n:
-            for i in range(n-odd+1):
-                res += sum(arr[i:i+odd])
+        while k <= n:
+            for i in range(n-k+1):
+                res += sum(arr[i:i+k])
             
-            odd += 2
+            k += 2
         
         return res
-            
-            
