@@ -1,41 +1,33 @@
 class Solution:
     def alertNames(self, keyName: List[str], keyTime: List[str]) -> List[str]:
+        res = set()
         
         def convertTime(time):
-            return int("".join(time.split(":")))
+            return int("".join(time.split(':')))
         
+        mp = collections.defaultdict(list)
         
-        dic = {}
-        
-        for name,time in zip(keyName,keyTime):
-            time = convertTime(time)
-
-            if name not in dic:
-                dic[name] = [time]
-            else:
-                dic[name].append(time)
-
-        res = []
-        
-        for name in dic:
-            timeList = sorted(dic[name])
-            tmp = []
+        for name,time in zip(keyName, keyTime):
+            mp[name].append(convertTime(time))
+            
+        for name in mp:
+            time = sorted(mp[name])
+            deq = collections.deque()
             c = 0
             
-            for time in timeList:
+            for t in time:
                 
-                while tmp and time - tmp[0] > 100:
-                    tmp.pop(0)
+                while deq and t - deq[0] > 100:
+                    deq.popleft()
                     if c > 0:
                         c -= 1
-                        
+                
                 c += 1
-                tmp.append(time)
+                deq.append(t)
                 
                 if c >= 3:
-                    res.append(name)
+                    res.add(name)
                     break
-
-        return sorted(res)
-                    
-            
+        
+        return sorted(list(res))
+                
