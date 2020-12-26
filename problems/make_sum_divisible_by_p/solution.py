@@ -1,17 +1,16 @@
 class Solution:
     def minSubarray(self, nums: List[int], p: int) -> int:
-        remainder = sum(nums) % p
+        need = sum(nums) % p
         
-        dp = {0:-1}
-        n = res = len(nums)
+        mp = {0:-1}
+        res = n = len(nums)
         c = 0
         
-        for i,v in enumerate(nums):
-            c = (c+v)%p
-            dp[c] = i
+        for i,x in enumerate(nums):
+            c = (c+x)%p
+            mp[c] = i
             
-            if (c-remainder)%p in dp:
-                res = min(res, i - dp[(c-remainder)%p])
+            if (c - need)%p in mp:
+                res = min(res, i - mp[(c - need) % p])
         
         return res if res != n else -1
-                
