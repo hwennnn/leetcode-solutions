@@ -7,13 +7,15 @@
 class Solution:
     def getAllElements(self, root1: TreeNode, root2: TreeNode) -> List[int]:
         res = []
-        def collect(root):
-            if root:
-                collect(root.left)
-                res.append(root.val)
-                collect(root.right)
-            
-        collect(root1)
-        collect(root2)
+        self.helperR(root1, res)
+        self.helperR(root2, res)
         
         return sorted(res)
+    
+    def helperR(self, root, res):
+        if not root: return
+        
+        res.append(root.val)
+        self.helperR(root.left, res)
+        self.helperR(root.right, res)
+        
