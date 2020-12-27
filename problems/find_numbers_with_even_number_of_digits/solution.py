@@ -1,6 +1,8 @@
 class Solution:
     def findNumbers(self, nums: List[int]) -> int:
+        res = 0
         
-        lst = [len(str(i)) for i in nums]
-
-        return len([i for i in lst if i%2==0])
+        for num in map(str,nums):
+            res += (len(num) % 2 == 0)
+        
+        return res
