@@ -1,12 +1,10 @@
 class Solution:
     def maximum69Number (self, num: int) -> int:
+        num = list(str(num))
         
-
-        lst = [i for i in str(num)]
-
-        for i in range(len(lst)):
-            if lst[i] == "6":
-                lst[i] = "9"
-                return (int("".join(lst)))
-            
-        return (int("".join(lst)))
+        for i in range(len(num)):
+            if num[i] == "6":
+                num[i] = "9"
+                break     
+        
+        return int("".join(num))
