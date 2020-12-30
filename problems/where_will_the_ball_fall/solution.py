@@ -1,21 +1,26 @@
 class Solution:
     def findBall(self, grid: List[List[int]]) -> List[int]:
+        res = []
         rows, cols = len(grid), len(grid[0])
         
-        def go(row, col):
-            if row == rows: return col
+        for c in range(cols):
+            res.append(self.helper(grid, 0, c))
+        
+        return res
+        
+    def helper(self, grid, r, c):
+        if r == len(grid): return c
+        
+        if r >= 0 and r < len(grid) and c >= 0 and c < len(grid[0]):
             
-            if 0 <= row < rows and 0 <= col < cols:
-                if grid[row][col] == 1 and col == cols - 1: return -1
-                
-                elif grid[row][col] == 1 and col + 1 < cols and grid[row][col + 1] == -1: return -1
-                
-                elif grid[row][col] == -1 and col - 1 < 0: return -1
-                
-                elif grid[row][col] == -1 and col - 1 >= 0 and grid[row][col - 1] == 1: return -1
+            if c == 0 and grid[r][c] == -1: return -1
             
-                return go(row + 1, col + grid[row][col])
+            elif c == len(grid[0]) - 1 and grid[r][c] == 1: return -1
             
-            return -1
-
-        return [go(0, j) for j in range(cols)]
+            elif c < len(grid[0]) - 1 and grid[r][c] == 1 and grid[r][c+1] == -1: return -1
+            
+            elif c > 0 and grid[r][c-1] == 1 and grid[r][c] == -1: return -1
+        
+            return self.helper(grid, r+1, c + grid[r][c])
+        
+        return -1
