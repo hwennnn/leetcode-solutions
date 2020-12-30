@@ -1,17 +1,16 @@
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
+        def good(x):
+            return nums[x] >= target
+    
+        left, right = 0, len(nums)
         
-        n = len(nums)
-        low, high = 0, n-1
-        
-        while low<=high:
-            mid = (low+high)//2
+        while left < right:
+            mid = (left+right)//2
             
-            if nums[mid] == target:
-                return mid
-            elif nums[mid] > target:
-                high = mid - 1
+            if good(mid):
+                right = mid
             else:
-                low = mid + 1
-
-        return low
+                left = mid + 1
+        
+        return left
