@@ -1,11 +1,8 @@
 class Solution:
     def findSpecialInteger(self, arr: List[int]) -> int:
+        n = len(arr)
+        m = len(arr) // 4
         
-        temp = collections.Counter(arr)
-        
-        val = max(temp.values())
-        
-        for i in temp:
-            if temp[i] == val:
-        
-                return i
+        for i in range(n-m+1):
+            if arr[i] == arr[i+m]:
+                return arr[i]
