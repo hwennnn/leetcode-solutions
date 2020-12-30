@@ -2,24 +2,23 @@ class Solution:
     def splitArray(self, nums: List[int], m: int) -> int:
         
         def good(x):
-            s = 0
-            curr = 1
+            total = 0
+            a = 1
             
             for num in nums:
-                s += num
+                total += num
+                if total > x:
+                    total = num
+                    a += 1
                 
-                if s > x:
-                    s = num
-                    curr += 1
-                
-                if curr > m: return False
+                if a > m: return False
             
             return True
         
-        left, right = max(nums), (10 ** 6) * 50
+        left, right = max(nums), 10**8
         
         while left < right:
-            mid = left + (right - left) // 2
+            mid = (left+right) // 2
             
             if good(mid):
                 right = mid
