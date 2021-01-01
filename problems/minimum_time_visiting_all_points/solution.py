@@ -1,10 +1,7 @@
 class Solution:
     def minTimeToVisitAllPoints(self, points: List[List[int]]) -> int:
         res = 0
-        x1, y1 = points.pop()
-
-        while points:
-            x2, y2 = points.pop()
-            res += max(abs(y2 - y1), abs(x2-x1))
-            x1, y1 = x2, y2
+        for (prevX,prevY), (currX,currY) in zip(points, points[1:]):
+            res += max(abs(prevX-currX), abs(prevY-currY))
+        
         return res
