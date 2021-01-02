@@ -8,11 +8,10 @@
 class Solution:
     def getTargetCopy(self, original: TreeNode, cloned: TreeNode, target: TreeNode) -> TreeNode:
         
-        def go(a, b):
-            if not a: return None
+        def dfs(ori,copy):
+            if not ori: return None
+            if ori == target: return copy
             
-            if a is target: return b
-            
-            return go(a.left, b.left) or go(a.right, b.right)
+            return dfs(ori.left, copy.left) or dfs(ori.right, copy.right)
         
-        return go(original, cloned)
+        return dfs(original, cloned)
