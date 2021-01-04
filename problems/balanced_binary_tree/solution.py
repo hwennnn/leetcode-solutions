@@ -5,21 +5,16 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def isBalanced(self, root: Optional[TreeNode]) -> bool:
-        res = True
+    def isBalanced(self, root: TreeNode) -> bool:
         
-        def go(node):
-            nonlocal res
+        def dfs(root):
+            if not root: return 0
             
-            if not node: return 0
+            left = dfs(root.left)
+            right = dfs(root.right)
             
-            l, r = go(node.left), go(node.right)
+            if left == -1 or right == -1 or abs(left - right) > 1: return -1
             
-            if abs(l - r) > 1:
-                res = False
-            
-            return 1 + max(l, r)
+            return 1 + max(left, right)
         
-        go(root)
-        
-        return res
+        return dfs(root) != -1
