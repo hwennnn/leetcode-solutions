@@ -1,24 +1,15 @@
 class Solution:
     def findKthPositive(self, arr: List[int], k: int) -> int:
-        
         start = 1
         
-        while (k > 0):
-            if start not in arr:
-                k -= 1
-                if (k == 0):
-                    return start
-            
+        s = set(arr)
+        
+        while k > 0 and start <= 1000:
+            if start not in s: k -= 1
+                
             start += 1
-            
-        return start
         
+        if k > 0: start += k
         
-        
-        
-        
-        
-            
-        
-        
+        return start - 1
         
