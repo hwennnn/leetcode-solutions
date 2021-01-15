@@ -2,16 +2,18 @@ class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         res = []
         
-        def backtrack(opened, closed, curr):
-            if opened == closed == n:
-                res.append(curr)
+        def backtrack(s, left, right):
+            if len(s) == n*2:
+                res.append(s)
                 return
             
-            if closed < opened:
-                backtrack(opened, closed + 1, curr + ")")
+            if left < n:
+                backtrack(s+"(", left+1, right)
+                
+            if right < left:
+                backtrack(s+")", left, right+1)
             
-            if opened < n:
-                backtrack(opened + 1, closed, curr + "(")
-            
-        backtrack(0, 0, "")
+
+        backtrack("", 0, 0)
+        
         return res
