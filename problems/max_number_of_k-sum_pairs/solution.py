@@ -1,18 +1,14 @@
 class Solution:
     def maxOperations(self, nums: List[int], k: int) -> int:
-        
-        c = collections.Counter(nums)
+        mp = Counter(nums)
         res = 0
         
-        for x in nums:
-            if c[x] > 0 and c[k-x] > 0:
-                c[x] -= 1
-                c[k-x] -= 1
-                res += 1
-                
-                if c[x] < 0:
-                    res -= 1
-        
+        for key in mp:
+            if key * 2 == k:
+                res += mp[key] // 2
+            else:
+                t = k - key
+                if t < key:
+                    res += min(mp[t], mp[key])
+
         return res
-        
-        
