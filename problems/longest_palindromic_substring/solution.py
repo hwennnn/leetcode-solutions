@@ -1,14 +1,20 @@
 class Solution:
     def longestPalindrome(self, s: str) -> str:
-        def helper(i,j):
+        if len(s) == 1: return s
+        
+        res = ""
+        
+        def palindrome(i,j):
             while i >= 0 and j < len(s) and s[i] == s[j]:
                 i -= 1
                 j += 1
             
-            return s[i+1:j]
+            i += 1
+            j -= 1
+
+            return s[i:j+1]
         
-        res = ""
-        for i in range(len(s)):
-            res = max(res,helper(i,i), helper(i,i+1), key = len)
+        for i in range(len(s)-1):
+            res = max(res, palindrome(i,i), palindrome(i, i+1), key = len)
         
         return res
