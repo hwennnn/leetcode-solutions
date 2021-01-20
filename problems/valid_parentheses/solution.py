@@ -1,16 +1,15 @@
 class Solution:
-    def isValid(self, S: str) -> bool:
-        
-        d = {")":"(", "}":"{", "]":"["}
-        
+    def isValid(self, s: str) -> bool:
+        mp = {")":"(", "}":"{", "]":"["}
         stack = []
         
-        for s in S:
-            
-            if stack and s in d and stack[-1] == d[s]:
-                stack.pop()
+        for c in s:
+            if c in mp:
+                if stack and stack[-1] == mp[c]:
+                    stack.pop()
+                else:
+                    return False
             else:
-                stack.append(s)
+                stack.append(c)
         
         return len(stack) == 0
-        
