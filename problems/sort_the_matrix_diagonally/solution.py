@@ -1,14 +1,17 @@
 class Solution:
-    def diagonalSort(self, A: List[List[int]]) -> List[List[int]]:
-        n, m = len(A), len(A[0])
-        d = collections.defaultdict(list)
-        for i in range(n):
-            for j in range(m):
-                d[i - j].append(A[i][j])
-        print(d)
-        for k in d:
-            d[k].sort(reverse=1)
-        for i in range(n):
-            for j in range(m):
-                A[i][j] = d[i - j].pop()
-        return A
+    def diagonalSort(self, mat: List[List[int]]) -> List[List[int]]:
+        rows, cols = len(mat), len(mat[0])
+        mp = collections.defaultdict(list)
+        
+        for i in range(rows):
+            for j in range(cols):
+                mp[j-i].append(mat[i][j])
+
+        for key in mp:
+            mp[key] = sorted(mp[key], reverse = 1)
+
+        for i in range(rows):
+            for j in range(cols):
+                mat[i][j] = mp[j-i].pop()
+        
+        return mat
