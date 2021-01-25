@@ -1,10 +1,12 @@
 class Solution:
     def kLengthApart(self, nums: List[int], k: int) -> bool:
-        pos = -1
+        stack = []
         
-        for i in range(len(nums)):
-            if nums[i] == 1:
-                if pos != -1 and i - pos - 1 < k:
+        for i,x in enumerate(nums):
+            if x == 1:
+                if stack and i - stack[-1] <= k:
                     return False
-                pos = i
+                
+                stack.append(i)
+        
         return True
