@@ -5,29 +5,29 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def verticalTraversal(self, root: Optional[TreeNode]) -> List[List[int]]:
-        cols = defaultdict(list)
-
-        def dfs(node, R, C):
-            if not node: return
-            
-            cols[C].append((C, R, node.val))
-            
-            dfs(node.left, R + 1, C - 1)
-            dfs(node.right, R + 1, C + 1)
+    def verticalTraversal(self, root: TreeNode) -> List[List[int]]:
+        mp = collections.defaultdict(list)
         
-        dfs(root, 0, 0)
+        deq = collections.deque([(root, (0,0))])
         
-        keys = sorted(cols.keys())
-        res = []
-        
-        for key in keys:
-            cols[key].sort(key = lambda x : (x[0], x[1], x[2]))
-            curr = []
+        while deq:
+            l = len(deq)
             
-            for _, _, val in cols[key]:
-                curr.append(val)
+            while l > 0:
+                node, (x, y) = deq.popleft()
+                mp[x].append((y, node.val))
                 
-            res.append(curr)
+                if node.left:
+                    deq.append((node.left, (x-1, y-1)))
+                
+                if node.right:
+                    deq.append((node.right, (x+1, y-1)))
+                    
+                l -= 1
+        
+        res = []
+        for k in sorted(mp):
+            values = [v[1] for v in sorted(mp[k], key = lambda x:(-x[0], x[1]))]
+            res.append(values)
         
         return res
