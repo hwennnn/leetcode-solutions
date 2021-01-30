@@ -1,19 +1,15 @@
 class Solution:
-    def minimumDeviation(self, nums: List[int]) -> int:
-        heap = []
-        
-        for x in nums:
-            heapq.heappush(heap, -x if x % 2 == 0 else -x * 2)
-        
-        mmin = -max(heap)
+    def minimumDeviation(self, A):
+        pq = []
+        for a in A:
+            heapq.heappush(pq, -a * 2 if a % 2 else -a)
         res = float('inf')
-        
-        while len(heap) == len(nums):
-            x = -heapq.heappop(heap)
-            res = min(res, x - mmin)
-            
-            if x % 2 == 0:
-                mmin = min(mmin, x // 2)
-                heapq.heappush(heap, -x // 2)
-        
+        mi = -max(pq)
+        while len(pq) == len(A):
+            a = -heapq.heappop(pq)
+            res = min(res, a - mi)
+            if a % 2 == 0:
+                mi = min(mi, a // 2)
+                heapq.heappush(pq, -a // 2)
         return res
+        
