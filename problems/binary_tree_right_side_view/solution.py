@@ -5,25 +5,27 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
+    def rightSideView(self, root: TreeNode) -> List[int]:
         if not root: return []
+        
+        queue = collections.deque([root])
         
         res = []
         
-        queue = deque([root])
-        
         while queue:
-            n = len(queue)
-            count = 0
+            l = len(queue)
             
-            for i in range(n):
+            while l > 0:
                 node = queue.popleft()
                 
                 for child in (node.left, node.right):
                     if child:
                         queue.append(child)
-                    
-                if i == n - 1:
+                
+                l -= 1
+                
+                if l == 0:
                     res.append(node.val)
         
         return res
+        
