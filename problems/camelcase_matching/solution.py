@@ -1,20 +1,40 @@
+class TrieNode:
+    def __init__(self):
+        self.child = collections.defaultdict(TrieNode)
+        self.is_word = False
+
+class Trie:
+    def __init__(self):
+        self.root = TrieNode()
+
+    def insert(self, word: str) -> None:
+        cur = self.root
+        for char in word:
+            cur = cur.child[char]
+        cur.is_word = True
+
 class Solution:
     def camelMatch(self, queries: List[str], pattern: str) -> List[bool]:
-        m, n = len(queries), len(pattern)
-        res = [False] * m
+        def find(node, p_i, pattern, cur_word, table):
+            if p_i >= len(pattern):
+                if node.is_word:
+                    key = "".join(cur_word)
+                    table[key] = True
+                for k in node.child:
+                    if k.islower():
+                        find(node.child[k], p_i, pattern, cur_word+[k], table)
+            else:
+                for k in node.child:
+                    if k == pattern[p_i]:
+                        find(node.child[k], p_i+1, pattern, cur_word+[k], table)
+                    elif k.islower():
+                        find(node.child[k], p_i, pattern, cur_word+[k], table)
         
-        for i, words in enumerate(queries):
-            index = 0
-            valid = True
-            
-            for word in words:
-                if ord("A") <= ord(word) <= ord("Z") and (index == n or word != pattern[index]):
-                    valid = False
-                    break
-                    
-                if index < n and word == pattern[index]:
-                    index += 1
-            
-            res[i] = valid and index == n
+        trie = Trie()
+        for q in queries:
+            trie.insert(q)
         
-        return res
+        table = collections.defaultdict(lambda: False)
+        find(trie.root, 0, pattern, [], table)
+
+        return [table[q] for q in queries]
