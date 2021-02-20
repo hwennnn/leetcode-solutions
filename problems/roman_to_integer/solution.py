@@ -1,13 +1,16 @@
 class Solution:
-    def romanToInt(self, s: str) -> int:
-        _dict = {'I':1,'V':5,'X':10,'L':50,'C':100,'D':500,'M':1000}
+    def romanToInt(self, s: str):
+        
+        mp = {'I':1,'V':5,'X':10,'L':50,'C':100,'D':500,'M':1000}
         prev = 0
-        sum = 0
+        total = 0
+        
         for i in s[::-1]:
-            curr = _dict[i]
+            curr = mp[i]
             if prev > curr:
-                sum -= curr
+                total -= curr
             else:
-                sum += curr
+                total += curr
             prev = curr
-        return sum
+            
+        return total
