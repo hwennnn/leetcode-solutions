@@ -1,9 +1,9 @@
 class Solution:
-    def brokenCalc(self, startValue: int, target: int) -> int:
-        if startValue == target: return 0
-        if startValue > target: return startValue - target
+    def brokenCalc(self, X: int, Y: int):
+        res = 0
         
-        if target % 2 == 0:
-            return self.brokenCalc(startValue, target // 2) + 1
-        else:
-            return self.brokenCalc(startValue, target + 1) + 1
+        while Y > X:
+            Y = Y // 2 if Y & 1 == 0 else Y + 1
+            res += 1
+                
+        return res + X - Y
