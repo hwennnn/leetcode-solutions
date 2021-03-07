@@ -1,16 +1,30 @@
 class MyHashMap:
 
     def __init__(self):
-        self.mp = [-1] * (10 ** 6 + 1)
+        """
+        Initialize your data structure here.
+        """
+        self.arr = [-1] * 10000001
 
     def put(self, key: int, value: int) -> None:
-        self.mp[key] = value
+        """
+        value will always be non-negative.
+        """
+        self.arr[key] = value
+        
 
     def get(self, key: int) -> int:
-        return self.mp[key]
+        """
+        Returns the value to which the specified key is mapped, or -1 if this map contains no mapping for the key
+        """
+        return self.arr[key]
+        
 
     def remove(self, key: int) -> None:
-        self.mp[key] = -1
+        """
+        Removes the mapping of the specified value key if this map contains a mapping for the key
+        """
+        self.arr[key] = -1
 
 
 # Your MyHashMap object will be instantiated and called as such:
