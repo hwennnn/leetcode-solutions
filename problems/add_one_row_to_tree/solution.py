@@ -5,41 +5,16 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def addOneRow(self, root: Optional[TreeNode], val: int, depth: int) -> Optional[TreeNode]:
-        if depth == 1:
-            newRoot = TreeNode(val)
-            newRoot.left = root
-            
-            return newRoot
+    def addOneRow(self, root, v, d):
+
+        if not root or d <= 0 : return None
         
-        d = 1
-        dq = deque([root])
-        
-        while dq:
-            N = len(dq)
-            
-            for _ in range(N):
-                node = dq.popleft()
-                
-                if d + 1 == depth:
-                    oLeft = node.left
-                    oRight = node.right
-                    newLeftNode = TreeNode(val)
-                    newLeftNode.left = oLeft
-                    
-                    newRightNode = TreeNode(val)
-                    newRightNode.right = oRight
-                    
-                    node.left = newLeftNode
-                    node.right = newRightNode
-                    
-                else:
-                    for child in filter(None, (node.left, node.right)):
-                        dq.append(child)
-            
-            if d + 1 == depth:
-                break
-                
-            d += 1
-        
+        if d == 1:
+            return TreeNode(v, root, None)
+        if d == 2:
+            root.left = TreeNode(v, root.left, None)
+            root.right = TreeNode(v, None, root.right)
+        else:
+            root.left == self.addOneRow(root.left, v, d - 1)
+            root.right == self.addOneRow(root.right, v, d - 1)
         return root
