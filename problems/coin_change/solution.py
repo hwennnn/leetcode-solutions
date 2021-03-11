@@ -1,11 +1,15 @@
 class Solution:
-    def coinChange(self, coins: List[int], amount: int) -> int:
-        dp = [float('inf')] * (amount + 1)
-        dp[0] = 0
+    def coinChange(self, coins, amount):
+        level = seen = {0}
+        number = 0
         
-        for x in range(1, amount + 1):
-            for coin in coins:
-                if x >= coin:
-                    dp[x] = min(dp[x], dp[x - coin] + 1)
+        while level:
+            if amount in level:
+                return number
+            
+            level = {a+c for a in level for c in coins if a+c <= amount} - seen
+            seen |= level
+            number += 1
+            
+        return -1
         
-        return -1 if dp[amount] == float('inf') else dp[amount]
