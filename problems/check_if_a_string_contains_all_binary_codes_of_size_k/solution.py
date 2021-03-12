@@ -1,20 +1,9 @@
 class Solution:
     def hasAllCodes(self, s: str, k: int) -> bool:
         n = len(s)
-        seen = [False] * (1 << k)
-        mask = 0
+        _set = set()
         
-        for i, x in enumerate(s):
-            if i < k:
-                if x == "1":
-                    mask |= (1 << i)
-            else:
-                mask >>= 1
-                if x == "1":
-                    mask |= (1 << (k - 1))
-            
-            if i >= k - 1:
-                seen[mask] = True
+        for i in range(n-k+1):
+            _set.add(s[i:i+k])
         
-        return all(seen[mask] for mask in range(1 << k))
-                
+        return len(_set) == 1 << k
