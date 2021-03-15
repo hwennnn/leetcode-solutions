@@ -1,16 +1,11 @@
 class Codec:
 
-    def encode(self, longUrl: str) -> str:
-        """Encodes a URL to a shortened URL.
-        """
-        return longUrl
-        
+    def __init__(self):
+        self.urls = []
 
-    def decode(self, shortUrl: str) -> str:
-        """Decodes a shortened URL to its original URL.
-        """
-        return shortUrl
+    def encode(self, longUrl):
+        self.urls.append(longUrl)
+        return 'http://tinyurl.com/' + str(len(self.urls) - 1)
 
-# Your Codec object will be instantiated and called as such:
-# codec = Codec()
-# codec.decode(codec.encode(url))
+    def decode(self, shortUrl):
+        return self.urls[int(shortUrl.split('/')[-1])]
