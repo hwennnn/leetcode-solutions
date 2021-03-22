@@ -1,54 +1,34 @@
 class Solution:
     def spellchecker(self, wordlist: List[str], queries: List[str]) -> List[str]:
-        wordList = set(wordlist)
-        words = {}
-        shuffled = {}
-        done_shuffled = set()
+        s1 = set(wordlist)
+        s2 = set()
+        mp = {}
+        
+        def mapped(word):
+            return "".join(['_' if w in "aeiouAEIOU" else w.lower() for w in word])
+        
+        for i, w in enumerate(wordlist):
+            l = "".join([c.lower() for c in w])
+            s2.add(l)
+            
+            if l not in mp:
+                mp[l] = i
+                
+            m = mapped(w)
+            if m not in mp:
+                mp[m] = i
+
         res = []
-        
-        
-        for word in wordlist:
-            lower = word.lower()
-            
-            if lower not in words:
-                words[lower] = word
-            
-            if lower in done_shuffled: continue
-                
-            # word, current processed index
-            queue = deque([(word.lower(), 0)])
-            
-            while queue:
-                currWord, index = queue.popleft()
-                
-                if index == len(word): continue
-                
-                if currWord[index] in "aeiou":
-                    for vowel in "aeiou":
-                        newWord = currWord[:index] + vowel + currWord[index + 1:]
-                        if newWord not in shuffled:
-                            shuffled[newWord] = word
-                        queue.append((newWord, index + 1))
-                else:
-                    queue.append((currWord, index + 1))
-            
-            done_shuffled.add(word)
-            
-        for word in queries:
-            if word in wordList:
-                res.append(word)
-                continue
-            
-            lower = word.lower()
-            
-            if lower in words:
-                res.append(words[lower])
-                continue
-            
-            if lower in shuffled:
-                res.append(shuffled[lower])
-                continue
-            
-            res.append("")
+        for q in queries:
+            l = "".join([c.lower() for c in q])
+            h = mapped(q)
+            if q in s1:
+                res.append(q)
+            elif l in s2:
+                res.append(wordlist[mp[l]])
+            elif h in mp:
+                res.append(wordlist[mp[h]])
+            else:
+                res.append("")
         
         return res
