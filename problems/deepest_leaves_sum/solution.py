@@ -6,20 +6,25 @@
 #         self.right = right
 class Solution:
     def deepestLeavesSum(self, root: TreeNode) -> int:
-        deq = collections.deque([root])
-        res = 0
         
-        while deq:
-            l = len(deq)
-            res = 0
+        def depth(node):
+            if not node: return 0
             
-            while l:
-                node = deq.popleft()
-                res += node.val
-                
-                for n in (node.left, node.right):
-                    if n: deq.append(n)
-                l -= 1
-            
+            return 1 + max(depth(node.left), depth(node.right))
+        
+        d = depth(root)
+        res = 0
+        q = collections.deque([(root, 1)])
+        
+        while q:
+            node, depth = q.popleft()
 
+            if depth == d: res += node.val
+                
+            for leaf in (node.left, node.right):
+                if leaf:
+                    q.append((leaf, depth + 1))
+        
         return res
+                
+        
