@@ -1,11 +1,8 @@
 class Solution:
-    def __init__(self):
-        self.dic = {0:0,1:1}
-    def fib(self, N: int) -> int:
+    @cache
+    def fib(self, n: int) -> int:
+        if n == 0: return 0
         
-        if N in self.dic: return self.dic[N]
+        if n == 1: return 1
         
-        val = self.fib(N-1) + self.fib(N-2)
-        self.dic[N] = val
-        
-        return val
+        return self.fib(n-1) + self.fib(n-2)
