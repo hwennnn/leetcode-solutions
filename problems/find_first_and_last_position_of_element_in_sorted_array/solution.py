@@ -1,28 +1,23 @@
 class Solution:
-    
-    def bs(self,nums,target):
-        n = len(nums)
-        low, high = 0, n-1
-        first_pos = n
-        while low <= high:
-            mid = (low+high) // 2
-            
-            if nums[mid] >= target:
-                first_pos = mid
-                high = mid - 1
-                
-            else:
-                low = mid + 1
-    
-        return first_pos
-    
     def searchRange(self, nums: List[int], target: int) -> List[int]:
+        n = len(nums)
         
-        first = self.bs(nums,target)
-        last = self.bs(nums,target+1)-1
+        def search(x):
+            left, right = 0, n
+            
+            while left < right:
+                mid = (left + right) // 2
+                
+                if nums[mid] >= x:
+                    right = mid
+                else:
+                    left = mid + 1
+            
+            return left
         
-        if first <= last:
-            return [first,last]
+        first, last = search(target), search(target + 1) - 1
         
-        else:
-            return [-1,-1]
+        if first >= n or nums[first] != target: 
+            return [-1, -1]
+        
+        return [first, last]
