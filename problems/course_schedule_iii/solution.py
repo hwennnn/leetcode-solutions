@@ -4,10 +4,10 @@ class Solution:
         pq = []
         curr = 0
         
-        for t, l in A:
+        for i, (t,l) in enumerate(A):
             curr += t
-            heappush(pq, -t)
+            heapq.heappush(pq, -t)
             if curr > l:
-                curr += heappop(pq)
+                curr += heapq.heappop(pq)
             
         return len(pq)
