@@ -1,12 +1,13 @@
 class Solution:
     def jump(self, nums: List[int]) -> int:
-        jumps = currStep = currFarthest = 0
+        if len(nums) == 1: return 0
         
-        for i,x in enumerate(nums[:-1]):
-            currFarthest = max(currFarthest, i + x)
-            
-            if i == currStep:
-                jumps += 1
-                currStep = currFarthest
+        left, right = 0, nums[0]
+        res = 1
         
-        return jumps
+        while right < len(nums) - 1:
+            res += 1
+            nxt = max(i + nums[i] for i in range(left, right + 1))
+            left, right = right, nxt
+        
+        return res
