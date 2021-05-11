@@ -1,17 +1,16 @@
 class Solution:
-    def maxScore(self, arr: List[int], k: int) -> int:
+    def maxScore(self, A: List[int], k: int) -> int:
+        n = len(A)
+        total = sum(A)
         
-        prefix, suffix = [0], [0]
+        size = n - k
         
-        for v in arr:
-            prefix.append(prefix[-1] + v)
+        prefix = [0]
+        for x in A:
+            prefix.append(prefix[-1] + x)
         
-        for v in arr[::-1]:
-            suffix.append(suffix[-1] + v)
-            
-        res = float("-inf")
+        res = float('inf')
+        for i in range(n - size + 1):
+            res = min(res, prefix[i + size] - prefix[i])
         
-        for i in range(k+1):
-            res = max(res, prefix[i] + suffix[k-i])
-        
-        return res
+        return total - res
