@@ -1,15 +1,11 @@
 class Solution:
-    def findDuplicate(self, paths: List[str]) -> List[List[str]]:
-        contents = defaultdict(list)
+    def findDuplicate(self, paths):
+        groups = collections.defaultdict(list)
         
         for path in paths:
-            firstSpace = path.index(" ")
-            directory, files = path[:firstSpace], path[firstSpace:].strip().split(" ")
-            
+            directory, *files = path.split()
             for file in files:
-                fileName, content = file.split("(")
-                content = content[:-1]
+                name, content = file.split('(')
+                groups[content].append(directory + '/' + name)
                 
-                contents[content].append(directory + "/" + fileName)
-    
-        return [content for content in contents.values() if len(content) > 1]
+        return [g for g in groups.values() if len(g) > 1]
