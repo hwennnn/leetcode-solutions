@@ -1,11 +1,13 @@
 class Solution:
     def minMoves2(self, nums: List[int]) -> int:
-        n = len(nums)
         nums.sort()
-        mid = nums[n // 2]
-        res = 0
+        n = len(nums)
+        res, i, j = 0, 0, n - 1
         
-        for x in nums:
-            res += abs(mid - x)
+        while i < j:
+            res += nums[j] - nums[i]
+            i += 1
+            j -= 1
         
         return res
+        
