@@ -1,23 +1,25 @@
 class Solution:
     def findAndReplacePattern(self, words: List[str], pattern: str) -> List[str]:
         
-        def h(word):
-            s = {}
-            res = []
+        def construct(word):
+            ptr = 0
+            mp = {}
+            s = ""
             
-            for x in word:
-                if x not in s:
-                    s[x] = len(s)
+            for w in word:
+                if w not in mp:
+                    mp[w] = ptr
+                    ptr += 1
+                
+                s += str(mp[w])     
                     
-                res.append(s[x])
-            
-            return "".join(map(str, res))
+            return s
         
-        target = h(pattern)
         res = []
-        
+        p = construct(pattern)
+
         for word in words:
-            if h(word) == target:
+            if construct(word) == p:
                 res.append(word)
         
         return res
