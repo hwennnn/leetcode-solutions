@@ -1,16 +1,15 @@
 class Solution:
     def relativeSortArray(self, arr1: List[int], arr2: List[int]) -> List[int]:
+        mp = collections.Counter(arr1) 
+        s = set(arr2)
+        res = []
         
-        diff = [i for i in arr1 if i not in arr2]
-        diff.sort()
+        for num in arr2:
+            res += [num] * mp[num]
+        
+        leftover = []
+        for num in arr1:
+            if num not in s:
+                leftover.append(num)
 
-        dic = collections.Counter(arr1)
-
-        temp = []
-
-        for i in arr2:
-            if i not in diff:
-                for x in range(dic[i]):
-                    temp.append(i)
-                
-        return temp + diff
+        return res + sorted(leftover)
