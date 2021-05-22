@@ -1,37 +1,28 @@
 class Solution:
-    def solveNQueens(self, n: int) -> List[List[str]]:
-        board = [["."] * n for _ in range(n)]
-        cols, diag1, diag2 = set(), set(), set()
-        res = []
+    def solveNQueens(self, n):
         
-        def place(row, col):
-            board[row][col] = "Q"
-            cols.add(col)
-            diag1.add(row - col)
-            diag2.add(row + col)
-        
-        def discard(row, col):
-            board[row][col] = "."
-            cols.remove(col)
-            diag1.remove(row - col)
-            diag2.remove(row + col)
-        
-        def ok(row, col):
-            return col not in cols and (row - col) not in diag1 and (row + col) not in diag2
-        
-        def go(row):
-            if row == n:
-                nonlocal res
-                
-                res.append(["".join(b) for b in board])
+        def dfs(r):
+            if r == n:
+                res.append([''.join(row) for row in b])
                 return
-            
-            for col in range(n):
-                if ok(row, col):
-                    place(row, col)
-                    go(row + 1)
-                    discard(row, col)
+            for c in range(n):
+                if isValid(r, c):
+                    b[r][c] = 'Q'
+                    dfs(r + 1)      # fill row by row
+                    b[r][c] = '.'
         
-        go(0)
+        def isValid(r, c):
+            for i in range(r):
+                for j in range(n):
+                    if b[i][j] == 'Q' and (c == j or        # same column
+                                           i+j == r+c or    # 45 degree line
+                                           i-j == r-c):     # 135 degree line
+                        return False
+            return True
+                        
+        
+        b = [['.'] * n for _ in range(n)]
+        res = []
+        dfs(0)      # start from row 0
         
         return res
