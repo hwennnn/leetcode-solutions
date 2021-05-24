@@ -1,4 +1,13 @@
 class Solution:
-    def toLowerCase(self, str: str) -> str:
+    def toLowerCase(self, s: str) -> str:
+        res = ''
         
-        return str.lower()
+        for c in s:
+            if ord('A') <= ord(c) <= ord('Z'):
+                v = (ord(c) - ord('A'))
+                res += chr(ord('a') + v)
+            else:
+                res += c
+
+        
+        return res
