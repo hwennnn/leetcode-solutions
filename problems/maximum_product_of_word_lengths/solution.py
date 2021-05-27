@@ -1,23 +1,14 @@
 class Solution:
     def maxProduct(self, words: List[str]) -> int:
+        n = len(words)
+        mp = collections.defaultdict(int)
         
-        def getMask(word):
+        for word in words:
             mask = 0
             
-            for x in word:
-                mask |= (1 << (ord(x) - ord('a')))
+            for c in word:
+                mask |= 1 << (ord(c) - ord('a'))
             
-            return mask
+            mp[mask] = max(mp[mask], len(word))
         
-        masks = [getMask(word) for word in words]
-        
-        n = len(words)
-        res = 0
-        
-        for i in range(n):
-            for j in range(i + 1, n):
-                if masks[i] & masks[j] == 0:
-                    res = max(res, len(words[i]) * len(words[j]))
-        
-        return res
-        
+        return max([mp[mask1] * mp[mask2] for mask1 in mp for mask2 in mp if mask1 & mask2 == 0] or [0])
