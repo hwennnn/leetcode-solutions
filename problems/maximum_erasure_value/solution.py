@@ -1,20 +1,18 @@
 class Solution:
     def maximumUniqueSubarray(self, nums: List[int]) -> int:
+        n = len(nums)
+        i = j = res = count = 0
+        s = set()
         
-        c = collections.Counter()
-        curr = res = i = 0
-        
-        for j,x in enumerate(nums):
-            curr += x
-            c[x] += 1
-            
-            while c[x] >= 2:
-                target = nums[i]
-                c[target] -= 1
-                curr -= target
+        while j < n:
+            while nums[j] in s:
+                count -= nums[i]
+                s.remove(nums[i])
                 i += 1
             
-            res = max(res, curr)
-        
-        return res
+            count += nums[j]
+            s.add(nums[j])
+            j += 1
+            res = max(res, count)
             
+        return res
