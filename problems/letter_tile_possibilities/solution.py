@@ -1,21 +1,15 @@
-class Solution(object):
-    def numTilePossibilities(self, tiles):
-        s = "".join(set(tiles))
-        ans = [] 
+class Solution:
+    def numTilePossibilities(self, tiles: str) -> int:
+        res = set()
 
-        for char in s:
-            ans.append(char)    
+        def dfs(curr, word):
+            if curr not in res:
+                if curr:
+                    res.add(curr)
 
-        for elem in ans:
-            temp = elem
-
-            for char in s:
-                temp += char
-                if temp.count(char)<=tiles.count(char): 
-                    ans.append(temp)
-                temp = elem
-                
-        return len(set(ans))
-
-
+                for i in range(len(word)):
+                    dfs(curr + word[i], word[:i] + word[i + 1:])
         
+        dfs('', tiles)
+        
+        return len(res)
