@@ -1,20 +1,17 @@
 class Solution:
     def maxResult(self, nums: List[int], k: int) -> int:
+        queue = collections.deque()
         
-        deq = collections.deque()
-        curr = 0
+        for i in range(len(nums)):
+            mmax = 0 if not queue else nums[queue[0]]
+            nums[i] += mmax
+            
+            while queue and nums[i] > nums[queue[-1]]:
+                queue.pop()
+            
+            queue.append(i)
+            
+            if i - queue[0] >= k:
+                queue.popleft()
         
-        for i in range(len(nums)-1, -1, -1):
-            curr = nums[i] + (0 if not deq else nums[deq[0]])
-            
-            while deq and curr > nums[deq[-1]]:
-                deq.pop()
-            
-            deq.append(i)
-            
-            if deq[0] >= i + k:
-                deq.popleft()
-            
-            nums[i] = curr
-        
-        return curr
+        return nums[-1]
