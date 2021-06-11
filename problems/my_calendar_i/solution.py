@@ -1,17 +1,39 @@
-from sortedcontainers import SortedList
-
+class BST:
+    def __init__(self, start, end):
+        self.start = start
+        self.end = end
+        self.left = None
+        self.right = None
+        
 class MyCalendar:
 
     def __init__(self):
-        self.sl = SortedList([(float('-inf'), float('-inf')), (float('inf'), float('inf'))])
+        self.root = None
+    
+    def bookHelper(self, start, end, node):
+        if start >= node.end:
+            if node.right:
+                return self.bookHelper(start, end, node.right)
+            else:
+                node.right = BST(start, end)
+                return True
+        elif end <= node.start:
+            if node.left:
+                return self.bookHelper(start, end, node.left)
+            else:
+                node.left = BST(start, end)
+                return True
         
-    def book(self, start: int, end: int) -> bool:
-        index = self.sl.bisect_left((start, end))
+        return False
         
-        if start < self.sl[index - 1][1] or end > self.sl[index][0]: return False
 
-        self.sl.add((start, end))    
-        return True
+    def book(self, start: int, end: int) -> bool:
+        
+        if not self.root:
+            self.root = BST(start, end)
+            return True
+        
+        return self.bookHelper(start, end, self.root)
 
 
 # Your MyCalendar object will be instantiated and called as such:
