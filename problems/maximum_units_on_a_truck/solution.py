@@ -1,11 +1,13 @@
 class Solution:
-    def maximumUnits(self, boxTypes: List[List[int]], truckSize: int) -> int:
-        boxTypes.sort(key = lambda x : -x[1])
+    def maximumUnits(self, boxes: List[List[int]], truckSize: int) -> int:
+        boxes.sort(key = lambda x: (-x[1]))
         res = 0
         
-        for num,units in boxTypes:
-            to_deduct = min(truckSize, num)
-            res += units * to_deduct
-            truckSize -= to_deduct
+        for box, unit in boxes:
+            m = min(box, truckSize)
+            res += m * unit
+            truckSize -= m
+            
+            if truckSize == 0: break
         
         return res
