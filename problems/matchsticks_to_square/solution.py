@@ -1,28 +1,21 @@
 class Solution:
-    def makesquare(self, matchsticks: List[int]) -> bool:
-        n = len(matchsticks)
-        total = sum(matchsticks)
-        if total % 4 != 0: return False
-        target = total // 4
-        matchsticks.sort(reverse = 1)
+    def makesquare(self, sticks: List[int]) -> bool:
+        n = len(sticks)
+        ssum = sum(sticks)
+        target = ssum // 4
         
-        @cache
-        def go(mask):
-            curr = 0
-            
-            for i in range(n):
-                if (mask >> i) & 1 > 0:
-                    curr += matchsticks[i]
-            
-            done, side = divmod(curr, target)
-            
-            if done == 3: return True
-            
-            for i in range(n):
-                if (mask & (1 << i)) == 0:
-                    if side + matchsticks[i] <= target and go(mask | (1 << i)):
-                        return True
-            
-            return False
+        if ssum % 4 != 0: return False
         
-        return go(0)
+        sticks.sort(reverse = 1)
+        
+        def go(curr, index):
+            if index == n: return True
+                      
+            for i in range(4):
+                if curr[i] + sticks[index] > target: continue
+                
+                curr[i] += sticks[index]
+                if go(curr, index + 1): return True
+                curr[i] -= sticks[index]
+        
+        return go([0,0,0,0], 0)
