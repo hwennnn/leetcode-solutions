@@ -7,7 +7,7 @@ class Solution:
         if k == 0 or k == max_possible_inversions:
             return 1
         
-        MOD = 10 ** 9 + 7
+        MOD = pow(10,9) + 7
         
         dp = [[0]*(k+1) for _ in range(n+1)]
         
