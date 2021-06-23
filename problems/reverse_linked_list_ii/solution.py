@@ -4,26 +4,25 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def reverseBetween(self, head: ListNode, m: int, n: int) -> ListNode:
-        if m == n: return head
+    def reverseBetween(self, head: ListNode, left: int, right: int) -> ListNode:
+        if left == right: return head
         
-        dummy = ListNode(0)
-        dummy.next = head
+        dummy = ListNode(-1, head)
         
-        prev, c = dummy, head
+        prev, curr = dummy, head
         
-        for i in range(m-1):
+        for _ in range(left - 1):
             prev = prev.next
-            c = c.next
+            curr = curr.next
         
-        r = None
-        for _ in range(n-m+1):
-            tmp = c
-            c = c.next
-            tmp.next = r
-            r = tmp
+        res = None
+        for _ in range(right - left + 1):
+            temp = curr.next
+            curr.next = res
+            res = curr
+            curr = temp
         
-        prev.next.next = c
-        prev.next = r
+        prev.next.next = curr
+        prev.next = res
         
         return dummy.next
