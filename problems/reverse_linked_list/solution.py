@@ -8,9 +8,9 @@ class Solution:
         res = None
         
         while head:
-            tmp = head
-            head = head.next
-            tmp.next = res
-            res = tmp
+            nxt = head.next
+            head.next = res
+            res = head
+            head = nxt
         
         return res
