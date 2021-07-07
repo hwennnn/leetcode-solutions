@@ -5,8 +5,8 @@ class Solution:
         for mat in matrix:
             for m in mat:
                 if len(heap) == k:
-                    heappushpop(heap, -m)
+                    heapq.heappushpop(heap, -m)
                 else:
-                    heappush(heap, -m)
+                    heapq.heappush(heap, -m)
 
         return -heap[0]
