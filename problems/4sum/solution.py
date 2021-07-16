@@ -3,9 +3,9 @@ class Solution:
         res = []
         n = len(nums)
         
-        for i in range(n-2):
+        for i in range(n - 2):
             if i > 0 and nums[i] == nums[i-1]: continue
-            l, r = i+1, n-1
+            l, r = i + 1, n - 1
             
             while l < r:
                 s = nums[i] + nums[l] + nums[r]
@@ -31,11 +31,11 @@ class Solution:
         nums.sort()
         res = []
         
-        for i in range(n-3):
+        for i in range(n - 3):
             
-            if i > 0 and nums[i] == nums[i-1]: continue
+            if i > 0 and nums[i] == nums[i - 1]: continue
             
-            three = self.threeSum(nums[i+1:], target - nums[i])
+            three = self.threeSum(nums[i + 1:], target - nums[i])
             for t in three:
                 res.append([nums[i]] + t)
             
