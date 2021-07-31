@@ -17,4 +17,4 @@ class Solution:
             if res or c != 0:
                 res += str(c)
         
-        return res or "0"
+        return res if res else '0'
