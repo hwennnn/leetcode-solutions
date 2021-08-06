@@ -11,20 +11,21 @@ class Solution:
         if not root: return []
         
         res = []
+        queue = collections.deque([root])
         
-        dq = deque([root])
-        
-        while dq:
-            n = len(dq)
-            curr = []
+        while queue:
+            n = len(queue)
+            temp = []
             
             for _ in range(n):
-                node = dq.popleft()
-                curr.append(node.val)
+                node = queue.popleft()
+                temp.append(node.val)
                 
-                for child in node.children:
-                    dq.append(child)
+                for leaf in (node.children):
+                    if leaf:
+                        queue.append(leaf)
             
-            res.append(curr)
-                
+            res.append(temp)
+            
         return res
+        
