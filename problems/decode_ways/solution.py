@@ -1,21 +1,26 @@
 class Solution:
     def numDecodings(self, s: str) -> int:
-        if not s: return 0
-        
         n = len(s)
-        dp = [0] * (n+1)
-        dp[0] = 1
-        dp[1] = int(s[0] != "0")
+        memo = {}
         
-        for i in range(2, n+1):
-            first = int(s[i-1])
-            second = int(s[i-2:i])
+        def backtrack(i):
+            if i in memo: return memo[i]
             
-            if first >= 1 and first <= 9:
-                dp[i] += dp[i-1]
+            if i == n: return 1
             
-            if second >= 10 and second <= 26:
-                dp[i] += dp[i-2]
-        
-        
-        return dp[n]
+            curr = 0
+            
+            # single char
+            if s[i] != "0" and i < n:
+                curr += backtrack(i + 1)
+            
+            # two char
+            if s[i] != "0" and i + 1 < n and int(s[i : i + 2]) <= 26:
+                curr += backtrack(i + 2)
+            
+            memo[i] = curr
+            
+            return curr
+            
+        return backtrack(0)
+                
