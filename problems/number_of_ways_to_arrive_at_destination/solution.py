@@ -1,34 +1,26 @@
 class Solution:
-    def countPaths(self, n: int, roads: List[List[int]]) -> int:
-        graph = collections.defaultdict(list)
+    def countPaths(self, n, roads):
+        G = defaultdict(list)
         
-        for u, v, w in roads:
-            graph[u].append((w, v))
-            graph[v].append((w, u))
-            
-        M = 10 ** 9 + 7
-        dest = [float('inf')] * n
-        dest[0] = 0
-        count = [0] * n
-        count[0] = 1
-        
-        pq = [(0, 0)]
-        
-        while pq:
-            d, src = heapq.heappop(pq)
-            
-            if src == n - 1:
-                return count[src] % M
-            
-            if dest[src] != d: continue
-            
-            for weight, nei in graph[src]:
-                old = dest[nei]
-                new = dest[src] + weight
-                
-                if new == old:
-                    count[nei] += count[src]
-                elif new < old:
-                    dest[nei] = new
-                    heapq.heappush(pq, (new, nei))
-                    count[nei] = count[src]
+        for x, y, w in roads:
+            G[x].append((y, w))
+            G[y].append((x, w))
+
+        dist = [float('inf')] * n
+        dist[0] = 0
+        cnt = [0]*n
+        cnt[0] = 1
+        heap = [(0, 0)]
+
+        while heap:
+            (min_dist, idx) = heappop(heap)
+            if idx == n-1: return cnt[idx] % (10**9 + 7)
+            for neib, weight in G[idx]:
+                candidate = min_dist + weight
+                if candidate == dist[neib]:
+                    cnt[neib] += cnt[idx]
+
+                elif candidate < dist[neib]:
+                    dist[neib] = candidate
+                    heappush(heap, (candidate, neib))
+                    cnt[neib] = cnt[idx]
