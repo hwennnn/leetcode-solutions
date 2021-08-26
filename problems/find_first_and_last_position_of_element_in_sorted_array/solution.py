@@ -4,9 +4,8 @@ class Solution:
         
         def search(x):
             left, right = 0, n
-            
             while left < right:
-                mid = (left + right) // 2
+                mid = left + (right - left) // 2
                 
                 if nums[mid] >= x:
                     right = mid
@@ -15,9 +14,5 @@ class Solution:
             
             return left
         
-        first, last = search(target), search(target + 1) - 1
-        
-        if first >= n or nums[first] != target: 
-            return [-1, -1]
-        
-        return [first, last]
+        res = [search(target), search(target + 1) - 1]
+        return [-1, -1] if res[0] >= n or nums[res[0]] != target else res
