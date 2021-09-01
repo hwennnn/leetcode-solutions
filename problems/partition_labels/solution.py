@@ -1,24 +1,19 @@
 class Solution:
     def partitionLabels(self, s: str) -> List[int]:
-        n = len(s)
-        indices = {x: i for i, x in enumerate(s)}
-        i = 0
-        curr = set()
+        mp = {}
+        
+        for index, char in enumerate(s):
+            mp[char] = index
+        
+        maxIndex = float('-inf')
+        lastIndex = 0
         res = []
-        s += "!"
         
-        for j, x in enumerate(s):
-            if j == n or (j != 0 and len(curr) == 0):
-                res.append(j - i)
-                i = j
-                
-                if j == n: break
+        for index, char in enumerate(s):
+            maxIndex = max(maxIndex, mp[char])
             
-            curr.add(x)
-            
-            if indices[x] == j:
-                curr.remove(x)
-        
+            if index == maxIndex:
+                res.append(maxIndex - lastIndex + 1)
+                lastIndex = index + 1
         
         return res
-                
