@@ -1,17 +1,14 @@
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
-        
+        res = []
         n = len(nums)
-        ans = [[]]
         
-        for i in range(n):
-            tmp = []
-            for num in ans:
-                c = num + [nums[i]]
-                tmp.append(c)
+        for mask in range(1 << n):
+            temp = []
+            for j in range(n):
+                if (mask >> j) & 1:
+                    temp.append(nums[j])
             
-            ans += tmp
+            res.append(temp)
         
-        return ans
-                
-        
+        return list(res)
