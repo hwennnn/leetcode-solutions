@@ -7,15 +7,15 @@ class Solution:
         start = 1
         
         for i in range(n):
-            tmp = []
+            temp = []
             for j, num in enumerate(ans):
                 if i > 0 and nums[i] == nums[i-1] and j < start: continue
                     
                 c = num + [nums[i]]
-                tmp.append(c)
+                temp.append(c)
             
             start = len(ans)
-            ans += tmp
+            ans += temp
         
         return ans
                 
