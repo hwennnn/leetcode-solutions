@@ -10,9 +10,10 @@ class Solution:
             for dx,dy in [(x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)]:
                 if 0 <= dx < rows and 0 <= dy < cols and board[dx][dy] == word[i] and (dx, dy) not in visited:
                     visited.add((dx, dy))
-                    if backtrack(dx, dy, i + 1, curr + board[dx][dy], visited):
-                        return True
+                    result = backtrack(dx, dy, i + 1, curr + board[dx][dy], visited)
                     visited.remove((dx, dy))
+                    
+                    if result: return True
             
             return False
         
