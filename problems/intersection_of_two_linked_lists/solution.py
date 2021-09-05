@@ -7,23 +7,10 @@
 class Solution:
     def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
         
-        curr1 = headA
-        curr2 = headB
+        currA, currB = headA, headB
         
-        while curr1 != curr2:
-            
-            if not curr1:
-                curr1 = headB
-                
-            else:
-                curr1 = curr1.next
-                
-            
-            if not curr2:
-                curr2 = headA
-            
-            else:
-                curr2 = curr2.next
-                
+        while currA != currB:
+            currA = currA.next if currA else headB
+            currB = currB.next if currB else headA
         
-        return curr1
+        return currA
