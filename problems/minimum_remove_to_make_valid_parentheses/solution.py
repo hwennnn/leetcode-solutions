@@ -1,24 +1,19 @@
 class Solution:
     def minRemoveToMakeValid(self, s: str) -> str:
-        res = ""
         stack = []
-        mp = {}
+        s = list(s)
         
         for i,c in enumerate(s):
-            if c == ")" and stack and stack[-1][1] == "(":
-                x, p = stack.pop()
-                mp[x] = p
-                mp[i] = c
-                
-            elif c == "(":
-                stack.append((i,c))
+            if c == '(':
+                stack.append(i)
+            elif c == ')':
+                if stack:
+                    stack.pop()
+                else:
+                    s[i] = ''
         
+        while stack:
+            s[stack.pop()] = ''
         
-        for i,c in enumerate(s):
-            if c == "(" or c == ")":
-                if i in mp:
-                    res += mp[i]
-            else:
-                res += c
-        
-        return res
+        return ''.join(s)
+                    
