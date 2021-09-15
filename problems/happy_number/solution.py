@@ -1,12 +1,13 @@
 class Solution:
     def isHappy(self, n: int) -> bool:
+        seen = set()
         
-        mem = set()
-        
-        while n not in mem:
-            mem.add(n)
-            n = sum(int(i)**2 for i in str(n))
-            
-        
+        while n != 1 and n not in seen:
+            seen.add(n)
+            count = 0
+            while n > 0:
+                count += (n % 10) * (n % 10)
+                n //= 10
+            n = count
+
         return n == 1
-                
