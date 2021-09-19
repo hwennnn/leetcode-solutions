@@ -1,26 +1,23 @@
 class Solution:
     def findOriginalArray(self, changed: List[int]) -> List[int]:
-        N = len(changed)
-        if N & 1: return []
+        n = len(changed)
+        if n & 1: return []
         
+        mp = collections.Counter(changed)
+        keys = sorted(mp.keys(), reverse = 1)
         res = []
-        counter = Counter(changed)
         
-        for k in sorted(counter.keys(), reverse = 1):
-            if k & 1: continue
-                
-            if k == 0 and counter[k] >= 2:
-                res += [k] * (counter[k] // 2)
+        for key in keys:
+            if key & 1: continue
+            if key == 0 and mp[key] >= 2:
+                res += [0] * (mp[key] // 2)
                 continue
-                
-            half = k // 2
-            if half > 0:
-                v = min(counter[k], counter[half])
-                counter[half] -= v
-                
-                res += [half] * v
+            
+            if key // 2 > 0:
+                v = min(mp[key], mp[key // 2])
+                mp[key] -= v
+                mp[key // 2] -= v
 
-        if len(res) != N // 2:
-            return []
-        
-        return res
+                res += [key // 2] * v
+
+        return res if len(res) == n // 2 else []
