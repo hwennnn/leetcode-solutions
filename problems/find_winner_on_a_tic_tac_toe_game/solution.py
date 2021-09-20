@@ -1,25 +1,20 @@
 class Solution:
     def tictactoe(self, moves: List[List[int]]) -> str:
-        grid = [[""]*3 for _ in range(3)]
+        n = 3
+        rows = [0] * n
+        cols = [0] * n
+        diag1 = diag2 = 0
+        currPlayer = 1
         
-        player = 0
-        for r,c in moves:
-            grid[r][c] = "X" if player % 2 == 0 else "O"
-            player += 1
+        for x, y in moves:
+            rows[x] += currPlayer
+            cols[y] += currPlayer
+            diag1 = diag1 + currPlayer if x == y else diag1
+            diag2 = diag2 + currPlayer if x + y == n - 1 else diag2
             
-        for r in range(3):
-            if all(b == "X" for b in grid[r]): return "A"
-            elif all(b == "O" for b in grid[r]): return "B"
+            if abs(rows[x]) == n or abs(cols[y]) == n or abs(diag1) == n or abs(diag2) == n:
+                return "A" if currPlayer == 1 else "B"
             
-        for c in range(3):
-            if all(grid[i][j] == "X" for i in range(3) for j in range(3) if j == c): return "A"
-            elif all(grid[i][j] == "O" for i in range(3) for j in range(3) if j == c): return "B"
-                     
-        if all(grid[r][c] == "X" for r in range(3) for c in range(3) if r == c): return "A"
-        if all(grid[r][c] == "O" for r in range(3) for c in range(3) if r == c): return "B"
+            currPlayer *= -1
         
-        if all(grid[r][c] == "X" for r in range(2,-1,-1) for c in range(2,-1,-1) if r + c == 2): return "A"
-        if all(grid[r][c] == "O" for r in range(2,-1,-1) for c in range(2,-1,-1) if r + c == 2): return "B"
-        
-        
-        return "Draw" if player == 9 else "Pending"
+        return "Draw" if len(moves) == n * n else "Pending"
