@@ -1,12 +1,14 @@
 class Solution:
-    def intersect(self, A: List[int], B: List[int]) -> List[int]:
-        dic = collections.Counter(A)
+    def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
+        if len(nums2) < len(nums1): return self.intersect(nums2, nums1)
+        
+        counter = collections.Counter(nums1)
         res = []
         
-    
-        for num in B:
-            if num in dic and dic[num] > 0:
-                res += num,
-                dic[num] -= 1
+        for x in nums2:
+            if counter[x] > 0:
+                res.append(x)
+                counter[x] -= 1
         
         return res
+        
