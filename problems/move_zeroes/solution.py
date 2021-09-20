@@ -3,10 +3,9 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
+        zeroPos = 0
         
-        zero = 0
-
-        for i in range(len(nums)):
-            if nums[i] != 0 :
-                nums[i],nums[zero] = nums[zero],nums[i]
-                zero += 1
+        for i, x in enumerate(nums):
+            if x != 0:
+                nums[i], nums[zeroPos] = nums[zeroPos], nums[i]
+                zeroPos += 1
