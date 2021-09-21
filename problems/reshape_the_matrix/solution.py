@@ -4,15 +4,8 @@ class Solution:
         if rows * cols != r * c: return mat
         
         res = [[0] * c for _ in range(r)]
-        ii = jj = 0
         
-        for i in range(rows):
-            for j in range(cols):
-                if jj == c:
-                    ii += 1
-                    jj = 0
-                
-                res[ii][jj] = mat[i][j]
-                jj += 1
+        for i in range(rows * cols):
+            res[i // c][i % c] = mat[i // cols][i % cols]
         
         return res
