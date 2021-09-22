@@ -1,24 +1,18 @@
 class Solution:
-    # @param matrix, a list of lists of integers
-    # @param target, an integer
-    # @return a boolean
-    # 8:21
-    def searchMatrix(self, matrix, target):
-        if not matrix or target is None:
-            return False
-
+    def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
         rows, cols = len(matrix), len(matrix[0])
-        low, high = 0, rows * cols - 1
         
-        while low <= high:
-            mid = low + ((high - low) // 2)
-            num = matrix[mid // cols][mid % cols]
+        left, right = 0, rows * cols - 1
+        
+        while left <= right:
+            mid = left + (right - left) // 2
+            x = matrix[mid // cols][mid % cols]
             
-            if num == target:
+            if x == target: 
                 return True
-            elif num < target:
-                low = mid + 1
+            elif x > target:
+                right = mid - 1
             else:
-                high = mid - 1
-        
+                left = mid + 1
+            
         return False
