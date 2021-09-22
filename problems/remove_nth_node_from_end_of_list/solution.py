@@ -4,8 +4,8 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def removeNthFromEnd(self, head: ListNode, k: int) -> ListNode:
-        slow = fast = head
+    def removeNthFromEnd(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
+        slow, fast = head, head
         
         for _ in range(k):
             fast = fast.next
@@ -19,4 +19,3 @@ class Solution:
         slow.next = slow.next.next
         
         return head
-            
