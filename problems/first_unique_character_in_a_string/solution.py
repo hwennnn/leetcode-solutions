@@ -1,7 +1,9 @@
 class Solution:
     def firstUniqChar(self, s: str) -> int:
+        mp = collections.Counter(s)
         
-        letters='abcdefghijklmnopqrstuvwxyz'
-        index=[s.index(l) for l in letters if s.count(l) == 1]
-        return min(index) if len(index) > 0 else -1
+        for i, x in enumerate(s):
+            if mp[x] == 1:
+                return i
         
+        return -1
