@@ -1,17 +1,16 @@
 class Solution:
-    def floodFill(self, image: List[List[int]], sr: int, sc: int, color: int) -> List[List[int]]:
+    def floodFill(self, image: List[List[int]], sr: int, sc: int, newColor: int) -> List[List[int]]:
+        if image[sr][sc] == newColor: return image
+        
         rows, cols = len(image), len(image[0])
-        o = image[sr][sc]
-        
-        if o == color: return image
-        
-        def go(x, y):
-            image[x][y] = color
+
+        def dfs(x, y, color):
+            image[x][y] = newColor
             
             for dx, dy in [(x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)]:
-                if 0 <= dx < rows and 0 <= dy < cols and image[dx][dy] == o:
-                    go(dx, dy)
+                if 0 <= dx < rows and 0 <= dy < cols and image[dx][dy] == color:
+                    dfs(dx, dy, color)
         
-        go(sr, sc)
+        dfs(sr, sc, image[sr][sc])
         
         return image
