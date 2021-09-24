@@ -1,19 +1,17 @@
 class Solution:
     def numsSameConsecDiff(self, n: int, k: int) -> List[int]:
-        res = []
+        curr = range(1, 10)
         
-        def go(index, curr):
-            if index == n:
-                res.append(curr)
-                return
+        for _ in range(n - 1):
+            temp = set()
+            for x in curr:
+                y = x % 10
+                if y + k < 10:
+                    temp.add(x * 10 + y + k)
+                
+                if y - k >= 0:
+                    temp.add(x * 10 + y - k)
             
-            last = curr % 10
+            curr = temp
             
-            for nxt in {last + k, last - k}:
-                if 0 <= nxt < 10:
-                    go(index + 1, curr * 10 + nxt)
-        
-        for x in range(1, 10):
-            go(1, x)
-        
-        return res
+        return list(curr)
