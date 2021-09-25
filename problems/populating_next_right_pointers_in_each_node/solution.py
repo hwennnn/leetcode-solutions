@@ -12,16 +12,17 @@ class Solution:
     def connect(self, root: 'Node') -> 'Node':
         if not root: return None
         
-        deq = collections.deque([root])
-        
-        while deq:
-            curr = deq.popleft()
-            if curr.left and curr.right:
-                curr.left.next = curr.right
-                if curr.next:
-                    curr.right.next = curr.next.left
-                deq.append(curr.left)
-                deq.append(curr.right)
+        queue = collections.deque([root])
+        while queue:
+            node = queue.popleft()
+            
+            if node.left and node.right:
+                node.left.next = node.right
+                
+                if node.next:
+                    node.right.next = node.next.left
+                
+                queue.append(node.left)
+                queue.append(node.right)
         
         return root
-        
