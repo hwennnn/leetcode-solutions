@@ -1,22 +1,25 @@
 # Definition for a binary tree node.
 # class TreeNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
-
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
 class Solution:
-    def mergeTrees(self, t1: TreeNode, t2: TreeNode) -> TreeNode:
-        if not t1 and not t2: return None
-        if t1:
-            v1, L1, R1 = t1.val, t1.left, t1.right
+    def mergeTrees(self, root1: Optional[TreeNode], root2: Optional[TreeNode]) -> Optional[TreeNode]:
+        if not root1 and not root2: return None
+        
+        if root1:
+            v1, l1, r1 = root1.val, root1.left, root1.right
         else:
-            v1, L1, R1 = 0, None, None
-        if t2:
-            v2, L2, R2 = t2.val, t2.left, t2.right
+            v1, l1, r1 = 0, None, None
+        
+        if root2:
+            v2, l2, r2 = root2.val, root2.left, root2.right
         else:
-            v2, L2, R2 = 0, None, None
-        node = TreeNode(v1+v2)
-        node.left = self.mergeTrees(L1, L2)
-        node.right = self.mergeTrees(R1, R2)
+            v2, l2, r2 = 0, None, None
+        
+        node = TreeNode(v1 + v2)
+        node.left = self.mergeTrees(l1, l2)
+        node.right = self.mergeTrees(r1, r2)
+        
         return node
