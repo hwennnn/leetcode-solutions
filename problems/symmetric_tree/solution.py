@@ -5,13 +5,13 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def isSymmetric(self, root: TreeNode) -> bool:
+    def isSymmetric(self, root: Optional[TreeNode]) -> bool:
         
-        def helper(left, right):
+        def isSame(left, right):
             if not left or not right: return left == right
             
-            if left.val != right.val: return False 
+            if left.val != right.val: return False
             
-            return helper(left.left, right.right) and helper(left.right, right.left)
+            return isSame(left.left, right.right) and isSame(left.right, right.left)
         
-        return not root or helper(root.left, root.right)
+        return not root or isSame(root.left, root.right)
