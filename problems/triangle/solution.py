@@ -1,10 +1,12 @@
 class Solution:
-    def minimumTotal(self, t: List[List[int]]) -> int:
-        n = len(t)
+    def minimumTotal(self, triangle: List[List[int]]) -> int:
+        rows = len(triangle)
         
-        for i in reversed(range(n-1)):
-            for j in range(len(t[i])):
-                left, right = t[i + 1][j], t[i + 1][j + 1]
-                t[i][j] += min(left, right)
+        for i in range(1, rows):
+            for j in range(len(triangle[i])):
+                first = triangle[i - 1][j] if j < len(triangle[i - 1]) else float('inf')
+                second = triangle[i - 1][j - 1] if j - 1 >= 0 else float('inf')
+                
+                triangle[i][j] += min(first, second)
         
-        return t[0][0]
+        return min(triangle[-1])
