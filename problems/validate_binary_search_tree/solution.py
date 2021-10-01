@@ -5,9 +5,13 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def isValidBST(self, root, lessThan = float('inf'), largerThan = float('-inf')) -> bool:
-        if not root: return True
+    def isValidBST(self, root: Optional[TreeNode]) -> bool:
         
-        if root.val >= lessThan or root.val <= largerThan: return False
+        def dfs(node, lessThan = float('inf'), largerThan = float('-inf')):
+            if not node: return True
+            
+            if node.val >= lessThan or node.val <= largerThan: return False
+            
+            return dfs(node.left, min(lessThan, node.val), largerThan) and dfs(node.right, lessThan, max(largerThan, node.val))
         
-        return self.isValidBST(root.left, min(lessThan, root.val), largerThan) and self.isValidBST(root.right, lessThan, max(largerThan, root.val)) 
+        return dfs(root)
