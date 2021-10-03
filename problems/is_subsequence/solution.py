@@ -1,15 +1,5 @@
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
-        i = 0
-        j = 0
+        it = iter(t)
         
-        while i < len(s) and j < len(t):
-            if s[i] == t[j]:
-                i += 1
-                if i == len(s):
-                    return True
-            
-            j += 1
-        
-        return i == len(s)
-        
+        return all(c in it for c in s)
