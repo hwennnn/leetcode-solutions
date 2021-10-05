@@ -1,11 +1,11 @@
 class Solution:
-    def combinationSum4(self, nums, target):
-        nums, combs = sorted(nums), [1] + [0] * (target)
+    def combinationSum4(self, nums: List[int], target: int) -> int:
+        nums.sort()
+        dp = [1] + [0] * target
         
-        for i in range(target + 1):
+        for t in range(target + 1):
             for num in nums:
-                if num  > i: break
-                combs[i] += combs[i - num]
-                
-        return combs[target]
+                if num > t: break
+                dp[t] += dp[t - num]
         
+        return dp[target]
