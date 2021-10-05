@@ -1,15 +1,7 @@
 class Solution:
-    def __init__(self):
-        self.mem = {0:0, 1:1, 2:2}
-        
+    @cache
     def climbStairs(self, n: int) -> int:
+        if n == 1: return 1
+        if n == 2: return 2
         
-        def climb(x):
-            if x in self.mem: return self.mem[x]
-            
-            self.mem[x] = climb(x-1) + climb(x-2)
-            
-            return self.mem[x]
-        
-        return climb(n)
-            
+        return self.climbStairs(n - 2) + self.climbStairs(n - 1)
