@@ -1,58 +1,39 @@
 class TrieNode:
+    
     def __init__(self):
-        self.mp = [None] * 26
-        self.end = False
-        
+        self.hasWord = False
+        self.children = collections.defaultdict(TrieNode)
+
 class Trie:
 
     def __init__(self):
-        """
-        Initialize your data structure here.
-        """
         self.root = TrieNode()
-        
 
     def insert(self, word: str) -> None:
-        """
-        Inserts a word into the trie.
-        """
         curr = self.root
-        n = len(word)
-        for i in range(n):
-            index = ord(word[i]) - ord('a')
-            if not curr.mp[index]:
-                curr.mp[index] = TrieNode()
-            
-            curr = curr.mp[index]
         
-        curr.end = True
+        for w in word:
+            curr = curr.children[w]
         
-    def search(self, word: str) -> bool:
-        """
-        Returns if the word is in the trie.
-        """
-        curr = self.root
-        n = len(word)
-        for i in range(n):
-            index = ord(word[i]) - ord('a')
-            if not curr.mp[index]: return False
-            
-            curr = curr.mp[index]
-        
-        return curr.end
-        
+        curr.hasWord = True
 
-    def startsWith(self, prefix: str) -> bool:
-        """
-        Returns if there is any word in the trie that starts with the given prefix.
-        """
+    def search(self, word: str) -> bool:
         curr = self.root
-        n = len(prefix)
-        for i in range(n):
-            index = ord(prefix[i]) - ord('a')
-            if not curr.mp[index]: return False
-            
-            curr = curr.mp[index]
+        
+        for w in word:
+            if w not in curr.children:
+                return False
+            curr = curr.children[w]
+        
+        return curr.hasWord
+    
+    def startsWith(self, prefix: str) -> bool:
+        curr = self.root
+        
+        for w in prefix:
+            if w not in curr.children:
+                return False
+            curr = curr.children[w]
         
         return True
 
