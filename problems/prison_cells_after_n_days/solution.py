@@ -1,36 +1,35 @@
 class Solution:
-    def nextDay(self, cells):
-        tmp = [0] * len(cells)
-        for i in range(1,len(cells) - 1):
-            if (cells[i-1] == cells[i+1]):
-                tmp[i] = 1
-            else:
-                tmp[i] = 0
-
-        return tmp
-
-                        
-    def prisonAfterNDays(self, cells: List[int], N: int) -> List[int]:
-        if not cells or N <= 0: return cells
-        hasCycle = False
-        cycle = 0
-        s = set()
+    def prisonAfterNDays(self, cells: List[int], n: int) -> List[int]:
         
-        for i in range(N):
-            nxt = self.nextDay(cells)
-            if tuple(nxt) not in s:
-                s.add(tuple(nxt))
-                cycle += 1
-            else:
+        def go(cells):
+            res = [0] * len(cells)
+            for i in range(1, len(cells) - 1):
+                if cells[i - 1] == cells[i + 1]:
+                    res[i] = 1
+                else:
+                    res[i] = 0
+            
+            return res
+        
+        visited = set()
+        cycle = 0
+        hasCycle = False
+        for _ in range(n):
+            nextCells = go(cells)
+            
+            if tuple(nextCells) in visited: 
                 hasCycle = True
                 break
+            else:
+                visited.add(tuple(nextCells))
+                cycle += 1
             
-            cells = nxt
+            cells = nextCells
         
         if hasCycle:
-            turns = N % cycle
-            for i in range(turns):
-                cells = self.nextDay(cells)
-        
+            count = n % cycle
+            for _ in range(count):
+                cells = go(cells)
         
         return cells
+            
