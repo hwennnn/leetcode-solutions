@@ -6,23 +6,24 @@
 #         self.right = right
 class Solution:
     def pathSum(self, root: Optional[TreeNode], targetSum: int) -> int:
-        mp = defaultdict(int)
-        mp[0] = 1
+        if not root: return 0
         res = 0
         
-        def go(node, s):
+        def go(node, curr):
             nonlocal res
             
             if not node: return
             
-            s += node.val
-            res += mp[s - targetSum]
+            curr += node.val
+            res += mp[curr - targetSum]
             
-            mp[s] += 1
-            go(node.left, s)
-            go(node.right, s)
-            mp[s] -= 1
-            
-        go(root, 0)
+            mp[curr] += 1
+            go(node.left, curr)
+            go(node.right, curr)
+            mp[curr] -= 1
         
+        mp = collections.defaultdict(int)
+        mp[0] = 1
+        go(root, 0)
+    
         return res
