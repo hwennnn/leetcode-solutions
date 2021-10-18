@@ -1,16 +1,14 @@
 class Solution:
     def tallestBillboard(self, rods: List[int]) -> int:
-        dp = dict()
+        dp = collections.defaultdict(int)
         dp[0] = 0
         
         for x in rods:
-            curr = defaultdict(int)
+            nxt = dp.copy()
+            for d, y in dp.items():
+                nxt[d + x] = max(nxt.get(d + x, 0), y)
+                nxt[abs(d - x)] = max(nxt.get(abs(d - x), 0), y + min(d, x))
             
-            for s in dp:
-                curr[s + x] = max(curr[s + x], dp[s] + x)
-                curr[s] = max(curr[s], dp[s])
-                curr[s - x] = max(curr[s - x], dp[s])
-                
-            dp = curr
+            dp = nxt
         
         return dp[0]
