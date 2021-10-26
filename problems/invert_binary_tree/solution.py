@@ -5,16 +5,13 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def invertTree(self, root: TreeNode) -> TreeNode:
-        if not root: return root
+    def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
         
-        left = root.left
-        right = root.right
+        def invert(node):
+            if not node: return None
+            
+            node.left, node.right = invert(node.right), invert(node.left)
+            
+            return node
         
-        root.left = right
-        root.right = left
-        
-        self.invertTree(root.left)
-        self.invertTree(root.right)
-        
-        return root
+        return invert(root)
