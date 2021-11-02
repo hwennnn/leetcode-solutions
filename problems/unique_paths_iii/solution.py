@@ -1,32 +1,29 @@
 class Solution:
     def uniquePathsIII(self, grid: List[List[int]]) -> int:
         rows, cols = len(grid), len(grid[0])
-        available = 0
-        sx = sy = ex = ey = 0
-        res = 0
+        sx = sy = zero = 0
         
         for x in range(rows):
             for y in range(cols):
-                if grid[x][y] != -1:
-                    available += 1
-                
-                if grid[x][y] == 1:
+                if grid[x][y] == 0:
+                    zero += 1
+                elif grid[x][y] == 1:
                     sx, sy = x, y
-                elif grid[x][y] == 2:
-                    ex, ey = x, y
-                    
-        queue = deque([(sx, sy, 1, set([(sx, sy)]))])
         
-        while queue:
-            x, y, count, visited = queue.popleft()
+        def dfs(x, y, zero):
+            if grid[x][y] == 2:
+                return 1 if zero == -1 else 0
             
-            if x == ex and y == ey and count == available:
-                res += 1
-                continue
+            res = 0
+            
+            grid[x][y] = -1
             
             for dx, dy in [(x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)]:
-                if 0 <= dx < rows and 0 <= dy < cols and grid[dx][dy] != -1 and count + 1 <= available and (dx, dy) not in visited:
-                    new_visited = visited | {(dx, dy)}
-                    queue.append((dx, dy, count + 1, new_visited))
+                if 0 <= dx < rows and 0 <= dy < cols and grid[dx][dy] != -1:
+                    res += dfs(dx, dy, zero - 1)
+            
+            grid[x][y] = 0
+            
+            return res
         
-        return res
+        return dfs(sx, sy, zero)
