@@ -1,37 +1,30 @@
 class CombinationIterator:
 
     def __init__(self, characters: str, combinationLength: int):
-        self.c = characters
+        self.perms = []
         self.n = len(characters)
-        self.p = self.generateCombinations(combinationLength, self.n)
-        self.idx = len(self.p) - 1
+        self.k = combinationLength
+        self.index = 0
         
+        def go(i, curr):
+            if len(curr) == self.k:
+                self.perms.append(curr)
+            
+            if i == self.n:
+                return
+
+            for j in range(i, self.n):
+                go(j + 1, curr + characters[j])
+
+        go(0, '')
 
     def next(self) -> str:
-        res = []
-        
-        for i in range(self.n):
-            if self.p[self.idx][i] != "0":
-                res.append(self.c[i])
-                
-        self.idx -= 1
-        
-        return "".join(res)
+        res = self.perms[self.index]
+        self.index += 1
+        return res
 
     def hasNext(self) -> bool:
-        return self.idx >= 0
-    
-    def generateCombinations(self, l, n):
-        m = int("1"*n, 2)
-        
-        res = []
-        for i in range(m+1):
-            b = bin(i)[2:]
-            if b.count("1") == l:
-                res.append(b.zfill(n))
-        
-        return res
-        
+        return self.index < len(self.perms)
 
 
 # Your CombinationIterator object will be instantiated and called as such:
