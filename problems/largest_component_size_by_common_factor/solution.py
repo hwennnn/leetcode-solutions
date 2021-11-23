@@ -1,38 +1,40 @@
 class DSU:
-    def __init__(self, n):
-        self.graph = list(range(n))
-
+    def __init__(self, N):
+        self.A = list(range(N))
+    
     def find(self, x):
-        if self.graph[x] != x:
-            self.graph[x] = self.find(self.graph[x])
-
-        return self.graph[x]
-
+        if x != self.A[x]:
+            self.A[x] = self.find(self.A[x])
+        
+        return self.A[x]
+    
     def union(self, x, y):
         ux, uy = self.find(x), self.find(y)
-        self.graph[ux] = uy
+        self.A[ux] = uy
 
 class Solution:
     def largestComponentSize(self, nums: List[int]) -> int:
         n = len(nums)
+        primes = collections.defaultdict(list)
         dsu = DSU(n)
-        primes = defaultdict(list)
         
-        def getPrimesSet(x):
+        def getPrimes(x):
             for i in range(2, int(math.sqrt(x)) + 1):
                 if x % i == 0:
-                    return getPrimesSet(x // i) | set([i])
+                    return getPrimes(x // i) | set([i])
             
             return set([x])
         
         for i, x in enumerate(nums):
-            p = getPrimesSet(x)
-            for prime in p:
-                primes[prime].append(i)
+            primes_set = getPrimes(x)
+            for q in primes_set:
+                primes[q].append(i)
         
-        for indexes in primes.values():
-            for x, y in zip(indexes, indexes[1:]):
-                dsu.union(x, y)
+        for _, v in primes.items():
+            for i in range(len(v) - 1):
+                dsu.union(v[i], v[i + 1])
         
-        return max(Counter(dsu.find(i) for i in range(n)).values())
-            
+        return max(Counter([dsu.find(x) for x in range(n)]).values())
+        
+        
+        
