@@ -1,13 +1,16 @@
 class Solution:
     def allPathsSourceTarget(self, graph: List[List[int]]) -> List[List[int]]:
-        
-        def dfs(curr, path):
-            if curr == len(graph) - 1: res.append(path)
-            else:
-                for nei in graph[curr]:
-                    dfs(nei, path + [nei])
-        
+        n = len(graph)
         res = []
-        dfs(0, [0])
+        
+        def go(x, path):
+            if x == n - 1:
+                res.append(path)
+                return
+            
+            for y in graph[x]:
+                go(y, path + [y])
+            
+        go(0, [0])
         
         return res
