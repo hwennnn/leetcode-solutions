@@ -1,15 +1,13 @@
 class ParkingSystem:
 
     def __init__(self, big: int, medium: int, small: int):
-        self.lst = [big,medium,small]
+        self.A = [big, medium, small]
 
     def addCar(self, carType: int) -> bool:
-        t = carType - 1
-        if self.lst[t] > 0:
-            self.lst[t] -= 1
-            return True
+        if self.A[carType - 1] == 0: return False
         
-        return False
+        self.A[carType - 1] -= 1
+        return True
 
 
 # Your ParkingSystem object will be instantiated and called as such:
