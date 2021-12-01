@@ -1,8 +1,9 @@
 class Solution:
     def rob(self, nums: List[int]) -> int:
-        rob = not_rob = 0
+        current = skipped = prev = 0
         
         for x in nums:
-            rob, not_rob = not_rob + x, max(not_rob, rob)
+            current = max(prev, skipped + x)
+            skipped, prev = prev, current
         
-        return max(rob, not_rob)
+        return current
