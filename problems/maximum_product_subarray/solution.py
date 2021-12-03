@@ -1,9 +1,9 @@
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
+        n = len(nums)
         res = pos = neg = nums[0]
         
-        for i in range(1, len(nums)):
-            
+        for i in range(1, n):
             if nums[i] < 0:
                 pos, neg = neg, pos
             
@@ -11,4 +11,5 @@ class Solution:
             neg = min(nums[i], neg * nums[i])
             
             res = max(res, pos)
+        
         return res
