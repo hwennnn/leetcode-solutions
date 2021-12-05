@@ -1,9 +1,12 @@
 class Solution:
     def findItinerary(self, tickets: List[List[str]]) -> List[str]:
         graph = collections.defaultdict(list)
+        din, dout = Counter(), Counter()
         
         for x, y in tickets:
             graph[x].append(y)
+            dout[x] += 1
+            din[y] += 1
         
         for x in graph:
             graph[x].sort(reverse = 1)
