@@ -8,8 +8,7 @@ class Solution:
         res = 0
         
         while head:
-            res <<= 1
-            res += head.val
+            res = res * 2 + head.val
             head = head.next
         
         return res
