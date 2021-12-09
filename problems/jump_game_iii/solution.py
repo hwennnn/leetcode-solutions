@@ -1,19 +1,21 @@
 class Solution:
     def canReach(self, arr: List[int], start: int) -> bool:
-        visited = {start}
-        deq = collections.deque([start])
+        initial = [start + arr[start], start - arr[start]]
+        visited = set(initial)
+        deq = deque(initial)
+        n = len(arr)
         
         while deq:
-            pos = deq.popleft()
-            num = arr[pos]
-            if arr[pos] == 0: return True
+            curr = deq.popleft()
             
-            for p in (pos + num, pos - num):
-                if 0 <= p < len(arr) and p not in visited:
-                    deq.append(p)
-                    visited.add(p)
+            if not 0 <= curr < n: continue
+                
+            if arr[curr] == 0: return True
             
+            for x in (curr + arr[curr], curr - arr[curr]):
+                if 0 <= x < n and x not in visited:
+                    deq.append(x)
+                    visited.add(x)
+
         
         return False
-                    
-        
