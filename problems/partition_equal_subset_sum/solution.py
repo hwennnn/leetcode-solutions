@@ -1,11 +1,13 @@
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
-
         total = sum(nums)
-        if total%2: return False # odd sum cannot be partitioned equally
+        if total % 2 != 0: return False
         
-        bits = 1
-        for num in nums:
-            bits |= bits << num
+        target = total // 2
         
-        return (bits >> total//2) & 1 == 1
+        s = 1
+        
+        for x in nums:
+            s |= (s << x)
+        
+        return (s & (1 << target)) != 0
