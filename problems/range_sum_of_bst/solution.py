@@ -5,20 +5,12 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def rangeSumBST(self, root: TreeNode, low: int, high: int) -> int:
-        deq = collections.deque([root])
-        res = 0
+    def rangeSumBST(self, root: Optional[TreeNode], low: int, high: int) -> int:
         
-        while deq:
-            node = deq.popleft()
-            v = node.val
+        def go(node):
+            if not node: return 0
             
-            if low <= v <= high:
-                res += v
+            return (node.val if low <= node.val <= high else 0) + go(node.left) + go(node.right)
             
-            for n in (node.left, node.right):
-                if n:
-                    deq.append(n)
         
-        return res
-            
+        return go(root)
