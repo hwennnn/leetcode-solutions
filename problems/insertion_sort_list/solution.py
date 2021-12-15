@@ -4,25 +4,14 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def insertionSortList(self, head: ListNode) -> ListNode:
-        res = []
+    def insertionSortList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        res = ListNode(float('-inf'))
         
         while head:
-            res.append(head.val)
+            curr = res
+            while curr.next and curr.next.val < head.val:
+                curr = curr.next
+            curr.next = ListNode(head.val, curr.next)
             head = head.next
-            
-        ans = curr = ListNode(None)
-        res.sort()
         
-        for v in res:
-            tmp = ListNode(v)
-            if not curr:
-                curr = tmp
-            else:
-                curr.next = tmp
-            
-            curr = curr.next
-                
-        
-        
-        return ans.next
+        return res.next
