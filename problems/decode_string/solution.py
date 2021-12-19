@@ -3,21 +3,22 @@ class Solution:
         n = len(s)
         stack = []
         
-        for c in s:
-            if c == "]":
-                t = ""
-                while stack[-1] != "[":
-                    t = stack.pop() + t
+        for x in s:
+            if x == ']':
+                chars = ""
+                
+                while stack and stack[-1] != '[':
+                    chars = stack.pop() + chars
                 
                 stack.pop()
                 
                 times = ""
+                
                 while stack and stack[-1].isnumeric():
                     times = stack.pop() + times
                 
-                stack.append(int(times)*t)
-            
+                stack.append(int(times) * chars)  
             else:
-                stack.append(c)
+                stack.append(x)
         
         return "".join(stack)
