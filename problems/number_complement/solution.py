@@ -1,7 +1,4 @@
 class Solution:
-    def findComplement(self, N: int) -> int:
-        X = 1
-        while N > X:
-            X = X*2 + 1
+    def findComplement(self, num: int) -> int:
 
-        return X - N
+        return ((1 << num.bit_length()) - 1) ^ num
