@@ -1,11 +1,14 @@
 class Solution:
     def numPairsDivisibleBy60(self, time: List[int]) -> int:
+        mp = collections.defaultdict(int)
         res = 0
-        arr = [0] * 60
+
+        for x in time:
+            x %= 60
+            res += mp[(60 - x) % 60]
+            mp[x] += 1
         
-        for t in time:
-            t %= 60
-            res += arr[(60-t)%60]
-            arr[t] += 1
-            
         return res
+        
+        
+        
