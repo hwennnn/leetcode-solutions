@@ -1,7 +1,5 @@
 class Solution:
     def bitwiseComplement(self, n: int) -> int:
-        x = 1
-        while n > x:
-            x = x*2 + 1
+        if n == 0: return 1
         
-        return x - n
+        return (1 << n.bit_length()) - 1 - n
