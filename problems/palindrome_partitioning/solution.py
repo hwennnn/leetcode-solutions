@@ -1,17 +1,21 @@
 class Solution:
-    def partition(self, s):
+    def partition(self, s: str) -> List[List[str]]:
+        n = len(s)
         res = []
-        self.dfs(s, [], res)
-        return res
-
-    def dfs(self, s, path, res):
-        if not s:
-            res.append(path)
-            return
-        for i in range(1, len(s)+1):
-            if self.isPal(s[:i]):
-                self.dfs(s[i:], path+[s[:i]], res)
-
-    def isPal(self, s):
-        return s == s[::-1]
         
+        def go(index, path):
+            nonlocal res
+            
+            if index == n:
+                res.append(path)    
+                return
+            
+            for j in range(index, n):
+                x = s[index : j + 1]
+                
+                if x == x[::-1]:
+                    go(j + 1, path + [x])
+        
+        go(0, [])
+        
+        return res
