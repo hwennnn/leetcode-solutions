@@ -1,16 +1,18 @@
 class Solution:
     def carPooling(self, trips: List[List[int]], capacity: int) -> bool:
-        queue = []
+        events = []
         
         for num, start, end in trips:
-            queue.append((start, num))
-            queue.append((end, -num))
+            events.append((start, 1, num))
+            events.append((end, -1, num))
         
-        queue.sort()
+        events.sort()
         
-        for _, num in queue:
-            capacity -= num
-            
+        for _, t, x in events:
+            if t == 1:
+                capacity -= x
+            else:
+                capacity += x
             if capacity < 0: return False
         
         return True
