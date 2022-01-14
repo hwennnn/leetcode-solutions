@@ -1,9 +1,17 @@
 class Solution:
-    def removeOuterParentheses(self, S: str) -> str:
+    def removeOuterParentheses(self, s: str) -> str:
+        opened = 0
+        res = []
         
-        res, opened = [], 0
-        for c in S:
-            if c == '(' and opened > 0: res.append(c)
-            if c == ')' and opened > 1: res.append(c)
-            opened += 1 if c == '(' else -1
+        for x in s:
+            if opened > 0:
+                res.append(x)
+                
+            if x == "(":
+                opened += 1
+            else:
+                opened -= 1
+                if opened == 0:
+                    res.pop()
+        
         return "".join(res)
