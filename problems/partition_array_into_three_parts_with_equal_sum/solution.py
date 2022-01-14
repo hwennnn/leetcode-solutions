@@ -2,14 +2,15 @@ class Solution:
     def canThreePartsEqualSum(self, arr: List[int]) -> bool:
         n = len(arr)
         total = sum(arr)
-
-        found = 0
-        s = 0
+        if total % 3 != 0: return False
+        target = total // 3
+        count = s = 0
         
-        for x in arr:
+        for i, x in enumerate(arr):
             s += x
-            if s == total // 3:
+            
+            if s == target:
                 s = 0
-                found += 1
+                count += 1
         
-        return found >= 3
+        return count >= 3
