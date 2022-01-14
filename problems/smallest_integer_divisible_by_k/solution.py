@@ -1,11 +1,13 @@
 class Solution:
-    def smallestRepunitDivByK(self, K: int) -> int:
-        if K % 2 == 0 or K % 5 == 0: return -1
+    def smallestRepunitDivByK(self, k: int) -> int:
+        if k % 2 == 0 and k % 5 == 0: return -1
+        mod_set = set()
+        prev = 0
         
-        r = 0
-        
-        for i in range(1, K+1):
-            r = ((10*r) + 1) % K
-            if r == 0: return i
+        for i in range(1, k + 1):
+            prev = (prev * 10 + 1) % k
+            if prev == 0: return i
+            if prev in mod_set: return -1
+            mod_set.add(prev)
         
         return -1
