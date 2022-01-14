@@ -5,14 +5,14 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def maxAncestorDiff(self, root):
-
-        if not root: return 0
-        return self.helper(root, root.val, root.val)
-    
-    def helper(self, node, high, low):
-        if not node:
-            return high - low
-        high = max(high, node.val)
-        low = min(low, node.val)
-        return max(self.helper(node.left, high, low), self.helper(node.right,high,low))
+    def maxAncestorDiff(self, root: Optional[TreeNode]) -> int:
+        
+        def dfs(node, low, high):
+            if not node: return high - low
+            
+            low = min(low, node.val)
+            high = max(high, node.val)
+            
+            return max(dfs(node.left, low, high), dfs(node.right, low, high))
+        
+        return dfs(root, root.val, root.val)
