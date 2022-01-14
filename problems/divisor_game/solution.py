@@ -1,5 +1,3 @@
 class Solution:
-    def divisorGame(self, N: int) -> bool:
-        
-        return N % 2 == 0 
-            
+    def divisorGame(self, n: int) -> bool:
+        return n % 2 == 0
