@@ -1,23 +1,26 @@
 class Solution:
     def minJumps(self, arr: List[int]) -> int:
-        graph = collections.defaultdict(list)
-        _ = [graph[x].append(i) for i,x in enumerate(arr)]
-        
         n = len(arr)
-        deq = collections.deque([(0,0)])
-        pos_seen, num_seen = {0}, set()
+        graph = collections.defaultdict(list)
         
-        while deq:
-            pos, step = deq.popleft()
+        for i, x in enumerate(arr):
+            graph[x].append(i)
+        
+        queue = collections.deque([(0, 0)])
+        num_seen, pos_seen = set([0]), set()
+        
+        while queue:
+            index, steps = queue.popleft()
+            num = arr[index]
             
-            if pos == n - 1: return step
+            if index == n - 1: 
+                return steps
             
-            num = arr[pos]
-            
-            for p in [pos-1, pos+1] + graph[num] * (num not in num_seen):
-                if not (0 <= p < n) or p in pos_seen: continue
-                
-                deq.append((p, step+1))
-                pos_seen.add(p)
+            for p in [index - 1, index + 1] + (graph[num] * (num not in num_seen)):
+                if 0 <= p < n and p not in pos_seen:
+                    queue.append((p, steps + 1))
+                    pos_seen.add(p)
             
             num_seen.add(num)
+        
+        
