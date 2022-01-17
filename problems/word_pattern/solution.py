@@ -1,19 +1,17 @@
 class Solution:
     def wordPattern(self, pattern: str, s: str) -> bool:
         
-        def hashed(words):
-            mp = {}
-            res = ""
+        def generate(s):
+            seen = {}
+            res = []
             
-            for index, word in enumerate(words):
-                if word not in mp:
-                    mp[word] = index
-                res += str(mp[word])
+            for word in s:
+                if word not in seen:
+                    seen[word] = len(seen)
+                    
+                res.append(seen[word])
             
-            return res
+            return "".join(map(str, res))
         
-        return hashed(pattern) == hashed(s.split(' '))
-        
-        
-        
-        
+        return generate(pattern) == generate(s.split())
+            
