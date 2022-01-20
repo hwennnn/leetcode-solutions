@@ -1,9 +1,13 @@
 class Solution:
     def minEatingSpeed(self, piles: List[int], h: int) -> int:
-        n = len(piles)
         
-        def good(x):
-            return sum(ceil(pile / x) for pile in piles) <= h
+        def good(k):
+            need = 0
+            
+            for x in piles:
+                need += ceil(x / k)
+            
+            return need <= h
         
         left, right = 1, max(piles)
         
