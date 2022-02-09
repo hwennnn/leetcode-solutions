@@ -1,12 +1,10 @@
-import collections
-
 class Solution:
     def findPairs(self, nums: List[int], k: int) -> int:
-        dic = collections.Counter(nums)
+        s = Counter(nums)
         res = 0
         
-        for c in dic:
-            if k == 0 and dic[c] > 1 or k > 0 and c+k in dic:
+        for x in s:
+            if k == 0 and s[x] >= 2 or k != 0 and k + x in s:
                 res += 1
-        
-        return res 
+
+        return res
