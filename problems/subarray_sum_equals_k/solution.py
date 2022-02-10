@@ -1,16 +1,16 @@
 class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:
-        n = len(nums)
-        mp = collections.defaultdict(int)
+        mp = defaultdict(int)
         mp[0] = 1
         
-        curr = res = 0
-        for num in nums:
-            curr += num
+        s = res = 0
+        
+        for x in nums:
+            s += x
             
-            if curr - k in mp:
-                res += mp[curr - k]
+            if s - k in mp:
+                res += mp[s - k]
             
-            mp[curr] += 1
+            mp[s] += 1
         
         return res
