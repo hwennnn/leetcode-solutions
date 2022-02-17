@@ -1,19 +1,30 @@
 class Solution:
-    def minDominoRotations(self, A: List[int], B: List[int]) -> int:
-        n = len(A)
-        a = collections.Counter(A)
-        b = collections.Counter(B)
-        mp = collections.defaultdict(int)
+    def minDominoRotations(self, tops: List[int], bottoms: List[int]) -> int:
+        n = len(tops)
+        tPos = collections.defaultdict(list)
+        bPos = collections.defaultdict(list)
+        res = float('inf')
         
-        for x,y in zip(A,B):
-            if x == y:
-                mp[x] += 1
-                
-        res = float("inf")
-        for x in a:
-            if (a[x] + b[x] - mp[x]) == n:
-                res = min(res, min(a[x], b[x]) - mp[x])
-    
-        return res if res != float("inf") else -1
+        for i, x in enumerate(tops):
+            tPos[x].append(i)
+        
+        for i, x in enumerate(bottoms):
+            bPos[x].append(i)
+        
+        for k, v in tPos.items():
+            A = set(range(0, n))
             
+            for index in v:
+                if index in A:
+                    A.remove(index)
+            
+            for index in bPos[k]:
+                if index in A:
+                    A.remove(index)
+            
+            if len(A) == 0:
+                res = min(res, n - max(len(v), len(bPos[k])))
+                
+        
+        return -1 if res == float('inf') else res
             
