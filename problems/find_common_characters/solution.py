@@ -1,12 +1,14 @@
 class Solution:
-    def commonChars(self, A: List[str]) -> List[str]:
-        check = list(A[0])
-        for word in A:
-            newCheck = []
-            for c in word:
-                if c in check:
-                    newCheck.append(c)
-                    check.remove(c)
-            check = newCheck
+    def commonChars(self, words: List[str]) -> List[str]:
+        n = len(words)
+        counter = Counter(words[0])
         
-        return check
+        for i in range(1, n):
+            counter &= Counter(words[i])
+        
+        res = []
+        
+        for k, v in counter.items():
+            res += [k] * v
+        
+        return res
