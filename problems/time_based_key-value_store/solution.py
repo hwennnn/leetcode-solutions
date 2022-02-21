@@ -4,12 +4,19 @@ class TimeMap:
         self.mp = defaultdict(list)
 
     def set(self, key: str, value: str, timestamp: int) -> None:
+        if len(self.mp[key]) == 0:
+            self.mp[key].append((0, ""))
         self.mp[key].append((timestamp, value))
 
     def get(self, key: str, timestamp: int) -> str:
-        index = bisect_right(self.mp[key], (timestamp, chr(255)))
+        if len(self.mp[key]) == 0: return ""
         
-        return "" if index == 0 else self.mp[key][index - 1][1]
+        index = bisect.bisect(self.mp[key], (timestamp + 1, )) - 1
+            
+        if self.mp[key][index][0] > timestamp:
+            return ""
+        
+        return self.mp[key][index][1]
 
 
 # Your TimeMap object will be instantiated and called as such:
