@@ -6,26 +6,23 @@
 #         self.right = right
 class Solution:
     def smallestFromLeaf(self, root: Optional[TreeNode]) -> str:
-        if not root: return ''
+        res = None
         
-        def go(node, s):
-            nonlocal res
-            
-            s += chr(ord('a') + node.val)
+        def dfs(node, path):
+            if not node: return
             
             if not node.left and not node.right:
+                nonlocal res
+                path = chr(ord('a') + node.val) + path
                 if res is None:
-                    res = s[::-1]
+                    res = path
                 else:
-                    res = min(res, s[::-1])
+                    res = min(res, path)
+                return
             
-            if node.left:
-                go(node.left, s)
-            
-            if node.right:
-                go(node.right, s)
-            
-        res = None
-        go(root, '')
+            dfs(node.left, chr(ord('a') + node.val) + path)
+            dfs(node.right, chr(ord('a') + node.val) + path)
+        
+        dfs(root, "")
         
         return res
