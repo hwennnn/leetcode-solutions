@@ -1,13 +1,14 @@
 class Solution:
-    def subarraysDivByK(self, A: List[int], K: int) -> int:
+    def subarraysDivByK(self, nums: List[int], k: int) -> int:
+        mp = collections.defaultdict(int)
+        mp[0] = 1
+        res = s = 0
         
-        prefix = {0:1}
-        c = res = 0
-        
-        for num in A:
-            c += num
-            if c%K in prefix:
-                res += prefix[c%K]
-            prefix[c%K] = prefix.get(c%K, 0) + 1
-        
+        for x in nums:
+            s = (s + x) % k
+            
+            res += mp[s]
+            
+            mp[s] += 1
+            
         return res
