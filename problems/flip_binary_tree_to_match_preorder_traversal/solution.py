@@ -5,18 +5,26 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def flipMatchVoyage(self, root, voyage):
+    def flipMatchVoyage(self, root: Optional[TreeNode], voyage: List[int]) -> List[int]:
+        index = 0
         res = []
-        stack = [root]
-        i = 0
-        while stack:
-            node = stack.pop()
-            if not node: continue
-            if node and node.val != voyage[i]: return [-1]
-            i += 1
-            if node.right and node.right.val == voyage[i]:
-                if node.left: res.append(node.val)
-                stack.extend([node.left, node.right])
-            else:
-                stack.extend([node.right, node.left])
-        return res
+        
+        def go(node):
+            nonlocal index, res
+            
+            if not node: return True
+            
+            if node.val != voyage[index]: return False
+            
+            index += 1
+            
+            if node.left and node.right and node.left.val != voyage[index] and node.right.val == voyage[index]:
+                res.append(node.val)
+                
+                node.left, node.right = node.right, node.left
+            
+            return go(node.left) and go(node.right)
+        
+        return res if go(root) else [-1]
+            
+            
