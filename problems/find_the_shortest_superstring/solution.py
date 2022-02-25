@@ -10,44 +10,44 @@ class Solution:
         
         n = len(words)
         weights = [[0] * n for _ in range(n)]
+        dp = [[0] * n for _ in range(1 << n)]
+        queue = deque([(0, i, 1 << i, [i]) for i in range(n)])
+        full_mask = (1 << n) - 1
+        maxWeight, maxPath = -1, []
         
         for i in range(n):
             for j in range(i, n):
                 weights[i][j] = distance(words[i], words[j])
                 weights[j][i] = distance(words[j], words[i])
         
-        dp = [[0] * n for _ in range(1 << n)]
-        
-        queue = collections.deque([(i, 1 << i, 0, [i]) for i in range(n)])
-        completedMask = (1 << n) - 1
-        max_overlap, max_path = -1, []
-        
         while queue:
-            node, mask, overlap, path = queue.popleft()
+            w, node, mask, path = queue.popleft()
             
-            if dp[mask][node] > overlap: continue
+            if dp[mask][node] != w:
+                continue
             
-            if mask == completedMask and overlap > max_overlap:
-                max_overlap, max_path = overlap, path
+            if mask == full_mask and w > maxWeight:
+                maxWeight = w
+                maxPath = path
                 continue
             
             for nei in range(n):
-                if mask & (1 << nei): continue
-                    
-                next_mask = mask | (1 << nei)
-                old = dp[next_mask][nei]
+                if mask & (1 << nei) > 0: continue
+                
+                new_mask = mask | (1 << nei)
+                old = dp[new_mask][nei]
                 new = dp[mask][node] + weights[node][nei]
-
+                
                 if new > old:
-                    dp[next_mask][nei] = new
-                    queue.append((nei, next_mask, new, path + [nei]))
-                        
-        res = words[max_path[0]]
+                    dp[new_mask][nei] = new
+                    queue.append((new, nei, new_mask, path + [nei]))
+        
+        res = words[maxPath[0]]
         
         for i in range(1, n):
-            prev, curr = max_path[i - 1], max_path[i]
+            prev, curr = maxPath[i - 1], maxPath[i]
             overlap = weights[prev][curr] - 1
             res += words[curr][overlap:]
-        
+            
         return res
             
