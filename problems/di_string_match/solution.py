@@ -1,18 +1,15 @@
 class Solution:
-    def diStringMatch(self, S: str) -> List[int]:
+    def diStringMatch(self, s: str) -> List[int]:
+        res = []
+        n = len(s)
+        queue = deque([x for x in range(n + 1)])
         
-        low,high = 0,len(S)
-        temp = []
+        for x in s:
+            if x == "I":
+                res.append(queue.popleft())
+            else:
+                res.append(queue.pop())
         
-        for i in S:
-            
-            if i == "I":
-                temp.append(low)
-                low+=1
-                
-            elif i == "D":
-                temp.append(high)
-                high-=1
-                
-                
-        return temp + [low]
+        res.append(queue.pop())
+        
+        return res
