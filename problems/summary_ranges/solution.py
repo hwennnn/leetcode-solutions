@@ -1,21 +1,20 @@
 class Solution:
     def summaryRanges(self, nums: List[int]) -> List[str]:
         if not nums: return []
-        nums.append(float("inf"))
-        res = []
-        first = last = nums[0]
         
-        for num in nums[1:]:
-            if num - 1 != last:
-                if first == last:
-                    res.append(str(first))
+        n = len(nums)
+        res = []
+        prev = None
+        
+        for i, x in enumerate(nums):
+            if i == n - 1 or (i + 1 < n and x + 1!= nums[i + 1]):
+                if prev is None:
+                    res.append(str(x))
                 else:
-                    res.append(f"{first}->{last}")
-                first = num
-                last = num
-            
+                    res.append(f"{prev}->{x}")
+                    prev = None
             else:
-                last = num
+                if prev is None:
+                    prev = x
         
         return res
-                
