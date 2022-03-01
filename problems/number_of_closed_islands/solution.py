@@ -1,28 +1,26 @@
 class Solution:
     def closedIsland(self, grid: List[List[int]]) -> int:
         rows, cols = len(grid), len(grid[0])
-        
-        def dfs(i,j):
-            if 0 <= i < rows and 0 <= j < cols and grid[i][j] != 1:
-                grid[i][j] = 1
-                
-                dfs(i, j-1)
-                dfs(i, j+1)
-                dfs(i-1, j)
-                dfs(i+1, j)
-
-                
         res = 0
-        for i in range(rows):
-            for j in range(cols):
-                if i == 0 or j == 0 or i == rows-1 or j == cols-1:
-                    dfs(i,j)
-
-        for i in range(rows):
-            for j in range(cols):
-                if grid[i][j] == 0:
-                    dfs(i,j)
-                    res += 1
         
+        def go(x, y):
+            if grid[x][y] == 1: return
+                
+            grid[x][y] = 1
+            
+            for dx, dy in [(x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)]:
+                if 0 <= dx < rows and 0 <= dy < cols and grid[dx][dy] != 1:
+                    go(dx, dy)
+        
+        for x in range(rows):
+            for y in range(cols):
+                if x == 0 or x == rows - 1 or y == 0 or y == cols - 1:
+                    go(x, y)
+        
+        for x in range(rows):
+            for y in range(cols):
+                if grid[x][y] == 0:
+                    go(x, y)
+                    res += 1
         
         return res
