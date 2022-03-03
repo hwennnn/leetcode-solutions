@@ -1,26 +1,23 @@
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
         rows, cols = len(grid), len(grid[0])
-        q = collections.deque()
+        queue = deque([(x, y) for x in range(rows) for y in range(cols) if grid[x][y] == 1])
+        if len(queue) == 0 or len(queue) == rows * cols: return -1
         
-        for i in range(rows):
-            for j in range(cols):
-                if grid[i][j] == 1:
-                    for dx, dy in ((i + 1, j), (i - 1, j), (i, j + 1), (i, j - 1)):
-                        q.append((dx, dy))
+        distance = 0
         
-        steps = 0
-        while q:
-            steps += 1
-            n = len(q)
+        while queue:
+            n = len(queue)
             
             for _ in range(n):
-                i, j = q.popleft()
-                if 0 <= i < rows and 0 <= j < cols and grid[i][j] == 0:
-                    grid[i][j] = steps
-                    
-                    for dx, dy in ((i + 1, j), (i - 1, j), (i, j + 1), (i, j - 1)):
-                        q.append((dx, dy))
-        
-        return steps - 1 if steps != 1 else -1
-        
+                x, y = queue.popleft()
+
+                for dx, dy in [(x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)]:
+                    if 0 <= dx < rows and 0 <= dy < cols and grid[dx][dy] == 0:
+                        queue.append((dx, dy))   
+                        grid[dx][dy] = 1
+            
+            distance += 1
+
+        return distance - 1
+                
