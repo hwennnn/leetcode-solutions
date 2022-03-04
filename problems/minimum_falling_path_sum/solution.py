@@ -4,10 +4,9 @@ class Solution:
         
         for i in range(1, rows):
             for j in range(cols):
-                left = matrix[i - 1][j - 1] if j - 1 >= 0 else float('inf')
+                left = float('inf') if j == 0 else matrix[i - 1][j - 1]
                 mid = matrix[i - 1][j]
-                right = matrix[i - 1][j + 1] if j + 1 < cols else float('inf')
-                
+                right = float('inf') if j == cols - 1 else matrix[i - 1][j + 1]
                 matrix[i][j] += min(left, mid, right)
-                
+        
         return min(matrix[-1])
