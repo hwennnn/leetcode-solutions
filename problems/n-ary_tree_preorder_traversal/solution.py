@@ -8,16 +8,17 @@ class Node:
 
 class Solution:
     def preorder(self, root: 'Node') -> List[int]:
-        if not root: return []
-        
-        stack = [root]
         res = []
         
-        while len(stack) > 0:
-            node = stack.pop()
+        def go(node):
+            nonlocal res
+            
+            if not node: return
+            
             res.append(node.val)
             
-            for child in node.children[::-1]:
-                stack.append(child)
-        
+            for child in node.children:
+                go(child)
+            
+        go(root)
         return res
