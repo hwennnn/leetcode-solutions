@@ -1,10 +1,17 @@
 class Solution:
     def numUniqueEmails(self, emails: List[str]) -> int:
-        res = set()
+        s = set()
         
         for email in emails:
-            prefix, domain = email.split('@')
-            prefix = prefix.split('+')[0]
-            res.add("".join(e for e in prefix if e != '.') + "@" + domain)
+            email, provider = email.split("@")
+            curr = ""
+            
+            for x in email:
+                if x == ".": continue
+                if x == "+": break
+                
+                curr += x
+            
+            s.add(curr + "@" + provider)
         
-        return len(res)
+        return len(s)
