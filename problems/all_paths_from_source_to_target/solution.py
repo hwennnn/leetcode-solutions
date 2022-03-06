@@ -3,14 +3,14 @@ class Solution:
         n = len(graph)
         res = []
         
-        def go(x, path):
-            if x == n - 1:
+        def go(node, path):
+            if node == n - 1:
                 res.append(path)
                 return
             
-            for y in graph[x]:
-                go(y, path + [y])
-            
+            for nei in graph[node]:
+                go(nei, path + [nei])
+        
         go(0, [0])
         
         return res
