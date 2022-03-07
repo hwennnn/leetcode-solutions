@@ -1,23 +1,17 @@
 class Solution:
-    def interpret(self, C: str) -> str:
+    def interpret(self, command: str) -> str:
+        stack = []
         
-        n = len(C)
-        i = 0
-        res = []
-        
-        while i < n:
-            if C[i] == "G":
-                res.append("G")
-                i += 1
-            elif C[i] == "(" and i + 1 < n and C[i+1] == ")":
-                res.append("o")
-                i += 2
-            elif C[i] == "(" and i + 3 < n and C[i:i+4] == "(al)":
-                res.append("al")
-                i += 4
-            else:
-                i += 1
+        for x in command:
+            stack.append(x)
             
+            if len(stack) >= 2 and stack[-2] + stack[-1] == "()":
+                stack.pop()
+                stack.pop()
+                stack.append("o")
+            elif len(stack) >= 4 and "".join(stack[-4:]) == "(al)":
+                for _ in range(4):
+                    stack.pop()
+                stack.append("al")
         
-        return "".join(res)
-            
+        return "".join(stack)
