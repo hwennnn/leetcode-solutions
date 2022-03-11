@@ -1,19 +1,22 @@
 class Solution:
-    def ladderLength(self, begin: str, end: str, wordList: List[str]) -> int:
-        s = set(wordList)
-        deq = collections.deque([(begin, 1)])
-        visited = set()
+    def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
+        n = len(beginWord)
+        wordList = set(wordList)
+        visited = set([beginWord])
+        if endWord not in wordList: return 0
         
-        while deq:
-            word, count = deq.popleft()
-            if word == end: return count
+        queue = deque([(beginWord, 1)])
+        
+        while queue:
+            word, steps = queue.popleft()
             
-            for i in range(len(word)):
-                for x in string.ascii_lowercase:
-                    w = word[:i] + x + word[i+1:] 
-
-                    if w in s and w not in visited:
-                        visited.add(w)
-                        deq.append((w, count+1))
+            if word == endWord: return steps
+            
+            for i in range(n):
+                for c in string.ascii_lowercase:
+                    new = word[:i] + c + word[i + 1:]
+                    if new in wordList and new not in visited:
+                        visited.add(new)
+                        queue.append((new, steps + 1))
         
         return 0
