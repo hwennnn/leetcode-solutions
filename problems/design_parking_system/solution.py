@@ -4,10 +4,12 @@ class ParkingSystem:
         self.A = [big, medium, small]
 
     def addCar(self, carType: int) -> bool:
-        if self.A[carType - 1] == 0: return False
+        carType -= 1
+        if self.A[carType] > 0:
+            self.A[carType] -= 1
+            return True
         
-        self.A[carType - 1] -= 1
-        return True
+        return False
 
 
 # Your ParkingSystem object will be instantiated and called as such:
