@@ -1,29 +1,29 @@
 class Solution:
     def openLock(self, deadends: List[str], target: str) -> int:
-        forbidden = set(deadends)
-        begin, end = set(['0000']), set([target])
-        level = 0
+        visited = set(["0000"])
+        queue = deque([("0000", 0)])
+        deadends = set(deadends)
+        if "0000" in deadends: return -1
         
-        while begin and end:
-            tmp = set()
+        while queue:
+            curr, steps = queue.popleft()
             
-            for lock in begin:
-                if lock in forbidden: continue
-                    
-                if lock in end: return level
-
-                forbidden.add(lock)
-
-                for i in range(4):
-                    w1 = lock[:i] + str((int(lock[i]) + 1) % 10) + lock[i + 1:]
-                    w2 = lock[:i] + str((int(lock[i]) - 1) % 10) + lock[i + 1:]
-
-                    for p in (w1, w2):
-                        if p not in forbidden:
-                            tmp.add(p)
-                            
-            begin = end
-            end = tmp
-            level += 1
+            if curr == target: return steps
             
+            ss = set()
+            
+            for i in range(4):
+                digit = (int(curr[i]) + 1) % 10
+                s = curr[:i] + str(digit) + curr[i + 1:]
+                ss.add(s)
+                
+                digit = (int(curr[i]) - 1) % 10
+                s = curr[:i] + str(digit) + curr[i + 1:]
+                ss.add(s)
+            
+            for word in ss:
+                if word not in deadends and word not in visited:
+                    visited.add(word)
+                    queue.append((word, steps + 1))
+        
         return -1
