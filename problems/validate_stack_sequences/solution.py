@@ -1,29 +1,14 @@
 class Solution:
-    def validateStackSequences(self, pushed: List[int], popped: List[int]):
+    def validateStackSequences(self, pushed: List[int], popped: List[int]) -> bool:
         n = len(pushed)
-        deq = deque()
-        right = j = 0
+        stack = []
+        curr = 0
         
-        for i,p in enumerate(pushed):
-            if p == popped[j]: 
-                right = i + 1
-                j += 1
-                break
-            else:
-                deq.append(p)
-
-        while j < n:  
-            if deq and deq[-1] == popped[j]:
-                deq.pop()
-                j += 1
-            elif right < n:
-                if pushed[right] == popped[j]:
-                    right += 1
-                    j += 1
-                else:
-                    deq.append(pushed[right])
-                    right += 1
-            else:
-                return False
+        for x in pushed:
+            stack.append(x)
             
-        return len(deq) == 0
+            while stack and curr < n and stack[-1] == popped[curr]:
+                stack.pop()
+                curr += 1
+            
+        return len(stack) == 0 and curr == n
