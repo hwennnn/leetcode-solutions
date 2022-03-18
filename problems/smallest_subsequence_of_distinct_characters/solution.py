@@ -1,15 +1,18 @@
 class Solution:
     def smallestSubsequence(self, s: str) -> str:
-        counter, visited, stack = collections.Counter(s), set(), []
+        stack = []
+        put = set()
+        counter = Counter(s)
         
-        for c in s:
-            counter[c] -= 1
-            if c in visited: continue
+        for x in s:
+            counter[x] -= 1
             
-            while stack and stack[-1] > c and counter[stack[-1]] > 0:
-                visited.remove(stack.pop())
+            if x in put: continue
+                
+            while stack and x < stack[-1] and counter[stack[-1]] > 0:
+                put.remove(stack.pop())
             
-            visited.add(c)
-            stack.append(c)
+            stack.append(x)
+            put.add(x)
         
         return "".join(stack)
