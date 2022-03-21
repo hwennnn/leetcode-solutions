@@ -13,7 +13,10 @@ class Solution:
             j -= 1
         
         s[i],s[j] = s[j],s[i]
+        
         s[i+1:] = reversed(s[i+1:])
+        
         res = int("".join(s))
         
-        return res if res <= (1 << 31 - 1) else -1
+        return res if res < (1 << 31) else -1 
+    
