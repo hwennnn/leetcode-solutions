@@ -1,11 +1,18 @@
 class Solution:
     def getSmallestString(self, n: int, k: int) -> str:
-        res = ["a" for _ in range(n)]
-        k -= n
+        last = []
         
-        for i in range(n-1, -1, -1):
-            x = min(k, 25)
-            k -= x
-            res[i] = chr(ord('a') + x)
+        while k >= 26 + n:
+            last.append("z")
+            n -= 1
+            k -= 26
+            
+        first = []
+        for i in range(n):
+            if i == n - 1:
+                first.append(chr(ord("a") + k - 1))
+            else:
+                first.append("a")
+                k -= 1
         
-        return "".join(res)
+        return "".join(first + last)
