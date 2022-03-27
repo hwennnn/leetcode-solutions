@@ -1,31 +1,14 @@
 class Solution:
     def findKthBit(self, n: int, k: int) -> str:
         
-        def helper(s):
+        @cache
+        def go(x):
+            if x <= 1: return "0"
             
-            temp = list(s)
-            new = []
+            last = go(x - 1)
             
-            for i in reversed(range(len(temp))):
-                if temp[i] == "0":
-                    new.append("1")
-                else:
-                    new.append("0")
-                    
-                
-            return "".join(new)
-    
+            r = "".join(["1" if c == "0" else "0" for c in last])
             
-            
-            return s
+            return go(x - 1) + "1" + r[::-1]
         
-        
-        s = "0"
-        
-        for i in range(1,n):
-            s = s + "1" + helper(s)
-
-        
-        
-        return s[k-1]
-            
+        return go(n)[k - 1]
