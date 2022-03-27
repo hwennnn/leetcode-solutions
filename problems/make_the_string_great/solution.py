@@ -1,14 +1,12 @@
 class Solution:
-    def makeGood(self, S: str) -> str:
-        
+    def makeGood(self, s: str) -> str:
         stack = []
         
-        for s in S:
-            
-            if stack and (stack[-1] != s and stack[-1].lower() == s.lower()):
+        for x in s:
+            stack.append(x)
+            while len(stack) >= 2 and stack[-1] != stack[-2] and stack[-1].upper() == stack[-2].upper():
                 stack.pop()
-            else:
-                stack.append(s)
+                stack.pop()
         
         return "".join(stack)
-                
+            
