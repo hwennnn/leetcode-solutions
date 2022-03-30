@@ -6,13 +6,14 @@ class Solution:
         
         while left <= right:
             mid = left + (right - left) // 2
-            x = matrix[mid // cols][mid % cols]
             
-            if x == target: 
+            r, c = divmod(mid, cols)
+            
+            if matrix[r][c] == target:
                 return True
-            elif x > target:
+            elif matrix[r][c] > target:
                 right = mid - 1
             else:
                 left = mid + 1
-            
+        
         return False
