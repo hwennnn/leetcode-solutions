@@ -1,22 +1,22 @@
 class AuthenticationManager:
 
     def __init__(self, timeToLive: int):
-        self.time = timeToLive
-        self.mp = collections.defaultdict(int)
+        self.expiredTime = timeToLive
+        self.tokens = defaultdict(int)
 
     def generate(self, tokenId: str, currentTime: int) -> None:
-        if tokenId not in self.mp:
-            self.mp[tokenId] = currentTime + self.time
+        self.tokens[tokenId] = currentTime + self.expiredTime
 
     def renew(self, tokenId: str, currentTime: int) -> None:
-        if tokenId in self.mp and currentTime < self.mp[tokenId]:
-            self.mp[tokenId] = currentTime + self.time
+        if tokenId not in self.tokens or currentTime >= self.tokens[tokenId]: return
+        
+        self.tokens[tokenId] = currentTime + self.expiredTime
 
     def countUnexpiredTokens(self, currentTime: int) -> int:
         res = 0
         
-        for key in self.mp:
-            if self.mp[key] > currentTime:
+        for x in self.tokens:
+            if self.tokens[x] > currentTime:
                 res += 1
         
         return res
