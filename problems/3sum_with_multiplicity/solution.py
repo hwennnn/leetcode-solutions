@@ -1,17 +1,17 @@
 class Solution:
     def threeSumMulti(self, arr: List[int], target: int) -> int:
+        n = len(arr)
+        count = Counter()
         M = 10 ** 9 + 7
-        counter = collections.Counter(arr)
         res = 0
         
-        for i, j in combinations_with_replacement(counter, 2):
-            k = target - i - j
+        for i in range(n):
+            res = (res + count[target - arr[i]]) % M
             
-            if i == j == k:
-                res += (counter[i] * (counter[i] - 1) * (counter[i] - 2)) // 6
-            elif i == j != k:
-                res += (counter[i] * (counter[i] - 1) // 2) * counter[k]
-            elif k > i and k > j:
-                res += counter[i] * counter[j] * counter[k]
+            for j in range(i):
+                m = arr[i] + arr[j]
+                
+                count[m] += 1
         
-        return res % M
+        return res
+        
