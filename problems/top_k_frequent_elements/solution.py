@@ -7,6 +7,13 @@ class Solution:
         for num,freq in c:
             buckets[freq].append(num)
             
-        arr = list(chain(*buckets))
+        res = []
+        pointer = len(buckets) - 1
         
-        return arr[::-1][:k]
+        while k > 0 and pointer >= 0:
+            while k > 0 and len(buckets[pointer]) > 0:
+                res.append(buckets[pointer].pop())
+                k -= 1
+            pointer -= 1
+            
+        return res
