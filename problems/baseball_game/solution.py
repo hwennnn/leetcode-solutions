@@ -2,16 +2,14 @@ class Solution:
     def calPoints(self, ops: List[str]) -> int:
         stack = []
         
-        for o in ops:
-            if o == "C": stack.pop()
-            
-            elif o == "D": 
-                stack.append(2 * stack[-1])
-            
-            elif o == "+":
+        for x in ops:
+            if x == "C":
+                stack.pop()
+            elif x == "D":
+                stack.append(stack[-1] * 2)
+            elif x == "+":
                 stack.append(stack[-1] + stack[-2])
-            
             else:
-                stack.append(int(o))
+                stack.append(int(x))
         
         return sum(stack)
