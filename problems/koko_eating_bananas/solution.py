@@ -1,15 +1,17 @@
 class Solution:
     def minEatingSpeed(self, piles: List[int], h: int) -> int:
+        n = len(piles)
+        
+        left, right = 1, 10 ** 18
         
         def good(k):
-            need = 0
+            count = 0
             
             for x in piles:
-                need += ceil(x / k)
+                count += x // k + int(x % k != 0)
             
-            return need <= h
-        
-        left, right = 1, max(piles)
+            return count <= h
+                
         
         while left < right:
             mid = left + (right - left) // 2
