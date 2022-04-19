@@ -1,13 +1,19 @@
 class Solution:
     def smallestDivisor(self, nums: List[int], threshold: int) -> int:
+        n = len(nums)
         
-        def good(d):
-            return sum(ceil(num/mid) for num in nums) <= threshold
-    
-        left, right = 1, 10**6
-    
+        left, right = 1, max(nums)
+        
+        def good(k):
+            count = 0
+            
+            for x in nums:
+                count += ceil(x / k)
+            
+            return count <= threshold
+        
         while left < right:
-            mid = (left+right)//2
+            mid = left + (right - left) // 2
             
             if good(mid):
                 right = mid
