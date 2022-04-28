@@ -3,7 +3,7 @@ class Solution:
         rows, cols = len(heights), len(heights[0])
         
         def good(k):
-            queue = collections.deque([(0, 0)])
+            queue = deque([(0, 0)])
             visited = set([(0, 0)])
             
             while queue:
@@ -12,15 +12,15 @@ class Solution:
                 if x == rows - 1 and y == cols - 1:
                     return True
                 
-                for dx, dy in [(x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)]:
-                    if 0 <= dx < rows and 0 <= dy < cols and abs(heights[dx][dy] - heights[x][y]) <= k and (dx, dy) not in visited:
-                        visited.add((dx, dy))
+                for dx, dy in ([(x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)]):
+                    if 0 <= dx < rows and 0 <= dy < cols and (dx, dy) not in visited and abs(heights[dx][dy] - heights[x][y]) <= k:
                         queue.append((dx, dy))
+                        visited.add((dx, dy))
             
             return False
         
         left, right = 0, 10 ** 6
-
+        
         while left < right:
             mid = left + (right - left) // 2
             
@@ -28,5 +28,5 @@ class Solution:
                 right = mid
             else:
                 left = mid + 1
-        
+            
         return left
