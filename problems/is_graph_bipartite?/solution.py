@@ -1,26 +1,26 @@
 class Solution:
     def isBipartite(self, graph: List[List[int]]) -> bool:
         n = len(graph)
+        color = defaultdict(int)
         
-        coloured = {}
-        
-        def go(node):
-            for nei in graph[node]:
-                if nei in coloured:
-                    if coloured[nei] != -coloured[node]:
+        def go(x):
+            for node in graph[x]:
+                if node not in color:
+                    color[node] = -color[x]
+                    if not go(node):
                         return False
                 else:
-                    coloured[nei] = -coloured[node]
-                    if not go(nei):
+                    if color[x] == color[node]:
                         return False
             
             return True
-                
         
-        for node in range(n):
-            if node not in coloured:
-                coloured[node] = 1
-                if not go(node):
+        for i in range(n):
+            if i not in color:
+                color[i] = 1
+                if not go(i):
                     return False
         
         return True
+                
+                
