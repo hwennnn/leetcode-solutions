@@ -1,16 +1,16 @@
 class Solution:
     def backspaceCompare(self, s: str, t: str) -> bool:
         
-        def getWords(s):
+        def check(A):
             stack = []
             
-            for c in s:
-                if c != '#':
-                    stack.append(c)
-                else:
+            for x in A:
+                if x == '#':
                     if stack:
                         stack.pop()
+                else:
+                    stack.append(x)
             
-            return "".join(stack)
+            return stack
         
-        return getWords(s) == getWords(t)
+        return check(s) == check(t)
