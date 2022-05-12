@@ -4,19 +4,17 @@ class Solution:
         res = []
         n = len(nums)
         
-        def backtrack(visited = set(), path = []):
+        def backtrack(mask, path):
             if len(path) == n:
                 res.append(path)
                 return
             
             for i in range(n):
-                if i in visited: continue
+                if mask & (1 << i) > 0: continue
                 
-                if i > 0 and nums[i] == nums[i - 1] and i - 1 not in visited: continue
+                if i > 0 and nums[i] == nums[i - 1] and mask & (1 << (i - 1)) > 0: continue
                 
-                visited.add(i)
-                backtrack(visited, path + [nums[i]])
-                visited.remove(i)
+                backtrack(mask | (1 << i), path + [nums[i]])
         
-        backtrack()
+        backtrack(0, [])
         return res
