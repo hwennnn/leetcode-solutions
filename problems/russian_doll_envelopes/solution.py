@@ -4,7 +4,7 @@ class Solution:
         
         nums = [j for _, j in en]
         
-        def lengthOfLIS(nums):
+        def lis(nums):
             stack = []
             for x in nums:
                 index = bisect_left(stack, x)
@@ -15,4 +15,4 @@ class Solution:
 
             return len(stack)
         
-        return lengthOfLIS(nums)
+        return lis(nums)
