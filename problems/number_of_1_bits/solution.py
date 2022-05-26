@@ -3,7 +3,8 @@ class Solution:
         res = 0
         
         while n > 0:
-            res += int(n & 1)
+            if n & 1:
+                res += 1
             n >>= 1
         
         return res
