@@ -6,8 +6,9 @@ class Solution:
         for i in range(n):
             for j in range(m):
                 if word1[i] == word2[j]:
-                    dp[i + 1][j + 1] = dp[i][j] + 1
+                    dp[i + 1][j + 1] = 1 + dp[i][j]
                 else:
                     dp[i + 1][j + 1] = max(dp[i + 1][j], dp[i][j + 1])
         
-        return n + m - 2 * dp[-1][-1]
+        return m + n - 2 * dp[-1][-1]
+        
