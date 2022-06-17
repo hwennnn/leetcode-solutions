@@ -6,19 +6,25 @@
 #         self.right = right
 class Solution:
     def minCameraCover(self, root: Optional[TreeNode]) -> int:
+        NO_CAMERA, HAS_CAMERA, NOT_NEEDED = 0, 1, 2
         res = 0
         
         def go(node):
             nonlocal res
             
-            if not node: return 2
+            if not node: return NOT_NEEDED
             
-            left, right = go(node.left), go(node.right)
+            l, r = go(node.left), go(node.right)
             
-            if left == 0 or right == 0:
+            if l == NO_CAMERA or r == NO_CAMERA:
                 res += 1
-                return 1
-            
-            return 2 if left == 1 or right == 1 else 0
+                return HAS_CAMERA
+            elif l == HAS_CAMERA or r == HAS_CAMERA:
+                return NOT_NEEDED
+            else:
+                return NO_CAMERA
         
-        return (go(root) == 0) + res
+        if go(root) == NO_CAMERA:
+            res += 1
+        
+        return res
