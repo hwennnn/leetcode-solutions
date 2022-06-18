@@ -2,17 +2,15 @@ class Solution:
     def isHappy(self, n: int) -> bool:
         seen = set()
         
-        while n != 1:
-            if n in seen: return False
-            
+        while n != 1 and n not in seen:
             seen.add(n)
-            m = 0
+            curr = 0
             
             while n > 0:
-                digit = n % 10
-                m += digit * digit
-                n //= 10
+                a, b = divmod(n, 10)
+                curr += b * b
+                n = a
             
-            n = m
-            
-        return True
+            n = curr
+        
+        return n == 1
