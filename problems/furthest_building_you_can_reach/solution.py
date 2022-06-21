@@ -5,15 +5,17 @@ class Solution:
         
         for i in range(n - 1):
             delta = heights[i + 1] - heights[i]
+            
             if delta > 0:
-                heapq.heappush(heap, delta)
+                heappush(heap, delta)
                 if ladders > 0:
                     ladders -= 1
                 else:
-                    use = heapq.heappop(heap)
+                    use = heappop(heap)
                     if bricks >= use:
                         bricks -= use
                     else:
                         return i
+                    
         
         return n - 1
