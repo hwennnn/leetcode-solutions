@@ -1,15 +1,16 @@
 class Solution:
-    def minDeletions(self, S: str) -> int:
-        c = collections.Counter(S)
+    def minDeletions(self, s: str) -> int:
+        count = Counter(s)
         res = 0
-        s = set()
+        seen = set()
         
-        for ch in c.values():
-            
-            while ch > 0 and ch in s:
+        for v in count.values():
+            while v > 0 and v in seen:
                 res += 1
-                ch -= 1
+                v -= 1
             
-            if ch > 0: s.add(ch)
-        
+            if v > 0:
+                seen.add(v)
+            
         return res
+        
