@@ -1,13 +1,13 @@
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
+        n = len(nums)
         total = sum(nums)
-        if total % 2 != 0: return False
-        
         target = total // 2
+        if total & 1: return False
         
-        s = 1
+        bits = 1
         
         for x in nums:
-            s |= (s << x)
+            bits |= (bits << x)
         
-        return (s & (1 << target)) != 0
+        return (bits & (1 << target)) > 0
