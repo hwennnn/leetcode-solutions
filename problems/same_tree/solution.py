@@ -5,8 +5,13 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def isSameTree(self, p: TreeNode, q: TreeNode) -> bool:
-        if p and q:
-            return p.val == q.val and self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
+    def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
         
-        return p is q
+        def go(A, B):
+            if not A and not B: return True
+            
+            if not A or not B: return False
+            
+            return A.val == B.val and go(A.left, B.left) and go(A.right, B.right)
+        
+        return go(p, q)
