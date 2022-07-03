@@ -1,8 +1,8 @@
 class TrieNode:
     
     def __init__(self):
-        self.hasWord = False
-        self.children = collections.defaultdict(TrieNode)
+        self.children = defaultdict(TrieNode)
+        self.hasEnd = False
 
 class Trie:
 
@@ -12,28 +12,30 @@ class Trie:
     def insert(self, word: str) -> None:
         curr = self.root
         
-        for w in word:
-            curr = curr.children[w]
+        for x in word:
+            curr = curr.children[x]
         
-        curr.hasWord = True
+        curr.hasEnd = True
 
     def search(self, word: str) -> bool:
         curr = self.root
         
-        for w in word:
-            if w not in curr.children:
+        for x in word:
+            if x not in curr.children:
                 return False
-            curr = curr.children[w]
+            
+            curr = curr.children[x]
         
-        return curr.hasWord
-    
+        return curr.hasEnd
+
     def startsWith(self, prefix: str) -> bool:
         curr = self.root
         
-        for w in prefix:
-            if w not in curr.children:
+        for x in prefix:
+            if x not in curr.children:
                 return False
-            curr = curr.children[w]
+            
+            curr = curr.children[x]
         
         return True
 
