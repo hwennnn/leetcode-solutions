@@ -1,26 +1,35 @@
+class DSU:
+    def __init__(self, n):
+        self.graph = list(range(n))
+
+    def find(self, x):
+        if self.graph[x] != x:
+            self.graph[x] = self.find(self.graph[x])
+
+        return self.graph[x]
+
+    def union(self, x, y):
+        ux, uy = self.find(x), self.find(y)
+        self.graph[ux] = uy
+
+    def connected(self, x, y):
+        return self.find(x) == self.find(y)
+
 class Solution:
-    def findCircleNum(self, isConnected: List[List[int]]) -> int:
-        n = len(isConnected)
-        graph = [[] for _ in range(n)]
-        visited = [False] * n
-        res = 0
+    def findCircleNum(self, G: List[List[int]]) -> int:
+        n = len(G)
+        uf = DSU(n)
         
-        for node, relations in enumerate(isConnected):
-            for nei, has in enumerate(relations):
-                if node == nei: continue
-                if has:
-                    graph[node].append(nei)
+        for node in range(n):
+            for nei in range(n):
+                if node == nei or G[node][nei] == 0: continue
+                
+                uf.union(node, nei)
         
-        def go(node):
-            visited[node] = True
-            
-            for nei in graph[node]:
-                if not visited[nei]:
-                    go(nei)
+        parents = set()
         
-        for i in range(n):
-            if not visited[i]:
-                res += 1
-                go(i)
+        for node in range(n):
+            p = uf.find(node)
+            parents.add(p)
         
-        return res
+        return len(parents)
