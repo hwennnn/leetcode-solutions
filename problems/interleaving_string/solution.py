@@ -1,18 +1,22 @@
 class Solution:
     def isInterleave(self, s1: str, s2: str, s3: str) -> bool:
-        n1, n2, n3 = len(s1), len(s2), len(s3)
-        if n1 + n2 != n3: return False
+        n, m, k = len(s1), len(s2), len(s3)
+        
+        if n + m != k: return False
         
         @cache
-        def helper(p1, p2):
-            if p1 + p2 == n3: return True
+        def go(a, b):
+            if a + b == k: 
+                return True
             
-            if p1 < n1 and s1[p1] == s3[p1 + p2]:
-                if helper(p1 + 1, p2): return True
-
-            if p2 < n2 and s2[p2] == s3[p1 + p2]:
-                if helper(p1, p2 + 1): return True
-
-            return False
+            res = False
+            
+            if a < n and s1[a] == s3[a + b]:
+                res |= go(a + 1, b)
+            
+            if b < m and s2[b] == s3[a + b]:
+                res |= go(a, b + 1)
+            
+            return res
         
-        return helper(0, 0)
+        return go(0, 0)
