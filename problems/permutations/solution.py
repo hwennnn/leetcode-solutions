@@ -3,14 +3,20 @@ class Solution:
         n = len(nums)
         res = []
         
-        def backtrack(curr, mask):
+        def go(curr, seen):
+            nonlocal res
+            
             if len(curr) == n:
-                res.append(curr)
+                res.append(curr[:])
                 return
             
-            for i in range(n):
-                if (mask >> i) & 1:
-                    backtrack(curr + [nums[i]], mask ^ (1 << i))
-                    
-        backtrack([], (1 << n) - 1)
+            for i, x in enumerate(nums):
+                if i in seen: continue
+                seen.add(i)
+                curr.append(x)
+                go(curr, seen)
+                seen.remove(i)
+                curr.pop()
+        
+        go([], set())
         return res
