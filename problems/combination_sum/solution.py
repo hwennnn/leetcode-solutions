@@ -2,20 +2,21 @@ class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         n = len(candidates)
         res = []
-        candidates.sort()
         
-        def go(index, total, curr):
+        def go(index, curr, total):
+            nonlocal res
+            
             if total == target:
                 res.append(curr)
                 return
             
-            if index == n: return
+            if index == n:
+                return
             
             for j in range(index, n):
-                if candidates[j] + total > target: break
-                    
-                go(j, total + candidates[j], curr + [candidates[j]])
+                if total + candidates[j] <= target:
+                    go(j, curr + [candidates[j]], total + candidates[j])
         
-        go(0, 0, [])
+        go(0, [], 0)
         
         return res
