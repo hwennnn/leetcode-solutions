@@ -7,13 +7,12 @@ class Solution:
             for j in range(cols):
                 if i >= 1:
                     dp[i][j] = max(dp[i][j], dp[i - 1][j] + points[i][j])
-                
-            for j in range(cols):
-                if j > 0:
-                    dp[i][j] = max(dp[i][j], dp[i][j - 1] - 1)
-            
-            for j in range(cols)[::-1]:
-                if j + 1 < cols:
-                    dp[i][j] = max(dp[i][j], dp[i][j + 1] - 1)
-                    
+
+            for j in range(1, cols):
+                dp[i][j] = max(dp[i][j], dp[i][j - 1] - 1)
+
+            for j in range(cols - 2, -1, -1):
+                dp[i][j] = max(dp[i][j], dp[i][j + 1] - 1)
+        
         return max(dp[-1])
+                
