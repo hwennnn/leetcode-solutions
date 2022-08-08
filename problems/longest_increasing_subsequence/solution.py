@@ -1,13 +1,13 @@
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
-        s = []
+        A = []
         
         for x in nums:
-            index = bisect_left(s, x)
+            index = bisect_left(A, x)
             
-            if index >= len(s):
-                s.append(x)
+            if index < len(A):
+                A[index] = x
             else:
-                s[index] = x
+                A.append(x)
         
-        return len(s)
+        return len(A)
