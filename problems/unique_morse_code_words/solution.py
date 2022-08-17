@@ -1,14 +1,16 @@
+table = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."]
+
 class Solution:
     def uniqueMorseRepresentations(self, words: List[str]) -> int:
-        morse = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."]
-        
-        s = set()
+        seen = set()
         
         for word in words:
-            w = []
-            for c in word:
-                w.append(morse[ord(c) - ord('a')])
+            s = []
             
-            s.add("".join(w))
+            for char in word:
+                o = ord(char) - ord("a")
+                s.append(table[o])
+            
+            seen.add("".join(s))
         
-        return len(s)
+        return len(seen)
