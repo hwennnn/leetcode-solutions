@@ -1,14 +1,13 @@
 class Solution:
     def minSetSize(self, arr: List[int]) -> int:
         n = len(arr)
-        t = (n + 1) // 2
-        count = collections.Counter(arr)
+        counter = Counter(arr)
+        A = sorted(counter.values())
+        curr = n
         res = 0
         
-        for v in sorted(count.values(), reverse = 1):
-            n -= v
+        while A and curr > n // 2:
+            curr -= A.pop() 
             res += 1
-            if n <= t: return res
         
         return res
-        
