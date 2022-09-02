@@ -5,24 +5,24 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def averageOfLevels(self, root: TreeNode) -> List[float]:
+    def averageOfLevels(self, root: Optional[TreeNode]) -> List[float]:
         res = []
-        deq = collections.deque([root])
         
-        while deq:
-            n = len(deq)
-            total = 0
+        dq = deque([root])
+        
+        while dq:
+            n = len(dq)
+            curr = 0
             
             for _ in range(n):
-                node = deq.popleft()
-                total += node.val
+                node = dq.popleft()
                 
-                for leaf in (node.left, node.right):
-                    if leaf:
-                        deq.append(leaf)
+                curr += node.val
                 
-            res.append(total/n)
-
+                for child in (node.left, node.right):
+                    if child:
+                        dq.append(child)
+            
+            res.append(curr / n)
+        
         return res
-        
-        
