@@ -1,21 +1,19 @@
 class Solution:
     def numsSameConsecDiff(self, n: int, k: int) -> List[int]:
-        res = set()
-        queue = deque([(x, 1) for x in range(1, 10)])
+        res = []
         
-        while queue:
-            x, length = queue.popleft()
+        def go(index, curr):
+            if index == n:
+                res.append(curr)
+                return
             
-            if length == n:
-                res.add(x)
-                continue
+            last = curr % 10
             
-            last = x % 10
-            
-            if last + k < 10:
-                queue.append((x * 10 + last + k, length + 1))
-            
-            if last - k >= 0:
-                queue.append((x * 10 + last - k, length + 1))
+            for nxt in {last + k, last - k}:
+                if 0 <= nxt < 10:
+                    go(index + 1, curr * 10 + nxt)
         
-        return list(res)
+        for x in range(1, 10):
+            go(1, x)
+        
+        return res
