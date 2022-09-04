@@ -6,26 +6,28 @@
 #         self.right = right
 class Solution:
     def verticalTraversal(self, root: Optional[TreeNode]) -> List[List[int]]:
-        mp = collections.defaultdict(list)
-        
-        queue = deque([(root, 0, 0)])
-        
-        while queue:
-            node, row, col = queue.popleft()
+        cols = defaultdict(list)
+
+        def dfs(node, R, C):
+            if not node: return
             
-            mp[col].append((row, node.val))
+            cols[C].append((C, R, node.val))
             
-            if node.left:
-                queue.append((node.left, row + 1, col - 1))
-            
-            if node.right:
-                queue.append((node.right, row + 1, col + 1))
+            dfs(node.left, R + 1, C - 1)
+            dfs(node.right, R + 1, C + 1)
         
-        n = len(mp)
+        dfs(root, 0, 0)
+        
+        keys = sorted(cols.keys())
         res = []
-        keys = sorted(mp.keys())
         
         for key in keys:
-            res.append(col for _, col in sorted(mp[key], key = lambda x : (x[0], x[1])))
+            cols[key].sort(key = lambda x : (x[0], x[1], x[2]))
+            curr = []
+            
+            for _, _, val in cols[key]:
+                curr.append(val)
+                
+            res.append(curr)
         
         return res
