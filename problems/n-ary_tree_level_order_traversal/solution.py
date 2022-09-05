@@ -11,19 +11,20 @@ class Solution:
         if not root: return []
         
         res = []
-        queue = deque([root])
         
-        while queue:
-            n = len(queue)
+        dq = deque([root])
+        
+        while dq:
+            n = len(dq)
             curr = []
             
             for _ in range(n):
-                node = queue.popleft()
+                node = dq.popleft()
                 curr.append(node.val)
+                
                 for child in node.children:
-                    queue.append(child)
+                    dq.append(child)
             
             res.append(curr)
-        
+                
         return res
-            
