@@ -5,17 +5,16 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def pruneTree(self, root: TreeNode) -> TreeNode:
+    def pruneTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
         
-        def pruning(root):
-            if not root: return None
+        def dfs(node):
+            if not node: return None
             
-            root.left = pruning(root.left)
-            root.right = pruning(root.right)
-            if root.val == 0 and not root.left and not root.right: return None
+            node.left = dfs(node.left)
+            node.right = dfs(node.right)
             
-            return root
-        
-        root = pruning(root)
-        
-        return root
+            if node.val == 0 and not node.left and not node.right: return None
+            
+            return node
+            
+        return dfs(root)
