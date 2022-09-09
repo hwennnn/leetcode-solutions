@@ -1,15 +1,15 @@
 class Solution:
     def maxOperations(self, nums: List[int], k: int) -> int:
-        n = len(nums)
-        A = Counter(sorted(nums))
+        counter = Counter(nums)
         res = 0
+        keys = sorted(counter.keys())
         
-        for x in A.keys():
+        for x in keys:
             if x > k: break
-            
+                
             target = k - x
             
-            if target in A:
-                res += min(A[x], A[target])
-            
+            d = min(counter[target], counter[x])
+            res += d
+        
         return res // 2
