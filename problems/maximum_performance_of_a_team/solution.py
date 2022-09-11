@@ -1,15 +1,17 @@
 class Solution:
     def maxPerformance(self, n: int, speed: List[int], efficiency: List[int], k: int) -> int:
+        M = 10 ** 9 + 7
         heap = []
-        res = ssum = 0
+        res = currSpeed = 0
         
-        for e, s in sorted(zip(efficiency, speed), reverse = True):
-            heapq.heappush(heap, s)    
-            ssum += s
+        for e, s in sorted(zip(efficiency, speed), reverse = 1):
+            currSpeed += s
+            heappush(heap, s)
             
             if len(heap) > k:
-                ssum -= heapq.heappop(heap)
+                currSpeed -= heappop(heap)
             
-            res = max(res, e * ssum)
+            res = max(res, e * currSpeed)
+            
+        return res % M
         
-        return res % (10 ** 9 + 7)
