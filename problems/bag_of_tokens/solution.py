@@ -1,21 +1,21 @@
 class Solution:
     def bagOfTokensScore(self, tokens: List[int], power: int) -> int:
         tokens.sort()
-        queue = deque(tokens)
-        res = scores = 0
+        N = len(tokens)
+        curr = res = 0
+        i, j = 0, N - 1
         
-        while queue:
-            if power >= queue[0]:
-                power -= queue.popleft()
-                scores += 1
-                res = max(res, scores)
-                continue
-            
-            if scores >= 1:
-                power += queue.pop()
-                scores -= 1
-                continue
-            
-            break
+        while i <= j:
+            if power >= tokens[i]:
+                curr += 1
+                res = max(res, curr)
+                power -= tokens[i]
+                i += 1
+            elif curr > 0:
+                curr -= 1
+                power += tokens[j]
+                j -= 1
+            else:
+                break
         
         return res
