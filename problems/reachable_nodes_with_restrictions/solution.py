@@ -1,28 +1,20 @@
 class Solution:
     def reachableNodes(self, n: int, edges: List[List[int]], restricted: List[int]) -> int:
-        graph = defaultdict(list)
-        visited = [False] * n
-        
-        for node in restricted:
-            visited[node] = True
-        
-        for x, y in edges:
-            graph[x].append(y)
-            graph[y].append(x)
-        
         res = 0
+        R = set(restricted)
+        visited = set()
+        G = defaultdict(list)
+        
+        for a, b in edges:
+            G[a].append(b)
+            G[b].append(a)
         
         def dfs(node):
-            nonlocal res
+            visited.add(node)
             
-            visited[node] = True
-            
-            res = 1
-            
-            for nei in graph[node]:
-                if not visited[nei]:
-                    res += dfs(nei)
-            
-            return res
-            
-        return dfs(0)
+            for nei in G[node]:
+                if nei not in R and nei not in visited:
+                    dfs(nei)
+        
+        dfs(0)
+        return len(visited)
