@@ -1,23 +1,22 @@
 class Solution:
     def validPartition(self, nums: List[int]) -> bool:
-        n = len(nums)
+        N = len(nums)
         
         @cache
         def go(index):
-            if index >= n:
-                return True
+            if index == N: return True
             
-            valid = False
+            res = False
             
-            if index + 1 < n and nums[index] == nums[index + 1]:
-                valid |= go(index + 2)
+            if index + 1 < N and nums[index] == nums[index + 1]:
+                res |= go(index + 2)
+            
+            if index + 2 < N and nums[index] == nums[index + 1] == nums[index + 2]:
+                res |= go(index + 3)
                 
-            if index + 2 < n and nums[index] == nums[index + 1] == nums[index + 2]:
-                valid |= go(index + 3)
-                
-            if index + 2 < n and nums[index] + 1 == nums[index + 1] and nums[index + 1] + 1 == nums[index + 2]:
-                valid |= go(index + 3)
+            if index + 2 < N and nums[index] + 1 == nums[index + 1] and nums[index + 1] + 1 == nums[index + 2]:
+                res |= go(index + 3)
             
-            return valid
-            
+            return res
+        
         return go(0)
