@@ -1,22 +1,29 @@
+from sortedcontainers import SortedList
+
 class Solution:
     def getSkyline(self, buildings: List[List[int]]) -> List[List[int]]:
-        events = [(left, -height, right) for left, right, height in buildings]
-        events += list(set((right, 0, 0) for _, right, _ in buildings))
-        events.sort()
+        events = defaultdict(list)
+
+        for left, right, height in buildings:
+            events[left].append((1, height))
+            events[right].append((-1, height))
         
-        res = [[0, 0]]
-        heap = [(0, float('inf'))]
-        
-        for pos, height, right in events:
+        sl = SortedList()
+        sl.add(0)
+        res = []
+        lastHeight = 0
+
+        for loc in sorted(events.keys()):
+            for t, height in events[loc]:
+                if t == 1:
+                    sl.add(height)
+                else:
+                    sl.remove(height)
             
-            while heap[0][1] <= pos:
-                heapq.heappop(heap)
-                
-            if height != 0:
-                heapq.heappush(heap, (height, right))
+            currHeight = sl[-1]
+            if currHeight != lastHeight:
+                res.append((loc, currHeight))
             
-            if res[-1][1] != -heap[0][0]:
-                res += [[pos, -heap[0][0]]]
-                
+            lastHeight = currHeight
         
-        return res[1:]
+        return res
