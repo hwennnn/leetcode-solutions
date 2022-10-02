@@ -1,15 +1,22 @@
 class Solution:
-    def numRollsToTarget(self, d: int, f: int, target: int) -> int:
+    def numRollsToTarget(self, n: int, k: int, target: int) -> int:
         M = 10 ** 9 + 7
         
         @cache
-        def dp(d, target):
-            if d == 0: return 1 if target == 0 else 0
+        def go(dices, total):
+            if dices == 0:
+                return int(total == target)
             
             count = 0
-            for k in range(max(0, target - f), target):
-                count += dp(d - 1, k)
             
-            return count
+            for x in range(1, k + 1):
+                if x + total > target: break
+                
+                count += go(dices - 1, x + total)
+                count %= M
             
-        return dp(d, target) % M
+            return count 
+        
+        return go(n, 0)
+                
+        
