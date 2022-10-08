@@ -9,8 +9,6 @@ class Solution:
             
             while j < k:
                 s = nums[i] + nums[j] + nums[k]
-                if abs(s - target) < abs(res - target):
-                    res = s
                 
                 if s == target:
                     return s
@@ -18,5 +16,8 @@ class Solution:
                     k -= 1
                 else:
                     j += 1
+                
+                if abs(s - target) < abs(res - target):
+                    res = s
         
         return res
