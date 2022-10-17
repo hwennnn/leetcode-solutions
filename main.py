@@ -42,7 +42,7 @@ def write_to_readme(problemList):
     difficultyColorList = [":green_circle:", ":orange_circle:", ":red_circle:"]
     base_url = "https://leetcode.com/problems"
     title = "# Leetcode Solutions"
-
+    leetcode_badge = "[![LeetCode user hwennn](https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=black&color=%23ffa116&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fhwennn&logo=leetcode&logoColor=yellow)](https://leetcode.com/hwennn/)"
     color_legend = "- :green_circle:: **Easy**\n" + \
         "- :orange_circle:: **Medium**\n" +\
         "- :red_circle:: **Hard**\n"
@@ -52,6 +52,7 @@ def write_to_readme(problemList):
 
     with open("README.md", "w") as fp:
         fp.write(title + "\n\n")
+        fp.write(leetcode_badge + "\n")
         fp.write(color_legend + "\n")
         fp.write(table_headers + "\n")
         fp.write(table_border + "\n")
