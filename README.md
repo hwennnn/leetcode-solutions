@@ -33,7 +33,7 @@
 :white_check_mark: | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group) | :red_circle:                         | [py](problems/reverse_nodes_in_k-group/solution.py) 
 :white_check_mark: | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | :green_circle:                         | [py](problems/remove_duplicates_from_sorted_array/solution.py) 
 :white_check_mark: | 27 | [Remove Element](https://leetcode.com/problems/remove-element) | :green_circle:                         | [py](problems/remove_element/solution.py) 
-[](check) | 28 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) | :orange_circle:                         |  
+:white_check_mark: | 28 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) | :orange_circle:                         | [py](problems/find_the_index_of_the_first_occurrence_in_a_string/solution.py)<br />[java](problems/find_the_index_of_the_first_occurrence_in_a_string/solution.java) 
 :white_check_mark: | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers) | :orange_circle:                         | [py](problems/divide_two_integers/solution.py) 
 :white_check_mark: | 30 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words) | :red_circle:                         | [cpp](problems/substring_with_concatenation_of_all_words/solution.cpp) 
 :white_check_mark: | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation) | :orange_circle:                         | [py](problems/next_permutation/solution.py) 
@@ -523,7 +523,7 @@
 [](check) | 515 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row) | :orange_circle:                         |  
 :white_check_mark: | 516 | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence) | :orange_circle:                         | [py](problems/longest_palindromic_subsequence/solution.py)<br />[cpp](problems/longest_palindromic_subsequence/solution.cpp) 
 [](check) | 517 | [Super Washing Machines](https://leetcode.com/problems/super-washing-machines) | :red_circle:                         |  
-[](check) | 518 | [Coin Change II](https://leetcode.com/problems/coin-change-ii) | :orange_circle:                         |  
+:white_check_mark: | 518 | [Coin Change II](https://leetcode.com/problems/coin-change-ii) | :orange_circle:                         | [py](problems/coin_change_ii/solution.py) 
 [](check) | 519 | [Random Flip Matrix](https://leetcode.com/problems/random-flip-matrix) | :orange_circle:                         |  
 :white_check_mark: | 520 | [Detect Capital](https://leetcode.com/problems/detect-capital) | :green_circle:                         | [py](problems/detect_capital/solution.py) 
 :white_check_mark: | 521 | [Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i) | :green_circle:                         | [py](problems/longest_uncommon_subsequence_i/solution.py) 
@@ -566,7 +566,7 @@
 [](check) | 558 | [Logical OR of Two Binary Grids Represented as Quad-Trees](https://leetcode.com/problems/logical-or-of-two-binary-grids-represented-as-quad-trees) | :orange_circle:                         |  
 :white_check_mark: | 559 | [Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree) | :green_circle:                         | [py](problems/maximum_depth_of_n-ary_tree/solution.py) 
 :white_check_mark: | 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) | :orange_circle:                         | [py](problems/subarray_sum_equals_k/solution.py) 
-[](check) | 561 | [Array Partition](https://leetcode.com/problems/array-partition) | :green_circle:                         |  
+:white_check_mark: | 561 | [Array Partition](https://leetcode.com/problems/array-partition) | :green_circle:                         | [py](problems/array_partition/solution.py) 
 [](check) | :lock: 562 | [Longest Line of Consecutive One in Matrix](https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix) | :orange_circle:                         |  
 :white_check_mark: | 563 | [Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt) | :green_circle:                         | [py](problems/binary_tree_tilt/solution.py) 
 [](check) | 564 | [Find the Closest Palindrome](https://leetcode.com/problems/find-the-closest-palindrome) | :red_circle:                         |  
@@ -1465,7 +1465,7 @@
 :white_check_mark: | 1457 | [Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree) | :orange_circle:                         | [py](problems/pseudo-palindromic_paths_in_a_binary_tree/solution.py) 
 [](check) | 1458 | [Max Dot Product of Two Subsequences](https://leetcode.com/problems/max-dot-product-of-two-subsequences) | :red_circle:                         |  
 [](check) | :lock: 1459 | [Rectangles Area](https://leetcode.com/problems/rectangles-area) | :orange_circle:                         |  
-[](check) | 1460 | [Make Two Arrays Equal by Reversing Subarrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays) | :green_circle:                         |  
+:white_check_mark: | 1460 | [Make Two Arrays Equal by Reversing Subarrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays) | :green_circle:                         | [py](problems/make_two_arrays_equal_by_reversing_subarrays/solution.py) 
 :white_check_mark: | 1461 | [Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k) | :orange_circle:                         | [py](problems/check_if_a_string_contains_all_binary_codes_of_size_k/solution.py) 
 [](check) | 1462 | [Course Schedule IV](https://leetcode.com/problems/course-schedule-iv) | :orange_circle:                         |  
 :white_check_mark: | 1463 | [Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii) | :red_circle:                         | [py](problems/cherry_pickup_ii/solution.py) 
@@ -1749,7 +1749,7 @@
 [](check) | 1741 | [Find Total Time Spent by Each Employee](https://leetcode.com/problems/find-total-time-spent-by-each-employee) | :green_circle:                         |  
 :white_check_mark: | 1742 | [Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box) | :green_circle:                         | [py](problems/maximum_number_of_balls_in_a_box/solution.py) 
 :white_check_mark: | 1743 | [Restore the Array From Adjacent Pairs](https://leetcode.com/problems/restore-the-array-from-adjacent-pairs) | :orange_circle:                         | [py](problems/restore_the_array_from_adjacent_pairs/solution.py) 
-[](check) | 1744 | [Can You Eat Your Favorite Candy on Your Favorite Day?](https://leetcode.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day) | :orange_circle:                         |  
+:white_check_mark: | 1744 | [Can You Eat Your Favorite Candy on Your Favorite Day?](https://leetcode.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day) | :orange_circle:                         | [py](problems/can_you_eat_your_favorite_candy_on_your_favorite_day?/solution.py) 
 [](check) | 1745 | [Palindrome Partitioning IV](https://leetcode.com/problems/palindrome-partitioning-iv) | :red_circle:                         |  
 [](check) | :lock: 1746 | [Maximum Subarray Sum After One Operation](https://leetcode.com/problems/maximum-subarray-sum-after-one-operation) | :orange_circle:                         |  
 [](check) | :lock: 1747 | [Leetflex Banned Accounts](https://leetcode.com/problems/leetflex-banned-accounts) | :orange_circle:                         |  
@@ -2442,3 +2442,11 @@
 :white_check_mark: | 2434 | [Using a Robot to Print the Lexicographically Smallest String](https://leetcode.com/problems/using-a-robot-to-print-the-lexicographically-smallest-string) | :orange_circle:                         | [py](problems/using_a_robot_to_print_the_lexicographically_smallest_string/solution.py) 
 :white_check_mark: | 2435 | [Paths in Matrix Whose Sum Is Divisible by K](https://leetcode.com/problems/paths-in-matrix-whose-sum-is-divisible-by-k) | :red_circle:                         | [py](problems/paths_in_matrix_whose_sum_is_divisible_by_k/solution.py)<br />[cpp](problems/paths_in_matrix_whose_sum_is_divisible_by_k/solution.cpp) 
 [](check) | :lock: 2436 | [Minimum Split Into Subarrays With GCD Greater Than One](https://leetcode.com/problems/minimum-split-into-subarrays-with-gcd-greater-than-one) | :orange_circle:                         |  
+:white_check_mark: | 2437 | [Number of Valid Clock Times](https://leetcode.com/problems/number-of-valid-clock-times) | :green_circle:                         | [py](problems/number_of_valid_clock_times/solution.py) 
+:white_check_mark: | 2438 | [Range Product Queries of Powers](https://leetcode.com/problems/range-product-queries-of-powers) | :orange_circle:                         | [py](problems/range_product_queries_of_powers/solution.py) 
+:white_check_mark: | 2439 | [Minimize Maximum of Array](https://leetcode.com/problems/minimize-maximum-of-array) | :orange_circle:                         | [py](problems/minimize_maximum_of_array/solution.py) 
+:white_check_mark: | 2440 | [Create Components With Same Value](https://leetcode.com/problems/create-components-with-same-value) | :red_circle:                         | [py](problems/create_components_with_same_value/solution.py) 
+:white_check_mark: | 2441 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative) | :green_circle:                         | [py](problems/largest_positive_integer_that_exists_with_its_negative/solution.py) 
+:white_check_mark: | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations) | :orange_circle:                         | [py](problems/count_number_of_distinct_integers_after_reverse_operations/solution.py) 
+:white_check_mark: | 2443 | [Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse) | :orange_circle:                         | [py](problems/sum_of_number_and_its_reverse/solution.py) 
+:white_check_mark: | 2444 | [Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds) | :red_circle:                         | [py](problems/count_subarrays_with_fixed_bounds/solution.py) 
