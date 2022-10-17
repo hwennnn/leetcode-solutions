@@ -1,4 +1,5 @@
 import re
+import urllib.parse
 from os import path
 
 import requests
@@ -27,7 +28,8 @@ def generate_problem_list():
             for language in languages:
                 fullPath = f"{filePath}/solution{language}"
                 if path.exists(fullPath):
-                    solutions.append((language[1:], fullPath))
+                    solutions.append(
+                        (language[1:], urllib.parse.quote(fullPath)))
 
         problem = Problem(questionId, problemName, problemSlug,
                           normalizedName, solutions, isPremium, difficulty)

@@ -13,7 +13,7 @@
 :white_check_mark: | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) | :orange_circle:                         | [py](problems/longest_palindromic_substring/solution.py) 
 [](check) | 6 | [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion) | :orange_circle:                         |  
 :white_check_mark: | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer) | :orange_circle:                         | [py](problems/reverse_integer/solution.py) 
-:white_check_mark: | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | :orange_circle:                         | [py](problems/string_to_integer_(atoi)/solution.py) 
+:white_check_mark: | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | :orange_circle:                         | [py](problems/string_to_integer_%28atoi%29/solution.py) 
 :white_check_mark: | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number) | :green_circle:                         | [py](problems/palindrome_number/solution.py) 
 [](check) | 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching) | :red_circle:                         |  
 :white_check_mark: | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) | :orange_circle:                         | [py](problems/container_with_most_water/solution.py) 
@@ -55,7 +55,7 @@
 :white_check_mark: | 47 | [Permutations II](https://leetcode.com/problems/permutations-ii) | :orange_circle:                         | [py](problems/permutations_ii/solution.py) 
 :white_check_mark: | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image) | :orange_circle:                         | [py](problems/rotate_image/solution.py) 
 :white_check_mark: | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams) | :orange_circle:                         | [py](problems/group_anagrams/solution.py) 
-:white_check_mark: | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | :orange_circle:                         | [py](problems/pow(x,_n)/solution.py) 
+:white_check_mark: | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | :orange_circle:                         | [py](problems/pow%28x%2C_n%29/solution.py) 
 :white_check_mark: | 51 | [N-Queens](https://leetcode.com/problems/n-queens) | :red_circle:                         | [py](problems/n-queens/solution.py) 
 :white_check_mark: | 52 | [N-Queens II](https://leetcode.com/problems/n-queens-ii) | :red_circle:                         | [py](problems/n-queens_ii/solution.py) 
 :white_check_mark: | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | :orange_circle:                         | [py](problems/maximum_subarray/solution.py) 
@@ -74,7 +74,7 @@
 :white_check_mark: | 66 | [Plus One](https://leetcode.com/problems/plus-one) | :green_circle:                         | [py](problems/plus_one/solution.py) 
 :white_check_mark: | 67 | [Add Binary](https://leetcode.com/problems/add-binary) | :green_circle:                         | [py](problems/add_binary/solution.py) 
 [](check) | 68 | [Text Justification](https://leetcode.com/problems/text-justification) | :red_circle:                         |  
-:white_check_mark: | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx) | :green_circle:                         | [py](problems/sqrt(x)/solution.py) 
+:white_check_mark: | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx) | :green_circle:                         | [py](problems/sqrt%28x%29/solution.py) 
 :white_check_mark: | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | :green_circle:                         | [py](problems/climbing_stairs/solution.py) 
 :white_check_mark: | 71 | [Simplify Path](https://leetcode.com/problems/simplify-path) | :orange_circle:                         | [py](problems/simplify_path/solution.py) 
 :white_check_mark: | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance) | :red_circle:                         | [py](problems/edit_distance/solution.py) 
@@ -123,8 +123,8 @@
 :white_check_mark: | 115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences) | :red_circle:                         | [py](problems/distinct_subsequences/solution.py) 
 :white_check_mark: | 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node) | :orange_circle:                         | [py](problems/populating_next_right_pointers_in_each_node/solution.py) 
 :white_check_mark: | 117 | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii) | :orange_circle:                         | [py](problems/populating_next_right_pointers_in_each_node_ii/solution.py) 
-:white_check_mark: | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle) | :green_circle:                         | [py](problems/pascal's_triangle/solution.py)<br />[java](problems/pascal's_triangle/solution.java) 
-:white_check_mark: | 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii) | :green_circle:                         | [py](problems/pascal's_triangle_ii/solution.py)<br />[cpp](problems/pascal's_triangle_ii/solution.cpp) 
+:white_check_mark: | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle) | :green_circle:                         | [py](problems/pascal%27s_triangle/solution.py)<br />[java](problems/pascal%27s_triangle/solution.java) 
+:white_check_mark: | 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii) | :green_circle:                         | [py](problems/pascal%27s_triangle_ii/solution.py)<br />[cpp](problems/pascal%27s_triangle_ii/solution.cpp) 
 :white_check_mark: | 120 | [Triangle](https://leetcode.com/problems/triangle) | :orange_circle:                         | [py](problems/triangle/solution.py) 
 :white_check_mark: | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | :green_circle:                         | [py](problems/best_time_to_buy_and_sell_stock/solution.py) 
 :white_check_mark: | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii) | :orange_circle:                         | [py](problems/best_time_to_buy_and_sell_stock_ii/solution.py) 
@@ -213,7 +213,7 @@
 :white_check_mark: | 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings) | :green_circle:                         | [py](problems/isomorphic_strings/solution.py) 
 :white_check_mark: | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | :green_circle:                         | [py](problems/reverse_linked_list/solution.py)<br />[cpp](problems/reverse_linked_list/solution.cpp) 
 :white_check_mark: | 207 | [Course Schedule](https://leetcode.com/problems/course-schedule) | :orange_circle:                         | [py](problems/course_schedule/solution.py) 
-:white_check_mark: | 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree) | :orange_circle:                         | [py](problems/implement_trie_(prefix_tree)/solution.py) 
+:white_check_mark: | 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree) | :orange_circle:                         | [py](problems/implement_trie_%28prefix_tree%29/solution.py) 
 :white_check_mark: | 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum) | :orange_circle:                         | [py](problems/minimum_size_subarray_sum/solution.py) 
 :white_check_mark: | 210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii) | :orange_circle:                         | [py](problems/course_schedule_ii/solution.py) 
 :white_check_mark: | 211 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure) | :orange_circle:                         | [py](problems/design_add_and_search_words_data_structure/solution.py) 
@@ -385,8 +385,8 @@
 :white_check_mark: | 377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv) | :orange_circle:                         | [py](problems/combination_sum_iv/solution.py) 
 :white_check_mark: | 378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix) | :orange_circle:                         | [py](problems/kth_smallest_element_in_a_sorted_matrix/solution.py) 
 [](check) | :lock: 379 | [Design Phone Directory](https://leetcode.com/problems/design-phone-directory) | :orange_circle:                         |  
-:white_check_mark: | 380 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1) | :orange_circle:                         | [py](problems/insert_delete_getrandom_o(1)/solution.py) 
-:white_check_mark: | 381 | [Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed) | :red_circle:                         | [py](problems/insert_delete_getrandom_o(1)_-_duplicates_allowed/solution.py) 
+:white_check_mark: | 380 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1) | :orange_circle:                         | [py](problems/insert_delete_getrandom_o%281%29/solution.py) 
+:white_check_mark: | 381 | [Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed) | :red_circle:                         | [py](problems/insert_delete_getrandom_o%281%29_-_duplicates_allowed/solution.py) 
 :white_check_mark: | 382 | [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node) | :orange_circle:                         | [py](problems/linked_list_random_node/solution.py)<br />[cpp](problems/linked_list_random_node/solution.cpp) 
 :white_check_mark: | 383 | [Ransom Note](https://leetcode.com/problems/ransom-note) | :green_circle:                         | [py](problems/ransom_note/solution.py) 
 :white_check_mark: | 384 | [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array) | :orange_circle:                         | [py](problems/shuffle_an_array/solution.py) 
@@ -475,7 +475,7 @@
 [](check) | 467 | [Unique Substrings in Wraparound String](https://leetcode.com/problems/unique-substrings-in-wraparound-string) | :orange_circle:                         |  
 [](check) | 468 | [Validate IP Address](https://leetcode.com/problems/validate-ip-address) | :orange_circle:                         |  
 [](check) | :lock: 469 | [Convex Polygon](https://leetcode.com/problems/convex-polygon) | :orange_circle:                         |  
-:white_check_mark: | 470 | [Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7) | :orange_circle:                         | [py](problems/implement_rand10()_using_rand7()/solution.py) 
+:white_check_mark: | 470 | [Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7) | :orange_circle:                         | [py](problems/implement_rand10%28%29_using_rand7%28%29/solution.py) 
 [](check) | :lock: 471 | [Encode String with Shortest Length](https://leetcode.com/problems/encode-string-with-shortest-length) | :red_circle:                         |  
 [](check) | 472 | [Concatenated Words](https://leetcode.com/problems/concatenated-words) | :red_circle:                         |  
 :white_check_mark: | 473 | [Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square) | :orange_circle:                         | [py](problems/matchsticks_to_square/solution.py) 
@@ -790,7 +790,7 @@
 :white_check_mark: | 782 | [Transform to Chessboard](https://leetcode.com/problems/transform-to-chessboard) | :red_circle:                         | [py](problems/transform_to_chessboard/solution.py) 
 :white_check_mark: | 783 | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes) | :green_circle:                         | [py](problems/minimum_distance_between_bst_nodes/solution.py) 
 :white_check_mark: | 784 | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation) | :orange_circle:                         | [py](problems/letter_case_permutation/solution.py) 
-:white_check_mark: | 785 | [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite) | :orange_circle:                         | [py](problems/is_graph_bipartite?/solution.py) 
+:white_check_mark: | 785 | [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite) | :orange_circle:                         | [py](problems/is_graph_bipartite%3F/solution.py) 
 [](check) | 786 | [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction) | :orange_circle:                         |  
 :white_check_mark: | 787 | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops) | :orange_circle:                         | [py](problems/cheapest_flights_within_k_stops/solution.py)<br />[java](problems/cheapest_flights_within_k_stops/solution.java) 
 :white_check_mark: | 788 | [Rotated Digits](https://leetcode.com/problems/rotated-digits) | :orange_circle:                         | [py](problems/rotated_digits/solution.py) 
@@ -1292,7 +1292,7 @@
 [](check) | 1284 | [Minimum Number of Flips to Convert Binary Matrix to Zero Matrix](https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix) | :red_circle:                         |  
 [](check) | :lock: 1285 | [Find the Start and End Number of Continuous Ranges](https://leetcode.com/problems/find-the-start-and-end-number-of-continuous-ranges) | :orange_circle:                         |  
 :white_check_mark: | 1286 | [Iterator for Combination](https://leetcode.com/problems/iterator-for-combination) | :orange_circle:                         | [py](problems/iterator_for_combination/solution.py) 
-:white_check_mark: | 1287 | [Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array) | :green_circle:                         | [py](problems/element_appearing_more_than_25%_in_sorted_array/solution.py) 
+:white_check_mark: | 1287 | [Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array) | :green_circle:                         | [py](problems/element_appearing_more_than_25%25_in_sorted_array/solution.py) 
 :white_check_mark: | 1288 | [Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals) | :orange_circle:                         | [py](problems/remove_covered_intervals/solution.py) 
 [](check) | 1289 | [Minimum Falling Path Sum II](https://leetcode.com/problems/minimum-falling-path-sum-ii) | :red_circle:                         |  
 :white_check_mark: | 1290 | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer) | :green_circle:                         | [py](problems/convert_binary_number_in_a_linked_list_to_integer/solution.py)<br />[cpp](problems/convert_binary_number_in_a_linked_list_to_integer/solution.cpp) 
@@ -1416,7 +1416,7 @@
 :white_check_mark: | 1408 | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array) | :green_circle:                         | [py](problems/string_matching_in_an_array/solution.py) 
 :white_check_mark: | 1409 | [Queries on a Permutation With Key](https://leetcode.com/problems/queries-on-a-permutation-with-key) | :orange_circle:                         | [py](problems/queries_on_a_permutation_with_key/solution.py) 
 :white_check_mark: | 1410 | [HTML Entity Parser](https://leetcode.com/problems/html-entity-parser) | :orange_circle:                         | [py](problems/html_entity_parser/solution.py) 
-:white_check_mark: | 1411 | [Number of Ways to Paint N × 3 Grid](https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid) | :red_circle:                         | [py](problems/number_of_ways_to_paint_n_×_3_grid/solution.py) 
+:white_check_mark: | 1411 | [Number of Ways to Paint N × 3 Grid](https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid) | :red_circle:                         | [py](problems/number_of_ways_to_paint_n_%C3%97_3_grid/solution.py) 
 [](check) | :lock: 1412 | [Find the Quiet Students in All Exams](https://leetcode.com/problems/find-the-quiet-students-in-all-exams) | :red_circle:                         |  
 :white_check_mark: | 1413 | [Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum) | :green_circle:                         | [py](problems/minimum_value_to_get_positive_step_by_step_sum/solution.py) 
 :white_check_mark: | 1414 | [Find the Minimum Number of Fibonacci Numbers Whose Sum Is K](https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k) | :orange_circle:                         | [py](problems/find_the_minimum_number_of_fibonacci_numbers_whose_sum_is_k/solution.py) 
@@ -1442,7 +1442,7 @@
 :white_check_mark: | 1434 | [Number of Ways to Wear Different Hats to Each Other](https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other) | :red_circle:                         | [py](problems/number_of_ways_to_wear_different_hats_to_each_other/solution.py) 
 [](check) | :lock: 1435 | [Create a Session Bar Chart](https://leetcode.com/problems/create-a-session-bar-chart) | :green_circle:                         |  
 :white_check_mark: | 1436 | [Destination City](https://leetcode.com/problems/destination-city) | :green_circle:                         | [py](problems/destination_city/solution.py) 
-:white_check_mark: | 1437 | [Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away) | :green_circle:                         | [py](problems/check_if_all_1's_are_at_least_length_k_places_away/solution.py) 
+:white_check_mark: | 1437 | [Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away) | :green_circle:                         | [py](problems/check_if_all_1%27s_are_at_least_length_k_places_away/solution.py) 
 :white_check_mark: | 1438 | [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) | :orange_circle:                         | [py](problems/longest_continuous_subarray_with_absolute_diff_less_than_or_equal_to_limit/solution.py) 
 [](check) | 1439 | [Find the Kth Smallest Sum of a Matrix With Sorted Rows](https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows) | :red_circle:                         |  
 [](check) | :lock: 1440 | [Evaluate Boolean Expression](https://leetcode.com/problems/evaluate-boolean-expression) | :orange_circle:                         |  
@@ -1581,7 +1581,7 @@
 :white_check_mark: | 1573 | [Number of Ways to Split a String](https://leetcode.com/problems/number-of-ways-to-split-a-string) | :orange_circle:                         | [py](problems/number_of_ways_to_split_a_string/solution.py) 
 :white_check_mark: | 1574 | [Shortest Subarray to be Removed to Make Array Sorted](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted) | :orange_circle:                         | [py](problems/shortest_subarray_to_be_removed_to_make_array_sorted/solution.py)<br />[cpp](problems/shortest_subarray_to_be_removed_to_make_array_sorted/solution.cpp) 
 [](check) | 1575 | [Count All Possible Routes](https://leetcode.com/problems/count-all-possible-routes) | :red_circle:                         |  
-:white_check_mark: | 1576 | [Replace All ?'s to Avoid Consecutive Repeating Characters](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters) | :green_circle:                         | [py](problems/replace_all_?'s_to_avoid_consecutive_repeating_characters/solution.py) 
+:white_check_mark: | 1576 | [Replace All ?'s to Avoid Consecutive Repeating Characters](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters) | :green_circle:                         | [py](problems/replace_all_%3F%27s_to_avoid_consecutive_repeating_characters/solution.py) 
 :white_check_mark: | 1577 | [Number of Ways Where Square of Number Is Equal to Product of Two Numbers](https://leetcode.com/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers) | :orange_circle:                         | [py](problems/number_of_ways_where_square_of_number_is_equal_to_product_of_two_numbers/solution.py) 
 :white_check_mark: | 1578 | [Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful) | :orange_circle:                         | [py](problems/minimum_time_to_make_rope_colorful/solution.py) 
 [](check) | 1579 | [Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable) | :red_circle:                         |  
@@ -1749,7 +1749,7 @@
 [](check) | 1741 | [Find Total Time Spent by Each Employee](https://leetcode.com/problems/find-total-time-spent-by-each-employee) | :green_circle:                         |  
 :white_check_mark: | 1742 | [Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box) | :green_circle:                         | [py](problems/maximum_number_of_balls_in_a_box/solution.py) 
 :white_check_mark: | 1743 | [Restore the Array From Adjacent Pairs](https://leetcode.com/problems/restore-the-array-from-adjacent-pairs) | :orange_circle:                         | [py](problems/restore_the_array_from_adjacent_pairs/solution.py) 
-:white_check_mark: | 1744 | [Can You Eat Your Favorite Candy on Your Favorite Day?](https://leetcode.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day) | :orange_circle:                         | [py](problems/can_you_eat_your_favorite_candy_on_your_favorite_day?/solution.py) 
+:white_check_mark: | 1744 | [Can You Eat Your Favorite Candy on Your Favorite Day?](https://leetcode.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day) | :orange_circle:                         | [py](problems/can_you_eat_your_favorite_candy_on_your_favorite_day%3F/solution.py) 
 [](check) | 1745 | [Palindrome Partitioning IV](https://leetcode.com/problems/palindrome-partitioning-iv) | :red_circle:                         |  
 [](check) | :lock: 1746 | [Maximum Subarray Sum After One Operation](https://leetcode.com/problems/maximum-subarray-sum-after-one-operation) | :orange_circle:                         |  
 [](check) | :lock: 1747 | [Leetflex Banned Accounts](https://leetcode.com/problems/leetflex-banned-accounts) | :orange_circle:                         |  
@@ -2129,7 +2129,7 @@
 :white_check_mark: | 2121 | [Intervals Between Identical Elements](https://leetcode.com/problems/intervals-between-identical-elements) | :orange_circle:                         | [py](problems/intervals_between_identical_elements/solution.py) 
 :white_check_mark: | 2122 | [Recover the Original Array](https://leetcode.com/problems/recover-the-original-array) | :red_circle:                         | [py](problems/recover_the_original_array/solution.py) 
 [](check) | :lock: 2123 | [Minimum Operations to Remove Adjacent Ones in Matrix](https://leetcode.com/problems/minimum-operations-to-remove-adjacent-ones-in-matrix) | :red_circle:                         |  
-:white_check_mark: | 2124 | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs) | :green_circle:                         | [py](problems/check_if_all_a's_appears_before_all_b's/solution.py) 
+:white_check_mark: | 2124 | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs) | :green_circle:                         | [py](problems/check_if_all_a%27s_appears_before_all_b%27s/solution.py) 
 :white_check_mark: | 2125 | [Number of Laser Beams in a Bank](https://leetcode.com/problems/number-of-laser-beams-in-a-bank) | :orange_circle:                         | [py](problems/number_of_laser_beams_in_a_bank/solution.py) 
 :white_check_mark: | 2126 | [Destroying Asteroids](https://leetcode.com/problems/destroying-asteroids) | :orange_circle:                         | [py](problems/destroying_asteroids/solution.py) 
 :white_check_mark: | 2127 | [Maximum Employees to Be Invited to a Meeting](https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting) | :red_circle:                         | [py](problems/maximum_employees_to_be_invited_to_a_meeting/solution.py) 
@@ -2139,7 +2139,7 @@
 :white_check_mark: | 2131 | [Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words) | :orange_circle:                         | [py](problems/longest_palindrome_by_concatenating_two_letter_words/solution.py) 
 :white_check_mark: | 2132 | [Stamping the Grid](https://leetcode.com/problems/stamping-the-grid) | :red_circle:                         | [py](problems/stamping_the_grid/solution.py) 
 :white_check_mark: | 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | :green_circle:                         | [py](problems/check_if_every_row_and_column_contains_all_numbers/solution.py) 
-:white_check_mark: | 2134 | [Minimum Swaps to Group All 1's Together II](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii) | :orange_circle:                         | [py](problems/minimum_swaps_to_group_all_1's_together_ii/solution.py) 
+:white_check_mark: | 2134 | [Minimum Swaps to Group All 1's Together II](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii) | :orange_circle:                         | [py](problems/minimum_swaps_to_group_all_1%27s_together_ii/solution.py) 
 :white_check_mark: | 2135 | [Count Words Obtained After Adding a Letter](https://leetcode.com/problems/count-words-obtained-after-adding-a-letter) | :orange_circle:                         | [py](problems/count_words_obtained_after_adding_a_letter/solution.py) 
 :white_check_mark: | 2136 | [Earliest Possible Day of Full Bloom](https://leetcode.com/problems/earliest-possible-day-of-full-bloom) | :red_circle:                         | [py](problems/earliest_possible_day_of_full_bloom/solution.py) 
 [](check) | :lock: 2137 | [Pour Water Between Buckets to Make Water Levels Equal](https://leetcode.com/problems/pour-water-between-buckets-to-make-water-levels-equal) | :orange_circle:                         |  
