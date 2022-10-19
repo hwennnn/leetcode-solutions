@@ -44,7 +44,7 @@
 :white_check_mark: | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position) | :green_circle:                         | [py](problems/search_insert_position/solution.py) 
 :white_check_mark: | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) | :orange_circle:                         | [py](problems/valid_sudoku/solution.py) 
 :white_check_mark: | 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver) | :red_circle:                         | [py](problems/sudoku_solver/solution.py) 
-[](check) | 38 | [Count and Say](https://leetcode.com/problems/count-and-say) | :orange_circle:                         |  
+:white_check_mark: | 38 | [Count and Say](https://leetcode.com/problems/count-and-say) | :orange_circle:                         | [py](problems/count_and_say/solution.py) 
 :white_check_mark: | 39 | [Combination Sum](https://leetcode.com/problems/combination-sum) | :orange_circle:                         | [py](problems/combination_sum/solution.py) 
 :white_check_mark: | 40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii) | :orange_circle:                         | [py](problems/combination_sum_ii/solution.py) 
 :white_check_mark: | 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive) | :red_circle:                         | [py](problems/first_missing_positive/solution.py)<br />[cpp](problems/first_missing_positive/solution.cpp) 
