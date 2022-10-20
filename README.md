@@ -2451,3 +2451,4 @@
 :white_check_mark: | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations) | :orange_circle:                         | [py](problems/count_number_of_distinct_integers_after_reverse_operations/solution.py) 
 :white_check_mark: | 2443 | [Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse) | :orange_circle:                         | [py](problems/sum_of_number_and_its_reverse/solution.py) 
 :white_check_mark: | 2444 | [Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds) | :red_circle:                         | [py](problems/count_subarrays_with_fixed_bounds/solution.py) 
+[](check) | :lock: 2445 | [Number of Nodes With Value One](https://leetcode.com/problems/number-of-nodes-with-value-one) | :orange_circle:                         |  
