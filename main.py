@@ -1,10 +1,13 @@
+import json
 import re
 import urllib.parse
-from os import path
+from fileinput import filename
+from os import makedirs, path
 
 import requests
 
 from model import Problem
+from utils import get
 
 
 def generate_problem_list():
@@ -31,11 +34,107 @@ def generate_problem_list():
                     solutions.append(
                         (language[1:], urllib.parse.quote(fullPath)))
 
+        readmePath = f"problems/{normalizedName}/README.md"
+
+        if not path.exists(readmePath) and not isPremium:
+            problemDetails = fetch_problem(problemSlug)
+            write_desc_to_readme(problemDetails)
+
         problem = Problem(questionId, problemName, problemSlug,
                           normalizedName, solutions, isPremium, difficulty)
         result.append(problem)
 
     return result
+
+
+def fetch_problem(slug):
+    query_params = {
+        'operationName': "getQuestionDetail",
+        'variables': {'titleSlug': slug},
+        'query': '''query getQuestionDetail($titleSlug: String!) {
+                            question(titleSlug: $titleSlug) {
+                                questionId
+                                questionFrontendId
+                                questionTitle
+                                questionTitleSlug
+                                content
+                                difficulty
+                                stats
+                                similarQuestions
+                                categoryTitle
+                                topicTags {
+                                name
+                                slug
+                            }
+                        }
+                    }'''
+    }
+
+    resp = requests.post(
+        "https://leetcode.com/graphql",
+        data=json.dumps(query_params).encode('utf8'),
+        headers={
+            "content-type": "application/json",
+        })
+    body = json.loads(resp.content)
+
+    # parse data
+    question = get(body, 'data.question')
+    question["normalized_title"] = re.sub(
+        "\s", "_", question["questionTitle"].lower())
+
+    display_id = question['questionFrontendId']
+    title = question["questionTitle"]
+    normalizedTitle = question["normalized_title"]
+    level = question["difficulty"]
+    description = question['content']
+    topics = question['topicTags']
+    link = "https://leetcode.com/problems/" + slug
+
+    data = {
+        "id": display_id,
+        "title": title,
+        "slug": slug,
+        "normalized_title": normalizedTitle,
+        "level": level,
+        "description": description,
+        "topics": topics,
+        "link": link,
+    }
+
+    filename = f"problems/{normalizedTitle}/data.json"
+    makedirs(path.dirname(filename), exist_ok=True)
+    with open(filename, 'w') as f:
+        json.dump(question, f)
+
+    return data
+
+
+def write_desc_to_readme(problem):
+    print(problem["id"], problem["title"])
+    with open('templates/PROBLEM_README.md') as f:
+        contents = f.read()
+        contents = contents.replace(
+            "question_description", problem["description"])
+        contents = contents.replace("question_id", problem["id"])
+        contents = contents.replace("question_title", problem["title"])
+        contents = contents.replace(
+            "question_link", problem["link"])
+
+        difficulty_badge = f"https://img.shields.io/badge/Difficulty-{problem['level']}-blue.svg"
+        contents = contents.replace("question_difficulty", difficulty_badge)
+
+        formattedTopics = ", ".join(
+            topic["name"] for topic in list(problem["topics"]))
+        formattedTopics = formattedTopics.replace("-", " ")
+        topics = f"https://img.shields.io/badge/Topics-{formattedTopics}-orange.svg"
+        topics = topics.replace(" ", "%20")
+        contents = contents.replace("question_topics", topics)
+
+        filename = "problems/" + problem["normalized_title"] + "/README.md"
+        makedirs(path.dirname(filename), exist_ok=True)
+        with open(filename, "w") as fp:
+            fp.write(contents)
 
 
 def write_to_readme(problemList):

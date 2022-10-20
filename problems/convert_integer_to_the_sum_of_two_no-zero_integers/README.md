@@ -1,0 +1,39 @@
+# [1317. Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers)
+
+![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg) ![Topics](https://img.shields.io/badge/Topics-Math-orange.svg)
+<br/>
+
+<p><strong>No-Zero integer</strong> is a positive integer that <strong>does not contain any <code>0</code></strong> in its decimal representation.</p>
+
+<p>Given an integer <code>n</code>, return <em>a list of two integers</em> <code>[A, B]</code> <em>where</em>:</p>
+
+<ul>
+	<li><code>A</code> and <code>B</code> are <strong>No-Zero integers</strong>.</li>
+	<li><code>A + B = n</code></li>
+</ul>
+
+<p>The test cases are generated so that there is at least one valid solution. If there are many valid solutions you can return any of them.</p>
+
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+
+<pre>
+<strong>Input:</strong> n = 2
+<strong>Output:</strong> [1,1]
+<strong>Explanation:</strong> A = 1, B = 1. A + B = n and both A and B do not contain any 0 in their decimal representation.
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> n = 11
+<strong>Output:</strong> [2,9]
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li><code>2 &lt;= n &lt;= 10<sup>4</sup></code></li>
+</ul>
+
