@@ -1,13 +1,16 @@
 class Solution:
-    def findErrorNums(self, nums: List[int]):
-        n = len(nums)
-        mp = collections.Counter(nums)
+    def findErrorNums(self, nums: List[int]) -> List[int]:
+        N = len(nums)
+        s = set()
+        dup = -1
+        total = N * (N + 1) // 2
         
-        twice = zero = None
+        for x in nums:
+            if x in s:
+                dup = x
+            else:
+                s.add(x)
+                total -= x
         
-        for i in range(1,n+1):
-            if mp[i] == 0: zero = i
-            elif mp[i] == 2: twice = i
-        
-        return [twice,zero]
+        return [dup, total]
         
