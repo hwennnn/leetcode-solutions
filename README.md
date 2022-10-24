@@ -647,7 +647,7 @@
 [](check) | 638 | [Shopping Offers](https://leetcode.com/problems/shopping-offers) | :orange_circle:                         |  
 :white_check_mark: | 639 | [Decode Ways II](https://leetcode.com/problems/decode-ways-ii) | :red_circle:                         | [py](problems/decode_ways_ii/solution.py) 
 [](check) | 640 | [Solve the Equation](https://leetcode.com/problems/solve-the-equation) | :orange_circle:                         |  
-[](check) | 641 | [Design Circular Deque](https://leetcode.com/problems/design-circular-deque) | :orange_circle:                         |  
+:white_check_mark: | 641 | [Design Circular Deque](https://leetcode.com/problems/design-circular-deque) | :orange_circle:                         | [py](problems/design_circular_deque/solution.py) 
 [](check) | :lock: 642 | [Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system) | :red_circle:                         |  
 :white_check_mark: | 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i) | :green_circle:                         | [py](problems/maximum_average_subarray_i/solution.py) 
 [](check) | :lock: 644 | [Maximum Average Subarray II](https://leetcode.com/problems/maximum-average-subarray-ii) | :red_circle:                         |  
@@ -773,7 +773,7 @@
 :white_check_mark: | 764 | [Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign) | :orange_circle:                         | [py](problems/largest_plus_sign/solution.py) 
 [](check) | 765 | [Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands) | :red_circle:                         |  
 [](check) | 766 | [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix) | :green_circle:                         |  
-[](check) | 767 | [Reorganize String](https://leetcode.com/problems/reorganize-string) | :orange_circle:                         |  
+:white_check_mark: | 767 | [Reorganize String](https://leetcode.com/problems/reorganize-string) | :orange_circle:                         | [py](problems/reorganize_string/solution.py) 
 [](check) | 768 | [Max Chunks To Make Sorted II](https://leetcode.com/problems/max-chunks-to-make-sorted-ii) | :red_circle:                         |  
 :white_check_mark: | 769 | [Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted) | :orange_circle:                         | [cpp](problems/max_chunks_to_make_sorted/solution.cpp) 
 [](check) | 770 | [Basic Calculator IV](https://leetcode.com/problems/basic-calculator-iv) | :red_circle:                         |  
@@ -2452,3 +2452,7 @@
 :white_check_mark: | 2443 | [Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse) | :orange_circle:                         | [py](problems/sum_of_number_and_its_reverse/solution.py) 
 :white_check_mark: | 2444 | [Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds) | :red_circle:                         | [py](problems/count_subarrays_with_fixed_bounds/solution.py) 
 [](check) | :lock: 2445 | [Number of Nodes With Value One](https://leetcode.com/problems/number-of-nodes-with-value-one) | :orange_circle:                         |  
+:white_check_mark: | 2446 | [Determine if Two Events Have Conflict](https://leetcode.com/problems/determine-if-two-events-have-conflict) | :green_circle:                         | [py](problems/determine_if_two_events_have_conflict/solution.py) 
+:white_check_mark: | 2447 | [Number of Subarrays With GCD Equal to K](https://leetcode.com/problems/number-of-subarrays-with-gcd-equal-to-k) | :orange_circle:                         | [py](problems/number_of_subarrays_with_gcd_equal_to_k/solution.py) 
+:white_check_mark: | 2448 | [Minimum Cost to Make Array Equal](https://leetcode.com/problems/minimum-cost-to-make-array-equal) | :red_circle:                         | [py](problems/minimum_cost_to_make_array_equal/solution.py) 
+:white_check_mark: | 2449 | [Minimum Number of Operations to Make Arrays Similar](https://leetcode.com/problems/minimum-number-of-operations-to-make-arrays-similar) | :red_circle:                         | [py](problems/minimum_number_of_operations_to_make_arrays_similar/solution.py) 
