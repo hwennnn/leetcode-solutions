@@ -1,13 +1,26 @@
 class Solution:
     def maxLength(self, arr: List[str]) -> int:
-        dp = [set()]
+        N = len(arr)
         
-        for a in arr:
-            if len(set(a)) < len(a): continue
+        @cache
+        def go(index, mask):
+            if index == N: return 0
             
-            a = set(a)
-            for b in dp[:]:
-                if a & b: continue
-                dp.append(a | b)
-        
-        return max(len(x) for x in dp)
+            res = go(index + 1, mask)
+            valid = True
+            curr = mask
+            
+            for char in arr[index]:
+                k = ord(char) - ord("a")
+                if curr & (1 << k) > 0:
+                    valid = False
+                    break
+                else:
+                    curr ^= (1 << k)
+            
+            if valid:  
+                res = max(res, len(arr[index]) + go(index + 1, curr))
+            
+            return res
+                
+        return go(0, 0)
