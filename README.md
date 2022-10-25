@@ -449,7 +449,7 @@
 [](check) | 440 | [K-th Smallest in Lexicographical Order](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order) | :red_circle:                         |  
 :white_check_mark: | 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins) | :green_circle:                         | [py](problems/arranging_coins/solution.py) 
 :white_check_mark: | 442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array) | :orange_circle:                         | [py](problems/find_all_duplicates_in_an_array/solution.py) 
-[](check) | 443 | [String Compression](https://leetcode.com/problems/string-compression) | :orange_circle:                         |  
+:white_check_mark: | 443 | [String Compression](https://leetcode.com/problems/string-compression) | :orange_circle:                         | [py](problems/string_compression/solution.py) 
 [](check) | :lock: 444 | [Sequence Reconstruction](https://leetcode.com/problems/sequence-reconstruction) | :orange_circle:                         |  
 :white_check_mark: | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii) | :orange_circle:                         | [py](problems/add_two_numbers_ii/solution.py) 
 :white_check_mark: | 446 | [Arithmetic Slices II - Subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence) | :red_circle:                         | [py](problems/arithmetic_slices_ii_-_subsequence/solution.py) 
