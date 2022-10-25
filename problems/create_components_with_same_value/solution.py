@@ -8,35 +8,35 @@ class Solution:
             graph[a].append(b)
             graph[b].append(a)
         
-        def good(k):
-            if total % k != 0: return False
+        def good(divisor):
+            if total % divisor != 0: return False
             
-            target = total // k
-            visited = [False] * N
+            target = total // divisor
             count = 0
+            visited = [False] * N
             
-            def go(node):
+            def dfs(node):
                 nonlocal count
                 
-                if visited[node]: return 0
+                if visited[node]: return 0    
                 visited[node] = True
                 
-                currSum = nums[node]
+                curr = nums[node]
+                
                 for nei in graph[node]:
-                    currSum += go(nei)
+                    curr += dfs(nei)
                 
-                if currSum == target:
+                if curr == target:
                     count += 1
-                    return 0
+                    curr = 0
                 
-                return currSum 
-            
-            go(0)
-
-            return count == k
+                return curr
+                
+            dfs(0)
+            return count == divisor
         
-        for i in range(N, 0, -1):
-            if good(i):
-                return i - 1
+        for divisor in range(N, 0, -1):
+            if good(divisor):
+                return divisor - 1
         
         return 0
