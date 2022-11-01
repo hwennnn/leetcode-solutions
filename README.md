@@ -772,7 +772,7 @@
 :white_check_mark: | 763 | [Partition Labels](https://leetcode.com/problems/partition-labels) | :orange_circle:                         | [py](problems/partition_labels/solution.py)<br />[cpp](problems/partition_labels/solution.cpp) 
 :white_check_mark: | 764 | [Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign) | :orange_circle:                         | [py](problems/largest_plus_sign/solution.py) 
 [](check) | 765 | [Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands) | :red_circle:                         |  
-[](check) | 766 | [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix) | :green_circle:                         |  
+:white_check_mark: | 766 | [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix) | :green_circle:                         | [py](problems/toeplitz_matrix/solution.py) 
 :white_check_mark: | 767 | [Reorganize String](https://leetcode.com/problems/reorganize-string) | :orange_circle:                         | [py](problems/reorganize_string/solution.py) 
 [](check) | 768 | [Max Chunks To Make Sorted II](https://leetcode.com/problems/max-chunks-to-make-sorted-ii) | :red_circle:                         |  
 :white_check_mark: | 769 | [Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted) | :orange_circle:                         | [cpp](problems/max_chunks_to_make_sorted/solution.cpp) 
