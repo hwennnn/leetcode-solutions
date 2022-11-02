@@ -2465,3 +2465,4 @@
 :white_check_mark: | 2456 | [Most Popular Video Creator](https://leetcode.com/problems/most-popular-video-creator) | :orange_circle:                         | [py](problems/most_popular_video_creator/solution.py) 
 :white_check_mark: | 2457 | [Minimum Addition to Make Integer Beautiful](https://leetcode.com/problems/minimum-addition-to-make-integer-beautiful) | :orange_circle:                         | [py](problems/minimum_addition_to_make_integer_beautiful/solution.py) 
 :white_check_mark: | 2458 | [Height of Binary Tree After Subtree Removal Queries](https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries) | :red_circle:                         | [py](problems/height_of_binary_tree_after_subtree_removal_queries/solution.py) 
+[](check) | :lock: 2459 | [Sort Array by Moving Items to Empty Space](https://leetcode.com/problems/sort-array-by-moving-items-to-empty-space) | :red_circle:                         |  
