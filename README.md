@@ -218,7 +218,7 @@
 :white_check_mark: | 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum) | :orange_circle:                         | [py](problems/minimum_size_subarray_sum/solution.py) 
 :white_check_mark: | 210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii) | :orange_circle:                         | [py](problems/course_schedule_ii/solution.py) 
 :white_check_mark: | 211 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure) | :orange_circle:                         | [py](problems/design_add_and_search_words_data_structure/solution.py) 
-:white_check_mark: | 212 | [Word Search II](https://leetcode.com/problems/word-search-ii) | :red_circle:                         | [py](problems/word_search_ii/solution.py) 
+:white_check_mark: | 212 | [Word Search II](https://leetcode.com/problems/word-search-ii) | :red_circle:                         | [py](problems/word_search_ii/solution.py)<br />[cpp](problems/word_search_ii/solution.cpp) 
 :white_check_mark: | 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii) | :orange_circle:                         | [py](problems/house_robber_ii/solution.py)<br />[cpp](problems/house_robber_ii/solution.cpp) 
 [](check) | 214 | [Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome) | :red_circle:                         |  
 :white_check_mark: | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array) | :orange_circle:                         | [py](problems/kth_largest_element_in_an_array/solution.py) 
