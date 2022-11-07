@@ -1,10 +1,17 @@
 class Solution:
     def maximum69Number (self, num: int) -> int:
-        num = list(str(num))
+        k = -1
+        p = 0
+        curr = num
         
-        for i in range(len(num)):
-            if num[i] == "6":
-                num[i] = "9"
-                break     
+        while curr > 0:
+            d = curr % 10
+            if d == 6:
+                k = p
+                
+            p += 1  
+            curr //= 10
+         
+        if k == -1: return num
         
-        return int("".join(num))
+        return num + 3 * 10 ** k
