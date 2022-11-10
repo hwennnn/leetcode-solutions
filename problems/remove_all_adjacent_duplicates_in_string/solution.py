@@ -2,10 +2,13 @@ class Solution:
     def removeDuplicates(self, s: str) -> str:
         stack = []
         
-        for c in s:
-            if stack and stack[-1] == c:
+        for x in s:
+            stack.append(x)
+            
+            while len(stack) >= 2 and stack[-1] == stack[-2]:
                 stack.pop()
-            else:
-                stack.append(c)
+                stack.pop()
         
         return "".join(stack)
+
+
