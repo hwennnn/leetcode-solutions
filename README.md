@@ -2470,3 +2470,4 @@
 :white_check_mark: | 2461 | [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k) | :orange_circle:                         | [py](problems/maximum_sum_of_distinct_subarrays_with_length_k/solution.py) 
 :white_check_mark: | 2462 | [Total Cost to Hire K Workers](https://leetcode.com/problems/total-cost-to-hire-k-workers) | :orange_circle:                         | [py](problems/total_cost_to_hire_k_workers/solution.py) 
 :white_check_mark: | 2463 | [Minimum Total Distance Traveled](https://leetcode.com/problems/minimum-total-distance-traveled) | :red_circle:                         | [py](problems/minimum_total_distance_traveled/solution.py) 
+[](check) | :lock: 2464 | [Minimum Subarrays in a Valid Split](https://leetcode.com/problems/minimum-subarrays-in-a-valid-split) | :orange_circle:                         |  
