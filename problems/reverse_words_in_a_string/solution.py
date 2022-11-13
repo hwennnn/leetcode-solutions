@@ -2,13 +2,13 @@ class Solution:
     def reverseWords(self, s: str) -> str:
         res = []
         curr = ""
-        
-        for c in s + " ":
-            if c == " ":
+
+        for x in s + " ":
+            if x == " ":
                 if curr:
                     res.append(curr)
-                curr = ""
+                    curr = ""
             else:
-                curr += c
-        
+                curr += x
+
         return " ".join(res[::-1])
