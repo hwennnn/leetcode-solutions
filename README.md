@@ -2471,3 +2471,7 @@
 :white_check_mark: | 2462 | [Total Cost to Hire K Workers](https://leetcode.com/problems/total-cost-to-hire-k-workers) | :orange_circle:                         | [py](problems/total_cost_to_hire_k_workers/solution.py) 
 :white_check_mark: | 2463 | [Minimum Total Distance Traveled](https://leetcode.com/problems/minimum-total-distance-traveled) | :red_circle:                         | [py](problems/minimum_total_distance_traveled/solution.py) 
 [](check) | :lock: 2464 | [Minimum Subarrays in a Valid Split](https://leetcode.com/problems/minimum-subarrays-in-a-valid-split) | :orange_circle:                         |  
+:white_check_mark: | 2465 | [Number of Distinct Averages](https://leetcode.com/problems/number-of-distinct-averages) | :green_circle:                         | [py](problems/number_of_distinct_averages/solution.py) 
+:white_check_mark: | 2466 | [Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings) | :orange_circle:                         | [py](problems/count_ways_to_build_good_strings/solution.py) 
+:white_check_mark: | 2467 | [Most Profitable Path in a Tree](https://leetcode.com/problems/most-profitable-path-in-a-tree) | :orange_circle:                         | [py](problems/most_profitable_path_in_a_tree/solution.py) 
+:white_check_mark: | 2468 | [Split Message Based on Limit](https://leetcode.com/problems/split-message-based-on-limit) | :red_circle:                         | [py](problems/split_message_based_on_limit/solution.py) 
