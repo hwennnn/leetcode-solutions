@@ -1,47 +1,51 @@
-class DSU:
-    def __init__(self, n):
-        self.graph = list(range(n))
+class UnionFind:
+    def __init__(self):
+        self._parent = {}
+        self._size = {}
+
+    def union(self, a, b):
+        a, b = self.find(a), self.find(b)
+        if a == b:
+            return
+        if self._size[a] < self._size[b]:
+            a, b = b, a
+        self._parent[b] = a
+        self._size[a] += self._size[b]
 
     def find(self, x):
-        if self.graph[x] != x:
-            self.graph[x] = self.find(self.graph[x])
-
-        return self.graph[x]
-
-    def union(self, x, y):
-        ux, uy = self.find(x), self.find(y)
-        self.graph[ux] = uy
-
-    def connected(self, x, y):
-        return self.find(x) == self.find(y)
-
+        if x not in self._parent:
+            self._parent[x] = x
+            self._size[x] = 1
+        while self._parent[x] != x:
+            self._parent[x] = self._parent[self._parent[x]]
+            x = self._parent[x]
+        return x
 
 class Solution:
     def removeStones(self, stones: List[List[int]]) -> int:
-        n = len(stones)
-        rows = defaultdict(list)
-        cols = defaultdict(list)
+        N = len(stones)
+        uf = UnionFind()
+        R = defaultdict(list)
+        C = defaultdict(list)
+
+        for index, (x, y) in enumerate(stones):
+            R[x].append(index)
+            C[y].append(index)
         
-        for i, (x, y) in enumerate(stones):
-            rows[x].append(i)
-            cols[y].append(i)
+        for values in R.values():
+            for i in range(1, len(values)):
+                uf.union(values[i], values[i - 1])
         
-        dsu = DSU(n)
-        
-        for row in rows.values():
-            for i in range(len(row)):
-                for j in range(i + 1, len(row)):
-                    dsu.union(row[i], row[j])
-        
-        for col in cols.values():
-            for i in range(len(col)):
-                for j in range(i + 1, len(col)):
-                    dsu.union(col[i], col[j])
+        for values in C.values():
+            for i in range(1, len(values)):
+                uf.union(values[i], values[i - 1])
         
         parents = set()
+        for i in range(N):
+            parent = uf.find(i)
+            parents.add(parent)
         
-        for node in range(n):
-            p = dsu.find(node)
-            parents.add(p)
-        
-        return n - len(parents)
+        return N - len(parents)
+
+
+
