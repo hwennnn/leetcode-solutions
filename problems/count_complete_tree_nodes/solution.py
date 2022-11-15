@@ -25,4 +25,3 @@ class Solution:
             return (1 << left) - 1
         else:
             return 1 + self.countNodes(root.left) + self.countNodes(root.right)
-        
