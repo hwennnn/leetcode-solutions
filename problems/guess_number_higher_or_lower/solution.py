@@ -1,19 +1,21 @@
 # The guess API is already defined for you.
 # @param num, your guess
-# @return -1 if my number is lower, 1 if my number is higher, otherwise return 0
+# @return -1 if num is higher than the picked number
+#          1 if num is lower than the picked number
+#          otherwise return 0
 # def guess(num: int) -> int:
 
 class Solution:
     def guessNumber(self, n: int) -> int:
         left, right = 1, n
-        
+
         while left < right:
             mid = left + (right - left) // 2
-            g = guess(mid)
+            r = guess(mid)
 
-            if g == 0: 
+            if r == 0:
                 return mid
-            elif g == -1:
+            elif r == -1:
                 right = mid - 1
             else:
                 left = mid + 1
