@@ -1,46 +1,26 @@
 class Solution:
     def splitMessage(self, message: str, limit: int) -> List[str]:
         N = len(message)
+        parts = digits = 1
+        
+        def sz(x): return len(str(x))
 
-        def good(k):
-            i = 0
-            total = len(str(k))
-            curr = 1
-            parts = 0
-            
-            while i < N:
-                suf = len(str(curr)) + total + 3
-                pref = limit - suf
-                if pref < 0: return False
-                parts += 1
-                i += pref
-                curr += 1
-            
-            return parts <= k
-                
-        
-        left, right = 1, N
-        
-        while left < right:
-            mid = left + (right - left) // 2
-            
-            if good(mid):
-                right = mid
-            else:
-                left = mid + 1
+        while parts * (sz(parts) + 3) + digits + N > parts * limit:
+            if 3 + sz(parts) * 2 > limit: return []
+            parts += 1
+            digits += sz(parts)
         
         i = 0
         curr = 1
         res = []
 
         while i < N:
-            suf = len(str(curr)) + len(str(left)) + 3
+            suf = sz(curr) + sz(parts) + 3
             pref = limit - suf
-            if pref < 0: return []
-            word = message[i : min(N, i + pref)] + "<" + str(curr) + "/" + str(left) + ">"
-            if len(word) > limit: return []
+            word = message[i : min(N, i + pref)] + "<" + str(curr) + "/" + str(parts) + ">"
             res.append(word)
             i += pref
             curr += 1
-
+        
         return res
+
