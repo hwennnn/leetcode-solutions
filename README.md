@@ -229,7 +229,7 @@
 :white_check_mark: | 220 | [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii) | :red_circle:                         | [py](problems/contains_duplicate_iii/solution.py) 
 :white_check_mark: | 221 | [Maximal Square](https://leetcode.com/problems/maximal-square) | :orange_circle:                         | [py](problems/maximal_square/solution.py) 
 :white_check_mark: | 222 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes) | :orange_circle:                         | [py](problems/count_complete_tree_nodes/solution.py) 
-[](check) | 223 | [Rectangle Area](https://leetcode.com/problems/rectangle-area) | :orange_circle:                         |  
+:white_check_mark: | 223 | [Rectangle Area](https://leetcode.com/problems/rectangle-area) | :orange_circle:                         | [py](problems/rectangle_area/solution.py) 
 :white_check_mark: | 224 | [Basic Calculator](https://leetcode.com/problems/basic-calculator) | :red_circle:                         | [py](problems/basic_calculator/solution.py) 
 :white_check_mark: | 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) | :green_circle:                         | [py](problems/implement_stack_using_queues/solution.py) 
 :white_check_mark: | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree) | :green_circle:                         | [py](problems/invert_binary_tree/solution.py) 
