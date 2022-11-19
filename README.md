@@ -2480,3 +2480,4 @@
 :white_check_mark: | 2471 | [Minimum Number of Operations to Sort a Binary Tree by Level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level) | :orange_circle:                         | [py](problems/minimum_number_of_operations_to_sort_a_binary_tree_by_level/solution.py) 
 :white_check_mark: | 2472 | [Maximum Number of Non-overlapping Palindrome Substrings](https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings) | :red_circle:                         | [py](problems/maximum_number_of_non-overlapping_palindrome_substrings/solution.py) 
 [](check) | :lock: 2473 | [Minimum Cost to Buy Apples](https://leetcode.com/problems/minimum-cost-to-buy-apples) | :orange_circle:                         |  
+[](check) | :lock: 2474 | [Customers With Strictly Increasing Purchases](https://leetcode.com/problems/customers-with-strictly-increasing-purchases) | :orange_circle:                         |  
