@@ -285,7 +285,7 @@
 [](check) | :lock: 276 | [Paint Fence](https://leetcode.com/problems/paint-fence) | :orange_circle:                         |  
 [](check) | :lock: 277 | [Find the Celebrity](https://leetcode.com/problems/find-the-celebrity) | :orange_circle:                         |  
 :white_check_mark: | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version) | :green_circle:                         | [py](problems/first_bad_version/solution.py) 
-:white_check_mark: | 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares) | :orange_circle:                         | [py](problems/perfect_squares/solution.py) 
+:white_check_mark: | 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares) | :orange_circle:                         | [py](problems/perfect_squares/solution.py)<br />[cpp](problems/perfect_squares/solution.cpp) 
 [](check) | :lock: 280 | [Wiggle Sort](https://leetcode.com/problems/wiggle-sort) | :orange_circle:                         |  
 [](check) | :lock: 281 | [Zigzag Iterator](https://leetcode.com/problems/zigzag-iterator) | :orange_circle:                         |  
 :white_check_mark: | 282 | [Expression Add Operators](https://leetcode.com/problems/expression-add-operators) | :red_circle:                         | [py](problems/expression_add_operators/solution.py) 
@@ -1261,7 +1261,7 @@
 :white_check_mark: | 1252 | [Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix) | :green_circle:                         | [py](problems/cells_with_odd_values_in_a_matrix/solution.py) 
 :white_check_mark: | 1253 | [Reconstruct a 2-Row Binary Matrix](https://leetcode.com/problems/reconstruct-a-2-row-binary-matrix) | :orange_circle:                         | [py](problems/reconstruct_a_2-row_binary_matrix/solution.py) 
 :white_check_mark: | 1254 | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands) | :orange_circle:                         | [py](problems/number_of_closed_islands/solution.py) 
-[](check) | 1255 | [Maximum Score Words Formed by Letters](https://leetcode.com/problems/maximum-score-words-formed-by-letters) | :red_circle:                         |  
+:white_check_mark: | 1255 | [Maximum Score Words Formed by Letters](https://leetcode.com/problems/maximum-score-words-formed-by-letters) | :red_circle:                         | [py](problems/maximum_score_words_formed_by_letters/solution.py) 
 [](check) | :lock: 1256 | [Encode Number](https://leetcode.com/problems/encode-number) | :orange_circle:                         |  
 [](check) | :lock: 1257 | [Smallest Common Region](https://leetcode.com/problems/smallest-common-region) | :orange_circle:                         |  
 [](check) | :lock: 1258 | [Synonymous Sentences](https://leetcode.com/problems/synonymous-sentences) | :orange_circle:                         |  
