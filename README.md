@@ -2485,3 +2485,5 @@
 :white_check_mark: | 2476 | [Closest Nodes Queries in a Binary Search Tree](https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree) | :orange_circle:                         | [py](problems/closest_nodes_queries_in_a_binary_search_tree/solution.py) 
 :white_check_mark: | 2477 | [Minimum Fuel Cost to Report to the Capital](https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital) | :orange_circle:                         | [py](problems/minimum_fuel_cost_to_report_to_the_capital/solution.py) 
 :white_check_mark: | 2478 | [Number of Beautiful Partitions](https://leetcode.com/problems/number-of-beautiful-partitions) | :red_circle:                         | [py](problems/number_of_beautiful_partitions/solution.py)<br />[cpp](problems/number_of_beautiful_partitions/solution.cpp) 
+[](check) | :lock: 2479 | [Maximum XOR of Two Non-Overlapping Subtrees](https://leetcode.com/problems/maximum-xor-of-two-non-overlapping-subtrees) | :red_circle:                         |  
+[](check) | :lock: 2480 | [Form a Chemical Bond](https://leetcode.com/problems/form-a-chemical-bond) | :green_circle:                         |  
