@@ -913,7 +913,7 @@
 [](check) | 904 | [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets) | :orange_circle:                         |  
 :white_check_mark: | 905 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity) | :green_circle:                         | [py](problems/sort_array_by_parity/solution.py)<br />[cpp](problems/sort_array_by_parity/solution.cpp) 
 :white_check_mark: | 906 | [Super Palindromes](https://leetcode.com/problems/super-palindromes) | :red_circle:                         | [py](problems/super_palindromes/solution.py) 
-[](check) | 907 | [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums) | :orange_circle:                         |  
+:white_check_mark: | 907 | [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums) | :orange_circle:                         | [py](problems/sum_of_subarray_minimums/solution.py) 
 :white_check_mark: | 908 | [Smallest Range I](https://leetcode.com/problems/smallest-range-i) | :green_circle:                         | [py](problems/smallest_range_i/solution.py) 
 [](check) | 909 | [Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders) | :orange_circle:                         |  
 :white_check_mark: | 910 | [Smallest Range II](https://leetcode.com/problems/smallest-range-ii) | :orange_circle:                         | [py](problems/smallest_range_ii/solution.py) 
