@@ -247,7 +247,7 @@
 :white_check_mark: | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self) | :orange_circle:                         | [py](problems/product_of_array_except_self/solution.py) 
 :white_check_mark: | 239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum) | :red_circle:                         | [py](problems/sliding_window_maximum/solution.py)<br />[cpp](problems/sliding_window_maximum/solution.cpp) 
 :white_check_mark: | 240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii) | :orange_circle:                         | [py](problems/search_a_2d_matrix_ii/solution.py) 
-[](check) | 241 | [Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses) | :orange_circle:                         |  
+:white_check_mark: | 241 | [Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses) | :orange_circle:                         | [py](problems/different_ways_to_add_parentheses/solution.py) 
 :white_check_mark: | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | :green_circle:                         | [py](problems/valid_anagram/solution.py) 
 [](check) | :lock: 243 | [Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance) | :green_circle:                         |  
 [](check) | :lock: 244 | [Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii) | :orange_circle:                         |  
