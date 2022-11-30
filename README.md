@@ -2495,3 +2495,4 @@
 :white_check_mark: | 2486 | [Append Characters to String to Make Subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence) | :orange_circle:                         | [py](problems/append_characters_to_string_to_make_subsequence/solution.py) 
 :white_check_mark: | 2487 | [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list) | :orange_circle:                         | [py](problems/remove_nodes_from_linked_list/solution.py) 
 :white_check_mark: | 2488 | [Count Subarrays With Median K](https://leetcode.com/problems/count-subarrays-with-median-k) | :red_circle:                         | [py](problems/count_subarrays_with_median_k/solution.py) 
+[](check) | :lock: 2489 | [Number of Substrings With Fixed Ratio](https://leetcode.com/problems/number-of-substrings-with-fixed-ratio) | :orange_circle:                         |  
