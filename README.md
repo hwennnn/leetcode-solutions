@@ -2501,3 +2501,4 @@
 :white_check_mark: | 2492 | [Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities) | :orange_circle:                         | [py](problems/minimum_score_of_a_path_between_two_cities/solution.py) 
 :white_check_mark: | 2493 | [Divide Nodes Into the Maximum Number of Groups](https://leetcode.com/problems/divide-nodes-into-the-maximum-number-of-groups) | :red_circle:                         | [py](problems/divide_nodes_into_the_maximum_number_of_groups/solution.py) 
 [](check) | :lock: 2494 | [Merge Overlapping Events in the Same Hall](https://leetcode.com/problems/merge-overlapping-events-in-the-same-hall) | :red_circle:                         |  
+[](check) | :lock: 2495 | [Number of Subarrays Having Even Product](https://leetcode.com/problems/number-of-subarrays-having-even-product) | :orange_circle:                         |  
