@@ -1,0 +1,23 @@
+---
+id: buddy-strings
+title: Buddy Strings
+description: Problem Description and Solution for Buddy Strings
+sidebar_label: 859. Buddy Strings
+sidebar_position: 859
+---
+
+# [859. Buddy Strings](https://leetcode.com/problems/buddy-strings/)
+
+```py title=buddy-strings.py
+class Solution:
+    def buddyStrings(self, A: str, B: str) -> bool:
+        if len(A) != len(B): return False
+        
+        if A == B and len(set(A)) < len(B): return True
+        
+        diff = [(a,b) for a,b in zip(A,B) if a != b]
+        
+        return len(diff) == 2 and diff[0] == diff[1][::-1]
+```
+
+

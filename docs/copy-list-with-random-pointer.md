@@ -1,0 +1,36 @@
+---
+id: copy-list-with-random-pointer
+title: Copy List with Random Pointer
+description: Problem Description and Solution for Copy List with Random Pointer
+sidebar_label: 138. Copy List with Random Pointer
+sidebar_position: 138
+---
+
+# [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
+
+```py title=copy-list-with-random-pointer.py
+"""
+# Definition for a Node.
+class Node:
+    def __init__(self, x: int, next: 'Node' = None, random: 'Node' = None):
+        self.val = int(x)
+        self.next = next
+        self.random = random
+"""
+
+class Solution:
+    def copyRandomList(self, head: 'Node') -> 'Node':
+        res = collections.defaultdict(lambda: Node(0))
+        res[None] = None
+
+        curr = head
+        while curr:
+            res[curr].val = curr.val
+            res[curr].next = res[curr.next]
+            res[curr].random = res[curr.random]
+            curr = curr.next
+
+        return res[head]
+```
+
+

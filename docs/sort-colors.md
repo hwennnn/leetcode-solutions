@@ -1,0 +1,37 @@
+---
+id: sort-colors
+title: Sort Colors
+description: Problem Description and Solution for Sort Colors
+sidebar_label: 75. Sort Colors
+sidebar_position: 75
+---
+
+# [75. Sort Colors](https://leetcode.com/problems/sort-colors/)
+
+```py title=sort-colors.py
+class Solution:
+    def sortColors(self, nums: List[int]) -> None:
+        """
+        Do not return anything, modify nums in-place instead.
+        """
+        
+        left, right = 0, len(nums) - 1
+        i = 0
+        
+        while i <= right:
+            if nums[i] == 0:
+                if nums[left] != 0:
+                    nums[left], nums[i] = nums[i], nums[left]
+                
+                left += 1
+                i += 1
+            elif nums[i] == 2:
+                if nums[right] != 2:
+                    nums[right], nums[i] = nums[i], nums[right]
+                
+                right -= 1
+            else:
+                i += 1
+```
+
+

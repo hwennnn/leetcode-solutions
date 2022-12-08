@@ -1,0 +1,36 @@
+---
+id: pancake-sorting
+title: Pancake Sorting
+description: Problem Description and Solution for Pancake Sorting
+sidebar_label: 969. Pancake Sorting
+sidebar_position: 969
+---
+
+# [969. Pancake Sorting](https://leetcode.com/problems/pancake-sorting/)
+
+```py title=pancake-sorting.py
+class Solution:
+    def pancakeSort(self, arr: List[int]) -> List[int]:
+        n = len(arr)
+        largest = n
+        res = []
+        
+        def reverse(start, end):
+            while start < end:
+                arr[start], arr[end] = arr[end], arr[start]
+                start += 1
+                end -= 1
+            
+        
+        for _ in range(n):
+            index = arr.index(largest)
+            reverse(0, index)
+            reverse(0, largest - 1)
+            res.append(index + 1)
+            res.append(largest)
+            largest -= 1
+        
+        return res
+```
+
+
