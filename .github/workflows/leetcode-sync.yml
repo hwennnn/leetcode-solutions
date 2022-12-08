@@ -46,13 +46,19 @@ jobs:
         run: |
           python main.py
 
-      - name: Update changes in GitHub repository
+      - name: Commit changes in GitHub repository
         run: |
           git config --global user.name 'hwennnn' 
           git config --global user.email 'hwendev@gmail.com'
           git add -A
           git commit -m '[automated commit] Build README.md'
-          git push origin master
+      
+      - name: Push
+        if: steps.verify_diff.outputs.changed == 'true'
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
     
   generate-site:
     runs-on: ubuntu-latest
