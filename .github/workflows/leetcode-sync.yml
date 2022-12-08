@@ -51,7 +51,7 @@ jobs:
           git config --global user.name 'hwennnn' 
           git config --global user.email 'hwendev@gmail.com'
           git add -A
-          git commit -m '[automated commit] Build README.md'
+          git commit -m '[automated commit] Build README.md' -a
       
       - name: Push
         if: steps.verify_diff.outputs.changed == 'true'
