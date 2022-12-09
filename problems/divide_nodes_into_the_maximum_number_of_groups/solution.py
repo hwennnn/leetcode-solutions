@@ -40,7 +40,7 @@ class Solution:
         for node in range(N):
             if node in grouped: continue
             
-            group = set()
+            group = set([node])
             stack = [node]
             
             while stack:
