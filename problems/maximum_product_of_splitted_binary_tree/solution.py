@@ -6,25 +6,26 @@
 #         self.right = right
 class Solution:
     def maxProduct(self, root: Optional[TreeNode]) -> int:
-        self.res = 0
-        
-        def calculateTotal(node):
-            if not node: return 0
-            
-            return node.val + calculateTotal(node.left) + calculateTotal(node.right)
-        
-        total = calculateTotal(root)
+        M = 10 ** 9 + 7
+        res = 0
 
         def dfs(node):
             if not node: return 0
+            return node.val + dfs(node.left) + dfs(node.right)
 
-            curr = node.val + dfs(node.left) + dfs(node.right)
-            self.res = max(self.res, (total - curr) * curr)
-            
+        total = dfs(root)
+        
+        def dfs2(node):
+            nonlocal res
+
+            if not node: return 0
+
+            curr = node.val + dfs2(node.left) + dfs2(node.right)
+            remaining = total - curr
+
+            res = max(res, (curr * remaining))
+
             return curr
-
-        dfs(root)
         
-        return self.res % (10 ** 9 + 7)
-        
-        
+        dfs2(root)
+        return res % M
