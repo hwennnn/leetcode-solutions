@@ -2502,3 +2502,7 @@
 :white_check_mark: | 2493 | [Divide Nodes Into the Maximum Number of Groups](https://leetcode.com/problems/divide-nodes-into-the-maximum-number-of-groups) | :red_circle:                         | [py](problems/divide_nodes_into_the_maximum_number_of_groups/solution.py) 
 [](check) | :lock: 2494 | [Merge Overlapping Events in the Same Hall](https://leetcode.com/problems/merge-overlapping-events-in-the-same-hall) | :red_circle:                         |  
 [](check) | :lock: 2495 | [Number of Subarrays Having Even Product](https://leetcode.com/problems/number-of-subarrays-having-even-product) | :orange_circle:                         |  
+:white_check_mark: | 2496 | [Maximum Value of a String in an Array](https://leetcode.com/problems/maximum-value-of-a-string-in-an-array) | :green_circle:                         | [py](problems/maximum_value_of_a_string_in_an_array/solution.py) 
+:white_check_mark: | 2497 | [Maximum Star Sum of a Graph](https://leetcode.com/problems/maximum-star-sum-of-a-graph) | :orange_circle:                         | [py](problems/maximum_star_sum_of_a_graph/solution.py) 
+:white_check_mark: | 2498 | [Frog Jump II](https://leetcode.com/problems/frog-jump-ii) | :orange_circle:                         | [py](problems/frog_jump_ii/solution.py) 
+:white_check_mark: | 2499 | [Minimum Total Cost to Make Arrays Unequal](https://leetcode.com/problems/minimum-total-cost-to-make-arrays-unequal) | :red_circle:                         | [py](problems/minimum_total_cost_to_make_arrays_unequal/solution.py) 
