@@ -6,19 +6,17 @@
 #         self.right = right
 class Solution:
     def maxPathSum(self, root: Optional[TreeNode]) -> int:
-        res = float('-inf')
-        
+        res = -inf
+
         def go(node):
             nonlocal res
             if not node: return 0
-            
-            left = max(go(node.left), 0)
-            right = max(go(node.right), 0)
-            
+
+            curr = node.val
+            left, right = max(0, go(node.left)), max(0, go(node.right))
             res = max(res, node.val + left + right)
+
+            return node.val + max(0, left, right)
             
-            return node.val + max(left, right)
-        
         go(root)
-        
         return res
