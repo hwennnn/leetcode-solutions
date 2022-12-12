@@ -413,7 +413,7 @@
 :white_check_mark: | 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | :green_circle:                         | [py](problems/sum_of_left_leaves/solution.py) 
 [](check) | 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal) | :green_circle:                         |  
 :white_check_mark: | 406 | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height) | :orange_circle:                         | [py](problems/queue_reconstruction_by_height/solution.py) 
-[](check) | 407 | [Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii) | :red_circle:                         |  
+:white_check_mark: | 407 | [Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii) | :red_circle:                         | [py](problems/trapping_rain_water_ii/solution.py) 
 [](check) | :lock: 408 | [Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation) | :green_circle:                         |  
 :white_check_mark: | 409 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome) | :green_circle:                         | [py](problems/longest_palindrome/solution.py) 
 :white_check_mark: | 410 | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum) | :red_circle:                         | [py](problems/split_array_largest_sum/solution.py) 
@@ -2506,3 +2506,8 @@
 :white_check_mark: | 2497 | [Maximum Star Sum of a Graph](https://leetcode.com/problems/maximum-star-sum-of-a-graph) | :orange_circle:                         | [py](problems/maximum_star_sum_of_a_graph/solution.py) 
 :white_check_mark: | 2498 | [Frog Jump II](https://leetcode.com/problems/frog-jump-ii) | :orange_circle:                         | [py](problems/frog_jump_ii/solution.py) 
 :white_check_mark: | 2499 | [Minimum Total Cost to Make Arrays Unequal](https://leetcode.com/problems/minimum-total-cost-to-make-arrays-unequal) | :red_circle:                         | [py](problems/minimum_total_cost_to_make_arrays_unequal/solution.py) 
+:white_check_mark: | 2500 | [Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row) | :green_circle:                         | [py](problems/delete_greatest_value_in_each_row/solution.py) 
+:white_check_mark: | 2501 | [Longest Square Streak in an Array](https://leetcode.com/problems/longest-square-streak-in-an-array) | :orange_circle:                         | [py](problems/longest_square_streak_in_an_array/solution.py) 
+:white_check_mark: | 2502 | [Design Memory Allocator](https://leetcode.com/problems/design-memory-allocator) | :orange_circle:                         | [py](problems/design_memory_allocator/solution.py) 
+:white_check_mark: | 2503 | [Maximum Number of Points From Grid Queries](https://leetcode.com/problems/maximum-number-of-points-from-grid-queries) | :red_circle:                         | [py](problems/maximum_number_of_points_from_grid_queries/solution.py) 
+[](check) | :lock: 2504 | [Concatenate the Name and the Profession](https://leetcode.com/problems/concatenate-the-name-and-the-profession) | :green_circle:                         |  
