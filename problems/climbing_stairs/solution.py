@@ -1,8 +1,11 @@
 class Solution:
     def climbStairs(self, n: int) -> int:
-        prev, curr = 1, 1
+
+        @cache
+        def fib(k):
+            if k == 1: return 1
+            if k == 2: return 2
+
+            return fib(k - 2) + fib(k - 1)
         
-        for _ in range(n - 1):
-            curr, prev = curr + prev, curr
-        
-        return curr
+        return fib(n)
