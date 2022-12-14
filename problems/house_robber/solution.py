@@ -1,8 +1,8 @@
 class Solution:
     def rob(self, nums: List[int]) -> int:
-        take = skip = 0
-        
+        rob = skip = 0
+
         for x in nums:
-            take, skip = max(take, skip + x), max(skip, take)
-            
-        return take
+            rob, skip = skip + x, max(rob, skip)
+        
+        return max(rob, skip)
