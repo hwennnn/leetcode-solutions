@@ -2511,3 +2511,4 @@
 :white_check_mark: | 2502 | [Design Memory Allocator](https://leetcode.com/problems/design-memory-allocator) | :orange_circle:                         | [py](problems/design_memory_allocator/solution.py) 
 :white_check_mark: | 2503 | [Maximum Number of Points From Grid Queries](https://leetcode.com/problems/maximum-number-of-points-from-grid-queries) | :red_circle:                         | [py](problems/maximum_number_of_points_from_grid_queries/solution.py) 
 [](check) | :lock: 2504 | [Concatenate the Name and the Profession](https://leetcode.com/problems/concatenate-the-name-and-the-profession) | :green_circle:                         |  
+[](check) | :lock: 2505 | [Bitwise OR of All Subsequence Sums](https://leetcode.com/problems/bitwise-or-of-all-subsequence-sums) | :orange_circle:                         |  
