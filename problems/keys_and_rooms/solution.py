@@ -1,15 +1,14 @@
 class Solution:
     def canVisitAllRooms(self, rooms: List[List[int]]) -> bool:
-        n = len(rooms)
-        queue = [0]
-        seen = set(queue)
-        
-        while queue:
-            p = queue.pop()
-            for room in rooms[p]:
-                if room not in seen:
-                    seen.add(room)
-                    queue.append(room)
-                    
+        N = len(rooms)
+        vis = [False] * N
+        vis[0] = True
 
-        return n == len(seen)
+        def go(node):
+            for nei in rooms[node]:
+                if not vis[nei]:
+                    vis[nei] = True
+                    go(nei)
+                    
+        go(0)
+        return all(vis)
