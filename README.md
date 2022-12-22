@@ -497,7 +497,7 @@
 [](check) | 488 | [Zuma Game](https://leetcode.com/problems/zuma-game) | :red_circle:                         |  
 [](check) | :lock: 489 | [Robot Room Cleaner](https://leetcode.com/problems/robot-room-cleaner) | :red_circle:                         |  
 [](check) | :lock: 490 | [The Maze](https://leetcode.com/problems/the-maze) | :orange_circle:                         |  
-[](check) | 491 | [Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences) | :orange_circle:                         |  
+[](check) | 491 | [Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences) | :orange_circle:                         |  
 [](check) | 492 | [Construct the Rectangle](https://leetcode.com/problems/construct-the-rectangle) | :green_circle:                         |  
 [](check) | 493 | [Reverse Pairs](https://leetcode.com/problems/reverse-pairs) | :red_circle:                         |  
 :white_check_mark: | 494 | [Target Sum](https://leetcode.com/problems/target-sum) | :orange_circle:                         | [py](problems/target_sum/solution.py) 
@@ -2516,3 +2516,4 @@
 :white_check_mark: | 2507 | [Smallest Value After Replacing With Sum of Prime Factors](https://leetcode.com/problems/smallest-value-after-replacing-with-sum-of-prime-factors) | :orange_circle:                         | [py](problems/smallest_value_after_replacing_with_sum_of_prime_factors/solution.py) 
 :white_check_mark: | 2508 | [Add Edges to Make Degrees of All Nodes Even](https://leetcode.com/problems/add-edges-to-make-degrees-of-all-nodes-even) | :red_circle:                         | [py](problems/add_edges_to_make_degrees_of_all_nodes_even/solution.py) 
 :white_check_mark: | 2509 | [Cycle Length Queries in a Tree](https://leetcode.com/problems/cycle-length-queries-in-a-tree) | :red_circle:                         | [py](problems/cycle_length_queries_in_a_tree/solution.py) 
+[](check) | :lock: 2510 | [Check if There is a Path With Equal Number of 0's And 1's](https://leetcode.com/problems/check-if-there-is-a-path-with-equal-number-of-0s-and-1s) | :orange_circle:                         |  
