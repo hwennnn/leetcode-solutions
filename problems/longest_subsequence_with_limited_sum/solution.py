@@ -6,7 +6,6 @@ class Solution:
         prefix = list(accumulate(nums, initial = 0))
 
         for q in queries:
-
             index = bisect_right(prefix, q) - 1
             res.append(index)
 
