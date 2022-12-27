@@ -1,21 +1,21 @@
 class Solution:
-    def maximumBags(self, capacity: List[int], rocks: List[int], extra: int) -> int:
+    def maximumBags(self, capacity: List[int], rocks: List[int], additionalRocks: int) -> int:
         res = 0
-        A = []
-        
+        toFill = []
+
         for cap, rock in zip(capacity, rocks):
-            if cap == rock:
+            if rock < cap:
+                toFill.append(cap - rock)
+            else:
                 res += 1
-                continue
-            
-            A.append(cap - rock)
-        A.sort()
         
-        for x in A:
-            if extra >= x:
+        toFill.sort()
+
+        for rock in toFill:
+            if additionalRocks >= rock:
                 res += 1
-                extra -= x
+                additionalRocks -= rock
             else:
                 break
-        
+
         return res
