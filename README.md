@@ -2525,3 +2525,4 @@
 :white_check_mark: | 2516 | [Take K of Each Character From Left and Right](https://leetcode.com/problems/take-k-of-each-character-from-left-and-right) | :orange_circle:                         | [py](problems/take_k_of_each_character_from_left_and_right/solution.py) 
 :white_check_mark: | 2517 | [Maximum Tastiness of Candy Basket](https://leetcode.com/problems/maximum-tastiness-of-candy-basket) | :orange_circle:                         | [py](problems/maximum_tastiness_of_candy_basket/solution.py) 
 :white_check_mark: | 2518 | [Number of Great Partitions](https://leetcode.com/problems/number-of-great-partitions) | :red_circle:                         | [py](problems/number_of_great_partitions/solution.py)<br />[cpp](problems/number_of_great_partitions/solution.cpp) 
+[](check) | :lock: 2519 | [Count the Number of K-Big Indices](https://leetcode.com/problems/count-the-number-of-k-big-indices) | :red_circle:                         |  
