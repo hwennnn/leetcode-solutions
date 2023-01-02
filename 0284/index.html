@@ -30195,6 +30195,66 @@
   
 
     
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2520/" class="md-nav__link">
+        2520. Count the Digits That Divide a Number
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2521/" class="md-nav__link">
+        2521. Distinct Prime Factors of Product of Array
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2522/" class="md-nav__link">
+        2522. Partition String Into Substrings With Values at Most K
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2523/" class="md-nav__link">
+        2523. Closest Prime Numbers in Range
+      </a>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -30327,7 +30387,7 @@ peekingIterator.hasNext(); // return False
 <a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>
 <a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a><span class="k">class</span> <span class="nc">PeekingIterator</span><span class="p">:</span>
 <a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a>    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">iterator</span><span class="p">):</span>
-<a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a>        <span class="sd">&quot;&quot;&quot;</span>
+<a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 <a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a><span class="sd">        Initialize your data structure here.</span>
 <a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a><span class="sd">        :type iterator: Iterator</span>
 <a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a><span class="sd">        &quot;&quot;&quot;</span>
@@ -30335,7 +30395,7 @@ peekingIterator.hasNext(); // return False
 <a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">nextItem</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">iterator</span><span class="o">.</span><span class="n">next</span><span class="p">()</span>
 <a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a>
 <a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a>    <span class="k">def</span> <span class="nf">peek</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-<a id="__codelineno-0-32" name="__codelineno-0-32" href="#__codelineno-0-32"></a>        <span class="sd">&quot;&quot;&quot;</span>
+<a id="__codelineno-0-32" name="__codelineno-0-32" href="#__codelineno-0-32"></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 <a id="__codelineno-0-33" name="__codelineno-0-33" href="#__codelineno-0-33"></a><span class="sd">        Returns the next element in the iteration without advancing the iterator.</span>
 <a id="__codelineno-0-34" name="__codelineno-0-34" href="#__codelineno-0-34"></a><span class="sd">        :rtype: int</span>
 <a id="__codelineno-0-35" name="__codelineno-0-35" href="#__codelineno-0-35"></a><span class="sd">        &quot;&quot;&quot;</span>
@@ -30343,7 +30403,7 @@ peekingIterator.hasNext(); // return False
 <a id="__codelineno-0-37" name="__codelineno-0-37" href="#__codelineno-0-37"></a>
 <a id="__codelineno-0-38" name="__codelineno-0-38" href="#__codelineno-0-38"></a>
 <a id="__codelineno-0-39" name="__codelineno-0-39" href="#__codelineno-0-39"></a>    <span class="k">def</span> <span class="nf">next</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-<a id="__codelineno-0-40" name="__codelineno-0-40" href="#__codelineno-0-40"></a>        <span class="sd">&quot;&quot;&quot;</span>
+<a id="__codelineno-0-40" name="__codelineno-0-40" href="#__codelineno-0-40"></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 <a id="__codelineno-0-41" name="__codelineno-0-41" href="#__codelineno-0-41"></a><span class="sd">        :rtype: int</span>
 <a id="__codelineno-0-42" name="__codelineno-0-42" href="#__codelineno-0-42"></a><span class="sd">        &quot;&quot;&quot;</span>
 <a id="__codelineno-0-43" name="__codelineno-0-43" href="#__codelineno-0-43"></a>        <span class="n">result</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">nextItem</span>
@@ -30356,7 +30416,7 @@ peekingIterator.hasNext(); // return False
 <a id="__codelineno-0-50" name="__codelineno-0-50" href="#__codelineno-0-50"></a>
 <a id="__codelineno-0-51" name="__codelineno-0-51" href="#__codelineno-0-51"></a>
 <a id="__codelineno-0-52" name="__codelineno-0-52" href="#__codelineno-0-52"></a>    <span class="k">def</span> <span class="nf">hasNext</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-<a id="__codelineno-0-53" name="__codelineno-0-53" href="#__codelineno-0-53"></a>        <span class="sd">&quot;&quot;&quot;</span>
+<a id="__codelineno-0-53" name="__codelineno-0-53" href="#__codelineno-0-53"></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 <a id="__codelineno-0-54" name="__codelineno-0-54" href="#__codelineno-0-54"></a><span class="sd">        :rtype: bool</span>
 <a id="__codelineno-0-55" name="__codelineno-0-55" href="#__codelineno-0-55"></a><span class="sd">        &quot;&quot;&quot;</span>
 <a id="__codelineno-0-56" name="__codelineno-0-56" href="#__codelineno-0-56"></a>        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">nextItem</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span>

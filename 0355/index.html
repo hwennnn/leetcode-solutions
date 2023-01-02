@@ -30195,6 +30195,66 @@
   
 
     
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2520/" class="md-nav__link">
+        2520. Count the Digits That Divide a Number
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2521/" class="md-nav__link">
+        2521. Distinct Prime Factors of Product of Array
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2522/" class="md-nav__link">
+        2522. Partition String Into Substrings With Values at Most K
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2523/" class="md-nav__link">
+        2523. Closest Prime Numbers in Range
+      </a>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -30332,14 +30392,14 @@ twitter.getNewsFeed(1);  // User 1&#39;s news feed should return a list with 1 t
 <a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a>
 <a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a><span class="k">class</span> <span class="nc">Twitter</span><span class="p">:</span>  
 <a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a>    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-<a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a>        <span class="sd">&quot;&quot;&quot;</span>
+<a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 <a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a><span class="sd">        Initialize your data structure here.</span>
 <a id="__codelineno-0-32" name="__codelineno-0-32" href="#__codelineno-0-32"></a><span class="sd">        &quot;&quot;&quot;</span>
 <a id="__codelineno-0-33" name="__codelineno-0-33" href="#__codelineno-0-33"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">users</span> <span class="o">=</span> <span class="p">{}</span>
 <a id="__codelineno-0-34" name="__codelineno-0-34" href="#__codelineno-0-34"></a>
 <a id="__codelineno-0-35" name="__codelineno-0-35" href="#__codelineno-0-35"></a>
 <a id="__codelineno-0-36" name="__codelineno-0-36" href="#__codelineno-0-36"></a>    <span class="k">def</span> <span class="nf">postTweet</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">userId</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">tweetId</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-<a id="__codelineno-0-37" name="__codelineno-0-37" href="#__codelineno-0-37"></a>        <span class="sd">&quot;&quot;&quot;</span>
+<a id="__codelineno-0-37" name="__codelineno-0-37" href="#__codelineno-0-37"></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 <a id="__codelineno-0-38" name="__codelineno-0-38" href="#__codelineno-0-38"></a><span class="sd">        Compose a new tweet.</span>
 <a id="__codelineno-0-39" name="__codelineno-0-39" href="#__codelineno-0-39"></a><span class="sd">        &quot;&quot;&quot;</span>
 <a id="__codelineno-0-40" name="__codelineno-0-40" href="#__codelineno-0-40"></a>        <span class="n">users</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">users</span>
@@ -30350,7 +30410,7 @@ twitter.getNewsFeed(1);  // User 1&#39;s news feed should return a list with 1 t
 <a id="__codelineno-0-45" name="__codelineno-0-45" href="#__codelineno-0-45"></a>
 <a id="__codelineno-0-46" name="__codelineno-0-46" href="#__codelineno-0-46"></a>
 <a id="__codelineno-0-47" name="__codelineno-0-47" href="#__codelineno-0-47"></a>    <span class="k">def</span> <span class="nf">getNewsFeed</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">userId</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">]:</span>
-<a id="__codelineno-0-48" name="__codelineno-0-48" href="#__codelineno-0-48"></a>        <span class="sd">&quot;&quot;&quot;</span>
+<a id="__codelineno-0-48" name="__codelineno-0-48" href="#__codelineno-0-48"></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 <a id="__codelineno-0-49" name="__codelineno-0-49" href="#__codelineno-0-49"></a><span class="sd">        Retrieve the 10 most recent tweet ids in the user&#39;s news feed. Each item in the news feed must be posted by users who the user followed or by the user herself. Tweets must be ordered from most recent to least recent.</span>
 <a id="__codelineno-0-50" name="__codelineno-0-50" href="#__codelineno-0-50"></a><span class="sd">        &quot;&quot;&quot;</span>
 <a id="__codelineno-0-51" name="__codelineno-0-51" href="#__codelineno-0-51"></a>        <span class="n">res</span> <span class="o">=</span> <span class="p">[]</span>
@@ -30380,7 +30440,7 @@ twitter.getNewsFeed(1);  // User 1&#39;s news feed should return a list with 1 t
 <a id="__codelineno-0-75" name="__codelineno-0-75" href="#__codelineno-0-75"></a>
 <a id="__codelineno-0-76" name="__codelineno-0-76" href="#__codelineno-0-76"></a>
 <a id="__codelineno-0-77" name="__codelineno-0-77" href="#__codelineno-0-77"></a>    <span class="k">def</span> <span class="nf">follow</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">followerId</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">followeeId</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-<a id="__codelineno-0-78" name="__codelineno-0-78" href="#__codelineno-0-78"></a>        <span class="sd">&quot;&quot;&quot;</span>
+<a id="__codelineno-0-78" name="__codelineno-0-78" href="#__codelineno-0-78"></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 <a id="__codelineno-0-79" name="__codelineno-0-79" href="#__codelineno-0-79"></a><span class="sd">        Follower follows a followee. If the operation is invalid, it should be a no-op.</span>
 <a id="__codelineno-0-80" name="__codelineno-0-80" href="#__codelineno-0-80"></a><span class="sd">        &quot;&quot;&quot;</span>
 <a id="__codelineno-0-81" name="__codelineno-0-81" href="#__codelineno-0-81"></a>        <span class="k">if</span> <span class="n">followerId</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">users</span><span class="p">:</span>
@@ -30393,7 +30453,7 @@ twitter.getNewsFeed(1);  // User 1&#39;s news feed should return a list with 1 t
 <a id="__codelineno-0-88" name="__codelineno-0-88" href="#__codelineno-0-88"></a>
 <a id="__codelineno-0-89" name="__codelineno-0-89" href="#__codelineno-0-89"></a>
 <a id="__codelineno-0-90" name="__codelineno-0-90" href="#__codelineno-0-90"></a>    <span class="k">def</span> <span class="nf">unfollow</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">followerId</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">followeeId</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-<a id="__codelineno-0-91" name="__codelineno-0-91" href="#__codelineno-0-91"></a>        <span class="sd">&quot;&quot;&quot;</span>
+<a id="__codelineno-0-91" name="__codelineno-0-91" href="#__codelineno-0-91"></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 <a id="__codelineno-0-92" name="__codelineno-0-92" href="#__codelineno-0-92"></a><span class="sd">        Follower unfollows a followee. If the operation is invalid, it should be a no-op.</span>
 <a id="__codelineno-0-93" name="__codelineno-0-93" href="#__codelineno-0-93"></a><span class="sd">        &quot;&quot;&quot;</span>
 <a id="__codelineno-0-94" name="__codelineno-0-94" href="#__codelineno-0-94"></a>        <span class="k">if</span> <span class="n">followerId</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">users</span> <span class="ow">or</span> <span class="n">followerId</span> <span class="o">==</span> <span class="n">followeeId</span><span class="p">:</span> <span class="k">return</span>
