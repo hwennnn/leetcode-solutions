@@ -1,10 +1,12 @@
 class Solution:
     def detectCapitalUse(self, word: str) -> bool:
-        capitals = 0
-        n = len(word)
+        def isCap(x):
+            return ord("A") <= ord(x) <= ord("Z")
         
+        N = len(word)
+        cap = 0
         for x in word:
-            if ord("A") <= ord(x) <= ord("Z"):
-                capitals += 1
+            if isCap(x):
+                cap += 1
         
-        return capitals == n or capitals == 0 or (capitals == 1 and ord("A") <= ord(word[0]) <= ord("Z"))
+        return cap == N or cap == 0 or (cap == 1 and isCap(word[0]))
