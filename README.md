@@ -2530,3 +2530,4 @@
 :white_check_mark: | 2521 | [Distinct Prime Factors of Product of Array](https://leetcode.com/problems/distinct-prime-factors-of-product-of-array) | :orange_circle:                         | [py](problems/distinct_prime_factors_of_product_of_array/solution.py) 
 :white_check_mark: | 2522 | [Partition String Into Substrings With Values at Most K](https://leetcode.com/problems/partition-string-into-substrings-with-values-at-most-k) | :orange_circle:                         | [py](problems/partition_string_into_substrings_with_values_at_most_k/solution.py) 
 :white_check_mark: | 2523 | [Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range) | :orange_circle:                         | [py](problems/closest_prime_numbers_in_range/solution.py) 
+[](check) | :lock: 2524 | [Maximum Frequency Score of a Subarray](https://leetcode.com/problems/maximum-frequency-score-of-a-subarray) | :red_circle:                         |  
