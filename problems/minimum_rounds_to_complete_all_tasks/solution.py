@@ -1,14 +1,14 @@
 class Solution:
     def minimumRounds(self, tasks: List[int]) -> int:
-        count = Counter(tasks).values()
         res = 0
+        counter = Counter(tasks)
         
-        for x in count:
-            if x == 1: return -1
-            
-            if x % 3 == 0:
-                res += x // 3
+        for v in counter.values():
+            if v == 1: return -1
+
+            if v % 3 == 0:
+                res += v // 3
             else:
-                res += x // 3 + 1
+                res += v // 3 + 1
         
         return res
