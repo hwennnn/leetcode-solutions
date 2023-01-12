@@ -1449,7 +1449,7 @@
 [](check) | :lock: 1440 | [Evaluate Boolean Expression](https://leetcode.com/problems/evaluate-boolean-expression) | :orange_circle:                         |  
 :white_check_mark: | 1441 | [Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations) | :orange_circle:                         | [py](problems/build_an_array_with_stack_operations/solution.py) 
 :white_check_mark: | 1442 | [Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor) | :orange_circle:                         | [py](problems/count_triplets_that_can_form_two_arrays_of_equal_xor/solution.py) 
-[](check) | 1443 | [Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree) | :orange_circle:                         |  
+:white_check_mark: | 1443 | [Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree) | :orange_circle:                         | [py](problems/minimum_time_to_collect_all_apples_in_a_tree/solution.py) 
 [](check) | 1444 | [Number of Ways of Cutting a Pizza](https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza) | :red_circle:                         |  
 [](check) | :lock: 1445 | [Apples & Oranges](https://leetcode.com/problems/apples-oranges) | :orange_circle:                         |  
 :white_check_mark: | 1446 | [Consecutive Characters](https://leetcode.com/problems/consecutive-characters) | :green_circle:                         | [py](problems/consecutive_characters/solution.py) 
@@ -2539,3 +2539,4 @@
 :white_check_mark: | 2530 | [Maximal Score After Applying K Operations](https://leetcode.com/problems/maximal-score-after-applying-k-operations) | :orange_circle:                         | [py](problems/maximal_score_after_applying_k_operations/solution.py) 
 :white_check_mark: | 2531 | [Make Number of Distinct Characters Equal](https://leetcode.com/problems/make-number-of-distinct-characters-equal) | :orange_circle:                         | [py](problems/make_number_of_distinct_characters_equal/solution.py) 
 [](check) | 2532 | [Time to Cross a Bridge](https://leetcode.com/problems/time-to-cross-a-bridge) | :red_circle:                         |  
+[](check) | :lock: 2533 | [Number of Good Binary Strings](https://leetcode.com/problems/number-of-good-binary-strings) | :orange_circle:                         |  
