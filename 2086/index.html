@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Problem Description and Solution for Minimum Number of Food Buckets to Feed the Hamsters">
+        <meta name="description" content="Problem Description and Solution for Minimum Number of Buckets Required to Collect Rainwater from Houses">
       
       
       
@@ -17,15 +17,15 @@
         <link rel="next" href="../2087/">
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.3">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.4">
     
     
       
-        <title>2086. Minimum Number of Food Buckets to Feed the Hamsters - Leetcode Solutions</title>
+        <title>2086. Minimum Number of Buckets Required to Collect Rainwater from Houses - Leetcode Solutions</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.6b71719e.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.9c788c91.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.2505c338.min.css">
@@ -73,7 +73,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#2086-minimum-number-of-food-buckets-to-feed-the-hamsters" class="md-skip">
+        <a href="#2086-minimum-number-of-buckets-required-to-collect-rainwater-from-houses" class="md-skip">
           Skip to content
         </a>
       
@@ -106,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              2086. Minimum Number of Food Buckets to Feed the Hamsters
+              2086. Minimum Number of Buckets Required to Collect Rainwater from Houses
             
           </span>
         </div>
@@ -6305,7 +6305,7 @@
   
     <li class="md-nav__item">
       <a href="../0491/" class="md-nav__link">
-        491. Increasing Subsequences
+        491. Non-decreasing Subsequences
       </a>
     </li>
   
@@ -24989,12 +24989,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          2086. Minimum Number of Food Buckets to Feed the Hamsters
+          2086. Minimum Number of Buckets Required to Collect Rainwater from Houses
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        2086. Minimum Number of Food Buckets to Feed the Hamsters
+        2086. Minimum Number of Buckets Required to Collect Rainwater from Houses
       </a>
       
         
@@ -30433,56 +30433,78 @@
 
 
 
-<h1 id="2086-minimum-number-of-food-buckets-to-feed-the-hamsters"><a href="https://leetcode.com/problems/minimum-number-of-food-buckets-to-feed-the-hamsters">2086. Minimum Number of Food Buckets to Feed the Hamsters</a></h1>
+<h1 id="2086-minimum-number-of-buckets-required-to-collect-rainwater-from-houses"><a href="https://leetcode.com/problems/minimum-number-of-buckets-required-to-collect-rainwater-from-houses">2086. Minimum Number of Buckets Required to Collect Rainwater from Houses</a></h1>
 <p><img alt="Difficulty" src="https://img.shields.io/badge/Difficulty-Medium-blue.svg" /> <img alt="Topics" src="https://img.shields.io/badge/Topics-String,%20Dynamic%20Programming,%20Greedy-orange.svg" />
 <br/></p>
 <h2 id="description">Description</h2>
-<p>You are given a <strong>0-indexed</strong> string <code>hamsters</code> where <code>hamsters[i]</code> is either:</p>
+<p>You are given a <b>0-index</b><strong>ed</strong> string <code>street</code>. Each character in <code>street</code> is either <code>&#39;H&#39;</code> representing a house or <code>&#39;.&#39;</code> representing an empty space.</p>
 
-<ul>
-    <li><code>&#39;H&#39;</code> indicating that there is a hamster at index <code>i</code>, or</li>
-    <li><code>&#39;.&#39;</code> indicating that index <code>i</code> is empty.</li>
-</ul>
+<p>You can place buckets on the <strong>empty spaces</strong> to collect rainwater that falls from the adjacent houses. The rainwater from a house at index <code>i</code> is collected if a bucket is placed at index <code>i - 1</code> <strong>and/or</strong> index <code>i + 1</code>. A single bucket, if placed adjacent to two houses, can collect the rainwater from <strong>both</strong> houses.</p>
 
-<p>You will add some number of food buckets at the empty indices in order to feed the hamsters. A hamster can be fed if there is at least one food bucket to its left or to its right. More formally, a hamster at index <code>i</code> can be fed if you place a food bucket at index <code>i - 1</code> <strong>and/or</strong> at index <code>i + 1</code>.</p>
-
-<p>Return <em>the minimum number of food buckets you should <strong>place at empty indices</strong> to feed all the hamsters or </em><code>-1</code><em> if it is impossible to feed all of them</em>.</p>
+<p>Return <em>the <strong>minimum </strong>number of buckets needed so that for <strong>every</strong> house, there is <strong>at least</strong> one bucket collecting rainwater from it, or </em><code>-1</code><em> if it is impossible.</em></p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<p><img alt="" src="https://assets.leetcode.com/uploads/2022/11/01/example1.png" style="width: 482px; height: 162px;" /></p>
+
 <pre>
-<strong>Input:</strong> hamsters = &quot;H..H&quot;
+<strong>Input:</strong> street = &quot;H..H&quot;
 <strong>Output:</strong> 2
-<strong>Explanation:</strong> We place two food buckets at indices 1 and 2.
-It can be shown that if we place only one food bucket, one of the hamsters will not be fed.
+<strong>Explanation:</strong>
+We can put buckets at index 1 and index 2.
+&quot;H..H&quot; -&gt; &quot;HBBH&quot; (&#39;B&#39; denotes where a bucket is placed).
+The house at index 0 has a bucket to its right, and the house at index 3 has a bucket to its left.
+Thus, for every house, there is at least one bucket collecting rainwater from it.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<p><img alt="" src="https://assets.leetcode.com/uploads/2022/11/01/example2.png" style="width: 602px; height: 162px;" /></p>
+
 <pre>
-<strong>Input:</strong> hamsters = &quot;.H.H.&quot;
+<strong>Input:</strong> street = &quot;.H.H.&quot;
 <strong>Output:</strong> 1
-<strong>Explanation:</strong> We place one food bucket at index 2.
+<strong>Explanation:</strong>
+We can put a bucket at index 2.
+&quot;.H.H.&quot; -&gt; &quot;.HBH.&quot; (&#39;B&#39; denotes where a bucket is placed).
+The house at index 1 has a bucket to its right, and the house at index 3 has a bucket to its left.
+Thus, for every house, there is at least one bucket collecting rainwater from it.
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<p><img alt="" src="https://assets.leetcode.com/uploads/2022/11/01/example3.png" style="width: 602px; height: 162px;" /></p>
+
 <pre>
-<strong>Input:</strong> hamsters = &quot;.HHH.&quot;
+<strong>Input:</strong> street = &quot;.HHH.&quot;
 <strong>Output:</strong> -1
-<strong>Explanation:</strong> If we place a food bucket at every empty index as shown, the hamster at index 2 will not be able to eat.
+<strong>Explanation:</strong>
+There is no empty space to place a bucket to collect the rainwater from the house at index 2.
+Thus, it is impossible to collect the rainwater from all the houses.
 </pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
 
 <ul>
-    <li><code>1 &lt;= hamsters.length &lt;= 10<sup>5</sup></code></li>
-    <li><code>hamsters[i]</code> is either<code>&#39;H&#39;</code> or <code>&#39;.&#39;</code>.</li>
+    <li><code>1 &lt;= street.length &lt;= 10<sup>5</sup></code></li>
+    <li><code>street[i]</code> is either<code>&#39;H&#39;</code> or <code>&#39;.&#39;</code>.</li>
 </ul>
 
 <h2 id="solution">Solution</h2>
+<div class="highlight"><span class="filename">minimum-number-of-buckets-required-to-collect-rainwater-from-houses.py</span><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="k">def</span> <span class="nf">minimumBuckets</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">s</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>        <span class="n">s</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>        <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>        <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">s</span><span class="p">):</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>            <span class="k">if</span> <span class="n">x</span> <span class="o">!=</span> <span class="s2">&quot;H&quot;</span><span class="p">:</span> <span class="k">continue</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>            <span class="k">if</span> <span class="n">i</span> <span class="o">-</span> <span class="mi">1</span> <span class="o">&gt;=</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">s</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;B&quot;</span><span class="p">:</span> <span class="k">continue</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>            <span class="k">if</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span> <span class="o">&lt;</span> <span class="n">n</span> <span class="ow">and</span> <span class="n">s</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;.&quot;</span><span class="p">:</span>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>                <span class="n">s</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;B&quot;</span>
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>            <span class="k">elif</span> <span class="n">i</span> <span class="o">-</span> <span class="mi">1</span> <span class="o">&gt;=</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">s</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;.&quot;</span><span class="p">:</span>
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>                <span class="n">s</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;B&quot;</span>
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>            <span class="k">else</span><span class="p">:</span>
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>                <span class="k">return</span> <span class="o">-</span><span class="mi">1</span>
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>        <span class="k">return</span> <span class="n">s</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="s2">&quot;B&quot;</span><span class="p">)</span>
+</code></pre></div>
 
 
 
