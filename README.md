@@ -1525,7 +1525,7 @@
 [](check) | :lock: 1516 | [Move Sub-Tree of N-Ary Tree](https://leetcode.com/problems/move-sub-tree-of-n-ary-tree) | :red_circle:                         |  
 [](check) | :lock: 1517 | [Find Users With Valid E-Mails](https://leetcode.com/problems/find-users-with-valid-e-mails) | :green_circle:                         |  
 :white_check_mark: | 1518 | [Water Bottles](https://leetcode.com/problems/water-bottles) | :green_circle:                         | [py](problems/water_bottles/solution.py)<br />[cpp](problems/water_bottles/solution.cpp) 
-[](check) | 1519 | [Number of Nodes in the Sub-Tree With the Same Label](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label) | :orange_circle:                         |  
+:white_check_mark: | 1519 | [Number of Nodes in the Sub-Tree With the Same Label](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label) | :orange_circle:                         | [py](problems/number_of_nodes_in_the_sub-tree_with_the_same_label/solution.py) 
 [](check) | 1520 | [Maximum Number of Non-Overlapping Substrings](https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings) | :red_circle:                         |  
 [](check) | 1521 | [Find a Value of a Mysterious Function Closest to Target](https://leetcode.com/problems/find-a-value-of-a-mysterious-function-closest-to-target) | :red_circle:                         |  
 [](check) | :lock: 1522 | [Diameter of N-Ary Tree](https://leetcode.com/problems/diameter-of-n-ary-tree) | :orange_circle:                         |  
