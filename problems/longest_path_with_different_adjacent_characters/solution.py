@@ -1,35 +1,35 @@
 class Solution:
     def longestPath(self, parent: List[int], s: str) -> int:
-        n = len(parent)
+        N = len(parent)
         graph = defaultdict(list)
         res = 0
+
+        for node, p in enumerate(parent):
+            if p == -1 or s[node] == s[p]: continue
+
+            graph[node].append(p)
+            graph[p].append(node)
         
-        for x, y in enumerate(parent):
-            if y == -1 or s[x] == s[y]: continue
-                
-            graph[y].append(x)
-            graph[x].append(y)
-            
         @cache
         def go(node, prev):
             nonlocal res
-            
+
             path = [1]
-            
+
             for nei in graph[node]:
                 if nei != prev:
-                    path.append(go(nei, node) + 1)
+                    path.append(1 + go(nei, node))
             
             path.sort(reverse = 1)
-            
+
             if len(path) == 1:
                 res = max(res, path[0])
             else:
                 res = max(res, path[0] + path[1] - 1)
-            
-            return path[0]
 
-        for i in range(n):
-            go(i, -1)
+            return path[0]
+        
+        for node, p in enumerate(parent):
+            go(node, p)
         
         return res
