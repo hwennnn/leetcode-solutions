@@ -2540,3 +2540,4 @@
 :white_check_mark: | 2531 | [Make Number of Distinct Characters Equal](https://leetcode.com/problems/make-number-of-distinct-characters-equal) | :orange_circle:                         | [py](problems/make_number_of_distinct_characters_equal/solution.py) 
 [](check) | 2532 | [Time to Cross a Bridge](https://leetcode.com/problems/time-to-cross-a-bridge) | :red_circle:                         |  
 [](check) | :lock: 2533 | [Number of Good Binary Strings](https://leetcode.com/problems/number-of-good-binary-strings) | :orange_circle:                         |  
+[](check) | :lock: 2534 | [Time Taken to Cross the Door](https://leetcode.com/problems/time-taken-to-cross-the-door) | :red_circle:                         |  
