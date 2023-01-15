@@ -24,28 +24,30 @@ class UnionFind:
 class Solution:
     def numberOfGoodPaths(self, vals: List[int], edges: List[List[int]]) -> int:
         N = len(vals)
-        res = 0
+        graph = defaultdict(list)
         uf = UnionFind()
-        G = defaultdict(list)
         V = defaultdict(list)
-        
+        res = 0
+
         for a, b in edges:
-            G[a].append(b)
-            G[b].append(a)
+            graph[a].append(b)
+            graph[b].append(a)
         
         for node, val in enumerate(vals):
             V[val].append(node)
         
-        for value in sorted(V.keys()):
-            for node in V[value]:
-                for adj in G[node]:
-                    if vals[adj] <= value:
+        for val in sorted(V.keys()):
+            for node in V[val]:
+                for adj in graph[node]:
+                    if vals[adj] <= val:
                         uf.union(node, adj)
             
             cnt = defaultdict(int)
-            for node in V[value]:
+            for node in V[val]:
                 parent = uf.find(node)
                 cnt[parent] += 1
                 res += cnt[parent]
         
         return res
+            
+
