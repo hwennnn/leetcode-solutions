@@ -1067,7 +1067,7 @@
 [](check) | :lock: 1058 | [Minimize Rounding Error to Meet Target](https://leetcode.com/problems/minimize-rounding-error-to-meet-target) | :orange_circle:                         |  
 [](check) | :lock: 1059 | [All Paths from Source Lead to Destination](https://leetcode.com/problems/all-paths-from-source-lead-to-destination) | :orange_circle:                         |  
 [](check) | :lock: 1060 | [Missing Element in Sorted Array](https://leetcode.com/problems/missing-element-in-sorted-array) | :orange_circle:                         |  
-[](check) | :lock: 1061 | [Lexicographically Smallest Equivalent String](https://leetcode.com/problems/lexicographically-smallest-equivalent-string) | :orange_circle:                         |  
+:white_check_mark: | 1061 | [Lexicographically Smallest Equivalent String](https://leetcode.com/problems/lexicographically-smallest-equivalent-string) | :orange_circle:                         | [py](problems/lexicographically_smallest_equivalent_string/solution.py) 
 [](check) | :lock: 1062 | [Longest Repeating Substring](https://leetcode.com/problems/longest-repeating-substring) | :orange_circle:                         |  
 [](check) | :lock: 1063 | [Number of Valid Subarrays](https://leetcode.com/problems/number-of-valid-subarrays) | :red_circle:                         |  
 [](check) | :lock: 1064 | [Fixed Point](https://leetcode.com/problems/fixed-point) | :green_circle:                         |  
