@@ -1,17 +1,13 @@
 class Solution:
     def minFlipsMonoIncr(self, s: str) -> int:
-        flipCount = onesCount = 0
-        
-        for c in s:
-            if c == '0':
-                if onesCount == 0:
-                    continue
-                else:
-                    flipCount += 1
+        flipCount = oneCount = 0
+
+        for x in s:
+            if x == '0':
+                flipCount += 1
             else:
-                onesCount += 1
+                oneCount += 1
             
-            if flipCount > onesCount:
-                flipCount = onesCount
-        
+            flipCount = min(flipCount, oneCount)
+
         return flipCount
