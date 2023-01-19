@@ -2545,3 +2545,4 @@
 :white_check_mark: | 2536 | [Increment Submatrices by One](https://leetcode.com/problems/increment-submatrices-by-one) | :orange_circle:                         | [py](problems/increment_submatrices_by_one/solution.py) 
 :white_check_mark: | 2537 | [Count the Number of Good Subarrays](https://leetcode.com/problems/count-the-number-of-good-subarrays) | :orange_circle:                         | [py](problems/count_the_number_of_good_subarrays/solution.py) 
 :white_check_mark: | 2538 | [Difference Between Maximum and Minimum Price Sum](https://leetcode.com/problems/difference-between-maximum-and-minimum-price-sum) | :red_circle:                         | [py](problems/difference_between_maximum_and_minimum_price_sum/solution.py) 
+[](check) | :lock: 2539 | [Count the Number of Good Subsequences](https://leetcode.com/problems/count-the-number-of-good-subsequences) | :orange_circle:                         |  
