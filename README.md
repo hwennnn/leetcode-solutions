@@ -497,7 +497,7 @@
 [](check) | 488 | [Zuma Game](https://leetcode.com/problems/zuma-game) | :red_circle:                         |  
 [](check) | :lock: 489 | [Robot Room Cleaner](https://leetcode.com/problems/robot-room-cleaner) | :red_circle:                         |  
 [](check) | :lock: 490 | [The Maze](https://leetcode.com/problems/the-maze) | :orange_circle:                         |  
-[](check) | 491 | [Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences) | :orange_circle:                         |  
+:white_check_mark: | 491 | [Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences) | :orange_circle:                         | [py](problems/non-decreasing_subsequences/solution.py) 
 [](check) | 492 | [Construct the Rectangle](https://leetcode.com/problems/construct-the-rectangle) | :green_circle:                         |  
 [](check) | 493 | [Reverse Pairs](https://leetcode.com/problems/reverse-pairs) | :red_circle:                         |  
 :white_check_mark: | 494 | [Target Sum](https://leetcode.com/problems/target-sum) | :orange_circle:                         | [py](problems/target_sum/solution.py) 
