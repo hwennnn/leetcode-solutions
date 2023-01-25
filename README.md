@@ -915,7 +915,7 @@
 :white_check_mark: | 906 | [Super Palindromes](https://leetcode.com/problems/super-palindromes) | :red_circle:                         | [py](problems/super_palindromes/solution.py) 
 :white_check_mark: | 907 | [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums) | :orange_circle:                         | [py](problems/sum_of_subarray_minimums/solution.py) 
 :white_check_mark: | 908 | [Smallest Range I](https://leetcode.com/problems/smallest-range-i) | :green_circle:                         | [py](problems/smallest_range_i/solution.py) 
-[](check) | 909 | [Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders) | :orange_circle:                         |  
+:white_check_mark: | 909 | [Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders) | :orange_circle:                         | [py](problems/snakes_and_ladders/solution.py)<br />[cpp](problems/snakes_and_ladders/solution.cpp) 
 :white_check_mark: | 910 | [Smallest Range II](https://leetcode.com/problems/smallest-range-ii) | :orange_circle:                         | [py](problems/smallest_range_ii/solution.py) 
 :white_check_mark: | 911 | [Online Election](https://leetcode.com/problems/online-election) | :orange_circle:                         | [py](problems/online_election/solution.py) 
 [](check) | 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array) | :orange_circle:                         |  
@@ -2546,3 +2546,11 @@
 :white_check_mark: | 2537 | [Count the Number of Good Subarrays](https://leetcode.com/problems/count-the-number-of-good-subarrays) | :orange_circle:                         | [py](problems/count_the_number_of_good_subarrays/solution.py) 
 :white_check_mark: | 2538 | [Difference Between Maximum and Minimum Price Sum](https://leetcode.com/problems/difference-between-maximum-and-minimum-price-sum) | :red_circle:                         | [py](problems/difference_between_maximum_and_minimum_price_sum/solution.py) 
 [](check) | :lock: 2539 | [Count the Number of Good Subsequences](https://leetcode.com/problems/count-the-number-of-good-subsequences) | :orange_circle:                         |  
+:white_check_mark: | 2540 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value) | :green_circle:                         | [py](problems/minimum_common_value/solution.py) 
+:white_check_mark: | 2541 | [Minimum Operations to Make Array Equal II](https://leetcode.com/problems/minimum-operations-to-make-array-equal-ii) | :orange_circle:                         | [py](problems/minimum_operations_to_make_array_equal_ii/solution.py) 
+:white_check_mark: | 2542 | [Maximum Subsequence Score](https://leetcode.com/problems/maximum-subsequence-score) | :orange_circle:                         | [py](problems/maximum_subsequence_score/solution.py) 
+:white_check_mark: | 2543 | [Check if Point Is Reachable](https://leetcode.com/problems/check-if-point-is-reachable) | :red_circle:                         | [py](problems/check_if_point_is_reachable/solution.py) 
+:white_check_mark: | 2544 | [Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum) | :green_circle:                         | [py](problems/alternating_digit_sum/solution.py) 
+:white_check_mark: | 2545 | [Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score) | :orange_circle:                         | [py](problems/sort_the_students_by_their_kth_score/solution.py) 
+:white_check_mark: | 2546 | [Apply Bitwise Operations to Make Strings Equal](https://leetcode.com/problems/apply-bitwise-operations-to-make-strings-equal) | :orange_circle:                         | [py](problems/apply_bitwise_operations_to_make_strings_equal/solution.py) 
+:white_check_mark: | 2547 | [Minimum Cost to Split an Array](https://leetcode.com/problems/minimum-cost-to-split-an-array) | :red_circle:                         | [py](problems/minimum_cost_to_split_an_array/solution.py) 
