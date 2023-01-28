@@ -478,7 +478,7 @@
 [](check) | :lock: 469 | [Convex Polygon](https://leetcode.com/problems/convex-polygon) | :orange_circle:                         |  
 :white_check_mark: | 470 | [Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7) | :orange_circle:                         | [py](problems/implement_rand10%28%29_using_rand7%28%29/solution.py) 
 [](check) | :lock: 471 | [Encode String with Shortest Length](https://leetcode.com/problems/encode-string-with-shortest-length) | :red_circle:                         |  
-[](check) | 472 | [Concatenated Words](https://leetcode.com/problems/concatenated-words) | :red_circle:                         |  
+:white_check_mark: | 472 | [Concatenated Words](https://leetcode.com/problems/concatenated-words) | :red_circle:                         | [py](problems/concatenated_words/solution.py) 
 :white_check_mark: | 473 | [Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square) | :orange_circle:                         | [py](problems/matchsticks_to_square/solution.py) 
 :white_check_mark: | 474 | [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes) | :orange_circle:                         | [py](problems/ones_and_zeroes/solution.py) 
 [](check) | 475 | [Heaters](https://leetcode.com/problems/heaters) | :orange_circle:                         |  
@@ -2554,3 +2554,4 @@
 :white_check_mark: | 2545 | [Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score) | :orange_circle:                         | [py](problems/sort_the_students_by_their_kth_score/solution.py) 
 :white_check_mark: | 2546 | [Apply Bitwise Operations to Make Strings Equal](https://leetcode.com/problems/apply-bitwise-operations-to-make-strings-equal) | :orange_circle:                         | [py](problems/apply_bitwise_operations_to_make_strings_equal/solution.py) 
 :white_check_mark: | 2547 | [Minimum Cost to Split an Array](https://leetcode.com/problems/minimum-cost-to-split-an-array) | :red_circle:                         | [py](problems/minimum_cost_to_split_an_array/solution.py) 
+[](check) | :lock: 2548 | [Maximum Price to Fill a Bag](https://leetcode.com/problems/maximum-price-to-fill-a-bag) | :orange_circle:                         |  
