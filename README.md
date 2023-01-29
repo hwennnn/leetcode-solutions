@@ -358,7 +358,7 @@
 :white_check_mark: | 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays) | :green_circle:                         | [py](problems/intersection_of_two_arrays/solution.py) 
 :white_check_mark: | 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii) | :green_circle:                         | [py](problems/intersection_of_two_arrays_ii/solution.py) 
 [](check) | :lock: 351 | [Android Unlock Patterns](https://leetcode.com/problems/android-unlock-patterns) | :orange_circle:                         |  
-[](check) | 352 | [Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals) | :red_circle:                         |  
+:white_check_mark: | 352 | [Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals) | :red_circle:                         | [py](problems/data_stream_as_disjoint_intervals/solution.py) 
 [](check) | :lock: 353 | [Design Snake Game](https://leetcode.com/problems/design-snake-game) | :orange_circle:                         |  
 :white_check_mark: | 354 | [Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes) | :red_circle:                         | [py](problems/russian_doll_envelopes/solution.py) 
 :white_check_mark: | 355 | [Design Twitter](https://leetcode.com/problems/design-twitter) | :orange_circle:                         | [py](problems/design_twitter/solution.py) 
