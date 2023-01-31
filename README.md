@@ -2558,4 +2558,4 @@
 :white_check_mark: | 2549 | [Count Distinct Numbers on Board](https://leetcode.com/problems/count-distinct-numbers-on-board) | :green_circle:                         | [py](problems/count_distinct_numbers_on_board/solution.py) 
 :white_check_mark: | 2550 | [Count Collisions of Monkeys on a Polygon](https://leetcode.com/problems/count-collisions-of-monkeys-on-a-polygon) | :orange_circle:                         | [py](problems/count_collisions_of_monkeys_on_a_polygon/solution.py) 
 :white_check_mark: | 2551 | [Put Marbles in Bags](https://leetcode.com/problems/put-marbles-in-bags) | :red_circle:                         | [py](problems/put_marbles_in_bags/solution.py) 
-[](check) | 2552 | [Count Increasing Quadruplets](https://leetcode.com/problems/count-increasing-quadruplets) | :red_circle:                         |  
+:white_check_mark: | 2552 | [Count Increasing Quadruplets](https://leetcode.com/problems/count-increasing-quadruplets) | :red_circle:                         | [py](problems/count_increasing_quadruplets/solution.py) 
