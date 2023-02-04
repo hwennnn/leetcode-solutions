@@ -12,7 +12,7 @@
 :white_check_mark: | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) | :orange_circle:                         | [py](problems/longest_substring_without_repeating_characters/solution.py) 
 :white_check_mark: | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) | :red_circle:                         | [py](problems/median_of_two_sorted_arrays/solution.py) 
 :white_check_mark: | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) | :orange_circle:                         | [py](problems/longest_palindromic_substring/solution.py) 
-[](check) | 6 | [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion) | :orange_circle:                         |  
+:white_check_mark: | 6 | [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion) | :orange_circle:                         | [py](problems/zigzag_conversion/solution.py) 
 :white_check_mark: | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer) | :orange_circle:                         | [py](problems/reverse_integer/solution.py) 
 :white_check_mark: | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | :orange_circle:                         | [py](problems/string_to_integer_%28atoi%29/solution.py) 
 :white_check_mark: | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number) | :green_circle:                         | [py](problems/palindrome_number/solution.py) 
