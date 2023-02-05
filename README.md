@@ -2559,3 +2559,8 @@
 :white_check_mark: | 2550 | [Count Collisions of Monkeys on a Polygon](https://leetcode.com/problems/count-collisions-of-monkeys-on-a-polygon) | :orange_circle:                         | [py](problems/count_collisions_of_monkeys_on_a_polygon/solution.py) 
 :white_check_mark: | 2551 | [Put Marbles in Bags](https://leetcode.com/problems/put-marbles-in-bags) | :red_circle:                         | [py](problems/put_marbles_in_bags/solution.py) 
 :white_check_mark: | 2552 | [Count Increasing Quadruplets](https://leetcode.com/problems/count-increasing-quadruplets) | :red_circle:                         | [py](problems/count_increasing_quadruplets/solution.py) 
+[](check) | 2553 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array) | :green_circle:                         |  
+[](check) | 2554 | [Maximum Number of Integers to Choose From a Range I](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i) | :orange_circle:                         |  
+[](check) | 2555 | [Maximize Win From Two Segments](https://leetcode.com/problems/maximize-win-from-two-segments) | :orange_circle:                         |  
+[](check) | 2556 | [Disconnect Path in a Binary Matrix by at Most One Flip](https://leetcode.com/problems/disconnect-path-in-a-binary-matrix-by-at-most-one-flip) | :orange_circle:                         |  
+[](check) | :lock: 2557 | [Maximum Number of Integers to Choose From a Range II](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-ii) | :orange_circle:                         |  
