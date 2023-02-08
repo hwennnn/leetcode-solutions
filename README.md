@@ -910,7 +910,7 @@
 :white_check_mark: | 901 | [Online Stock Span](https://leetcode.com/problems/online-stock-span) | :orange_circle:                         | [py](problems/online_stock_span/solution.py) 
 :white_check_mark: | 902 | [Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set) | :red_circle:                         | [py](problems/numbers_at_most_n_given_digit_set/solution.py) 
 [](check) | 903 | [Valid Permutations for DI Sequence](https://leetcode.com/problems/valid-permutations-for-di-sequence) | :red_circle:                         |  
-[](check) | 904 | [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets) | :orange_circle:                         |  
+:white_check_mark: | 904 | [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets) | :orange_circle:                         | [py](problems/fruit_into_baskets/solution.py) 
 :white_check_mark: | 905 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity) | :green_circle:                         | [py](problems/sort_array_by_parity/solution.py)<br />[cpp](problems/sort_array_by_parity/solution.cpp) 
 :white_check_mark: | 906 | [Super Palindromes](https://leetcode.com/problems/super-palindromes) | :red_circle:                         | [py](problems/super_palindromes/solution.py) 
 :white_check_mark: | 907 | [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums) | :orange_circle:                         | [py](problems/sum_of_subarray_minimums/solution.py) 
