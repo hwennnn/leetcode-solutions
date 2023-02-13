@@ -2568,3 +2568,7 @@
 :white_check_mark: | 2559 | [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges) | :orange_circle:                         | [py](problems/count_vowel_strings_in_ranges/solution.py) 
 :white_check_mark: | 2560 | [House Robber IV](https://leetcode.com/problems/house-robber-iv) | :orange_circle:                         | [py](problems/house_robber_iv/solution.py) 
 :white_check_mark: | 2561 | [Rearranging Fruits](https://leetcode.com/problems/rearranging-fruits) | :red_circle:                         | [py](problems/rearranging_fruits/solution.py) 
+:white_check_mark: | 2562 | [Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value) | :green_circle:                         | [py](problems/find_the_array_concatenation_value/solution.py) 
+:white_check_mark: | 2563 | [Count the Number of Fair Pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs) | :orange_circle:                         | [py](problems/count_the_number_of_fair_pairs/solution.py) 
+:white_check_mark: | 2564 | [Substring XOR Queries](https://leetcode.com/problems/substring-xor-queries) | :orange_circle:                         | [py](problems/substring_xor_queries/solution.py) 
+[](check) | 2565 | [Subsequence With the Minimum Score](https://leetcode.com/problems/subsequence-with-the-minimum-score) | :red_circle:                         |  
