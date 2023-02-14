@@ -18,4 +18,3 @@ class Solution:
             carry //= 2
         
         return "".join(res[::-1])
-        
