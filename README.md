@@ -2571,4 +2571,12 @@
 :white_check_mark: | 2562 | [Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value) | :green_circle:                         | [py](problems/find_the_array_concatenation_value/solution.py) 
 :white_check_mark: | 2563 | [Count the Number of Fair Pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs) | :orange_circle:                         | [py](problems/count_the_number_of_fair_pairs/solution.py) 
 :white_check_mark: | 2564 | [Substring XOR Queries](https://leetcode.com/problems/substring-xor-queries) | :orange_circle:                         | [py](problems/substring_xor_queries/solution.py) 
-[](check) | 2565 | [Subsequence With the Minimum Score](https://leetcode.com/problems/subsequence-with-the-minimum-score) | :red_circle:                         |  
+:white_check_mark: | 2565 | [Subsequence With the Minimum Score](https://leetcode.com/problems/subsequence-with-the-minimum-score) | :red_circle:                         | [py](problems/subsequence_with_the_minimum_score/solution.py) 
+[](check) | 2566 | [Maximum Difference by Remapping a Digit](https://leetcode.com/problems/maximum-difference-by-remapping-a-digit) | :green_circle:                         |  
+[](check) | 2567 | [Minimum Score by Changing Two Elements](https://leetcode.com/problems/minimum-score-by-changing-two-elements) | :orange_circle:                         |  
+[](check) | 2568 | [Minimum Impossible OR](https://leetcode.com/problems/minimum-impossible-or) | :orange_circle:                         |  
+[](check) | 2569 | [Handling Sum Queries After Update](https://leetcode.com/problems/handling-sum-queries-after-update) | :red_circle:                         |  
+[](check) | 2570 | [Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values) | :green_circle:                         |  
+[](check) | 2571 | [Minimum Operations to Reduce an Integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0) | :orange_circle:                         |  
+[](check) | 2572 | [Count the Number of Square-Free Subsets](https://leetcode.com/problems/count-the-number-of-square-free-subsets) | :orange_circle:                         |  
+[](check) | 2573 | [Find the String with LCP](https://leetcode.com/problems/find-the-string-with-lcp) | :red_circle:                         |  
