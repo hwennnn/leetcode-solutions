@@ -48,8 +48,8 @@ jobs:
 
       - name: Commit changes in GitHub repository
         run: |
-          git config --global user.name 'hwennnn' 
-          git config --global user.email 'hwendev@gmail.com'
+          git config --global user.name 'hwen-helper' 
+          git config --global user.email 'hwennim01@gmail.com'
           git add -A
           git commit -m '[automated commit] Build README.md'
           git push origin master
