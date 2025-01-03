@@ -1,0 +1,29 @@
+---
+title: 1426. Counting Elements
+draft: false
+tags: 
+  - array
+  - hash-table
+date: 2020-04-07
+---
+
+![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+
+## Description
+
+---
+null
+
+## Solution
+
+---
+### Python
+``` py title='counting-elements'
+class Solution:
+    def countElements(self, nums: List[int]) -> int:
+        c = set(nums)
+
+        return sum([1 for x in nums if x+1 in nums])
+
+```
+

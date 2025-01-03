@@ -1,0 +1,84 @@
+---
+title: 73. Set Matrix Zeroes
+draft: false
+tags: 
+  - array
+  - hash-table
+  - matrix
+date: 2021-08-13
+---
+
+![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+
+## Description
+
+---
+<p>Given an <code>m x n</code> integer matrix <code>matrix</code>, if an element is <code>0</code>, set its entire row and column to <code>0</code>&#39;s.</p>
+
+<p>You must do it <a href="https://en.wikipedia.org/wiki/In-place_algorithm" target="_blank">in place</a>.</p>
+
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://assets.leetcode.com/uploads/2020/08/17/mat1.jpg" style="width: 450px; height: 169px;" />
+<pre>
+<strong>Input:</strong> matrix = [[1,1,1],[1,0,1],[1,1,1]]
+<strong>Output:</strong> [[1,0,1],[0,0,0],[1,0,1]]
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+<img alt="" src="https://assets.leetcode.com/uploads/2020/08/17/mat2.jpg" style="width: 450px; height: 137px;" />
+<pre>
+<strong>Input:</strong> matrix = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]
+<strong>Output:</strong> [[0,0,0,0],[0,4,5,0],[0,3,1,0]]
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li><code>m == matrix.length</code></li>
+	<li><code>n == matrix[0].length</code></li>
+	<li><code>1 &lt;= m, n &lt;= 200</code></li>
+	<li><code>-2<sup>31</sup> &lt;= matrix[i][j] &lt;= 2<sup>31</sup> - 1</code></li>
+</ul>
+
+<p>&nbsp;</p>
+<p><strong>Follow up:</strong></p>
+
+<ul>
+	<li>A straightforward solution using <code>O(mn)</code> space is probably a bad idea.</li>
+	<li>A simple improvement uses <code>O(m + n)</code> space, but still not the best solution.</li>
+	<li>Could you devise a constant space solution?</li>
+</ul>
+
+
+## Solution
+
+---
+### Python
+``` py title='set-matrix-zeroes'
+class Solution:
+    def setZeroes(self, matrix: List[List[int]]) -> None:
+        """
+        Do not return anything, modify matrix in-place instead.
+        """
+        
+        rows, cols = len(matrix), len(matrix[0])
+        setCol0 = False
+        
+        for x in range(rows):
+            setCol0 |= matrix[x][0] == 0
+            for y in range(1, cols):
+                if matrix[x][y] == 0:
+                    matrix[x][0] = matrix[0][y] = 0
+        
+        for x in range(rows - 1, -1, -1):
+            for y in range(1, cols):
+                if matrix[x][0] == 0 or matrix[0][y] == 0:
+                    matrix[x][y] = 0
+            
+            if setCol0: 
+                matrix[x][0] = 0
+
+```
+

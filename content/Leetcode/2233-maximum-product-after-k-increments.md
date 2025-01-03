@@ -1,0 +1,78 @@
+---
+title: 2233. Maximum Product After K Increments
+draft: false
+tags: 
+  - array
+  - greedy
+  - heap-(priority-queue)
+date: 2022-04-10
+---
+
+![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+
+## Description
+
+---
+<p>You are given an array of non-negative integers <code>nums</code> and an integer <code>k</code>. In one operation, you may choose <strong>any</strong> element from <code>nums</code> and <strong>increment</strong> it by <code>1</code>.</p>
+
+<p>Return<em> the <strong>maximum</strong> <strong>product</strong> of </em><code>nums</code><em> after <strong>at most</strong> </em><code>k</code><em> operations. </em>Since the answer may be very large, return it <b>modulo</b> <code>10<sup>9</sup> + 7</code>. Note that you should maximize the product before taking the modulo.&nbsp;</p>
+
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+
+<pre>
+<strong>Input:</strong> nums = [0,4], k = 5
+<strong>Output:</strong> 20
+<strong>Explanation:</strong> Increment the first number 5 times.
+Now nums = [5, 4], with a product of 5 * 4 = 20.
+It can be shown that 20 is maximum product possible, so we return 20.
+Note that there may be other ways to increment nums to have the maximum product.
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> nums = [6,3,3,2], k = 2
+<strong>Output:</strong> 216
+<strong>Explanation:</strong> Increment the second number 1 time and increment the fourth number 1 time.
+Now nums = [6, 4, 3, 3], with a product of 6 * 4 * 3 * 3 = 216.
+It can be shown that 216 is maximum product possible, so we return 216.
+Note that there may be other ways to increment nums to have the maximum product.
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li><code>1 &lt;= nums.length, k &lt;= 10<sup>5</sup></code></li>
+	<li><code>0 &lt;= nums[i] &lt;= 10<sup>6</sup></code></li>
+</ul>
+
+
+## Solution
+
+---
+### Python
+``` py title='maximum-product-after-k-increments'
+class Solution:
+    def maximumProduct(self, nums: List[int], k: int) -> int:
+        M = 10 ** 9 + 7
+        pq = [x for x in nums]
+        heapq.heapify(pq)
+        
+        while k > 0:
+            x = heapq.heappop(pq) + 1
+            heapq.heappush(pq, x)
+            k -= 1
+        
+        x = 1
+        
+        for y in pq:
+            x *= y
+            x %= M
+
+        return x
+        
+
+```
+

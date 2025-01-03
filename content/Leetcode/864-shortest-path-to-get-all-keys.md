@@ -1,0 +1,130 @@
+---
+title: 864. Shortest Path to Get All Keys
+draft: false
+tags: 
+  - array
+  - bit-manipulation
+  - breadth-first-search
+  - matrix
+date: 2023-06-29
+---
+
+![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+
+## Description
+
+---
+<p>You are given an <code>m x n</code> grid <code>grid</code> where:</p>
+
+<ul>
+	<li><code>&#39;.&#39;</code> is an empty cell.</li>
+	<li><code>&#39;#&#39;</code> is a wall.</li>
+	<li><code>&#39;@&#39;</code> is the starting point.</li>
+	<li>Lowercase letters represent keys.</li>
+	<li>Uppercase letters represent locks.</li>
+</ul>
+
+<p>You start at the starting point and one move consists of walking one space in one of the four cardinal directions. You cannot walk outside the grid, or walk into a wall.</p>
+
+<p>If you walk over a key, you can pick it up and you cannot walk over a lock unless you have its corresponding key.</p>
+
+<p>For some <code><font face="monospace">1 &lt;= k &lt;= 6</font></code>, there is exactly one lowercase and one uppercase letter of the first <code>k</code> letters of the English alphabet in the grid. This means that there is exactly one key for each lock, and one lock for each key; and also that the letters used to represent the keys and locks were chosen in the same order as the English alphabet.</p>
+
+<p>Return <em>the lowest number of moves to acquire all keys</em>. If it is impossible, return <code>-1</code>.</p>
+
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://assets.leetcode.com/uploads/2021/07/23/lc-keys2.jpg" style="width: 404px; height: 245px;" />
+<pre>
+<strong>Input:</strong> grid = [&quot;@.a..&quot;,&quot;###.#&quot;,&quot;b.A.B&quot;]
+<strong>Output:</strong> 8
+<strong>Explanation:</strong> Note that the goal is to obtain all the keys not to open all the locks.
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+<img alt="" src="https://assets.leetcode.com/uploads/2021/07/23/lc-key2.jpg" style="width: 404px; height: 245px;" />
+<pre>
+<strong>Input:</strong> grid = [&quot;@..aA&quot;,&quot;..B#.&quot;,&quot;....b&quot;]
+<strong>Output:</strong> 6
+</pre>
+
+<p><strong class="example">Example 3:</strong></p>
+<img alt="" src="https://assets.leetcode.com/uploads/2021/07/23/lc-keys3.jpg" style="width: 244px; height: 85px;" />
+<pre>
+<strong>Input:</strong> grid = [&quot;@Aa&quot;]
+<strong>Output:</strong> -1
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li><code>m == grid.length</code></li>
+	<li><code>n == grid[i].length</code></li>
+	<li><code>1 &lt;= m, n &lt;= 30</code></li>
+	<li><code>grid[i][j]</code> is either an English letter, <code>&#39;.&#39;</code>, <code>&#39;#&#39;</code>, or <code>&#39;@&#39;</code>.&nbsp;</li>
+	<li>There is exactly one&nbsp;<code>&#39;@&#39;</code>&nbsp;in the grid.</li>
+	<li>The number of keys in the grid is in the range <code>[1, 6]</code>.</li>
+	<li>Each key in the grid is <strong>unique</strong>.</li>
+	<li>Each key in the grid has a matching lock.</li>
+</ul>
+
+
+## Solution
+
+---
+### Python
+``` py title='shortest-path-to-get-all-keys'
+class Solution:
+    def shortestPathAllKeys(self, grid: List[str]) -> int:
+        rows, cols = len(grid), len(grid[0])
+        k = 0
+        sx = sy = 0
+
+        for i in range(rows):
+            for j in range(cols):
+                if ord('a') <= ord(grid[i][j]) <= ord('f'):
+                    k += 1
+                
+                if grid[i][j] == "@":
+                    sx, sy = i, j
+        
+        targetKeyMasks = (1 << k) - 1
+
+        queue = deque([(sx, sy, 0)])
+        steps = 0
+        vis = set([(sx, sy, 0)])
+        
+        while queue:
+            N = len(queue)
+
+            for _ in range(N):
+                x, y, keys = queue.popleft()
+
+                if keys == targetKeyMasks: return steps
+
+                for dx, dy in [(x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)]:
+                    if not (0 <= dx < rows and 0 <= dy < cols) or grid[dx][dy] == '#': continue
+
+                    newKeys = keys
+
+                    if ord('a') <= ord(grid[dx][dy]) < ord('a') + k:
+                        newKeys |= (1 << (ord(grid[dx][dy]) - ord('a')))
+                    elif ord('A') <= ord(grid[dx][dy]) < ord('A') + k:
+                        a = ord(grid[dx][dy]) - ord('A')
+
+                        if (keys >> a) & 1 == 0:
+                            continue
+                    
+                    newState = (dx, dy, newKeys)
+                    if newState in vis: continue
+
+                    vis.add(newState)
+                    queue.append(newState)
+
+            steps += 1
+        
+        return -1     
+
+```
+

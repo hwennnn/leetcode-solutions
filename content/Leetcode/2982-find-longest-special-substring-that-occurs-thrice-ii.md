@@ -1,0 +1,112 @@
+---
+title: 2982. Find Longest Special Substring That Occurs Thrice II
+draft: false
+tags: 
+  - hash-table
+  - string
+  - binary-search
+  - sliding-window
+  - counting
+date: 2024-01-01
+---
+
+![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+
+## Description
+
+---
+<p>You are given a string <code>s</code> that consists of lowercase English letters.</p>
+
+<p>A string is called <strong>special</strong> if it is made up of only a single character. For example, the string <code>&quot;abc&quot;</code> is not special, whereas the strings <code>&quot;ddd&quot;</code>, <code>&quot;zz&quot;</code>, and <code>&quot;f&quot;</code> are special.</p>
+
+<p>Return <em>the length of the <strong>longest special substring</strong> of </em><code>s</code> <em>which occurs <strong>at least thrice</strong></em>, <em>or </em><code>-1</code><em> if no special substring occurs at least thrice</em>.</p>
+
+<p>A <strong>substring</strong> is a contiguous <strong>non-empty</strong> sequence of characters within a string.</p>
+
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+
+<pre>
+<strong>Input:</strong> s = &quot;aaaa&quot;
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> The longest special substring which occurs thrice is &quot;aa&quot;: substrings &quot;<u><strong>aa</strong></u>aa&quot;, &quot;a<u><strong>aa</strong></u>a&quot;, and &quot;aa<u><strong>aa</strong></u>&quot;.
+It can be shown that the maximum length achievable is 2.
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> s = &quot;abcdef&quot;
+<strong>Output:</strong> -1
+<strong>Explanation:</strong> There exists no special substring which occurs at least thrice. Hence return -1.
+</pre>
+
+<p><strong class="example">Example 3:</strong></p>
+
+<pre>
+<strong>Input:</strong> s = &quot;abcaba&quot;
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> The longest special substring which occurs thrice is &quot;a&quot;: substrings &quot;<u><strong>a</strong></u>bcaba&quot;, &quot;abc<u><strong>a</strong></u>ba&quot;, and &quot;abcab<u><strong>a</strong></u>&quot;.
+It can be shown that the maximum length achievable is 1.
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li><code>3 &lt;= s.length &lt;= 5 * 10<sup>5</sup></code></li>
+	<li><code>s</code> consists of only lowercase English letters.</li>
+</ul>
+
+
+## Solution
+
+---
+### Python
+``` py title='find-longest-special-substring-that-occurs-thrice-ii'
+class Solution:
+    def maximumLength(self, s: str) -> int:
+        N = len(s)
+        A = defaultdict(lambda: [0] * 3)
+
+        def build(x, count):
+            first, second, third = A[x]
+
+            if count > first:
+                first, second, third = count, first, second
+            elif count > second:
+                second, third = count, second
+            elif count > third:
+                third = count
+
+            A[x] = [first, second, third]
+
+        prev = s[0]
+        count = 0
+        
+        for i, x in enumerate(s):
+            if x == prev:
+                count += 1
+            else:
+                build(prev, count)
+                count = 1
+                prev = x
+            
+        build(prev, count)
+        
+        res = 0
+        for cnt in A.values():
+            first, second, third = cnt
+
+            if first == second and first > third:
+                second -= 1
+            
+            if first + second + third >= 3:
+                res = max(res, max(first - 2, second))
+        
+        if res == 0: return -1
+        
+        return res
+
+```
+
