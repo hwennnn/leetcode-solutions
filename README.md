@@ -1,15 +1,17 @@
-# LeetCode Solutions
+# Houman's Digital Garden
 
-[![LeetCode user theonepieceisreal](https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=black&color=%23ffa116&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Ftheonepieceisreal&logo=leetcode&logoColor=yellow)](https://leetcode.com/theonepieceisreal/)
+Welcome to my digital garden! This is where I document my journey through Computer Science concepts and LeetCode problem-solving.
 
-This repository contains solutions to various LeetCode problems, organized and presented using [Quartz](https://github.com/jackyzha0/quartz).
+## 🌱 What's Inside
 
-## Credits
-
-- Problems sourced from [LeetCode](https://leetcode.com/)
-- Website built with [Quartz](https://quartz.jzhao.xyz/) by [jackyzha0](https://github.com/jackyzha0)
-- [LeetCode sync automation tool](https://github.com/theonepieceisreal/leetcode-sync)
+- LeetCode Solutions: A growing collection of solutions to various LeetCode problems
+- CS Concepts: Notes and learnings about different Computer Science topics
+- Regular Updates: New content is added regularly (aiming for daily updates)
 
 ## License
 
-This repository follows the same licensing terms as Quartz (MIT License).
+This repository is licensed under the MIT License, following the same licensing terms as Quartz.
+
+---
+
+*Built with [Quartz](https://quartz.jzhao.xyz/), a fast, batteries-included static-site generator* 🪴
