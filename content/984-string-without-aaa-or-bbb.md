@@ -49,7 +49,7 @@ date: 2022-02-21
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='string-without-aaa-or-bbb'
 class Solution:
     def strWithout3a3b(self, a: int, b: int) -> str:

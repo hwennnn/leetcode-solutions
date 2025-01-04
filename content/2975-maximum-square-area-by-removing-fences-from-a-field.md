@@ -60,7 +60,7 @@ date: 2023-12-27
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-square-area-by-removing-fences-from-a-field'
 class Solution:
     def maximizeSquareArea(self, m: int, n: int, hFences: List[int], vFences: List[int]) -> int:

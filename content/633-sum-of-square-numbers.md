@@ -43,7 +43,7 @@ date: 2024-06-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sum-of-square-numbers'
 class Solution:
     def judgeSquareSum(self, c: int) -> bool:

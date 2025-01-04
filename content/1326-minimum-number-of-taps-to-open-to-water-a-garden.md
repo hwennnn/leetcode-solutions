@@ -58,7 +58,7 @@ Opening Only the second tap will water the whole garden [0,5]
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-taps-to-open-to-water-a-garden'
 class Solution:
     def minTaps(self, n: int, ranges: List[int]) -> int:

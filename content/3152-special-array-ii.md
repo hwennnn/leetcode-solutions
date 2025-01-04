@@ -63,7 +63,7 @@ date: 2024-12-09
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='special-array-ii'
 class Solution:
     def isArraySpecial(self, nums: List[int], queries: List[List[int]]) -> List[bool]:

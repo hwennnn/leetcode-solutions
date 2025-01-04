@@ -54,7 +54,7 @@ date: 2023-04-28
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='similar-string-groups'
 class UnionFind:
     def __init__(self, N):

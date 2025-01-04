@@ -68,7 +68,7 @@ date: 2022-04-12
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='game-of-life'
 class Solution:
     def gameOfLife(self, board: List[List[int]]) -> None:

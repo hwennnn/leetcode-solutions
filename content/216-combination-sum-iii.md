@@ -65,7 +65,7 @@ Using 4 different numbers in the range [1,9], the smallest sum we can get is 1+2
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='combination-sum-iii'
 class Solution:
     def combinationSum3(self, k: int, n: int) -> List[List[int]]:

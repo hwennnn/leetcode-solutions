@@ -63,7 +63,7 @@ twitter.getNewsFeed(1);  // User 1&#39;s news feed should return a list with 1 t
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='design-twitter'
 class Tweet:
     timestamp = 0

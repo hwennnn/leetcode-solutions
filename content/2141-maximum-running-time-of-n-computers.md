@@ -62,7 +62,7 @@ We can run the two computers simultaneously for at most 2 minutes, so we return 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-running-time-of-n-computers'
 class Solution:
     def maxRunTime(self, n: int, batteries: List[int]) -> int:

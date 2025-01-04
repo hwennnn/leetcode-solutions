@@ -48,7 +48,7 @@ Since there are two elements with the value 3, in total there are 2 elements hav
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-elements-with-strictly-smaller-and-greater-elements'
 class Solution:
     def countElements(self, nums: List[int]) -> int:

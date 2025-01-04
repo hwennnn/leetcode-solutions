@@ -51,7 +51,7 @@ So we return the level with the maximum sum which is level 2.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-level-sum-of-a-binary-tree'
 # Definition for a binary tree node.
 # class TreeNode:

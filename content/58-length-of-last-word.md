@@ -54,7 +54,7 @@ date: 2024-04-01
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='length-of-last-word'
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:

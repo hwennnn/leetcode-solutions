@@ -65,7 +65,7 @@ The ladder will now have rungs at [<u>1</u>,3,4,6,7].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='add-minimum-number-of-rungs'
 class Solution:
     def addRungs(self, rungs: List[int], dist: int) -> int:

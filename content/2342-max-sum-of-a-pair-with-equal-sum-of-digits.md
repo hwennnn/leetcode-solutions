@@ -51,7 +51,7 @@ So the maximum sum that we can obtain is 54.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='max-sum-of-a-pair-with-equal-sum-of-digits'
 class Solution:
     def maximumSum(self, nums: List[int]) -> int:

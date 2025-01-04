@@ -57,7 +57,7 @@ Hence, we return [0,1,2,3,4].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-all-k-distant-indices-in-an-array'
 class Solution:
     def findKDistantIndices(self, nums: List[int], key: int, k: int) -> List[int]:

@@ -60,7 +60,7 @@ Note that [8,6] is not a smooth descent period as 8 - 6 &ne; 1.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-smooth-descent-periods-of-a-stock'
 class Solution:
     def getDescentPeriods(self, prices: List[int]) -> int:

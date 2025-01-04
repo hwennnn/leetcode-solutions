@@ -48,7 +48,7 @@ date: 2023-07-23
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='all-possible-full-binary-trees'
 # Definition for a binary tree node.
 # class TreeNode:

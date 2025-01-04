@@ -91,7 +91,7 @@ date: 2024-03-31
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-levels-to-gain-more-points'
 class Solution:
     def minimumLevels(self, possible: List[int]) -> int:

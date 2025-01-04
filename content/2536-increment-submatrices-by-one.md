@@ -58,7 +58,7 @@ date: 2023-01-16
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='increment-submatrices-by-one'
 class Solution:
     def rangeAddQueries(self, n: int, queries: List[List[int]]) -> List[List[int]]:

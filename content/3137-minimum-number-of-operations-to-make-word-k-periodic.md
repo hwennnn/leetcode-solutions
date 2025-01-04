@@ -102,7 +102,7 @@ font-size: 0.85rem;
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-operations-to-make-word-k-periodic'
 class Solution:
     def minimumOperationsToMakeKPeriodic(self, word: str, k: int) -> int:

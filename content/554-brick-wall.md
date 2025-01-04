@@ -50,7 +50,7 @@ date: 2021-04-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='brick-wall'
 class Solution:
     def leastBricks(self, wall: List[List[int]]) -> int:

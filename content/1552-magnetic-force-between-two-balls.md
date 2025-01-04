@@ -52,7 +52,7 @@ date: 2024-06-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='magnetic-force-between-two-balls'
 class Solution:
     def maxDistance(self, position: List[int], m: int) -> int:

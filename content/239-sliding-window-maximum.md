@@ -57,7 +57,7 @@ Window position                Max
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sliding-window-maximum'
 class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:

@@ -48,7 +48,7 @@ date: 2022-01-05
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='k-similar-strings'
 class Solution:
     def kSimilarity(self, s1: str, s2: str) -> int:

@@ -57,7 +57,7 @@ Change land grid[1][1] and grid[0][2] to water and get 2 disconnected island.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-days-to-disconnect-island'
 class Solution:
     def minDays(self, grid: List[List[int]]) -> int:

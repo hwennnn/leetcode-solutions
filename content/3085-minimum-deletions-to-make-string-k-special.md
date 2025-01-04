@@ -68,7 +68,7 @@ date: 2024-03-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-deletions-to-make-string-k-special'
 class Solution:
     def minimumDeletions(self, word: str, k: int) -> int:

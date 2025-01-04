@@ -67,7 +67,7 @@ Therefore, the size of the longest subarray is 2.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit'
 class Solution:
     def longestSubarray(self, nums: List[int], limit: int) -> int:

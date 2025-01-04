@@ -74,7 +74,7 @@ Thus, the minimum time needed to complete all the courses is 7 + 5 = 12 months.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='parallel-courses-iii'
 class Solution:
     def minimumTime(self, n: int, relations: List[List[int]], time: List[int]) -> int:

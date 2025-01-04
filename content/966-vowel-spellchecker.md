@@ -68,7 +68,7 @@ date: 2022-02-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='vowel-spellchecker'
 class Solution:
     def spellchecker(self, wordlist: List[str], queries: List[str]) -> List[str]:

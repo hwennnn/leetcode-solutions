@@ -61,7 +61,7 @@ The 2nd customer is the richest with a wealth of 10.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='richest-customer-wealth'
 class Solution:
     def maximumWealth(self, accounts: List[List[int]]) -> int:

@@ -71,7 +71,7 @@ date: 2022-02-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-turbulent-subarray'
 class Solution:
     def maxTurbulenceSize(self, arr: List[int]) -> int:

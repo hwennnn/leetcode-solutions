@@ -71,7 +71,7 @@ date: 2023-12-10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-the-number-of-infection-sequences'
 class Solution:
     MOD = 10 ** 9 + 7

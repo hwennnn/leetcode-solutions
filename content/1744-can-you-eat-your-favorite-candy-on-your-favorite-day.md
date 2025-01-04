@@ -65,7 +65,7 @@ date: 2021-02-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='can-you-eat-your-favorite-candy-on-your-favorite-day'
 class Solution:
     def canEat(self, candiesCount: List[int], queries: List[List[int]]) -> List[bool]:

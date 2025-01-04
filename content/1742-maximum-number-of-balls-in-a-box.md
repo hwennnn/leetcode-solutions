@@ -64,7 +64,7 @@ Box 10 has the most number of balls with 2 balls.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-number-of-balls-in-a-box'
 class Solution:
     def countBalls(self, lowLimit: int, highLimit: int) -> int:

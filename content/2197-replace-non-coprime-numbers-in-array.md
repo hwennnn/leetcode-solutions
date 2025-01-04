@@ -73,7 +73,7 @@ Note that there are other ways to obtain the same resultant array.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='replace-non-coprime-numbers-in-array'
 class Solution:
     def replaceNonCoprimes(self, nums: List[int]) -> List[int]:

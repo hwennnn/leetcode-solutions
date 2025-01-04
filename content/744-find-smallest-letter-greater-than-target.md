@@ -57,7 +57,7 @@ date: 2023-06-09
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-smallest-letter-greater-than-target'
 class Solution:
     def nextGreatestLetter(self, letters: List[str], target: str) -> str:

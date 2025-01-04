@@ -64,7 +64,7 @@ Since 11 is smaller than 17, we return the first pair.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='closest-prime-numbers-in-range'
 class Solution:
     def closestPrimes(self, left: int, right: int) -> List[int]:

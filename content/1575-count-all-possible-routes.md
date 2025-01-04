@@ -71,7 +71,7 @@ date: 2023-06-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-all-possible-routes'
 class Solution:
     def countRoutes(self, locations: List[int], start: int, finish: int, fuel: int) -> int:

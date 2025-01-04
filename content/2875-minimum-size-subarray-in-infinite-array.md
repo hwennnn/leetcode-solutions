@@ -64,7 +64,7 @@ It can be proven that there is no subarray with sum equal to target = 3.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-size-subarray-in-infinite-array'
 class Solution:
     def minSizeSubarray(self, nums: List[int], target: int) -> int:

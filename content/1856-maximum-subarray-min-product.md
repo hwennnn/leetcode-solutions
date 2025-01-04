@@ -67,7 +67,7 @@ date: 2021-05-09
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-subarray-min-product'
 class Solution:
     def maxSumMinProduct(self, nums: List[int]) -> int:

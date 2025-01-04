@@ -49,7 +49,7 @@ date: 2022-05-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sqrtx'
 class Solution:
     def mySqrt(self, x: int) -> int:

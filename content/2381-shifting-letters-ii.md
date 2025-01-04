@@ -54,7 +54,7 @@ Finally, shift the characters from index 1 to index 1 forward. Now s = &quot;cat
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='shifting-letters-ii'
 class Solution:
     def shiftingLetters(self, s: str, shifts: List[List[int]]) -> str:

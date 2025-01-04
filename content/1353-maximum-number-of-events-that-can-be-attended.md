@@ -54,7 +54,7 @@ Attend the third event on day 3.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-number-of-events-that-can-be-attended'
 class Solution:
     def maxEvents(self, events: List[List[int]]) -> int:

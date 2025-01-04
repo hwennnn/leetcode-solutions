@@ -84,7 +84,7 @@ The points for the students are: [0,0,5,0,0,5]. The sum of the points is 10.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='the-score-of-students-solving-math-expression'
 class Solution:
     def scoreOfStudents(self, s: str, A: List[int]) -> int:

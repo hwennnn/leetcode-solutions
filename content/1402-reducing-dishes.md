@@ -61,7 +61,7 @@ Each dish is prepared in one unit of time.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='reducing-dishes'
 class Solution:
     def maxSatisfaction(self, satisfaction: List[int]) -> int:

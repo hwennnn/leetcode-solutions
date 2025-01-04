@@ -68,7 +68,7 @@ The maximum XOR possible from these pairs is 25 XOR 30 = 7 since the only other 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-strong-pair-xor-i'
 class Solution:
     def maximumStrongPairXor(self, nums: List[int]) -> int:

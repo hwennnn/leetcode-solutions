@@ -45,7 +45,7 @@ date: 2021-05-03
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='prime-arrangements'
 class Solution:
     def numPrimeArrangements(self, n: int) -> int:

@@ -49,7 +49,7 @@ The total volume of water trapped is 4.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='trapping-rain-water-ii'
 class Solution:
     def trapRainWater(self, heights: List[List[int]]) -> int:

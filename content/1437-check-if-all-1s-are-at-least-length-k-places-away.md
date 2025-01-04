@@ -44,7 +44,7 @@ date: 2021-01-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-if-all-1s-are-at-least-length-k-places-away'
 class Solution:
     def kLengthApart(self, nums: List[int], k: int) -> bool:

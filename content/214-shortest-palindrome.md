@@ -39,7 +39,7 @@ date: 2024-09-20
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='shortest-palindrome'
 class Solution:
     def shortestPalindrome(self, s: str) -> str:

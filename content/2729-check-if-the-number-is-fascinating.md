@@ -53,7 +53,7 @@ date: 2023-06-11
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-if-the-number-is-fascinating'
 class Solution:
     def isFascinating(self, n: int) -> bool:

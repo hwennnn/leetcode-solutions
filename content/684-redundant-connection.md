@@ -53,7 +53,7 @@ date: 2021-06-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='redundant-connection'
 class Solution:
     def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:

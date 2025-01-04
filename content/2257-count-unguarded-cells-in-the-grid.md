@@ -57,7 +57,7 @@ There are a total of 4 unguarded cells, so we return 4.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-unguarded-cells-in-the-grid'
 class Solution:
     def countUnguarded(self, rows: int, cols: int, guards: List[List[int]], walls: List[List[int]]) -> int:

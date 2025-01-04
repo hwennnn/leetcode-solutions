@@ -62,7 +62,7 @@ The second move swaps the second and third row.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='transform-to-chessboard'
 class Solution:
     def movesToChessboard(self, board: List[List[int]]) -> int:

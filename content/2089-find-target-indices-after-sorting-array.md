@@ -60,7 +60,7 @@ The index where nums[i] == 5 is 4.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-target-indices-after-sorting-array'
 class Solution:
     def targetIndices(self, nums: List[int], target: int) -> List[int]:

@@ -87,7 +87,7 @@ Hence, the answer is -1.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='earliest-second-to-mark-indices-i'
 class Solution:
     def earliestSecondToMarkIndices(self, nums: List[int], changeIndices: List[int]) -> int:

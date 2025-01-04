@@ -45,7 +45,7 @@ date: 2020-08-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='numbers-with-same-consecutive-differences'
 class Solution:
     def numsSameConsecDiff(self, n: int, k: int) -> List[int]:

@@ -57,7 +57,7 @@ The 5-Sum of the array is 2.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-k-sum-of-an-array'
 class Solution:
     def kSum(self, nums: List[int], k: int) -> int:

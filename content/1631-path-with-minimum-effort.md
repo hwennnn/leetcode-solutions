@@ -68,7 +68,7 @@ This is better than the route of [1,2,2,2,5], where the maximum absolute differe
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='path-with-minimum-effort'
 class Solution:
     def minimumEffortPath(self, heights: List[List[int]]) -> int:

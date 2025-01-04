@@ -59,7 +59,7 @@ target = 2 has the maximum number of occurrences following an occurrence of key,
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='most-frequent-number-following-key-in-an-array'
 class Solution:
     def mostFrequent(self, nums: List[int], key: int) -> int:

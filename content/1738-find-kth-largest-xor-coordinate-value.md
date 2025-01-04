@@ -64,7 +64,7 @@ date: 2021-01-24
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-kth-largest-xor-coordinate-value'
 class Solution:
     def kthLargestValue(self, matrix: List[List[int]], k: int) -> int:

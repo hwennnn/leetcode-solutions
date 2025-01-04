@@ -46,7 +46,7 @@ date: 2022-08-26
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='reordered-power-of-2'
 class Solution:
     def reorderedPowerOf2(self, N: int) -> bool:

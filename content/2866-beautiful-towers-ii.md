@@ -79,7 +79,7 @@ It can be shown that there exists no other beautiful configuration with a sum of
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='beautiful-towers-ii'
 class Solution:
     def maximumSumOfHeights(self, maxHeights: List[int]) -> int:

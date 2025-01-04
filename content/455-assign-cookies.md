@@ -56,7 +56,7 @@ You need to output 2.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='assign-cookies'
 class Solution:
     def findContentChildren(self, g: List[int], s: List[int]) -> int:

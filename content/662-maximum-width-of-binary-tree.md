@@ -60,7 +60,7 @@ date: 2023-04-20
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-width-of-binary-tree'
 # Definition for a binary tree node.
 # class TreeNode:

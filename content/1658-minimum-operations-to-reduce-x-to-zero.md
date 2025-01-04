@@ -57,7 +57,7 @@ date: 2023-09-20
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-operations-to-reduce-x-to-zero'
 class Solution:
     def minOperations(self, nums: List[int], k: int) -> int:

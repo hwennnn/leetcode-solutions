@@ -53,7 +53,7 @@ date: 2024-06-01
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='score-of-a-string'
 class Solution:
     def scoreOfString(self, s: str) -> int:

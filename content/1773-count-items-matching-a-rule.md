@@ -55,7 +55,7 @@ date: 2021-04-10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-items-matching-a-rule'
 class Solution:
     def countMatches(self, items: List[List[str]], ruleKey: str, ruleValue: str) -> int:

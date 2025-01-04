@@ -54,7 +54,7 @@ It can be proven that it is not possible to convert current to correct in fewer 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-operations-to-convert-time'
 class Solution:
     def convertTime(self, current: str, correct: str) -> int:

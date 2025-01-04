@@ -67,7 +67,7 @@ They are from the range [1, 7], all did not appear in banned, and their sum is 2
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-number-of-integers-to-choose-from-a-range-i'
 class Solution:
     def maxCount(self, banned: List[int], n: int, maxSum: int) -> int:

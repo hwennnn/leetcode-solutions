@@ -58,7 +58,7 @@ date: 2021-04-04
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='determine-color-of-a-chessboard-square'
 class Solution:
     def squareIsWhite(self, coordinates: str) -> bool:

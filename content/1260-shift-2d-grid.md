@@ -64,7 +64,7 @@ date: 2022-04-11
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='shift-2d-grid'
 class Solution:
     def shiftGrid(self, grid: List[List[int]], k: int) -> List[List[int]]:

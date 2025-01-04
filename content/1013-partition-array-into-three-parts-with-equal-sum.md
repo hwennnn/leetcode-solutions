@@ -53,7 +53,7 @@ date: 2022-01-15
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='partition-array-into-three-parts-with-equal-sum'
 class Solution:
     def canThreePartsEqualSum(self, arr: List[int]) -> bool:

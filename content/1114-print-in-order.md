@@ -56,7 +56,7 @@ public class Foo {
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='print-in-order'
 from threading import Condition
 

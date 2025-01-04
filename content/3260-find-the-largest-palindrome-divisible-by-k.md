@@ -74,7 +74,7 @@ date: 2024-08-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-largest-palindrome-divisible-by-k'
 class Solution:
     def largestPalindrome(self, n: int, k: int) -> str:

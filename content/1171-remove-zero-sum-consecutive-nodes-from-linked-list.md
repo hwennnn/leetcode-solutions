@@ -54,7 +54,7 @@ date: 2024-03-12
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='remove-zero-sum-consecutive-nodes-from-linked-list'
 # Definition for singly-linked list.
 # class ListNode:

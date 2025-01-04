@@ -76,7 +76,7 @@ The rank of matrix[1][1] is 3 because matrix[1][1] &gt; matrix[0][1], matrix[1][
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='rank-transform-of-a-matrix'
 class DSU:
     def __init__(self, graph):

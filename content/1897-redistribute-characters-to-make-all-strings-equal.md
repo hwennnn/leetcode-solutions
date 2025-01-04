@@ -52,7 +52,7 @@ All the strings are now equal to &quot;abc&quot;, so return <code>true</code>.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='redistribute-characters-to-make-all-strings-equal'
 class Solution:
     def makeEqual(self, words: List[str]) -> bool:

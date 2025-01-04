@@ -53,7 +53,7 @@ date: 2023-08-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='01-matrix'
 class Solution:
     def updateMatrix(self, mat: List[List[int]]) -> List[List[int]]:

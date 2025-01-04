@@ -56,7 +56,7 @@ date: 2020-03-09
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='x-of-a-kind-in-a-deck-of-cards'
 class Solution:
     def hasGroupsSizeX(self, deck: List[int]) -> bool:

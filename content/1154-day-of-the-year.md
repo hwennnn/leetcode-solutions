@@ -44,7 +44,7 @@ date: 2021-05-15
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='day-of-the-year'
 from datetime import datetime
 

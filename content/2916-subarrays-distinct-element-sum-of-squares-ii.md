@@ -68,7 +68,7 @@ The sum of the squares of the distinct counts in all subarrays is equal to 1<sup
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='subarrays-distinct-element-sum-of-squares-ii'
 MOD = 1000000007
 

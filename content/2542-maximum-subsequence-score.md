@@ -66,7 +66,7 @@ Choosing index 2 is optimal: nums1[2] * nums2[2] = 3 * 10 = 30 is the maximum po
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-subsequence-score'
 class Solution:
     def maxScore(self, nums1: List[int], nums2: List[int], k: int) -> int:

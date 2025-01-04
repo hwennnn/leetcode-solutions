@@ -56,7 +56,7 @@ date: 2021-08-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='set-matrix-zeroes'
 class Solution:
     def setZeroes(self, matrix: List[List[int]]) -> None:

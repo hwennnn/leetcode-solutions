@@ -114,7 +114,7 @@ date: 2024-06-09
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-n-th-value-after-k-seconds'
 class Solution:
     def valueAfterKSeconds(self, n: int, k: int) -> int:

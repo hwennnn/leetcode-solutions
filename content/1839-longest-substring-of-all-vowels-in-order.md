@@ -62,7 +62,7 @@ date: 2021-04-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-substring-of-all-vowels-in-order'
 class Solution:
     def longestBeautifulSubstring(self, word: str) -> int:

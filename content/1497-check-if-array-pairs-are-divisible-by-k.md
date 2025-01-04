@@ -60,7 +60,7 @@ date: 2025-01-01
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-if-array-pairs-are-divisible-by-k'
 class Solution:
     def canArrange(self, arr: List[int], k: int) -> bool:

@@ -43,7 +43,7 @@ date: 2022-03-27
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='rotate-list'
 # Definition for singly-linked list.
 # class ListNode:

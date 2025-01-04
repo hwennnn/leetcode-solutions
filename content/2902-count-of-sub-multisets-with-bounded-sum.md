@@ -68,7 +68,7 @@ date: 2023-10-20
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-of-sub-multisets-with-bounded-sum'
 class Solution:
     def countSubMultisets(self, nums: List[int], l: int, r: int) -> int:

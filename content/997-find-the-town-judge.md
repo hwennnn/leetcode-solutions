@@ -66,7 +66,7 @@ date: 2024-02-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-town-judge'
 class Solution:
     def findJudge(self, n: int, trust: List[List[int]]) -> int:

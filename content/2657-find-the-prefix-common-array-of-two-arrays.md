@@ -57,7 +57,7 @@ At i = 2: 1, 2, and 3 are common in A and B, so C[2] = 3.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-prefix-common-array-of-two-arrays'
 class Solution:
     def findThePrefixCommonArray(self, A: List[int], B: List[int]) -> List[int]:

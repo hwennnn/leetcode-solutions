@@ -68,7 +68,7 @@ date: 2021-08-01
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-number-of-special-subsequences'
 class Solution:
     def countSpecialSubsequences(self, nums: List[int]) -> int:

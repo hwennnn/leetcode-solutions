@@ -61,7 +61,7 @@ date: 2022-11-27
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-subarrays-with-median-k'
 class Solution:
     def countSubarrays(self, nums: List[int], k: int) -> int:

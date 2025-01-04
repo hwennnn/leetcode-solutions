@@ -47,7 +47,7 @@ date: 2022-02-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='di-string-match'
 class Solution:
     def diStringMatch(self, s: str) -> List[int]:

@@ -64,7 +64,7 @@ date: 2023-07-09
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-maximum-achievable-number'
 class Solution:
     def theMaximumAchievableX(self, num: int, t: int) -> int:

@@ -58,7 +58,7 @@ The second beautiful arrangement is [2,1]:
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='beautiful-arrangement'
 class Solution:
     def countArrangement(self, n: int) -> int:

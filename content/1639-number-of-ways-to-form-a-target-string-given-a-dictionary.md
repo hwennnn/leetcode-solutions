@@ -71,7 +71,7 @@ date: 2024-12-30
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-ways-to-form-a-target-string-given-a-dictionary'
 class Solution:
     def numWays(self, words: List[str], target: str) -> int:

@@ -86,7 +86,7 @@ date: 2024-06-09
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-first-player-to-win-k-games-in-a-row'
 class Solution:
     def findWinningPlayer(self, skills: List[int], k: int) -> int:

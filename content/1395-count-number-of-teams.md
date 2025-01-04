@@ -94,7 +94,7 @@ public:
     }
 };
 ```
-### Python
+### Python3
 ``` py title='count-number-of-teams'
 class Solution:
     def numTeams(self, rating: List[int]) -> int:

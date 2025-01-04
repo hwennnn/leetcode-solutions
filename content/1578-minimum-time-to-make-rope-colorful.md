@@ -62,7 +62,7 @@ There are no longer two consecutive balloons of the same color. Total time = 1 +
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-time-to-make-rope-colorful'
 class Solution:
     def minCost(self, colors: str, neededTime: List[int]) -> int:

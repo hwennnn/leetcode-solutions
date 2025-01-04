@@ -63,7 +63,7 @@ Hence, answer[0] = 8, and so on.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sum-of-distances-in-tree'
 class Solution:
     def sumOfDistancesInTree(self, n: int, edges: List[List[int]]) -> List[int]:

@@ -61,7 +61,7 @@ Third: nums = [1]
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='min-max-game'
 class Solution:
     def minMaxGame(self, nums: List[int]) -> int:

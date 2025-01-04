@@ -55,7 +55,7 @@ There are 6 ways to get a sum of 7: 1+6, 2+5, 3+4, 4+3, 5+2, 6+1.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-dice-rolls-with-target-sum'
 class Solution:
     def numRollsToTarget(self, n: int, k: int, target: int) -> int:

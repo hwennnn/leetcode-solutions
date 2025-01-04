@@ -55,7 +55,7 @@ date: 2023-12-24
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-changes-to-make-alternating-binary-string'
 class Solution:
     def minOperations(self, s: str) -> int:

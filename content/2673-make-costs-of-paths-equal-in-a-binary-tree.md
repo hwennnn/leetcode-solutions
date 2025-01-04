@@ -66,7 +66,7 @@ It can be shown that this is the minimum answer we can achieve.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='make-costs-of-paths-equal-in-a-binary-tree'
 class Solution:
     def minIncrements(self, n: int, cost: List[int]) -> int:

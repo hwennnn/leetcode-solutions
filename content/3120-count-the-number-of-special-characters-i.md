@@ -66,7 +66,7 @@ date: 2024-04-21
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-the-number-of-special-characters-i'
 class Solution:
     def numberOfSpecialChars(self, word: str) -> int:

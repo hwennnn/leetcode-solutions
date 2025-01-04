@@ -65,7 +65,7 @@ If we had started at the first tree, we would only pick from trees [1,2].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='fruit-into-baskets'
 class Solution:
     def totalFruit(self, fruits: List[int]) -> int:

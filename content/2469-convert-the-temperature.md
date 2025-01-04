@@ -53,7 +53,7 @@ date: 2022-11-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='convert-the-temperature'
 class Solution:
     def convertTemperature(self, c: float) -> List[float]:

@@ -66,7 +66,7 @@ And in round 2, the third senator can just announce the victory since he is the 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='dota2-senate'
 class Solution:
     def predictPartyVictory(self, senate: str) -> str:

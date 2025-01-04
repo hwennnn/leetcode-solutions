@@ -49,7 +49,7 @@ The total number of ways to buy pens and pencils is 5 + 3 + 1 = 9.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-ways-to-buy-pens-and-pencils'
 class Solution:
     def waysToBuyPensPencils(self, total: int, cost1: int, cost2: int) -> int:

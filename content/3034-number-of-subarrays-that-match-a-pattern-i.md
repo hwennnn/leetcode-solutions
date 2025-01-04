@@ -60,7 +60,7 @@ Hence, there are 2 subarrays in nums that match the pattern.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-subarrays-that-match-a-pattern-i'
 class Solution:
     def countMatchingSubarrays(self, nums: List[int], pattern: List[int]) -> int:

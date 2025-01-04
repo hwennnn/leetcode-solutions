@@ -61,7 +61,7 @@ The total minimum cost is 10 + 30 + 50 + 20 = 110 to have half the people interv
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='two-city-scheduling'
 class Solution:
     def twoCitySchedCost(self, costs: List[List[int]]) -> int:

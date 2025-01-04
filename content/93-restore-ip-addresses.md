@@ -55,7 +55,7 @@ date: 2023-01-21
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='restore-ip-addresses'
 class Solution:
     def restoreIpAddresses(self, s: str) -> List[str]:

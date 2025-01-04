@@ -58,7 +58,7 @@ date: 2023-01-11
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-time-to-collect-all-apples-in-a-tree'
 class Solution:
     def minTime(self, n: int, edges: List[List[int]], hasApple: List[bool]) -> int:

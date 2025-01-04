@@ -43,7 +43,7 @@ date: 2022-09-06
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-numbers-with-unique-digits'
 class Solution:
     def countNumbersWithUniqueDigits(self, n: int) -> int:

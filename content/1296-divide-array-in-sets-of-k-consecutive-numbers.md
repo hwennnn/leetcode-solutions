@@ -58,7 +58,7 @@ date: 2020-12-27
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='divide-array-in-sets-of-k-consecutive-numbers'
 class Solution:
     def isPossibleDivide(self, nums: List[int], k: int) -> bool:

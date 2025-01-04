@@ -46,7 +46,7 @@ date: 2022-06-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='non-decreasing-array'
 class Solution:
     def checkPossibility(self, nums):

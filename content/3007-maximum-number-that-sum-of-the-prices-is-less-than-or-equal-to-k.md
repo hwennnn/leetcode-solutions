@@ -241,7 +241,7 @@ date: 2024-01-15
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k'
 class Solution:
     def findMaximumNumber(self, k: int, x: int) -> int:

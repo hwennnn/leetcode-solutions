@@ -80,7 +80,7 @@ It can be shown that the minimum possible length of str<sub>2</sub> is 6.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='decremental-string-concatenation'
 class Solution:
     def minimizeConcatenatedLength(self, words: List[str]) -> int:

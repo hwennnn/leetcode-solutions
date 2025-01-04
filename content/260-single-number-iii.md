@@ -53,7 +53,7 @@ date: 2024-05-31
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='single-number-iii'
 class Solution:
     def singleNumber(self, nums: List[int]) -> List[int]:

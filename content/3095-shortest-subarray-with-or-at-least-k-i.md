@@ -72,7 +72,7 @@ date: 2024-03-30
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='shortest-subarray-with-or-at-least-k-i'
 class Solution:
     def minimumSubarrayLength(self, nums, k) -> int:

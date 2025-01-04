@@ -62,7 +62,7 @@ mapSum.sum(&quot;ap&quot;);           // return 5 (<u>ap</u>ple + <u>ap</u>p = 3
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='map-sum-pairs'
 class TrieNode:
     def __init__(self):

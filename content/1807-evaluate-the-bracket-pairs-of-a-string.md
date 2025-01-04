@@ -82,7 +82,7 @@ Notice that the &quot;a&quot;s not in a bracket pair are not evaluated.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='evaluate-the-bracket-pairs-of-a-string'
 class Solution:
     def evaluate(self, s: str, knowledge: List[List[str]]) -> str:

@@ -93,7 +93,7 @@ date: 2024-04-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-time-to-visit-disappearing-nodes'
 class Solution:
     def minimumTime(self, n: int, edges: List[List[int]], disappear: List[int]) -> List[int]:

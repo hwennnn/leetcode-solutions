@@ -65,7 +65,7 @@ solution.getRandom(); // return 3
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='linked-list-random-node'
 # Definition for singly-linked list.
 # class ListNode:

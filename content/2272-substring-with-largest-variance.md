@@ -55,7 +55,7 @@ No letter occurs more than once in s, so the variance of every substring is 0.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='substring-with-largest-variance'
 class Solution:
     def largestVariance(self, s: str) -> int:

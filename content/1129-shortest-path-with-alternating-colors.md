@@ -53,7 +53,7 @@ date: 2023-02-11
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='shortest-path-with-alternating-colors'
 class Solution:
     def shortestAlternatingPaths(self, n: int, redEdges: List[List[int]], blueEdges: List[List[int]]) -> List[int]:

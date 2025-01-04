@@ -61,7 +61,7 @@ date: 2023-06-01
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='shortest-path-in-binary-matrix'
 class Solution:
     def shortestPathBinaryMatrix(self, grid: List[List[int]]) -> int:

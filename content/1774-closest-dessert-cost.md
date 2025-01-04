@@ -83,7 +83,7 @@ Total: 3 + 4 + 10 + 0 = 17. You cannot make a dessert with a total cost of 18.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='closest-dessert-cost'
 class Solution:
     res = float('inf')

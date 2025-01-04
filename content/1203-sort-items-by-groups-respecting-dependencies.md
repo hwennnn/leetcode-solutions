@@ -61,7 +61,7 @@ date: 2023-08-20
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sort-items-by-groups-respecting-dependencies'
 def topo_sort(predecessors, successors):
     order = []

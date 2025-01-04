@@ -55,7 +55,7 @@ The 1s colored red in grid2 are those considered to be part of a sub-island. The
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-sub-islands'
 class Solution:
     def countSubIslands(self, grid1: List[List[int]], grid2: List[List[int]]) -> int:

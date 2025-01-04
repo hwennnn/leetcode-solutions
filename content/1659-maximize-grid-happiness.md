@@ -76,7 +76,7 @@ The grid happiness is 90 + 80 + 90 = 260.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximize-grid-happiness'
 class Solution:
     def getMaxGridHappiness(self, rows: int, cols: int, introvertsCount: int, extrovertsCount: int) -> int:

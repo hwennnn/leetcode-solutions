@@ -74,7 +74,7 @@ Therefore, the answer is 0.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-prefix-and-suffix-pairs-ii'
 class TrieNode:
     def __init__(self):

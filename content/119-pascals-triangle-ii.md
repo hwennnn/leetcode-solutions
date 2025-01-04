@@ -42,7 +42,7 @@ date: 2020-08-16
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='pascals-triangle-ii'
 class Solution:
     def getRow(self, rowIndex: int) -> List[int]:

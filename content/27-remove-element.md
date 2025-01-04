@@ -76,7 +76,7 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='remove-element'
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:

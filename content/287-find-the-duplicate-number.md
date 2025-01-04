@@ -64,7 +64,7 @@ date: 2024-03-24
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-duplicate-number'
 class Solution:
     def findDuplicate(self, nums: List[int]) -> int:

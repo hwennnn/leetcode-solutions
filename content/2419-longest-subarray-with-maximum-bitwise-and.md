@@ -61,7 +61,7 @@ The longest subarray with that value is [4], so we return 1.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-subarray-with-maximum-bitwise-and'
 class Solution:
     def longestSubarray(self, nums: List[int]) -> int:

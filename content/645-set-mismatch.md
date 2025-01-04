@@ -41,7 +41,7 @@ date: 2024-01-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='set-mismatch'
 class Solution:
     def findErrorNums(self, nums: List[int]) -> List[int]:

@@ -63,7 +63,7 @@ date: 2021-05-15
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='invalid-transactions'
 class Solution:
     def invalidTransactions(self, transactions: List[str]) -> List[str]:

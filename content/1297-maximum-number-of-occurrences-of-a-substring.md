@@ -53,7 +53,7 @@ It satisfies the conditions, 2 unique letters and size 3 (between minSize and ma
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-number-of-occurrences-of-a-substring'
 class Solution:
     def maxFreq(self, s: str, maxLetters: int, k: int, maxSize: int) -> int:

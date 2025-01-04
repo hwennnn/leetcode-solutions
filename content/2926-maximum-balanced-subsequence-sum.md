@@ -75,7 +75,7 @@ It is a balanced subsequence, and its sum is the maximum among the balanced subs
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-balanced-subsequence-sum'
 class BIT:
     def __init__(self, N: List[int]):

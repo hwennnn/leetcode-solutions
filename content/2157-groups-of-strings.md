@@ -81,7 +81,7 @@ Thus, the size of the largest group is 3.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='groups-of-strings'
 class UnionFind:
     def __init__(self):

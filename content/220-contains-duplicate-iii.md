@@ -63,7 +63,7 @@ abs(nums[i] - nums[j]) &lt;= valueDiff --&gt; abs(1 - 1) &lt;= 0
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='contains-duplicate-iii'
 class Solution:
     def containsNearbyAlmostDuplicate(self, nums: List[int], k: int, w: int) -> bool:

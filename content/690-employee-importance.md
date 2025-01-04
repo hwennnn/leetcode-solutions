@@ -64,7 +64,7 @@ Thus, the total importance value of employee 5 is -3.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='employee-importance'
 """
 # Employee info

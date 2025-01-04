@@ -63,7 +63,7 @@ date: 2023-07-26
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-paths-that-can-form-a-palindrome-in-a-tree'
 class Solution:
     def countPalindromePaths(self, parent: List[int], s: str) -> int:

@@ -57,7 +57,7 @@ date: 2023-04-02
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-longest-balanced-substring-of-a-binary-string'
 class Solution:
     def findTheLongestBalancedSubstring(self, s: str) -> int:

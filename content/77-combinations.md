@@ -46,7 +46,7 @@ Note that combinations are unordered, i.e., [1,2] and [2,1] are considered to be
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='combinations'
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:

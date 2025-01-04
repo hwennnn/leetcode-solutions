@@ -61,7 +61,7 @@ Every node in the resulting graph is connected to an even number of edges.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='add-edges-to-make-degrees-of-all-nodes-even'
 class Solution:
     def isPossible(self, N: int, edges: List[List[int]]) -> bool:

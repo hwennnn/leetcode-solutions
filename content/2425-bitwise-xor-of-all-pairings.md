@@ -53,7 +53,7 @@ Thus, one possible nums3 array is [2,5,1,6].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='bitwise-xor-of-all-pairings'
 class Solution:
     def xorAllNums(self, nums1: List[int], nums2: List[int]) -> int:

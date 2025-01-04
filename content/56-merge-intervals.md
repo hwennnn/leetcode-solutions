@@ -45,7 +45,7 @@ date: 2024-08-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='merge-intervals'
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:

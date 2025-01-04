@@ -47,7 +47,7 @@ date: 2022-08-28
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sort-the-matrix-diagonally'
 class Solution:
     def diagonalSort(self, mat: List[List[int]]) -> List[List[int]]:

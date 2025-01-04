@@ -69,7 +69,7 @@ The last moment when an ant was on the plank is t = 4 seconds. After that, it fa
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='last-moment-before-all-ants-fall-out-of-a-plank'
 class Solution:
     def getLastMoment(self, n: int, left: List[int], right: List[int]) -> int:

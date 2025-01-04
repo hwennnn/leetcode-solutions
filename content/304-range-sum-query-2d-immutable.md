@@ -64,7 +64,7 @@ numMatrix.sumRegion(1, 2, 2, 4); // return 12 (i.e sum of the blue rectangle)
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='range-sum-query-2d-immutable'
 class NumMatrix:
 

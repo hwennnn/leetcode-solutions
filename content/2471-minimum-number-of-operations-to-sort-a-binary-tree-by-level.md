@@ -70,7 +70,7 @@ It can be proven that 3 is the minimum number of operations needed.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-operations-to-sort-a-binary-tree-by-level'
 # Definition for a binary tree node.
 # class TreeNode:

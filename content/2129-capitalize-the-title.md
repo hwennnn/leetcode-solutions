@@ -64,7 +64,7 @@ The remaining words have a length of at least 3, so the first letter of each rem
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='capitalize-the-title'
 class Solution:
     def capitalizeTitle(self, title: str) -> str:

@@ -83,7 +83,7 @@ date: 2022-07-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='query-kth-smallest-trimmed-number'
 class Solution:
     def smallestTrimmedNumbers(self, nums: List[str], queries: List[List[int]]) -> List[int]:

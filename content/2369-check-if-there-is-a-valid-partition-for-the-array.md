@@ -55,7 +55,7 @@ This partition is valid, so we return true.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-if-there-is-a-valid-partition-for-the-array'
 class Solution:
     def validPartition(self, nums: List[int]) -> bool:

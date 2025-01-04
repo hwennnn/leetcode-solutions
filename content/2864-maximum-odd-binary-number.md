@@ -52,7 +52,7 @@ date: 2024-03-01
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-odd-binary-number'
 class Solution:
     def maximumOddBinaryNumber(self, s: str) -> str:

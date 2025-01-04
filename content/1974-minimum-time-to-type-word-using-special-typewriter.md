@@ -83,7 +83,7 @@ The characters are printed as follows:
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-time-to-type-word-using-special-typewriter'
 class Solution:
     def minTimeToType(self, word: str) -> int:

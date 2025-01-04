@@ -75,7 +75,7 @@ This is the lowest possible number of moves to reach the last square, so return 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='snakes-and-ladders'
 class Solution:
     def snakesAndLadders(self, board: List[List[int]]) -> int:

@@ -71,7 +71,7 @@ Since three subsequences were created, we return 3. It can be shown that 3 is th
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='partition-array-such-that-maximum-difference-is-k'
 class Solution:
     def partitionArray(self, nums: List[int], k: int) -> int:

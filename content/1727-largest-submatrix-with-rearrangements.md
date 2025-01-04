@@ -60,7 +60,7 @@ The largest submatrix of 1s, in bold, has an area of 3.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='largest-submatrix-with-rearrangements'
 class Solution:
     def largestSubmatrix(self, matrix: List[List[int]]) -> int:

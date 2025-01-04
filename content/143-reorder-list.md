@@ -56,7 +56,7 @@ L<sub>0</sub> &rarr; L<sub>n</sub> &rarr; L<sub>1</sub> &rarr; L<sub>n - 1</sub>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='reorder-list'
 # Definition for singly-linked list.
 # class ListNode:

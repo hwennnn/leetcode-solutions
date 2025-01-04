@@ -50,7 +50,7 @@ date: 2023-12-20
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='buy-two-chocolates'
 class Solution:
     def buyChoco(self, prices: List[int], money: int) -> int:

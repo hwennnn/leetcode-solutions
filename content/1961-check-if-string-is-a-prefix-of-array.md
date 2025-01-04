@@ -52,7 +52,7 @@ It is impossible to make s using a prefix of arr.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-if-string-is-a-prefix-of-array'
 class Solution:
     def isPrefixString(self, s: str, words: List[str]) -> bool:

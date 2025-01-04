@@ -52,7 +52,7 @@ date: 2021-08-24
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='complex-number-multiplication'
 class Solution:
     def complexNumberMultiply(self, num1: str, num2: str) -> str:

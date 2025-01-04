@@ -39,7 +39,7 @@ date: 2024-08-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='subarray-sum-equals-k'
 class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:

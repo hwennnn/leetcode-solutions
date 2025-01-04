@@ -60,7 +60,7 @@ date: 2022-02-24
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='largest-component-size-by-common-factor'
 class DSU:
     def __init__(self, n):

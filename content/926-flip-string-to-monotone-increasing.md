@@ -56,7 +56,7 @@ date: 2023-01-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='flip-string-to-monotone-increasing'
 class Solution:
     def minFlipsMonoIncr(self, s: str) -> int:

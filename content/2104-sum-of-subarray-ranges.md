@@ -73,7 +73,7 @@ So the sum of all ranges is 0 + 0 + 0 + 2 + 0 + 2 = 4.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sum-of-subarray-ranges'
 from sortedcontainers import SortedList
 

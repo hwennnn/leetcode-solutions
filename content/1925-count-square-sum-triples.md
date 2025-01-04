@@ -45,7 +45,7 @@ date: 2021-07-11
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-square-sum-triples'
 class Solution:
     def countTriples(self, n: int) -> int:

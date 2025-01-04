@@ -61,7 +61,7 @@ date: 2022-03-10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='contains-duplicate'
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:

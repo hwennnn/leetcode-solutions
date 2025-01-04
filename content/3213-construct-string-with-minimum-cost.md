@@ -193,7 +193,7 @@ public:
     };
 };
 ```
-### Python
+### Python3
 ``` py title='construct-string-with-minimum-cost'
 class Solution:
     def minimumCost(self, target: str, words: List[str], costs: List[int]) -> int:

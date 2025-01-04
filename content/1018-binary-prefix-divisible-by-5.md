@@ -52,7 +52,7 @@ Only the first number is divisible by 5, so answer[0] is true.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='binary-prefix-divisible-by-5'
 class Solution:
     def prefixesDivBy5(self, nums: List[int]) -> List[bool]:

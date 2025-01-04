@@ -57,7 +57,7 @@ date: 2023-07-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='peak-index-in-a-mountain-array'
 class Solution:
     def peakIndexInMountainArray(self, arr: List[int]) -> int:

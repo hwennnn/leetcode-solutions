@@ -47,7 +47,7 @@ date: 2022-12-06
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='odd-even-linked-list'
 # Definition for singly-linked list.
 # class ListNode:

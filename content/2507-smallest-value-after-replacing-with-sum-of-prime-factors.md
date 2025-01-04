@@ -57,7 +57,7 @@ date: 2022-12-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='smallest-value-after-replacing-with-sum-of-prime-factors'
 class Solution:
     def smallestValue(self, n: int) -> int:

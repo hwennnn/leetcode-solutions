@@ -64,7 +64,7 @@ It can be proven that 3 is the minimum score that we can achieve.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='subsequence-with-the-minimum-score'
 class Solution:
     def minimumScore(self, s: str, t: str) -> int:

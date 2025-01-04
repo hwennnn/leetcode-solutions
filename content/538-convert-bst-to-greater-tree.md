@@ -57,7 +57,7 @@ date: 2022-04-16
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='convert-bst-to-greater-tree'
 # Definition for a binary tree node.
 # class TreeNode:

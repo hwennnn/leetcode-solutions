@@ -76,7 +76,7 @@ date: 2022-11-23
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='valid-sudoku'
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:

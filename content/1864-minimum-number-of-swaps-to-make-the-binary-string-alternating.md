@@ -56,7 +56,7 @@ The string is now alternating.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-swaps-to-make-the-binary-string-alternating'
 class Solution:
     def minSwaps(self, s: str) -> int:

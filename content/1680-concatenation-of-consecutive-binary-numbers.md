@@ -55,7 +55,7 @@ After modulo 10<sup>9</sup> + 7, the result is 505379714.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='concatenation-of-consecutive-binary-numbers'
 class Solution:
     def concatenatedBinary(self, n: int) -> int:

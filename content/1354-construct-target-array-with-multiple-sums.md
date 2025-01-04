@@ -64,7 +64,7 @@ date: 2022-06-24
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='construct-target-array-with-multiple-sums'
 class Solution:
     def isPossible(self, target: List[int]) -> bool:

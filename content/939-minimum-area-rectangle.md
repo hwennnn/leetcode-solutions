@@ -49,7 +49,7 @@ date: 2022-02-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-area-rectangle'
 class Solution:
     def minAreaRect(self, points: List[List[int]]) -> int:

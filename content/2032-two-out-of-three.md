@@ -57,7 +57,7 @@ Given three integer arrays <code>nums1</code>, <code>nums2</code>, and <code>num
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='two-out-of-three'
 class Solution:
     def twoOutOfThree(self, nums1: List[int], nums2: List[int], nums3: List[int]) -> List[int]:

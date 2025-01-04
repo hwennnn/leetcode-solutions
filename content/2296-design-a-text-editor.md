@@ -89,7 +89,7 @@ textEditor.cursorRight(6); // return &quot;practi&quot;
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='design-a-text-editor'
 class TextEditor:
 

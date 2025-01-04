@@ -55,7 +55,7 @@ date: 2022-07-30
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='word-subsets'
 class Solution:
     def wordSubsets(self, words1: List[str], words2: List[str]) -> List[str]:

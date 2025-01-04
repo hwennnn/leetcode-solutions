@@ -42,7 +42,7 @@ date: 2024-03-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-all-duplicates-in-an-array'
 class Solution:
     def findDuplicates(self, nums: List[int]) -> List[int]:

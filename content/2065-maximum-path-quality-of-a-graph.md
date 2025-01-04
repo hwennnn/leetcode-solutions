@@ -73,7 +73,7 @@ The nodes visited are 0, 1, and 3, giving a maximal path quality of 1 + 2 + 4 = 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-path-quality-of-a-graph'
 class Solution:
     def maximalPathQuality(self, values: List[int], edges: List[List[int]], maxTime: int) -> int:

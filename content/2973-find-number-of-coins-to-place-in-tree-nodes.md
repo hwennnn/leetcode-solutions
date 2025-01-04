@@ -75,7 +75,7 @@ date: 2023-12-24
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-number-of-coins-to-place-in-tree-nodes'
 class Solution:
     def placedCoins(self, edges: List[List[int]], cost: List[int]) -> List[int]:

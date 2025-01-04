@@ -49,7 +49,7 @@ date: 2021-04-10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sum-of-beauty-of-all-substrings'
 class Solution:
     def beautySum(self, s: str) -> int:

@@ -88,7 +88,7 @@ date: 2024-04-28
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-integer-added-to-array-i'
 class Solution:
     def addedInteger(self, nums1: List[int], nums2: List[int]) -> int:

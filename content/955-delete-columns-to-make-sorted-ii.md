@@ -67,7 +67,7 @@ i.e., it is NOT necessarily true that (strs[0][0] &lt;= strs[0][1] &lt;= ...)
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='delete-columns-to-make-sorted-ii'
 class Solution:
     def minDeletionSize(self, strs: List[str]) -> int:

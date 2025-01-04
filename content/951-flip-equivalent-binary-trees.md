@@ -55,7 +55,7 @@ date: 2024-10-24
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='flip-equivalent-binary-trees'
 # Definition for a binary tree node.
 # class TreeNode:

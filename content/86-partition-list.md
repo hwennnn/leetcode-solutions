@@ -45,7 +45,7 @@ date: 2023-08-15
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='partition-list'
 # Definition for singly-linked list.
 # class ListNode:

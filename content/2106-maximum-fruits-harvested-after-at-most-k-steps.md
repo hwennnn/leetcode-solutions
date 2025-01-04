@@ -74,7 +74,7 @@ You can move at most k = 2 steps and cannot reach any position with fruits.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-fruits-harvested-after-at-most-k-steps'
 class Solution:
     def maxTotalFruits(self, fruits: List[List[int]], start: int, k: int) -> int:

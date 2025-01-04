@@ -52,7 +52,7 @@ date: 2022-05-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='russian-doll-envelopes'
 class Solution:
     def maxEnvelopes(self, en: List[List[int]]) -> int:

@@ -64,7 +64,7 @@ It can be proven that we can perform at most 2 operations.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-number-of-operations-with-the-same-score-ii'
 class Solution:
     def maxOperations(self, nums: List[int]) -> int:

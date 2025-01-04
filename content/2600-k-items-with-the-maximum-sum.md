@@ -58,7 +58,7 @@ It can be proven that 3 is the maximum possible sum.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='k-items-with-the-maximum-sum'
 class Solution:
     def kItemsWithMaximumSum(self, numOnes: int, numZeros: int, numNegOnes: int, k: int) -> int:

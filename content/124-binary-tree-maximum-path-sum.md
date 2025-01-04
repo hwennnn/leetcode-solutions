@@ -83,7 +83,7 @@ public:
     }
 };
 ```
-### Python
+### Python3
 ``` py title='binary-tree-maximum-path-sum'
 # Definition for a binary tree node.
 # class TreeNode:

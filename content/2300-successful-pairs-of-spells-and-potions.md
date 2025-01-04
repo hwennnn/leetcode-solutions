@@ -61,7 +61,7 @@ Thus, [2,0,2] is returned.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='successful-pairs-of-spells-and-potions'
 class Solution:
     def successfulPairs(self, spells: List[int], potions: List[int], success: int) -> List[int]:

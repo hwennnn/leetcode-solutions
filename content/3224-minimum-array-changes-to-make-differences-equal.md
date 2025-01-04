@@ -76,7 +76,7 @@ We can perform the following operations:</p>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-array-changes-to-make-differences-equal'
 class Solution:
     def minChanges(self, nums: List[int], k: int) -> int:

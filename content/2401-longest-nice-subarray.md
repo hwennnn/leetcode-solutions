@@ -56,7 +56,7 @@ It can be proven that no longer nice subarray can be obtained, so we return 3.</
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-nice-subarray'
 class Solution:
     def longestNiceSubarray(self, nums: List[int]) -> int:

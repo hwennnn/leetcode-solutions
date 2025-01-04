@@ -48,7 +48,7 @@ date: 2022-04-03
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-candies-allocated-to-k-children'
 class Solution:
     def maximumCandies(self, candies: List[int], k: int) -> int:

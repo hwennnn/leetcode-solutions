@@ -61,7 +61,7 @@ The tree structure of the employees in the company is shown.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='time-needed-to-inform-all-employees'
 class Solution:
     def numOfMinutes(self, n: int, headID: int, manager: List[int], informTime: List[int]) -> int:

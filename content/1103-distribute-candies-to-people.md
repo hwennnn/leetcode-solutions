@@ -60,7 +60,7 @@ On the fourth turn, ans[0] += 4, and the final array is [5,2,3].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='distribute-candies-to-people'
 class Solution:
     def distributeCandies(self, candies: int, n: int) -> List[int]:

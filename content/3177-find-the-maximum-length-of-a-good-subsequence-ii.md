@@ -56,7 +56,7 @@ date: 2024-06-09
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-maximum-length-of-a-good-subsequence-ii'
 class Solution:
     def maximumLength(self, nums: List[int], k: int) -> int:

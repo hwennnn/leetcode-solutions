@@ -62,7 +62,7 @@ Note that, there are other ways to obtain the minimum of the sum of square diffe
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-sum-of-squared-difference'
 class Solution:
     def minSumSquareDiff(self, nums1: List[int], nums2: List[int], k1: int, k2: int) -> int:

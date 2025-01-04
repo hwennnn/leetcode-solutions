@@ -58,7 +58,7 @@ Note that the index 4 is not good because [4,1] is not non-decreasing.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-all-good-indices'
 class Solution:
     def goodIndices(self, nums: List[int], k: int) -> List[int]:

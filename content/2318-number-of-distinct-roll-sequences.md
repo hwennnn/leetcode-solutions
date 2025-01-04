@@ -57,7 +57,7 @@ There are a total of 22 distinct sequences possible, so we return 22.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-distinct-roll-sequences'
 class Solution:
     def distinctSequences(self, n: int) -> int:

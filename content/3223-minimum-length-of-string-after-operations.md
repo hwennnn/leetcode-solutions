@@ -66,7 +66,7 @@ We cannot perform any operations, so we return the length of the original string
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-length-of-string-after-operations'
 class Solution:
     def minimumLength(self, s: str) -> int:

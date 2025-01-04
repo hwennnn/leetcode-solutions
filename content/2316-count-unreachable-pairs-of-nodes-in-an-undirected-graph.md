@@ -54,7 +54,7 @@ Therefore, we return 14.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-unreachable-pairs-of-nodes-in-an-undirected-graph'
 class DSU:
     def __init__(self, n):

@@ -59,7 +59,7 @@ Each string in the array has value 1. Hence, we return 1.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-value-of-a-string-in-an-array'
 class Solution:
     def maximumValue(self, strs: List[str]) -> int:

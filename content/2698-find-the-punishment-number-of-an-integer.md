@@ -59,7 +59,7 @@ Hence, the punishment number of 37 is 1 + 81 + 100 + 1296 = 1478
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-punishment-number-of-an-integer'
 ans = [False] * (1001)
 

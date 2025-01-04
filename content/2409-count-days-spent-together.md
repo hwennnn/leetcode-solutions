@@ -51,7 +51,7 @@ date: 2022-09-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-days-spent-together'
 class Solution:
     def countDaysTogether(self, arriveAlice: str, leaveAlice: str, arriveBob: str, leaveBob: str) -> int:

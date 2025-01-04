@@ -67,7 +67,7 @@ Total sum: 11 + 8 = 19, which is the best that you can do.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-sum-obtained-of-any-permutation'
 class Solution:
     def maxSumRangeQuery(self, nums: List[int], requests: List[List[int]]) -> int:

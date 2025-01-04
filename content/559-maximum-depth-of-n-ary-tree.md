@@ -51,7 +51,7 @@ date: 2020-02-23
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-depth-of-n-ary-tree'
 """
 # Definition for a Node.

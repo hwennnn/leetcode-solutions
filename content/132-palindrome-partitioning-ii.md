@@ -52,7 +52,7 @@ date: 2021-08-07
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='palindrome-partitioning-ii'
 class Solution:
     def minCut(self, s: str) -> int:

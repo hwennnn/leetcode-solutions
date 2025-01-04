@@ -60,7 +60,7 @@ For items 3 and 4 you will not receive any discount at all.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='final-prices-with-a-special-discount-in-a-shop'
 class Solution:
     def finalPrices(self, prices: List[int]) -> List[int]:

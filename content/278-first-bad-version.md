@@ -50,7 +50,7 @@ Then 4 is the first bad version.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='first-bad-version'
 # The isBadVersion API is already defined for you.
 # @param version, an integer

@@ -60,7 +60,7 @@ There is no occurrence of a subarray with a size more than 3 filled with 0. Ther
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-zero-filled-subarrays'
 class Solution:
     def zeroFilledSubarray(self, nums: List[int]) -> int:

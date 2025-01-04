@@ -74,7 +74,7 @@ date: 2023-06-29
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='shortest-path-to-get-all-keys'
 class Solution:
     def shortestPathAllKeys(self, grid: List[str]) -> int:

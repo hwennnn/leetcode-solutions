@@ -35,7 +35,7 @@ date: 2021-09-05
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='generate-parentheses'
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:

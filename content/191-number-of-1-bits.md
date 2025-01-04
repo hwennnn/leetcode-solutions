@@ -65,7 +65,7 @@ date: 2023-11-29
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-1-bits'
 class Solution:
     def hammingWeight(self, n: int) -> int:

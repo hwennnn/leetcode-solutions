@@ -57,7 +57,7 @@ date: 2023-10-28
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='length-of-the-longest-subsequence-that-sums-to-target'
 class Solution:
     def lengthOfLongestSubsequence(self, nums: List[int], target: int) -> int:

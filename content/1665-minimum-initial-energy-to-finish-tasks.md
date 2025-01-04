@@ -80,7 +80,7 @@ Starting with 27 energy, we finish the tasks in the following order:
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-initial-energy-to-finish-tasks'
 class Solution:
     def minimumEffort(self, tasks: List[List[int]]) -> int:

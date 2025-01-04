@@ -45,7 +45,7 @@ date: 2022-06-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='delete-operation-for-two-strings'
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:

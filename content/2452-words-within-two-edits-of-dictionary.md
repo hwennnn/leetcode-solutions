@@ -56,7 +56,7 @@ Applying any two edits to &quot;yes&quot; cannot make it equal to &quot;not&quot
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='words-within-two-edits-of-dictionary'
 class Solution:
     def twoEditWords(self, queries: List[str], dictionary: List[str]) -> List[str]:

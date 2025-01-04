@@ -52,7 +52,7 @@ The number of distinct integers in this array is 1 (The number 2).
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-number-of-distinct-integers-after-reverse-operations'
 class Solution:
     def countDistinctIntegers(self, nums: List[int]) -> int:

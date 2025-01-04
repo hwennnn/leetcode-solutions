@@ -57,7 +57,7 @@ date: 2024-11-24
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-matrix-sum'
 class Solution:
     def maxMatrixSum(self, matrix: List[List[int]]) -> int:

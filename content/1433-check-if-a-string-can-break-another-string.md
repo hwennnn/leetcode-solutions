@@ -56,7 +56,7 @@ date: 2020-10-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-if-a-string-can-break-another-string'
 class Solution:
     def checkIfCanBreak(self, s1: str, s2: str) -> bool:

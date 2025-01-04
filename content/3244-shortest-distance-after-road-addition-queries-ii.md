@@ -104,7 +104,7 @@ public:
     }
 };
 ```
-### Python
+### Python3
 ``` py title='shortest-distance-after-road-addition-queries-ii'
 class Solution:
     def shortestDistanceAfterQueries(self, n: int, queries: List[List[int]]) -> List[int]:

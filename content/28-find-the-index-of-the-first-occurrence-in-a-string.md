@@ -46,7 +46,7 @@ The first occurrence is at index 0, so we return 0.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-index-of-the-first-occurrence-in-a-string'
 class Solution:
     def strStr(self, s: str, target: str) -> int:

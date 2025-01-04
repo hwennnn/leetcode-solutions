@@ -65,7 +65,7 @@ date: 2022-02-20
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-binary-tree'
 # Definition for a binary tree node.
 # class TreeNode:

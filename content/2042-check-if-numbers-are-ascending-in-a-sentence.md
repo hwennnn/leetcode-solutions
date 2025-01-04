@@ -65,7 +65,7 @@ They are strictly increasing from left to right: 1 &lt; 3 &lt; 4 &lt; 6 &lt; 12.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-if-numbers-are-ascending-in-a-sentence'
 class Solution:
     def areNumbersAscending(self, s: str) -> bool:

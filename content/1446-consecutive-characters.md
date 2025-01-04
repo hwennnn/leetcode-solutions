@@ -45,7 +45,7 @@ date: 2021-12-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='consecutive-characters'
 class Solution:
     def maxPower(self, s: str) -> int:

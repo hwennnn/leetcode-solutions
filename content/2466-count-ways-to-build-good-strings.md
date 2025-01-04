@@ -57,7 +57,7 @@ All binary strings from &quot;000&quot; to &quot;111&quot; are good strings in t
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-ways-to-build-good-strings'
 class Solution:
     def countGoodStrings(self, low: int, high: int, zero: int, one: int) -> int:

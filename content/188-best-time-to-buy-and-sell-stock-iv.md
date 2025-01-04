@@ -49,7 +49,7 @@ date: 2022-09-10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='best-time-to-buy-and-sell-stock-iv'
 class Solution:
     def maxProfit(self, k: int, prices: List[int]) -> int:

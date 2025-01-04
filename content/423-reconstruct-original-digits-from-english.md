@@ -37,7 +37,7 @@ date: 2021-03-28
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='reconstruct-original-digits-from-english'
 class Solution:
     def originalDigits(self, s: str) -> str:

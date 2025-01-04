@@ -50,7 +50,7 @@ date: 2022-11-04
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='reverse-vowels-of-a-string'
 class Solution:
     def reverseVowels(self, s: str) -> str:

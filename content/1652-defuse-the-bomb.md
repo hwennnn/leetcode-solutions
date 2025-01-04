@@ -66,7 +66,7 @@ date: 2024-11-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='defuse-the-bomb'
 class Solution:
     def decrypt(self, code: List[int], k: int) -> List[int]:

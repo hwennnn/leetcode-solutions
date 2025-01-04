@@ -46,7 +46,7 @@ date: 2020-09-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='largest-number'
 class Solution:
     def largestNumber(self, nums: List[int]) -> str:

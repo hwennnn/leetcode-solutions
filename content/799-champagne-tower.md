@@ -57,7 +57,7 @@ date: 2023-09-24
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='champagne-tower'
 class Solution:
     def champagneTower(self, poured: int, query_row: int, query_glass: int) -> float:

@@ -67,7 +67,7 @@ date: 2021-01-02
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='reconstruct-a-2-row-binary-matrix'
 class Solution:
     def reconstructMatrix(self, upper: int, lower: int, colsum: List[int]) -> List[List[int]]:

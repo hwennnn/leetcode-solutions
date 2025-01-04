@@ -69,7 +69,7 @@ date: 2022-12-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-pairs-of-similar-strings'
 class Solution:
     def similarPairs(self, words: List[str]) -> int:

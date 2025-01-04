@@ -53,7 +53,7 @@ date: 2020-08-16
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='greatest-sum-divisible-by-three'
 class Solution:
     def maxSumDivThree(self, nums: List[int]) -> int:

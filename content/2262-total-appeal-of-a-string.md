@@ -64,7 +64,7 @@ The total sum is 4 + 6 + 6 + 4 = 20.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='total-appeal-of-a-string'
 class Solution:
     def appealSum(self, s: str) -> int:

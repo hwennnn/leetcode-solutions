@@ -56,7 +56,7 @@ Also note that the first cut will not divide the circle into distinct parts.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-cuts-to-divide-a-circle'
 class Solution:
     def numberOfCuts(self, n: int) -> int:

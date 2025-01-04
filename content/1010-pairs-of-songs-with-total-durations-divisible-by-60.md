@@ -50,7 +50,7 @@ date: 2022-02-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='pairs-of-songs-with-total-durations-divisible-by-60'
 class Solution:
     def numPairsDivisibleBy60(self, time: List[int]) -> int:

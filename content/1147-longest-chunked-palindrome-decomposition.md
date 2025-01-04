@@ -64,7 +64,7 @@ date: 2021-05-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-chunked-palindrome-decomposition'
 class Solution:
     def longestDecomposition(self, text: str) -> int:

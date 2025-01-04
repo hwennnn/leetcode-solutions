@@ -57,7 +57,7 @@ The maximum of those two distances is 2. It can be proven that we cannot get a n
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-closest-node-to-given-two-nodes'
 class Solution:
     def closestMeetingNode(self, edges: List[int], node1: int, node2: int) -> int:

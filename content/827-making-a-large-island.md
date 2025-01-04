@@ -60,7 +60,7 @@ date: 2021-08-01
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='making-a-large-island'
 class Solution:
     def largestIsland(self, grid: List[List[int]]) -> int:

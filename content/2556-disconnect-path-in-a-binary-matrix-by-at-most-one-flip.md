@@ -57,7 +57,7 @@ date: 2023-02-05
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='disconnect-path-in-a-binary-matrix-by-at-most-one-flip'
 class Solution:
     def isPossibleToCutPath(self, grid: List[List[int]]) -> bool:

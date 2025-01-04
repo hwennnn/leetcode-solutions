@@ -91,7 +91,7 @@ date: 2024-07-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-cost-for-cutting-cake-ii'
 class Solution:
     def minimumCost(self, m: int, n: int, horizontalCut: List[int], verticalCut: List[int]) -> int:

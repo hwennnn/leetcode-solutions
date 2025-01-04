@@ -41,7 +41,7 @@ date: 2021-06-05
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='distant-barcodes'
 class Solution:
     def rearrangeBarcodes(self, barcodes: List[int]) -> List[int]:

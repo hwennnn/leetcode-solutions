@@ -51,7 +51,7 @@ date: 2021-01-10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='decode-xored-array'
 class Solution:
     def decode(self, encoded: List[int], first: int) -> List[int]:

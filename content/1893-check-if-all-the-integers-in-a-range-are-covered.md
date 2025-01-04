@@ -53,7 +53,7 @@ date: 2021-06-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-if-all-the-integers-in-a-range-are-covered'
 class Solution:
     def isCovered(self, ranges: List[List[int]], left: int, right: int) -> bool:

@@ -59,7 +59,7 @@ date: 2022-01-10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-sum-of-two-non-overlapping-subarrays'
 class Solution:
     def maxSumTwoNoOverlap(self, nums: List[int], firstLen: int, secondLen: int) -> int:

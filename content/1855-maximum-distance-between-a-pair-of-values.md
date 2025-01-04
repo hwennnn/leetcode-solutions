@@ -63,7 +63,7 @@ The maximum distance is 2 with pair (2,4).
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-distance-between-a-pair-of-values'
 class Solution:
     def maxDistance(self, nums1: List[int], nums2: List[int]) -> int:

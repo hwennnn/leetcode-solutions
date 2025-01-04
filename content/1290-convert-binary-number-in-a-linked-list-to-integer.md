@@ -48,7 +48,7 @@ date: 2020-12-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='convert-binary-number-in-a-linked-list-to-integer'
 # Definition for singly-linked list.
 # class ListNode:

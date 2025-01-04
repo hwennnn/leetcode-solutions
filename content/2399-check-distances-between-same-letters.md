@@ -61,7 +61,7 @@ Because distance[0] = 1, s is not a well-spaced string.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-distances-between-same-letters'
 class Solution:
     def checkDistances(self, s: str, distance: List[int]) -> bool:

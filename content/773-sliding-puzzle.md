@@ -69,7 +69,7 @@ After move 5: [[1,2,3],[4,5,0]]
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sliding-puzzle'
 class Solution:
     def slidingPuzzle(self, board: List[List[int]]) -> int:

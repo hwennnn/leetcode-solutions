@@ -56,7 +56,7 @@ recentCounter.ping(3002);  // requests = [1, <u>100</u>, <u>3001</u>, <u>3002</u
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-recent-calls'
 class RecentCounter:
 

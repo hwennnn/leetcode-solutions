@@ -63,7 +63,7 @@ Note that there may be other ways to remove 2 obstacles to create a path.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-obstacle-removal-to-reach-corner'
 class Solution:
     def minimumObstacles(self, grid: List[List[int]]) -> int:

@@ -82,7 +82,7 @@ date: 2023-06-11
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='lexicographically-smallest-string-after-substring-operation'
 class Solution:
     def smallestString(self, s: str) -> str:

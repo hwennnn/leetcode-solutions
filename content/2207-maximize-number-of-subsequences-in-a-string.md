@@ -57,7 +57,7 @@ Some of the strings which can be obtained from text and have 6 subsequences &quo
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximize-number-of-subsequences-in-a-string'
 class Solution:
     def maximumSubsequenceCount(self, text: str, pattern: str) -> int:

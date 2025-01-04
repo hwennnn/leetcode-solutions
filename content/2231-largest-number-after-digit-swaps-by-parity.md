@@ -50,7 +50,7 @@ Note that there may be other sequences of swaps but it can be shown that 87655 i
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='largest-number-after-digit-swaps-by-parity'
 class Solution:
     def largestInteger(self, num: int) -> int:

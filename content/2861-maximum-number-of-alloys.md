@@ -84,7 +84,7 @@ It can be proven that we can create at most 2 alloys.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-number-of-alloys'
 class Solution:
     def maxNumberOfAlloys(self, n: int, k: int, budget: int, composition: List[List[int]], stock: List[int], cost: List[int]) -> int:

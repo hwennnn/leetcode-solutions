@@ -77,7 +77,7 @@ Only index 0 has the highest possible division score 2.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='all-divisions-with-the-highest-score-of-a-binary-array'
 class Solution:
     def maxScoreIndices(self, nums: List[int]) -> List[int]:

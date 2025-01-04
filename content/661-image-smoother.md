@@ -54,7 +54,7 @@ For the point (1,1): floor((50+200+200+200+200+100+100+100+100)/9) = floor(138.8
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='image-smoother'
 class Solution:
     def imageSmoother(self, img: List[List[int]]) -> List[List[int]]:

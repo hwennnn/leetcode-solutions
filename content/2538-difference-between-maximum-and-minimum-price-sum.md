@@ -64,7 +64,7 @@ The difference between the maximum and minimum price sum is 2. It can be proved 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='difference-between-maximum-and-minimum-price-sum'
 class Solution:
     def maxOutput(self, N: int, edges: List[List[int]], price: List[int]) -> int:

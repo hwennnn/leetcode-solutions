@@ -70,7 +70,7 @@ The minimum time to complete the race is 25 seconds.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-time-to-finish-the-race'
 class Solution:
     def minimumFinishTime(self, tires: List[List[int]], changeTime: int, numLaps: int) -> int:

@@ -85,7 +85,7 @@ date: 2024-07-10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-points-after-enemy-battles'
 class Solution:
     def maximumPoints(self, A: List[int], currentEnergy: int) -> int:

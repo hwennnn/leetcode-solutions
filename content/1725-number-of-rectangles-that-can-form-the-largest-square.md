@@ -50,7 +50,7 @@ The largest possible square is of length 5, and you can get it out of 3 rectangl
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-rectangles-that-can-form-the-largest-square'
 class Solution:
     def countGoodRectangles(self, rectangles: List[List[int]]) -> int:

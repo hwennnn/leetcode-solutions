@@ -99,7 +99,7 @@ Note that there is more than one way to arrive at this conclusion.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-good-people-based-on-statements'
 class Solution:
     def maximumGood(self, statements: List[List[int]]) -> int:

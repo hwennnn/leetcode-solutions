@@ -70,7 +70,7 @@ In total, you spent $17 and covered all the days of your travel.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-cost-for-tickets'
 class Solution:
     def mincostTickets(self, days: List[int], costs: List[int]) -> int:

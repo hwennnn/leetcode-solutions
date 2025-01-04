@@ -73,7 +73,7 @@ robot.getDir(); // return &quot;West&quot;
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='walking-robot-simulation-ii'
 class Robot:
 

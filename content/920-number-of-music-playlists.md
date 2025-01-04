@@ -58,7 +58,7 @@ date: 2023-08-06
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-music-playlists'
 class Solution:
     def numMusicPlaylists(self, n: int, goal: int, k: int) -> int:

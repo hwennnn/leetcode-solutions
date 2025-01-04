@@ -66,7 +66,7 @@ Maximum length is 4.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-length-of-a-concatenated-string-with-unique-characters'
 class Solution:
     def maxLength(self, arr: List[str]) -> int:

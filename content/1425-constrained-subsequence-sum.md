@@ -58,7 +58,7 @@ date: 2023-10-21
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='constrained-subsequence-sum'
 class Solution:
     def constrainedSubsetSum(self, nums: List[int], k: int) -> int:

@@ -103,7 +103,7 @@ Since the record is empty, the total sum is 0.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='baseball-game'
 class Solution:
     def calPoints(self, ops: List[str]) -> int:

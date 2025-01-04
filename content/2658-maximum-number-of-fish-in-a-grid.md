@@ -65,7 +65,7 @@ date: 2023-04-29
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-number-of-fish-in-a-grid'
 class Solution:
     def findMaxFish(self, grid: List[List[int]]) -> int:

@@ -57,7 +57,7 @@ It can be shown that it is not possible to form more than 3 groups.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-number-of-groups-entering-a-competition'
 class Solution:
     def maximumGroups(self, grades: List[int]) -> int:

@@ -64,7 +64,7 @@ date: 2022-12-11
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-number-of-points-from-grid-queries'
 class Solution:
     def maxPoints(self, grid: List[List[int]], queries: List[int]) -> List[int]:

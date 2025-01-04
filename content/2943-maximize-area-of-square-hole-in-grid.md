@@ -82,7 +82,7 @@ date: 2023-11-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximize-area-of-square-hole-in-grid'
 class Solution:
     def maximizeSquareHoleArea(self, n: int, m: int, hBars: List[int], vBars: List[int]) -> int:

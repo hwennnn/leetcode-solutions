@@ -64,7 +64,7 @@ After a billion days, the only two distinct numbers on the board are 2 and 3.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-distinct-numbers-on-board'
 class Solution:
     def distinctIntegers(self, n: int) -> int:

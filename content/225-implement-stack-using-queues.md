@@ -67,7 +67,7 @@ myStack.empty(); // return False
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='implement-stack-using-queues'
 class MyStack:
 

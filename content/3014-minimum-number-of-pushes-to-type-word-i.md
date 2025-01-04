@@ -73,7 +73,7 @@ It can be shown that no other mapping can provide a lower cost.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-pushes-to-type-word-i'
 class Solution:
     def minimumPushes(self, word: str) -> int:

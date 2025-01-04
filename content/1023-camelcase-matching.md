@@ -61,7 +61,7 @@ date: 2022-01-15
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='camelcase-matching'
 class Solution:
     def camelMatch(self, queries: List[str], pattern: str) -> List[bool]:

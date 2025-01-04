@@ -54,7 +54,7 @@ date: 2024-03-30
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='subarrays-with-k-different-integers'
 class Solution:
     def subarraysWithKDistinct(self, nums: List[int], k: int) -> int:

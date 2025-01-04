@@ -46,7 +46,7 @@ date: 2024-11-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='shortest-subarray-with-sum-at-least-k'
 class Solution:
     def shortestSubarray(self, nums: List[int], k: int) -> int:

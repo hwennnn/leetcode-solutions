@@ -111,7 +111,7 @@ public:
     }
 };
 ```
-### Python
+### Python3
 ``` py title='find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance'
 class Solution:
     def findTheCity(self, n: int, edges: List[List[int]], distanceThreshold: int) -> int:

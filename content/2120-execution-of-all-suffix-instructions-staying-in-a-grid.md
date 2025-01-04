@@ -76,7 +76,7 @@ date: 2021-12-26
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='execution-of-all-suffix-instructions-staying-in-a-grid'
 class Solution:
     def executeInstructions(self, n: int, startPos: List[int], s: str) -> List[int]:

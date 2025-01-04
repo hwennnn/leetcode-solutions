@@ -58,7 +58,7 @@ we combine 1 and 1 to get 0 so the array converts to [1] then that&#39;s the val
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='last-stone-weight'
 class Solution:
     def lastStoneWeight(self, stones: List[int]) -> int:

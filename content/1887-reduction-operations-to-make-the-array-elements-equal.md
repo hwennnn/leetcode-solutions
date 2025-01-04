@@ -67,7 +67,7 @@ date: 2023-11-19
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='reduction-operations-to-make-the-array-elements-equal'
 class Solution:
     def reductionOperations(self, nums: List[int]) -> int:

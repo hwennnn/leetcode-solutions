@@ -58,7 +58,7 @@ date: 2022-03-23
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='broken-calculator'
 class Solution:
     def brokenCalc(self, startValue: int, target: int) -> int:

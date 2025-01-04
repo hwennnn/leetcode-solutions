@@ -92,7 +92,7 @@ date: 2023-08-06
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-if-it-is-possible-to-split-array'
 class Solution:
     def canSplitArray(self, nums: List[int], m: int) -> bool:

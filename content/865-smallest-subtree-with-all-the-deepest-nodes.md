@@ -67,7 +67,7 @@ Notice that nodes 5, 3 and 2 contain the deepest nodes in the tree but node 2 is
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='smallest-subtree-with-all-the-deepest-nodes'
 # Definition for a binary tree node.
 # class TreeNode:

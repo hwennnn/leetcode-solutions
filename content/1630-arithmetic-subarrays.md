@@ -67,7 +67,7 @@ In the 2<sup>nd</sup> query, the subarray is <code>[5,9,3,7]. This</code> can be
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='arithmetic-subarrays'
 class Solution:
     def checkArithmeticSubarrays(self, nums: List[int], l: List[int], r: List[int]) -> List[bool]:

@@ -77,7 +77,7 @@ date: 2024-10-07
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sentence-similarity-iii'
 class Solution:
     def areSentencesSimilar(self, s1: str, s2: str) -> bool:

@@ -75,7 +75,7 @@ date: 2023-08-05
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='account-balance-after-rounded-purchase'
 class Solution:
     def accountBalanceAfterPurchase(self, purchaseAmount: int) -> int:

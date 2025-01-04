@@ -59,7 +59,7 @@ date: 2024-05-30
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-triplets-that-can-form-two-arrays-of-equal-xor'
 class Solution:
     def countTriplets(self, arr: List[int]) -> int:

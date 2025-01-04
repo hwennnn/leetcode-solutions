@@ -58,7 +58,7 @@ So the answer is [1,3].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-peaks'
 class Solution:
     def findPeaks(self, mountain: List[int]) -> List[int]:

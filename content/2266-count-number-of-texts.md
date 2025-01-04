@@ -68,7 +68,7 @@ Since we need to return the answer modulo 10<sup>9</sup> + 7, we return 20828761
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-number-of-texts'
 class Solution:
     def countTexts(self, A: str) -> int:

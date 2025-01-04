@@ -55,7 +55,7 @@ date: 2021-05-30
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='adding-two-negabinary-numbers'
 class Solution:
     def addNegabinary(self, A: List[int], B: List[int]) -> List[int]:

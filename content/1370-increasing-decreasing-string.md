@@ -63,7 +63,7 @@ After steps 4, 5 and 6 of the second iteration, result = &quot;abccbaabccba&quot
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='increasing-decreasing-string'
 class Solution:
     def sortString(self, S: str) -> str:

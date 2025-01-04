@@ -74,7 +74,7 @@ The total cost = 3.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-cost-to-make-at-least-one-valid-path-in-a-grid'
 class Solution:
     def minCost(self, grid: List[List[int]]) -> int:

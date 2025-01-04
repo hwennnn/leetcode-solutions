@@ -67,7 +67,7 @@ Hence, the total sum of vowels = 1 + 1 + 1 + 0 + 0 + 0 = 3.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='vowels-of-all-substrings'
 class Solution:
     def countVowels(self, word: str) -> int:

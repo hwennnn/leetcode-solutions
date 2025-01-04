@@ -68,7 +68,7 @@ At time 30, one of the two pigs must die, and the poisonous bucket is the one it
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='poor-pigs'
 class Solution:
     def poorPigs(self, buckets, minutesToDie, minutesToTest):

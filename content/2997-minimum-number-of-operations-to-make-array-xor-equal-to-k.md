@@ -59,7 +59,7 @@ It can be shown that we cannot make the XOR equal to k in less than 2 operations
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-operations-to-make-array-xor-equal-to-k'
 class Solution:
     def minOperations(self, nums: List[int], k: int) -> int:

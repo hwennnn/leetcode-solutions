@@ -85,7 +85,7 @@ After that, it will rain over lakes [1,2]. It&#39;s easy to prove that no matter
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='avoid-flood-in-the-city'
 class Solution:
     def avoidFlood(self, rains: List[int]) -> List[int]:

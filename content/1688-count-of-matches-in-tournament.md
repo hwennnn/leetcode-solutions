@@ -59,7 +59,7 @@ Total number of matches = 7 + 3 + 2 + 1 = 13.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-of-matches-in-tournament'
 class Solution:
     def numberOfMatches(self, n: int) -> int:

@@ -73,7 +73,7 @@ Thus, one milestone in project 0 will remain unfinished.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-number-of-weeks-for-which-you-can-work'
 class Solution:
     def numberOfWeeks(self, milestones: List[int]) -> int:

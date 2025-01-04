@@ -61,7 +61,7 @@ date: 2021-10-31
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='plates-between-candles'
 class Solution:
     def platesBetweenCandles(self, s: str, queries: List[List[int]]) -> List[int]:

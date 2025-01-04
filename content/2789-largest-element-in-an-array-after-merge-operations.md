@@ -59,7 +59,7 @@ There is only one element in the final array, which is 11.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='largest-element-in-an-array-after-merge-operations'
 class Solution:
     def maxArrayValue(self, nums: List[int]) -> int:

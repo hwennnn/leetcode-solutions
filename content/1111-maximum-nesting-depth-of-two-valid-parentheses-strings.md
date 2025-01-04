@@ -65,7 +65,7 @@ date: 2021-05-23
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-nesting-depth-of-two-valid-parentheses-strings'
 class Solution:
     def maxDepthAfterSplit(self, seq):

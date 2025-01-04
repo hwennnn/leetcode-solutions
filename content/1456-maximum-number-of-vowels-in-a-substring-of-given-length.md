@@ -55,7 +55,7 @@ date: 2023-05-05
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-number-of-vowels-in-a-substring-of-given-length'
 class Solution:
     def maxVowels(self, s: str, k: int) -> int:

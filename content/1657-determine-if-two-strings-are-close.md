@@ -77,7 +77,7 @@ Apply Operation 2: &quot;<u>baa</u>ccc&quot; -&gt; &quot;<u>abb</u>ccc&quot;
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='determine-if-two-strings-are-close'
 class Solution:
     def closeStrings(self, word1: str, word2: str) -> bool:

@@ -62,7 +62,7 @@ The perimeter is 2 * 4 = 8.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-garden-perimeter-to-collect-enough-apples'
 class Solution:
     def minimumPerimeter(self, neededApples: int) -> int:

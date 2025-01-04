@@ -48,7 +48,7 @@ date: 2023-07-10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-depth-of-binary-tree'
 # Definition for a binary tree node.
 # class TreeNode:

@@ -64,7 +64,7 @@ It can be shown that this is the maximum value we can get.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='apply-operations-on-array-to-maximize-sum-of-squares'
 class Solution:
     def maxSum(self, nums: List[int], k: int) -> int:

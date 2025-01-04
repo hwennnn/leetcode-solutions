@@ -90,7 +90,7 @@ date: 2024-06-23
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximize-total-cost-of-alternating-subarrays'
 class Solution:
     def maximumTotalCost(self, nums: List[int]) -> int:

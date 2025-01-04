@@ -63,7 +63,7 @@ Explanation:</strong> Increment the first element three times and the second ele
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='frequency-of-the-most-frequent-element'
 class Solution:
     def maxFrequency(self, nums: List[int], k: int) -> int:

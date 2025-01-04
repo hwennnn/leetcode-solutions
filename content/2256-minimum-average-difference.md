@@ -65,7 +65,7 @@ The average difference of index 0 is: |0 / 1 - 0| = |0 - 0| = 0.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-average-difference'
 class Solution:
     def minimumAverageDifference(self, nums: List[int]) -> int:

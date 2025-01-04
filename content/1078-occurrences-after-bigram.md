@@ -40,7 +40,7 @@ date: 2021-05-29
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='occurrences-after-bigram'
 class Solution:
     def findOcurrences(self, text: str, first: str, second: str) -> List[str]:

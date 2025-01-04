@@ -62,7 +62,7 @@ date: 2025-01-01
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='linked-list-in-binary-tree'
 # Definition for singly-linked list.
 # class ListNode:

@@ -58,7 +58,7 @@ For index i = 4, there are 3 distinct elements in the prefix and no elements in 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-distinct-difference-array'
 class Solution:
     def distinctDifferenceArray(self, nums: List[int]) -> List[int]:

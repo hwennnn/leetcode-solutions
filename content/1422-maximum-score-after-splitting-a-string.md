@@ -59,7 +59,7 @@ left = &quot;01110&quot; and right = &quot;1&quot;, score = 2 + 1 = 3
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-score-after-splitting-a-string'
 class Solution:
     def maxScore(self, s: str) -> int:

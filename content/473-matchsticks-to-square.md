@@ -49,7 +49,7 @@ date: 2022-07-12
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='matchsticks-to-square'
 class Solution:
     def makesquare(self, matchsticks: List[int]) -> bool:

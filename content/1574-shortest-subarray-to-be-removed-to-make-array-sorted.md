@@ -60,7 +60,7 @@ Another correct solution is to remove the subarray [3,10,4].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='shortest-subarray-to-be-removed-to-make-array-sorted'
 class Solution:
     def findLengthOfShortestSubarray(self, arr: List[int]) -> int:

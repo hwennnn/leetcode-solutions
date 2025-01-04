@@ -56,7 +56,7 @@ Among them, only integer 3 disobeys the rule (two consecutive ones) and the othe
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='non-negative-integers-without-consecutive-ones'
 class Solution:
     def findIntegers(self, n: int) -> int:

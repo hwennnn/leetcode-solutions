@@ -63,7 +63,7 @@ date: 2024-08-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='group-anagrams'
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:

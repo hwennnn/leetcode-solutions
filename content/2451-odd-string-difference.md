@@ -61,7 +61,7 @@ The odd array out is [1, 1], so we return the corresponding string, &quot;abc&qu
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='odd-string-difference'
 class Solution:
     def oddString(self, words: List[str]) -> str:

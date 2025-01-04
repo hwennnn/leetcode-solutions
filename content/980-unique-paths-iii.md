@@ -74,7 +74,7 @@ Note that the starting and ending square can be anywhere in the grid.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='unique-paths-iii'
 class Solution:
     def uniquePathsIII(self, grid: List[List[int]]) -> int:

@@ -63,7 +63,7 @@ date: 2020-10-20
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='the-k-th-lexicographical-string-of-all-happy-strings-of-length-n'
 class Solution:
     def getHappyString(self, n: int, k: int) -> str:

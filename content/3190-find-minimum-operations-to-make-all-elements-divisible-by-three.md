@@ -56,7 +56,7 @@ date: 2024-06-23
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-minimum-operations-to-make-all-elements-divisible-by-three'
 class Solution:
     def minimumOperations(self, nums: List[int]) -> int:

@@ -76,7 +76,7 @@ date: 2024-02-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-number-of-operations-with-the-same-score-i'
 class Solution:
     def maxOperations(self, nums: List[int]) -> int:

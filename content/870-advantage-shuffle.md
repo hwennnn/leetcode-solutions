@@ -40,7 +40,7 @@ date: 2021-03-24
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='advantage-shuffle'
 class Solution:
     def advantageCount(self, A, B):

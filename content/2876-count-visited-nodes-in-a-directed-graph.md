@@ -61,7 +61,7 @@ date: 2023-10-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-visited-nodes-in-a-directed-graph'
 class Solution:
     def countVisitedNodes(self, edges: List[int]) -> List[int]:

@@ -56,7 +56,7 @@ Now nums is sorted; therefore the answer is 2.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-right-shifts-to-sort-the-array'
 class Solution:
     def minimumRightShifts(self, nums: List[int]) -> int:

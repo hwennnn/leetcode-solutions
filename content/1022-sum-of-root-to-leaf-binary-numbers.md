@@ -52,7 +52,7 @@ date: 2022-01-15
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sum-of-root-to-leaf-binary-numbers'
 # Definition for a binary tree node.
 # class TreeNode:

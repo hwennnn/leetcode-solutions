@@ -51,7 +51,7 @@ date: 2021-04-10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-if-number-is-a-sum-of-powers-of-three'
 class Solution:
     def checkPowersOfThree(self, n: int) -> bool:

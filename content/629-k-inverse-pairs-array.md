@@ -45,7 +45,7 @@ date: 2024-01-27
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='k-inverse-pairs-array'
 class Solution:
     def kInversePairs(self, n: int, k: int) -> int:

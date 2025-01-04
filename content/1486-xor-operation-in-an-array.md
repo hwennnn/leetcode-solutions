@@ -50,7 +50,7 @@ Where &quot;^&quot; corresponds to bitwise XOR operator.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='xor-operation-in-an-array'
 class Solution:
     def xorOperation(self, n: int, start: int) -> int:

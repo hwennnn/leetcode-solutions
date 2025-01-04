@@ -45,7 +45,7 @@ date: 2023-11-12
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-xor-of-two-numbers-in-an-array'
 class Solution:
     def findMaximumXOR(self, nums: List[int]) -> int:

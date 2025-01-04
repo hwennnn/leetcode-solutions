@@ -68,7 +68,7 @@ We made 2 refueling stops along the way, so we return 2.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-refueling-stops'
 class Solution:
     def minRefuelStops(self, target: int, startFuel: int, stations: List[List[int]]) -> int:

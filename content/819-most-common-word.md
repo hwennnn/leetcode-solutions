@@ -55,7 +55,7 @@ and that &quot;hit&quot; isn&#39;t the answer even though it occurs more because
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='most-common-word'
 class Solution:
     def mostCommonWord(self, p: str, banned: List[str]) -> str:

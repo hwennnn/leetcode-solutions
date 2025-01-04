@@ -61,7 +61,7 @@ date: 2024-02-20
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='missing-number'
 class Solution:
     def missingNumber(self, nums: List[int]) -> int:

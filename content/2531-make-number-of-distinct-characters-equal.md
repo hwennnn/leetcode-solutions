@@ -57,7 +57,7 @@ date: 2023-01-08
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='make-number-of-distinct-characters-equal'
 class Solution:
     def isItPossible(self, word1: str, word2: str) -> bool:

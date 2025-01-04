@@ -69,7 +69,7 @@ countIntervals.count();    // return 8
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-integers-in-intervals'
 from sortedcontainers import SortedList
 

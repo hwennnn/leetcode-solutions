@@ -48,7 +48,7 @@ date: 2021-07-24
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-if-all-characters-have-equal-number-of-occurrences'
 class Solution:
     def areOccurrencesEqual(self, s: str) -> bool:

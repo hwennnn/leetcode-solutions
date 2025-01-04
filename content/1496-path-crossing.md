@@ -45,7 +45,7 @@ date: 2023-12-23
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='path-crossing'
 class Solution:
     def isPathCrossing(self, path: str) -> bool:

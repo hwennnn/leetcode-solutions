@@ -63,7 +63,7 @@ date: 2021-09-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='moving-stones-until-consecutive'
 class Solution:
     def numMovesStones(self, a: int, b: int, c: int) -> List[int]:

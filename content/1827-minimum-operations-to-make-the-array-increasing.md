@@ -60,7 +60,7 @@ date: 2021-04-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-operations-to-make-the-array-increasing'
 class Solution:
     def minOperations(self, nums: List[int]) -> int:

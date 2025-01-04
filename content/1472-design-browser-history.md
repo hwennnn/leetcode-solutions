@@ -67,7 +67,7 @@ browserHistory.back(7);                   // You are in &quot;google.com&quot;, 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='design-browser-history'
 class BrowserHistory:
 

@@ -45,7 +45,7 @@ date: 2023-05-09
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='spiral-matrix'
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:

@@ -53,7 +53,7 @@ There are a total of 5 bad pairs, so we return 5.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-number-of-bad-pairs'
 class Solution:
     def countBadPairs(self, nums: List[int]) -> int:

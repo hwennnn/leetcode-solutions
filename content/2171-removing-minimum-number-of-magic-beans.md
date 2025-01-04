@@ -67,7 +67,7 @@ There are no other solutions that removes 7 beans or fewer.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='removing-minimum-number-of-magic-beans'
 class Solution:
     def minimumRemoval(self, beans: List[int]) -> int:

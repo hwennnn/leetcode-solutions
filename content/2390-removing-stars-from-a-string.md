@@ -65,7 +65,7 @@ There are no more stars, so we return &quot;lecoe&quot;.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='removing-stars-from-a-string'
 class Solution:
     def removeStars(self, s: str) -> str: 

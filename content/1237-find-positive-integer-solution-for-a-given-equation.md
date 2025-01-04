@@ -82,7 +82,7 @@ x=5, y=1 -&gt; f(5, 1) = 5 * 1 = 5.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-positive-integer-solution-for-a-given-equation'
 """
    This is the custom function interface.

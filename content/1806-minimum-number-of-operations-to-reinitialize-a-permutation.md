@@ -68,7 +68,7 @@ So it takes only 2 operations.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-operations-to-reinitialize-a-permutation'
 class Solution:
     def reinitializePermutation(self, n: int) -> int:

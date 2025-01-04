@@ -63,7 +63,7 @@ date: 2021-09-19
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sum-of-beauty-in-the-array'
 class Solution:
     def sumOfBeauties(self, nums: List[int]) -> int:

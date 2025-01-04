@@ -45,7 +45,7 @@ date: 2023-10-01
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='reverse-words-in-a-string-iii'
 class Solution:
     def reverseWords(self, s: str) -> str:

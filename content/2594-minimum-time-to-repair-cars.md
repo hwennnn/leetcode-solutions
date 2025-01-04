@@ -60,7 +60,7 @@ It can be proved that the cars cannot be repaired in less than 16 minutes.​​
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-time-to-repair-cars'
 class Solution:
     def repairCars(self, ranks: List[int], cars: int) -> int:

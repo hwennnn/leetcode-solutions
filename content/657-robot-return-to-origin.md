@@ -50,7 +50,7 @@ date: 2019-10-08
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='robot-return-to-origin'
 class Solution:
     def judgeCircle(self, moves: str) -> bool:

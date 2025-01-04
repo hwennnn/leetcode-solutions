@@ -67,7 +67,7 @@ It can be proven that 2 seconds is the minimum amount of seconds needed for equa
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-seconds-to-equalize-a-circular-array'
 class Solution:
     def minimumSeconds(self, nums: List[int]) -> int:

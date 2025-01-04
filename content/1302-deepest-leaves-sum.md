@@ -43,7 +43,7 @@ Given the <code>root</code> of a binary tree, return <em>the sum of values of it
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='deepest-leaves-sum'
 # Definition for a binary tree node.
 # class TreeNode:

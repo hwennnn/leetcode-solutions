@@ -54,7 +54,7 @@ date: 2021-08-26
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='verify-preorder-serialization-of-a-binary-tree'
 class Solution:
     def isValidSerialization(self, preorder: str) -> bool:

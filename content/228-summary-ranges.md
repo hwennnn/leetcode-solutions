@@ -63,7 +63,7 @@ date: 2023-06-12
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='summary-ranges'
 class Solution:
     def summaryRanges(self, nums: List[int]) -> List[str]:

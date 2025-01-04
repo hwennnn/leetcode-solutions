@@ -54,7 +54,7 @@ date: 2021-06-05
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='previous-permutation-with-one-swap'
 class Solution:
     def prevPermOpt1(self, arr: List[int]) -> List[int]:

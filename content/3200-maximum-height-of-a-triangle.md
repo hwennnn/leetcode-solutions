@@ -79,7 +79,7 @@ The only possible arrangement is shown above.</p>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-height-of-a-triangle'
 class Solution:
     def maxHeightOfTriangle(self, red: int, blue: int) -> int:

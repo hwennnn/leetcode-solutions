@@ -53,7 +53,7 @@ date: 2023-02-20
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='search-insert-position'
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:

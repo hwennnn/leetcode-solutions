@@ -66,7 +66,7 @@ date: 2024-07-10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-subarrays-with-and-value-of-k'
 class Solution:
     def countSubarrays(self, nums: List[int], k: int) -> int:

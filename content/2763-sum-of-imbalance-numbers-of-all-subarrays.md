@@ -67,7 +67,7 @@ The imbalance number of all other subarrays is 0. Hence, the sum of imbalance nu
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sum-of-imbalance-numbers-of-all-subarrays'
 class Solution:
     def sumImbalanceNumbers(self, nums: List[int]) -> int:

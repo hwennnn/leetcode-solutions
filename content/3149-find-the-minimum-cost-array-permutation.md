@@ -62,7 +62,7 @@ date: 2024-05-12
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-minimum-cost-array-permutation'
 class Solution:
     def findPermutation(self, nums: List[int]) -> List[int]:

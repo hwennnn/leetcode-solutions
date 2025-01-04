@@ -58,7 +58,7 @@ date: 2023-08-23
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='shortest-unsorted-continuous-subarray'
 class Solution:
     def findUnsortedSubarray(self, nums: List[int]) -> int:

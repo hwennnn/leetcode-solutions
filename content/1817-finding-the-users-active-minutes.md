@@ -61,7 +61,7 @@ Hence, answer[1] = 1, answer[2] = 1, and the remaining values are 0.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='finding-the-users-active-minutes'
 class Solution:
     def findingUsersActiveMinutes(self, logs: List[List[int]], k: int) -> List[int]:

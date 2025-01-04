@@ -39,7 +39,7 @@ date: 2024-08-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='daily-temperatures'
 class Solution:
     def dailyTemperatures(self, temperatures: List[int]) -> List[int]:

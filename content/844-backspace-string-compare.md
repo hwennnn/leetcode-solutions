@@ -59,7 +59,7 @@ date: 2023-10-19
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='backspace-string-compare'
 class Solution:
     def backspaceCompare(self, s: str, t: str) -> bool:

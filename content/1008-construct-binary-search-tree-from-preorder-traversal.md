@@ -53,7 +53,7 @@ date: 2022-02-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='construct-binary-search-tree-from-preorder-traversal'
 # Definition for a binary tree node.
 # class TreeNode:

@@ -55,7 +55,7 @@ date: 2022-12-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-anagrams'
 class Solution:
     def countAnagrams(self, s: str) -> int:

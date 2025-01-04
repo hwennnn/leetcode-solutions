@@ -57,7 +57,7 @@ date: 2022-01-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='recover-a-tree-from-preorder-traversal'
 # Definition for a binary tree node.
 # class TreeNode:

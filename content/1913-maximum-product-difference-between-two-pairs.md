@@ -53,7 +53,7 @@ The product difference is (9 * 8) - (2 * 4) = 64.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-product-difference-between-two-pairs'
 class Solution:
     def maxProductDifference(self, nums: List[int]) -> int:

@@ -59,7 +59,7 @@ date: 2023-05-21
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='shortest-bridge'
 class Solution:
     def shortestBridge(self, grid: List[List[int]]) -> int:

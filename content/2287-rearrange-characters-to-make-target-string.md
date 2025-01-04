@@ -68,7 +68,7 @@ We can make at most one copy of &quot;aaaaa&quot;, so we return 1.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='rearrange-characters-to-make-target-string'
 class Solution:
     def rearrangeCharacters(self, s: str, target: str) -> int:

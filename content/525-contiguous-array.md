@@ -45,7 +45,7 @@ date: 2024-03-16
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='contiguous-array'
 class Solution:
     def findMaxLength(self, nums: List[int]) -> int:

@@ -53,7 +53,7 @@ date: 2023-12-31
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='largest-substring-between-two-equal-characters'
 class Solution:
     def maxLengthBetweenEqualCharacters(self, s: str) -> int:

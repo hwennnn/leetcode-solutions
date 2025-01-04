@@ -62,7 +62,7 @@ Note that friendships are not transitive, meaning if <code>x</code> is a friend 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-people-to-teach'
 class Solution:
     def minimumTeachings(self, n: int, languages: List[List[int]], friendships: List[List[int]]) -> int:

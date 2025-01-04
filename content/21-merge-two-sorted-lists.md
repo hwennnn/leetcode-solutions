@@ -54,7 +54,7 @@ date: 2020-12-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='merge-two-sorted-lists'
 # Definition for singly-linked list.
 # class ListNode:

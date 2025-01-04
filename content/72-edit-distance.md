@@ -60,7 +60,7 @@ exection -&gt; execution (insert &#39;u&#39;)
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='edit-distance'
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:

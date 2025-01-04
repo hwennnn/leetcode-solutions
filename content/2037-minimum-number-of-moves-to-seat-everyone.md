@@ -80,7 +80,7 @@ In total, 1 + 3 + 0 + 0 = 4 moves were used.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-moves-to-seat-everyone'
 class Solution:
     def minMovesToSeat(self, seats: List[int], students: List[int]) -> int:

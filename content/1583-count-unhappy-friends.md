@@ -81,7 +81,7 @@ Friends 0 and 2 are happy.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-unhappy-friends'
 class Solution:
     def unhappyFriends(self, n: int, preferences: List[List[int]], pairs: List[List[int]]) -> int:

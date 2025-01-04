@@ -57,7 +57,7 @@ date: 2022-07-26
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='lowest-common-ancestor-of-a-binary-tree'
 # Definition for a binary tree node.
 # class TreeNode:

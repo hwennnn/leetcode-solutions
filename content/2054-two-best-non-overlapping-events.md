@@ -60,7 +60,7 @@ date: 2024-12-08
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='two-best-non-overlapping-events'
 class Solution:
     def maxTwoEvents(self, events: List[List[int]]) -> int:

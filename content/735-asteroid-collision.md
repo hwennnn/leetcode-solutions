@@ -58,7 +58,7 @@ date: 2023-07-20
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='asteroid-collision'
 class Solution:
     def asteroidCollision(self, asteroids: List[int]) -> List[int]:

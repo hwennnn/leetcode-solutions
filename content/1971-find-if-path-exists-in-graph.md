@@ -58,7 +58,7 @@ date: 2024-04-21
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-if-path-exists-in-graph'
 class DSU:
     def __init__(self, n):

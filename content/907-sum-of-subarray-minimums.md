@@ -48,7 +48,7 @@ Sum is 17.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sum-of-subarray-minimums'
 class Solution:
     def sumSubarrayMins(self, arr: List[int]) -> int:

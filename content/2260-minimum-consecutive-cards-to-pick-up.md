@@ -47,7 +47,7 @@ date: 2022-05-01
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-consecutive-cards-to-pick-up'
 class Solution:
     def minimumCardPickup(self, cards: List[int]) -> int:

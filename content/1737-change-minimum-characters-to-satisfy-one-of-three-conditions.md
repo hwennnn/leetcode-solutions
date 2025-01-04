@@ -60,7 +60,7 @@ The best way was done in 2 operations (either condition 1 or condition 3).
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='change-minimum-characters-to-satisfy-one-of-three-conditions'
 class Solution:
     def minCharacters(self, A: str, B: str) -> int:

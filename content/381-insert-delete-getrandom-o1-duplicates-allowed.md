@@ -70,7 +70,7 @@ randomizedCollection.getRandom(); // getRandom should return 1 or 2, both equall
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='insert-delete-getrandom-o1-duplicates-allowed'
 class RandomizedCollection:
 

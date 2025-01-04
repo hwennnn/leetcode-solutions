@@ -65,7 +65,7 @@ Sum of every tilt : 0 + 0 + 0 + 2 + 7 + 6 = 15
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='binary-tree-tilt'
 # Definition for a binary tree node.
 # class TreeNode:

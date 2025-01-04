@@ -83,7 +83,7 @@ foodRatings.highestRated(&quot;japanese&quot;); // return &quot;ramen&quot;
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='design-a-food-rating-system'
 class FoodRatings:
 

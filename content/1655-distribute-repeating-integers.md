@@ -68,7 +68,7 @@ date: 2022-01-10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='distribute-repeating-integers'
 class Solution:
     def canDistribute(self, nums: List[int], quantity: List[int]) -> bool:

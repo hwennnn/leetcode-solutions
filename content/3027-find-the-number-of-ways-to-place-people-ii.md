@@ -77,7 +77,7 @@ Note that it does not matter if the fence encloses any area, the first and secon
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-number-of-ways-to-place-people-ii'
 class Solution:
     def numberOfPairs(self, points: List[List[int]]) -> int:

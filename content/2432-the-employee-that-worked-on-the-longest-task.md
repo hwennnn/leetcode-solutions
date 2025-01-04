@@ -80,7 +80,7 @@ The tasks with the longest time are tasks 0 and 1. The employees that worked on 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='the-employee-that-worked-on-the-longest-task'
 class Solution:
     def hardestWorker(self, n: int, logs: List[List[int]]) -> int:

@@ -60,7 +60,7 @@ Other original arrays could be [4,3,1] or [3,1,4].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-original-array-from-doubled-array'
 class Solution:
     def findOriginalArray(self, changed: List[int]) -> List[int]:

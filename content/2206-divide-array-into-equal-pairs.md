@@ -59,7 +59,7 @@ There is no way to divide nums into 4 / 2 = 2 pairs such that the pairs satisfy 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='divide-array-into-equal-pairs'
 class Solution:
     def divideArray(self, nums: List[int]) -> bool:

@@ -68,7 +68,7 @@ Second 7: Fill up a hot cup.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-amount-of-time-to-fill-cups'
 class Solution:
     def fillCups(self, amount: List[int]) -> int:

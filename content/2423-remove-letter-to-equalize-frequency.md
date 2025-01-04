@@ -54,7 +54,7 @@ date: 2022-10-01
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='remove-letter-to-equalize-frequency'
 class Solution:
     def equalFrequency(self, word: str) -> bool:

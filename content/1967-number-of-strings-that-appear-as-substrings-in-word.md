@@ -65,7 +65,7 @@ date: 2021-08-15
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-strings-that-appear-as-substrings-in-word'
 class Solution:
     def numOfStrings(self, patterns: List[str], word: str) -> int:

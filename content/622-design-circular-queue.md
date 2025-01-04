@@ -69,7 +69,7 @@ myCircularQueue.Rear();     // return 4
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='design-circular-queue'
 class MyCircularQueue:
 

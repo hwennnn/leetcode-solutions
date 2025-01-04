@@ -46,7 +46,7 @@ date: 2020-08-24
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-palindromic-subsequence'
 class Solution:
     def longestPalindromeSubseq(self, s: str) -> int:

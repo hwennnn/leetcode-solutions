@@ -70,7 +70,7 @@ date: 2024-08-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='binary-tree-right-side-view'
 # Definition for a binary tree node.
 # class TreeNode:

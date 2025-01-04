@@ -73,7 +73,7 @@ date: 2023-01-01
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='word-pattern'
 class Solution:
     def wordPattern(self, pattern: str, s: str) -> bool:

@@ -63,7 +63,7 @@ stk.pop();                            // return -1 --&gt; Stack is empty return 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='design-a-stack-with-increment-operation'
 class CustomStack:
 

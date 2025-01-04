@@ -60,7 +60,7 @@ Remove palindromic subsequence &quot;baab&quot; then &quot;b&quot;.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='remove-palindromic-subsequences'
 class Solution:
     def removePalindromeSub(self, s: str) -> int:

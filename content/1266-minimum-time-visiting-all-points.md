@@ -63,7 +63,7 @@ Total time = 7 seconds</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-time-visiting-all-points'
 class Solution:
     def minTimeToVisitAllPoints(self, points: List[List[int]]) -> int:

@@ -66,7 +66,7 @@ date: 2023-04-19
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-zigzag-path-in-a-binary-tree'
 # Definition for a binary tree node.
 # class TreeNode:

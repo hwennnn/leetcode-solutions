@@ -51,7 +51,7 @@ date: 2022-04-02
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='valid-palindrome-ii'
 class Solution:
     def validPalindrome(self, s: str) -> bool:

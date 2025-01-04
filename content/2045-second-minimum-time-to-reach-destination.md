@@ -84,7 +84,7 @@ The second minimum time path is 1 -&gt; 2 -&gt; 1 -&gt; 2 with time = 11 minutes
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='second-minimum-time-to-reach-destination'
 class Solution:
     def secondMinimum(self, n: int, edges: List[List[int]], time: int, change: int) -> int:

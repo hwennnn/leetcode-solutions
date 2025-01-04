@@ -57,7 +57,7 @@ Since we can make s equal to target, we return true.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='apply-bitwise-operations-to-make-strings-equal'
 class Solution:
     def makeStringsEqual(self, s: str, target: str) -> bool:

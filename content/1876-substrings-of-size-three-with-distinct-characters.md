@@ -54,7 +54,7 @@ The good substrings are &quot;abc&quot;, &quot;bca&quot;, &quot;cab&quot;, and &
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='substrings-of-size-three-with-distinct-characters'
 class Solution:
     def countGoodSubstrings(self, s: str) -> int:

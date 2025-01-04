@@ -71,7 +71,7 @@ The total hiring cost is 4.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='total-cost-to-hire-k-workers'
 class Solution:
     def totalCost(self, costs: List[int], k: int, C: int) -> int:

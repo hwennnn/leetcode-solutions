@@ -50,7 +50,7 @@ The earlier year between them is 1960.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-population-year'
 class Solution:
     def maximumPopulation(self, logs: List[List[int]]) -> int:

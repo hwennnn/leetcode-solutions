@@ -67,7 +67,7 @@ date: 2023-09-05
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='copy-list-with-random-pointer'
 """
 # Definition for a Node.

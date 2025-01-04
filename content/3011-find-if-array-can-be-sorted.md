@@ -64,7 +64,7 @@ Note that there may be other sequences of operations which also sort the array.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-if-array-can-be-sorted'
 class Solution:
     def canSortArray(self, nums: List[int]) -> bool:

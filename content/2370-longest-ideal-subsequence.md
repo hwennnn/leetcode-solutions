@@ -57,7 +57,7 @@ Note that &quot;acfgbd&quot; is not ideal because &#39;c&#39; and &#39;f&#39; ha
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-ideal-subsequence'
 class Solution:
     def longestIdealString(self, s: str, k: int) -> int:

@@ -50,7 +50,7 @@ date: 2023-09-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-difference'
 class Solution:
     def findTheDifference(self, s: str, t: str) -> str:

@@ -50,7 +50,7 @@ date: 2023-12-10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='transpose-matrix'
 class Solution:
     def transpose(self, matrix: List[List[int]]) -> List[List[int]]:

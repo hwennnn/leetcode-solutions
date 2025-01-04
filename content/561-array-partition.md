@@ -50,7 +50,7 @@ So the maximum possible sum is 4.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='array-partition'
 class Solution:
     def arrayPairSum(self, nums: List[int]) -> int:

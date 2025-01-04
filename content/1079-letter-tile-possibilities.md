@@ -54,7 +54,7 @@ date: 2019-10-09
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='letter-tile-possibilities'
 class Solution:
     def numTilePossibilities(self, tiles: str) -> int:

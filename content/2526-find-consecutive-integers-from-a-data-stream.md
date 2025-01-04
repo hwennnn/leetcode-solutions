@@ -58,7 +58,7 @@ dataStream.consec(3); // The last k integers parsed in the stream are [4,4,3].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-consecutive-integers-from-a-data-stream'
 class DataStream:
 

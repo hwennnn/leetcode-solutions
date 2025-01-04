@@ -71,7 +71,7 @@ We can achieve all the requests. </pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-number-of-achievable-transfer-requests'
 class Solution:
     def maximumRequests(self, n: int, requests: List[List[int]]) -> int:

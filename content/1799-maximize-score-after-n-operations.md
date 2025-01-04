@@ -73,7 +73,7 @@ date: 2023-05-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximize-score-after-n-operations'
 class Solution:
     def maxScore(self, nums: List[int]) -> int:

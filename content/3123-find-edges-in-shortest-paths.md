@@ -72,7 +72,7 @@ date: 2024-04-21
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-edges-in-shortest-paths'
 class Solution:
     def findAnswer(self, n: int, edges: List[List[int]]) -> List[bool]:

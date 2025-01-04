@@ -71,7 +71,7 @@ Perform second operation four times p=&quot;addb&quot;, s=&quot;&quot;, t=&quot;
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='using-a-robot-to-print-the-lexicographically-smallest-string'
 class Solution:
     def robotWithString(self, s: str) -> str:

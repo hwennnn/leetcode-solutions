@@ -60,7 +60,7 @@ date: 2023-11-27
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='knight-dialer'
 class Solution:
     def knightDialer(self, n: int) -> int:

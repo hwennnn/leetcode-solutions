@@ -46,7 +46,7 @@ date: 2022-03-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='smallest-subsequence-of-distinct-characters'
 class Solution:
     def smallestSubsequence(self, s: str) -> str:

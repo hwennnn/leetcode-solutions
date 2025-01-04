@@ -56,7 +56,7 @@ date: 2024-07-11
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='generate-binary-strings-without-adjacent-zeros'
 class Solution:
     def validStrings(self, n: int) -> List[str]:

@@ -55,7 +55,7 @@ The 5 good pairs are <code>(0, 0)</code>, <code>(1, 0)</code>, <code>(1, 1)</cod
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-number-of-good-pairs-i'
 class Solution:
     def numberOfPairs(self, nums1: List[int], nums2: List[int], k: int) -> int:

@@ -41,7 +41,7 @@ date: 2024-09-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='k-th-smallest-in-lexicographical-order'
 class Solution:
     def findKthNumber(self, n: int, k: int) -> int:

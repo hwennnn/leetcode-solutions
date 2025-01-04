@@ -64,7 +64,7 @@ We have the maximum performance of the team by selecting engineer 2 (with speed=
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-performance-of-a-team'
 class Solution:
     def maxPerformance(self, n: int, speed: List[int], efficiency: List[int], k: int) -> int:

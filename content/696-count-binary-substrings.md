@@ -48,7 +48,7 @@ Also, &quot;00110011&quot; is not a valid substring because all the 0&#39;s (and
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-binary-substrings'
 class Solution:
     def countBinarySubstrings(self, s: str) -> int:

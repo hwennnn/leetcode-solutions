@@ -44,7 +44,7 @@ date: 2024-08-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-palindromic-substring'
 class Solution:
     def longestPalindrome(self, s: str) -> str:

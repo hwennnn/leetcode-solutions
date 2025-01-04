@@ -56,7 +56,7 @@ date: 2020-03-11
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='dungeon-game'
 class Solution:
     def calculateMinimumHP(self, mat: List[List[int]]) -> int:

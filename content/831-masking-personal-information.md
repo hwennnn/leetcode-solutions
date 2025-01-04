@@ -110,7 +110,7 @@ Thus, the resulting masked number is &quot;***-***-7890&quot;.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='masking-personal-information'
 class Solution:
     def maskPII(self, s: str) -> str:

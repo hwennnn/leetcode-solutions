@@ -57,7 +57,7 @@ Note that even though the subarrays have the same content, the two subarrays are
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-subarrays-with-equal-sum'
 class Solution:
     def findSubarrays(self, nums: List[int]) -> bool:

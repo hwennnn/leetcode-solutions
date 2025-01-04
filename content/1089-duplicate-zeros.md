@@ -46,7 +46,7 @@ date: 2021-05-29
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='duplicate-zeros'
 class Solution:
     def duplicateZeros(self, arr: List[int]) -> None:

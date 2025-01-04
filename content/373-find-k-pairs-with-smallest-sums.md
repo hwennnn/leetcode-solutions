@@ -51,7 +51,7 @@ date: 2023-06-27
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-k-pairs-with-smallest-sums'
 class Solution:
     def kSmallestPairs(self, nums1: List[int], nums2: List[int], k: int) -> List[List[int]]:

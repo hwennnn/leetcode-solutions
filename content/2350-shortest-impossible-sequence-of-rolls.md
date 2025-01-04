@@ -63,7 +63,7 @@ Note that there are other sequences that cannot be taken from rolls but [4] is t
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='shortest-impossible-sequence-of-rolls'
 class Solution:
     def shortestSequence(self, rolls: List[int], k: int) -> int:

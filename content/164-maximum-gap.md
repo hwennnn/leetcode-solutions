@@ -48,7 +48,7 @@ date: 2021-05-30
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-gap'
 class Solution:
     def maximumGap(self, nums: List[int]) -> int:

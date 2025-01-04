@@ -55,7 +55,7 @@ date: 2021-05-15
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='swap-for-longest-repeated-character-substring'
 class Solution:
     def maxRepOpt1(self, text: str) -> int:

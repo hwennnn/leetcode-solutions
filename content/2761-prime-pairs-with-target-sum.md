@@ -56,7 +56,7 @@ These pairs are [3,7] and [5,5], and we return them in the sorted order as descr
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='prime-pairs-with-target-sum'
 MAXN = 10 ** 6 + 1
 

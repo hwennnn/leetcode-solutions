@@ -64,7 +64,7 @@ date: 2024-05-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-occurrences-of-an-element-in-an-array'
 class Solution:
     def occurrencesOfElement(self, nums: List[int], queries: List[int], t: int) -> List[int]:

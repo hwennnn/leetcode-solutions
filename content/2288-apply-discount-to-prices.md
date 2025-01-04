@@ -64,7 +64,7 @@ Each of them is replaced by &quot;$0.00&quot;.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='apply-discount-to-prices'
 class Solution:
     def discountPrices(self, sentence: str, discount: int) -> str:

@@ -57,7 +57,7 @@ Since there is only one element in nums, the triangular sum is the value of that
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-triangular-sum-of-an-array'
 class Solution:
     def triangularSum(self, nums: List[int]) -> int:

@@ -46,7 +46,7 @@ date: 2023-03-11
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='convert-sorted-list-to-binary-search-tree'
 # Definition for singly-linked list.
 # class ListNode:

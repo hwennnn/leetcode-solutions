@@ -49,7 +49,7 @@ date: 2022-08-10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='convert-sorted-array-to-binary-search-tree'
 # Definition for a binary tree node.
 # class TreeNode:

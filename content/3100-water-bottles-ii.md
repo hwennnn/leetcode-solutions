@@ -55,7 +55,7 @@ date: 2024-03-31
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='water-bottles-ii'
 class Solution:
     def maxBottlesDrunk(self, numBottles: int, numExchange: int) -> int:

@@ -55,7 +55,7 @@ date: 2024-11-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-the-number-of-fair-pairs'
 from sortedcontainers import SortedList
 

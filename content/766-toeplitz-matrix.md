@@ -60,7 +60,7 @@ The diagonal &quot;[1, 2]&quot; has different elements.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='toeplitz-matrix'
 class Solution:
     def isToeplitzMatrix(self, matrix: List[List[int]]) -> bool:

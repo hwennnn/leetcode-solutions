@@ -48,7 +48,7 @@ date: 2022-06-26
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='kth-smallest-element-in-a-bst'
 # Definition for a binary tree node.
 # class TreeNode:

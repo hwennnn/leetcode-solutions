@@ -51,7 +51,7 @@ date: 2023-03-05
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-total-number-of-colored-cells'
 class Solution:
     def coloredCells(self, n: int) -> int:

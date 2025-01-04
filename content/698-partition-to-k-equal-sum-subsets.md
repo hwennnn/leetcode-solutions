@@ -48,7 +48,7 @@ date: 2022-07-12
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='partition-to-k-equal-sum-subsets'
 class Solution:
     def canPartitionKSubsets(self, nums: List[int], k: int) -> bool:

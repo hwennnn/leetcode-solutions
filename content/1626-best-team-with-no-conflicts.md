@@ -59,7 +59,7 @@ date: 2023-01-31
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='best-team-with-no-conflicts'
 class Solution:
     def bestTeamScore(self, scores: List[int], ages: List[int]) -> int:

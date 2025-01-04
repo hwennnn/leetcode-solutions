@@ -53,7 +53,7 @@ date: 2024-02-26
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='same-tree'
 # Definition for a binary tree node.
 # class TreeNode:

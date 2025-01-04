@@ -65,7 +65,7 @@ Note that &quot;bxz&quot; also has a hash of 32 but it appears later than &quot;
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-substring-with-given-hash-value'
 class Solution:
     def subStrHash(self, s: str, power: int, M: int, k: int, hashValue: int) -> str:

@@ -74,7 +74,7 @@ So only the second letter &#39;o&#39; in baseStr is changed to &#39;d&#39;, the 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='lexicographically-smallest-equivalent-string'
 class UnionFind:
     def __init__(self):

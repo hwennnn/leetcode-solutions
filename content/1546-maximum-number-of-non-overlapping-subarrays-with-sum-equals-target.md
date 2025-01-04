@@ -48,7 +48,7 @@ date: 2020-10-12
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-number-of-non-overlapping-subarrays-with-sum-equals-target'
 class Solution:
     def maxNonOverlapping(self, nums: List[int], target: int) -> int:

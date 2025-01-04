@@ -62,7 +62,7 @@ It can be proven that 2 is the maximum tastiness that can be achieved.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-tastiness-of-candy-basket'
 class Solution:
     def maximumTastiness(self, price: List[int], k: int) -> int:

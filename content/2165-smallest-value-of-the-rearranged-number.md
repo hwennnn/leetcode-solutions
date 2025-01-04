@@ -49,7 +49,7 @@ The arrangement with the smallest value that does not contain any leading zeros 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='smallest-value-of-the-rearranged-number'
 class Solution:
     def smallestNumber(self, num: int) -> int:

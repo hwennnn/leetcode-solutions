@@ -50,7 +50,7 @@ The above arrows point to positions where the corresponding bits are different.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='hamming-distance'
 class Solution:
     def hammingDistance(self, x: int, y: int) -> int:

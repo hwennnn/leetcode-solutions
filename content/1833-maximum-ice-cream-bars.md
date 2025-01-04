@@ -64,7 +64,7 @@ date: 2023-01-06
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-ice-cream-bars'
 class Solution:
     def maxIceCream(self, costs: List[int], coins: int) -> int:

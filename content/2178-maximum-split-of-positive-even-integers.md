@@ -63,7 +63,7 @@ Note that [10,2,4,12], [6,2,4,16], etc. are also accepted.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-split-of-positive-even-integers'
 class Solution:
     def maximumEvenSplit(self, s: int) -> List[int]:

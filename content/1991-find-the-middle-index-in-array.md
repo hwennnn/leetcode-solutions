@@ -63,7 +63,7 @@ The sum of the numbers after index 2 is: 0
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-middle-index-in-array'
 class Solution:
     def findMiddleIndex(self, nums: List[int]) -> int:

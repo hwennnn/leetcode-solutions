@@ -64,7 +64,7 @@ Since 4 is the maximum number of enemy forts that can be captured, we return 4.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-enemy-forts-that-can-be-captured'
 class Solution:
     def captureForts(self, forts: List[int]) -> int:

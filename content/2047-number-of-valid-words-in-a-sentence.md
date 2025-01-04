@@ -67,7 +67,7 @@ date: 2021-10-24
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-valid-words-in-a-sentence'
 class Solution:
     def countValidWords(self, sentence: str) -> int:

@@ -79,7 +79,7 @@ Bob wins.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='stone-game-vi'
 class Solution:
     def stoneGameVI(self, A: List[int], B: List[int]) -> int:

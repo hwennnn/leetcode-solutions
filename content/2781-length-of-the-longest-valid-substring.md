@@ -56,7 +56,7 @@ It can be shown that all other substrings contain either &quot;de&quot;, &quot;l
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='length-of-the-longest-valid-substring'
 class Solution:
     def longestValidSubstring(self, word: str, forbidden: List[str]) -> int:

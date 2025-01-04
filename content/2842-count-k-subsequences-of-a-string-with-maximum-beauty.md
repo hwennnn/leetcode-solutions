@@ -91,7 +91,7 @@ Hence, the answer is 2.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-k-subsequences-of-a-string-with-maximum-beauty'
 class Solution:
     def countKSubsequencesWithMaxBeauty(self, s: str, length: int) -> int:

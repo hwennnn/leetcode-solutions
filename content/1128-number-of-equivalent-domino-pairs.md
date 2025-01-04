@@ -46,7 +46,7 @@ date: 2021-05-23
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-equivalent-domino-pairs'
 class Solution:
     def numEquivDominoPairs(self, A: List[List[int]]) -> int:

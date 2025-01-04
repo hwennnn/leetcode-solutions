@@ -60,7 +60,7 @@ seatManager.unreserve(5); // Unreserve seat 5, so now the available seats are [5
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='seat-reservation-manager'
 class SeatManager:
 

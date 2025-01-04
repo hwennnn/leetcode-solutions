@@ -62,7 +62,7 @@ merged: a p b q c   d
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='merge-strings-alternately'
 class Solution:
     def mergeAlternately(self, word1: str, word2: str) -> str:

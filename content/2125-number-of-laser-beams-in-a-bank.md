@@ -69,7 +69,7 @@ This is because the 2<sup>nd</sup> row contains security devices, which breaks t
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-laser-beams-in-a-bank'
 class Solution:
     def numberOfBeams(self, bank: List[str]) -> int:

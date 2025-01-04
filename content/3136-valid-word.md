@@ -81,7 +81,7 @@ date: 2024-05-05
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='valid-word'
 class Solution:
     def isValid(self, word: str) -> bool:

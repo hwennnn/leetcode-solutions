@@ -67,7 +67,7 @@ date: 2022-09-19
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-duplicate-file-in-system'
 class Solution:
     def findDuplicate(self, paths: List[str]) -> List[List[str]]:

@@ -56,7 +56,7 @@ date: 2024-05-04
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='boats-to-save-people'
 class Solution:
     def numRescueBoats(self, people: List[int], limit: int) -> int:

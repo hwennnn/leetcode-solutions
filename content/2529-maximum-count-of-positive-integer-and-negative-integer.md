@@ -63,7 +63,7 @@ date: 2023-01-08
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-count-of-positive-integer-and-negative-integer'
 class Solution:
     def maximumCount(self, nums: List[int]) -> int:

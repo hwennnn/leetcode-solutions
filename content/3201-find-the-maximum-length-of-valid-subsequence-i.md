@@ -73,7 +73,7 @@ You are given an integer array <code>nums</code>.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-maximum-length-of-valid-subsequence-i'
 class Solution:
     def maximumLength(self, nums: List[int]) -> int:

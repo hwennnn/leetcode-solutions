@@ -70,7 +70,7 @@ date: 2021-06-05
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='process-tasks-using-servers'
 class Solution:
     def assignTasks(self, servers: List[int], tasks: List[int]) -> List[int]:

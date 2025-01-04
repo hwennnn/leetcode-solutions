@@ -59,7 +59,7 @@ The great partitions will be ([6], [6]) and ([6], [6]).
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-great-partitions'
 class Solution:
     def countPartitions(self, nums: List[int], k: int) -> int:

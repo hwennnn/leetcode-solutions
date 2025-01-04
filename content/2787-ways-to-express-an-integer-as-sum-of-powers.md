@@ -52,7 +52,7 @@ It can be shown that it is the only way to express 10 as the sum of the 2<sup>nd
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='ways-to-express-an-integer-as-sum-of-powers'
 class Solution:
     def numberOfWays(self, n: int, x: int) -> int:

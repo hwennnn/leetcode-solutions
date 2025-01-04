@@ -45,7 +45,7 @@ The largest rectangle is shown in the red area, which has an area = 10 units.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='largest-rectangle-in-histogram'
 class Solution:
     def largestRectangleArea(self, heights: List[int]) -> int:

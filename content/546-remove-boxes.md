@@ -60,7 +60,7 @@ date: 2021-08-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='remove-boxes'
 import functools
 class Solution:

@@ -67,7 +67,7 @@ myCircularDeque.getFront();     // return 4
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='design-circular-deque'
 class MyCircularDeque:
 

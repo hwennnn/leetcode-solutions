@@ -61,7 +61,7 @@ So the final output is 4.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='freedom-trail'
 class Solution:
     def findRotateSteps(self, ring: str, key: str) -> int:

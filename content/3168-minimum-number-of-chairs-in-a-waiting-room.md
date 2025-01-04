@@ -196,7 +196,7 @@ date: 2024-06-02
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-chairs-in-a-waiting-room'
 class Solution:
     def minimumChairs(self, s: str) -> int:

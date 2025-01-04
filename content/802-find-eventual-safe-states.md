@@ -57,7 +57,7 @@ Only node 4 is a terminal node, and every path starting at node 4 leads to node 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-eventual-safe-states'
 class Solution:
     def eventualSafeNodes(self, graph: List[List[int]]) -> List[int]:

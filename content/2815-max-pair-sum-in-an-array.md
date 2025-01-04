@@ -70,7 +70,7 @@ date: 2023-08-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='max-pair-sum-in-an-array'
 class Solution:
     def maxSum(self, nums: List[int]) -> int:

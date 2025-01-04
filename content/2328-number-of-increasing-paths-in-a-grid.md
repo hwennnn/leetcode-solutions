@@ -64,7 +64,7 @@ The total number of paths is 2 + 1 = 3.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-increasing-paths-in-a-grid'
 class Solution:
     def countPaths(self, grid: List[List[int]]) -> int:

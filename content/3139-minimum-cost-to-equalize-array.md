@@ -103,7 +103,7 @@ date: 2024-05-06
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-cost-to-equalize-array'
 class Solution:
     def minCostToEqualizeArray(self, nums: List[int], cost1: int, cost2: int) -> int:

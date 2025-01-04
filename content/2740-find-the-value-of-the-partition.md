@@ -66,7 +66,7 @@ It can be proven that 9 is the minimum value out of all partitions.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-value-of-the-partition'
 class Solution:
     def findValueOfPartition(self, nums: List[int]) -> int:

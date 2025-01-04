@@ -73,7 +73,7 @@ Thus all 5 bombs are detonated.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='detonate-the-maximum-bombs'
 class Solution:
     def maximumDetonation(self, bombs: List[List[int]]) -> int:

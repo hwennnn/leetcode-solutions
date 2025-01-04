@@ -71,7 +71,7 @@ The absolute difference is 1.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimize-the-difference-between-target-and-chosen-elements'
 class Solution:
     def minimizeTheDifference(self, mat: List[List[int]], target: int) -> int:

@@ -63,7 +63,7 @@ The absolute difference is abs(-4 - (-5)) = abs(1) = 1, which is the minimum.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='closest-subsequence-sum'
 class Solution:
     def minAbsDifference(self, nums: List[int], goal: int) -> int:

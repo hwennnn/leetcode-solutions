@@ -72,7 +72,7 @@ The blue arrows show how we can find originalText from encodedText.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='decode-the-slanted-ciphertext'
 class Solution:
     def decodeCiphertext(self, s: str, rows: int) -> str:

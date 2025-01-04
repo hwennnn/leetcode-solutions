@@ -46,7 +46,7 @@ date: 2021-06-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-subarrays-with-bounded-maximum'
 class Solution:
     def numSubarrayBoundedMax(self, nums: List[int], left: int, right: int) -> int:

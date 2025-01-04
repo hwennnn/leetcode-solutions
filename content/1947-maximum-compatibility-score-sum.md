@@ -66,7 +66,7 @@ The compatibility score sum is 3 + 2 + 3 = 8.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-compatibility-score-sum'
 class Solution:
     def maxCompatibilitySum(self, students: List[List[int]], mentors: List[List[int]]) -> int:

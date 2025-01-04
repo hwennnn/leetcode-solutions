@@ -58,7 +58,7 @@ There will be no remaining ingredients.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-burgers-with-no-waste-of-ingredients'
 class Solution:
     def numOfBurgers(self, t: int, c: int) -> List[int]:

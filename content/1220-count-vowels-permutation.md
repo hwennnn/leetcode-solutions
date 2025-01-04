@@ -59,7 +59,7 @@ date: 2023-10-28
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-vowels-permutation'
 class Solution:
     def countVowelPermutation(self, n: int) -> int:

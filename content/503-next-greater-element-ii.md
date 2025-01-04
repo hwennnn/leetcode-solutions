@@ -48,7 +48,7 @@ The second 1&#39;s next greater number needs to search circularly, which is also
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='next-greater-element-ii'
 class Solution:
     def nextGreaterElements(self, nums: List[int]) -> List[int]:

@@ -62,7 +62,7 @@ It is obtained by taking the first appearance of each letter in &quot;<u><strong
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='decode-the-message'
 class Solution:
     def decodeMessage(self, key: str, message: str) -> str:

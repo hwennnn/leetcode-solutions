@@ -45,7 +45,7 @@ date: 2022-05-12
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='permutations-ii'
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:

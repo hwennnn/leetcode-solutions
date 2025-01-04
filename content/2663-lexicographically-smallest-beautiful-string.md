@@ -61,7 +61,7 @@ It can be proven that there is no string that is lexicographically larger than t
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='lexicographically-smallest-beautiful-string'
 class Solution:
     def smallestBeautifulString(self, s: str, k: int) -> str:

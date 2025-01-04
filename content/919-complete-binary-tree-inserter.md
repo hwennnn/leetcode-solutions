@@ -59,7 +59,7 @@ cBTInserter.get_root(); // return [1, 2, 3, 4]
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='complete-binary-tree-inserter'
 # Definition for a binary tree node.
 # class TreeNode:

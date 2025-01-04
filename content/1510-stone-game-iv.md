@@ -57,7 +57,7 @@ date: 2022-01-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='stone-game-iv'
 class Solution:
     def winnerSquareGame(self, n: int) -> bool:

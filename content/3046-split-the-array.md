@@ -54,7 +54,7 @@ date: 2024-02-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='split-the-array'
 class Solution:
     def isPossibleToSplit(self, nums: List[int]) -> bool:

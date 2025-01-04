@@ -50,7 +50,7 @@ date: 2024-08-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='unique-paths'
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:

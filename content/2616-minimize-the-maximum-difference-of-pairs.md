@@ -51,7 +51,7 @@ The maximum difference is max(|nums[1] - nums[4]|, |nums[2] - nums[5]|) = max(0,
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimize-the-maximum-difference-of-pairs'
 class Solution:
     def minimizeMax(self, nums: List[int], p: int) -> int:

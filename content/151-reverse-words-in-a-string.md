@@ -61,7 +61,7 @@ date: 2022-11-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='reverse-words-in-a-string'
 class Solution:
     def reverseWords(self, s: str) -> str:

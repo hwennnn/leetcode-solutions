@@ -78,7 +78,7 @@ The profit was never positive, so return -1.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-profit-of-operating-a-centennial-wheel'
 class Solution:
     def minOperationsMaxProfit(self, customers: List[int], bc: int, rc: int) -> int:

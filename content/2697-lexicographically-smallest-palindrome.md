@@ -59,7 +59,7 @@ date: 2023-05-21
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='lexicographically-smallest-palindrome'
 class Solution:
     def makeSmallestPalindrome(self, s: str) -> str:

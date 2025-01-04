@@ -51,7 +51,7 @@ date: 2020-08-31
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-primes'
 class Solution:
     def countPrimes(self, n: int) -> int:

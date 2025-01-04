@@ -61,7 +61,7 @@ date: 2024-05-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='word-break-ii'
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:

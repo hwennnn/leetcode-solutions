@@ -59,7 +59,7 @@ date: 2024-06-23
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-minimum-area-to-cover-all-ones-i'
 class Solution:
     def minimumArea(self, grid: List[List[int]]) -> int:

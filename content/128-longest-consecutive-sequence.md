@@ -46,7 +46,7 @@ date: 2022-07-05
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-consecutive-sequence'
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:

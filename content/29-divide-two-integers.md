@@ -50,7 +50,7 @@ date: 2022-05-30
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='divide-two-integers'
 class Solution:
     def divide(self, dividend, divisor):

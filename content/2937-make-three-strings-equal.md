@@ -49,7 +49,7 @@ date: 2023-11-19
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='make-three-strings-equal'
 class Solution:
     def findMinimumOperations(self, s1: str, s2: str, s3: str) -> int:

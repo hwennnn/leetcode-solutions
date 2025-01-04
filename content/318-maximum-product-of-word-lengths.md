@@ -54,7 +54,7 @@ date: 2022-05-29
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-product-of-word-lengths'
 class Solution:
     def maxProduct(self, words: List[str]) -> int:

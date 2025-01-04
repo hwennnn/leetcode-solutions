@@ -48,7 +48,7 @@ There does not exist any integer present both in nums[0] and nums[1], so we retu
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='intersection-of-multiple-arrays'
 class Solution:
     def intersection(self, nums: List[List[int]]) -> List[int]:

@@ -70,7 +70,7 @@ The total score is 50 + 15 - 9 + 4 + 42 = 102.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-score-from-performing-multiplication-operations'
 class Solution:
     def maximumScore(self, nums: List[int], mul: List[int]) -> int:

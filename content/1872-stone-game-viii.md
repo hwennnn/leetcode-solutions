@@ -80,7 +80,7 @@ The difference between their scores is (-22) - 0 = -22.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='stone-game-viii'
 class Solution:
     def stoneGameVIII(self, stones: List[int]) -> int:

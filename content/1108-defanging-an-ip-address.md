@@ -34,7 +34,7 @@ date: 2019-10-06
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='defanging-an-ip-address'
 class Solution:
     def defangIPaddr(self, address: str) -> str:

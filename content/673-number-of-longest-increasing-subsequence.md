@@ -49,7 +49,7 @@ date: 2023-07-21
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-longest-increasing-subsequence'
 class Solution:
     def findNumberOfLIS(self, nums: List[int]) -> int:

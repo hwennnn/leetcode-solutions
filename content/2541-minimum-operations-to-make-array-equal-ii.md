@@ -57,7 +57,7 @@ One can prove that it is impossible to make arrays equal in fewer operations.</p
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-operations-to-make-array-equal-ii'
 class Solution:
     def minOperations(self, nums1: List[int], nums2: List[int], k: int) -> int:

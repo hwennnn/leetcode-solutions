@@ -56,7 +56,7 @@ date: 2023-04-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-insertion-steps-to-make-a-string-palindrome'
 class Solution:
     def minInsertions(self, s: str) -> int:

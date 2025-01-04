@@ -66,7 +66,7 @@ The nodes that are reachable are highlighted in yellow.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='reachable-nodes-in-subdivided-graph'
 class Solution:
     def reachableNodes(self, edges: List[List[int]], maxMoves: int, n: int) -> int:

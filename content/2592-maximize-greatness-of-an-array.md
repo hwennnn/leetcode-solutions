@@ -51,7 +51,7 @@ At indices = 0, 1, and 2, perm[i] &gt; nums[i]. Hence, we return 3.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximize-greatness-of-an-array'
 class Solution:
     def maximizeGreatness(self, nums: List[int]) -> int:

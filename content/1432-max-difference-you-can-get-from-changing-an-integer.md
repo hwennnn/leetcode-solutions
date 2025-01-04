@@ -58,7 +58,7 @@ We have now a = 9 and b = 1 and max difference = 8
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='max-difference-you-can-get-from-changing-an-integer'
 class Solution:
     def maxDiff(self, num: int) -> int:

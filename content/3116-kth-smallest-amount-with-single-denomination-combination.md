@@ -95,7 +95,7 @@ All of the coins combined produce: 2, 4, 5, 6, 8, 10, <u><strong>12</strong></u>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='kth-smallest-amount-with-single-denomination-combination'
 class Solution:
     def findKthSmallest(self, coins: List[int], k: int) -> int:

@@ -68,7 +68,7 @@ date: 2024-11-26
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-champion-ii'
 class Solution:
     def findChampion(self, n: int, edges: List[List[int]]) -> int:

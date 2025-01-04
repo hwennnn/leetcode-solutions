@@ -69,7 +69,7 @@ date: 2022-08-21
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='stamping-the-sequence'
 class Solution:
     def movesToStamp(self, S: str, T: str) -> List[int]:

@@ -63,7 +63,7 @@ The absolute difference between the sums of the arrays is abs((2 + 4 + -9) - (-1
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='partition-array-into-two-arrays-to-minimize-sum-difference'
 class Solution:
     def minimumDifference(self, nums: List[int]) -> int:

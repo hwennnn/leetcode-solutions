@@ -47,7 +47,7 @@ date: 2024-08-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='ugly-number-ii'
 class Solution:
     def nthUglyNumber(self, n: int) -> int:

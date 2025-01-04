@@ -61,7 +61,7 @@ randomizedSet.getRandom(); // Since 2 is the only number in the set, getRandom()
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='insert-delete-getrandom-o1'
 class RandomizedSet:
 

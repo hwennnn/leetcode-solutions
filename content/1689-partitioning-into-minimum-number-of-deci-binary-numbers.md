@@ -53,7 +53,7 @@ date: 2022-06-27
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='partitioning-into-minimum-number-of-deci-binary-numbers'
 class Solution:
     def minPartitions(self, n: str) -> int:

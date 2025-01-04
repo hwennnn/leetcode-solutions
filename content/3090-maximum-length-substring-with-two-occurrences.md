@@ -48,7 +48,7 @@ The following substring has a length of 2 and contains at most two occurrences o
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-length-substring-with-two-occurrences'
 class Solution:
     def maximumLengthSubstring(self, s: str) -> int:

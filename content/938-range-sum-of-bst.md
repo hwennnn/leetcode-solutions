@@ -48,7 +48,7 @@ date: 2020-12-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='range-sum-of-bst'
 # Definition for a binary tree node.
 # class TreeNode:

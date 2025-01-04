@@ -69,7 +69,7 @@ bs.toString(); // return &quot;01010&quot;, which is the composition of bitset.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='design-bitset'
 class Bitset:
 

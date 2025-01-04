@@ -64,7 +64,7 @@ So one correct course order is [0,1,2,3]. Another correct ordering is [0,2,1,3].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='course-schedule-ii'
 class Solution:
     def findOrder(self, n: int, prerequisites: List[List[int]]) -> List[int]:

@@ -77,7 +77,7 @@ movieRentingSystem.search(2);  // return [0, 1]. Movies of ID 2 are unrented at 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='design-movie-rental-system'
 from sortedcontainers import SortedList
 

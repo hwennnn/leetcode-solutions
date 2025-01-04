@@ -54,7 +54,7 @@ solution.randPoint(); // return [0.36572, 0.17248]
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='generate-random-point-in-a-circle'
 import random
 

@@ -58,7 +58,7 @@ date: 2019-10-06
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='two-sum'
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:

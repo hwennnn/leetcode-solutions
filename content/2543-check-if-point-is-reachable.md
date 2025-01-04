@@ -54,7 +54,7 @@ date: 2023-01-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-if-point-is-reachable'
 class Solution:
     def isReachable(self, targetX: int, targetY: int) -> bool:

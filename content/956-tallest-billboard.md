@@ -57,7 +57,7 @@ date: 2023-06-24
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='tallest-billboard'
 class Solution:
     def tallestBillboard(self, rods: List[int]) -> int:

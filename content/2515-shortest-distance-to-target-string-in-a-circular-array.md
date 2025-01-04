@@ -69,7 +69,7 @@ The shortest distance to reach &quot;leetcode&quot; is 1.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='shortest-distance-to-target-string-in-a-circular-array'
 class Solution:
     def closetTarget(self, words: List[str], target: str, startIndex: int) -> int:

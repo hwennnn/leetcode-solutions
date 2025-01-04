@@ -67,7 +67,7 @@ Note that there may be other valid parentheses string paths.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-if-there-is-a-valid-parentheses-string-path'
 class Solution:
     def hasValidPath(self, grid: List[List[str]]) -> bool:

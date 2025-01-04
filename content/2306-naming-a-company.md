@@ -70,7 +70,7 @@ The following are some examples of invalid selections:
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='naming-a-company'
 class Solution:
     def distinctNames(self, ideas: List[str]) -> int:

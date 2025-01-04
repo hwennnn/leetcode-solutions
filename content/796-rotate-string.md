@@ -41,7 +41,7 @@ date: 2024-11-03
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='rotate-string'
 class Solution:
     def rotateString(self, A: str, B: str) -> bool:

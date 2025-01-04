@@ -65,7 +65,7 @@ Notice that we cannot rotate the 1 x 4 piece of wood to obtain a 4 x 1 piece of 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='selling-pieces-of-wood'
 class Solution:
     def sellingWood(self, m: int, n: int, prices: List[List[int]]) -> int:

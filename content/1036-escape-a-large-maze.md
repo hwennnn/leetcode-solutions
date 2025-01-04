@@ -59,7 +59,7 @@ We cannot move south or west because we cannot go outside of the grid.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='escape-a-large-maze'
 class Solution:
     def isEscapePossible(self, blocked, source, target):

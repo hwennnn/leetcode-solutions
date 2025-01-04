@@ -74,7 +74,7 @@ date: 2024-04-11
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-cost-walk-in-weighted-graph'
 class DSU:
     def __init__(self, n):

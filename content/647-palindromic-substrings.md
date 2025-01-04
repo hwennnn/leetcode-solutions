@@ -49,7 +49,7 @@ date: 2024-02-10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='palindromic-substrings'
 class Solution:
     def countSubstrings(self, s: str) -> int:

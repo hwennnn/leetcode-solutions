@@ -46,7 +46,7 @@ date: 2023-01-08
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='max-points-on-a-line'
 class Solution:
     def maxPoints(self, points: List[List[int]]) -> int:

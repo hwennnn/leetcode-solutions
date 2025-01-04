@@ -61,7 +61,7 @@ The computer will be on for a total of 4 seconds.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-time-to-complete-all-tasks'
 class Solution:
     def findMinimumTime(self, tasks: List[List[int]]) -> int:

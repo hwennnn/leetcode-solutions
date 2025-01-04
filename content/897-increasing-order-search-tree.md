@@ -45,7 +45,7 @@ date: 2020-12-03
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='increasing-order-search-tree'
 # Definition for a binary tree node.
 # class TreeNode:

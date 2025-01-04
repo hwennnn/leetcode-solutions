@@ -58,7 +58,7 @@ date: 2023-07-03
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='buddy-strings'
 class Solution:
     def buddyStrings(self, A: str, B: str) -> bool:

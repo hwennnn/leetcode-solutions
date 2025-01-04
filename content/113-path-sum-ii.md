@@ -57,7 +57,7 @@ date: 2022-09-24
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='path-sum-ii'
 # Definition for a binary tree node.
 # class TreeNode:

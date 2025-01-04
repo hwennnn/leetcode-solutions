@@ -74,7 +74,7 @@ date: 2023-02-24
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimize-deviation-in-array'
 class Solution:
     def minimumDeviation(self, nums: List[int]) -> int:

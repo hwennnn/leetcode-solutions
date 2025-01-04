@@ -58,7 +58,7 @@ Stay, Stay
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-ways-to-stay-in-the-same-place-after-some-steps'
 class Solution:
     def numWays(self, steps: int, arrLen: int) -> int:

@@ -65,7 +65,7 @@ date: 2024-07-21
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-winning-player-in-coin-game'
 class Solution:
     def losingPlayer(self, x: int, y: int) -> str:

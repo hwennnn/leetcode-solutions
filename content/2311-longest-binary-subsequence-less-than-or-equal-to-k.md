@@ -60,7 +60,7 @@ The length of this subsequence is 6, so 6 is returned.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-binary-subsequence-less-than-or-equal-to-k'
 class Solution:
     def longestSubsequence(self, s: str, k: int) -> int:

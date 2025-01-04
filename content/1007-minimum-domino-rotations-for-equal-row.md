@@ -54,7 +54,7 @@ In this case, it is not possible to rotate the dominoes to make one row of value
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-domino-rotations-for-equal-row'
 class Solution:
     def minDominoRotations(self, tops: List[int], bottoms: List[int]) -> int:

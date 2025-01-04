@@ -54,7 +54,7 @@ parkingSystem.addCar(1); // return false because there is no available slot for 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='design-parking-system'
 class ParkingSystem:
 

@@ -71,7 +71,7 @@ Each prefix has a score of one, so the total is answer[0] = 1 + 1 + 1 + 1 = 4.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sum-of-prefix-scores-of-strings'
 class TrieNode:
     def __init__(self):

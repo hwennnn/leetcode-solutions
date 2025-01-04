@@ -35,7 +35,7 @@ date: 2024-02-02
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sequential-digits'
 class Solution:
     def sequentialDigits(self, low: int, high: int) -> List[int]:

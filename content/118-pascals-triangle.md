@@ -36,7 +36,7 @@ date: 2020-08-12
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='pascals-triangle'
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:

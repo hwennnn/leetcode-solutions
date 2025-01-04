@@ -36,7 +36,7 @@ Given a list of 24-hour clock time points in <strong>&quot;HH:MM&quot;</strong> 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-time-difference'
 class Solution:
     def findMinDifference(self, timePoints: List[str]) -> int:

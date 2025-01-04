@@ -44,7 +44,7 @@ date: 2022-02-19
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-three-consecutive-integers-that-sum-to-a-given-number'
 class Solution:
     def sumOfThree(self, num: int) -> List[int]:

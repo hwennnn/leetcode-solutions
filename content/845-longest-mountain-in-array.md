@@ -66,7 +66,7 @@ date: 2020-11-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-mountain-in-array'
 class Solution:
     def longestMountain(self, A):

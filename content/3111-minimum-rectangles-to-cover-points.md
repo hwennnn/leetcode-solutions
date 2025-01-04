@@ -144,7 +144,7 @@ date: 2024-04-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-rectangles-to-cover-points'
 class Solution:
     def minRectanglesToCoverPoints(self, points: List[List[int]], w: int) -> int:

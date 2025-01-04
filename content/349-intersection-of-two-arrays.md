@@ -46,7 +46,7 @@ date: 2024-03-10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='intersection-of-two-arrays'
 class Solution:
     def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:

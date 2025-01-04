@@ -66,7 +66,7 @@ It is impossible to capture the black queen in less than two moves since it is n
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-moves-to-capture-the-queen'
 class Solution:
     def minMovesToCaptureTheQueen(self, a: int, b: int, c: int, d: int, e: int, f: int) -> int:

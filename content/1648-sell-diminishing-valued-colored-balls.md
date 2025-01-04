@@ -57,7 +57,7 @@ The maximum total value is 3 + 2 + 5 + 4 + 3 + 2 = 19.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sell-diminishing-valued-colored-balls'
 from heapq import heappop, heappush
 

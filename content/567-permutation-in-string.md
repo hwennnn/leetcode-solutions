@@ -47,7 +47,7 @@ date: 2025-01-01
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='permutation-in-string'
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:

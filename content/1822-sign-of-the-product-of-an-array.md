@@ -62,7 +62,7 @@ date: 2023-05-02
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sign-of-the-product-of-an-array'
 class Solution:
     def arraySign(self, nums: List[int]) -> int:

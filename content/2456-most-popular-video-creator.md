@@ -75,7 +75,7 @@ Since &quot;b&quot; is lexicographically smaller than &quot;c&quot;, it is inclu
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='most-popular-video-creator'
 class Solution:
     def mostPopularCreator(self, creators: List[str], ids: List[str], views: List[int]) -> List[List[str]]:

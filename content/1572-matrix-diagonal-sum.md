@@ -59,7 +59,7 @@ Notice that element mat[1][1] = 5 is counted only once.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='matrix-diagonal-sum'
 class Solution:
     def diagonalSum(self, mat: List[List[int]]) -> int:

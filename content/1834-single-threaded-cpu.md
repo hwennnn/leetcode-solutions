@@ -73,7 +73,7 @@ date: 2022-12-29
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='single-threaded-cpu'
 class Solution:
     def getOrder(self, tasks: List[List[int]]) -> List[int]:

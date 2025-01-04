@@ -58,7 +58,7 @@ As shown in the diagram above, the line chart can be represented with a single l
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-lines-to-represent-a-line-chart'
 class Solution:
     def minimumLines(self, stock: List[List[int]]) -> int:

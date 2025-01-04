@@ -66,7 +66,7 @@ Thus, the minimum number of swaps required is 0.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-swaps-to-group-all-1s-together-ii'
 class Solution:
     def minSwaps(self, nums: List[int]) -> int:

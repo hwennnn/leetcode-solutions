@@ -147,7 +147,7 @@ date: 2023-05-03
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='make-array-empty'
 class Solution:
     def countOperationsToEmptyArray(self, nums: List[int]) -> int:

@@ -48,7 +48,7 @@ date: 2022-04-19
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='recover-binary-search-tree'
 class Solution(object): 
     def recoverTree(self, root): # O(lg(n)) space

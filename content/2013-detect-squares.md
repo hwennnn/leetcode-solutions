@@ -69,7 +69,7 @@ detectSquares.count([11, 10]); // return 2. You can choose:
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='detect-squares'
 class DetectSquares:
 

@@ -66,7 +66,7 @@ Our score is 1 + 2 + 2 = 5.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-score-of-an-array-after-marking-all-elements'
 class Solution:
     def findScore(self, nums: List[int]) -> int:

@@ -57,7 +57,7 @@ date: 2022-01-12
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='insert-into-a-binary-search-tree'
 # Definition for a binary tree node.
 # class TreeNode:

@@ -65,7 +65,7 @@ date: 2024-06-16
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-total-damage-with-spell-casting'
 class Solution:
     def maximumTotalDamage(self, power: List[int]) -> int:

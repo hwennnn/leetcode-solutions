@@ -49,7 +49,7 @@ Of all the ways, &quot;aaccba&quot; is the lexicographically smallest.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='break-a-palindrome'
 class Solution:
     def breakPalindrome(self, A: str) -> str:

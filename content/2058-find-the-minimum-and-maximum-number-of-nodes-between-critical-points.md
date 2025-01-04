@@ -69,7 +69,7 @@ Note that the last node is not considered a local maxima because it does not hav
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-minimum-and-maximum-number-of-nodes-between-critical-points'
 # Definition for singly-linked list.
 # class ListNode:

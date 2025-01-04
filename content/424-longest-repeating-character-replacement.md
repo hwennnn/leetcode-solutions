@@ -49,7 +49,7 @@ There may exists other ways to achieve this answer too.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-repeating-character-replacement'
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:

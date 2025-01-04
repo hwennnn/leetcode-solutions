@@ -65,7 +65,7 @@ The digit-logs have a relative order of &quot;dig1 8 1 5 1&quot;, &quot;dig2 3 6
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='reorder-data-in-log-files'
 class Solution:
     def reorderLogFiles(self, logs: List[str]) -> List[str]:

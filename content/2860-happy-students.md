@@ -62,7 +62,7 @@ The class teacher selects all the students to form the group.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='happy-students'
 class Solution:
     def countWays(self, nums: List[int]) -> int:

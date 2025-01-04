@@ -46,7 +46,7 @@ date: 2022-06-04
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='n-queens'
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:

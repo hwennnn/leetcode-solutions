@@ -58,7 +58,7 @@ date: 2024-04-16
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='add-one-row-to-tree'
 # Definition for a binary tree node.
 # class TreeNode:

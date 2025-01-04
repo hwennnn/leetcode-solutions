@@ -74,7 +74,7 @@ date: 2024-08-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-substrings-that-satisfy-k-constraint-i'
 class Solution:
     def countKConstraintSubstrings(self, s: str, k: int) -> int:

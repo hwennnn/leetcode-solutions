@@ -54,7 +54,7 @@ It is possible to distribute the apples as the total capacity is greater than or
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='apple-redistribution-into-boxes'
 class Solution:
     def minimumBoxes(self, apple: List[int], capacity: List[int]) -> int:

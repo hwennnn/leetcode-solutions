@@ -52,7 +52,7 @@ date: 2023-08-01
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-stepping-numbers-in-range'
 class Solution:
     def countSteppingNumbers(self, low: str, high: str) -> int:

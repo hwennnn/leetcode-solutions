@@ -78,7 +78,7 @@ Bob wins because 9 + 3 + 2 + 9 = 5 + 9 + 2 + 7.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sum-game'
 class Solution:
     def sumGame(self, nums: str) -> bool:

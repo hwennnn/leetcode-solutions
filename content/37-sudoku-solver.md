@@ -52,7 +52,7 @@ date: 2021-08-21
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sudoku-solver'
 class Solution:
     def solveSudoku(self, board: List[List[str]]) -> None:

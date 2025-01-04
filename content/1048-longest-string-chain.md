@@ -68,7 +68,7 @@ date: 2023-09-23
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-string-chain'
 class Solution:
     def longestStrChain(self, words: List[str]) -> int:

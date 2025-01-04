@@ -60,7 +60,7 @@ timeMap.get(&quot;foo&quot;, 5);         // return &quot;bar2&quot;
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='time-based-key-value-store'
 class TimeMap:
 

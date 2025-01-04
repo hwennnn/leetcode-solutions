@@ -62,7 +62,7 @@ Therefore we return [] as the answer.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='double-modular-exponentiation'
 class Solution:
     def getGoodIndices(self, variables: List[List[int]], target: int) -> List[int]:

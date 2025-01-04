@@ -71,7 +71,7 @@ It can be shown that 40 is the maximum score obtainable after any number of oper
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-score-after-applying-operations-on-a-tree'
 class Solution:
     def maximumScoreAfterOperations(self, edges: List[List[int]], values: List[int]) -> int:

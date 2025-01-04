@@ -53,7 +53,7 @@ date: 2024-05-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='score-after-flipping-matrix'
 class Solution:
     def matrixScore(self, grid: List[List[int]]) -> int:

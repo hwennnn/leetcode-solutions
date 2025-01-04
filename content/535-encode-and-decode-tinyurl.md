@@ -54,7 +54,7 @@ string ans = obj.decode(tiny); // returns the original url after decoding it.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='encode-and-decode-tinyurl'
 class Codec:
 

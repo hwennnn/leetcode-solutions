@@ -51,7 +51,7 @@ date: 2021-09-28
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='matrix-block-sum'
 class Solution:
     def matrixBlockSum(self, mat: List[List[int]], k: int) -> List[List[int]]:

@@ -76,7 +76,7 @@ The only possible combination is arr = [220] and k = 215. Using them, we get low
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='recover-the-original-array'
 class Solution:
     def recoverArray(self, nums: List[int]) -> List[int]:

@@ -52,7 +52,7 @@ date: 2024-03-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='binary-subarrays-with-sum'
 class Solution:
     def numSubarraysWithSum(self, nums: List[int], goal: int) -> int:

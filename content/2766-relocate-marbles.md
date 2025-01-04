@@ -66,7 +66,7 @@ Since 2 is the only occupied position, we return [2].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='relocate-marbles'
 class Solution:
     def relocateMarbles(self, nums: List[int], moveFrom: List[int], moveTo: List[int]) -> List[int]:

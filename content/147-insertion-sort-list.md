@@ -52,7 +52,7 @@ date: 2021-12-15
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='insertion-sort-list'
 # Definition for singly-linked list.
 # class ListNode:

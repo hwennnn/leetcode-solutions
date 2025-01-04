@@ -55,7 +55,7 @@ date: 2023-04-23
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='restore-the-array'
 class Solution:
     def numberOfArrays(self, s: str, k: int) -> int:

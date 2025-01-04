@@ -62,7 +62,7 @@ The right interval for [2,3] is [3,4] since start<sub>2</sub> = 3 is the smalles
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-right-interval'
 class Solution:
     def findRightInterval(self, intervals: List[List[int]]) -> List[int]:

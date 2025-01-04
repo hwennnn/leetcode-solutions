@@ -71,7 +71,7 @@ Hence, [-1,-1] is returned.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-indices-with-index-and-value-difference-i'
 class Solution:
     def findIndices(self, nums: List[int], indexDifference: int, valueDifference: int) -> List[int]:

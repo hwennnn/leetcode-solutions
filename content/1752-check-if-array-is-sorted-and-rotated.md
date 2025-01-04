@@ -57,7 +57,7 @@ You can rotate the array by x = 0 positions (i.e. no rotation) to make nums.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-if-array-is-sorted-and-rotated'
 class Solution:
     def check(self, nums: List[int]) -> bool:

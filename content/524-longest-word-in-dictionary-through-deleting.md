@@ -46,7 +46,7 @@ date: 2021-02-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-word-in-dictionary-through-deleting'
 class Solution:
     def findLongestWord(self, s: str, d: List[str]) -> str:

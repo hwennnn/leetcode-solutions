@@ -66,7 +66,7 @@ Figure B shows the skyline formed by those buildings. The red points in figure B
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='the-skyline-problem'
 from sortedcontainers import SortedList
 

@@ -57,7 +57,7 @@ For the node with value 6: The average of its subtree is 6 / 1 = 6.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-nodes-equal-to-average-of-subtree'
 # Definition for a binary tree node.
 # class TreeNode:

@@ -60,7 +60,7 @@ date: 2023-01-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-sum-circular-subarray'
 class Solution:
     def maxSubarraySumCircular(self, nums: List[int]) -> int:

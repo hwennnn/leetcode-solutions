@@ -77,7 +77,7 @@ Thus, 10<sup>9</sup> is returned.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='escape-the-spreading-fire'
 class Solution:
     def maximumMinutes(self, grid: List[List[int]]) -> int:

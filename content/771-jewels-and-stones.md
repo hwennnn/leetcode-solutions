@@ -38,7 +38,7 @@ date: 2019-10-07
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='jewels-and-stones'
 class Solution:
     def numJewelsInStones(self, J: str, S: str) -> int:

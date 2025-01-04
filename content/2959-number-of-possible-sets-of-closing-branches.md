@@ -90,7 +90,7 @@ It can be proven, that there are only 2 possible sets of closing branches.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-possible-sets-of-closing-branches'
 class Solution:
     def numberOfSets(self, n: int, maxDistance: int, roads: List[List[int]]) -> int:

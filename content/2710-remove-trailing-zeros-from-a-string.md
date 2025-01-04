@@ -44,7 +44,7 @@ date: 2023-05-28
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='remove-trailing-zeros-from-a-string'
 class Solution:
     def removeTrailingZeros(self, num: str) -> str:

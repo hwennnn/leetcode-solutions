@@ -52,7 +52,7 @@ date: 2023-09-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='steps-to-make-array-non-decreasing'
 class Solution:
     def totalSteps(self, nums: List[int]) -> int:

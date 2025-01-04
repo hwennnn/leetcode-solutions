@@ -53,7 +53,7 @@ The maximum working time is 11.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-minimum-time-to-finish-all-jobs'
 class Solution:
     def minimumTimeRequired(self, jobs: List[int], k: int) -> int:

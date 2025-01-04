@@ -39,7 +39,7 @@ date: 2021-11-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-all-numbers-disappeared-in-an-array'
 class Solution:
     def findDisappearedNumbers(self, nums: List[int]) -> List[int]:

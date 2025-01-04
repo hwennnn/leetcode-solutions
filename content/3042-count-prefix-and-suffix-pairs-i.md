@@ -73,7 +73,7 @@ Therefore, the answer is 0.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-prefix-and-suffix-pairs-i'
 class Solution:
     def countPrefixSuffixPairs(self, words: List[str]) -> int:

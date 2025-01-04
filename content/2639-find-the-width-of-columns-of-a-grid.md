@@ -57,7 +57,7 @@ In the 2<sup>nd</sup> column, both 12 and -2 are of length 2.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-width-of-columns-of-a-grid'
 class Solution:
     def findColumnWidth(self, grid: List[List[int]]) -> List[int]:

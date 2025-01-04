@@ -61,7 +61,7 @@ date: 2024-04-06
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-remove-to-make-valid-parentheses'
 class Solution:
     def minRemoveToMakeValid(self, s: str) -> str:

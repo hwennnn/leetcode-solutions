@@ -59,7 +59,7 @@ It can be shown that 12 is the maximum value of (a XOR x) * (b XOR x) for all 0 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-xor-product'
 class Solution:
     def maximumXorProduct(self, a: int, b: int, n: int) -> int:

@@ -57,7 +57,7 @@ date: 2024-08-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='combination-sum-ii'
 class Solution:
     def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:

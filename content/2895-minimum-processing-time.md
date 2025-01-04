@@ -66,7 +66,7 @@ date: 2023-10-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-processing-time'
 class Solution:
     def minProcessingTime(self, processorTime: List[int], tasks: List[int]) -> int:

@@ -68,7 +68,7 @@ Hence, the answer is the length of the subarray, 3. We can show that 3 is the ma
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-even-odd-subarray-with-threshold'
 class Solution:
     def longestAlternatingSubarray(self, nums: List[int], threshold: int) -> int:

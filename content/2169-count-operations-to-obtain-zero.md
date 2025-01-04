@@ -59,7 +59,7 @@ So the total number of operations required is 1.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-operations-to-obtain-zero'
 class Solution:
     def countOperations(self, num1: int, num2: int) -> int:

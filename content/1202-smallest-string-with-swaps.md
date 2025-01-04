@@ -70,7 +70,7 @@ Swap s[0] and s[1], s = &quot;abc&quot;
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='smallest-string-with-swaps'
 class UnionFind:
     def __init__(self):

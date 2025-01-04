@@ -68,7 +68,7 @@ The 2<sup>nd</sup> largest integer in nums is &quot;0&quot;.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-kth-largest-integer-in-the-array'
 class Solution:
     def kthLargestNumber(self, nums: List[str], k: int) -> str:

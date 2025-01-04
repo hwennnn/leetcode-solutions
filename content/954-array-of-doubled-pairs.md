@@ -53,7 +53,7 @@ date: 2022-02-23
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='array-of-doubled-pairs'
 class Solution:
     def canReorderDoubled(self, arr: List[int]) -> bool:

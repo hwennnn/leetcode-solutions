@@ -66,7 +66,7 @@ You did not play the full round from 10:00 to 10:15 because you logged out at 10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='the-number-of-full-rounds-you-have-played'
 class Solution:
     def numberOfRounds(self, startTime: str, finishTime: str) -> int:

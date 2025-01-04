@@ -45,7 +45,7 @@ date: 2021-09-28
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='letter-case-permutation'
 class Solution:
     def letterCasePermutation(self, S: str) -> List[str]:

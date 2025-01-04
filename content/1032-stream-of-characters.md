@@ -68,7 +68,7 @@ streamChecker.query(&quot;l&quot;); // return True, because &#39;kl&#39; is in t
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='stream-of-characters'
 # ----------------------------------- Trie -----------------------------------
 class Trie:

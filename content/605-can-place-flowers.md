@@ -39,7 +39,7 @@ date: 2023-03-20
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='can-place-flowers'
 class Solution:
     def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:

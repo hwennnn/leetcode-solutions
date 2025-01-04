@@ -77,7 +77,7 @@ date: 2024-04-28
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-all-possible-stable-binary-arrays-i'
 class Solution:
     def numberOfStableArrays(self, zero: int, one: int, limit: int) -> int:

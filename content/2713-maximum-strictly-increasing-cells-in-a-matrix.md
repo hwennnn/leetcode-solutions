@@ -73,7 +73,7 @@ date: 2023-05-28
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-strictly-increasing-cells-in-a-matrix'
 class Solution:
     def maxIncreasingCells(self, mat: List[List[int]]) -> int:

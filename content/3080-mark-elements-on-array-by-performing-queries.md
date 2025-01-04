@@ -76,7 +76,7 @@ date: 2024-03-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='mark-elements-on-array-by-performing-queries'
 class Solution:
     def unmarkedSumArray(self, nums: List[int], queries: List[List[int]]) -> List[int]:

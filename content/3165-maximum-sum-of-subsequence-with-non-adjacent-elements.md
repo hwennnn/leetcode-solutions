@@ -65,7 +65,7 @@ After the 1<sup>st</sup> query, <code>nums = [-5,-1]</code> and the maximum sum 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-sum-of-subsequence-with-non-adjacent-elements'
 class Node:
     def __init__(self, val=0, a=0, b=0, c=0):

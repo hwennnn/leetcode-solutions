@@ -52,7 +52,7 @@ date: 2024-04-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-prime-difference'
 def generate_primes(n):
 	isPrime = [True] * (n + 1)

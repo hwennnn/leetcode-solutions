@@ -60,7 +60,7 @@ No three consecutive characters are equal, so return &quot;aabaa&quot;.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='delete-characters-to-make-fancy-string'
 class Solution:
     def makeFancyString(self, s: str) -> str:

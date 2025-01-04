@@ -72,7 +72,7 @@ The optimal path with no stops from city 0 to 2 is marked in red and has cost 50
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='cheapest-flights-within-k-stops'
 class Solution:
     def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, k: int) -> int:

@@ -57,7 +57,7 @@ The answer to the only query is powers[0] = 2. The answer modulo 10<sup>9</sup> 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='range-product-queries-of-powers'
 class Solution:
     def productQueries(self, n: int, queries: List[List[int]]) -> List[int]:

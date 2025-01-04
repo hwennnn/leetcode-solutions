@@ -49,7 +49,7 @@ date: 2024-03-29
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-subarrays-where-max-element-appears-at-least-k-times'
 class Solution:
     def countSubarrays(self, nums: List[int], k: int) -> int:

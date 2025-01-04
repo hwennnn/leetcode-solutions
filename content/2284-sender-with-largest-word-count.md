@@ -67,7 +67,7 @@ Since there is a tie for the largest word count, we return the sender with the l
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sender-with-largest-word-count'
 class Solution:
     def largestWordCount(self, messages: List[str], senders: List[str]) -> str:

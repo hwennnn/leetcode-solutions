@@ -62,7 +62,7 @@ The product of their lengths is: 5 * 5 = 25.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-product-of-the-length-of-two-palindromic-subsequences'
 class Solution:
     def maxProduct(self, s: str) -> int:

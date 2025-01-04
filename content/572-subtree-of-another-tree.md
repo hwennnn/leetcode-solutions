@@ -49,7 +49,7 @@ date: 2021-09-24
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='subtree-of-another-tree'
 # Definition for a binary tree node.
 # class TreeNode:

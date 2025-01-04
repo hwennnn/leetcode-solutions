@@ -57,7 +57,7 @@ Note that [5, 1] may also be returned.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-all-lonely-numbers-in-the-array'
 class Solution:
     def findLonely(self, nums: List[int]) -> List[int]:

@@ -56,7 +56,7 @@ date: 2022-11-02
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-genetic-mutation'
 class Solution:
     def minMutation(self, start: str, end: str, bank: List[str]) -> int:

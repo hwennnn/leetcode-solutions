@@ -62,7 +62,7 @@ date: 2024-04-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='smallest-string-starting-from-leaf'
 # Definition for a binary tree node.
 # class TreeNode:

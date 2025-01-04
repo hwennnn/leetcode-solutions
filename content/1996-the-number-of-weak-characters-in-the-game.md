@@ -60,7 +60,7 @@ date: 2022-09-09
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='the-number-of-weak-characters-in-the-game'
 class Solution:
     def numberOfWeakCharacters(self, A: List[List[int]]) -> int:

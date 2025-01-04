@@ -44,7 +44,7 @@ date: 2023-01-20
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='non-decreasing-subsequences'
 class Solution:
     def findSubsequences(self, nums: List[int]) -> List[List[int]]:

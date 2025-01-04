@@ -52,7 +52,7 @@ date: 2023-06-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='special-permutations'
 class Solution:
     def specialPerm(self, nums: List[int]) -> int:

@@ -51,7 +51,7 @@ date: 2024-08-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='container-with-most-water'
 class Solution:
     def maxArea(self, height: List[int]) -> int:

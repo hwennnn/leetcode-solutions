@@ -86,7 +86,7 @@ Given a string s containing only digits, return the <strong>number of ways</stro
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='decode-ways'
 class Solution:
     def numDecodings(self, s: str) -> int:

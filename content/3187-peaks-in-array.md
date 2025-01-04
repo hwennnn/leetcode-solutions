@@ -161,7 +161,7 @@ public:
     }
 };
 ```
-### Python
+### Python3
 ``` py title='peaks-in-array'
 class SegmentTree:
 	def __init__(self, arr):

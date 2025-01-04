@@ -51,7 +51,7 @@ So the number of elements in the array with maximum frequency is 5.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-elements-with-maximum-frequency'
 class Solution:
     def maxFrequencyElements(self, nums: List[int]) -> int:

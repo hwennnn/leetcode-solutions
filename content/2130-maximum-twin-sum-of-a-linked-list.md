@@ -69,7 +69,7 @@ There is only one node with a twin in the linked list having twin sum of 1 + 100
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-twin-sum-of-a-linked-list'
 # Definition for singly-linked list.
 # class ListNode:

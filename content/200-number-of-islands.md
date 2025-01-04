@@ -59,7 +59,7 @@ date: 2024-08-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-islands'
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:

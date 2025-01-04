@@ -63,7 +63,7 @@ Type 2: (3,0,1).  nums2[3]<sup>2</sup> = nums1[0] * nums1[1].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers'
 from collections import Counter
 class Solution:

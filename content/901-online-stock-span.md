@@ -64,7 +64,7 @@ stockSpanner.next(85);  // return 6
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='online-stock-span'
 class StockSpanner:
 

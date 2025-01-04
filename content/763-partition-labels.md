@@ -52,7 +52,7 @@ A partition like &quot;ababcbacadefegde&quot;, &quot;hijhklij&quot; is incorrect
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='partition-labels'
 class Solution:
     def partitionLabels(self, s: str) -> List[int]:

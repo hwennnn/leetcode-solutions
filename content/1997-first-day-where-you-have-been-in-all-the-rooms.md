@@ -72,7 +72,7 @@ Day 6 is the first day where you have been in all the rooms.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='first-day-where-you-have-been-in-all-the-rooms'
 class Solution:
     def firstDayBeenInAllRooms(self, nextVisit: List[int]) -> int:

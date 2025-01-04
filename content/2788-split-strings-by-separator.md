@@ -73,7 +73,7 @@ Hence, the resulting array is [&quot;easy&quot;,&quot;problem&quot;].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='split-strings-by-separator'
 class Solution:
     def splitWordsBySeparator(self, words: List[str], separator: str) -> List[str]:

@@ -58,7 +58,7 @@ The maximum difference occurs with i = 0 and j = 3, nums[j] - nums[i] = 10 - 1 =
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-difference-between-increasing-elements'
 class Solution:
     def maximumDifference(self, nums: List[int]) -> int:

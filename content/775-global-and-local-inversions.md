@@ -63,7 +63,7 @@ date: 2021-04-05
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='global-and-local-inversions'
 class Solution:
     def isIdealPermutation(self, A: List[int]) -> bool:

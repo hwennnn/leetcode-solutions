@@ -88,7 +88,7 @@ tracker.get();              // Sorted locations: branford, orlando, alpine, alps
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sequentially-ordinal-rank-tracker'
 class SORTracker:
 

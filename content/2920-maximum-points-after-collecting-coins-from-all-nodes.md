@@ -69,7 +69,7 @@ Coins will be collected from all the nodes using the first way. Therefore, total
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-points-after-collecting-coins-from-all-nodes'
 class Solution:
     def maximumPoints(self, edges: List[List[int]], coins: List[int], k: int) -> int:

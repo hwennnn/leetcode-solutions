@@ -54,7 +54,7 @@ date: 2020-10-12
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-substrings-with-only-1s'
 class Solution:
     def numSub(self, S: str) -> int:

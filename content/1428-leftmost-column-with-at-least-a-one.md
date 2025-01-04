@@ -20,7 +20,7 @@ null
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='leftmost-column-with-at-least-a-one'
 # """
 # This is BinaryMatrix's API interface.

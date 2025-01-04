@@ -63,7 +63,7 @@ Hence, answer = [10,25]
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='corporate-flight-bookings'
 class Solution:
     def corpFlightBookings(self, bookings: List[List[int]], n: int) -> List[int]:

@@ -50,7 +50,7 @@ Notice that the vowel o is counted twice.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='determine-if-string-halves-are-alike'
 class Solution:
     def halvesAreAlike(self, s: str) -> bool:

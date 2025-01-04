@@ -65,7 +65,7 @@ The 11<sup>th</sup> bit is &quot;1&quot;.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-kth-bit-in-nth-binary-string'
 class Solution:
     def findKthBit(self, n: int, k: int) -> str:

@@ -64,7 +64,7 @@ date: 2024-06-02
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='lexicographically-minimum-string-after-removing-stars'
 class Solution:
     def clearStars(self, s: str) -> str:

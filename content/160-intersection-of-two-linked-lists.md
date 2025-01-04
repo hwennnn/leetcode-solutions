@@ -85,7 +85,7 @@ Explanation: The two lists do not intersect, so return null.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='intersection-of-two-linked-lists'
 # Definition for singly-linked list.
 # class ListNode:

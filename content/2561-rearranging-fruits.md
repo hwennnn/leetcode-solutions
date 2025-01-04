@@ -55,7 +55,7 @@ date: 2023-02-05
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='rearranging-fruits'
 class Solution:
     def minCost(self, basket1: List[int], basket2: List[int]) -> int:

@@ -49,7 +49,7 @@ date: 2020-08-28
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='implement-rand10-using-rand7'
 # The rand7() API is already defined for you.
 # def rand7():

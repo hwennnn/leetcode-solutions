@@ -77,7 +77,7 @@ cashier.getBill([2,3,5],[5,3,2]);                    // return 2500.0.  7<sup>th
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='apply-discount-every-n-orders'
 class Cashier:
     def __init__(self, n: int, discount: int, products: List[int], prices: List[int]):

@@ -66,7 +66,7 @@ date: 2023-01-23
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='alternating-digit-sum'
 class Solution:
     def alternateDigitSum(self, n: int) -> int:

@@ -56,7 +56,7 @@ There are no pairs of adjacent nodes, so we return the initial linked list.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='insert-greatest-common-divisors-in-linked-list'
 # Definition for singly-linked list.
 # class ListNode:

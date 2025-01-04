@@ -63,7 +63,7 @@ It can be shown that 1 is the minimum number of operations required to get a spe
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-operations-to-make-a-special-number'
 class Solution:
     def minimumOperations(self, num: str) -> int:

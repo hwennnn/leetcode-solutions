@@ -72,7 +72,7 @@ date: 2024-01-30
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='evaluate-reverse-polish-notation'
 class Solution:
     def evalRPN(self, tokens: List[str]) -> int:

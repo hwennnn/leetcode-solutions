@@ -50,7 +50,7 @@ T_4 = 1 + 1 + 2 = 4
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='n-th-tribonacci-number'
 class Solution:
     def tribonacci(self, n: int) -> int:

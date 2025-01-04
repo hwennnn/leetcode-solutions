@@ -83,7 +83,7 @@ date: 2024-02-01
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='divide-array-into-arrays-with-max-difference'
 class Solution:
     def divideArray(self, nums: List[int], k: int) -> List[List[int]]:

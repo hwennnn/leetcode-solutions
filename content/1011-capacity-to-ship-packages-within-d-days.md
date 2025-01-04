@@ -70,7 +70,7 @@ Note that the cargo must be shipped in the order given, so using a ship of capac
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='capacity-to-ship-packages-within-d-days'
 class Solution:
     def shipWithinDays(self, weights: List[int], days: int) -> int:

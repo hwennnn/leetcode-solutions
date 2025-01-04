@@ -57,7 +57,7 @@ The minimum possible difference is 2.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-difference-between-highest-and-lowest-of-k-scores'
 class Solution:
     def minimumDifference(self, nums: List[int], k: int) -> int:

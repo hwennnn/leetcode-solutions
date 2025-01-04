@@ -55,7 +55,7 @@ date: 2023-06-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='ways-to-split-array-into-good-subarrays'
 class Solution:
     def numberOfGoodSubarraySplits(self, nums: List[int]) -> int:

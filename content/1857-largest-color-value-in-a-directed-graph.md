@@ -61,7 +61,7 @@ date: 2023-04-09
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='largest-color-value-in-a-directed-graph'
 class Solution:
     def largestPathValue(self, colors: str, edges: List[List[int]]) -> int:

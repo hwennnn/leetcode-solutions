@@ -64,7 +64,7 @@ The total cost is 3 + 2 + 6 + 7 = 18</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-cost-homecoming-of-a-robot-in-a-grid'
 class Solution:
     def minCost(self, startPos: List[int], homePos: List[int], rowCosts: List[int], colCosts: List[int]) -> int:

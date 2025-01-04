@@ -62,7 +62,7 @@ Hence, the array result formed by concatenation is [5,3,4,8].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='distribute-elements-into-two-arrays-i'
 class Solution:
     def resultArray(self, nums: List[int]) -> List[int]:

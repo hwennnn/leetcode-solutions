@@ -164,7 +164,7 @@ public:
  * int param_6 = obj->popBack();
  */
 ```
-### Python
+### Python3
 ``` py title='design-front-middle-back-queue'
 class FrontMiddleBackQueue:
 

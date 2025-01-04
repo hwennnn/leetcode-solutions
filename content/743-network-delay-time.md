@@ -59,7 +59,7 @@ date: 2022-05-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='network-delay-time'
 class Solution:
     def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:

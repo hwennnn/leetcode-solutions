@@ -75,7 +75,7 @@ date: 2024-12-31
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='delete-nodes-from-linked-list-present-in-array'
 # Definition for singly-linked list.
 # class ListNode:

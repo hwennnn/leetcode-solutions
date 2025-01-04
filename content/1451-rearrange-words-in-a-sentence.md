@@ -66,7 +66,7 @@ Output is ordered by length and the new first word starts with capital letter.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='rearrange-words-in-a-sentence'
 class Solution:
     def arrangeWords(self, text: str) -> str:

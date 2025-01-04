@@ -67,7 +67,7 @@ struct Node {
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='populating-next-right-pointers-in-each-node'
 """
 # Definition for a Node.

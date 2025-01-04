@@ -115,7 +115,7 @@ public:
     }
 };
 ```
-### Python
+### Python3
 ``` py title='word-search-ii'
 class TrieNode:
     

@@ -91,7 +91,7 @@ date: 2023-05-05
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-cost-of-a-path-with-special-roads'
 class Solution:
     def minimumCost(self, start: List[int], target: List[int], specialRoads: List[List[int]]) -> int:

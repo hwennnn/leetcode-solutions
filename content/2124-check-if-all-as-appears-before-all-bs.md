@@ -56,7 +56,7 @@ There are no &#39;a&#39;s, hence, every &#39;a&#39; appears before every &#39;b&
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-if-all-as-appears-before-all-bs'
 class Solution:
     def checkString(self, s: str) -> bool:

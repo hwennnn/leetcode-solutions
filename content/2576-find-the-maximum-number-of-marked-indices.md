@@ -76,7 +76,7 @@ Since there is no other operation, the answer is 4.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-maximum-number-of-marked-indices'
 class Solution:
     def maxNumOfMarkedIndices(self, nums: List[int]) -> int:

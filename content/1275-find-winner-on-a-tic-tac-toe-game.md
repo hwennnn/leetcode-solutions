@@ -70,7 +70,7 @@ date: 2021-09-20
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-winner-on-a-tic-tac-toe-game'
 class Solution:
     def tictactoe(self, moves: List[List[int]]) -> str:

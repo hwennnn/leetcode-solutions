@@ -59,7 +59,7 @@ date: 2023-06-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='make-array-strictly-increasing'
 class Solution:
     def makeArrayIncreasing(self, arr1: List[int], arr2: List[int]) -> int:

@@ -51,7 +51,7 @@ date: 2023-05-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-or'
 class Solution:
     def maximumOr(self, nums: List[int], k: int) -> int:

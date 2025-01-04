@@ -41,7 +41,7 @@ date: 2019-10-09
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='self-dividing-numbers'
 class Solution:
     def selfDividingNumbers(self, left: int, right: int) -> List[int]:

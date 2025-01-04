@@ -90,7 +90,7 @@ From the beginning of the second 3, the network becomes idle.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='the-time-when-the-network-becomes-idle'
 class Solution:
     def networkBecomesIdle(self, edges: List[List[int]], patience: List[int]) -> int:

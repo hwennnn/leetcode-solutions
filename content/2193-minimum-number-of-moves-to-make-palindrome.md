@@ -61,7 +61,7 @@ It can be shown that it is not possible to obtain a palindrome in less than 2 mo
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-moves-to-make-palindrome'
 class Solution:
     def minMovesToMakePalindrome(self, s: str) -> int:

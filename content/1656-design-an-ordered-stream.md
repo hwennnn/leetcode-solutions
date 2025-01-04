@@ -67,7 +67,7 @@ os.insert(4, &quot;ddddd&quot;); // Inserts (4, &quot;ddddd&quot;), returns [&qu
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='design-an-ordered-stream'
 class OrderedStream:
 

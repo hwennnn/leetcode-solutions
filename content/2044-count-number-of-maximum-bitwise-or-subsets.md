@@ -65,7 +65,7 @@ date: 2024-10-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-number-of-maximum-bitwise-or-subsets'
 class Solution:
     def countMaxOrSubsets(self, nums: List[int]) -> int:

@@ -56,7 +56,7 @@ Some possible constructions &quot;anna&quot; + &quot;elble&quot;, &quot;anbna&qu
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='construct-k-palindrome-strings'
 class Solution:
     def canConstruct(self, s: str, k: int) -> bool:

@@ -51,7 +51,7 @@ date: 2024-08-21
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='strange-printer'
 class Solution:
     def strangePrinter(self, s: str) -> int:

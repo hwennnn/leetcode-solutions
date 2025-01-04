@@ -66,7 +66,7 @@ The array after the operations is [5,5,5,5]
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='make-k-subarray-sums-equal'
 class Solution:
     def makeSubKSumEqual(self, arr: List[int], k: int) -> int:

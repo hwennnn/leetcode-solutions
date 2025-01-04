@@ -72,7 +72,7 @@ date: 2024-03-30
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-sum-of-subsequence-powers'
 class Solution:
     def sumOfPowers(self, nums: List[int], k: int) -> int:

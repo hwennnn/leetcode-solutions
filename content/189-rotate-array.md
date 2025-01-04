@@ -59,7 +59,7 @@ rotate 2 steps to the right: [3,99,-1,-100]
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='rotate-array'
 class Solution:
     def rotate(self, nums: List[int], k: int) -> None:

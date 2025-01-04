@@ -57,7 +57,7 @@ The total cost is 6.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='min-cost-climbing-stairs'
 class Solution:
     def minCostClimbingStairs(self, cost: List[int]) -> int:

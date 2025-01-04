@@ -84,7 +84,7 @@ date: 2024-04-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-operations-to-satisfy-conditions'
 class Solution:
     def minimumOperations(self, grid: List[List[int]]) -> int:

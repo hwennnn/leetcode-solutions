@@ -59,7 +59,7 @@ date: 2022-07-27
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='flatten-binary-tree-to-linked-list'
 # Definition for a binary tree node.
 # class TreeNode:

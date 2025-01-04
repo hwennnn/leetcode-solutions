@@ -56,7 +56,7 @@ It can be shown that all the tasks cannot be completed in fewer than 4 rounds, s
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-rounds-to-complete-all-tasks'
 class Solution:
     def minimumRounds(self, tasks: List[int]) -> int:

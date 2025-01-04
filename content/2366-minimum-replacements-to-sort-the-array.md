@@ -55,7 +55,7 @@ There are 2 steps to sort the array in non-decreasing order. Therefore, we retur
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-replacements-to-sort-the-array'
 class Solution:
     def minimumReplacement(self, nums: List[int]) -> int:

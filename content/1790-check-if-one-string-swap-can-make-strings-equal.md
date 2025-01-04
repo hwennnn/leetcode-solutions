@@ -56,7 +56,7 @@ date: 2022-03-03
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-if-one-string-swap-can-make-strings-equal'
 class Solution:
     def areAlmostEqual(self, s1: str, s2: str) -> bool:

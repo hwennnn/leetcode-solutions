@@ -51,7 +51,7 @@ result[2] = |5-2| + |5-3| + |5-5| = 3 + 2 + 0 = 5.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sum-of-absolute-differences-in-a-sorted-array'
 class Solution:
     def getSumAbsoluteDifferences(self, nums: List[int]) -> List[int]:

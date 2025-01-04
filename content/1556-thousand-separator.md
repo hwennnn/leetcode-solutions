@@ -40,7 +40,7 @@ date: 2020-08-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='thousand-separator'
 class Solution:
     def thousandSeparator(self, n: int) -> str:

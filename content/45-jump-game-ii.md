@@ -54,7 +54,7 @@ date: 2023-08-31
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='jump-game-ii'
 class Solution:
     def jump(self, nums: List[int]) -> int:

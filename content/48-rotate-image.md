@@ -46,7 +46,7 @@ date: 2022-08-30
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='rotate-image'
 class Solution:
     def rotate(self, matrix: List[List[int]]) -> None:

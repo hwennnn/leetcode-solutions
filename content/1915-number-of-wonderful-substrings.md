@@ -76,7 +76,7 @@ date: 2024-04-30
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-wonderful-substrings'
 class Solution:
     def wonderfulSubstrings(self, word: str) -> int:

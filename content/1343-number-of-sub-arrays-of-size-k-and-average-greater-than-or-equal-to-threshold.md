@@ -46,7 +46,7 @@ date: 2020-11-07
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold'
 class Solution:
     def numOfSubarrays(self, arr: List[int], k: int, threshold: int) -> int:

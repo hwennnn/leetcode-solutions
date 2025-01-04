@@ -76,7 +76,7 @@ date: 2024-05-03
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='compare-version-numbers'
 class Solution:
     def compareVersion(self, version1: str, version2: str) -> int:

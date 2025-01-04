@@ -58,7 +58,7 @@ There are much ordering with total cost &lt;= 25, for example, the order [4, 6, 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-cost-to-cut-a-stick'
 class Solution:
     def minCost(self, n: int, cuts: List[int]) -> int:

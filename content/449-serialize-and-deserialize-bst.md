@@ -45,7 +45,7 @@ date: 2020-10-10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='serialize-and-deserialize-bst'
 class Codec:
 

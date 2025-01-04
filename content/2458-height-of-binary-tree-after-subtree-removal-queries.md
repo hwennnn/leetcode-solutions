@@ -73,7 +73,7 @@ The height of the tree is 2 (The path 1 -&gt; 3 -&gt; 2).
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='height-of-binary-tree-after-subtree-removal-queries'
 # Definition for a binary tree node.
 # class TreeNode:

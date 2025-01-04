@@ -62,7 +62,7 @@ date: 2024-10-23
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='cousins-in-binary-tree-ii'
 # Definition for a binary tree node.
 # class TreeNode:

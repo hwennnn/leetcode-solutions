@@ -64,7 +64,7 @@ date: 2024-05-12
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='permutation-difference-between-two-strings'
 class Solution:
     def findPermutationDifference(self, s: str, t: str) -> int:

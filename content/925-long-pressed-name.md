@@ -46,7 +46,7 @@ date: 2020-03-06
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='long-pressed-name'
 class Solution:
     def isLongPressedName(self, name: str, typed: str) -> bool:

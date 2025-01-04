@@ -72,7 +72,7 @@ The mode is 1 as it appears the most in the sample.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='statistics-from-a-large-sample'
 class Solution:
     def sampleStats(self, count: List[int]) -> List[float]:

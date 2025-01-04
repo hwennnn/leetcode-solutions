@@ -148,7 +148,7 @@ date: 2024-04-28
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='make-a-square-with-the-same-color'
 class Solution:
     def canMakeSquare(self, grid: List[List[str]]) -> bool:

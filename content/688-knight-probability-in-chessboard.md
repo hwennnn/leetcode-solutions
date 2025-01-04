@@ -53,7 +53,7 @@ The total probability the knight stays on the board is 0.0625.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='knight-probability-in-chessboard'
 class Solution:
     def knightProbability(self, n: int, k: int, row: int, column: int) -> float:

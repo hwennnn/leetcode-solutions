@@ -80,7 +80,7 @@ Hence, the answer is 0.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-increment-operations-to-make-array-beautiful'
 class Solution:
     def minIncrementOperations(self, nums: List[int], k: int) -> int:

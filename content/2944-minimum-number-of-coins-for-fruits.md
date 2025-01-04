@@ -99,7 +99,7 @@ date: 2023-11-27
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-coins-for-fruits'
 class Solution:
     def minimumCoins(self, prices: List[int]) -> int:

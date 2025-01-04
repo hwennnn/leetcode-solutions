@@ -39,7 +39,7 @@ date: 2024-08-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='permutations'
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:

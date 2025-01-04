@@ -54,7 +54,7 @@ The length of this cycle is 3, so 3 is returned.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-cycle-in-a-graph'
 class Solution:
     def longestCycle(self, edges: List[int]) -> int:

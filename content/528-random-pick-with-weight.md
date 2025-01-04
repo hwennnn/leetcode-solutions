@@ -80,7 +80,7 @@ and so on.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='random-pick-with-weight'
 class Solution:
 

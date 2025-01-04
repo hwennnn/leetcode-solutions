@@ -57,7 +57,7 @@ date: 2024-06-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-number-of-nice-subarrays'
 class Solution:
     def numberOfSubarrays(self, nums: List[int], k: int) -> int:

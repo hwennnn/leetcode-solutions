@@ -71,7 +71,7 @@ Changing s[0] to either &#39;(&#39; or &#39;)&#39; will not make s valid.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-if-a-parentheses-string-can-be-valid'
 class Solution:
     def canBeValid(self, s: str, locked: str) -> bool:

@@ -46,7 +46,7 @@ date: 2023-06-06
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='can-make-arithmetic-progression-from-sequence'
 class Solution:
     def canMakeArithmeticProgression(self, arr: List[int]) -> bool:

@@ -46,7 +46,7 @@ date: 2020-10-03
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='subsets'
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:

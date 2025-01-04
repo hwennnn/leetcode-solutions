@@ -48,7 +48,7 @@ The 14 integers less than or equal to 30 whose digit sums are even are
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-integers-with-even-digit-sum'
 class Solution:
     def countEven(self, num: int) -> int:

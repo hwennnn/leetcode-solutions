@@ -58,7 +58,7 @@ date: 2023-07-31
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-all-good-strings'
 class Solution:
     def _kmp(self, pattern: str):

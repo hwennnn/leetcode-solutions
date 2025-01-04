@@ -68,7 +68,7 @@ Note that nodes 6, 0, and 8 are also leaf nodes, but the depth of them is 2, but
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='lowest-common-ancestor-of-deepest-leaves'
 # Definition for a binary tree node.
 # class TreeNode:

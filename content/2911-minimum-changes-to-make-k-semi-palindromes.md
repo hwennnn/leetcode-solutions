@@ -92,7 +92,7 @@ date: 2024-03-21
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-changes-to-make-k-semi-palindromes'
 class Solution:
     def minimumChanges(self, s: str, k: int) -> int:

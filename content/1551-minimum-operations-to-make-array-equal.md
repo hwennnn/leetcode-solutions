@@ -47,7 +47,7 @@ In the second operation choose x = 2 and y = 0 again, thus arr = [3, 3, 3].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-operations-to-make-array-equal'
 class Solution:
     def minOperations(self, n: int) -> int:

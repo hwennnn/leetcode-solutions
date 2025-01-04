@@ -63,7 +63,7 @@ You should not do any reverse operation, the resulting string is &quot;abcd&quot
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='reverse-prefix-of-word'
 class Solution:
     def reversePrefix(self, word: str, ch: str) -> str:

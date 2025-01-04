@@ -55,7 +55,7 @@ date: 2021-05-29
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='insufficient-nodes-in-root-to-leaf-paths'
 # Definition for a binary tree node.
 # class TreeNode:

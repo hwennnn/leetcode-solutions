@@ -54,7 +54,7 @@ date: 2022-10-11
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='increasing-triplet-subsequence'
 class Solution:
     def increasingTriplet(self, nums: List[int]) -> bool:

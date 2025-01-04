@@ -64,7 +64,7 @@ date: 2024-10-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='remove-sub-folders-from-the-filesystem'
 class Solution:
     def removeSubfolders(self, folder: List[str]) -> List[str]:

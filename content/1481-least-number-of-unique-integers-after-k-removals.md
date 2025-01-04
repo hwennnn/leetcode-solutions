@@ -48,7 +48,7 @@ date: 2024-02-16
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='least-number-of-unique-integers-after-k-removals'
 class Solution:
     def findLeastNumOfUniqueInts(self, arr: List[int], k: int) -> int:

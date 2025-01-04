@@ -73,7 +73,7 @@ date: 2022-01-04
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-students-taking-exam'
 class Solution:
     def maxStudents(self, seats: List[List[str]]) -> int:

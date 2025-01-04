@@ -49,7 +49,7 @@ date: 2022-04-19
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='valid-triangle-number'
 class Solution:
     def triangleNumber(self, nums: List[int]) -> int:

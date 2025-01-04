@@ -75,7 +75,7 @@ You have no income to tax, so you have to pay a total of $0 in taxes.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='calculate-amount-paid-in-taxes'
 class Solution:
     def calculateTax(self, brackets: List[List[int]], income: int) -> float:

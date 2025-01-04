@@ -73,7 +73,7 @@ date: 2021-04-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-moves-to-reach-target-with-rotations'
 class Solution:
     def minimumMoves(self, grid: List[List[int]]) -> int:

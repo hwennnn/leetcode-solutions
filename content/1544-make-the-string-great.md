@@ -66,7 +66,7 @@ date: 2024-04-05
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='make-the-string-great'
 class Solution:
     def makeGood(self, s: str) -> str:

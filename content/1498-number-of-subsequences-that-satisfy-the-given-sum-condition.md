@@ -63,7 +63,7 @@ Number of valid subsequences (63 - 2 = 61).
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-subsequences-that-satisfy-the-given-sum-condition'
 class Solution:
     def numSubseq(self, nums: List[int], target: int) -> int:

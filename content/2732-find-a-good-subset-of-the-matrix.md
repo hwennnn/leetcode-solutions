@@ -74,7 +74,7 @@ The length of the chosen subset is 1.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-a-good-subset-of-the-matrix'
 class Solution:
     def goodSubsetofBinaryMatrix(self, grid: List[List[int]]) -> List[int]:

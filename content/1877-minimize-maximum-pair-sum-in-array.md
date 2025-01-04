@@ -62,7 +62,7 @@ The maximum pair sum is max(3+5, 4+4, 6+2) = max(8, 8, 8) = 8.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimize-maximum-pair-sum-in-array'
 class Solution:
     def minPairSum(self, nums: List[int]) -> int:

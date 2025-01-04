@@ -59,7 +59,7 @@ Note that (0, 3) is not counted since nums[0] + nums[3] is not strictly less tha
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-pairs-whose-sum-is-less-than-target'
 class Solution:
     def countPairs(self, nums: List[int], target: int) -> int:

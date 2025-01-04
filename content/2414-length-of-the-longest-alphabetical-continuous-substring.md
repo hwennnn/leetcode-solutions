@@ -50,7 +50,7 @@ date: 2022-09-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='length-of-the-longest-alphabetical-continuous-substring'
 class Solution:
     def longestContinuousSubstring(self, s: str) -> int:

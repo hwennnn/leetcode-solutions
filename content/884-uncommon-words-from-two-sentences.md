@@ -55,7 +55,7 @@ date: 2025-01-01
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='uncommon-words-from-two-sentences'
 class Solution:
     def uncommonFromSentences(self, s1: str, s2: str) -> List[str]:

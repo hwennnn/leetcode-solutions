@@ -49,7 +49,7 @@ Note that buying on day 2 and selling on day 1 is not allowed because you must b
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='best-time-to-buy-and-sell-stock'
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:

@@ -49,7 +49,7 @@ Note that the two extra dashes are not needed and can be removed.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='license-key-formatting'
 class Solution:
     def licenseKeyFormatting(self, s: str, k: int) -> str:

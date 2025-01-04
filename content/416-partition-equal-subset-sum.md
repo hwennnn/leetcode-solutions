@@ -44,7 +44,7 @@ date: 2020-11-27
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='partition-equal-subset-sum'
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:

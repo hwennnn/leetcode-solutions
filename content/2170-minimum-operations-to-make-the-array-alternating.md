@@ -63,7 +63,7 @@ Note that the array cannot be converted to [<u><strong>2</strong></u>,2,2,2,2] b
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-operations-to-make-the-array-alternating'
 class Solution:
     def minimumOperations(self, nums: List[int]) -> int:

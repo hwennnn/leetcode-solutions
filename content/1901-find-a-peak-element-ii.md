@@ -58,7 +58,7 @@ date: 2022-04-20
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-a-peak-element-ii'
 class Solution:
     def findPeakGrid(self, mat: List[List[int]]) -> List[int]:

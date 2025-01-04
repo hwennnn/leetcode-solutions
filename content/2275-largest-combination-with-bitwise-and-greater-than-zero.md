@@ -60,7 +60,7 @@ The size of the combination is 2, so we return 2.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='largest-combination-with-bitwise-and-greater-than-zero'
 class Solution:
     def largestCombination(self, candidates: List[int]) -> int:

@@ -66,7 +66,7 @@ And the sum of this triplet is nums[1] + nums[3] + nums[5] = 13. It can be shown
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-sum-of-mountain-triplets-i'
 class Solution:
     def minimumSum(self, nums: List[int]) -> int:

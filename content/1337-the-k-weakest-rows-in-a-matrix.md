@@ -83,7 +83,7 @@ The rows ordered from weakest to strongest are [0,2,3,1].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='the-k-weakest-rows-in-a-matrix'
 class Solution:
     def kWeakestRows(self, mat: List[List[int]], k: int) -> List[int]:

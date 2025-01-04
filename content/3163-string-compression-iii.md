@@ -71,7 +71,7 @@ date: 2024-11-04
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='string-compression-iii'
 class Solution:
     def compressedString(self, word: str) -> str:

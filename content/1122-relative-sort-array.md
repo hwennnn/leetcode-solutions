@@ -48,7 +48,7 @@ date: 2024-06-11
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='relative-sort-array'
 class Solution:
     def relativeSortArray(self, arr1: List[int], arr2: List[int]) -> List[int]:

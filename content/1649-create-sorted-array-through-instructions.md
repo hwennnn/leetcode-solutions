@@ -86,7 +86,7 @@ The total cost is 0 + 0 + 0 + 0 + 1 + 0 + 1 + 0 + 2 = 4.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='create-sorted-array-through-instructions'
 from sortedcontainers import SortedList
 

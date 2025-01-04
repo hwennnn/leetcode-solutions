@@ -56,7 +56,7 @@ In the second step, move from index 3 to index 5.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='jump-game-vii'
 class Solution:
     def canReach(self, s: str, minJump: int, maxJump: int) -> bool:

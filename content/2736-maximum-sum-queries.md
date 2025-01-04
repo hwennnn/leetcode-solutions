@@ -75,7 +75,7 @@ Therefore, we return&nbsp;<code node="[object Object]">[6,10,7]</code>.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-sum-queries'
 class BIT:
     def __init__(self, N: int):

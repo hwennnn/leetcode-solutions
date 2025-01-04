@@ -65,7 +65,7 @@ It can be shown that there are no good subarrays with length more than 4.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='length-of-longest-subarray-with-at-most-k-frequency'
 class Solution:
     def maxSubarrayLength(self, nums: List[int], k: int) -> int:

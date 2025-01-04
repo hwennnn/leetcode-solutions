@@ -55,7 +55,7 @@ date: 2023-07-06
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-size-subarray-sum'
 class Solution:
     def minSubArrayLen(self, target: int, nums: List[int]) -> int:

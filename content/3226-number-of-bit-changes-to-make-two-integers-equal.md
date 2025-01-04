@@ -64,7 +64,7 @@ It is not possible to make <code>n</code> equal to <code>k</code>.</p>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-bit-changes-to-make-two-integers-equal'
 class Solution:
     def minChanges(self, n: int, k: int) -> int:

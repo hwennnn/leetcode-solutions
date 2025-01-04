@@ -60,7 +60,7 @@ The only letter that appears twice is &#39;d&#39; so we return &#39;d&#39;.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='first-letter-to-appear-twice'
 class Solution:
     def repeatedCharacter(self, s: str) -> str:

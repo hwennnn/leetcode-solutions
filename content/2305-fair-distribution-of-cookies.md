@@ -61,7 +61,7 @@ It can be shown that there is no distribution with an unfairness less than 7.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='fair-distribution-of-cookies'
 class Solution:
     def distributeCookies(self, cookies: List[int], k: int) -> int:

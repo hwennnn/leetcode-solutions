@@ -64,7 +64,7 @@ The values are in descending order with adjacent values differing by 1.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='splitting-a-string-into-descending-consecutive-values'
 class Solution:
     def splitString(self, s: str) -> bool:

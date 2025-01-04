@@ -62,7 +62,7 @@ date: 2021-01-03
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='ways-to-split-array-into-three-subarrays'
 class Solution:
     def waysToSplit(self, nums: List[int]) -> int:

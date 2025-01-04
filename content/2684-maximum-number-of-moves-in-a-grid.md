@@ -60,7 +60,7 @@ It can be shown that it is the maximum number of moves that can be made.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-number-of-moves-in-a-grid'
 class Solution:
     def maxMoves(self, grid: List[List[int]]) -> int:

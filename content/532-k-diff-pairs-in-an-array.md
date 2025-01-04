@@ -67,7 +67,7 @@ Although we have two 1s in the input, we should only return the number of <stron
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='k-diff-pairs-in-an-array'
 class Solution:
     def findPairs(self, nums: List[int], k: int) -> int:

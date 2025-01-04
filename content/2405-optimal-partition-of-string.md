@@ -52,7 +52,7 @@ It can be shown that 4 is the minimum number of substrings needed.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='optimal-partition-of-string'
 class Solution:
     def partitionString(self, s: str) -> int:

@@ -61,7 +61,7 @@ The four ways to get there in 7 minutes are:
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-ways-to-arrive-at-destination'
 class Solution:
     def countPaths(self, n: int, roads: List[List[int]]) -> int:

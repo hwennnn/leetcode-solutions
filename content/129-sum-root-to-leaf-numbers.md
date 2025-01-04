@@ -63,7 +63,7 @@ Therefore, sum = 495 + 491 + 40 = <code>1026</code>.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sum-root-to-leaf-numbers'
 # Definition for a binary tree node.
 # class TreeNode:

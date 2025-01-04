@@ -69,7 +69,7 @@ On the other hand if we choose this arrangement (1, <strong>2</strong>, 8), (2, 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-number-of-coins-you-can-get'
 class Solution:
     def maxCoins(self, piles: List[int]) -> int:

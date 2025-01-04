@@ -60,7 +60,7 @@ Each word would be put on only one column and that in one column there will be o
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='print-words-vertically'
 class Solution:
     def printVertically(self, s: str) -> List[str]:

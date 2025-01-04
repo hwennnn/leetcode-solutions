@@ -68,7 +68,7 @@ In this example, the digit 8 is used twice each time in 288, 828, and 882.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='finding-3-digit-even-numbers'
 class Solution:
     def findEvenNumbers(self, digits: List[int]) -> List[int]:

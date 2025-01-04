@@ -80,7 +80,7 @@ Thus, people 0, 1, 2, 3, and 4 know the secret after all the meetings.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-all-people-with-secret'
 class DSU:
     def __init__(self, n):

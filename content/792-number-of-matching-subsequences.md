@@ -56,7 +56,7 @@ date: 2022-07-20
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-matching-subsequences'
 class Solution:
     def numMatchingSubseq(self, s: str, words: List[str]) -> int:

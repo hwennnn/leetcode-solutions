@@ -52,7 +52,7 @@ date: 2023-01-27
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='concatenated-words'
 class Solution:
     def findAllConcatenatedWordsInADict(self, words: List[str]) -> List[str]:

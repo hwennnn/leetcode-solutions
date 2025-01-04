@@ -60,7 +60,7 @@ date: 2024-03-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='existence-of-a-substring-in-a-string-and-its-reverse'
 class Solution:
     def isSubstringPresent(self, s: str) -> bool:

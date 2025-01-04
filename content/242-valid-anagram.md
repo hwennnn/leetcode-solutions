@@ -48,7 +48,7 @@ date: 2023-12-16
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='valid-anagram'
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:

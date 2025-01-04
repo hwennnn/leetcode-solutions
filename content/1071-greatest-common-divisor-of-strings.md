@@ -51,7 +51,7 @@ date: 2023-02-01
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='greatest-common-divisor-of-strings'
 class Solution:
     def gcdOfStrings(self, A: str, B: str) -> str:

@@ -64,7 +64,7 @@ Flip nums[5],nums[6],nums[7]: nums becomes [1,1,1,1,1,1,1,1]
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-k-consecutive-bit-flips'
 class Solution:
     def minKBitFlips(self, nums: List[int], k: int) -> int:

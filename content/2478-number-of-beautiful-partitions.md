@@ -107,7 +107,7 @@ public:
     }
 };
 ```
-### Python
+### Python3
 ``` py title='number-of-beautiful-partitions'
 class Solution:
     def beautifulPartitions(self, s: str, k: int, minLength: int) -> int:

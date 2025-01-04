@@ -59,7 +59,7 @@ date: 2024-11-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='flip-columns-for-maximum-number-of-equal-rows'
 class Solution:
     def maxEqualRowsAfterFlips(self, matrix: List[List[int]]) -> int:

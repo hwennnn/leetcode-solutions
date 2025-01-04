@@ -73,7 +73,7 @@ The maximum number of employees that can be invited to the meeting is 4.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-employees-to-be-invited-to-a-meeting'
 class Solution:
     def maximumInvitations(self, favorite: List[int]) -> int:

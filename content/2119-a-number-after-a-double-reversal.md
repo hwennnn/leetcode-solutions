@@ -56,7 +56,7 @@ date: 2021-12-26
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='a-number-after-a-double-reversal'
 class Solution:
     def isSameAfterReversals(self, num: int) -> bool:

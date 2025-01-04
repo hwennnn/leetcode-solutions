@@ -47,7 +47,7 @@ date: 2023-11-11
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='distribute-candies-among-children-i'
 class Solution:
     def distributeCandies(self, n: int, limit: int) -> int:

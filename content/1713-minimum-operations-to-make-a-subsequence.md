@@ -52,7 +52,7 @@ date: 2021-01-03
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-operations-to-make-a-subsequence'
 class Solution:
     def LIS(self, nums):

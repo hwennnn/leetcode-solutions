@@ -201,7 +201,7 @@ date: 2024-04-28
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='right-triangles'
 class Solution:
     def numberOfRightTriangles(self, grid: List[List[int]]) -> int:

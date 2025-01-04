@@ -56,7 +56,7 @@ At the begining of round two, nums = [5,4]. Now, first Alice removes 4 and then 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-game'
 class Solution:
     def numberGame(self, nums: List[int]) -> List[int]:

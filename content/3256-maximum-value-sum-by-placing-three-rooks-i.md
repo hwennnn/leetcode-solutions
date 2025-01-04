@@ -73,7 +73,7 @@ date: 2024-08-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-value-sum-by-placing-three-rooks-i'
 class Solution:
     def maximumValueSum(self, board: List[List[int]]) -> int:

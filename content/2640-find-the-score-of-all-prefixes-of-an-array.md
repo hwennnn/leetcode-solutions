@@ -63,7 +63,7 @@ For the prefix [1, 1, 2, 4, 8, 16], the conversion array is [2, 2, 4, 8, 16, 32]
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-score-of-all-prefixes-of-an-array'
 class Solution:
     def findPrefixScore(self, nums: List[int]) -> List[int]:

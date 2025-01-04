@@ -49,7 +49,7 @@ date: 2022-08-04
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='mirror-reflection'
 class Solution:
     def mirrorReflection(self, p, q):

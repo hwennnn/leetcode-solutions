@@ -63,7 +63,7 @@ It can be shown that we cannot reduce the sum by at least half in less than 3 op
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-operations-to-halve-array-sum'
 class Solution:
     def halveArray(self, nums: List[int]) -> int:

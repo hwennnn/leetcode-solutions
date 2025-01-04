@@ -54,7 +54,7 @@ The maximum total we can obtain is 101.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-value-of-k-coins-from-piles'
 class Solution:
     def maxValueOfCoins(self, piles: List[List[int]], K: int) -> int:

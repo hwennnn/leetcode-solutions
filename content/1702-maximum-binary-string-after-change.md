@@ -65,7 +65,7 @@ date: 2020-12-30
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-binary-string-after-change'
 class Solution:
     def maximumBinaryString(self, binary: str) -> str:

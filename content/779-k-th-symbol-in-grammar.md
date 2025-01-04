@@ -63,7 +63,7 @@ row 2: 0<u>1</u>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='k-th-symbol-in-grammar'
 class Solution:
     def kthGrammar(self, n: int, k: int) -> int:

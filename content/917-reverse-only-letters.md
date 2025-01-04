@@ -46,7 +46,7 @@ date: 2021-09-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='reverse-only-letters'
 class Solution:
     def reverseOnlyLetters(self, s: str) -> str:

@@ -52,7 +52,7 @@ In step 3, we use Paste operation to get &#39;AAA&#39;.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='2-keys-keyboard'
 class Solution:
     def minSteps(self, n: int) -> int:

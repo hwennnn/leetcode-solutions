@@ -62,7 +62,7 @@ date: 2021-05-03
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-interval-to-include-each-query'
 class Solution:
     def minInterval(self, intervals: List[List[int]], queries: List[int]) -> List[int]:

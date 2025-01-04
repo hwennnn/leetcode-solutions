@@ -55,7 +55,7 @@ date: 2022-12-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-subsequence-with-limited-sum'
 class Solution:
     def answerQueries(self, nums: List[int], queries: List[int]) -> List[int]:

@@ -55,7 +55,7 @@ date: 2024-04-23
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-height-trees'
 class Solution:
     def findMinHeightTrees(self, n: int, edges: List[List[int]]) -> List[int]:

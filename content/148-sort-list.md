@@ -55,7 +55,7 @@ date: 2022-06-21
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sort-list'
 # Definition for singly-linked list.
 # class ListNode:

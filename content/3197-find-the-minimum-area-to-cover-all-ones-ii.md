@@ -70,7 +70,7 @@ date: 2024-06-23
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-minimum-area-to-cover-all-ones-ii'
 class Solution:
     def minimumSum(self, grid: List[List[int]]) -> int:

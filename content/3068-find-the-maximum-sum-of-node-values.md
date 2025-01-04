@@ -81,7 +81,7 @@ It can be shown that 9 is the maximum achievable sum of values.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-maximum-sum-of-node-values'
 class Solution:
     def maximumValueSum(self, nums: List[int], k: int, edges: List[List[int]]) -> int:

@@ -104,7 +104,7 @@ public:
     }
 };
 ```
-### Python
+### Python3
 ``` py title='minimum-cost-to-convert-string-i'
 class Solution:
     def minimumCost(self, source: str, target: str, original: List[str], changed: List[str], cost: List[int]) -> int:

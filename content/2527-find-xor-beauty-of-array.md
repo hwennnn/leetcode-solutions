@@ -67,7 +67,7 @@ Xor-beauty of array will be bitwise XOR of all beauties = 1 ^ 0 ^ 1 ^ 4 ^ 1 ^ 4 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-xor-beauty-of-array'
 class Solution:
     def xorBeauty(self, nums: List[int]) -> int:

@@ -56,7 +56,7 @@ In total, there is only one magic square inside the given grid.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='magic-squares-in-grid'
 class Solution:
     def numMagicSquaresInside(self, grid: List[List[int]]) -> int:

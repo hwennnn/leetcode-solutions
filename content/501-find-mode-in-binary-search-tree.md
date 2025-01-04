@@ -56,7 +56,7 @@ date: 2023-11-01
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-mode-in-binary-search-tree'
 # Definition for a binary tree node.
 # class TreeNode:

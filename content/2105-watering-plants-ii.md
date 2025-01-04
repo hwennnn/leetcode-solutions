@@ -79,7 +79,7 @@ So, the total number of times they have to refill is 0.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='watering-plants-ii'
 class Solution:
     def minimumRefill(self, plants: List[int], capacityA: int, capacityB: int) -> int:

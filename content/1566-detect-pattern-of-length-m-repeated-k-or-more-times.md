@@ -58,7 +58,7 @@ date: 2020-08-30
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='detect-pattern-of-length-m-repeated-k-or-more-times'
 class Solution:
     def containsPattern(self, arr: List[int], m: int, k: int) -> bool:

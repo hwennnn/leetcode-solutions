@@ -53,7 +53,7 @@ date: 2024-05-06
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='remove-nodes-from-linked-list'
 # Definition for singly-linked list.
 # class ListNode:

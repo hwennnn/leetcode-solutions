@@ -46,7 +46,7 @@ date: 2022-06-19
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-common-prefix'
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:

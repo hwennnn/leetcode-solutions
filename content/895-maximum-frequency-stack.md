@@ -66,7 +66,7 @@ freqStack.pop();   // return 4, as 4, 5 and 7 is the most frequent, but 4 is clo
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-frequency-stack'
 class FreqStack:
 

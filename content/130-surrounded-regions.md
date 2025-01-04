@@ -61,7 +61,7 @@ date: 2021-11-01
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='surrounded-regions'
 class Solution:
     def solve(self, board: List[List[str]]) -> None:

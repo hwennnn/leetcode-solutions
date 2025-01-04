@@ -72,7 +72,7 @@ Thus, the nearest exit is [1,2], which is 2 steps away.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='nearest-exit-from-entrance-in-maze'
 class Solution:
     def nearestExit(self, maze: List[List[str]], entrance: List[int]) -> int:

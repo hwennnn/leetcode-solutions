@@ -55,7 +55,7 @@ Thus, starting with money = 3, the transactions can be performed in any order.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-money-required-before-transactions'
 class Solution:
     def minimumMoney(self, transactions: List[List[int]]) -> int:

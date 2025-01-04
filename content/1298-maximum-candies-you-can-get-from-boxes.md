@@ -71,7 +71,7 @@ The total number of candies will be 6.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-candies-you-can-get-from-boxes'
 class Solution:
     def maxCandies(self, status: List[int], candies: List[int], keys: List[List[int]], containedBoxes: List[List[int]], initialBoxes: List[int]) -> int:

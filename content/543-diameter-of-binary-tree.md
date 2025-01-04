@@ -48,7 +48,7 @@ date: 2024-02-27
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='diameter-of-binary-tree'
 # Definition for a binary tree node.
 # class TreeNode:

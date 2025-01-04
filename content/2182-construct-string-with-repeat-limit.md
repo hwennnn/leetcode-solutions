@@ -62,7 +62,7 @@ Note that the string &quot;bbabaaa&quot; is lexicographically larger but the let
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='construct-string-with-repeat-limit'
 class Solution:
     def repeatLimitedString(self, s: str, repeatLimit: int) -> str:

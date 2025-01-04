@@ -46,7 +46,7 @@ date: 2021-11-16
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='kth-smallest-number-in-multiplication-table'
 class Solution:
     def findKthNumber(self, m: int, n: int, k: int) -> int:

@@ -67,7 +67,7 @@ The longest of these was the keypress for &#39;a&#39; with duration 16.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='slowest-key'
 class Solution:
     def slowestKey(self, releaseTimes: List[int], keysPressed: str) -> str:

@@ -58,7 +58,7 @@ date: 2024-05-11
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-substring-partition-of-equal-character-frequency'
 class Solution:
     def minimumSubstringsInPartition(self, s: str) -> int:

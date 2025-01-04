@@ -48,7 +48,7 @@ date: 2021-01-24
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='decode-xored-permutation'
 class Solution:
     def decode(self, encoded: List[int]) -> List[int]:

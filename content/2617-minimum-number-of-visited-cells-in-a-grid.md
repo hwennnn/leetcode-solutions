@@ -71,7 +71,7 @@ date: 2023-04-12
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-visited-cells-in-a-grid'
 from sortedcontainers import SortedList
 

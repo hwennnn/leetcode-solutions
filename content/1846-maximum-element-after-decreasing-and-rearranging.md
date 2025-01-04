@@ -75,7 +75,7 @@ The largest element in <code>arr is 3.</code>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-element-after-decreasing-and-rearranging'
 class Solution:
     def maximumElementAfterDecrementingAndRearranging(self, arr: List[int]) -> int:

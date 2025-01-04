@@ -52,7 +52,7 @@ A <strong>subsequence</strong> of a string is a new string that is formed from t
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='distinct-subsequences-ii'
 class Solution:
     def distinctSubseqII(self, s: str) -> int:

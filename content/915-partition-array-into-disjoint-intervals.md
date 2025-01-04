@@ -54,7 +54,7 @@ date: 2021-07-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='partition-array-into-disjoint-intervals'
 class Solution:
     def partitionDisjoint(self, nums: List[int]) -> int:

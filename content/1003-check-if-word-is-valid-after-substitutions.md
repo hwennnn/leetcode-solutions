@@ -63,7 +63,7 @@ Thus, &quot;abcabcababcc&quot; is valid.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-if-word-is-valid-after-substitutions'
 class Solution:
     def isValid(self, s: str) -> bool:

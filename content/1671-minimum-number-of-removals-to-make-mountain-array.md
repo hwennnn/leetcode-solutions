@@ -59,7 +59,7 @@ date: 2024-10-30
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-removals-to-make-mountain-array'
 class Solution:
     def minimumMountainRemovals(self, nums: List[int]) -> int:

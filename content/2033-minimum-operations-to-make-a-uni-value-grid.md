@@ -65,7 +65,7 @@ A total of 4 operations were used.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-operations-to-make-a-uni-value-grid'
 class Solution:
     def minOperations(self, grid: List[List[int]], x: int) -> int:

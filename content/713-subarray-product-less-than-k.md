@@ -48,7 +48,7 @@ Note that [10, 5, 2] is not included as the product of 100 is not strictly less 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='subarray-product-less-than-k'
 class Solution:
     def numSubarrayProductLessThanK(self, nums: List[int], k: int) -> int:

@@ -56,7 +56,7 @@ answer = [7,1,3,9].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='separate-the-digits-in-an-array'
 class Solution:
     def separateDigits(self, nums: List[int]) -> List[int]:

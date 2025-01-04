@@ -47,7 +47,7 @@ date: 2025-01-01
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-width-ramp'
 class Solution:
     def maxWidthRamp(self, nums: List[int]) -> int:

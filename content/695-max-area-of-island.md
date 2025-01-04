@@ -52,7 +52,7 @@ date: 2024-08-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='max-area-of-island'
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:

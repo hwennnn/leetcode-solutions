@@ -53,7 +53,7 @@ date: 2022-11-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-subarrays-with-lcm-equal-to-k'
 class Solution:
     def subarrayLCM(self, nums: List[int], k: int) -> int:

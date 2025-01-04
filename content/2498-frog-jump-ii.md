@@ -64,7 +64,7 @@ It can be shown that this is the minimum achievable cost.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='frog-jump-ii'
 class Solution:
     def maxJump(self, stones: List[int]) -> int:

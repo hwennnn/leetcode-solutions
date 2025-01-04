@@ -64,7 +64,7 @@ House 0 has color 0, and house 1 has color 1. The distance between them is abs(0
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='two-furthest-houses-with-different-colors'
 class Solution:
     def maxDistance(self, colors: List[int]) -> int:

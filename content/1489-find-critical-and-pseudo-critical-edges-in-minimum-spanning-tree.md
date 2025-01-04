@@ -63,7 +63,7 @@ The edges 2, 3, 4, and 5 are only part of some MSTs, therefore they are consider
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree'
 class UnionFindSet:
     def __init__(self, n=0):

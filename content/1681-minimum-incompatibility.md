@@ -63,7 +63,7 @@ The incompatibility is (2-1) + (3-2) + (8-6) + (3-1) = 6.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-incompatibility'
 class Solution:
     def minimumIncompatibility(self, nums: List[int], k: int) -> int:

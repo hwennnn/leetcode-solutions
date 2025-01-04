@@ -48,7 +48,7 @@ date: 2022-09-05
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='n-ary-tree-level-order-traversal'
 """
 # Definition for a Node.

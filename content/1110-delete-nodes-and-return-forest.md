@@ -91,7 +91,7 @@ public:
     }
 };
 ```
-### Python
+### Python3
 ``` py title='delete-nodes-and-return-forest'
 # Definition for a binary tree node.
 # class TreeNode:

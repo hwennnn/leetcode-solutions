@@ -65,7 +65,7 @@ Hence, the answer is nums[3] = 1.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sum-of-values-at-indices-with-k-set-bits'
 class Solution:
     def sumIndicesWithKSetBits(self, nums: List[int], k: int) -> int:

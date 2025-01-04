@@ -59,7 +59,7 @@ Each player can only be matched with one trainer, so the maximum answer is 1.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-matching-of-players-with-trainers'
 class Solution:
     def matchPlayersAndTrainers(self, players: List[int], trainers: List[int]) -> int:

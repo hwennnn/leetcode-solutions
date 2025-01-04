@@ -48,7 +48,7 @@ date: 2022-02-23
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='n-repeated-element-in-size-2n-array'
 class Solution:
     def repeatedNTimes(self, nums: List[int]) -> int:

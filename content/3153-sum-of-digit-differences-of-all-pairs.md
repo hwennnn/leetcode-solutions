@@ -61,7 +61,7 @@ All the integers in the array are the same. So the total sum of digit difference
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sum-of-digit-differences-of-all-pairs'
 class Solution:
     def sumDigitDifferences(self, nums: List[int]) -> int:

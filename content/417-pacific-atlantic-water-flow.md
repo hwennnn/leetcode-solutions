@@ -69,7 +69,7 @@ Note that there are other possible paths for these cells to flow to the Pacific 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='pacific-atlantic-water-flow'
 class Solution:
     def pacificAtlantic(self, matrix: List[List[int]]) -> List[List[int]]:

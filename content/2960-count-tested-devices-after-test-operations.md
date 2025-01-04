@@ -71,7 +71,7 @@ So, the answer is 2.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-tested-devices-after-test-operations'
 class Solution:
     def countTestedDevices(self, A: List[int]) -> int:

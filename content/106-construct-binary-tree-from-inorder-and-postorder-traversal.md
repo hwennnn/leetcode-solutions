@@ -50,7 +50,7 @@ date: 2023-03-16
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='construct-binary-tree-from-inorder-and-postorder-traversal'
 # Definition for a binary tree node.
 # class TreeNode:

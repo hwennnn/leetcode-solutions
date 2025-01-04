@@ -52,7 +52,7 @@ date: 2021-05-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='alphabet-board-path'
 class Solution:
     def alphabetBoardPath(self, target: str) -> str:

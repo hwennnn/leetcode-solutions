@@ -67,7 +67,7 @@ You have id = 0 (green color in the figure) and the only friend of your friends 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='get-watched-videos-by-your-friends'
 class Solution:
     def watchedVideosByFriends(self, watchedVideos: List[List[str]], friends: List[List[int]], uid: int, level: int) -> List[str]:

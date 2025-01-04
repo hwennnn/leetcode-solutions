@@ -50,7 +50,7 @@ date: 2021-09-12
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='serialize-and-deserialize-binary-tree'
 # Definition for a binary tree node.
 # class TreeNode(object):

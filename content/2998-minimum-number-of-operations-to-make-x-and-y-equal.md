@@ -78,7 +78,7 @@ It can be shown that 5 is the minimum number of operations required to make 25 e
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-operations-to-make-x-and-y-equal'
 class Solution:
     def minimumOperationsToMakeEqual(self, x: int, y: int) -> int:

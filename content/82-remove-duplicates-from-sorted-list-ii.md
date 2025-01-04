@@ -43,7 +43,7 @@ date: 2022-03-09
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='remove-duplicates-from-sorted-list-ii'
 # Definition for singly-linked list.
 # class ListNode:

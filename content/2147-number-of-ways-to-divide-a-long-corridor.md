@@ -63,7 +63,7 @@ Installing any would create some section that does not have exactly two seats.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-ways-to-divide-a-long-corridor'
 class Solution:
     def numberOfWays(self, corridor: str) -> int:

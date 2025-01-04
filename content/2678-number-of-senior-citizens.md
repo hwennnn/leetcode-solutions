@@ -71,7 +71,7 @@ public:
     }
 };
 ```
-### Python
+### Python3
 ``` py title='number-of-senior-citizens'
 class Solution:
     def countSeniors(self, details: List[str]) -> int:

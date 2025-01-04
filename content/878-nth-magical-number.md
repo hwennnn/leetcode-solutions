@@ -44,7 +44,7 @@ date: 2021-12-11
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='nth-magical-number'
 class Solution:
     def nthMagicalNumber(self, n: int, a: int, b: int) -> int:

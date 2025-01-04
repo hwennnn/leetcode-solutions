@@ -62,7 +62,7 @@ date: 2022-06-09
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='two-sum-ii-input-array-is-sorted'
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:

@@ -70,7 +70,7 @@ date: 2024-06-08
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='continuous-subarray-sum'
 class Solution:
     def checkSubarraySum(self, nums: List[int], k: int) -> bool:

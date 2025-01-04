@@ -49,7 +49,7 @@ It can be proven that there is no k-avoiding array with a sum less than 3.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='determine-the-minimum-sum-of-a-k-avoiding-array'
 class Solution:
     def minimumSum(self, n: int, k: int) -> int:

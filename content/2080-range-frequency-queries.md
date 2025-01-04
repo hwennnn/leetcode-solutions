@@ -59,7 +59,7 @@ rangeFreqQuery.query(0, 11, 33); // return 2. The value 33 occurs 2 times in the
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='range-frequency-queries'
 class RangeFreqQuery:
 

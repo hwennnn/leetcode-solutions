@@ -76,7 +76,7 @@ date: 2022-03-10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='water-and-jug-problem'
 class Solution:
     def canMeasureWater(self, x: int, y: int, z: int) -> bool:

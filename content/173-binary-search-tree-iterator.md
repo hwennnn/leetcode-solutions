@@ -72,7 +72,7 @@ bSTIterator.hasNext(); // return False
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='binary-search-tree-iterator'
 # Definition for a binary tree node.
 # class TreeNode:

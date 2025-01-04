@@ -51,7 +51,7 @@ date: 2023-09-21
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='median-of-two-sorted-arrays'
 class Solution:
     def findMedianSortedArrays(self, A: List[int], B: List[int]) -> float:

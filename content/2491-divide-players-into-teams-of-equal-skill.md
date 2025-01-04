@@ -64,7 +64,7 @@ There is no way to divide the players into teams such that the total skill of ea
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='divide-players-into-teams-of-equal-skill'
 class Solution:
     def dividePlayers(self, skill: List[int]) -> int:

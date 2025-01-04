@@ -52,7 +52,7 @@ The minimum sum can be obtained by the pair [4, 9]: 4 + 9 = 13.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-sum-of-four-digit-number-after-splitting-digits'
 class Solution:
     def minimumSum(self, num: int) -> int:

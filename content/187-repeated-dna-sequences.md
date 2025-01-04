@@ -47,7 +47,7 @@ date: 2021-11-03
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='repeated-dna-sequences'
 class Solution:
     def findRepeatedDnaSequences(self, s: str) -> List[str]:

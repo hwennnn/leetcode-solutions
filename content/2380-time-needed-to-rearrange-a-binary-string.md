@@ -60,7 +60,7 @@ so we return 0.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='time-needed-to-rearrange-a-binary-string'
 class Solution:
     def secondsToRemoveOccurrences(self, s: str) -> int:

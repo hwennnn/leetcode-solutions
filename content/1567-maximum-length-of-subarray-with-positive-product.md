@@ -57,7 +57,7 @@ Notice that we cannot include 0 in the subarray since that&#39;ll make the produ
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-length-of-subarray-with-positive-product'
 class Solution:
     def getMaxLen(self, nums: List[int]) -> int:

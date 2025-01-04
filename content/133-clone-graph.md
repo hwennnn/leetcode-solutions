@@ -82,7 +82,7 @@ class Node {
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='clone-graph'
 """
 # Definition for a Node.

@@ -57,7 +57,7 @@ date: 2024-03-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='non-overlapping-intervals'
 class Solution:
     def eraseOverlapIntervals(self, intervals: List[List[int]]) -> int:

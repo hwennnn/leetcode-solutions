@@ -54,7 +54,7 @@ It can be proven, that 3 is the minimum number of operations that we need to per
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-operations-to-make-the-integer-zero'
 class Solution:
     def makeTheIntegerZero(self, num1: int, num2: int) -> int:

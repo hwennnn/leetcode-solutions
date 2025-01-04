@@ -49,7 +49,7 @@ Note that 676 is not a superpalindrome: 26 * 26 = 676, but 26 is not a palindrom
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='super-palindromes'
 class Solution:
     def superpalindromesInRange(self, left: str, right: str) -> int:

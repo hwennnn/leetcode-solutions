@@ -53,7 +53,7 @@ From s[4] = &#39;c&#39; to s[5] = &#39;C&#39;, there is no change of key as caps
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-changing-keys'
 class Solution:
     def countKeyChanges(self, s: str) -> int:

@@ -49,7 +49,7 @@ Average salary excluding minimum and maximum salary is (2000) / 1 = 2000
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='average-salary-excluding-the-minimum-and-maximum-salary'
 class Solution:
     def average(self, salary: List[int]) -> float:

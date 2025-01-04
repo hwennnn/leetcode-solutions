@@ -73,7 +73,7 @@ date: 2021-08-29
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-work-sessions-to-finish-the-tasks'
 class Solution:
     def minSessions(self, tasks: List[int], sessionTime: int) -> int:

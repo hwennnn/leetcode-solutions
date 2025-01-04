@@ -62,7 +62,7 @@ We return 0 because no subarrays meet the conditions.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-sum-of-distinct-subarrays-with-length-k'
 class Solution:
     def maximumSubarraySum(self, nums: List[int], k: int) -> int:

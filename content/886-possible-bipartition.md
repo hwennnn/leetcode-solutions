@@ -51,7 +51,7 @@ date: 2022-12-21
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='possible-bipartition'
 class Solution:
     def possibleBipartition(self, n: int, dislikes: List[List[int]]) -> bool:

@@ -75,7 +75,7 @@ The subsequence has a length of 1, so we return 1.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-increasing-subsequence-ii'
 class SegmentTree:
     # https://github.com/cheran-senthil/PyRival/blob/master/pyrival/data_structures/SegmentTree.py

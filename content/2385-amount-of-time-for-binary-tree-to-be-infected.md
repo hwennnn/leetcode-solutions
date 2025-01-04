@@ -64,7 +64,7 @@ It takes 4 minutes for the whole tree to be infected so we return 4.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='amount-of-time-for-binary-tree-to-be-infected'
 # Definition for a binary tree node.
 # class TreeNode:

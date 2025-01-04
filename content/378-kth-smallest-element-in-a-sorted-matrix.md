@@ -61,7 +61,7 @@ date: 2022-08-02
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='kth-smallest-element-in-a-sorted-matrix'
 class Solution:
     def kthSmallest(self, matrix: List[List[int]], k: int) -> int:

@@ -53,7 +53,7 @@ date: 2024-06-06
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='hand-of-straights'
 class Solution:
     def isNStraightHand(self, hand: List[int], groupSize: int) -> bool:

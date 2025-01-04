@@ -57,7 +57,7 @@ date: 2024-10-09
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-add-to-make-parentheses-valid'
 class Solution:
     def minAddToMakeValid(self, s: str) -> int:

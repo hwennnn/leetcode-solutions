@@ -68,7 +68,7 @@ return res
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='flatten-nested-list-iterator'
 # """
 # This is the interface that allows for creating nested lists.

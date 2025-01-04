@@ -68,7 +68,7 @@ It can be shown that 15 is the minimum possible value of the bitwise OR of the r
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimize-or-of-remaining-elements-using-operations'
 class Solution:
     def minOrAfterOperations(self, nums: List[int], k: int) -> int:

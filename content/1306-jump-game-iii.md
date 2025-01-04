@@ -61,7 +61,7 @@ index 0 -&gt; index 4 -&gt; index 1 -&gt; index 3
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='jump-game-iii'
 class Solution:
     def canReach(self, arr: List[int], start: int) -> bool:

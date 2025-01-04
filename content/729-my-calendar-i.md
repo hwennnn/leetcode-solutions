@@ -57,7 +57,7 @@ myCalendar.book(20, 30); // return True, The event can be booked, as the first e
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='my-calendar-i'
 from sortedcontainers import SortedList
 

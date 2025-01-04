@@ -73,7 +73,7 @@ Only one ring is given. Thus, no rods have all three colors.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='rings-and-rods'
 class Solution:
     def countPoints(self, rings: str) -> int:

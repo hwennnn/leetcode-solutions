@@ -54,7 +54,7 @@ date: 2022-07-24
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='search-a-2d-matrix-ii'
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:

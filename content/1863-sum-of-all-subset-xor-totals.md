@@ -80,7 +80,7 @@ date: 2024-05-20
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sum-of-all-subset-xor-totals'
 class Solution:
     def subsetXORSum(self, nums: List[int]) -> int:

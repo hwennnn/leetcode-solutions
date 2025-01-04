@@ -53,7 +53,7 @@ Some of the integers that are not special are: 22, 114, and 131.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-special-integers'
 class Solution:
     def countSpecialNumbers(self, n: int) -> int:

@@ -53,7 +53,7 @@ We calculate the floor of the division for every pair of indices in the array th
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sum-of-floored-pairs'
 class Solution:
     def sumOfFlooredPairs(self, nums: List[int]) -> int:

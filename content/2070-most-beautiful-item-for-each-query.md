@@ -69,7 +69,7 @@ Hence, the answer to the query is 0.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='most-beautiful-item-for-each-query'
 class Solution:
     def maximumBeauty(self, items: List[List[int]], queries: List[int]) -> List[int]:

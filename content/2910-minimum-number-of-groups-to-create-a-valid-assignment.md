@@ -79,7 +79,7 @@ date: 2023-10-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-groups-to-create-a-valid-assignment'
 class Solution:
     def minGroupsForValidAssignment(self, nums: List[int]) -> int:

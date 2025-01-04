@@ -63,7 +63,7 @@ The total number of stones in [2,3,3,4] is 12.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='remove-stones-to-minimize-the-total'
 class Solution:
     def minStoneSum(self, piles: List[int], k: int) -> int:

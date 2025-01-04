@@ -55,7 +55,7 @@ date: 2020-10-12
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-good-ways-to-split-a-string'
 class Solution:
     def numSplits(self, S: str) -> int:

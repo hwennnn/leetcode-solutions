@@ -58,7 +58,7 @@ date: 2021-04-11
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-nice-substring'
 class Solution:
     def longestNiceSubstring(self, s: str) -> str:

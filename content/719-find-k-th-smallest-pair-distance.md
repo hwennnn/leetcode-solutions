@@ -60,7 +60,7 @@ Then the 1<sup>st</sup> smallest distance pair is (1,1), and its distance is 0.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-k-th-smallest-pair-distance'
 class Solution:
     def smallestDistancePair(self, nums: List[int], k: int) -> int:

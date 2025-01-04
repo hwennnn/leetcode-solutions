@@ -61,7 +61,7 @@ The total score is <code>2 + 7 = 9</code>.</p>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-difference-score-in-a-grid'
 class Solution:
     def maxScore(self, grid: List[List[int]]) -> int:

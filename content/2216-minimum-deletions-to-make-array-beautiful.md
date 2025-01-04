@@ -56,7 +56,7 @@ date: 2022-03-27
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-deletions-to-make-array-beautiful'
 class Solution:
     def minDeletion(self, nums: List[int]) -> int:

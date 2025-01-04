@@ -64,7 +64,7 @@ For queries[1]: Only server with id 3 gets no request in the duration [2,4].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-zero-request-servers'
 class Solution:
     def countServers(self, n: int, logs: List[List[int]], k: int, queries: List[int]) -> List[int]:

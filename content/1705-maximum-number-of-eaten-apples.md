@@ -58,7 +58,7 @@ date: 2020-12-30
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-number-of-eaten-apples'
 from heapq import heappop, heappush
 class Solution:

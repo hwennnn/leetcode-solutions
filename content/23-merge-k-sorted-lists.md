@@ -65,7 +65,7 @@ merging them into one sorted list:
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='merge-k-sorted-lists'
 # Definition for singly-linked list.
 # class ListNode:

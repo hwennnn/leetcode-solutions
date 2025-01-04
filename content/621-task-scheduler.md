@@ -116,7 +116,7 @@ font-size: 0.85rem;
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='task-scheduler'
 class Solution:
     def leastInterval(self, tasks: List[str], n: int) -> int:

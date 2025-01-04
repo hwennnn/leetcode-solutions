@@ -64,7 +64,7 @@ date: 2023-03-03
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='string-compression'
 class Solution:
     def compress(self, chars: List[str]) -> int:

@@ -57,7 +57,7 @@ We only want the closest k = 1 points from the origin, so the answer is just [[-
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='k-closest-points-to-origin'
 class Solution:
     def kClosest(self, points: List[List[int]], k: int) -> List[List[int]]:

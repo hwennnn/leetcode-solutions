@@ -58,7 +58,7 @@ date: 2020-12-26
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='alert-using-same-key-card-three-or-more-times-in-a-one-hour-period'
 class Solution:
     def alertNames(self, keyName: List[str], keyTime: List[str]) -> List[str]:

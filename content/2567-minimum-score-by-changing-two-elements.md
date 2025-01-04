@@ -69,7 +69,7 @@ date: 2023-02-26
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-score-by-changing-two-elements'
 class Solution:
     def minimizeSum(self, nums: List[int]) -> int:

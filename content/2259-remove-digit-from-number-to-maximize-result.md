@@ -59,7 +59,7 @@ Both result in the string &quot;51&quot;.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='remove-digit-from-number-to-maximize-result'
 class Solution:
     def removeDigit(self, number: str, digit: str) -> str:

@@ -50,7 +50,7 @@ date: 2022-09-06
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='numbers-with-repeated-digits'
 class Solution:
     def numDupDigitsAtMostN(self, n: int) -> int:

@@ -60,7 +60,7 @@ date: 2023-09-01
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='counting-bits'
 class Solution:
     def countBits(self, n: int) -> List[int]:

@@ -51,7 +51,7 @@ Possible arrangements:
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-number-of-ways-to-place-houses'
 class Solution:
     def countHousePlacements(self, n: int) -> int:

@@ -68,7 +68,7 @@ We return the array [2,1].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='replace-elements-in-an-array'
 class Solution:
     def arrayChange(self, nums: List[int], operations: List[List[int]]) -> List[int]:

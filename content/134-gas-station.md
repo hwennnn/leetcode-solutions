@@ -62,7 +62,7 @@ Therefore, you can&#39;t travel around the circuit once no matter where you star
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='gas-station'
 class Solution:
     def canCompleteCircuit(self, gas: List[int], cost: List[int]) -> int:

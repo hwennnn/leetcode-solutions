@@ -53,7 +53,7 @@ date: 2023-11-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sort-vowels-in-a-string'
 class Solution:
     def sortVowels(self, s: str) -> str:

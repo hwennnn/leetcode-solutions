@@ -49,7 +49,7 @@ date: 2023-10-26
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='binary-trees-with-factors'
 class Solution:
     def numFactoredBinaryTrees(self, arr: List[int]) -> int:

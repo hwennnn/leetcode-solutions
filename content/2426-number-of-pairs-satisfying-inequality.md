@@ -64,7 +64,7 @@ Since there does not exist any pair that satisfies the conditions, we return 0.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-pairs-satisfying-inequality'
 from sortedcontainers import SortedList
 

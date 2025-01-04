@@ -74,7 +74,7 @@ Any height assignment that has a maximum height of 2 while still meeting the rul
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='map-of-highest-peak'
 class Solution:
     def highestPeak(self, water: List[List[int]]) -> List[List[int]]:

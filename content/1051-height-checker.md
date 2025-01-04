@@ -66,7 +66,7 @@ All indices match.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='height-checker'
 class Solution:
     def heightChecker(self, heights: List[int]) -> int:

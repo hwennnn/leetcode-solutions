@@ -57,7 +57,7 @@ date: 2021-07-06
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-good-numbers'
 class Solution:
     def countGoodNumbers(self, n: int) -> int:

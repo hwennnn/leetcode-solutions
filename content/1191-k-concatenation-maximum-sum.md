@@ -56,7 +56,7 @@ date: 2021-04-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='k-concatenation-maximum-sum'
 class Solution:
     def kConcatenationMaxSum(self, arr: List[int], k: int) -> int:

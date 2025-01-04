@@ -53,7 +53,7 @@ date: 2024-02-03
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='partition-array-for-maximum-sum'
 class Solution:
     def maxSumAfterPartitioning(self, arr: List[int], k: int) -> int:

@@ -77,7 +77,7 @@ date: 2024-05-11
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-if-grid-satisfies-conditions'
 class Solution:
     def satisfiesConditions(self, grid: List[List[int]]) -> bool:

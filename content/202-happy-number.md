@@ -57,7 +57,7 @@ date: 2022-06-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='happy-number'
 class Solution:
     def isHappy(self, n: int) -> bool:

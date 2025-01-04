@@ -65,7 +65,7 @@ It is optimal to leave nums as is, and since 10 is the maximum value, we return 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimize-maximum-of-array'
 class Solution:
     def minimizeArrayValue(self, nums: List[int]) -> int:

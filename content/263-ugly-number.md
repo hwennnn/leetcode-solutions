@@ -52,7 +52,7 @@ date: 2022-11-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='ugly-number'
 class Solution:
     def isUgly(self, n: int) -> bool:

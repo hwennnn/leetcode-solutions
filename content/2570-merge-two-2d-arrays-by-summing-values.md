@@ -68,7 +68,7 @@ date: 2023-02-26
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='merge-two-2d-arrays-by-summing-values'
 class Solution:
     def mergeArrays(self, nums1: List[List[int]], nums2: List[List[int]]) -> List[List[int]]:

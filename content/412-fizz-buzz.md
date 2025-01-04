@@ -45,7 +45,7 @@ date: 2020-08-28
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='fizz-buzz'
 class Solution:
     def fizzBuzz(self, n: int) -> List[str]:

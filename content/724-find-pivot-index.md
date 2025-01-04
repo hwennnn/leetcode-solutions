@@ -67,7 +67,7 @@ Right sum = nums[1] + nums[2] = 1 + -1 = 0
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-pivot-index'
 class Solution:
     def pivotIndex(self, nums: List[int]) -> int:

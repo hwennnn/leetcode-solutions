@@ -47,7 +47,7 @@ date: 2024-02-21
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='bitwise-and-of-numbers-range'
 class Solution:
     def rangeBitwiseAnd(self, left: int, right: int) -> int:

@@ -63,7 +63,7 @@ date: 2024-03-10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='shortest-uncommon-substring-in-an-array'
 class Solution:
     def shortestSubstrings(self, arr: List[str]) -> List[str]:

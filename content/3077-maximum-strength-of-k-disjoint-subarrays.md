@@ -80,7 +80,7 @@ date: 2024-03-10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-strength-of-k-disjoint-subarrays'
 class Solution:
     def maximumStrength(self, nums: List[int], k: int) -> int:

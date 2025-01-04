@@ -70,7 +70,7 @@ Therefore, the k-beauty is 2.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-k-beauty-of-a-number'
 class Solution:
     def divisorSubstrings(self, num: int, k: int) -> int:

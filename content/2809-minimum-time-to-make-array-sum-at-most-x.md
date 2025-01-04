@@ -61,7 +61,7 @@ Now sum of nums1 = 4. It can be shown that these operations are optimal, so we r
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-time-to-make-array-sum-at-most-x'
 class Solution:
     def minimumTime(self, nums1: List[int], nums2: List[int], x: int) -> int:

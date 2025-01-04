@@ -106,7 +106,7 @@ Note that k = 3 but there are only 2 reachable items within the price range.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='k-highest-ranked-items-within-a-price-range'
 class Solution:
     def highestRankedKItems(self, grid: List[List[int]], pricing: List[int], start: List[int], k: int) -> List[List[int]]:

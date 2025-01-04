@@ -77,7 +77,7 @@ We cannot obtain a smaller score than 0.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-score-after-removals-on-a-tree'
 class Solution:
     def minimumScore(self, nums: List[int], edges: List[List[int]]) -> int:

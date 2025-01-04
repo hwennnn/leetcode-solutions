@@ -65,7 +65,7 @@ Note that other answers, such as [3, 3], would also be accepted.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='pancake-sorting'
 class Solution:
     def pancakeSort(self, arr: List[int]) -> List[int]:

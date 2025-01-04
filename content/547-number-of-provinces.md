@@ -54,7 +54,7 @@ date: 2023-06-04
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-provinces'
 class UnionFind:
     def __init__(self, N):

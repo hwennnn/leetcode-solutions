@@ -69,7 +69,7 @@ It can be shown that we cannot obtain a greater total importance than 20.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-total-importance-of-roads'
 class Solution:
     def maximumImportance(self, n: int, roads: List[List[int]]) -> int:

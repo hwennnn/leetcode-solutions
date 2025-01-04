@@ -65,7 +65,7 @@ date: 2022-04-03
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='next-permutation'
 class Solution:
     def nextPermutation(self, nums):

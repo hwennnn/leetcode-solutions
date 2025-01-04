@@ -55,7 +55,7 @@ The 5 good pairs are <code>(0, 0)</code>, <code>(1, 0)</code>, <code>(1, 1)</cod
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-number-of-good-pairs-ii'
 factors = [[] for _ in range(10 ** 6 + 1)]
 for i in range(1, 10 ** 6 + 1):

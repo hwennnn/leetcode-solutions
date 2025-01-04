@@ -60,7 +60,7 @@ For the second query, there is a path (0 -&gt; 1 -&gt; 2) of two edges with dist
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='checking-existence-of-edge-length-limited-paths'
 class UnionFind:
     def __init__(self, N):

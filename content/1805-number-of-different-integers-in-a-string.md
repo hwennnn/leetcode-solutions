@@ -58,7 +58,7 @@ the leading zeros are ignored when comparing their decimal values.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-different-integers-in-a-string'
 class Solution:
     def numDifferentIntegers(self, word: str) -> int:

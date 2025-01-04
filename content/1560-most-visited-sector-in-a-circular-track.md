@@ -58,7 +58,7 @@ We can see that both sectors 1 and 2 are visited twice and they are the most vis
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='most-visited-sector-in-a-circular-track'
 class Solution:
     def mostVisited(self, n: int, rounds: List[int]) -> List[int]:

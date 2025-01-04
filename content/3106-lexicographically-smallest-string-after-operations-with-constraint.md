@@ -77,7 +77,7 @@ date: 2024-04-07
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='lexicographically-smallest-string-after-operations-with-constraint'
 class Solution:
     def getSmallestString(self, s: str, k: int) -> str:

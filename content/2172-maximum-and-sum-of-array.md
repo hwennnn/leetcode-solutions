@@ -59,7 +59,7 @@ Note that slots 2, 5, 6, and 8 are empty which is permitted.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-and-sum-of-array'
 class Solution:
     def maximumANDSum(self, nums: List[int], numSlots: int) -> int:

@@ -67,7 +67,7 @@ It can be shown that 12 is the minimum number of operations needed to write Y on
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-operations-to-write-the-letter-y-on-a-grid'
 class Solution:
     def minimumOperationsToWriteY(self, grid: List[List[int]]) -> int:

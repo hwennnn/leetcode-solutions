@@ -63,7 +63,7 @@ Thus, the 4 groups formed are &quot;abc&quot;, &quot;def&quot;, &quot;ghi&quot;,
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='divide-a-string-into-groups-of-size-k'
 class Solution:
     def divideString(self, s: str, k: int, fill: str) -> List[str]:

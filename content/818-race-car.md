@@ -66,7 +66,7 @@ Your position goes from 0 --&gt; 1 --&gt; 3 --&gt; 7 --&gt; 7 --&gt; 6.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='race-car'
 class Solution:
     def racecar(self, target: int) -> int:

@@ -65,7 +65,7 @@ date: 2021-11-07
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-vowel-substrings-of-a-string'
 class Solution:
     def countVowelSubstrings(self, word: str) -> int:

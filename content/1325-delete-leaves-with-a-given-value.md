@@ -61,7 +61,7 @@ After removing, new nodes become leaf nodes with value (target = 2) (Picture in 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='delete-leaves-with-a-given-value'
 # Definition for a binary tree node.
 # class TreeNode:

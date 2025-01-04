@@ -61,7 +61,7 @@ date: 2023-04-01
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-ways-of-cutting-a-pizza'
 class Solution:
     def ways(self, pizza: List[str], k: int) -> int:

@@ -64,7 +64,7 @@ The greatest common divisor of 3 and 3 is 3.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-greatest-common-divisor-of-array'
 class Solution:
     def findGCD(self, nums: List[int]) -> int:

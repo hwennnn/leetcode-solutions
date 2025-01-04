@@ -50,7 +50,7 @@ date: 2020-10-16
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='closest-divisors'
 class Solution:
     def closestDivisors(self, num: int) -> List[int]:

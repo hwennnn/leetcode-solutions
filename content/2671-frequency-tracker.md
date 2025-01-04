@@ -89,7 +89,7 @@ frequencyTracker.hasFrequency(1); // Returns true, because 3 occurs once
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='frequency-tracker'
 class FrequencyTracker:
 

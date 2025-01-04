@@ -78,7 +78,7 @@ date: 2021-05-29
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='largest-values-from-labels'
 class Solution:
     def largestValsFromLabels(self, values: List[int], labels: List[int], num_wanted: int, use_limit: int) -> int:

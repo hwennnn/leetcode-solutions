@@ -38,7 +38,7 @@ date: 2023-02-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='add-binary'
 class Solution:
     def addBinary(self, a: str, b: str) -> str:

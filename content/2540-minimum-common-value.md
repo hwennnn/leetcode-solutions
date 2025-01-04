@@ -49,7 +49,7 @@ date: 2024-03-09
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-common-value'
 class Solution:
     def getCommon(self, nums1: List[int], nums2: List[int]) -> int:

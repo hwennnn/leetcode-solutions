@@ -66,7 +66,7 @@ date: 2024-07-21
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-operations-to-make-array-equal-to-target'
 class Solution:
     def minimumOperations(self, nums: List[int], target: List[int]) -> int:

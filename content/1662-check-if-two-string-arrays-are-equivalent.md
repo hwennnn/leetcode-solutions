@@ -56,7 +56,7 @@ The strings are the same, so return true.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-if-two-string-arrays-are-equivalent'
 class Solution:
     def arrayStringsAreEqual(self, word1: List[str], word2: List[str]) -> bool:

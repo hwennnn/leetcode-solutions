@@ -68,7 +68,7 @@ Then, use the second operation on the third and sixth elements to make s = &quot
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-flips-to-make-the-binary-string-alternating'
 class Solution:
     def minFlips(self, s: str) -> int:

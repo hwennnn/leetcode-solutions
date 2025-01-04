@@ -63,7 +63,7 @@ It can be shown that the maximum length achievable is 1.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-longest-special-substring-that-occurs-thrice-ii'
 class Solution:
     def maximumLength(self, s: str) -> int:

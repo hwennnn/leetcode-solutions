@@ -69,7 +69,7 @@ We can remove it with 1 deletion.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='removing-minimum-and-maximum-from-array'
 class Solution:
     def minimumDeletions(self, nums: List[int]) -> int:

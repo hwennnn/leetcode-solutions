@@ -66,7 +66,7 @@ The final answer = 10.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='delete-greatest-value-in-each-row'
 class Solution:
     def deleteGreatestValue(self, grid: List[List[int]]) -> int:

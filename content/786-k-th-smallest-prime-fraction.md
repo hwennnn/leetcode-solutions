@@ -58,7 +58,7 @@ The third fraction is 2/5.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='k-th-smallest-prime-fraction'
 class Solution:
     def kthSmallestPrimeFraction(self, arr: List[int], k: int) -> List[int]:

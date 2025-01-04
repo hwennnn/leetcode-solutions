@@ -83,7 +83,7 @@ encrypter.decrypt(&quot;eizfeiam&quot;); // return 2.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='encrypt-and-decrypt-strings'
 class Encrypter:
 

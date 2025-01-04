@@ -64,7 +64,7 @@ It is not required to do the modifications in-place.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='rearrange-array-elements-by-sign'
 class Solution:
     def rearrangeArray(self, nums: List[int]) -> List[int]:

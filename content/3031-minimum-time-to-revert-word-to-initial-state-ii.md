@@ -71,7 +71,7 @@ It can be shown that 4 seconds is the minimum time greater than zero required fo
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-time-to-revert-word-to-initial-state-ii'
 class RabinKarp:
     def __init__(self, A):

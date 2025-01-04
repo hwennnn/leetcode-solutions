@@ -48,7 +48,7 @@ date: 2022-06-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='binary-tree-cameras'
 # Definition for a binary tree node.
 # class TreeNode:

@@ -62,7 +62,7 @@ date: 2021-09-05
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-special-quadruplets'
 class Solution:
     def countQuadruplets(self, nums: List[int]) -> int:

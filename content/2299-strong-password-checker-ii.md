@@ -61,7 +61,7 @@ date: 2022-06-12
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='strong-password-checker-ii'
 class Solution:
     def strongPasswordCheckerII(self, password: str) -> bool:

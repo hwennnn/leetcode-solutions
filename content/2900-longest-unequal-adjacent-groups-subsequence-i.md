@@ -91,7 +91,7 @@ date: 2023-10-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-unequal-adjacent-groups-subsequence-i'
 class Solution:
     def getWordsInLongestSubsequence(self, n: int, words: List[str], groups: List[int]) -> List[str]:

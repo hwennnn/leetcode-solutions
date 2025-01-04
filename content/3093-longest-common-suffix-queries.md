@@ -74,7 +74,7 @@ date: 2024-03-24
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-common-suffix-queries'
 class TrieNode:
     def __init__(self):

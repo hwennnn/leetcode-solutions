@@ -69,7 +69,7 @@ After performing 3 moves, the difference between the minimum and maximum is 7 - 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-difference-between-largest-and-smallest-value-in-three-moves'
 class Solution:
     def minDifference(self, nums: List[int]) -> int:

@@ -58,7 +58,7 @@ date: 2023-02-27
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='handling-sum-queries-after-update'
 class Solution:
     def handleQuery(self, nums1: List[int], nums2: List[int], queries: List[List[int]]) -> List[int]:

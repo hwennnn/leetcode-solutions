@@ -62,7 +62,7 @@ minStack.getMin(); // return -2
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='min-stack'
 class MinStack:
 

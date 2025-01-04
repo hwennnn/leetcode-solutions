@@ -67,7 +67,7 @@ Hence all students are able to eat.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-students-unable-to-eat-lunch'
 class Solution:
     def countStudents(self, students: List[int], sandwiches: List[int]) -> int:

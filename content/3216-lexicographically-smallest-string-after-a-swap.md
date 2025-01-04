@@ -54,7 +54,7 @@ date: 2024-07-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='lexicographically-smallest-string-after-a-swap'
 class Solution:
     def getSmallestString(self, s: str) -> str:

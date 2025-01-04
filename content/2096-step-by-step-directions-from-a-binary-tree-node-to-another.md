@@ -117,7 +117,7 @@ public:
     }
 };
 ```
-### Python
+### Python3
 ``` py title='step-by-step-directions-from-a-binary-tree-node-to-another'
 # Definition for a binary tree node.
 # class TreeNode:

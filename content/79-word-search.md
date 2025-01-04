@@ -60,7 +60,7 @@ date: 2024-08-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='word-search'
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:

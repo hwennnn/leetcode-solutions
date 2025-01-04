@@ -60,7 +60,7 @@ It can be shown that every subsequence of length 4 is not a square streak.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-square-streak-in-an-array'
 class Solution:
     def longestSquareStreak(self, nums: List[int]) -> int:

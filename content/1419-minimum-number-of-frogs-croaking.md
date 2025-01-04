@@ -58,7 +58,7 @@ The second frog could yell later &quot;cr<strong>c</strong>oak<strong>roak</stro
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-frogs-croaking'
 class Solution:
     def minNumberOfFrogs(self, S: str) -> int:

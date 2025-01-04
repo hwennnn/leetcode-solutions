@@ -59,7 +59,7 @@ For k = 7 we can use 2 + 5 = 7.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k'
 class Solution:
     def findMinFibonacciNumbers(self, k: int) -> int:

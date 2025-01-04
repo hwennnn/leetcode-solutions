@@ -70,7 +70,7 @@ Note that we cannot make a &quot;Flush&quot; or a &quot;Three of a Kind&quot;.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='best-poker-hand'
 class Solution:
     def bestHand(self, ranks: List[int], suits: List[str]) -> str:

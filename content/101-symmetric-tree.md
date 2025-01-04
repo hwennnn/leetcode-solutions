@@ -46,7 +46,7 @@ date: 2023-03-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='symmetric-tree'
 # Definition for a binary tree node.
 # class TreeNode:

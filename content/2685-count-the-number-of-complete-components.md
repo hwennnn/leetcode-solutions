@@ -60,7 +60,7 @@ date: 2023-05-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-the-number-of-complete-components'
 class DSU:
     def __init__(self, n):

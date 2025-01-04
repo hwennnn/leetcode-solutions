@@ -68,7 +68,7 @@ So the total number of operations for the second query is 2 + 4 + 1 + 3 = 10.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-operations-to-make-all-array-elements-equal'
 class Solution:
     def minOperations(self, nums: List[int], queries: List[int]) -> List[int]:

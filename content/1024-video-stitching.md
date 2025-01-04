@@ -67,7 +67,7 @@ Now we have segments [0,2] + [2,8] + [8,10] which cover the sporting event [0, 1
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='video-stitching'
 class Solution:
     def videoStitching(self, clips: List[List[int]], time: int) -> int:

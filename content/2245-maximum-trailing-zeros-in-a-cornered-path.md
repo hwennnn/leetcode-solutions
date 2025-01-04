@@ -67,7 +67,7 @@ There are no cornered paths in the grid that result in a product with a trailing
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-trailing-zeros-in-a-cornered-path'
 class Solution:
     def maxTrailingZeros(self, grid: List[List[int]]) -> int:

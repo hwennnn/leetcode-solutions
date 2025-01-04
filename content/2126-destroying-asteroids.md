@@ -58,7 +58,7 @@ This is less than 23, so a collision would not destroy the last asteroid.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='destroying-asteroids'
 class Solution:
     def asteroidsDestroyed(self, mass: int, asteroids: List[int]) -> bool:

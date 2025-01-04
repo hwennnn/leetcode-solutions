@@ -59,7 +59,7 @@ Note that the carpets are able to overlap one another.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-white-tiles-after-covering-with-carpets'
 class Solution:
     def minimumWhiteTiles(self, floor: str, numCarpets: int, carpetLen: int) -> int:

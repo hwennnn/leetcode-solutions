@@ -55,7 +55,7 @@ date: 2023-03-19
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-knight-tour-configuration'
 class Solution:
     def checkValidGrid(self, grid: List[List[int]]) -> bool:

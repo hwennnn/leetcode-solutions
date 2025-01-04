@@ -49,7 +49,7 @@ date: 2020-08-12
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='shuffle-string'
 class Solution:
     def restoreString(self, s: str, indices: List[int]) -> str:

@@ -56,7 +56,7 @@ The XOR sum = 0 XOR 1 XOR 2 XOR 0 XOR 2 XOR 1 = 0.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-xor-sum-of-all-pairs-bitwise-and'
 class Solution:
     def getXORSum(self, arr1: List[int], arr2: List[int]) -> int:

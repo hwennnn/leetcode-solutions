@@ -45,7 +45,7 @@ Hence return [3, 14.5, 11].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='average-of-levels-in-binary-tree'
 # Definition for a binary tree node.
 # class TreeNode:

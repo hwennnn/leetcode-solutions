@@ -59,7 +59,7 @@ The total cost to make all characters equal is 9. It can be shown that 9 is the 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-cost-to-make-all-characters-equal'
 class Solution:
     def minimumCost(self, s: str) -> int:

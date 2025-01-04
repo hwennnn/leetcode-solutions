@@ -156,7 +156,7 @@ date: 2024-06-09
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-child-who-has-the-ball-after-k-seconds'
 class Solution:
     def numberOfChild(self, n: int, k: int) -> int:

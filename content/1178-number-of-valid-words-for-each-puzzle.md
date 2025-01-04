@@ -65,7 +65,7 @@ There are no valid words for &quot;gaswxyz&quot; cause none of the words in the 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-valid-words-for-each-puzzle'
 class Solution:
     def findNumOfValidWords(self, words: List[str], puzzles: List[str]) -> List[int]:

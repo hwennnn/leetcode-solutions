@@ -42,7 +42,7 @@ Given a <strong>positive</strong> integer <code>n</code>, return <em>the smalles
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='smallest-even-multiple'
 class Solution:
     def smallestEvenMultiple(self, n: int) -> int:

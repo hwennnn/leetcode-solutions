@@ -61,7 +61,7 @@ So the total cost of this path is 5 + 1 = 6.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-path-cost-in-a-grid'
 class Solution:
     def minPathCost(self, grid: List[List[int]], moveCost: List[List[int]]) -> int:

@@ -65,7 +65,7 @@ Islands in gray are closed because they are completely surrounded by water (grou
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-closed-islands'
 class Solution:
     def closedIsland(self, grid: List[List[int]]) -> int:

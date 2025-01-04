@@ -61,7 +61,7 @@ date: 2023-08-23
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='next-greater-element-i'
 class Solution:
     def nextGreaterElement(self, nums1: List[int], nums2: List[int]) -> List[int]:

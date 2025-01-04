@@ -60,7 +60,7 @@ date: 2023-04-09
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='prime-in-diagonal'
 def build(n):
     primes = [True] * (n + 1)  # create a boolean list of all numbers from 0 to n, assume all are prime

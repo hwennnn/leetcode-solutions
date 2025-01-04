@@ -60,7 +60,7 @@ So the minimum number of operations is 3.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-operations-to-reduce-an-integer-to-0'
 class Solution:
     def minOperations(self, N: int) -> int:

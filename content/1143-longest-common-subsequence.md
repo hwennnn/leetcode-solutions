@@ -60,7 +60,7 @@ date: 2024-01-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-common-subsequence'
 class Solution:
     def longestCommonSubsequence(self, text1: str, text2: str) -> int:

@@ -61,7 +61,7 @@ g.shortestPath(0, 3); // return 6. The shortest path from 0 to 3 now is 0 -&gt; 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='design-graph-with-shortest-path-calculator'
 class Graph:
 

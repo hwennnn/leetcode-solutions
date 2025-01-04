@@ -70,7 +70,7 @@ date: 2024-11-08
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-xor-for-each-query'
 class Solution:
     def getMaximumXor(self, nums: List[int], maximumBit: int) -> List[int]:

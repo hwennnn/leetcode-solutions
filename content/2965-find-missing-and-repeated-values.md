@@ -51,7 +51,7 @@ date: 2023-12-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-missing-and-repeated-values'
 class Solution:
     def findMissingAndRepeatedValues(self, grid: List[List[int]]) -> List[int]:

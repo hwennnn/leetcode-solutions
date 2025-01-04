@@ -61,7 +61,7 @@ date: 2021-05-01
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='replace-all-digits-with-characters'
 class Solution:
     def replaceDigits(self, s: str) -> str:

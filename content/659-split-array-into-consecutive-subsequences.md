@@ -70,7 +70,7 @@ date: 2022-08-19
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='split-array-into-consecutive-subsequences'
 class Solution:
     def isPossible(self, nums: List[int]) -> bool:

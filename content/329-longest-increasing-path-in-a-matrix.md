@@ -61,7 +61,7 @@ date: 2022-05-19
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-increasing-path-in-a-matrix'
 class Solution:
     def longestIncreasingPath(self, matrix: List[List[int]]) -> int:

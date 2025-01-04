@@ -75,7 +75,7 @@ The sum of all the total strengths is 25 + 16 + 36 + 36 + 40 + 60 = 213.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sum-of-total-strength-of-wizards'
 class Solution:
     def totalStrength(self, A: List[int]) -> int:

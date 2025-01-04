@@ -59,7 +59,7 @@ date: 2024-03-11
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='custom-sort-string'
 class Solution:
     def customSortString(self, order: str, s: str) -> str:

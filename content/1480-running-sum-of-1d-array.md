@@ -51,7 +51,7 @@ date: 2022-07-08
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='running-sum-of-1d-array'
 class Solution:
     def runningSum(self, nums: List[int]) -> List[int]:

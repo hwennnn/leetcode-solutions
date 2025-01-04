@@ -65,7 +65,7 @@ date: 2021-04-15
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-increments-on-subarrays-to-form-a-target-array'
 class Solution:
     def minNumberOperations(self, target: List[int]) -> int:

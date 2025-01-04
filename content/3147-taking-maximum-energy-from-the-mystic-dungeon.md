@@ -87,7 +87,7 @@ date: 2024-05-12
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='taking-maximum-energy-from-the-mystic-dungeon'
 class Solution:
     def maximumEnergy(self, energy: List[int], k: int) -> int:

@@ -53,7 +53,7 @@ date: 2024-02-09
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='largest-divisible-subset'
 class Solution:
     def largestDivisibleSubset(self, nums: List[int]) -> List[int]:

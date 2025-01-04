@@ -75,7 +75,7 @@ date: 2023-12-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='difference-between-ones-and-zeros-in-row-and-column'
 class Solution:
     def onesMinusZeros(self, grid: List[List[int]]) -> List[List[int]]:

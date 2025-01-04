@@ -52,7 +52,7 @@ date: 2023-09-29
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='monotonic-array'
 class Solution:
     def isMonotonic(self, nums: List[int]) -> bool:

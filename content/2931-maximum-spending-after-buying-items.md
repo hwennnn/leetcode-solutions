@@ -81,7 +81,7 @@ It can be shown that 386 is the maximum amount of money that can be spent buying
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-spending-after-buying-items'
 class Solution:
     def maxSpending(self, values: List[List[int]]) -> int:

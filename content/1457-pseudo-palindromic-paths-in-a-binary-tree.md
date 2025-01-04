@@ -60,7 +60,7 @@ date: 2024-01-24
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='pseudo-palindromic-paths-in-a-binary-tree'
 # Definition for a binary tree node.
 # class TreeNode:

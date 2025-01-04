@@ -64,7 +64,7 @@ date: 2021-04-10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='equal-sum-arrays-with-minimum-number-of-operations'
 class Solution:
     def minOperations(self, nums1: List[int], nums2: List[int]) -> int:

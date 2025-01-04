@@ -75,7 +75,7 @@ public:
     }
 };
 ```
-### Python
+### Python3
 ``` py title='minimum-deletions-to-make-string-balanced'
 class Solution:
     def minimumDeletions(self, s: str) -> int:

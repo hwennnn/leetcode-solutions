@@ -59,7 +59,7 @@ date: 2021-09-12
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-pairs-of-interchangeable-rectangles'
 class Solution:
     def interchangeableRectangles(self, rectangles: List[List[int]]) -> int:

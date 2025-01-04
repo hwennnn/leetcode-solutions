@@ -56,7 +56,7 @@ Since not every customer received the correct change, the answer is false.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='lemonade-change'
 class Solution:
     def lemonadeChange(self, bills: List[int]) -> bool:

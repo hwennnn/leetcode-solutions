@@ -66,7 +66,7 @@ The total number of cherries picked up is 5, and this is the maximum possible.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='cherry-pickup'
 class Solution:
     def cherryPickup(self, grid: List[List[int]]) -> int:

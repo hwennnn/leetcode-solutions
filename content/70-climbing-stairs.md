@@ -51,7 +51,7 @@ date: 2024-01-21
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='climbing-stairs'
 class Solution:
     def climbStairs(self, n: int) -> int:

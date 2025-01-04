@@ -63,7 +63,7 @@ Total cost is 1.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-cost-to-move-chips-to-the-same-position'
 class Solution:
     def minCostToMoveChips(self, position: List[int]) -> int:

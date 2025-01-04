@@ -72,7 +72,7 @@ Since friend 0 sat on chair 2, we return 2.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='the-number-of-the-smallest-unoccupied-chair'
 class Solution:
     def smallestChair(self, times: List[List[int]], targetFriend: int) -> int:

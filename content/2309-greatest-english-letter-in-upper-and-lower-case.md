@@ -59,7 +59,7 @@ There is no letter that appears in both lower and upper case.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='greatest-english-letter-in-upper-and-lower-case'
 class Solution:
     def greatestLetter(self, s: str) -> str:

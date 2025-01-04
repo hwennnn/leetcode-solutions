@@ -62,7 +62,7 @@ i=3: 3 mod 10 = 3 != nums[3].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='smallest-index-with-equal-value'
 class Solution:
     def smallestEqual(self, nums: List[int]) -> int:

@@ -57,7 +57,7 @@ date: 2024-03-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-pivot-integer'
 class Solution:
     def pivotInteger(self, n: int) -> int:

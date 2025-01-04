@@ -58,7 +58,7 @@ Thus, we return 99.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-difference-by-remapping-a-digit'
 class Solution:
     def minMaxDifference(self, num: int) -> int:

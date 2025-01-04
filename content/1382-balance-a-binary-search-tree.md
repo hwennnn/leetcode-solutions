@@ -49,7 +49,7 @@ date: 2024-06-26
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='balance-a-binary-search-tree'
 # Definition for a binary tree node.
 # class TreeNode:

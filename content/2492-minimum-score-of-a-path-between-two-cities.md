@@ -65,7 +65,7 @@ It can be shown that no other path has less score.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-score-of-a-path-between-two-cities'
 class Solution:
     def minScore(self, N: int, roads: List[List[int]]) -> int:

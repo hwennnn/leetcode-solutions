@@ -49,7 +49,7 @@ If the divisor is 4 we can get a sum of 7 (1+1+2+3) and if the divisor is 5 the 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-smallest-divisor-given-a-threshold'
 class Solution:
     def smallestDivisor(self, nums: List[int], threshold: int) -> int:

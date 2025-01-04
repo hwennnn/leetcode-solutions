@@ -59,7 +59,7 @@ All sub-arrays have even sum and the answer is 0.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-sub-arrays-with-odd-sum'
 class Solution:
     def numOfSubarrays(self, arr: List[int]) -> int:

@@ -70,7 +70,7 @@ Thus we return [0] as the result.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-beautiful-indices-in-the-given-array-ii'
 def rabin_karp(s, t):
     p = 31

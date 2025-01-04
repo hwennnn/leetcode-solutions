@@ -79,7 +79,7 @@ date: 2021-05-03
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-adjacent-swaps-to-reach-the-kth-smallest-number'
 class Solution:
     def getMinSwaps(self, nums: str, k: int) -> int:

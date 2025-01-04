@@ -54,7 +54,7 @@ date: 2022-03-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='determine-whether-matrix-can-be-obtained-by-rotation'
 class Solution:
     def findRotation(self, mat: List[List[int]], target: List[List[int]]) -> bool:

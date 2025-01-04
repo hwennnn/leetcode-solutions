@@ -49,7 +49,7 @@ date: 2024-03-03
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-submatrices-with-top-left-element-and-sum-less-than-k'
 class Solution:
     def countSubmatrices(self, grid: List[List[int]], k: int) -> int:

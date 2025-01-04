@@ -72,7 +72,7 @@ Note that the last operation sets x out of the range 0 &lt;= x &lt;= 1000, which
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-operations-to-convert-number'
 class Solution:
     def minimumOperations(self, nums: List[int], start: int, goal: int) -> int:

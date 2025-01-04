@@ -71,7 +71,7 @@ Now sub = &quot;l33tb&quot; is a substring of s, so we return true.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='match-substring-after-replacement'
 class Solution:
     def matchReplacement(self, s: str, sub: str, mappings: List[List[str]]) -> bool:

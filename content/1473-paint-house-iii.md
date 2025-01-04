@@ -76,7 +76,7 @@ Cost of paint the first and last house (10 + 1) = 11.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='paint-house-iii'
 class Solution:
     def minCost(self, houses: List[int], cost: List[List[int]], m: int, n: int, target: int) -> int:

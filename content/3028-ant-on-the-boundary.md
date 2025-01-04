@@ -69,7 +69,7 @@ The ant never returned to the boundary, so the answer is 0.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='ant-on-the-boundary'
 class Solution:
     def returnToBoundaryCount(self, nums: List[int]) -> int:

@@ -52,7 +52,7 @@ date: 2023-09-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-pairs-of-points-with-distance-k'
 class Solution:
     def countPairs(self, coordinates: List[List[int]], k: int) -> int:

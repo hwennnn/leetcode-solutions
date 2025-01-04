@@ -49,7 +49,7 @@ date: 2024-01-07
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='smallest-missing-integer-greater-than-sequential-prefix-sum'
 class Solution:
     def missingInteger(self, nums: List[int]) -> int:

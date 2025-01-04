@@ -71,7 +71,7 @@ Since all subarrays are distinct, the total number of subarrays satisfying all t
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='k-divisible-elements-subarrays'
 class Solution:
     def countDistinct(self, nums: List[int], k: int, p: int) -> int:

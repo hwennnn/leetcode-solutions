@@ -81,7 +81,7 @@ Note that there can be other ways to make the array K-increasing, but none of th
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-operations-to-make-the-array-k-increasing'
 class Solution:
     def kIncreasing(self, arr: List[int], k: int) -> int:

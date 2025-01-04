@@ -47,7 +47,7 @@ date: 2023-09-03
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-symmetric-integers'
 class Solution:
     def countSymmetricIntegers(self, low: int, high: int) -> int:

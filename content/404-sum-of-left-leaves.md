@@ -47,7 +47,7 @@ date: 2024-04-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sum-of-left-leaves'
 # Definition for a binary tree node.
 # class TreeNode:

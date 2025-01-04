@@ -72,7 +72,7 @@ Note that the frog can jump over obstacles only when making side jumps (as shown
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-sideway-jumps'
 class Solution:
     def minSideJumps(self, obs: List[int]) -> int:

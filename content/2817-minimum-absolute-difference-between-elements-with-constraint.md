@@ -66,7 +66,7 @@ It can be shown that 3 is the optimal answer.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-absolute-difference-between-elements-with-constraint'
 from sortedcontainers import SortedList
 

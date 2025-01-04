@@ -61,7 +61,7 @@ Two of them (both equal to &quot;10301&quot;) are palindromic.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-palindromic-subsequences'
 class Solution:
     def countPalindromes(self, s: str) -> int:

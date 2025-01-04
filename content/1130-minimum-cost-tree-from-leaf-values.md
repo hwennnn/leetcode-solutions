@@ -58,7 +58,7 @@ The first has a non-leaf node sum 36, and the second has non-leaf node sum 32.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-cost-tree-from-leaf-values'
 class Solution:
     def mctFromLeafValues(self, arr: List[int]) -> int:

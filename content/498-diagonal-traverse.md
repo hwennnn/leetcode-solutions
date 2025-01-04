@@ -46,7 +46,7 @@ date: 2020-12-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='diagonal-traverse'
 class Solution:
     def findDiagonalOrder(self, matrix: List[List[int]]) -> List[int]:

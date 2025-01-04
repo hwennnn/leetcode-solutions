@@ -75,7 +75,7 @@ public:
     }
 };
 ```
-### Python
+### Python3
 ``` py title='number-of-times-binary-string-is-prefix-aligned'
 class Solution:
     def numTimesAllBlue(self, light: List[int]) -> int:

@@ -54,7 +54,7 @@ After adding 2 to nums[3], the array is [-2,-1,3,6], and the sum of even values 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sum-of-even-numbers-after-queries'
 class Solution:
     def sumEvenAfterQueries(self, nums: List[int], queries: List[List[int]]) -> List[int]:

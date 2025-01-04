@@ -61,7 +61,7 @@ The visible sticks are underlined.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-ways-to-rearrange-sticks-with-k-sticks-visible'
 class Solution:
     @cache

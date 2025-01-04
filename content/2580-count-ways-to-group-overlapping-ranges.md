@@ -71,7 +71,7 @@ Thus, there are four possible ways to group them:
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-ways-to-group-overlapping-ranges'
 class Solution:
     def countWays(self, ranges: List[List[int]]) -> int:

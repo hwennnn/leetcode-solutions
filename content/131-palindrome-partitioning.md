@@ -36,7 +36,7 @@ date: 2024-05-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='palindrome-partitioning'
 class Solution:
     def partition(self, s: str) -> List[List[str]]:

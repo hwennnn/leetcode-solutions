@@ -63,7 +63,7 @@ date: 2024-08-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='coin-change-ii'
 class Solution:
     def change(self, amount: int, coins: List[int]) -> int:

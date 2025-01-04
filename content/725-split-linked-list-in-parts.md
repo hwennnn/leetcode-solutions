@@ -53,7 +53,7 @@ The input has been split into consecutive parts with size difference at most 1, 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='split-linked-list-in-parts'
 # Definition for singly-linked list.
 # class ListNode:

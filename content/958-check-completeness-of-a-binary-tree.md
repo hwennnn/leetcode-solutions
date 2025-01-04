@@ -47,7 +47,7 @@ date: 2023-03-15
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-completeness-of-a-binary-tree'
 # Definition for a binary tree node.
 # class TreeNode:

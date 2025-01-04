@@ -71,7 +71,7 @@ It can be proven that 1 is the maximum number of pairs that can be formed.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-maximum-number-of-string-pairs'
 class Solution:
     def maximumNumberOfStringPairs(self, words: List[str]) -> int:

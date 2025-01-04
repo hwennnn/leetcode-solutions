@@ -63,7 +63,7 @@ The third distinct maximum is 1.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='third-maximum-number'
 class Solution:
     def thirdMax(self, nums: List[int]) -> int:

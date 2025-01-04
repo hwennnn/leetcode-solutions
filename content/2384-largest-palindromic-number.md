@@ -59,7 +59,7 @@ Note that the integer returned should not contain leading zeroes.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='largest-palindromic-number'
 class Solution:
     def largestPalindromic(self, num: str) -> str:

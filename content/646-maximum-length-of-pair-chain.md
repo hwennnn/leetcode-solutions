@@ -53,7 +53,7 @@ date: 2020-08-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-length-of-pair-chain'
 class Solution:
     def findLongestChain(self, pairs: List[List[int]]) -> int:

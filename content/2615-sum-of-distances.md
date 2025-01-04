@@ -56,7 +56,7 @@ When i = 4, arr[4] = 0 because there is no other index with value 2.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sum-of-distances'
 class Solution:
     def distance(self, nums: List[int]) -> List[int]:

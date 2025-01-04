@@ -66,7 +66,7 @@ date: 2022-10-23
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='determine-if-two-events-have-conflict'
 class Solution:
     def haveConflict(self, event1: List[str], event2: List[str]) -> bool:

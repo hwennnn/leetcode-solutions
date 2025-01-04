@@ -63,7 +63,7 @@ It can be shown that 170 is the smallest possible value.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimize-result-by-adding-parentheses-to-expression'
 class Solution:
     def minimizeResult(self, expression: str) -> str:

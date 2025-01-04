@@ -59,7 +59,7 @@ date: 2024-08-10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='regions-cut-by-slashes'
 class Solution:
     def regionsBySlashes(self, grid: List[str]) -> int:

@@ -59,7 +59,7 @@ So team 1 will be the champion.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-champion-i'
 class Solution:
     def findChampion(self, grid: List[List[int]]) -> int:

@@ -50,7 +50,7 @@ date: 2020-12-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='balanced-binary-tree'
 # Definition for a binary tree node.
 # class TreeNode:

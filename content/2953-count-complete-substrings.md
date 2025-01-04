@@ -57,7 +57,7 @@ date: 2023-12-04
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-complete-substrings'
 class Solution:
     def countCompleteSubstrings(self, word: str, k: int) -> int:

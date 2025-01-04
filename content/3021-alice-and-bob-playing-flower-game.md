@@ -60,7 +60,7 @@ date: 2024-01-28
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='alice-and-bob-playing-flower-game'
 class Solution:
     def flowerGame(self, n: int, m: int) -> int:

@@ -72,7 +72,7 @@ It can be proven that there is no other jumping sequence that goes from 0 to n -
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-number-of-jumps-to-reach-the-last-index'
 class Solution:
     def maximumJumps(self, nums: List[int], target: int) -> int:

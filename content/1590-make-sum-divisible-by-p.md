@@ -58,7 +58,7 @@ date: 2024-10-03
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='make-sum-divisible-by-p'
 class Solution:
     def minSubarray(self, nums: List[int], p: int) -> int:

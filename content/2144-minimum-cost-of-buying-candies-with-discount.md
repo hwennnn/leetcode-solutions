@@ -70,7 +70,7 @@ Hence, the minimum cost to buy all candies is 5 + 5 = 10.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-cost-of-buying-candies-with-discount'
 class Solution:
     def minimumCost(self, cost: List[int]) -> int:

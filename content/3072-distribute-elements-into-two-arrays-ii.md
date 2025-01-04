@@ -79,7 +79,7 @@ Hence, the array result formed by concatenation is [3,3,3,3].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='distribute-elements-into-two-arrays-ii'
 from sortedcontainers import SortedList
 

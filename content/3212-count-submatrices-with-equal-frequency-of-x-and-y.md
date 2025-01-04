@@ -71,7 +71,7 @@ date: 2024-07-12
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-submatrices-with-equal-frequency-of-x-and-y'
 class Solution:
     def numberOfSubmatrices(self, grid: List[List[str]]) -> int:

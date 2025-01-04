@@ -58,7 +58,7 @@ On the 2<sup>nd</sup> move, we step from 1 to 3 (2 steps).
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='reach-a-number'
 class Solution:
     def reachNumber(self, target: int) -> int:

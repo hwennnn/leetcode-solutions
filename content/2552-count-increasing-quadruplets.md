@@ -58,7 +58,7 @@ There are no other quadruplets, so we return 2.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-increasing-quadruplets'
 class Solution:
     def countQuadruplets(self, nums: List[int]) -> int:

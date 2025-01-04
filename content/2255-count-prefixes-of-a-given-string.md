@@ -52,7 +52,7 @@ Note that the same string can occur multiple times in words, and it should be co
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-prefixes-of-a-given-string'
 class Solution:
     def countPrefixes(self, words: List[str], s: str) -> int:

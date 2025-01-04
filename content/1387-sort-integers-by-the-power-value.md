@@ -91,7 +91,7 @@ public:
     }
 };
 ```
-### Python
+### Python3
 ``` py title='sort-integers-by-the-power-value'
 class Solution:
     def getKth(self, lo, hi, k):

@@ -61,7 +61,7 @@ date: 2023-06-23
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-arithmetic-subsequence'
 class Solution:
     def longestArithSeqLength(self, nums: List[int]) -> int:

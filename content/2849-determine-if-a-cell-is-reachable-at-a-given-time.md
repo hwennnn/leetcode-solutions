@@ -49,7 +49,7 @@ date: 2023-11-08
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='determine-if-a-cell-is-reachable-at-a-given-time'
 class Solution:
     def isReachableAtTime(self, sx: int, sy: int, fx: int, fy: int, t: int) -> bool:

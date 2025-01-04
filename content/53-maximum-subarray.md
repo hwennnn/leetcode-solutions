@@ -56,7 +56,7 @@ date: 2024-08-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-subarray'
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:

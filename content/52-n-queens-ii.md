@@ -43,7 +43,7 @@ date: 2022-06-05
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='n-queens-ii'
 class Solution:
     def totalNQueens(self, n: int) -> int:

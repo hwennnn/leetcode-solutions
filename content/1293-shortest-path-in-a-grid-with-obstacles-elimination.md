@@ -53,7 +53,7 @@ The shortest path with one obstacle elimination at position (3,2) is 6. Such pat
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='shortest-path-in-a-grid-with-obstacles-elimination'
 class Solution:
     def shortestPath(self, grid: List[List[int]], k: int) -> int:

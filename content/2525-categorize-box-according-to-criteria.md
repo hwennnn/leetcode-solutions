@@ -66,7 +66,7 @@ Since its neither of the two above categories, we return &quot;Neither&quot;.</p
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='categorize-box-according-to-criteria'
 class Solution:
     def categorizeBox(self, length: int, width: int, height: int, mass: int) -> str:

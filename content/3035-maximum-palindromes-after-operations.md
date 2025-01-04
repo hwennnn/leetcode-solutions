@@ -75,7 +75,7 @@ Hence, the answer is 1.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-palindromes-after-operations'
 class Solution:
     def maxPalindromesAfterOperations(self, words: List[str]) -> int:

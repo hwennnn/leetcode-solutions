@@ -57,7 +57,7 @@ Note that &quot;i&quot; comes before &quot;love&quot; due to a lower alphabetica
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='top-k-frequent-words'
 class Word:
     def __init__(self, word, freq):

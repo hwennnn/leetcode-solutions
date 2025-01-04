@@ -52,7 +52,7 @@ date: 2022-05-24
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-valid-parentheses'
 class Solution:
     def longestValidParentheses(self, s: str) -> int:

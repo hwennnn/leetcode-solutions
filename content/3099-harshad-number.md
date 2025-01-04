@@ -50,7 +50,7 @@ date: 2024-03-31
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='harshad-number'
 class Solution:
     def sumOfTheDigitsOfHarshadNumber(self, x: int) -> int:

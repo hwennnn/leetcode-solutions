@@ -86,7 +86,7 @@ date: 2023-11-27
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='matrix-similarity-after-cyclic-shifts'
 class Solution:
     def areSimilar(self, mat: List[List[int]], k: int) -> bool:

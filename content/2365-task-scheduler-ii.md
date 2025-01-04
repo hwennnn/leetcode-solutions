@@ -76,7 +76,7 @@ It can be shown that the tasks cannot be completed in less than 6 days.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='task-scheduler-ii'
 class Solution:
     def taskSchedulerII(self, tasks: List[int], space: int) -> int:

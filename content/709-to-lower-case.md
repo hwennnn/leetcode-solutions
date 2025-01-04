@@ -48,7 +48,7 @@ date: 2019-10-07
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='to-lower-case'
 class Solution:
     def toLowerCase(self, s: str) -> str:

@@ -60,7 +60,7 @@ The array answer is [|0 - 0|] = [0].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='left-and-right-sum-differences'
 class Solution:
     def leftRigthDifference(self, nums: List[int]) -> List[int]:

@@ -69,7 +69,7 @@ Since s3 can be obtained by interleaving s1 and s2, we return true.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='interleaving-string'
 class Solution:
     def isInterleave(self, s1: str, s2: str, s3: str) -> bool:

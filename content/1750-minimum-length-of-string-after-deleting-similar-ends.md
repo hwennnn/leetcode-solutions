@@ -67,7 +67,7 @@ date: 2024-03-05
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-length-of-string-after-deleting-similar-ends'
 class Solution:
     def minimumLength(self, s: str) -> int:

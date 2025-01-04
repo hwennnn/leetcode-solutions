@@ -62,7 +62,7 @@ date: 2023-03-19
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-even-and-odd-bits'
 class Solution:
     def evenOddBit(self, n: int) -> List[int]:

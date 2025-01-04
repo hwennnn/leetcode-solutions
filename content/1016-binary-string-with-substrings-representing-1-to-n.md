@@ -37,7 +37,7 @@ date: 2022-01-15
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='binary-string-with-substrings-representing-1-to-n'
 class Solution:
     def queryString(self, s: str, n: int) -> bool:

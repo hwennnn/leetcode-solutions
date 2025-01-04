@@ -54,7 +54,7 @@ date: 2020-10-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-substrings-containing-all-three-characters'
 class Solution:
     def numberOfSubstrings(self, s: str) -> int:

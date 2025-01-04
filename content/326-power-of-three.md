@@ -55,7 +55,7 @@ date: 2022-08-24
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='power-of-three'
 class Solution:
     def isPowerOfThree(self, n: int) -> bool:

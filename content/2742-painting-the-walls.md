@@ -53,7 +53,7 @@ date: 2023-10-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='painting-the-walls'
 class Solution:
     def paintWalls(self, cost: List[int], time: List[int]) -> int:

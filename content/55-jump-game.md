@@ -47,7 +47,7 @@ date: 2022-12-26
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='jump-game'
 class Solution:
     def canJump(self, nums: List[int]) -> bool:

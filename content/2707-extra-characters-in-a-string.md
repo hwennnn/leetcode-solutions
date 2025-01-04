@@ -53,7 +53,7 @@ date: 2025-01-01
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='extra-characters-in-a-string'
 class Solution:
     def minExtraChar(self, s: str, dictionary: List[str]) -> int:

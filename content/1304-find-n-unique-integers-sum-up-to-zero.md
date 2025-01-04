@@ -49,7 +49,7 @@ date: 2020-12-27
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-n-unique-integers-sum-up-to-zero'
 class Solution:
     def sumZero(self, n: int) -> List[int]:

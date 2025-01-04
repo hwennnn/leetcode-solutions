@@ -65,7 +65,7 @@ After the second operation, nums is sorted in strictly increasing order, so the 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='prime-subtraction-operation'
 def generate_primes(n):
     """

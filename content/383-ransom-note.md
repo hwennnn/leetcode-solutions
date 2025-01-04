@@ -41,7 +41,7 @@ date: 2022-08-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='ransom-note'
 class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:

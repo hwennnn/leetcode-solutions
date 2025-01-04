@@ -57,7 +57,7 @@ date: 2021-12-20
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-absolute-difference'
 class Solution:
     def minimumAbsDifference(self, arr: List[int]) -> List[List[int]]:

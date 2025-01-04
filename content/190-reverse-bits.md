@@ -53,7 +53,7 @@ date: 2021-10-01
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='reverse-bits'
 class Solution:
     def reverseBits(self, n: int) -> int:

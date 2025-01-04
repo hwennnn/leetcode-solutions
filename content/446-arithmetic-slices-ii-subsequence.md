@@ -66,7 +66,7 @@ date: 2024-01-09
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='arithmetic-slices-ii-subsequence'
 class Solution:
     def numberOfArithmeticSlices(self, nums: List[int]) -> int:

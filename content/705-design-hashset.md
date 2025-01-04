@@ -59,7 +59,7 @@ myHashSet.contains(2); // return False, (already removed)</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='design-hashset'
 class MyHashSet:
 

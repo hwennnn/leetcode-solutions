@@ -65,7 +65,7 @@ Note that &quot;ll&quot; is another longest palindrome that can be created, and 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-palindrome-by-concatenating-two-letter-words'
 class Solution:
     def longestPalindrome(self, words: List[str]) -> int:

@@ -64,7 +64,7 @@ No cars will collide with each other. Thus, the total number of collisions that 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-collisions-on-a-road'
 class Solution:
     def countCollisions(self, A: str) -> int:

@@ -56,7 +56,7 @@ Thus, the total cost will become (1 + 5 + 1 + 5 + 1) = 13. We can prove that thi
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='collecting-chocolates'
 class Solution:
     def minCost(self, nums: List[int], x: int) -> int:

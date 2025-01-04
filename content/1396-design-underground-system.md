@@ -108,7 +108,7 @@ undergroundSystem.getAverageTime(&quot;Leyton&quot;, &quot;Paradise&quot;); // r
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='design-underground-system'
 class UndergroundSystem:
 

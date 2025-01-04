@@ -38,7 +38,7 @@ date: 2019-10-09
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='subsets-ii'
 class Solution:
     def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:

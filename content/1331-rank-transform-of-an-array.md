@@ -59,7 +59,7 @@ date: 2025-01-01
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='rank-transform-of-an-array'
 class Solution:
     def arrayRankTransform(self, arr: List[int]) -> List[int]:

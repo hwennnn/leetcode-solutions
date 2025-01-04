@@ -47,7 +47,7 @@ date: 2022-04-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='search-in-a-binary-search-tree'
 # Definition for a binary tree node.
 # class TreeNode:

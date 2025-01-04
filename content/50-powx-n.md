@@ -53,7 +53,7 @@ date: 2023-07-24
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='powx-n'
 class Solution:
     def myPow(self, x: float, n: int) -> float:

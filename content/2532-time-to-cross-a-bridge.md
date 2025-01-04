@@ -91,7 +91,7 @@ The whole process ends after 7 minutes. We return 6 because the problem asks for
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='time-to-cross-a-bridge'
 class Solution:
     def findCrossingTime(self, n: int, k: int, time: List[List[int]]) -> int:

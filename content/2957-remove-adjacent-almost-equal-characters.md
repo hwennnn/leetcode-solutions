@@ -61,7 +61,7 @@ It can be shown that the minimum number of operations needed to remove all adjac
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='remove-adjacent-almost-equal-characters'
 class Solution:
     def removeAlmostEqualCharacters(self, word: str) -> int:

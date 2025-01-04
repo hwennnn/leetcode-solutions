@@ -75,7 +75,7 @@ We made 5 calls to master.guess, and one of them was the secret, so we pass the 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='guess-the-word'
 # """
 # This is Master's API interface.

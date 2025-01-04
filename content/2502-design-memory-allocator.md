@@ -75,7 +75,7 @@ loc.freeMemory(7); // Free all memory units with mID 7. The memory array remains
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='design-memory-allocator'
 class Allocator:
 

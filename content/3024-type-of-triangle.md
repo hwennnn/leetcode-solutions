@@ -58,7 +58,7 @@ As all the sides are of different lengths, it will form a scalene triangle.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='type-of-triangle'
 class Solution:
     def triangleType(self, nums: List[int]) -> str:

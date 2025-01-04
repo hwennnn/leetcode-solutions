@@ -50,7 +50,7 @@ date: 2020-11-07
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='angle-between-hands-of-a-clock'
 class Solution:
     def angleClock(self, hour: int, minutes: int) -> float:

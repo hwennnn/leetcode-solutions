@@ -83,7 +83,7 @@ date: 2024-02-04
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-grid-of-region-average'
 class Solution:
     def resultGrid(self, image: List[List[int]], threshold: int) -> List[List[int]]:

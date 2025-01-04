@@ -58,7 +58,7 @@ date: 2021-01-02
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='replace-the-substring-for-balanced-string'
 class Solution:
     def balancedString(self, s: str) -> int:

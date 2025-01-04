@@ -61,7 +61,7 @@ Note that (2, 0, 4) is not a valid triplet because 2 &gt; 0.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-unequal-triplets-in-array'
 class Solution:
     def unequalTriplets(self, nums: List[int]) -> int:

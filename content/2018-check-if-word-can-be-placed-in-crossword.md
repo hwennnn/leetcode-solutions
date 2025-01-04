@@ -67,7 +67,7 @@ date: 2021-09-30
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-if-word-can-be-placed-in-crossword'
 class Solution:
     def placeWordInCrossword(self, board: List[List[str]], word: str) -> bool:

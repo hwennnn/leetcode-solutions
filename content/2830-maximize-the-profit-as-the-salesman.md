@@ -62,7 +62,7 @@ It can be proven that 10 is the maximum amount of gold we can achieve.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximize-the-profit-as-the-salesman'
 class Solution:
     def maximizeTheProfit(self, n: int, A: List[List[int]]) -> int:

@@ -123,7 +123,7 @@ public:
 };
 
 ```
-### Python
+### Python3
 ``` py title='maximum-number-of-groups-with-increasing-length'
 class Solution:
     def maxIncreasingGroups(self, usageLimits: List[int]) -> int:

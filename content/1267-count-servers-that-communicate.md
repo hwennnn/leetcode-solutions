@@ -66,7 +66,7 @@ Return the number of servers&nbsp;that communicate with any other server.</p>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-servers-that-communicate'
 class Solution:
     def countServers(self, grid: List[List[int]]) -> int:

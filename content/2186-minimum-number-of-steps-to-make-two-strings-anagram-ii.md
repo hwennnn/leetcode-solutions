@@ -54,7 +54,7 @@ It can be shown that there is no way to make them anagrams of each other with le
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-steps-to-make-two-strings-anagram-ii'
 class Solution:
     def minSteps(self, s: str, t: str) -> int:

@@ -57,7 +57,7 @@ date: 2021-07-19
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-number-of-words-you-can-type'
 class Solution:
     def canBeTypedWords(self, text: str, letters: str) -> int:

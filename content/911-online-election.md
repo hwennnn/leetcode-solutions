@@ -64,7 +64,7 @@ topVotedCandidate.q(8); // return 1
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='online-election'
 class TopVotedCandidate:
 

@@ -48,7 +48,7 @@ date: 2024-06-27
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-center-of-star-graph'
 class Solution:
     def findCenter(self, edges: List[List[int]]) -> int:

@@ -68,7 +68,7 @@ The sum of the happiness values of the selected children is 5.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximize-happiness-of-selected-children'
 class Solution:
     def maximumHappinessSum(self, happiness: List[int], k: int) -> int:

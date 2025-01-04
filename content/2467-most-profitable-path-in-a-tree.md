@@ -90,7 +90,7 @@ Thus, Alice opens the gate at node 0 only. Hence, her net income is -7280.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='most-profitable-path-in-a-tree'
 class Solution:
     def mostProfitablePath(self, edges: List[List[int]], bob: int, amount: List[int]) -> int:

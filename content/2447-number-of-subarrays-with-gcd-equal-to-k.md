@@ -53,7 +53,7 @@ date: 2022-10-23
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-subarrays-with-gcd-equal-to-k'
 class Solution:
     def subarrayGCD(self, nums: List[int], k: int) -> int:

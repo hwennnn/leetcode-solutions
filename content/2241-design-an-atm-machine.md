@@ -74,7 +74,7 @@ atm.withdraw(550);        // Returns [0,1,0,0,1]. The machine uses 1 $50 banknot
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='design-an-atm-machine'
 class ATM:
 

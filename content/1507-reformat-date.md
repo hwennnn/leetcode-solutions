@@ -61,7 +61,7 @@ date: 2020-10-12
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='reformat-date'
 class Solution:
     def reformatDate(self, date: str) -> str:

@@ -58,7 +58,7 @@ date: 2022-10-16
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-valid-clock-times'
 class Solution:
     def countTime(self, time: str) -> int:

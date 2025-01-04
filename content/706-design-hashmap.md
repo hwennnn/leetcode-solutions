@@ -61,7 +61,7 @@ myHashMap.get(2);    // return -1 (i.e., not found), The map is now [[1,1]]
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='design-hashmap'
 class MyHashMap:
 

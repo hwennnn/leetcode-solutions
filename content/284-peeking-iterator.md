@@ -62,7 +62,7 @@ peekingIterator.hasNext(); // return False
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='peeking-iterator'
 # Below is the interface for Iterator, which is already defined for you.
 #

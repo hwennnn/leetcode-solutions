@@ -66,7 +66,7 @@ They share a common elements nums[4] (0-indexed).
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='form-array-by-concatenating-subarrays-of-another-array'
 class Solution:
     def canChoose(self, groups: List[List[int]], nums: List[int]) -> bool:

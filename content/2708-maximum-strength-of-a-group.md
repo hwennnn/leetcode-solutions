@@ -51,7 +51,7 @@ date: 2023-05-30
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-strength-of-a-group'
 class Solution:
     def maxStrength(self, nums: List[int]) -> int:

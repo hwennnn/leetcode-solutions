@@ -61,7 +61,7 @@ date: 2020-09-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-non-negative-product-in-a-matrix'
 class Solution:
     def maxProductPath(self, A: List[List[int]]) -> int:

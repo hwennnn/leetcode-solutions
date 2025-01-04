@@ -68,7 +68,7 @@ date: 2022-03-10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-jumps-to-reach-home'
 class Solution:
     def minimumJumps(self, forbidden: List[int], a: int, b: int, x: int) -> int:

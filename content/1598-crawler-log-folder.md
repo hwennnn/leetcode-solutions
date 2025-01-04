@@ -72,7 +72,7 @@ date: 2024-07-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='crawler-log-folder'
 class Solution:
     def minOperations(self, logs: List[str]) -> int:

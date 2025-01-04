@@ -52,7 +52,7 @@ It can be proven that 8 is the minimum number of minutes needed.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='take-k-of-each-character-from-left-and-right'
 class Solution:
     def takeCharacters(self, s: str, target: int) -> int:

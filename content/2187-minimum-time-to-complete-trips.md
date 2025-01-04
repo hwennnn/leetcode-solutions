@@ -57,7 +57,7 @@ So the minimum time needed to complete 1 trip is 2.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-time-to-complete-trips'
 class Solution:
     def minimumTime(self, time: List[int], totalTrips: int) -> int:

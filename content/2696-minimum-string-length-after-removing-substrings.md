@@ -55,7 +55,7 @@ It can be shown that it is the minimum length that we can obtain.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-string-length-after-removing-substrings'
 class Solution:
     def minLength(self, s: str) -> int:

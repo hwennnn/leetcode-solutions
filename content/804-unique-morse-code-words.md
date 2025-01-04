@@ -69,7 +69,7 @@ There are 2 different transformations: &quot;--...-.&quot; and &quot;--...--.&qu
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='unique-morse-code-words'
 table = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."]
 

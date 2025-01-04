@@ -52,7 +52,7 @@ date: 2023-11-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-xor-with-an-element-from-array'
 class Solution:
     def maximizeXor(self, nums: List[int], queries: List[List[int]]) -> List[int]:

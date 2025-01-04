@@ -56,7 +56,7 @@ date: 2024-05-11
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-cost-to-hire-k-workers'
 class Solution:
     def mincostToHireWorkers(self, quality: List[int], wage: List[int], k: int) -> float:

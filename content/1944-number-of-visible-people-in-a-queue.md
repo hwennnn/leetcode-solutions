@@ -58,7 +58,7 @@ Person 5 can see no one since nobody is to the right of them.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-visible-people-in-a-queue'
 class Solution:
     def canSeePersonsCount(self, A: List[int]) -> List[int]:

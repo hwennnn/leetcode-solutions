@@ -48,7 +48,7 @@ date: 2022-05-12
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='root-equals-sum-of-children'
 # Definition for a binary tree node.
 # class TreeNode:

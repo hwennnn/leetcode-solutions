@@ -77,7 +77,7 @@ So, answer[2] = 1.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-edge-reversals-so-every-node-is-reachable'
 class Solution:
     def minEdgeReversals(self, n: int, edges: List[List[int]]) -> List[int]:

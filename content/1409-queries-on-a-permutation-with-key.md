@@ -64,7 +64,7 @@ Therefore, the array containing the result is [2,1,2,1].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='queries-on-a-permutation-with-key'
 class Solution:
     def processQueries(self, queries: List[int], m: int) -> List[int]:

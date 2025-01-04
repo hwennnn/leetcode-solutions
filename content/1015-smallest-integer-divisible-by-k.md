@@ -55,7 +55,7 @@ date: 2022-01-15
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='smallest-integer-divisible-by-k'
 class Solution:
     def smallestRepunitDivByK(self, k: int) -> int:

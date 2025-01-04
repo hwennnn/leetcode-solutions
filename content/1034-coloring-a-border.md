@@ -54,7 +54,7 @@ date: 2021-09-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='coloring-a-border'
 class Solution:
     def colorBorder(self, grid, row, col, color):

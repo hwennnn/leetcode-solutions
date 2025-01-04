@@ -81,7 +81,7 @@ date: 2024-03-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='replace-question-marks-in-string-to-minimize-its-value'
 class Solution:
     def minimizeStringValue(self, s: str) -> str:

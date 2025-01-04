@@ -51,7 +51,7 @@ date: 2020-12-27
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='replace-elements-with-greatest-element-on-right-side'
 class Solution:
     def replaceElements(self, A: List[int]) -> List[int]:

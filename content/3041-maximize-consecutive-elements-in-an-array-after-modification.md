@@ -52,7 +52,7 @@ It can be shown that we cannot select more than 3 consecutive elements.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximize-consecutive-elements-in-an-array-after-modification'
 class Solution:
     def maxSelectedElements(self, nums: List[int]) -> int:

@@ -57,7 +57,7 @@ You earn a total of 9 points.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='delete-and-earn'
 class Solution:
     def deleteAndEarn(self, nums: List[int]) -> int:

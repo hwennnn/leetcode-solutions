@@ -64,7 +64,7 @@ date: 2024-08-20
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='stone-game-ii'
 class Solution:
     def stoneGameII(self, piles: List[int]) -> int:

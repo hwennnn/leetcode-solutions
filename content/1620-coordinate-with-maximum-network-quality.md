@@ -76,7 +76,7 @@ No other coordinate has a higher network quality.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='coordinate-with-maximum-network-quality'
 class Solution:
     def bestCoordinate(self, towers: List[List[int]], radius: int) -> List[int]:

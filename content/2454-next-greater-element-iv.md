@@ -71,7 +71,7 @@ We return [-1,-1] since neither integer has any integer greater than it.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='next-greater-element-iv'
 class Solution:
     def secondGreaterElement(self, nums: List[int]) -> List[int]:

@@ -58,7 +58,7 @@ Therefore, we return 0.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-recolors-to-get-k-consecutive-black-blocks'
 class Solution:
     def minimumRecolors(self, blocks: str, k: int) -> int:

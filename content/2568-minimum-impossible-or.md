@@ -49,7 +49,7 @@ date: 2023-02-26
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-impossible-or'
 class Solution:
     def minImpossibleOR(self, nums: List[int]) -> int:

@@ -60,7 +60,7 @@ No two adjacent strings in words are anagrams of each other, so no operations ar
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-resultant-array-after-removing-anagrams'
 class Solution:
     def removeAnagrams(self, words: List[str]) -> List[str]:

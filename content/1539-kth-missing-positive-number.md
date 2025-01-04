@@ -53,7 +53,7 @@ date: 2023-03-06
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='kth-missing-positive-number'
 class Solution:
     def findKthPositive(self, arr: List[int], k: int) -> int:

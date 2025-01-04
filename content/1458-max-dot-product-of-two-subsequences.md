@@ -56,7 +56,7 @@ Their dot product is -1.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='max-dot-product-of-two-subsequences'
 class Solution:
     def maxDotProduct(self, nums1: List[int], nums2: List[int]) -> int:

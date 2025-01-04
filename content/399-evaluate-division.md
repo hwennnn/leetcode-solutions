@@ -73,7 +73,7 @@ note: x is undefined =&gt; -1.0</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='evaluate-division'
 class Solution:
     def calcEquation(self, equations: List[List[str]], values: List[float], queries: List[List[str]]) -> List[float]:

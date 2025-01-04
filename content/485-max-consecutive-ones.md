@@ -42,7 +42,7 @@ date: 2021-09-21
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='max-consecutive-ones'
 class Solution:
     def findMaxConsecutiveOnes(self, nums: List[int]) -> int:

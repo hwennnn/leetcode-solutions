@@ -55,7 +55,7 @@ date: 2022-02-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='powerful-integers'
 class Solution:
     def powerfulIntegers(self, x: int, y: int, bound: int) -> List[int]:

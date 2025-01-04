@@ -59,7 +59,7 @@ For nums[4]=3 there exist three smaller numbers than it (1, 2 and 2).
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='how-many-numbers-are-smaller-than-the-current-number'
 class Solution:
     def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:

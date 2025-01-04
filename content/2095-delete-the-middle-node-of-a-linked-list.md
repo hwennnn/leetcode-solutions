@@ -65,7 +65,7 @@ Node 0 with value 2 is the only node remaining after removing node 1.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='delete-the-middle-node-of-a-linked-list'
 # Definition for singly-linked list.
 # class ListNode:

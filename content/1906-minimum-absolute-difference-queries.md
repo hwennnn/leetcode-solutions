@@ -72,7 +72,7 @@ date: 2021-06-20
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-absolute-difference-queries'
 class Solution:
     def minDifference(self, nums: List[int], queries: List[List[int]]) -> List[int]:

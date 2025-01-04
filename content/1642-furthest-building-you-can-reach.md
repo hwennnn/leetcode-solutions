@@ -69,7 +69,7 @@ It is impossible to go beyond building 4 because you do not have any more bricks
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='furthest-building-you-can-reach'
 class Solution:
     def furthestBuilding(self, heights: List[int], bricks: int, ladders: int) -> int:

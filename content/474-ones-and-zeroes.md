@@ -53,7 +53,7 @@ Other valid but smaller subsets include {&quot;0001&quot;, &quot;1&quot;} and {&
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='ones-and-zeroes'
 class Solution:
     def findMaxForm(self, strs: List[str], m: int, n: int) -> int:

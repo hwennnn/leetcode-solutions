@@ -49,7 +49,7 @@ date: 2022-06-12
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-erasure-value'
 class Solution:
     def maximumUniqueSubarray(self, nums: List[int]) -> int:

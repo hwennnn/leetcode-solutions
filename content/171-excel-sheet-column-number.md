@@ -63,7 +63,7 @@ AB -&gt; 28
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='excel-sheet-column-number'
 class Solution:
     def titleToNumber(self, columnTitle: str) -> int:

@@ -68,7 +68,7 @@ For the table 12: James, Ratesh and Amadeus order &quot;Fried Chicken&quot;.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='display-table-of-food-orders-in-a-restaurant'
 class Solution:
     def displayTable(self, orders: List[List[str]]) -> List[List[str]]:

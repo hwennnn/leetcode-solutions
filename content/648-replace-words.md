@@ -55,7 +55,7 @@ date: 2024-06-07
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='replace-words'
 class TrieNode:
     def __init__(self):

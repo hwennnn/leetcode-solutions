@@ -55,7 +55,7 @@ date: 2023-04-30
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='first-completely-painted-row-or-column'
 class Solution:
     def firstCompleteIndex(self, arr: List[int], mat: List[List[int]]) -> int:

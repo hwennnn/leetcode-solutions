@@ -70,7 +70,7 @@ It is obvious that we can make two bouquets in different ways.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-days-to-make-m-bouquets'
 class Solution:
     def minDays(self, bloomDay: List[int], m: int, k: int) -> int:

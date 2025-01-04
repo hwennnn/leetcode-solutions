@@ -48,7 +48,7 @@ increasing.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-continuous-increasing-subsequence'
 class Solution:
     def findLengthOfLCIS(self, nums: List[int]) -> int:

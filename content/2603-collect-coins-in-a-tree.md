@@ -63,7 +63,7 @@ date: 2023-04-10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='collect-coins-in-a-tree'
 class Solution:
     def collectTheCoins(self, coins: List[int], edges: List[List[int]]) -> int:

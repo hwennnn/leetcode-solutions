@@ -52,7 +52,7 @@ date: 2023-10-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-score-of-a-good-subarray'
 class Solution:
     def maximumScore(self, nums: List[int], k: int) -> int:

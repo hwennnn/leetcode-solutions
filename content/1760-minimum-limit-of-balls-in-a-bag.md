@@ -67,7 +67,7 @@ The bag with the most number of balls has 2 balls, so your penalty is 2, and you
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-limit-of-balls-in-a-bag'
 class Solution:
     def minimumSize(self, nums: List[int], maxOperations: int) -> int:

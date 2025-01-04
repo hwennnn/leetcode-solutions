@@ -50,7 +50,7 @@ date: 2021-12-05
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='house-robber-iii'
 # Definition for a binary tree node.
 # class TreeNode:

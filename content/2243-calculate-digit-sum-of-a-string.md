@@ -65,7 +65,7 @@ s becomes &quot;0&quot; + &quot;0&quot; + &quot;0&quot; = &quot;000&quot;, whose
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='calculate-digit-sum-of-a-string'
 class Solution:
     def digitSum(self, s: str, k: int) -> str:

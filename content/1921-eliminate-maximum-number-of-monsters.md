@@ -71,7 +71,7 @@ You can only eliminate 1 monster.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='eliminate-maximum-number-of-monsters'
 class Solution:
     def eliminateMaximum(self, dist: List[int], speed: List[int]) -> int:

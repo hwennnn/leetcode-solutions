@@ -59,7 +59,7 @@ queries[4]: substring = &quot;abcda&quot;, could be changed to &quot;abcba&quot;
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='can-make-palindrome-from-substring'
 class Solution:
     def canMakePaliQueries(self, s: str, queries: List[List[int]]) -> List[bool]:

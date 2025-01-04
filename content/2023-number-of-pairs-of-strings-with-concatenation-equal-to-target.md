@@ -69,7 +69,7 @@ date: 2021-10-02
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-pairs-of-strings-with-concatenation-equal-to-target'
 class Solution:
     def numOfPairs(self, nums: List[str], target: str) -> int:

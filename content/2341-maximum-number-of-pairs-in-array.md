@@ -67,7 +67,7 @@ No more pairs can be formed. A total of 1 pair has been formed, and there are 0 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-number-of-pairs-in-array'
 class Solution:
     def numberOfPairs(self, nums: List[int]) -> List[int]:

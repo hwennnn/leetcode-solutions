@@ -57,7 +57,7 @@ It can be proved that there is only 1 beautiful subset in the array [1].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='the-number-of-beautiful-subsets'
 class Solution:
     def beautifulSubsets(self, nums: List[int], k: int) -> int:

@@ -53,7 +53,7 @@ date: 2023-09-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='shortest-path-visiting-all-nodes'
 class Solution:
     def shortestPathLength(self, graph: List[List[int]]) -> int:

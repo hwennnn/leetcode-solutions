@@ -129,7 +129,7 @@ date: 2023-09-05
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximize-value-of-function-in-a-ball-passing-game'
 class Solution:
     def getMaxFunctionValue(self, receiver: List[int], k: int) -> int:

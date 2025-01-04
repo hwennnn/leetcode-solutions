@@ -76,7 +76,7 @@ The sentence is <strong>not</strong> circular.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='circular-sentence'
 class Solution:
     def isCircularSentence(self, s: str) -> bool:

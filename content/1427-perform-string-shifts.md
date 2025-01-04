@@ -19,7 +19,7 @@ null
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='perform-string-shifts'
 class Solution:
     def stringShift(self, s: str, shift: List[List[int]]) -> str:

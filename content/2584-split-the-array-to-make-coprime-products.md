@@ -59,7 +59,7 @@ There is no valid split.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='split-the-array-to-make-coprime-products'
 class Solution:
     def findValidSplit(self, nums: List[int]) -> int:

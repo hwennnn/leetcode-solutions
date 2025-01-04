@@ -59,7 +59,7 @@ So the total probability of A becoming empty first plus half the probability tha
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='soup-servings'
 class Solution:
     def soupServings(self, n: int) -> float:

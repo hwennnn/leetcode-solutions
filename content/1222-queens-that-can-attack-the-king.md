@@ -51,7 +51,7 @@ date: 2021-01-08
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='queens-that-can-attack-the-king'
 class Solution:
     def queensAttacktheKing(self, queens, king):

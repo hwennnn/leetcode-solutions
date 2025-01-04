@@ -45,7 +45,7 @@ date: 2022-01-26
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='all-elements-in-two-binary-search-trees'
 # Definition for a binary tree node.
 # class TreeNode:

@@ -42,7 +42,7 @@ date: 2021-04-10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-if-binary-string-has-at-most-one-segment-of-ones'
 class Solution:
     def checkOnesSegment(self, s: str) -> bool:

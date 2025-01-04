@@ -46,7 +46,7 @@ date: 2020-10-16
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='top-k-frequent-elements'
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:

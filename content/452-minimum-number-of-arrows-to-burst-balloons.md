@@ -62,7 +62,7 @@ date: 2024-03-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-arrows-to-burst-balloons'
 class Solution:
     def findMinArrowShots(self, points: List[List[int]]) -> int:

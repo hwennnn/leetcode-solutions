@@ -70,7 +70,7 @@ date: 2024-04-02
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='isomorphic-strings'
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:

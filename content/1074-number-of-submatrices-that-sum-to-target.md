@@ -59,7 +59,7 @@ date: 2024-01-28
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-submatrices-that-sum-to-target'
 class Solution:
     def numSubmatrixSumTarget(self, matrix: List[List[int]], target: int) -> int:

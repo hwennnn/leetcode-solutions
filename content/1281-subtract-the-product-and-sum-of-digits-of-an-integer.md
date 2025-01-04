@@ -47,7 +47,7 @@ Result = 32 - 11 = 21
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='subtract-the-product-and-sum-of-digits-of-an-integer'
 class Solution:
     def subtractProductAndSum(self, n: int) -> int:

@@ -58,7 +58,7 @@ Since we were able to visit every room, we return true.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='keys-and-rooms'
 class Solution:
     def canVisitAllRooms(self, rooms: List[List[int]]) -> bool:

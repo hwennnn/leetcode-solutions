@@ -56,7 +56,7 @@ date: 2024-03-31
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-alternating-subarrays'
 class Solution:
     def countAlternatingSubarrays(self, nums: List[int]) -> int:

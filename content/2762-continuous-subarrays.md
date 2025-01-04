@@ -68,7 +68,7 @@ Total continuous subarrays = 3 + 2 + 1 = 6.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='continuous-subarrays'
 from sortedcontainers import SortedList
 

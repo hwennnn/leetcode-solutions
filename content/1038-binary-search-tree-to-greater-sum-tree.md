@@ -56,7 +56,7 @@ date: 2024-06-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='binary-search-tree-to-greater-sum-tree'
 # Definition for a binary tree node.
 # class TreeNode:

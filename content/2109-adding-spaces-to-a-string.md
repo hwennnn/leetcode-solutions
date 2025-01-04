@@ -68,7 +68,7 @@ We are also able to place spaces before the first character of the string.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='adding-spaces-to-a-string'
 class Solution:
     def addSpaces(self, s: str, spaces: List[int]) -> str:

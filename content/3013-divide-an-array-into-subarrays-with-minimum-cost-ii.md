@@ -67,7 +67,7 @@ It can be shown that there is no possible way to divide nums into 3 subarrays at
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='divide-an-array-into-subarrays-with-minimum-cost-ii'
 from sortedcontainers import SortedList
 

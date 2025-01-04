@@ -55,7 +55,7 @@ The final concatenated result is &quot;Goal&quot;.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='goal-parser-interpretation'
 class Solution:
     def interpret(self, command: str) -> str:

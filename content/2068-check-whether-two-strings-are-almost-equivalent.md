@@ -69,7 +69,7 @@ The difference is 4, which is more than the allowed 3.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-whether-two-strings-are-almost-equivalent'
 class Solution:
     def checkAlmostEquivalent(self, word1: str, word2: str) -> bool:

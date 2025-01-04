@@ -53,7 +53,7 @@ date: 2021-05-15
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='compare-strings-by-frequency-of-the-smallest-character'
 class Solution:
     def numSmallerByFrequency(self, queries: List[str], words: List[str]) -> List[int]:

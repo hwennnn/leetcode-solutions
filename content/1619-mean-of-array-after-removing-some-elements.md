@@ -53,7 +53,7 @@ date: 2020-10-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='mean-of-array-after-removing-some-elements'
 class Solution:
     def trimMean(self, arr: List[int]) -> float:

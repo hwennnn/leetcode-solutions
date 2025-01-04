@@ -66,7 +66,7 @@ The total cost was 25, and this is the minimum possible.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-cost-to-merge-stones'
 class Solution:
     def mergeStones(self, stones: List[int], k: int) -> int:

@@ -55,7 +55,7 @@ date: 2023-07-06
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-subarray-of-1s-after-deleting-one-element'
 class Solution:
     def longestSubarray(self, nums: List[int]) -> int:

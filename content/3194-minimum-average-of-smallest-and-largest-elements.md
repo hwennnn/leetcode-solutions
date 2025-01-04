@@ -164,7 +164,7 @@ The smallest element of averages, 5.5, is returned.</div>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-average-of-smallest-and-largest-elements'
 class Solution:
     def minimumAverage(self, nums: List[int]) -> float:

@@ -111,7 +111,7 @@ date: 2024-12-16
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='final-array-state-after-k-multiplication-operations-i'
 class Solution:
     def getFinalState(self, nums: List[int], k: int, multiplier: int) -> List[int]:

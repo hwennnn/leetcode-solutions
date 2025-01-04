@@ -62,7 +62,7 @@ We cannot draw 3 uncrossed lines, because the line from nums1[1] = 4 to nums2[2]
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='uncrossed-lines'
 class Solution:
     def maxUncrossedLines(self, nums1: List[int], nums2: List[int]) -> int:

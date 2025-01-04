@@ -45,7 +45,7 @@ date: 2022-10-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-if-the-sentence-is-pangram'
 class Solution:
     def checkIfPangram(self, sentence: str) -> bool:

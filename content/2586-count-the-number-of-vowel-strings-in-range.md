@@ -60,7 +60,7 @@ The number of vowel strings in the mentioned range is 3.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-the-number-of-vowel-strings-in-range'
 class Solution:
     def vowelStrings(self, words: List[str], left: int, right: int) -> int:

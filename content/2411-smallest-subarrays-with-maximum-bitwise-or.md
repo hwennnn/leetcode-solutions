@@ -67,7 +67,7 @@ Therefore, we return [2,1].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='smallest-subarrays-with-maximum-bitwise-or'
 class Solution:
     def smallestSubarrays(self, nums: List[int]) -> List[int]:

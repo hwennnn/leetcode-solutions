@@ -62,7 +62,7 @@ The sum of powers of all groups is 8 + 1 + 64 + 4 + 32 + 16 + 16 = 141.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='power-of-heroes'
 class Solution:
     def sumOfPower(self, nums: List[int]) -> int:

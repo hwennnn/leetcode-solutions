@@ -49,7 +49,7 @@ date: 2022-01-15
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='next-greater-node-in-linked-list'
 # Definition for singly-linked list.
 # class ListNode:

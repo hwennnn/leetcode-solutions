@@ -67,7 +67,7 @@ There are no groups of farmland.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-all-groups-of-farmland'
 class Solution:
     def findFarmland(self, land: List[List[int]]) -> List[List[int]]:

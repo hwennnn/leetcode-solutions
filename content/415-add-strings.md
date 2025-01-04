@@ -53,7 +53,7 @@ date: 2021-08-31
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='add-strings'
 class Solution:
     def addStrings(self, num1: str, num2: str) -> str:

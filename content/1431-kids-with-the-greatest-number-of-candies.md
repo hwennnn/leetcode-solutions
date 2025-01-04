@@ -62,7 +62,7 @@ Kid 1 will always have the greatest number of candies, even if a different kid i
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='kids-with-the-greatest-number-of-candies'
 class Solution:
     def kidsWithCandies(self, candies: List[int], extraCandies: int) -> List[bool]:

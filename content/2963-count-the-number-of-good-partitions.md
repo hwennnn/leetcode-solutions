@@ -60,7 +60,7 @@ date: 2023-12-10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-the-number-of-good-partitions'
 class Solution:
     def numberOfGoodPartitions(self, nums: List[int]) -> int:

@@ -64,7 +64,7 @@ date: 2022-06-28
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='rotting-oranges'
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:

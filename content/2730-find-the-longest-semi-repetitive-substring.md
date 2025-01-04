@@ -68,7 +68,7 @@ date: 2023-06-11
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-longest-semi-repetitive-substring'
 class Solution:
     def longestSemiRepetitiveSubstring(self, s: str) -> int:

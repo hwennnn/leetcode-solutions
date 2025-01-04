@@ -42,7 +42,7 @@ date: 2023-10-23
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='power-of-four'
 class Solution:
     def isPowerOfFour(self, n: int) -> bool:

@@ -58,7 +58,7 @@ date: 2021-01-01
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-array-formation-through-concatenation'
 class Solution:
     def canFormArray(self, arr: List[int], pieces: List[List[int]]) -> bool:

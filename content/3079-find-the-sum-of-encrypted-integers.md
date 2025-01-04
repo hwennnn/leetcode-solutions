@@ -50,7 +50,7 @@ date: 2024-03-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-sum-of-encrypted-integers'
 class Solution:
     def sumOfEncryptedInt(self, nums: List[int]) -> int:

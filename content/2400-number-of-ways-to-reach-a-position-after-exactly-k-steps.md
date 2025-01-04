@@ -53,7 +53,7 @@ It can be proven that no other way is possible, so we return 3.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-ways-to-reach-a-position-after-exactly-k-steps'
 class Solution:
     def numberOfWays(self, startPos: int, endPos: int, k: int) -> int:

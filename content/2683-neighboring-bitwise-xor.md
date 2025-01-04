@@ -73,7 +73,7 @@ derived[1] = original[1] &oplus; original[0] = 1
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='neighboring-bitwise-xor'
 class Solution:
     def doesValidArrayExist(self, derived: List[int]) -> bool:

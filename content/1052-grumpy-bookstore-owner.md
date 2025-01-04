@@ -60,7 +60,7 @@ date: 2024-06-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='grumpy-bookstore-owner'
 class Solution:
     def maxSatisfied(self, customers: List[int], grumpy: List[int], minutes: int) -> int:

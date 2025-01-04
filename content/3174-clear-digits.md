@@ -64,7 +64,7 @@ date: 2024-06-09
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='clear-digits'
 class Solution:
     def clearDigits(self, s: str) -> str:

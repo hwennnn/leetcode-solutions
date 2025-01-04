@@ -48,7 +48,7 @@ Total amount you can rob = 2 + 9 + 1 = 12.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='house-robber'
 class Solution:
     def rob(self, nums: List[int]) -> int:

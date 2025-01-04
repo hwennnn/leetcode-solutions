@@ -50,7 +50,7 @@ The sum of these widths is 6.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sum-of-subsequence-widths'
 class Solution:
     def sumSubseqWidths(self, nums: List[int]) -> int:

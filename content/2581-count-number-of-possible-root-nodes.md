@@ -86,7 +86,7 @@ Considering any node as root will give at least 1 correct guess.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-number-of-possible-root-nodes'
 class Solution:
     def rootCount(self, edges: List[List[int]], guesses: List[List[int]], k: int) -> int:

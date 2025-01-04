@@ -45,7 +45,7 @@ date: 2022-12-24
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='domino-and-tromino-tiling'
 class Solution:
     def numTilings(self, N):

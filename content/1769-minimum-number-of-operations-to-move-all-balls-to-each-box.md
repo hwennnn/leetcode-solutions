@@ -53,7 +53,7 @@ date: 2021-04-10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-operations-to-move-all-balls-to-each-box'
 class Solution:
     def minOperations(self, boxes: str) -> List[int]:

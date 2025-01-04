@@ -49,7 +49,7 @@ date: 2022-03-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='smallest-string-with-a-given-numeric-value'
 class Solution:
     def getSmallestString(self, n: int, k: int) -> str:

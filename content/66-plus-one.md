@@ -61,7 +61,7 @@ Thus, the result should be [1,0].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='plus-one'
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:

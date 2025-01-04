@@ -63,7 +63,7 @@ Note that only one of the two unmatched 1s is counted as a cow since the non-bul
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='bulls-and-cows'
 class Solution:
     def getHint(self, S: str, G: str) -> str:

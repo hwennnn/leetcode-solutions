@@ -62,7 +62,7 @@ Step 4) 1 is odd; subtract 1 and obtain 0.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-steps-to-reduce-a-number-to-zero'
 class Solution:
     def numberOfSteps(self, num: int) -> int:

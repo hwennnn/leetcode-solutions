@@ -57,7 +57,7 @@ date: 2021-06-27
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='cyclically-rotating-a-grid'
 class Solution:
     def rotateGrid(self, grid: List[List[int]], k: int) -> List[List[int]]:

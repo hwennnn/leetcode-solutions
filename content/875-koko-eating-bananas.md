@@ -56,7 +56,7 @@ date: 2023-03-08
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='koko-eating-bananas'
 class Solution:
     def minEatingSpeed(self, piles: List[int], h: int) -> int:

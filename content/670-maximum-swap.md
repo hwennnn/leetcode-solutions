@@ -45,7 +45,7 @@ date: 2024-10-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-swap'
 class Solution:
     def maximumSwap(self, num):

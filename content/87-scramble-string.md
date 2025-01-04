@@ -72,7 +72,7 @@ As one possible scenario led s1 to be scrambled to s2, we return true.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='scramble-string'
 class Solution:
     def isScramble(self, s1: str, s2: str) -> bool:

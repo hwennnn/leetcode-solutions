@@ -56,7 +56,7 @@ date: 2022-01-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='divisor-game'
 class Solution:
     def divisorGame(self, n: int) -> bool:

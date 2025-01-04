@@ -46,7 +46,7 @@ date: 2021-08-01
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='three-divisors'
 class Solution:
     def isThree(self, n: int) -> bool:

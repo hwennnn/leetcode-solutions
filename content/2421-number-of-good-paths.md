@@ -79,7 +79,7 @@ There are 2 additional good paths: 0 -&gt; 1 and 2 -&gt; 3.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-good-paths'
 class UnionFind:
     def __init__(self):

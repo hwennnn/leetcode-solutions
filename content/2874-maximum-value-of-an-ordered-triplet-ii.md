@@ -57,7 +57,7 @@ It can be shown that there are no ordered triplets of indices with a value great
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-value-of-an-ordered-triplet-ii'
 class Solution:
     def maximumTripletValue(self, nums: List[int]) -> int:

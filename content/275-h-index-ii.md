@@ -50,7 +50,7 @@ Since the researcher has 3 papers with at least 3 citations each and the remaini
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='h-index-ii'
 class Solution:
     def hIndex(self, citations: List[int]) -> int:

@@ -55,7 +55,7 @@ However, splitting into [2, 1], [3], [4], [4] is the highest number of chunks po
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='max-chunks-to-make-sorted-ii'
 class Solution:
     def maxChunksToSorted(self, arr: List[int]) -> int:

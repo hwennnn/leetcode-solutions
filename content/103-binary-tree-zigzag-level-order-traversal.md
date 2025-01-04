@@ -50,7 +50,7 @@ date: 2023-02-19
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='binary-tree-zigzag-level-order-traversal'
 # Definition for a binary tree node.
 # class TreeNode:

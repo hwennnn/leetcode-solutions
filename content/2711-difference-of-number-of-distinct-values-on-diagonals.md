@@ -161,7 +161,7 @@ date: 2023-05-28
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='difference-of-number-of-distinct-values-on-diagonals'
 class Solution:
     def differenceOfDistinctValues(self, grid: List[List[int]]) -> List[List[int]]:

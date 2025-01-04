@@ -63,7 +63,7 @@ date: 2022-01-10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='stamping-the-grid'
 class Solution:
     def possibleToStamp(self, grid: List[List[int]], H: int, W: int) -> bool:

@@ -66,7 +66,7 @@ The segment of 1s is not longer, so return false.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longer-contiguous-segments-of-ones-than-zeros'
 class Solution:
     def checkZeroOnes(self, s: str) -> bool:

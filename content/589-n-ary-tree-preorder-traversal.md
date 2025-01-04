@@ -53,7 +53,7 @@ date: 2020-02-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='n-ary-tree-preorder-traversal'
 """
 # Definition for a Node.

@@ -70,7 +70,7 @@ There is only one average to be calculated after removing 1 and 100, so we retur
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-distinct-averages'
 class Solution:
     def distinctAverages(self, nums: List[int]) -> int:

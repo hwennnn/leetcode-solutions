@@ -54,7 +54,7 @@ After two seconds, the 3<sup>r</sup><sup>d</sup> person is holding the pillow.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='pass-the-pillow'
 class Solution:
     def passThePillow(self, n: int, time: int) -> int:

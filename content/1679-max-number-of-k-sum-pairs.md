@@ -54,7 +54,7 @@ There are no more pairs that sum up to 6, hence a total of 1 operation.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='max-number-of-k-sum-pairs'
 class Solution:
     def maxOperations(self, nums: List[int], k: int) -> int:

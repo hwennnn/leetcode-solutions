@@ -60,7 +60,7 @@ date: 2023-02-15
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='add-to-array-form-of-integer'
 class Solution:
     def addToArrayForm(self, num: List[int], k: int) -> List[int]:

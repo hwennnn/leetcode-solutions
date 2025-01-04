@@ -69,7 +69,7 @@ The last day where it is possible to cross from top to bottom is on day 3.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='last-day-where-you-can-still-cross'
 class Solution:
     def latestDayToCross(self, row: int, col: int, cells: List[List[int]]) -> int:

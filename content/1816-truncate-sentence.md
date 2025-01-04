@@ -65,7 +65,7 @@ Hence, you should return &quot;What is the solution&quot;.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='truncate-sentence'
 class Solution:
     def truncateSentence(self, s: str, k: int) -> str:

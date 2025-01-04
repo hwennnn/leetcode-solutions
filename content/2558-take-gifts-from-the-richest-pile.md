@@ -63,7 +63,7 @@ So, the total gifts remaining are 4.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='take-gifts-from-the-richest-pile'
 class Solution:
     def pickGifts(self, gifts: List[int], k: int) -> int:

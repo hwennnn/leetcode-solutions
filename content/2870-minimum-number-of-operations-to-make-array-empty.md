@@ -63,7 +63,7 @@ It can be shown that we cannot make the array empty in less than 4 operations.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-operations-to-make-array-empty'
 class Solution:
     def minOperations(self, nums: List[int]) -> int:

@@ -58,7 +58,7 @@ It can be shown that we cannot find a selection with more than two valid substri
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-number-of-non-overlapping-palindrome-substrings'
 class Solution:
     def maxPalindromes(self, s: str, k: int) -> int:

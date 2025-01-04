@@ -57,7 +57,7 @@ The indices 0 and 1 both violate the condition, so return false.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-if-number-has-equal-digit-count-and-digit-value'
 class Solution:
     def digitCount(self, num: str) -> bool:

@@ -87,7 +87,7 @@ date: 2024-03-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-sum-of-the-power-of-all-subsequences'
 class Solution:
     def sumOfPower(self, nums: List[int], k: int) -> int:

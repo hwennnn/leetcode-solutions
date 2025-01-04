@@ -61,7 +61,7 @@ date: 2022-01-30
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='keep-multiplying-found-values-by-two'
 class Solution:
     def findFinalValue(self, nums: List[int], original: int) -> int:

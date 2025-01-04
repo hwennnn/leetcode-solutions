@@ -59,7 +59,7 @@ date: 2021-09-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-number-of-balloons'
 class Solution:
     def maxNumberOfBalloons(self, text: str) -> int:

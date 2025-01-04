@@ -64,7 +64,7 @@ date: 2022-07-02
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts'
 class Solution:
     def maxArea(self, hn: int, wn: int, h: List[int], v: List[int]) -> int:

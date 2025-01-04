@@ -70,7 +70,7 @@ date: 2019-10-08
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='unique-email-addresses'
 class Solution:
     def numUniqueEmails(self, emails: List[str]) -> int:

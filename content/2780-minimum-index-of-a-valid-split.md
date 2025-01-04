@@ -73,7 +73,7 @@ It can be shown that index 4 is the minimum index of a valid split.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-index-of-a-valid-split'
 class Solution:
     def minimumIndex(self, nums: List[int]) -> int:

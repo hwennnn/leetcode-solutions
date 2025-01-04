@@ -72,7 +72,7 @@ Thus, answer[0] = [1,2,5,6] and answer[1] = [].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-players-with-zero-or-one-losses'
 class Solution:
     def findWinners(self, matches: List[List[int]]) -> List[List[int]]:

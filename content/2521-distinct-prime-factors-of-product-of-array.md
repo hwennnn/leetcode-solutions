@@ -57,7 +57,7 @@ There is 1 distinct prime factor so we return 1.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='distinct-prime-factors-of-product-of-array'
 class Solution:
     def distinctPrimeFactors(self, nums: List[int]) -> int:

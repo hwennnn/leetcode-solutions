@@ -70,7 +70,7 @@ It can be proved that there is no sequence of less than three operations that ma
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='semi-ordered-permutation'
 class Solution:
     def semiOrderedPermutation(self, nums: List[int]) -> int:

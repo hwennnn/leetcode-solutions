@@ -73,7 +73,7 @@ date: 2023-07-26
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-speed-to-arrive-on-time'
 class Solution:
     def minSpeedOnTime(self, dist: List[int], hour: float) -> int:

@@ -55,7 +55,7 @@ date: 2023-12-07
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='largest-odd-number-in-string'
 class Solution:
     def largestOddNumber(self, num: str) -> str:

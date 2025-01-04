@@ -53,7 +53,7 @@ date: 2022-03-02
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-nearest-point-that-has-the-same-x-or-y-coordinate'
 class Solution:
     def nearestValidPoint(self, x: int, y: int, points: List[List[int]]) -> int:

@@ -51,7 +51,7 @@ Given the array of integers <code>nums</code>, you will choose two different ind
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-product-of-two-elements-in-an-array'
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:

@@ -84,7 +84,7 @@ date: 2023-10-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='last-visited-integers'
 class Solution:
     def lastVisitedIntegers(self, words: List[str]) -> List[int]:

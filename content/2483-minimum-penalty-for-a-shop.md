@@ -73,7 +73,7 @@ Closing the shop at 2<sup>nd</sup> or 4<sup>th</sup> hour gives a minimum penalt
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-penalty-for-a-shop'
 class Solution:
     def bestClosingTime(self, customers: str) -> int:

@@ -63,7 +63,7 @@ So the number of excellent pairs is 5.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-excellent-pairs'
 class Solution:
     def countExcellentPairs(self, nums: List[int], k: int) -> int:

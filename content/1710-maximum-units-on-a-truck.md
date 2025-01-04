@@ -59,7 +59,7 @@ The total number of units will be = (1 * 3) + (2 * 2) + (1 * 1) = 8.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-units-on-a-truck'
 class Solution:
     def maximumUnits(self, A: List[List[int]], truckSize: int) -> int:

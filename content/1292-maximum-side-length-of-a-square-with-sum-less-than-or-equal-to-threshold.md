@@ -48,7 +48,7 @@ date: 2020-12-30
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold'
 class Solution:
     def maxSideLength(self, mat: List[List[int]], threshold: int) -> int:

@@ -53,7 +53,7 @@ There is no way to assign the variables to satisfy both equations.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='satisfiability-of-equality-equations'
 class UnionFind:
     def __init__(self):

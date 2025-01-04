@@ -67,7 +67,7 @@ The 3<sup>rd</sup> smallest product is -6.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='kth-smallest-product-of-two-sorted-arrays'
 class Solution:
     def kthSmallestProduct(self, nums1: List[int], nums2: List[int], k: int) -> int:

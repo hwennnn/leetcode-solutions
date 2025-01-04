@@ -51,7 +51,7 @@ date: 2022-11-19
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='erect-the-fence'
 class Solution:
     def outerTrees(self, points: List[List[int]]) -> List[List[int]]:

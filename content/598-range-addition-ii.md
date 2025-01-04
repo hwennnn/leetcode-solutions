@@ -55,7 +55,7 @@ date: 2021-08-30
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='range-addition-ii'
 class Solution:
     def maxCount(self, m: int, n: int, ops: List[List[int]]) -> int:

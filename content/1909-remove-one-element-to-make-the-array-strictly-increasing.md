@@ -59,7 +59,7 @@ No resulting array is strictly increasing, so return false.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='remove-one-element-to-make-the-array-strictly-increasing'
 class Solution:
     def canBeIncreasing(self, nums: List[int]) -> bool:

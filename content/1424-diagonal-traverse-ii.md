@@ -45,7 +45,7 @@ date: 2023-11-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='diagonal-traverse-ii'
 class Solution:
     def findDiagonalOrder(self, nums: List[List[int]]) -> List[int]:

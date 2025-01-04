@@ -66,7 +66,7 @@ The MEX of nums is 2. It can be shown that 2 is the maximum MEX we can achieve.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='smallest-missing-non-negative-integer-after-operations'
 class Solution:
     def findSmallestInteger(self, nums: List[int], value: int) -> int:

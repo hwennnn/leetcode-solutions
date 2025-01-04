@@ -63,7 +63,7 @@ Then invert the image: [[1,1,0,0],[0,1,1,0],[0,0,0,1],[1,0,1,0]]
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='flipping-an-image'
 class Solution:
     def flipAndInvertImage(self, A: List[List[int]]) -> List[List[int]]:

@@ -74,7 +74,7 @@ Joining the blocks gives &quot;123-456-78&quot;.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='reformat-phone-number'
 class Solution:
     def reformatNumber(self, number: str) -> str:

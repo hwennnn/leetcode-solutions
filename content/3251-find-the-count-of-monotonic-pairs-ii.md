@@ -71,7 +71,7 @@ date: 2024-08-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-count-of-monotonic-pairs-ii'
 class Solution:
     def countOfPairs(self, nums: List[int]) -> int:

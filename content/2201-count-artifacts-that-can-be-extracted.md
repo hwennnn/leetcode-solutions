@@ -74,7 +74,7 @@ Thus, we return 1.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-artifacts-that-can-be-extracted'
 class Solution:
     def digArtifacts(self, n: int, artifacts: List[List[int]], dig: List[List[int]]) -> int:

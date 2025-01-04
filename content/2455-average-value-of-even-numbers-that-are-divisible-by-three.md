@@ -46,7 +46,7 @@ date: 2022-10-30
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='average-value-of-even-numbers-that-are-divisible-by-three'
 class Solution:
     def averageValue(self, nums: List[int]) -> int:

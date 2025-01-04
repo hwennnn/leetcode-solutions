@@ -78,7 +78,7 @@ So, the answer is -1.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-operations-to-maximize-last-elements-in-arrays'
 class Solution:
     def minOperations(self, nums1: List[int], nums2: List[int]) -> int:

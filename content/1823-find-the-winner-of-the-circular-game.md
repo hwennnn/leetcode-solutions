@@ -71,7 +71,7 @@ date: 2024-07-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-winner-of-the-circular-game'
 class Solution:
     def findTheWinner(self, n: int, k: int) -> int:

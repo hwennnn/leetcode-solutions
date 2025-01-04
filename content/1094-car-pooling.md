@@ -52,7 +52,7 @@ date: 2022-01-06
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='car-pooling'
 class Solution:
     def carPooling(self, trips: List[List[int]], capacity: int) -> bool:

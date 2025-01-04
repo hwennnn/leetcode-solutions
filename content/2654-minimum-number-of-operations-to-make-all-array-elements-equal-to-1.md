@@ -57,7 +57,7 @@ date: 2023-04-23
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-operations-to-make-all-array-elements-equal-to-1'
 class Solution:
     def minOperations(self, nums: List[int]) -> int:

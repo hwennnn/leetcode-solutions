@@ -51,7 +51,7 @@ The closest occurrence of &#39;e&#39; for index 8 is at index 6, so the distance
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='shortest-distance-to-a-character'
 class Solution:
     def shortestToChar(self, s: str, c: str) -> List[int]:

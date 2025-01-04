@@ -93,7 +93,7 @@ date: 2024-04-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-sum-of-values-by-dividing-array'
 class Solution:
     def minimumValueSum(self, nums: List[int], andValues: List[int]) -> int:

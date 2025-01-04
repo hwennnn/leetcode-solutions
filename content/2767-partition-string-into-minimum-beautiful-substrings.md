@@ -70,7 +70,7 @@ It can be shown that 3 is the minimum number of beautiful substrings that s can 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='partition-string-into-minimum-beautiful-substrings'
 class Solution:
     def minimumBeautifulSubstrings(self, s: str) -> int:

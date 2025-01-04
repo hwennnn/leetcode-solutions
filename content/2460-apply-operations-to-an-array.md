@@ -67,7 +67,7 @@ After that, we shift the 0&#39;s to the end, which gives the array [1,4,2,0,0,0]
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='apply-operations-to-an-array'
 class Solution:
     def applyOperations(self, nums: List[int]) -> List[int]:

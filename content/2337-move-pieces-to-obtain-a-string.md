@@ -64,7 +64,7 @@ After that, no pieces can move anymore, so it is impossible to obtain the string
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='move-pieces-to-obtain-a-string'
 class Solution:
     def canChange(self, start: str, target: str) -> bool:

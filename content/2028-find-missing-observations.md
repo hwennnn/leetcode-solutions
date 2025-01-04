@@ -62,7 +62,7 @@ date: 2024-12-31
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-missing-observations'
 class Solution:
     def missingRolls(self, rolls: List[int], mean: int, n: int) -> List[int]:

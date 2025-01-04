@@ -58,7 +58,7 @@ It can be shown that it is not possible to run more than 3 consecutive robots wi
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-number-of-robots-within-budget'
 from sortedcontainers import SortedList
 

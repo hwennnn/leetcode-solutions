@@ -54,7 +54,7 @@ Given three strings <code>a</code>, <code>b</code>, and <code>c</code>, your tas
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='shortest-string-that-contains-three-strings'
 class Solution:
     def minimumString(self, a: str, b: str, c: str) -> str:

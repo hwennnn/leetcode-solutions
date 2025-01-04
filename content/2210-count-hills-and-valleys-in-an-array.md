@@ -61,7 +61,7 @@ There are 0 hills and valleys so we return 0.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-hills-and-valleys-in-an-array'
 class Solution:
     def countHillValley(self, nums: List[int]) -> int:

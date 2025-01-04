@@ -59,7 +59,7 @@ It can be proven that no longer equal subarrays can be created.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-longest-equal-subarray'
 class Solution:
     def longestEqualSubarray(self, nums: List[int], k: int) -> int:

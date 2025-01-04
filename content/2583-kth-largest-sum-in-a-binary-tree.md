@@ -59,7 +59,7 @@ The 2<sup>nd</sup> largest level sum is 13.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='kth-largest-sum-in-a-binary-tree'
 # Definition for a binary tree node.
 # class TreeNode:

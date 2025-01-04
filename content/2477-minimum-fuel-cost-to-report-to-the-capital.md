@@ -81,7 +81,7 @@ It can be proven that 7 is the minimum number of liters of fuel needed.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-fuel-cost-to-report-to-the-capital'
 class Solution:
     def minimumFuelCost(self, roads: List[List[int]], seats: int) -> int:

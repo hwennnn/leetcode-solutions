@@ -58,7 +58,7 @@ date: 2024-09-19
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='different-ways-to-add-parentheses'
 class Solution:
     def diffWaysToCompute(self, expression: str) -> List[int]:

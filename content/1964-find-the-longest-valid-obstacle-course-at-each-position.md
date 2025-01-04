@@ -78,7 +78,7 @@ date: 2023-05-07
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-longest-valid-obstacle-course-at-each-position'
 class Solution:
     def longestObstacleCourseAtEachPosition(self, obstacles: List[int]) -> List[int]:

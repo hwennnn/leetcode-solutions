@@ -68,7 +68,7 @@ date: 2024-08-03
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-if-digit-game-can-be-won'
 class Solution:
     def canAliceWin(self, nums: List[int]) -> bool:

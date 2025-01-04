@@ -57,7 +57,7 @@ date: 2023-12-01
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-one-bit-operations-to-make-integers-zero'
 class Solution:
     @cache

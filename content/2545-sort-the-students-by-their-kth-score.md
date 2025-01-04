@@ -58,7 +58,7 @@ date: 2023-01-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sort-the-students-by-their-kth-score'
 class Solution:
     def sortTheStudents(self, score: List[List[int]], k: int) -> List[List[int]]:

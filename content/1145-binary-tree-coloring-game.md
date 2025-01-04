@@ -55,7 +55,7 @@ date: 2021-05-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='binary-tree-coloring-game'
 # Definition for a binary tree node.
 # class TreeNode:

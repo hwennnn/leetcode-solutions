@@ -52,7 +52,7 @@ The third student started doing homework at time 3 and finished at time 7 and wa
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-students-doing-homework-at-a-given-time'
 class Solution:
     def busyStudent(self, start: List[int], end: List[int], k: int) -> int:

@@ -83,7 +83,7 @@ It can be shown that 1 is the minimum achievable length.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimize-length-of-array-using-operations'
 class Solution:
     def minimumArrayLength(self, nums: List[int]) -> int:

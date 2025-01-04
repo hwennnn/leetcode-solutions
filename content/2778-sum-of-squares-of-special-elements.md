@@ -50,7 +50,7 @@ Hence, the sum of the squares of all special elements of nums is nums[1] * nums[
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sum-of-squares-of-special-elements'
 class Solution:
     def sumOfSquares(self, nums: List[int]) -> int:

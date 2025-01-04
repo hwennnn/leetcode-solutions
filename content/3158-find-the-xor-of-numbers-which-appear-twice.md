@@ -68,7 +68,7 @@ date: 2024-05-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-xor-of-numbers-which-appear-twice'
 class Solution:
     def duplicateNumbersXOR(self, nums: List[int]) -> int:

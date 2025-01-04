@@ -71,7 +71,7 @@ date: 2024-07-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-subarray-with-bitwise-or-closest-to-k'
 class Solution:
     def minimumDifference(self, nums: List[int], k: int) -> int:

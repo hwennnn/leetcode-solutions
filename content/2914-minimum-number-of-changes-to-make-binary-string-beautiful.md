@@ -67,7 +67,7 @@ It can be proven that 1 is the minimum number of changes needed to make the stri
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-changes-to-make-binary-string-beautiful'
 class Solution:
     def minChanges(self, s: str) -> int:

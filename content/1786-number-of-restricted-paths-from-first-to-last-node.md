@@ -62,7 +62,7 @@ date: 2021-12-31
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-restricted-paths-from-first-to-last-node'
 class Solution:
     def countRestrictedPaths(self, n: int, edges: List[List[int]]) -> int:

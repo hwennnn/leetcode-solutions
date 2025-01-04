@@ -62,7 +62,7 @@ date: 2023-07-09
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-alternating-subarray'
 class Solution:
     def alternatingSubarray(self, nums: List[int]) -> int:

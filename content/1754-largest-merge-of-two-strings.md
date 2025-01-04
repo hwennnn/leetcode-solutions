@@ -97,7 +97,7 @@ public:
 };
 
 ```
-### Python
+### Python3
 ``` py title='largest-merge-of-two-strings'
 class Solution:
     def largestMerge(self, word1: str, word2: str) -> str:

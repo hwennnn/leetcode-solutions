@@ -51,7 +51,7 @@ date: 2022-10-16
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sum-of-number-and-its-reverse'
 class Solution:
     def sumOfNumberAndReverse(self, num: int) -> bool:

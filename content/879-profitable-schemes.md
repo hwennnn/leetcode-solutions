@@ -52,7 +52,7 @@ There are 7 possible schemes: (0), (1), (2), (0,1), (0,2), (1,2), and (0,1,2).</
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='profitable-schemes'
 class Solution:
     def profitableSchemes(self, n: int, minProfit: int, group: List[int], profit: List[int]) -> int:

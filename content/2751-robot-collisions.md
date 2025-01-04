@@ -75,7 +75,7 @@ date: 2024-07-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='robot-collisions'
 class Solution:
     def survivedRobotsHealths(self, positions: List[int], healths: List[int], directions: str) -> List[int]:

@@ -48,7 +48,7 @@ date: 2023-06-08
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-negative-numbers-in-a-sorted-matrix'
 class Solution:
     def countNegatives(self, grid: List[List[int]]) -> int:

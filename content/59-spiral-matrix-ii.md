@@ -42,7 +42,7 @@ date: 2023-05-10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='spiral-matrix-ii'
 class Solution:
     def generateMatrix(self, n):

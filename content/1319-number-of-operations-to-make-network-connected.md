@@ -62,7 +62,7 @@ date: 2023-03-23
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-operations-to-make-network-connected'
 class Solution:
     def makeConnected(self, n: int, connections: List[List[int]]) -> int:

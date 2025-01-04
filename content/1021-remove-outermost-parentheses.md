@@ -69,7 +69,7 @@ After removing outer parentheses of each part, this is &quot;&quot; + &quot;&quo
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='remove-outermost-parentheses'
 class Solution:
     def removeOuterParentheses(self, s: str) -> str:

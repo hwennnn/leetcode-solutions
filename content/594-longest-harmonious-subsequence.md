@@ -69,7 +69,7 @@ date: 2021-02-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-harmonious-subsequence'
 class Solution:
     def findLHS(self, nums: List[int]) -> int:

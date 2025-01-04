@@ -66,7 +66,7 @@ Number of Permutations of (1,2,3,4) = 24.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-ways-to-wear-different-hats-to-each-other'
 class Solution:
     def numberWays(self, hats: List[List[int]]) -> int:

@@ -74,7 +74,7 @@ date: 2024-04-10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='time-needed-to-buy-tickets'
 class Solution:
     def timeRequiredToBuy(self, tickets: List[int], k: int) -> int:

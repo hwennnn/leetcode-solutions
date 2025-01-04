@@ -77,7 +77,7 @@ The total distance is |2 - 1| + |(-2) - (-1)| = 2. It can be shown that we canno
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-total-distance-traveled'
 class Solution:
     def minimumTotalDistance(self, robot: List[int], factory: List[List[int]]) -> int:

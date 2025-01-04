@@ -56,7 +56,7 @@ There is no way to delete elements from nums to allow this.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-deletions-to-make-array-divisible'
 class Solution:
     def minOperations(self, nums: List[int], numsDivide: List[int]) -> int:

@@ -65,7 +65,7 @@ Finally, we return [16,5,3,0].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-segment-sum-after-removals'
 class UnionFind:
     def __init__(self):

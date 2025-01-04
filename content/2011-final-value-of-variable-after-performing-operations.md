@@ -75,7 +75,7 @@ X--: X is decremented by 1, X = 1 - 1 = 0.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='final-value-of-variable-after-performing-operations'
 class Solution:
     def finalValueAfterOperations(self, operations: List[str]) -> int:

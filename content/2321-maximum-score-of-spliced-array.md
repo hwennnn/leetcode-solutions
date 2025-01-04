@@ -69,7 +69,7 @@ The score is max(sum(nums1), sum(nums2)) = max(31, 3) = 31.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-score-of-spliced-array'
 class Solution:
     def maximumsSplicedArray(self, nums1: List[int], nums2: List[int]) -> int:

@@ -46,7 +46,7 @@ date: 2020-08-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-average-subarray-i'
 class Solution:
     def findMaxAverage(self, A: List[int], K: int) -> float:

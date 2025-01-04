@@ -67,7 +67,7 @@ Day 7: [0, 0, 1, 1, 0, 0, 0, 0]
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='prison-cells-after-n-days'
 class Solution:
     def prisonAfterNDays(self, cells: List[int], days: int) -> List[int]:

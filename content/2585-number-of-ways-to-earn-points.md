@@ -77,7 +77,7 @@ date: 2023-03-05
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-ways-to-earn-points'
 class Solution:
     def waysToReachTarget(self, target: int, types: List[List[int]]) -> int:

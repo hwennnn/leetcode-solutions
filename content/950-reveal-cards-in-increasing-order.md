@@ -70,7 +70,7 @@ Since all the cards revealed are in increasing order, the answer is correct.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='reveal-cards-in-increasing-order'
 class Solution:
     def deckRevealedIncreasing(self, deck: List[int]) -> List[int]:

@@ -68,7 +68,7 @@ date: 2024-08-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='valid-parentheses'
 class Solution:
     def isValid(self, s: str) -> bool:

@@ -62,7 +62,7 @@ Thus, we return [2,3].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-substring-of-one-repeating-character'
 from sortedcontainers import SortedList
 

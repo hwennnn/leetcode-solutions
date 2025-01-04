@@ -63,7 +63,7 @@ In all outcomes, your friend wins.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='nim-game'
 class Solution:
     def canWinNim(self, n: int) -> bool:

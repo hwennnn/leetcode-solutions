@@ -61,7 +61,7 @@ date: 2022-09-27
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='push-dominoes'
 class Solution:
     def pushDominoes(self, d: str) -> str:

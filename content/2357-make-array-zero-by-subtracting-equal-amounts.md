@@ -58,7 +58,7 @@ In the third operation, choose x = 2. Now, nums = [0,0,0,0,0].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='make-array-zero-by-subtracting-equal-amounts'
 class Solution:
     def minimumOperations(self, nums: List[int]) -> int:

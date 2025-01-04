@@ -78,7 +78,7 @@ The final time is 7. It can be shown that it is the minimum time possible.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-time-to-visit-a-cell-in-a-grid'
 class Solution:
     def minimumTime(self, grid: List[List[int]]) -> int:

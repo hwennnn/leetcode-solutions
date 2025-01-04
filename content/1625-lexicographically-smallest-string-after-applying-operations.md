@@ -83,7 +83,7 @@ There is no way to obtain a string that is lexicographically smaller than &quot;
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='lexicographically-smallest-string-after-applying-operations'
 class Solution:
     def findLexSmallestString(self, s: str, a: int, b: int) -> str:

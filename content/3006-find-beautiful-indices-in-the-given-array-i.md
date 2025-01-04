@@ -70,7 +70,7 @@ Thus we return [0] as the result.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-beautiful-indices-in-the-given-array-i'
 class Solution:
     def beautifulIndices(self, s: str, a: str, b: str, k: int) -> List[int]:

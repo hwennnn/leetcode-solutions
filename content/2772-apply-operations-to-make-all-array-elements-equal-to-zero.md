@@ -57,7 +57,7 @@ date: 2023-07-09
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='apply-operations-to-make-all-array-elements-equal-to-zero'
 class Solution:
     def checkArray(self, nums: List[int], k: int) -> bool:

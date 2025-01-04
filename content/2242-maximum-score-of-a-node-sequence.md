@@ -70,7 +70,7 @@ There are no valid node sequences of length 4, so we return -1.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-score-of-a-node-sequence'
 class Solution:
     def maximumScore(self, scores: List[int], edges: List[List[int]]) -> int:

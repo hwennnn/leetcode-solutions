@@ -88,7 +88,7 @@ date: 2024-08-05
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='design-neighbor-sum-service'
 class neighborSum:
 

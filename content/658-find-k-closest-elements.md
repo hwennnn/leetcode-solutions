@@ -57,7 +57,7 @@ date: 2022-09-29
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-k-closest-elements'
 class Solution:
     def findClosestElements(self, arr: List[int], k: int, x: int) -> List[int]:

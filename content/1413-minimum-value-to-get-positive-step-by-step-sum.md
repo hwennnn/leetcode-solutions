@@ -62,7 +62,7 @@ date: 2021-11-11
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-value-to-get-positive-step-by-step-sum'
 class Solution:
     def minStartValue(self, nums: List[int]) -> int:

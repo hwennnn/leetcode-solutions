@@ -54,7 +54,7 @@ date: 2021-07-29
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='construct-the-lexicographically-largest-valid-sequence'
 class Solution:
     def constructDistancedSequence(self, n: int) -> List[int]:

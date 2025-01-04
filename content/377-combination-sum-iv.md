@@ -59,7 +59,7 @@ Note that different sequences are counted as different combinations.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='combination-sum-iv'
 class Solution:
     def combinationSum4(self, nums: List[int], target: int) -> int:

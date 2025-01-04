@@ -75,7 +75,7 @@ date: 2024-04-07
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-strictly-increasing-or-strictly-decreasing-subarray'
 class Solution:
     def longestMonotonicSubarray(self, nums: List[int]) -> int:

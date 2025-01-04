@@ -66,7 +66,7 @@ It is also the smallest numerically balanced number strictly greater than 3000.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='next-greater-numerically-balanced-number'
 class Solution:
     def nextBeautifulNumber(self, n: int) -> int:

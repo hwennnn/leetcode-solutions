@@ -50,7 +50,7 @@ date: 2021-09-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='merge-two-binary-trees'
 # Definition for a binary tree node.
 # class TreeNode:

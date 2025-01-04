@@ -56,7 +56,7 @@ So you should return 1 because there is only one bulb is on.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='bulb-switcher'
 class Solution:
     def bulbSwitch(self, n: int) -> int:

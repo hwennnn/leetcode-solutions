@@ -68,7 +68,7 @@ We cannot obtain a lexicographically smaller array by applying any more operatio
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='make-lexicographically-smallest-array-by-swapping-elements'
 class Solution:
     def lexicographicallySmallestArray(self, nums: List[int], limit: int) -> List[int]:

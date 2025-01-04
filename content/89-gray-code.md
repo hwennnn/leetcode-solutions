@@ -63,7 +63,7 @@ The binary representation of [0,1,3,2] is [00,01,11,10].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='gray-code'
 class Solution:
     def grayCode(self, n: int) -> List[int]:

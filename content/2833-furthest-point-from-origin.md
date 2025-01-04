@@ -61,7 +61,7 @@ date: 2023-08-27
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='furthest-point-from-origin'
 class Solution:
     def furthestDistanceFromOrigin(self, moves: str) -> int:

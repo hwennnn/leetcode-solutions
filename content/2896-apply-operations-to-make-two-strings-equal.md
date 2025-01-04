@@ -60,7 +60,7 @@ The total cost is 1 + 1 + 2 = 4. It can be shown that it is the minimum cost pos
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='apply-operations-to-make-two-strings-equal'
 class Solution:
     def minOperations(self, s1: str, s2: str, x: int) -> int:

@@ -38,7 +38,7 @@ date: 2023-07-04
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='single-number-ii'
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:

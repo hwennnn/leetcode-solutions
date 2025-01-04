@@ -74,7 +74,7 @@ bms.scatter(5, 1); // return False
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='booking-concert-tickets-in-groups'
 class Node:
     def __init__(self, start, end):

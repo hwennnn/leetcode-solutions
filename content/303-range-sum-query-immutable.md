@@ -58,7 +58,7 @@ numArray.sumRange(0, 5); // return (-2) + 0 + 3 + (-5) + 2 + (-1) = -3
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='range-sum-query-immutable'
 class NumArray:
 

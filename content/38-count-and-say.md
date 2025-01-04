@@ -66,7 +66,7 @@ countAndSay(4) = RLE of &quot;21&quot; = &quot;1211&quot;
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-and-say'
 class Solution:
     def countAndSay(self, n: int) -> str:

@@ -52,7 +52,7 @@ It can be shown that 6 is the maximum score we can obtain.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='rearrange-array-to-maximize-prefix-score'
 class Solution:
     def maxScore(self, nums: List[int]) -> int:

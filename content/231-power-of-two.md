@@ -55,7 +55,7 @@ date: 2024-02-19
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='power-of-two'
 class Solution:
     def isPowerOfTwo(self, n: int) -> bool:

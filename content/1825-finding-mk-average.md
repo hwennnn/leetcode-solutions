@@ -75,7 +75,7 @@ obj.calculateMKAverage(); // The last 3 elements are [5,5,5].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='finding-mk-average'
 from sortedcontainers import SortedList
 

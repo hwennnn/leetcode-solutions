@@ -55,7 +55,7 @@ date: 2023-02-28
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-duplicate-subtrees'
 # Definition for a binary tree node.
 # class TreeNode:

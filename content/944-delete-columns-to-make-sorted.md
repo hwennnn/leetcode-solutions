@@ -81,7 +81,7 @@ All 3 columns are not sorted, so you will delete all 3.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='delete-columns-to-make-sorted'
 class Solution:
     def minDeletionSize(self, strs: List[str]) -> int:

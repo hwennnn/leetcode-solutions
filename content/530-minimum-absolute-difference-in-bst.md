@@ -48,7 +48,7 @@ date: 2023-06-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-absolute-difference-in-bst'
 # Definition for a binary tree node.
 # class TreeNode:

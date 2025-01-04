@@ -77,7 +77,7 @@ tweetCounts.getTweetCountsPerFrequency(&quot;hour&quot;, &quot;tweet3&quot;, 0, 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='tweet-counts-per-frequency'
 class TweetCounts:
 

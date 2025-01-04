@@ -57,7 +57,7 @@ Note that you cannot swap s1[0] and s1[1] to make s1 equal to &quot;yx&quot;, ca
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-swaps-to-make-strings-equal'
 class Solution:
     def minimumSwap(self, s1: str, s2: str) -> int:

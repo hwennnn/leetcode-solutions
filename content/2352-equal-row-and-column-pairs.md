@@ -53,7 +53,7 @@ date: 2023-06-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='equal-row-and-column-pairs'
 class Solution:
     def equalPairs(self, grid: List[List[int]]) -> int:

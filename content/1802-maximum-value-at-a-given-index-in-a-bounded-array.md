@@ -56,7 +56,7 @@ There are no arrays that satisfy all the conditions and have nums[2] == 3, so 2 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-value-at-a-given-index-in-a-bounded-array'
 class Solution:
     def maxValue(self, n: int, index: int, maxSum: int) -> int:

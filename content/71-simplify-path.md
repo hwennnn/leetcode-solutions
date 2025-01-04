@@ -109,7 +109,7 @@ date: 2023-04-12
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='simplify-path'
 class Solution:
     def simplifyPath(self, path: str) -> str:

@@ -52,7 +52,7 @@ date: 2022-02-21
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-squareful-arrays'
 class Solution:
     def numSquarefulPerms(self, nums: List[int]) -> int:

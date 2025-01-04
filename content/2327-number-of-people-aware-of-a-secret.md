@@ -59,7 +59,7 @@ Day 4: A forgets the secret. B, C, and D share the secret with 3 new people. (6 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-people-aware-of-a-secret'
 class Solution:
     def peopleAwareOfSecret(self, n: int, delay: int, forget: int) -> int:

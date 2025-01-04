@@ -67,7 +67,7 @@ date: 2022-09-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='palindrome-pairs'
 class Solution:
     def palindromePairs(self, words: List[str]) -> List[List[int]]:

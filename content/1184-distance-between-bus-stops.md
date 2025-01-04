@@ -65,7 +65,7 @@ date: 2021-05-03
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='distance-between-bus-stops'
 class Solution:
     def distanceBetweenBusStops(self, distance: List[int], start: int, end: int) -> int:

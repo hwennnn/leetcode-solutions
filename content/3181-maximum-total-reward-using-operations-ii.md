@@ -62,7 +62,7 @@ date: 2024-06-09
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-total-reward-using-operations-ii'
 class Solution:
     def maxTotalReward(self, A: List[int]) -> int:

@@ -55,7 +55,7 @@ date: 2021-05-16
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sorting-the-sentence'
 class Solution:
     def sortSentence(self, s: str) -> str:

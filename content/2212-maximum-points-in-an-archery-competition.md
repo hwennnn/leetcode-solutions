@@ -75,7 +75,7 @@ It can be shown that Bob cannot obtain a score higher than 27 points.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-points-in-an-archery-competition'
 class Solution:
     def maximumBobPoints(self, N: int, A: List[int]) -> List[int]:

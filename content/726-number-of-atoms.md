@@ -79,7 +79,7 @@ date: 2024-07-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-atoms'
 class Solution:
     def countOfAtoms(self, formula: str) -> str:

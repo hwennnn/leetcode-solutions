@@ -60,7 +60,7 @@ date: 2022-09-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-arithmetic-triplets'
 class Solution:
     def arithmeticTriplets(self, nums: List[int], diff: int) -> int:

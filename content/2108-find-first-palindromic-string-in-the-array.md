@@ -57,7 +57,7 @@ Note that &quot;racecar&quot; is also palindromic, but it is not the first.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-first-palindromic-string-in-the-array'
 class Solution:
     def firstPalindrome(self, words: List[str]) -> str:

@@ -49,7 +49,7 @@ date: 2020-11-26
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-substring-with-at-least-k-repeating-characters'
 class Solution:
     def longestSubstring(self, st: str, k: int) -> int:

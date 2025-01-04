@@ -65,7 +65,7 @@ Only &quot;AA&quot; is not eligible because there are 2 absences (there need to 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='student-attendance-record-ii'
 MOD = 10 ** 9 + 7
 

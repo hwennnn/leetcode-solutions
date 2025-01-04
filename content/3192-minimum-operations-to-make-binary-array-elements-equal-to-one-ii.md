@@ -72,7 +72,7 @@ We can do the following operation:</p>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-operations-to-make-binary-array-elements-equal-to-one-ii'
 class Solution:
     def minOperations(self, nums: List[int]) -> int:

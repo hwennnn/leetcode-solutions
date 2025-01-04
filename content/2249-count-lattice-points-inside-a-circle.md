@@ -62,7 +62,7 @@ Some of them are (0, 2), (2, 0), (2, 4), (3, 2), and (4, 4).
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-lattice-points-inside-a-circle'
 class Solution:
     def countLatticePoints(self, circles: List[List[int]]) -> int:

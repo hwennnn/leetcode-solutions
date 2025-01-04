@@ -61,7 +61,7 @@ The difficulty of the schedule = 6 + 1 = 7
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-difficulty-of-a-job-schedule'
 class Solution:
     def minDifficulty(self, jobs: List[int], d: int) -> int:

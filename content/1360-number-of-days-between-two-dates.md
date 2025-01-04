@@ -36,7 +36,7 @@ date: 2020-10-16
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-days-between-two-dates'
 class Solution:
     

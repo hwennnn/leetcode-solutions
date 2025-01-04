@@ -57,7 +57,7 @@ It can be proven that there is no longer path that satisfies the conditions.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-path-with-different-adjacent-characters'
 class Solution:
     def longestPath(self, parent: List[int], s: str) -> int:

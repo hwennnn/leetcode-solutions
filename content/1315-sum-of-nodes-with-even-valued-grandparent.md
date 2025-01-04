@@ -47,7 +47,7 @@ date: 2020-12-28
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sum-of-nodes-with-even-valued-grandparent'
 # Definition for a binary tree node.
 # class TreeNode:

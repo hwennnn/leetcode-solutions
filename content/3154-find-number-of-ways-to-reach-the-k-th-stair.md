@@ -105,7 +105,7 @@ date: 2024-05-19
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-number-of-ways-to-reach-the-k-th-stair'
 class Solution:
     def waysToReachStair(self, k: int) -> int:

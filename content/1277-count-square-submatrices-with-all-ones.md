@@ -63,7 +63,7 @@ Total number of squares = 6 + 1 = <b>7</b>.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-square-submatrices-with-all-ones'
 class Solution:
     def countSquares(self, A: List[List[int]]) -> int:

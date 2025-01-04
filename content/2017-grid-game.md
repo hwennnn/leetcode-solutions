@@ -67,7 +67,7 @@ The second robot will collect 0 + 1 + 3 + 3 + 0 = 7 points.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='grid-game'
 class Solution:
     def gridGame(self, grid: List[List[int]]) -> int:

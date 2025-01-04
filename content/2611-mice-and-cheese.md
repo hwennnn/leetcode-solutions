@@ -62,7 +62,7 @@ It can be proven that 2 is the maximum total points that the mice can achieve.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='mice-and-cheese'
 class Solution:
     def miceAndCheese(self, reward1: List[int], reward2: List[int], k: int) -> int:

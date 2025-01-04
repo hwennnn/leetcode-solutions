@@ -45,7 +45,7 @@ date: 2023-05-15
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='swapping-nodes-in-a-linked-list'
 # Definition for singly-linked list.
 # class ListNode:

@@ -51,7 +51,7 @@ date: 2023-12-03
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-words-that-can-be-formed-by-characters'
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:

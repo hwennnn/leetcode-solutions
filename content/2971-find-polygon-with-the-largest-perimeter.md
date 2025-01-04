@@ -64,7 +64,7 @@ It can be shown that the largest possible perimeter is 12.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-polygon-with-the-largest-perimeter'
 class Solution:
     def largestPerimeter(self, nums: List[int]) -> int:

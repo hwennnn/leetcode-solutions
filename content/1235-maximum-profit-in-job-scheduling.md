@@ -66,7 +66,7 @@ Profit obtained 150 = 20 + 70 + 60.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-profit-in-job-scheduling'
 class Solution:
     def jobScheduling(self, startTime: List[int], endTime: List[int], profit: List[int]) -> int:

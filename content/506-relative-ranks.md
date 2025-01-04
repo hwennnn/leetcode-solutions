@@ -58,7 +58,7 @@ date: 2024-05-08
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='relative-ranks'
 class Solution:
     def findRelativeRanks(self, score: List[int]) -> List[str]:

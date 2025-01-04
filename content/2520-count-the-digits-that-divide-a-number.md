@@ -53,7 +53,7 @@ date: 2023-01-01
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-the-digits-that-divide-a-number'
 class Solution:
     def countDigits(self, num: int) -> int:

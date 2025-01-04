@@ -64,7 +64,7 @@ Therefore, we return &quot;ponter&quot;.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='faulty-keyboard'
 class Solution:
     def finalString(self, s: str) -> str:

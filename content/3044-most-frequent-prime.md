@@ -87,7 +87,7 @@ The most frequent prime number among all the created numbers is 97.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='most-frequent-prime'
 def sieve(limit):
     is_prime = [True] * (limit + 1)

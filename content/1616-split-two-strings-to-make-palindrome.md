@@ -64,7 +64,7 @@ Then, a<sub>prefix</sub> + b<sub>suffix</sub> = &quot;ula&quot; + &quot;alu&quot
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='split-two-strings-to-make-palindrome'
 class Solution:
     def checkPalindromeFormation(self, a: str, b: str) -> bool:

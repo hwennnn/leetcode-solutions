@@ -53,7 +53,7 @@ date: 2022-08-11
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='validate-binary-search-tree'
 # Definition for a binary tree node.
 # class TreeNode:

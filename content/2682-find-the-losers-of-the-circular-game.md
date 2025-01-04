@@ -68,7 +68,7 @@ date: 2023-05-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-losers-of-the-circular-game'
 class Solution:
     def circularGameLosers(self, n: int, k: int) -> List[int]:

@@ -78,7 +78,7 @@ Hence, the maximum elegance is 6 + 1<sup>2</sup> = 7.  </pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-elegance-of-a-k-length-subsequence'
 class Solution:
     def findMaximumElegance(self, items: List[List[int]], k: int) -> int:

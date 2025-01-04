@@ -78,7 +78,7 @@ Their sum = 1 + 2 + 4 + 8 + 121 + 151 + 212 = 499.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sum-of-k-mirror-numbers'
 class Solution:
     def kMirror(self, k: int, n: int) -> int:

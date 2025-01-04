@@ -58,7 +58,7 @@ date: 2024-02-05
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='first-unique-character-in-a-string'
 class Solution:
     def firstUniqChar(self, s: str) -> int:

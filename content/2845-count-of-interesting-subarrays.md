@@ -74,7 +74,7 @@ It can be shown that there are no other interesting subarrays. So, the answer is
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-of-interesting-subarrays'
 class Solution:
     def countInterestingSubarrays(self, nums: List[int], modulo: int, k: int) -> int:

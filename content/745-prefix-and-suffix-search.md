@@ -54,7 +54,7 @@ wordFilter.f(&quot;a&quot;, &quot;e&quot;); // return 0, because the word at ind
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='prefix-and-suffix-search'
 class WordFilter:
 

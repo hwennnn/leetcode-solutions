@@ -62,7 +62,7 @@ queries[0] is green, queries[1] is red, queries[2] is blue, and queries[3] is pu
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='queries-on-number-of-points-inside-a-circle'
 class Solution:
     def countPoints(self, points: List[List[int]], queries: List[List[int]]) -> List[int]:

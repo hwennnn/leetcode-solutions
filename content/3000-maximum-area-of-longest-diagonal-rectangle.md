@@ -51,7 +51,7 @@ So, the rectangle at index 1 has a greater diagonal length therefore we return a
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-area-of-longest-diagonal-rectangle'
 class Solution:
     def areaOfMaxDiagonal(self, dimensions: List[List[int]]) -> int:

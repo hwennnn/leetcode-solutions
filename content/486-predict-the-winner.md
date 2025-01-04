@@ -55,7 +55,7 @@ Finally, player 1 has more score (234) than player 2 (12), so you need to return
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='predict-the-winner'
 class Solution:
     def PredictTheWinner(self, nums: List[int]) -> bool:

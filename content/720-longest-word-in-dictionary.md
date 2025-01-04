@@ -52,7 +52,7 @@ date: 2021-01-21
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-word-in-dictionary'
 class TrieNode:
     def __init__(self):

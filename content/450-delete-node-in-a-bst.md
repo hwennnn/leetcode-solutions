@@ -68,7 +68,7 @@ Please notice that another valid answer is [5,2,6,null,4,null,7] and it&#39;s al
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='delete-node-in-a-bst'
 # Definition for a binary tree node.
 # class TreeNode:

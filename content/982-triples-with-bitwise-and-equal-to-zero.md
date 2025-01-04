@@ -65,7 +65,7 @@ date: 2022-02-21
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='triples-with-bitwise-and-equal-to-zero'
 class Solution:
     def countTriplets(self, nums: List[int]) -> int:

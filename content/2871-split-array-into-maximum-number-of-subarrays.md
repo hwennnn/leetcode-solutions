@@ -64,7 +64,7 @@ It can be shown that we cannot split the array into more than 1 subarray with a 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='split-array-into-maximum-number-of-subarrays'
 class Solution:
     def maxSubarrays(self, nums: List[int]) -> int:

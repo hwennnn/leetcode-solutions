@@ -47,7 +47,7 @@ date: 2024-08-24
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-closest-palindrome'
 class Solution:
     def nearestPalindromic(self, S):

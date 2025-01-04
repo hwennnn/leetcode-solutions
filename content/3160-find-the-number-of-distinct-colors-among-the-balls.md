@@ -77,7 +77,7 @@ date: 2024-05-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-number-of-distinct-colors-among-the-balls'
 class Solution:
     def queryResults(self, limit: int, queries: List[List[int]]) -> List[int]:

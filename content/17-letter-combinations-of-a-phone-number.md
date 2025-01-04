@@ -52,7 +52,7 @@ date: 2023-08-03
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='letter-combinations-of-a-phone-number'
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:

@@ -71,7 +71,7 @@ The nodes at level 3 were 1, 1, 1, 1, 2, 2, 2, 2, and are 2, 2, 2, 2, 1, 1, 1, 1
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='reverse-odd-levels-of-binary-tree'
 # Definition for a binary tree node.
 # class TreeNode:

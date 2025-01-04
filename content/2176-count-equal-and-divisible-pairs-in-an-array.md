@@ -47,7 +47,7 @@ There are 4 pairs that meet all the requirements:
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-equal-and-divisible-pairs-in-an-array'
 class Solution:
     def countPairs(self, nums: List[int], k: int) -> int:

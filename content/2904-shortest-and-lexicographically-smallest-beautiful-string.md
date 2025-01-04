@@ -78,7 +78,7 @@ The lexicographically smallest beautiful substring with length 2 is the substrin
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='shortest-and-lexicographically-smallest-beautiful-string'
 class Solution:
     def shortestBeautifulSubstring(self, s: str, k: int) -> str:

@@ -60,7 +60,7 @@ date: 2023-09-03
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-sum-of-almost-unique-subarray'
 class Solution:
     def maxSum(self, nums: List[int], m: int, k: int) -> int:

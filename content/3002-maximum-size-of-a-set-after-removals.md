@@ -62,7 +62,7 @@ It can be shown that 6 is the maximum possible size of the set s after the remov
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-size-of-a-set-after-removals'
 class Solution:
     def maximumSetSize(self, nums1: List[int], nums2: List[int]) -> int:

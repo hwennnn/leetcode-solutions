@@ -61,7 +61,7 @@ Note that you are allowed to reuse a dictionary word.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='word-break'
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:

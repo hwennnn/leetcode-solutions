@@ -72,7 +72,7 @@ date: 2023-06-20
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='k-radius-subarray-averages'
 class Solution:
     def getAverages(self, nums: List[int], k: int) -> List[int]:

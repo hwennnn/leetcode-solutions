@@ -57,7 +57,7 @@ date: 2024-05-09
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-length-of-anagram-concatenation'
 class Solution:
     def minAnagramLength(self, s: str) -> int:

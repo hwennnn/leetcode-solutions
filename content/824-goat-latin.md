@@ -59,7 +59,7 @@ date: 2020-08-19
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='goat-latin'
 class Solution:
     def toGoatLatin(self, S: str) -> str:

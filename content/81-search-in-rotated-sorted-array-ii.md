@@ -46,7 +46,7 @@ date: 2023-08-11
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='search-in-rotated-sorted-array-ii'
 class Solution:
     def search(self, nums: List[int], target: int) -> bool:

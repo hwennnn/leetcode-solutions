@@ -69,7 +69,7 @@ It can be shown that it is not possible to obtain a lower maximum satisfying all
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimize-the-maximum-of-two-arrays'
 class Solution:
     def minimizeSet(self, d1: int, d2: int, a: int, b: int) -> int:

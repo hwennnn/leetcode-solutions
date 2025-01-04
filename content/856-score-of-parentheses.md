@@ -58,7 +58,7 @@ date: 2022-03-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='score-of-parentheses'
 class Solution:
     def scoreOfParentheses(self, s: str) -> int:

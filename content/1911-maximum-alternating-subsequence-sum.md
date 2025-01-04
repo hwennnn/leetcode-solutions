@@ -62,7 +62,7 @@ date: 2021-06-29
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-alternating-subsequence-sum'
 class Solution:
     def maxAlternatingSum(self, nums: List[int]) -> int:

@@ -82,7 +82,7 @@ Note that s = {1, 2} will also cover 3 rows, but it can be shown that no more th
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-rows-covered-by-columns'
 class Solution:
     def maximumRows(self, mat: List[List[int]], k: int) -> int:

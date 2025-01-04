@@ -55,7 +55,7 @@ date: 2020-10-12
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-lucky-integer-in-an-array'
 class Solution:
     def findLucky(self, arr: List[int]) -> int:

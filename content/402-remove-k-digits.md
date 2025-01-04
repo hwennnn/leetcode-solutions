@@ -55,7 +55,7 @@ date: 2024-04-11
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='remove-k-digits'
 class Solution:
     def removeKdigits(self, num: str, k: int) -> str:

@@ -48,7 +48,7 @@ date: 2022-07-05
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='basic-calculator-ii'
 class Solution:
     def calculate(self, s: str) -> int:

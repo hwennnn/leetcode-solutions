@@ -69,7 +69,7 @@ The sub-tree of node 0 contains nodes 0, 1, 2 and 3, all with label &#39;b&#39;,
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-nodes-in-the-sub-tree-with-the-same-label'
 class Solution:
     def countSubTrees(self, n: int, edges: List[List[int]], labels: str) -> List[int]:

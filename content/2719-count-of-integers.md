@@ -54,7 +54,7 @@ date: 2023-07-31
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-of-integers'
 class Solution:
     def count(self, num1: str, num2: str, min_sum: int, max_sum: int) -> int:

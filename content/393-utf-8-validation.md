@@ -71,7 +71,7 @@ But the second continuation byte does not start with 10, so it is invalid.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='utf-8-validation'
 def is_k_bytes_long(data, index, k):
     if k == 1:

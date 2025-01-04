@@ -66,7 +66,7 @@ You can make 8 consecutive integer values starting from 0.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-number-of-consecutive-values-you-can-make'
 class Solution:
     def getMaximumConsecutive(self, coins: List[int]) -> int:

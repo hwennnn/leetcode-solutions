@@ -51,7 +51,7 @@ date: 2022-12-30
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='all-paths-from-source-to-target'
 class Solution:
     def allPathsSourceTarget(self, graph: List[List[int]]) -> List[List[int]]:

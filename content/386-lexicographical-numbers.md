@@ -36,7 +36,7 @@ date: 2025-01-01
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='lexicographical-numbers'
 class Solution:
     def lexicalOrder(self, n: int) -> List[int]:

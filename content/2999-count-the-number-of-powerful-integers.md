@@ -64,7 +64,7 @@ It can be shown that there are only 2 powerful integers in this range.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-the-number-of-powerful-integers'
 class Solution:
     def numberOfPowerfulInt(self, start: int, finish: int, maxDigit: int, s: str) -> int:

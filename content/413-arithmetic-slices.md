@@ -52,7 +52,7 @@ date: 2022-03-03
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='arithmetic-slices'
 class Solution:
     def numberOfArithmeticSlices(self, nums: List[int]) -> int:

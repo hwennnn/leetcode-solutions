@@ -67,7 +67,7 @@ date: 2023-08-19
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sorting-three-groups'
 class Solution:
     def minimumOperations(self, nums: List[int]) -> int:

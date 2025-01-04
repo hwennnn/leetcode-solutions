@@ -51,7 +51,7 @@ date: 2023-06-05
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-if-it-is-a-straight-line'
 class Solution:
     def checkStraightLine(self, coordinates: List[List[int]]) -> bool:

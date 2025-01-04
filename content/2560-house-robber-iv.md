@@ -58,7 +58,7 @@ Therefore, we return min(5, 9, 9) = 5.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='house-robber-iv'
 class Solution:
     def minCapability(self, nums: List[int], k: int) -> int:

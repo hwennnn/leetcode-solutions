@@ -58,7 +58,7 @@ This demonstrated that taking the first 5 was a winning move for Alice, so we re
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='stone-game'
 class Solution:
     def stoneGame(self, piles: List[int]) -> bool:

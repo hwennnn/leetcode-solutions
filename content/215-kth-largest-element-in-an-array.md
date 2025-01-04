@@ -42,7 +42,7 @@ date: 2024-08-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='kth-largest-element-in-an-array'
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:

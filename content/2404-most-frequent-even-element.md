@@ -56,7 +56,7 @@ We return the smallest one, which is 2.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='most-frequent-even-element'
 class Solution:
     def mostFrequentEven(self, nums: List[int]) -> int:

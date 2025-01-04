@@ -58,7 +58,7 @@ date: 2023-11-12
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='bus-routes'
 class Solution:
     def numBusesToDestination(self, routes: List[List[int]], source: int, target: int) -> int:

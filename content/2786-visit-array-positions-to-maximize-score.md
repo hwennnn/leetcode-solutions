@@ -59,7 +59,7 @@ The total score is: 2 + 4 + 6 + 8 = 20.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='visit-array-positions-to-maximize-score'
 class Solution:
     def maxScore(self, nums: List[int], x: int) -> int:

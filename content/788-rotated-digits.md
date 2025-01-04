@@ -61,7 +61,7 @@ Note that 1 and 10 are not good numbers, since they remain unchanged after rotat
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='rotated-digits'
 class Solution:
     def rotatedDigits(self, n: int) -> int:

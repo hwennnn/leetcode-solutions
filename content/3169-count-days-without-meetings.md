@@ -70,7 +70,7 @@ date: 2024-06-02
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-days-without-meetings'
 class Solution:
     def countDays(self, days: int, meetings: List[List[int]]) -> int:

@@ -115,7 +115,7 @@ date: 2024-09-05
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='walking-robot-simulation'
 class Solution:
     def robotSim(self, commands: List[int], obstacles: List[List[int]]) -> int:

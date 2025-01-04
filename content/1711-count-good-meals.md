@@ -50,7 +50,7 @@ Their respective sums are 4, 8, 8, and 16, all of which are powers of 2.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-good-meals'
 class Solution:
     def countPairs(self, A: List[int]) -> int:

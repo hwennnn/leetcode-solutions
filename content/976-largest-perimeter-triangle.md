@@ -50,7 +50,7 @@ As we cannot use any three side lengths to form a triangle of non-zero area, we 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='largest-perimeter-triangle'
 class Solution:
     def largestPerimeter(self, nums: List[int]) -> int:

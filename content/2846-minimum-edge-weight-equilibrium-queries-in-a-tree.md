@@ -72,7 +72,7 @@ For each queries[i], it can be shown that answer[i] is the minimum number of ope
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-edge-weight-equilibrium-queries-in-a-tree'
 class Solution:
     def minOperationsQueries(self, N: int, edges: List[List[int]], queries: List[List[int]]) -> List[int]:

@@ -106,7 +106,7 @@ date: 2024-06-23
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-the-number-of-inversions'
 class Solution:
     def numberOfPermutations(self, n: int, requirements: List[List[int]]) -> int:

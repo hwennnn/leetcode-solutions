@@ -62,7 +62,7 @@ In 6 out of 10 possibilities, she is at or below 6 points.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='new-21-game'
 class Solution:
     def new21Game(self, n: int, k: int, maxPts: int) -> float:

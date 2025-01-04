@@ -84,7 +84,7 @@ Thus the resulting integer is 6.</p>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sum-of-digits-of-string-after-convert'
 class Solution:
     def getLucky(self, s: str, k: int) -> int:

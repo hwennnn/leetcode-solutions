@@ -58,7 +58,7 @@ The integer <strong>3</strong> has the same number of set bits as num2, and the 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimize-xor'
 class Solution:
     def minimizeXor(self, num1: int, num2: int) -> int:

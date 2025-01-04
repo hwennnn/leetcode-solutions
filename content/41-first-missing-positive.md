@@ -54,7 +54,7 @@ date: 2020-09-30
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='first-missing-positive'
 class Solution:
     def firstMissingPositive(self, nums: List[int]) -> int:

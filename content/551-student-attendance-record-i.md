@@ -58,7 +58,7 @@ date: 2020-03-02
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='student-attendance-record-i'
 class Solution:
     def checkRecord(self, s: str) -> bool:

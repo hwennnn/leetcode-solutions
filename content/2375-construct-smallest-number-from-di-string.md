@@ -62,7 +62,7 @@ It can be proven that &quot;4321&quot; is the smallest possible num that meets t
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='construct-smallest-number-from-di-string'
 class Solution:
     def smallestNumber(self, pattern: str) -> str:

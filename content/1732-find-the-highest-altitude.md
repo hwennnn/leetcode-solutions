@@ -47,7 +47,7 @@ date: 2023-06-19
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-highest-altitude'
 class Solution:
     def largestAltitude(self, gain: List[int]) -> int:

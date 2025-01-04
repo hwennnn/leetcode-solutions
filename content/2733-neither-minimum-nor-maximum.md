@@ -55,7 +55,7 @@ date: 2023-06-11
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='neither-minimum-nor-maximum'
 class Solution:
     def findNonMinOrMax(self, nums: List[int]) -> int:

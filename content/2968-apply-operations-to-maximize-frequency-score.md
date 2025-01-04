@@ -65,7 +65,7 @@ It can be shown that we cannot achieve a better score.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='apply-operations-to-maximize-frequency-score'
 class Solution:
     def maxFrequencyScore(self, nums: List[int], k: int) -> int:

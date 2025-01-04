@@ -80,7 +80,7 @@ public:
     }
 };
 ```
-### Python
+### Python3
 ``` py title='find-valid-matrix-given-row-and-column-sums'
 class Solution:
     def restoreMatrix(self, rs: List[int], cs: List[int]) -> List[List[int]]:

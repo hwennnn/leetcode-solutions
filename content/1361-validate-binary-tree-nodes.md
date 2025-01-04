@@ -58,7 +58,7 @@ date: 2020-10-16
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='validate-binary-tree-nodes'
 class Solution:
     def countNodes(self, root, leftChild, rightChild):

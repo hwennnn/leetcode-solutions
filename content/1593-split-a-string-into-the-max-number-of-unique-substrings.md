@@ -61,7 +61,7 @@ date: 2024-10-21
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='split-a-string-into-the-max-number-of-unique-substrings'
 class Solution:
     def maxUniqueSplit(self, S: str) -> int:

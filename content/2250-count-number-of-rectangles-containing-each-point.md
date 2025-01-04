@@ -68,7 +68,7 @@ Therefore, we return [1, 3].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-number-of-rectangles-containing-each-point'
 class Solution:
     def countRectangles(self, rectangles: List[List[int]], points: List[List[int]]) -> List[int]:

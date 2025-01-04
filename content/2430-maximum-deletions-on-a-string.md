@@ -73,7 +73,7 @@ We used 4 operations so return 4. It can be proven that 4 is the maximum number 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-deletions-on-a-string'
 class Hashes:
     def __init__(self, s, base = 131, mod = 10 ** 9 + 7) -> None:

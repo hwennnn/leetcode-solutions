@@ -91,7 +91,7 @@ Explanation is shown in the photo below:
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='construct-quad-tree'
 """
 # Definition for a QuadTree node.

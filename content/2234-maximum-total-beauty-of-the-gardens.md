@@ -79,7 +79,7 @@ Note that Alice could make all the gardens complete but in this case, she would 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-total-beauty-of-the-gardens'
 class Solution:
     def maximumBeauty(self, flowers: List[int], k: int, t: int, full: int, partial: int) -> int:

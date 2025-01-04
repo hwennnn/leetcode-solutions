@@ -53,7 +53,7 @@ date: 2023-05-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-vertices-to-reach-all-nodes'
 class Solution:
     def findSmallestSetOfVertices(self, n: int, edges: List[List[int]]) -> List[int]:

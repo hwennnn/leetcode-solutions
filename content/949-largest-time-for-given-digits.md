@@ -49,7 +49,7 @@ date: 2020-09-01
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='largest-time-for-given-digits'
 class Solution:
     def largestTimeFromDigits(self, arr: List[int]) -> str:

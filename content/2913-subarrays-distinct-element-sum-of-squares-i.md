@@ -64,7 +64,7 @@ The sum of the squares of the distinct counts in all subarrays is equal to 1<sup
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='subarrays-distinct-element-sum-of-squares-i'
 class Solution:
     def sumCounts(self, nums: List[int]) -> int:

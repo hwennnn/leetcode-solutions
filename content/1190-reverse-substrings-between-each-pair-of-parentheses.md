@@ -56,7 +56,7 @@ date: 2024-07-11
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='reverse-substrings-between-each-pair-of-parentheses'
 class Solution:
     def reverseParentheses(self, s: str) -> str:

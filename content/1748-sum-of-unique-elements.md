@@ -55,7 +55,7 @@ date: 2021-02-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sum-of-unique-elements'
 class Solution:
     def sumOfUnique(self, nums: List[int]) -> int:

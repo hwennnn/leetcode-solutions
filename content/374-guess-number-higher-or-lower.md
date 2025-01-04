@@ -63,7 +63,7 @@ date: 2022-11-16
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='guess-number-higher-or-lower'
 # The guess API is already defined for you.
 # @param num, your guess

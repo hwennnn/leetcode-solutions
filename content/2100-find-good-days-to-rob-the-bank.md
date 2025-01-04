@@ -71,7 +71,7 @@ Thus, no day is a good day to rob the bank, so return an empty list.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-good-days-to-rob-the-bank'
 class Solution:
     def goodDaysToRobBank(self, security: List[int], time: int) -> List[int]:

@@ -41,7 +41,7 @@ date: 2023-09-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='is-subsequence'
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:

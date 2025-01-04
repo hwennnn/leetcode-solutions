@@ -56,7 +56,7 @@ date: 2022-11-15
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-complete-tree-nodes'
 # Definition for a binary tree node.
 # class TreeNode:

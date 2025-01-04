@@ -62,7 +62,7 @@ The underlined portions are the substrings that are chosen from s and t.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-substrings-that-differ-by-one-character'
 class Solution:
     def countSubstrings(self, s: str, t: str) -> int:

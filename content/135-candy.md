@@ -55,7 +55,7 @@ The third child gets 1 candy because it satisfies the above two conditions.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='candy'
 class Solution:
     def candy(self, ratings: List[int]) -> int:

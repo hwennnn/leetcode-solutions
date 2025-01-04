@@ -49,7 +49,7 @@ XRLXXRRLX
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='swap-adjacent-in-lr-string'
 class Solution:
     def canTransform(self, start: str, end: str) -> bool:

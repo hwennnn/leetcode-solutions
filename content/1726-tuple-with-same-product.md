@@ -52,7 +52,7 @@ date: 2021-01-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='tuple-with-same-product'
 class Solution:
     def tupleSameProduct(self, nums: List[int]) -> int:

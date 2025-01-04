@@ -84,7 +84,7 @@ date: 2024-07-10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='alternating-groups-ii'
 class Solution:
     def numberOfAlternatingGroups(self, colors: List[int], k: int) -> int:

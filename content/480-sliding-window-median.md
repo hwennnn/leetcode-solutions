@@ -62,7 +62,7 @@ Window position                Median
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sliding-window-median'
 class Solution:
     def medianSlidingWindow(self, nums: List[int], k: int) -> List[float]:

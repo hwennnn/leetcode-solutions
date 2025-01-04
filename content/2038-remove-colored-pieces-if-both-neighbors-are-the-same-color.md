@@ -85,7 +85,7 @@ Thus, Bob wins, so return false.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='remove-colored-pieces-if-both-neighbors-are-the-same-color'
 class Solution:
     def winnerOfGame(self, colors: str) -> bool:

@@ -57,7 +57,7 @@ itr.hasNext(); // return False
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='iterator-for-combination'
 class CombinationIterator:
 

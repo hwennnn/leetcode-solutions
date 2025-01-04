@@ -69,7 +69,7 @@ Because the given array is not non-decreasing, the maximum<!-- notionvc: 3447a50
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-maximum-non-decreasing-array-length'
 class Solution:
     def findMaximumLength(self, nums: List[int]) -> int:

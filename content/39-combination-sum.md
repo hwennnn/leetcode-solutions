@@ -59,7 +59,7 @@ These are the only two combinations.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='combination-sum'
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:

@@ -44,7 +44,7 @@ date: 2020-10-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-ways-to-paint-n-3-grid'
 class Solution:
     def numOfWays(self, n: int) -> int:

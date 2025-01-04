@@ -70,7 +70,7 @@ Node values in level 2 must be in strictly increasing order, so the tree is not 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='even-odd-tree'
 # Definition for a binary tree node.
 # class TreeNode:

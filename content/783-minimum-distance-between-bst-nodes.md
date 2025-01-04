@@ -48,7 +48,7 @@ date: 2023-02-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-distance-between-bst-nodes'
 # Definition for a binary tree node.
 # class TreeNode:

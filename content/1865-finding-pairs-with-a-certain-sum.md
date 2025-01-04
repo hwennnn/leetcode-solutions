@@ -68,7 +68,7 @@ findSumPairs.count(7);  // return 11; pairs (2,1), (2,2), (2,4), (3,1), (3,2), (
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='finding-pairs-with-a-certain-sum'
 class FindSumPairs:
 

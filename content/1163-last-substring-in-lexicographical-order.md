@@ -43,7 +43,7 @@ date: 2021-05-15
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='last-substring-in-lexicographical-order'
 class Solution:
     def lastSubstring(self, s: str) -> str:

@@ -55,7 +55,7 @@ date: 2023-07-30
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-complete-subarrays-in-an-array'
 class Solution:
     def countCompleteSubarrays(self, nums: List[int]) -> int:

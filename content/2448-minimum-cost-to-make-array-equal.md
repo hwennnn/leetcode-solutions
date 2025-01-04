@@ -64,7 +64,7 @@ It can be shown that we cannot make the array equal with a smaller cost.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-cost-to-make-array-equal'
 class Solution:
     def minCost(self, nums: List[int], cost: List[int]) -> int:

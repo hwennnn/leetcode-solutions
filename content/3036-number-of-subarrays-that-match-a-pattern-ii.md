@@ -60,7 +60,7 @@ Hence, there are 2 subarrays in nums that match the pattern.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-subarrays-that-match-a-pattern-ii'
 def rabin_karp(s, t):
     

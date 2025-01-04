@@ -56,7 +56,7 @@ date: 2021-05-16
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='incremental-memory-leak'
 class Solution:
     def memLeak(self, m1: int, m2: int) -> List[int]:

@@ -49,7 +49,7 @@ date: 2020-04-16
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='valid-parenthesis-string'
 class Solution:
     def checkValidString(self, s: str) -> bool:

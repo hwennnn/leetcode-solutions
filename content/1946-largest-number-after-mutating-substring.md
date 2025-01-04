@@ -69,7 +69,7 @@ Thus, &quot;<u>021</u>&quot; becomes &quot;<u>934</u>&quot;.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='largest-number-after-mutating-substring'
 class Solution:
     def maximumNumber(self, num: str, change: List[int]) -> str:

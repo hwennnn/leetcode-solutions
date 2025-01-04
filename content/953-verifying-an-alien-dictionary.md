@@ -57,7 +57,7 @@ date: 2023-02-02
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='verifying-an-alien-dictionary'
 class Solution:
     def isAlienSorted(self, words: List[str], order: str) -> bool:

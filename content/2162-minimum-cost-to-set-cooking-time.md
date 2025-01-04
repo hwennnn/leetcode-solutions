@@ -78,7 +78,7 @@ Note other possible ways are 0076, 076, 0116, and 116, but none of them produces
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-cost-to-set-cooking-time'
 class Solution:
     def minCostSetTime(self, startAt: int, moveCost: int, pushCost: int, t: int) -> int:

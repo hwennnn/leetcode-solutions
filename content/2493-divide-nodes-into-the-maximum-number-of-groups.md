@@ -67,7 +67,7 @@ It can be shown that no grouping is possible.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='divide-nodes-into-the-maximum-number-of-groups'
 def is_bipartite(graph, n):
     color = defaultdict(int)

@@ -52,7 +52,7 @@ date: 2020-09-01
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='decrypt-string-from-alphabet-to-integer-mapping'
 class Solution:
     def freqAlphabets(self, s: str) -> str:

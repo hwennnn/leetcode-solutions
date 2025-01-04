@@ -57,7 +57,7 @@ date: 2022-10-30
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-addition-to-make-integer-beautiful'
 class Solution:
     def makeIntegerBeautiful(self, n: int, target: int) -> int:

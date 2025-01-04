@@ -52,7 +52,7 @@ date: 2024-12-15
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-average-pass-ratio'
 class Solution:
     def maxAverageRatio(self, classes: List[List[int]], extraStudents: int) -> float:

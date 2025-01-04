@@ -72,7 +72,7 @@ So the answer is [&quot;ab&quot;,&quot;cd&quot;].</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='high-access-employees'
 class Solution:
     def findHighAccessEmployees(self, access_times: List[List[str]]) -> List[str]:

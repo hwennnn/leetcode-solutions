@@ -59,7 +59,7 @@ The maximum number is 9969.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-69-number'
 class Solution:
     def maximum69Number (self, num: int) -> int:

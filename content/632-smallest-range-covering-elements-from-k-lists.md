@@ -55,7 +55,7 @@ List 3: [5, 18, 22, 30], 22 is in range [20,24].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='smallest-range-covering-elements-from-k-lists'
 class Solution:
     def smallestRange(self, nums: List[List[int]]) -> List[int]:

@@ -53,7 +53,7 @@ date: 2022-04-19
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-minimum-in-rotated-sorted-array-ii'
 class Solution:
     def findMin(self, nums: List[int]) -> int:

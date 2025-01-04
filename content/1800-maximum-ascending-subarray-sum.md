@@ -55,7 +55,7 @@ date: 2023-11-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-ascending-subarray-sum'
 class Solution:
     def maxAscendingSum(self, nums: List[int]) -> int:

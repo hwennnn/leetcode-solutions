@@ -51,7 +51,7 @@ It can be shown that it is impossible for the array to have all unique values wi
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-increment-to-make-array-unique'
 class Solution:
     def minIncrementForUnique(self, nums: List[int]) -> int:

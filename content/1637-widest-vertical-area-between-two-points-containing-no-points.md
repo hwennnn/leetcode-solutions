@@ -49,7 +49,7 @@ date: 2023-12-21
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='widest-vertical-area-between-two-points-containing-no-points'
 class Solution:
     def maxWidthOfVerticalArea(self, points: List[List[int]]) -> int:

@@ -63,7 +63,7 @@ It can be proven that the minimum number of steps needed is 2.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='separate-black-and-white-balls'
 class Solution:
     def minimumSteps(self, s: str) -> int:

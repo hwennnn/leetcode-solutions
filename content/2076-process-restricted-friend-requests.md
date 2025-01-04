@@ -77,7 +77,7 @@ Request 3: Person 3 and person 4 cannot be friends since person 0 and person 1 w
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='process-restricted-friend-requests'
 class DSU:
     def __init__(self, n):

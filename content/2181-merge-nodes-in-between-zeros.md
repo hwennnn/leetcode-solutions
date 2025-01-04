@@ -57,7 +57,7 @@ The above figure represents the given linked list. The modified list contains
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='merge-nodes-in-between-zeros'
 # Definition for singly-linked list.
 # class ListNode:

@@ -61,7 +61,7 @@ Hence, s = &quot;ngguoy&quot; is the acronym.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-if-a-string-is-an-acronym-of-words'
 class Solution:
     def isAcronym(self, words: List[str], s: str) -> bool:

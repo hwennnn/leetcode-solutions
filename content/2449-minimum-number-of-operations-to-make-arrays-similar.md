@@ -70,7 +70,7 @@ It can be shown that 2 is the minimum number of operations needed.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-operations-to-make-arrays-similar'
 class Solution:
     def makeSimilar(self, nums: List[int], target: List[int]) -> int:

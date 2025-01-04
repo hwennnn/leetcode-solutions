@@ -57,7 +57,7 @@ date: 2020-08-02
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-good-triplets'
 class Solution:
     def countGoodTriplets(self, arr: List[int], a: int, b: int, c: int) -> int:

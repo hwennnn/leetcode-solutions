@@ -67,7 +67,7 @@ The resultant array formed is [2,1], which is the same as the initial array.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sort-even-and-odd-indices-independently'
 class Solution:
     def sortEvenOdd(self, nums: List[int]) -> List[int]:

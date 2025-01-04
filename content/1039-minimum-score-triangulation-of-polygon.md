@@ -73,7 +73,7 @@ The minimum score is 144.</p>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-score-triangulation-of-polygon'
 class Solution:
     def minScoreTriangulation(self, values: List[int]) -> int:

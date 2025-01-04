@@ -71,7 +71,7 @@ The target triplet [5,5,5] is now an element of triplets.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='merge-triplets-to-form-target-triplet'
 class Solution:
     def mergeTriplets(self, t: List[List[int]], target: List[int]) -> bool:

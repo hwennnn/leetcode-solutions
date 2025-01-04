@@ -61,7 +61,7 @@ That costs 3, so the maximum length is 3.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='get-equal-substrings-within-budget'
 class Solution:
     def equalSubstring(self, s: str, t: str, maxCost: int) -> int:

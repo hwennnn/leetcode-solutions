@@ -61,7 +61,7 @@ wordDictionary.search(&quot;b..&quot;); // return True
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='design-add-and-search-words-data-structure'
 class TrieNode:
     def __init__(self):

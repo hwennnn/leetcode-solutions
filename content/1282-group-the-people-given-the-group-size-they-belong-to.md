@@ -55,7 +55,7 @@ Other possible solutions are [[2,1,6],[5],[0,4,3]] and [[5],[0,6,2],[4,3,1]].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='group-the-people-given-the-group-size-they-belong-to'
 class Solution:
     def groupThePeople(self, groupSizes: List[int]) -> List[List[int]]:

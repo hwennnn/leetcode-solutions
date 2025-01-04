@@ -49,7 +49,7 @@ date: 2022-12-10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-product-of-splitted-binary-tree'
 # Definition for a binary tree node.
 # class TreeNode:

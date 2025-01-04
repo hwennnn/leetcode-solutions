@@ -60,7 +60,7 @@ date: 2022-07-09
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='jump-game-vi'
 class Solution:
     def maxResult(self, nums: List[int], k: int) -> int:

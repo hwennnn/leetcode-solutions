@@ -60,7 +60,7 @@ The XOR values for queries are:
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='xor-queries-of-a-subarray'
 class Solution:
     def xorQueries(self, arr: List[int], queries: List[List[int]]) -> List[int]:

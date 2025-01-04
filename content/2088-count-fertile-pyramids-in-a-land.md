@@ -79,7 +79,7 @@ The total number of plots is 7 + 6 = 13.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-fertile-pyramids-in-a-land'
 class Solution:
     def countPyramids(self, grid: List[List[int]]) -> int:

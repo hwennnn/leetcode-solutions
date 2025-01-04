@@ -56,7 +56,7 @@ From (1,0) to (2,3), all three rectangles overlap.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='rectangle-area-ii'
 class Solution:
     def rectangleArea(self, rectangles: List[List[int]]) -> int:

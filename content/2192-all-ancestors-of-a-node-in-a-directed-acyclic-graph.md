@@ -70,7 +70,7 @@ The above diagram represents the input graph.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='all-ancestors-of-a-node-in-a-directed-acyclic-graph'
 class Solution:
     def getAncestors(self, n: int, edges: List[List[int]]) -> List[List[int]]:

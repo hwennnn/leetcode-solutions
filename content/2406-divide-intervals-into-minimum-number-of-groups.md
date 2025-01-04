@@ -59,7 +59,7 @@ It can be proven that it is not possible to divide the intervals into fewer than
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='divide-intervals-into-minimum-number-of-groups'
 class Solution:
     def minGroups(self, intervals: List[List[int]]) -> int:

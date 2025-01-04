@@ -78,7 +78,7 @@ date: 2024-02-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-largest-area-of-square-inside-two-rectangles'
 class Solution:
     def largestSquareArea(self, bottomLeft: List[List[int]], topRight: List[List[int]]) -> int:

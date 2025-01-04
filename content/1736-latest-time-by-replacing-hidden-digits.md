@@ -54,7 +54,7 @@ date: 2021-01-24
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='latest-time-by-replacing-hidden-digits'
 class Solution:
     def maximumTime(self, time: str) -> str:

@@ -69,7 +69,7 @@ Letter &quot;e&quot; can only be used once.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-score-words-formed-by-letters'
 class Solution:
     def maxScoreWords(self, words: List[str], letters: List[str], score: List[int]) -> int:

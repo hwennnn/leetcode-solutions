@@ -59,7 +59,7 @@ Note that common prefixes between elements of the same array do not count.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-length-of-the-longest-common-prefix'
 class Solution:
     def longestCommonPrefix(self, arr1: List[int], arr2: List[int]) -> int:

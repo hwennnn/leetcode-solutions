@@ -58,7 +58,7 @@ date: 2020-10-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='html-entity-parser'
 class Solution:
     def entityParser(self, text: str) -> str:

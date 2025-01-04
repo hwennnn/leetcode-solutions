@@ -54,7 +54,7 @@ Note that there are other valid answers as [8, 3] that can be accepted.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='convert-integer-to-the-sum-of-two-no-zero-integers'
 class Solution:
     def getNoZeroIntegers(self, n: int) -> List[int]:

@@ -54,7 +54,7 @@ date: 2022-08-27
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='max-sum-of-rectangle-no-larger-than-k'
 from sortedcontainers import SortedList
 

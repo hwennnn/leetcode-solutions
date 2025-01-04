@@ -52,7 +52,7 @@ date: 2024-11-09
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-array-end'
 class Solution:
     def minEnd(self, n: int, x: int) -> int:

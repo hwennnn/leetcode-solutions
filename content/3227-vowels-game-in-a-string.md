@@ -72,7 +72,7 @@ There is no valid play for Alice in her first turn, so Alice loses the game.</p>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='vowels-game-in-a-string'
 class Solution:
     def doesAliceWin(self, s: str) -> bool:

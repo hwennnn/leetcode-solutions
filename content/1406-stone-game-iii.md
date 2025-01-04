@@ -67,7 +67,7 @@ Remember that both play optimally so here Alice will choose the scenario that ma
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='stone-game-iii'
 class Solution:
     def stoneGameIII(self, stoneValue: List[int]) -> str:

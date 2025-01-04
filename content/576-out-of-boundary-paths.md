@@ -45,7 +45,7 @@ date: 2024-01-26
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='out-of-boundary-paths'
 class Solution:
     def findPaths(self, m: int, n: int, maxMove: int, startRow: int, startColumn: int) -> int:

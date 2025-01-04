@@ -77,7 +77,7 @@ Therefore, we return [[1,7],[2,4],[7,1]].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='merge-similar-items'
 class Solution:
     def mergeSimilarItems(self, items1: List[List[int]], items2: List[List[int]]) -> List[List[int]]:

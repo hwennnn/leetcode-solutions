@@ -54,7 +54,7 @@ date: 2024-03-03
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='remove-nth-node-from-end-of-list'
 # Definition for singly-linked list.
 # class ListNode:

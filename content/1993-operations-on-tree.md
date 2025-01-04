@@ -84,7 +84,7 @@ lockingTree.lock(0, 1);    // return false because node 0 is already locked.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='operations-on-tree'
 class LockingTree:
 

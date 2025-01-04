@@ -51,7 +51,7 @@ Only two moves are needed (remember each move increments or decrements one eleme
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-moves-to-equal-array-elements-ii'
 class Solution:
     def minMoves2(self, nums: List[int]) -> int:

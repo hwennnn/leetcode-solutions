@@ -66,7 +66,7 @@ Note that strs[0] &gt; strs[1] - the array strs is not necessarily in lexicograp
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='delete-columns-to-make-sorted-iii'
 class Solution:
     def minDeletionSize(self, A: List[str]) -> int:

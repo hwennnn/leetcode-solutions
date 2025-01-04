@@ -85,7 +85,7 @@ public:
     }
 };
 ```
-### Python
+### Python3
 ``` py title='maximum-score-from-removing-stones'
 from heapq import heappush, heappop, heapify
 

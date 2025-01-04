@@ -76,7 +76,7 @@ date: 2022-12-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='cycle-length-queries-in-a-tree'
 class Solution:
     def cycleLengthQueries(self, n: int, queries: List[List[int]]) -> List[int]:

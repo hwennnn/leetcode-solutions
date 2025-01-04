@@ -56,7 +56,7 @@ Hence [[5,0],[7,0],[5,2],[6,1],[4,4],[7,1]] is the reconstructed queue.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='queue-reconstruction-by-height'
 class Solution:
     def reconstructQueue(self, people: List[List[int]]) -> List[List[int]]:

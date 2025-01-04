@@ -48,7 +48,7 @@ date: 2020-08-11
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-length-of-repeated-subarray'
 class Solution:
     def findLength(self, nums1: List[int], nums2: List[int]) -> int:

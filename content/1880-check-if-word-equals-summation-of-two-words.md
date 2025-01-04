@@ -73,7 +73,7 @@ We return true because 0 + 0 == 0.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-if-word-equals-summation-of-two-words'
 class Solution:
     def isSumEqual(self, firstWord: str, secondWord: str, targetWord: str) -> bool:

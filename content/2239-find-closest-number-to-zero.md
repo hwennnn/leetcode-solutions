@@ -48,7 +48,7 @@ Thus, the closest number to 0 in the array is 1.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-closest-number-to-zero'
 class Solution:
     def findClosestNumber(self, nums: List[int]) -> int:

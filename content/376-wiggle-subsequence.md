@@ -65,7 +65,7 @@ One is [1, 17, 10, 13, 10, 16, 8] with differences (16, -7, 3, -3, 6, -8).
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='wiggle-subsequence'
 class Solution:
     def wiggleMaxLength(self, nums: List[int]) -> int:

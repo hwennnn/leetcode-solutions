@@ -85,7 +85,7 @@ public:
     }
 };
 ```
-### Python
+### Python3
 ``` py title='lucky-numbers-in-a-matrix'
 class Solution:
     def luckyNumbers (self, matrix: List[List[int]]) -> List[int]:

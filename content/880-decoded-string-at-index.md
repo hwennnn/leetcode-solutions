@@ -66,7 +66,7 @@ The 1<sup>st</sup> letter is &quot;a&quot;.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='decoded-string-at-index'
 class Solution:
     def decodeAtIndex(self, s: str, k: int) -> str:

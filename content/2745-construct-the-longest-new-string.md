@@ -53,7 +53,7 @@ That string has length 14, and we can show that it is impossible to construct a 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='construct-the-longest-new-string'
 class Solution:
     def longestString(self, x: int, y: int, z: int) -> int:

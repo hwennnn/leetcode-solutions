@@ -75,7 +75,7 @@ date: 2023-12-09
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-common-elements-between-two-arrays'
 class Solution:
     def findIntersectionValues(self, nums1: List[int], nums2: List[int]) -> List[int]:

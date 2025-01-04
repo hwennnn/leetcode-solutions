@@ -69,7 +69,7 @@ After step 2, we have 1 ID with the value of 3. So <code>ans[2] = 1</code>.</p>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='most-frequent-ids'
 class Solution:
     def mostFrequentIDs(self, nums: List[int], freq: List[int]) -> List[int]:

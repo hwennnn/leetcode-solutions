@@ -62,7 +62,7 @@ date: 2021-05-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='ambiguous-coordinates'
 class Solution:
     def ambiguousCoordinates(self, s: str) -> List[str]:

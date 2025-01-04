@@ -61,7 +61,7 @@ date: 2024-04-04
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-nesting-depth-of-the-parentheses'
 class Solution:
     def maxDepth(self, s: str) -> int:

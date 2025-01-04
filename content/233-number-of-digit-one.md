@@ -42,7 +42,7 @@ date: 2023-07-31
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-digit-one'
 class Solution:
     def countDigitOne(self, n: int) -> int:

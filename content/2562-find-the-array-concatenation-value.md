@@ -90,7 +90,7 @@ Since the concatenation value is 673 so the answer is 673.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-array-concatenation-value'
 class Solution:
     def findTheArrayConcVal(self, nums: List[int]) -> int:

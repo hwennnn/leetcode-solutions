@@ -59,7 +59,7 @@ The XOR sum is (1 XOR 5) + (0 XOR 4) + (3 XOR 3) = 4 + 4 + 0 = 8.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-xor-sum-of-two-arrays'
 class Solution:
     def minimumXORSum(self, nums1: List[int], nums2: List[int]) -> int:

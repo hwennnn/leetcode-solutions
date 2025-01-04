@@ -66,7 +66,7 @@ The entire array forms a non-decreasing subarray of length 2, making it the maxi
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-non-decreasing-subarray-from-two-arrays'
 class Solution:
     def maxNonDecreasingLength(self, nums1: List[int], nums2: List[int]) -> int:

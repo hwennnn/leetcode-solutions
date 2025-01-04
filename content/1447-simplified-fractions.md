@@ -51,7 +51,7 @@ date: 2020-10-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='simplified-fractions'
 class Solution:
     def simplifiedFractions(self, n: int) -> List[str]:

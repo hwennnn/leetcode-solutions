@@ -57,7 +57,7 @@ date: 2023-09-03
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-if-strings-can-be-made-equal-with-operations-ii'
 class Solution:
     def checkStrings(self, s1: str, s2: str) -> bool:

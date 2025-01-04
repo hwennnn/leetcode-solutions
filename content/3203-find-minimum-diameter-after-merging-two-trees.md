@@ -67,7 +67,7 @@ date: 2024-12-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-minimum-diameter-after-merging-two-trees'
 class Solution:
     def minimumDiameterAfterMerge(self, edges1: List[List[int]], edges2: List[List[int]]) -> int:

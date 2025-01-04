@@ -55,7 +55,7 @@ There are two ways to reach the bottom-right corner:
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='unique-paths-ii'
 class Solution:
     def uniquePathsWithObstacles(self, grid: List[List[int]]) -> int:

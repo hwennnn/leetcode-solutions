@@ -47,7 +47,7 @@ date: 2023-04-23
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='calculate-delayed-arrival-time'
 class Solution:
     def findDelayedArrivalTime(self, arrivalTime: int, delayedTime: int) -> int:

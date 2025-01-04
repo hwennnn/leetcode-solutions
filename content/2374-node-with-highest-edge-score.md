@@ -60,7 +60,7 @@ Nodes 0 and 2 both have an edge score of 3. Since node 0 has a smaller index, we
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='node-with-highest-edge-score'
 class Solution:
     def edgeScore(self, edges: List[int]) -> int:

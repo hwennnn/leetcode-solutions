@@ -51,7 +51,7 @@ Explanation: The nodes that are a distance 2 from the target node (with value 5)
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='all-nodes-distance-k-in-binary-tree'
 # Definition for a binary tree node.
 # class TreeNode:

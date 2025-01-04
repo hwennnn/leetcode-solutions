@@ -69,7 +69,7 @@ Hence, nums = [0,1,1,2,1,3,2,3], and the maximum is max(0,1,1,2,1,3,2,3) = 3.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='get-maximum-in-generated-array'
 class Solution:
     def getMaximumGenerated(self, n: int) -> int:

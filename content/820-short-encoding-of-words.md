@@ -58,7 +58,7 @@ words[2] = &quot;bell&quot;, the substring of s starting from indices[2] = 5 to 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='short-encoding-of-words'
 class Solution:
     def minimumLengthEncoding(self, words: List[str]) -> int:

@@ -48,7 +48,7 @@ date: 2023-09-11
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='points-that-intersect-with-cars'
 class Solution:
     def numberOfPoints(self, nums: List[List[int]]) -> int:

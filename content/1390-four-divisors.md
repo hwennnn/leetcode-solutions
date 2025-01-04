@@ -54,7 +54,7 @@ The answer is the sum of divisors of 21 only.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='four-divisors'
 class Solution:
     def sumFourDivisors(self, nums: List[int]) -> int:

@@ -62,7 +62,7 @@ Sum of lengths of all substring is 1 + 1 + 1 + 2 + 2 + 3 = 10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-unique-characters-of-all-substrings-of-a-given-string'
 class Solution:
     def uniqueLetterString(self, s: str) -> int:

@@ -59,7 +59,7 @@ date: 2024-12-26
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='target-sum'
 class Solution:
     def findTargetSumWays(self, nums: List[int], target: int) -> int:

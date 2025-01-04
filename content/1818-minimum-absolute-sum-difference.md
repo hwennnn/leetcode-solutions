@@ -74,7 +74,7 @@ This yields an absolute sum difference of <code>|10-9| + |10-3| + |4-5| + |4-1| 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-absolute-sum-difference'
 class Solution:
     def minAbsoluteSumDiff(self, nums1: List[int], nums2: List[int]) -> int:

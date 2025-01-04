@@ -63,7 +63,7 @@ date: 2023-10-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='build-array-where-you-can-find-the-maximum-exactly-k-comparisons'
 class Solution:
     def numOfArrays(self, n: int, m: int, k: int) -> int:

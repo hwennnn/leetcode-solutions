@@ -65,7 +65,7 @@ date: 2023-12-08
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='construct-string-from-binary-tree'
 # Definition for a binary tree node.
 # class TreeNode:

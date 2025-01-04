@@ -83,7 +83,7 @@ It can be shown that there are only 3 beautiful substrings in the given string.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-beautiful-substrings-i'
 class Solution:
     def beautifulSubstrings(self, s: str, k: int) -> int:

@@ -55,7 +55,7 @@ Notice that each value in the generated matrix corresponds to the largest value 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='largest-local-values-in-a-matrix'
 class Solution:
     def largestLocal(self, grid: List[List[int]]) -> List[List[int]]:

@@ -62,7 +62,7 @@ Note that s cannot be split into &quot;RL&quot;, &quot;RR&quot;, &quot;RL&quot;,
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='split-a-string-in-balanced-strings'
 class Solution:
     def balancedStringSplit(self, s: str) -> int:

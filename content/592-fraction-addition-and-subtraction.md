@@ -55,7 +55,7 @@ date: 2024-08-24
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='fraction-addition-and-subtraction'
 class Solution:
     def fractionAddition(self, expression):

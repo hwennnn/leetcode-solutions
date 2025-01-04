@@ -73,7 +73,7 @@ date: 2024-06-30
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='remove-max-number-of-edges-to-keep-graph-fully-traversable'
 class DSU:
     def __init__(self, n):

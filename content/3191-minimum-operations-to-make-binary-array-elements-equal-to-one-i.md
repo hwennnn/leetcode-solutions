@@ -69,7 +69,7 @@ It is impossible to make all elements equal to 1.</p>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-operations-to-make-binary-array-elements-equal-to-one-i'
 class Solution:
     def minOperations(self, nums: List[int]) -> int:

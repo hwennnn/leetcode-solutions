@@ -56,7 +56,7 @@ date: 2021-06-05
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-value-after-insertion'
 class Solution:
     def maxValue(self, word: str, x: int) -> str:

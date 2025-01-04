@@ -94,7 +94,7 @@ Based on that, we return true.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='robot-bounded-in-circle'
 class Solution:
     def isRobotBounded(self, instructions: str) -> bool:

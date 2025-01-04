@@ -68,7 +68,7 @@ Total points earned: 2 + 5 = 7. There is no other way to earn 7 or more points.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='solving-questions-with-brainpower'
 class Solution:
     def mostPoints(self, questions: List[List[int]]) -> int:

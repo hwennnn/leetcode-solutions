@@ -82,7 +82,7 @@ date: 2022-02-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='equal-rational-numbers'
 class Solution:
     def isRationalEqual(self, s: str, t: str) -> bool:

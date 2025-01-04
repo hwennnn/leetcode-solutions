@@ -42,7 +42,7 @@ date: 2023-01-02
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='detect-capital'
 class Solution:
     def detectCapitalUse(self, word: str) -> bool:

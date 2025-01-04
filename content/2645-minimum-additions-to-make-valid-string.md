@@ -56,7 +56,7 @@ date: 2023-04-16
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-additions-to-make-valid-string'
 class Solution:
     def addMinimum(self, word: str) -> int:

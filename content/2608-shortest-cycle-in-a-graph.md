@@ -52,7 +52,7 @@ date: 2023-04-02
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='shortest-cycle-in-a-graph'
 class Solution:
     def findShortestCycle(self, n: int, edges: List[List[int]]) -> int:

@@ -54,7 +54,7 @@ The best way is to split it into [1,2,3] and [4,5], where the largest sum among 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='split-array-largest-sum'
 class Solution:
     def splitArray(self, nums: List[int], m: int) -> int:

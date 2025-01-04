@@ -51,7 +51,7 @@ date: 2022-07-29
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-and-replace-pattern'
 class Solution:
     def findAndReplacePattern(self, words: List[str], pattern: str) -> List[str]:

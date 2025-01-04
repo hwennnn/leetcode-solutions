@@ -60,7 +60,7 @@ date: 2023-05-19
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='is-graph-bipartite'
 class Solution:
     def isBipartite(self, graph: List[List[int]]) -> bool:

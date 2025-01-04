@@ -64,7 +64,7 @@ Therefore, we return [0,2,2,0,0].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-black-blocks'
 class Solution:
     def countBlackBlocks(self, rows: int, cols: int, cord: List[List[int]]) -> List[int]:

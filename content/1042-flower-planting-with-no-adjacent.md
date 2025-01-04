@@ -65,7 +65,7 @@ Hence, [1,2,3] is a valid answer. Other valid answers include [1,2,4], [1,4,2], 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='flower-planting-with-no-adjacent'
 class Solution:
     def gardenNoAdj(self, n: int, paths: List[List[int]]) -> List[int]:

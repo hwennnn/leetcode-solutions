@@ -52,7 +52,7 @@ The sum of the six integers appended is 1 + 2 + 3 + 4 + 7 + 8 = 25, so we return
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='append-k-integers-with-minimal-sum'
 class Solution:
     def minimalKSum(self, nums: List[int], k: int) -> int:

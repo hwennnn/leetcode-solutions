@@ -79,7 +79,7 @@ date: 2024-11-27
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='shortest-distance-after-road-addition-queries-i'
 class Solution:
     def shortestDistanceAfterQueries(self, n: int, queries: List[List[int]]) -> List[int]:

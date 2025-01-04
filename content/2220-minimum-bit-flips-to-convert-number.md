@@ -58,7 +58,7 @@ It can be shown we cannot convert 3 to 4 in less than 3 steps. Hence, we return 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-bit-flips-to-convert-number'
 class Solution:
     def minBitFlips(self, start: int, goal: int) -> int:

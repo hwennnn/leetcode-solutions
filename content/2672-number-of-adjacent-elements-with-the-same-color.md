@@ -68,7 +68,7 @@ date: 2023-05-07
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-adjacent-elements-with-the-same-color'
 class Solution:
     def colorTheArray(self, N: int, queries: List[List[int]]) -> List[int]:

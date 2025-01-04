@@ -58,7 +58,7 @@ It covers 2 white tiles, so we return 2.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-white-tiles-covered-by-a-carpet'
 class Solution:
     def maximumWhiteTiles(self, tiles: List[List[int]], carpetLen: int) -> int:

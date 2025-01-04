@@ -46,7 +46,7 @@ date: 2022-11-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='perfect-squares'
 class Solution:
     def numSquares(self, n: int) -> int:

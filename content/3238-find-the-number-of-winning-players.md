@@ -81,7 +81,7 @@ date: 2024-08-04
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-number-of-winning-players'
 class Solution:
     def winningPlayerCount(self, n: int, pick: List[List[int]]) -> int:

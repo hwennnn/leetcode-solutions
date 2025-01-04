@@ -71,7 +71,7 @@ It can be shown that 2 is the minimum possible size of a valid set.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sum-of-numbers-with-units-digit-k'
 class Solution:
     def minimumNumbers(self, num: int, k: int) -> int:

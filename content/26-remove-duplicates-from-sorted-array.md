@@ -72,7 +72,7 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='remove-duplicates-from-sorted-array'
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:

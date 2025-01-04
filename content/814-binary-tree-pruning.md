@@ -55,7 +55,7 @@ The diagram on the right represents the answer.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='binary-tree-pruning'
 # Definition for a binary tree node.
 # class TreeNode:

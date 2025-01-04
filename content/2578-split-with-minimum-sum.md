@@ -63,7 +63,7 @@ date: 2023-03-05
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='split-with-minimum-sum'
 class Solution:
     def splitNum(self, num: int) -> int:

@@ -57,7 +57,7 @@ s[0] = {nums[0], nums[5], nums[6], nums[2]} = {5, 6, 2, 0}
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='array-nesting'
 class Solution:
     def arrayNesting(self, nums: List[int]) -> int:

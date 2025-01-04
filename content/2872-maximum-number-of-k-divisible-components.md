@@ -63,7 +63,7 @@ It can be shown that no other valid split has more than 3 connected components.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-number-of-k-divisible-components'
 class Solution:
     def maxKDivisibleComponents(self, n: int, edges: List[List[int]], values: List[int], k: int) -> int:

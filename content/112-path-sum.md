@@ -60,7 +60,7 @@ There is no root-to-leaf path with sum = 5.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='path-sum'
 # Definition for a binary tree node.
 # class TreeNode:

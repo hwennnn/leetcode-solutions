@@ -50,7 +50,7 @@ date: 2022-10-08
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='3sum-closest'
 class Solution:
     def threeSumClosest(self, nums: List[int], target: int) -> int:

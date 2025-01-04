@@ -74,7 +74,7 @@ For example, all the following are valid numbers: <code>&quot;2&quot;, &quot;008
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='valid-number'
 class Solution:
     def isNumber(self, s: str) -> bool:

@@ -90,7 +90,7 @@ date: 2023-09-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-array-length-after-pair-removals'
 class Solution:
     def minLengthAfterRemovals(self, nums: List[int]) -> int:

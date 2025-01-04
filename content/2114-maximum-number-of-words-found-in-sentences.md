@@ -56,7 +56,7 @@ In this example, the second and third sentences (underlined) have the same numbe
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-number-of-words-found-in-sentences'
 class Solution:
     def mostWordsFound(self, sentences: List[str]) -> int:

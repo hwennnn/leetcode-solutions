@@ -90,7 +90,7 @@ date: 2024-01-10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximize-the-number-of-partitions-after-operations'
 class Solution:
     def maxPartitionsAfterOperations(self, s: str, k: int) -> int:

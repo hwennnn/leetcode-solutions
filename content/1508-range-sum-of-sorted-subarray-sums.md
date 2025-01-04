@@ -81,7 +81,7 @@ public:
     }
 };
 ```
-### Python
+### Python3
 ``` py title='range-sum-of-sorted-subarray-sums'
 class Solution:
     def rangeSum(self, nums: List[int], N: int, left: int, right: int) -> int:

@@ -92,7 +92,7 @@ Note that the returned array can be in a different order as the order does not m
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='delete-duplicate-folders-in-system'
 class TrieNode:
     def __init__(self):

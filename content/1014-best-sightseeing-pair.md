@@ -47,7 +47,7 @@ date: 2024-12-27
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='best-sightseeing-pair'
 class Solution:
     def maxScoreSightseeingPair(self, values: List[int]) -> int:

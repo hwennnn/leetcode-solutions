@@ -64,7 +64,7 @@ Another solution is [-3,1,4,-2], which would also be accepted.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='restore-the-array-from-adjacent-pairs'
 class Solution:
     def restoreArray(self, adjacentPairs: List[List[int]]) -> List[int]:

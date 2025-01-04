@@ -71,7 +71,7 @@ date: 2023-11-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='unique-length-3-palindromic-subsequences'
 class Solution:
     def countPalindromicSubsequence(self, s: str) -> int:

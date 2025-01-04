@@ -60,7 +60,7 @@ smallestInfiniteSet.popSmallest(); // return 5, and remove it from the set.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='smallest-number-in-infinite-set'
 class SmallestInfiniteSet:
 

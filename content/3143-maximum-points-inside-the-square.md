@@ -86,7 +86,7 @@ date: 2024-05-11
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-points-inside-the-square'
 class Solution:
     def maxPointsInsideSquare(self, points: List[List[int]], s: str) -> int:

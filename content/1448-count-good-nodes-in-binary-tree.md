@@ -60,7 +60,7 @@ Node 3 -&gt; (3,1,3) is the maximum value in the path.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-good-nodes-in-binary-tree'
 # Definition for a binary tree node.
 # class TreeNode:

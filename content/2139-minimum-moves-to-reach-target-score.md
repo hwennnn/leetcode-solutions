@@ -72,7 +72,7 @@ Double again so x = 10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-moves-to-reach-target-score'
 class Solution:
     def minMoves(self, target: int, maxDoubles: int) -> int:

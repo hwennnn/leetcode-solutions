@@ -51,7 +51,7 @@ date: 2024-01-09
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='leaf-similar-trees'
 # Definition for a binary tree node.
 # class TreeNode:

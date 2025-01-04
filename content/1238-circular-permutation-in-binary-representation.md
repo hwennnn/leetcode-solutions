@@ -51,7 +51,7 @@ All the adjacent element differ by one bit. Another valid permutation is [3,1,0,
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='circular-permutation-in-binary-representation'
 class Solution:
     def circularPermutation(self, n: int, start: int) -> List[int]:

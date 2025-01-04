@@ -61,7 +61,7 @@ date: 2023-11-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-strings-which-can-be-rearranged-to-contain-substring'
 class Solution:
     def stringCount(self, n: int) -> int:

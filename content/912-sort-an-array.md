@@ -92,7 +92,7 @@ public:
     }
 };
 ```
-### Python
+### Python3
 ``` py title='sort-an-array'
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:

@@ -53,7 +53,7 @@ date: 2024-12-01
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-if-n-and-its-double-exist'
 class Solution:
     def checkIfExist(self, arr: List[int]) -> bool:

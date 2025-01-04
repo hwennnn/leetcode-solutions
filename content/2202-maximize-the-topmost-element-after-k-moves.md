@@ -63,7 +63,7 @@ Since it is not possible to obtain a non-empty pile after one move, we return -1
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximize-the-topmost-element-after-k-moves'
 class Solution:
     def maximumTop(self, nums: List[int], k: int) -> int:

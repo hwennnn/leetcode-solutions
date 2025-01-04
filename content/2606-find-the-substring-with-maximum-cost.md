@@ -70,7 +70,7 @@ It can be proven that 0 is the maximum cost.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-substring-with-maximum-cost'
 class Solution:
     def maximumCostSubstring(self, s: str, chars: str, vals: List[int]) -> int:

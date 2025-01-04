@@ -58,7 +58,7 @@ date: 2024-02-04
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-good-subarray-sum'
 class Solution:
     def maximumSubarraySum(self, nums: List[int], k: int) -> int:

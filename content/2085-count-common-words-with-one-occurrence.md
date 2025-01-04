@@ -60,7 +60,7 @@ Thus, there are 2 strings that appear exactly once in each of the two arrays.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-common-words-with-one-occurrence'
 class Solution:
     def countWords(self, words1: List[str], words2: List[str]) -> int:

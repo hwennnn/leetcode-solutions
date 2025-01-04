@@ -70,7 +70,7 @@ It can be proven that 8 is the minimum possible sum that a beautiful array could
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-minimum-possible-sum-of-a-beautiful-array'
 class Solution:
     def minimumPossibleSum(self, n: int, target: int) -> int:

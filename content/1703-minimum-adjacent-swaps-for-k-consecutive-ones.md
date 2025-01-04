@@ -57,7 +57,7 @@ date: 2020-12-30
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-adjacent-swaps-for-k-consecutive-ones'
 class Solution:
     def minMoves(self, nums: List[int], k: int) -> int:

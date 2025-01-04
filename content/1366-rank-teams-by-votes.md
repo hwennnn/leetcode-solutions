@@ -70,7 +70,7 @@ X is the winner due to the tie-breaking rule. X has the same votes as W for the 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='rank-teams-by-votes'
 class Solution:
     def rankTeams(self, votes: List[str]) -> str:

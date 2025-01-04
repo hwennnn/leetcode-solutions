@@ -77,7 +77,7 @@ Thus, we return 4.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-the-hidden-sequences'
 class Solution:
     def numberOfArrays(self, differences: List[int], lower: int, upper: int) -> int:

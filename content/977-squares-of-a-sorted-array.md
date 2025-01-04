@@ -48,7 +48,7 @@ After sorting, it becomes [0,1,9,16,100].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='squares-of-a-sorted-array'
 class Solution:
     def sortedSquares(self, nums: List[int]) -> List[int]:

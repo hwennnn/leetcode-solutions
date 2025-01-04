@@ -62,7 +62,7 @@ It can be shown that 4 is the minimum number of moves required to place one ston
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-moves-to-spread-stones-over-grid'
 class Solution:
     def minimumMoves(self, grid: List[List[int]]) -> int:

@@ -66,7 +66,7 @@ date: 2023-12-04
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='largest-3-same-digit-number-in-string'
 class Solution:
     def largestGoodInteger(self, num: str) -> str:

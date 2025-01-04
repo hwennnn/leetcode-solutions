@@ -56,7 +56,7 @@ date: 2023-09-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='reconstruct-itinerary'
 class Solution:
     def findItinerary(self, tickets: List[List[str]]) -> List[str]:

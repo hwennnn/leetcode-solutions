@@ -39,7 +39,7 @@ date: 2023-02-21
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='single-element-in-a-sorted-array'
 class Solution:
     def singleNonDuplicate(self, nums: List[int]) -> int:

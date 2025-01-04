@@ -69,7 +69,7 @@ There is 1 index that you can remove to make nums fair.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='ways-to-make-a-fair-array'
 class Solution:
     def waysToMakeFair(self, nums: List[int]) -> int:

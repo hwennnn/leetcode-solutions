@@ -52,7 +52,7 @@ date: 2021-05-23
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-well-performing-interval'
 class Solution:
     def longestWPI(self, hours: List[int]) -> int:

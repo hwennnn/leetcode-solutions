@@ -60,7 +60,7 @@ F(n) = F(n - 1) + F(n - 2), for n &gt; 1.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='fibonacci-number'
 class Solution:
     @cache

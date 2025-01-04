@@ -59,7 +59,7 @@ trie.search(&quot;app&quot;);     // return True
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='implement-trie-prefix-tree'
 class TrieNode:
     def __init__(self):

@@ -62,7 +62,7 @@ date: 2022-02-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximize-sum-of-array-after-k-negations'
 class Solution:
     def largestSumAfterKNegations(self, nums: List[int], k: int) -> int:

@@ -58,7 +58,7 @@ We return [2,3,0].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-vowel-strings-in-ranges'
 class Solution:
     def vowelStrings(self, words: List[str], queries: List[List[int]]) -> List[int]:

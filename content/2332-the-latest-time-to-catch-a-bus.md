@@ -70,7 +70,7 @@ Notice if you had arrived any later, then the 6<sup>th</sup> passenger would hav
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='the-latest-time-to-catch-a-bus'
 class Solution:
     def latestTimeCatchTheBus(self, buses: List[int], passengers: List[int], capacity: int) -> int:

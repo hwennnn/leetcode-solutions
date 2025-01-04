@@ -65,7 +65,7 @@ It can be shown that no two servers are connectable through servers other than 0
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-pairs-of-connectable-servers-in-a-weighted-tree-network'
 class Solution:
     def countPairsOfConnectableServers(self, edges: List[List[int]], signalSpeed: int) -> List[int]:

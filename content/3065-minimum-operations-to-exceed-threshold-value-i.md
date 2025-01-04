@@ -60,7 +60,7 @@ It can be shown that 3 is the minimum number of operations needed so that all el
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-operations-to-exceed-threshold-value-i'
 class Solution:
     def minOperations(self, nums: List[int], k: int) -> int:

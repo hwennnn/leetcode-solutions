@@ -53,7 +53,7 @@ date: 2021-02-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-absolute-sum-of-any-subarray'
 class Solution:
     def maxAbsoluteSum(self, nums: List[int]) -> int:

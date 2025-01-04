@@ -69,7 +69,7 @@ In both cases, there are five consecutive &#39;T&#39;s.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximize-the-confusion-of-an-exam'
 class Solution:
     def maxConsecutiveAnswers(self, answerKey: str, k: int) -> int:

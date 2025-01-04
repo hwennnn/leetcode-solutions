@@ -84,7 +84,7 @@ Note that the second line is also left-justified because it contains only one wo
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='text-justification'
 class Solution:
     def fullJustify(self, words: List[str], maxWidth: int) -> List[str]:

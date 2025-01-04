@@ -57,7 +57,7 @@ Finally delete &quot;ddd&quot;, get &quot;aa&quot;</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='remove-all-adjacent-duplicates-in-string-ii'
 class Solution:
     def removeDuplicates(self, s: str, k: int) -> str:

@@ -49,7 +49,7 @@ date: 2022-10-09
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='two-sum-iv-input-is-a-bst'
 # Definition for a binary tree node.
 # class TreeNode:

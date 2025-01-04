@@ -58,7 +58,7 @@ date: 2023-12-28
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='string-compression-ii'
 class Solution:
     def getLengthOfOptimalCompression(self, s: str, k: int) -> int:

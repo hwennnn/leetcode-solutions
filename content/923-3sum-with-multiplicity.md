@@ -66,7 +66,7 @@ and two 2s from [2,2,2,2] in 6 ways.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='3sum-with-multiplicity'
 class Solution:
     def threeSumMulti(self, arr: List[int], target: int) -> int:

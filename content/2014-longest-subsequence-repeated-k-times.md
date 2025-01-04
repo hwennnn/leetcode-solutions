@@ -68,7 +68,7 @@ date: 2021-09-19
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-subsequence-repeated-k-times'
 class Solution:
     def longestSubsequenceRepeatedK(self, s: str, k: int) -> str:

@@ -70,7 +70,7 @@ date: 2023-10-03
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-if-string-is-transformable-with-substring-sort-operations'
 class Solution:
     def isTransformable(self, s: str, t: str) -> bool:

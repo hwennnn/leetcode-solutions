@@ -49,7 +49,7 @@ date: 2022-04-19
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-peak-element'
 class Solution:
     def findPeakElement(self, nums: List[int]) -> int:

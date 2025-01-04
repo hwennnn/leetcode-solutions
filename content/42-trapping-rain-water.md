@@ -47,7 +47,7 @@ date: 2024-08-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='trapping-rain-water'
 class Solution:
     def trap(self, height: List[int]) -> int:

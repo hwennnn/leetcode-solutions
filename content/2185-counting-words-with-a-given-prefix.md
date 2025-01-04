@@ -50,7 +50,7 @@ date: 2022-02-27
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='counting-words-with-a-given-prefix'
 class Solution:
     def prefixCount(self, words: List[str], pref: str) -> int:

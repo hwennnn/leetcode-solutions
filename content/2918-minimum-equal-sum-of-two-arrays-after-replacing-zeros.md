@@ -51,7 +51,7 @@ Both arrays have an equal sum of 12. It can be shown that it is the minimum sum 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-equal-sum-of-two-arrays-after-replacing-zeros'
 class Solution:
     def minSum(self, nums1: List[int], nums2: List[int]) -> int:

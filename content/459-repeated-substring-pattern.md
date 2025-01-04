@@ -51,7 +51,7 @@ date: 2023-08-21
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='repeated-substring-pattern'
 class Solution:
     def repeatedSubstringPattern(self, s: str) -> bool:

@@ -70,7 +70,7 @@ Step 1) 2 is even, divide by 2 and obtain 1.&nbsp;
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-steps-to-reduce-a-number-in-binary-representation-to-one'
 class Solution:
     def numSteps(self, s: str) -> int:

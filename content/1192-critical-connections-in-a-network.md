@@ -51,7 +51,7 @@ date: 2022-05-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='critical-connections-in-a-network'
 class Solution:
     def criticalConnections(self, n, connections):

@@ -63,7 +63,7 @@ date: 2023-03-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='reorder-routes-to-make-all-paths-lead-to-the-city-zero'
 class Solution:
     def minReorder(self, n: int, connections: List[List[int]]) -> int:

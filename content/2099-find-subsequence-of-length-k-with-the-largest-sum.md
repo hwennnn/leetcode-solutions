@@ -62,7 +62,7 @@ Another possible subsequence is [4, 3].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-subsequence-of-length-k-with-the-largest-sum'
 class Solution:
     def maxSubsequence(self, nums: List[int], k: int) -> List[int]:

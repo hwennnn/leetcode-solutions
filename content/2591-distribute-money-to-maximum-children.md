@@ -59,7 +59,7 @@ It can be proven that no distribution exists such that number of children gettin
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='distribute-money-to-maximum-children'
 class Solution:
     def distMoney(self, money: int, children: int) -> int:

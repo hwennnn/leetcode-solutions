@@ -75,7 +75,7 @@ date: 2024-01-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-the-number-of-houses-at-a-certain-distance-i'
 class Solution:
     def countOfPairs(self, n: int, x: int, y: int) -> List[int]:

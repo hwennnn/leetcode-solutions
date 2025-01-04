@@ -51,7 +51,7 @@ date: 2023-02-06
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='shuffle-the-array'
 class Solution:
     def shuffle(self, nums: List[int], n: int) -> List[int]:

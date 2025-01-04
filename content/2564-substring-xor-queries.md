@@ -65,7 +65,7 @@ date: 2023-02-12
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='substring-xor-queries'
 class Solution:
     def substringXorQueries(self, s: str, queries: List[List[int]]) -> List[List[int]]:

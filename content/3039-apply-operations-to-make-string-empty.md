@@ -64,7 +64,7 @@ The string just before the last operation is &quot;abcd&quot;.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='apply-operations-to-make-string-empty'
 class Solution:
     def lastNonEmptyString(self, s: str) -> str:

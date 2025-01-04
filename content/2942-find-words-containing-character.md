@@ -58,7 +58,7 @@ date: 2023-11-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-words-containing-character'
 class Solution:
     def findWordsContaining(self, words: List[str], x: str) -> List[int]:

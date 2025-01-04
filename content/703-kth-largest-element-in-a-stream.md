@@ -79,7 +79,7 @@ kthLargest.add(9); // return 8</div>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='kth-largest-element-in-a-stream'
 class KthLargest:
 

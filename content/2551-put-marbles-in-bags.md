@@ -62,7 +62,7 @@ Since both the maximal and minimal score are the same, we return 0.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='put-marbles-in-bags'
 class Solution:
     def putMarbles(self, weights: List[int], k: int) -> int:

@@ -58,7 +58,7 @@ date: 2022-10-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='create-components-with-same-value'
 class Solution:
     def componentValue(self, nums: List[int], edges: List[List[int]]) -> int:

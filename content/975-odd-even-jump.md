@@ -85,7 +85,7 @@ number of jumps.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='odd-even-jump'
 class Solution:
     def oddEvenJumps(self, arr: List[int]) -> int:

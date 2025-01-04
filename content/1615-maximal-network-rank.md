@@ -65,7 +65,7 @@ date: 2023-08-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximal-network-rank'
 class Solution:
     def maximalNetworkRank(self, n: int, roads: List[List[int]]) -> int:

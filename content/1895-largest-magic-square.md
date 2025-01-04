@@ -52,7 +52,7 @@ Every row sum, column sum, and diagonal sum of this magic square is equal to 12.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='largest-magic-square'
 class Solution:
     def largestMagicSquare(self, grid: List[List[int]]) -> int:

@@ -71,7 +71,7 @@ The total price sum of all trips is 1. It can be proven, that 1 is the minimum a
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimize-the-total-price-of-the-trips'
 class Solution:
     def minimumTotalPrice(self, N: int, edges: List[List[int]], price: List[int], trips: List[List[int]]) -> int:

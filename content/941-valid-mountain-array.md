@@ -49,7 +49,7 @@ date: 2022-02-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='valid-mountain-array'
 class Solution:
     def validMountainArray(self, arr: List[int]) -> bool:

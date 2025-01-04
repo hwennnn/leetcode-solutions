@@ -112,7 +112,7 @@ public:
  * bool param_4 = obj->empty();
  */
 ```
-### Python
+### Python3
 ``` py title='implement-queue-using-stacks'
 class MyQueue:
 

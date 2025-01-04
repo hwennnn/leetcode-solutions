@@ -60,7 +60,7 @@ date: 2023-11-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-pairs-with-xor-in-a-range'
 class Solution:
     def countPairs(self, nums: List[int], low: int, high: int) -> int:

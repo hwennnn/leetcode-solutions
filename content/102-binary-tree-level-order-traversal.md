@@ -50,7 +50,7 @@ date: 2020-12-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='binary-tree-level-order-traversal'
 # Definition for a binary tree node.
 # class TreeNode:

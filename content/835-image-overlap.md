@@ -62,7 +62,7 @@ The number of positions that have a 1 in both images is 3 (shown in red).
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='image-overlap'
 class Solution:
     def largestOverlap(self, img1: List[List[int]], img2: List[List[int]]) -> int:

@@ -60,7 +60,7 @@ Total profit is 4.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='best-time-to-buy-and-sell-stock-ii'
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:

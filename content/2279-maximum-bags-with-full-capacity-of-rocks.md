@@ -62,7 +62,7 @@ Note that we did not use all of the additional rocks.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-bags-with-full-capacity-of-rocks'
 class Solution:
     def maximumBags(self, capacity: List[int], rocks: List[int], additionalRocks: int) -> int:

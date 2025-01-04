@@ -66,7 +66,7 @@ authenticationManager.<code>countUnexpiredTokens</code>(15); // The token with t
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='design-authentication-manager'
 class AuthenticationManager:
 

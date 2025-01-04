@@ -54,7 +54,7 @@ Every integer in nums2 is present in nums1. Therefore, answer[1] = [].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-difference-of-two-arrays'
 class Solution:
     def findDifference(self, nums1: List[int], nums2: List[int]) -> List[List[int]]:

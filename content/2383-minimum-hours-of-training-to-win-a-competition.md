@@ -66,7 +66,7 @@ It can be proven that no smaller answer exists.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-hours-of-training-to-win-a-competition'
 class Solution:
     def minNumberOfHours(self, A: int, B: int, energy: List[int], experience: List[int]) -> int:

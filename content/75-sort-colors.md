@@ -51,7 +51,7 @@ date: 2024-06-12
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sort-colors'
 class Solution:
     def sortColors(self, nums: List[int]) -> None:

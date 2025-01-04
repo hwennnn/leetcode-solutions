@@ -79,7 +79,7 @@ Room 0 held 1 meeting while rooms 1 and 2 each held 2 meetings, so we return 1.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='meeting-rooms-iii'
 class Solution:
     def mostBooked(self, n: int, meetings: List[List[int]]) -> int:

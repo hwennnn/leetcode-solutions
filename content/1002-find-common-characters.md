@@ -37,7 +37,7 @@ date: 2024-06-05
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-common-characters'
 class Solution:
     def commonChars(self, words: List[str]) -> List[str]:

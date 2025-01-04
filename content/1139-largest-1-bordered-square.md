@@ -43,7 +43,7 @@ date: 2021-05-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='largest-1-bordered-square'
 class Solution:
     def largest1BorderedSquare(self, grid: List[List[int]]) -> int:

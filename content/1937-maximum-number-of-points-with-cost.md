@@ -69,7 +69,7 @@ Your final score is 12 - 1 = 11.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-number-of-points-with-cost'
 class Solution:
     def maxPoints(self, points: List[List[int]]) -> int:

@@ -64,7 +64,7 @@ date: 2023-05-16
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='swap-nodes-in-pairs'
 # Definition for singly-linked list.
 # class ListNode:

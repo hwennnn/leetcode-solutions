@@ -65,7 +65,7 @@ The Hamming distance of source and target is 2 as they differ in 2 positions: in
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimize-hamming-distance-after-swap-operations'
 class Solution:
     def minimumHammingDistance(self, source: List[int], target: List[int], allowedSwaps: List[List[int]]) -> int:

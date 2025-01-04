@@ -53,7 +53,7 @@ Therefore, we return the maximum number which is 3 floors.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-consecutive-floors-without-special-floors'
 class Solution:
     def maxConsecutive(self, bottom: int, top: int, special: List[int]) -> int:

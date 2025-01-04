@@ -42,7 +42,7 @@ date: 2022-03-05
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='beautiful-array'
 class Solution:
     def beautifulArray(self, N: int) -> List[int]:

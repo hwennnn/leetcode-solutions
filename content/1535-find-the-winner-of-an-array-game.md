@@ -58,7 +58,7 @@ So we can see that 4 rounds will be played and 5 is the winner because it wins 2
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-winner-of-an-array-game'
 class Solution:
     def getWinner(self, arr: List[int], k: int) -> int:

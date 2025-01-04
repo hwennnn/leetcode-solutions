@@ -58,7 +58,7 @@ date: 2024-01-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-steps-to-make-two-strings-anagram'
 class Solution:
     def minSteps(self, s: str, t: str) -> int:

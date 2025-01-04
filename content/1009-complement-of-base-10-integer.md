@@ -59,7 +59,7 @@ date: 2022-02-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='complement-of-base-10-integer'
 class Solution:
     def bitwiseComplement(self, n: int) -> int:

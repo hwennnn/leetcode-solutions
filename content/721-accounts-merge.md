@@ -59,7 +59,7 @@ We could return these lists in any order, for example the answer [[&#39;Mary&#39
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='accounts-merge'
 class DSU:
     def __init__(self, n):

@@ -59,7 +59,7 @@ date: 2020-08-20
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='positions-of-large-groups'
 class Solution:
     def largeGroupPositions(self, S: str) -> List[List[int]]:

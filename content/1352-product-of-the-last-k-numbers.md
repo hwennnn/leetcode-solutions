@@ -67,7 +67,7 @@ productOfNumbers.getProduct(2); // return 32. The product of the last 2 numbers 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='product-of-the-last-k-numbers'
 class ProductOfNumbers:
     

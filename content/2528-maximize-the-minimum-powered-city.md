@@ -75,7 +75,7 @@ It can be proved that we cannot make the minimum power of a city greater than 4.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximize-the-minimum-powered-city'
 class Solution:
     def maxPower(self, stations: List[int], r: int, k: int) -> int:

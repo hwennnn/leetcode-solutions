@@ -90,7 +90,7 @@ Note that returning a single segment [1,7) is incorrect because the mixed color 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='describe-the-painting'
 class Solution:
     def splitPainting(self, segments: List[List[int]]) -> List[List[int]]:

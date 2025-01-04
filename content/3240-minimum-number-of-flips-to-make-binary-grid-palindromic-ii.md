@@ -73,7 +73,7 @@ date: 2024-08-04
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-flips-to-make-binary-grid-palindromic-ii'
 class Solution:
     def minFlips(self, grid: List[List[int]]) -> int:

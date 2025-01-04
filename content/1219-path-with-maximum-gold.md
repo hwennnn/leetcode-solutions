@@ -68,7 +68,7 @@ Path to get the maximum gold, 1 -&gt; 2 -&gt; 3 -&gt; 4 -&gt; 5 -&gt; 6 -&gt; 7.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='path-with-maximum-gold'
 class Solution:
     def getMaximumGold(self, grid: List[List[int]]) -> int:

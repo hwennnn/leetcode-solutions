@@ -68,7 +68,7 @@ date: 2021-09-19
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-number-of-pairs-with-absolute-difference-k'
 class Solution:
     def countKDifference(self, nums: List[int], k: int) -> int:

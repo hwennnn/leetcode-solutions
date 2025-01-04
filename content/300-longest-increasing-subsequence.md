@@ -54,7 +54,7 @@ date: 2024-08-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-increasing-subsequence'
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:

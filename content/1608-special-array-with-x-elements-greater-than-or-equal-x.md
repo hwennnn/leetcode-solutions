@@ -61,7 +61,7 @@ x cannot be greater since there are only 2 numbers in nums.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='special-array-with-x-elements-greater-than-or-equal-x'
 class Solution:
     def specialArray(self, nums: List[int]) -> int:

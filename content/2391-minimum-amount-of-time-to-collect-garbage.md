@@ -76,7 +76,7 @@ It takes a total of 7 + 15 + 15 = 37 minutes to collect all the garbage.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-amount-of-time-to-collect-garbage'
 class Solution:
     def garbageCollection(self, garbage: List[str], travel: List[int]) -> int:

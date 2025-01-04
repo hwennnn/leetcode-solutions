@@ -55,7 +55,7 @@ For each person, we return the number of flowers in full bloom during their arri
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-flowers-in-full-bloom'
 class Solution:
     def fullBloomFlowers(self, flowers: List[List[int]], people: List[int]) -> List[int]:

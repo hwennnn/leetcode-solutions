@@ -56,7 +56,7 @@ date: 2022-03-26
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='pizza-with-3n-slices'
 class Solution:
     def maxSizeSlices(self, slices: List[int]) -> int:

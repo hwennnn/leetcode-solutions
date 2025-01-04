@@ -64,7 +64,7 @@ date: 2023-02-05
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximize-win-from-two-segments'
 class Solution:
     def maximizeWin(self, nums: List[int], k: int) -> int:

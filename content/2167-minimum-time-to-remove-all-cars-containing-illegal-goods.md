@@ -82,7 +82,7 @@ There are no other ways to remove them with less time.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-time-to-remove-all-cars-containing-illegal-goods'
 class Solution:
     def minimumTime(self, s: str) -> int:

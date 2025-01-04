@@ -77,7 +77,7 @@ It can be shown that there are no other paths with a higher safeness factor.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-safest-path-in-a-grid'
 class Solution:
     def maximumSafenessFactor(self, grid: List[List[int]]) -> int:

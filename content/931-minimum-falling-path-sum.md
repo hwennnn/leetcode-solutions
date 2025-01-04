@@ -48,7 +48,7 @@ date: 2024-08-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-falling-path-sum'
 class Solution:
     def minFallingPathSum(self, matrix: List[List[int]]) -> int:

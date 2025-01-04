@@ -63,7 +63,7 @@ The highest score is 2, and two nodes (node 0 and node 1) have the highest score
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-nodes-with-the-highest-score'
 class Solution:
     def countHighestScoreNodes(self, parents: List[int]) -> int:

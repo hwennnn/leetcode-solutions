@@ -67,7 +67,7 @@ The 1<sup>st</sup>&nbsp;query asks if the lamp at grid[1][0] is illuminated or n
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='grid-illumination'
 class Solution:
     def gridIllumination(self, n: int, lamps: List[List[int]], queries: List[List[int]]) -> List[int]:

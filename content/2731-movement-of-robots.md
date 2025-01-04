@@ -79,7 +79,7 @@ The distance between the two robots is abs(-2 - 3) = 5.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='movement-of-robots'
 class Solution:
     def sumDistance(self, nums: List[int], s: str, d: int) -> int:

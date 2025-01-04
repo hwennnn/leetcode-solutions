@@ -47,7 +47,7 @@ date: 2020-09-11
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-product-subarray'
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:

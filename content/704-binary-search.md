@@ -48,7 +48,7 @@ date: 2023-04-01
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='binary-search'
 class Solution:
     def search(self, nums: List[int], target: int) -> int:

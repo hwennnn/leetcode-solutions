@@ -47,7 +47,7 @@ date: 2023-09-26
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='remove-duplicate-letters'
 class Solution:
     def removeDuplicateLetters(self, s: str) -> str:

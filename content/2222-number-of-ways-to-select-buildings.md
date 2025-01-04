@@ -66,7 +66,7 @@ No other selection is valid. Thus, there are 6 total ways.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-ways-to-select-buildings'
 class Solution:
     def numberOfWays(self, s: str) -> int:

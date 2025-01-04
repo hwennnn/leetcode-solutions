@@ -71,7 +71,7 @@ It can be proven that 4788 is the highest score one can obtain.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='apply-operations-to-maximize-score'
 def get_primes(n):
     p = 3

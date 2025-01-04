@@ -55,7 +55,7 @@ date: 2023-09-27
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-element-sum-of-a-complete-subset-of-indices'
 class Solution:
    def maximumSum(self, nums: List[int]) -> int:

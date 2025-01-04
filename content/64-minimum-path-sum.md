@@ -48,7 +48,7 @@ date: 2024-08-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-path-sum'
 class Solution:
     def minPathSum(self, grid: List[List[int]]) -> int:

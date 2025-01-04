@@ -56,7 +56,7 @@ There are 0 employees who met the target.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-employees-who-met-the-target'
 class Solution:
     def numberOfEmployeesWhoMetTarget(self, hours: List[int], target: int) -> int:

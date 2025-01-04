@@ -72,7 +72,7 @@ It can be proven, that 11 is the maximum answer that we can achieve.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-sum-with-exactly-k-elements'
 class Solution:
     def maximizeSum(self, nums: List[int], k: int) -> int:

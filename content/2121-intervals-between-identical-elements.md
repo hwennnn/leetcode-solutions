@@ -66,7 +66,7 @@ date: 2021-12-26
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='intervals-between-identical-elements'
 class Solution:
     def getDistances(self, arr: List[int]) -> List[int]:

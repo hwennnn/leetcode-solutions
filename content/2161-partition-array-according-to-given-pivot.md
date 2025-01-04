@@ -64,7 +64,7 @@ The relative ordering of the elements less than and greater than pivot is also m
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='partition-array-according-to-given-pivot'
 class Solution:
     def pivotArray(self, nums: List[int], pivot: int) -> List[int]:

@@ -41,7 +41,7 @@ date: 2023-12-11
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='element-appearing-more-than-25-in-sorted-array'
 class Solution:
     def findSpecialInteger(self, arr: List[int]) -> int:

@@ -53,7 +53,7 @@ date: 2024-01-28
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-maximum-number-of-elements-in-subset'
 class Solution:
     def maximumLength(self, nums: List[int]) -> int:

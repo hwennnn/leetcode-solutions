@@ -65,7 +65,7 @@ Total score = 5 + 4 + 5 + 5 = 19.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-score-from-removing-substrings'
 class Solution:
     def maximumGain(self, s: str, cx: int, cy: int) -> int:

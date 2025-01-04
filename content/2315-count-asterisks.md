@@ -57,7 +57,7 @@ There are 2 asterisks considered. Therefore, we return 2.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-asterisks'
 class Solution:
     def countAsterisks(self, s: str) -> int:

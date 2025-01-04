@@ -76,7 +76,7 @@ date: 2024-08-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-power-of-k-size-subarrays-ii'
 class Solution:
     def resultsArray(self, nums: List[int], k: int) -> List[int]:

@@ -61,7 +61,7 @@ The 4<sup>th</sup> course cannot be taken now, since you will finish it on the 3
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='course-schedule-iii'
 class Solution:
     def scheduleCourse(self, A: List[List[int]]) -> int:

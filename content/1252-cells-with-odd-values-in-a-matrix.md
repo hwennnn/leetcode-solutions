@@ -61,7 +61,7 @@ The final matrix is [[1,3,1],[1,3,1]], which contains 6 odd numbers.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='cells-with-odd-values-in-a-matrix'
 class Solution:
     def oddCells(self, n: int, m: int, indices: List[List[int]]) -> int:

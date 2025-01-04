@@ -64,7 +64,7 @@ Notice that you cannot attend any other event as they overlap, and that you do <
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-number-of-events-that-can-be-attended-ii'
 class Solution:
     def maxValue(self, events: List[List[int]], k: int) -> int:

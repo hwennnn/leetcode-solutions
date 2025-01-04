@@ -49,7 +49,7 @@ date: 2019-10-08
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='unique-number-of-occurrences'
 class Solution:
     def uniqueOccurrences(self, arr: List[int]) -> bool:

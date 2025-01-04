@@ -59,7 +59,7 @@ After typing mou, mous and mouse the system suggests [&quot;mouse&quot;,&quot;mo
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='search-suggestions-system'
 class Solution:
     def suggestedProducts(self, products: List[str], searchWord: str) -> List[List[str]]:

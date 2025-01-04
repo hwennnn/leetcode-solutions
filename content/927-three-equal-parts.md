@@ -51,7 +51,7 @@ date: 2021-07-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='three-equal-parts'
 class Solution:
 	def threeEqualParts(self, A: List[int]) -> List[int]:

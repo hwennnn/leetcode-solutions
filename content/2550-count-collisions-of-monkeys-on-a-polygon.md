@@ -57,7 +57,7 @@ Two ways such that they collide at some point are:</p>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-collisions-of-monkeys-on-a-polygon'
 class Solution:
     def monkeyMove(self, n: int) -> int:

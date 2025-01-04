@@ -50,7 +50,7 @@ Hence, we return false.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-if-every-row-and-column-contains-all-numbers'
 class Solution:
     def checkValid(self, matrix: List[List[int]]) -> bool:

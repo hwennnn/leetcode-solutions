@@ -52,7 +52,7 @@ The falling path with the smallest sum is&nbsp;[1,5,7], so the answer is&nbsp;13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-falling-path-sum-ii'
 class Solution:
     def minFallingPathSum(self, grid: List[List[int]]) -> int:

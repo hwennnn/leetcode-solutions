@@ -52,7 +52,7 @@ The first six palindromes of length 4 are:
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-palindrome-with-fixed-length'
 class Solution:
     def kthPalindrome(self, queries: List[int], intLength: int) -> List[int]:

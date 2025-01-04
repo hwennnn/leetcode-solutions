@@ -75,7 +75,7 @@ stockPrice.minimum();     // return 2, the minimum price is 2 at timestamp 4.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='stock-price-fluctuation'
 class StockPrice:
 

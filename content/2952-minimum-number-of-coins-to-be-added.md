@@ -63,7 +63,7 @@ It can be shown that all integers from 1 to 20 are obtainable from the resulting
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-coins-to-be-added'
 class Solution:
     def minimumAddedCoins(self, coins: List[int], target: int) -> int:

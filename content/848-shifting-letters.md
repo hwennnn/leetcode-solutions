@@ -59,7 +59,7 @@ After shifting the first 3 letters of s by 9, we have &quot;rpl&quot;, the answe
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='shifting-letters'
 class Solution:
     def shiftingLetters(self, s: str, shifts: List[int]) -> str:

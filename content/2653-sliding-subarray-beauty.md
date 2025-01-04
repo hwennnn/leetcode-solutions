@@ -75,7 +75,7 @@ For <code>[0, -3]</code>, the 1<sup>st</sup> smallest negative integer is -3.</p
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sliding-subarray-beauty'
 from sortedcontainers import SortedList
 

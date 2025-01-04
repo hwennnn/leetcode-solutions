@@ -39,7 +39,7 @@ date: 2020-08-20
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-product-of-three-numbers'
 class Solution:
     def maximumProduct(self, nums: List[int]) -> int:

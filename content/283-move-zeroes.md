@@ -39,7 +39,7 @@ date: 2022-03-05
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='move-zeroes'
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:

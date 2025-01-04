@@ -90,7 +90,7 @@ The cost of the split is 10. It can be shown that this is the minimum possible c
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-cost-to-split-an-array'
 class Solution:
     def minCost(self, nums: List[int], k: int) -> int:

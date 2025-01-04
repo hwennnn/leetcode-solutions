@@ -48,7 +48,7 @@ For example, in &quot;abbaca&quot; we could remove &quot;bb&quot; since the lett
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='remove-all-adjacent-duplicates-in-string'
 class Solution:
     def removeDuplicates(self, s: str) -> str:

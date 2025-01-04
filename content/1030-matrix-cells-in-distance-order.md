@@ -62,7 +62,7 @@ There are other answers that would also be accepted as correct, such as [[1,2],[
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='matrix-cells-in-distance-order'
 class Solution:
     def allCellsDistOrder(self, rows: int, cols: int, rCenter: int, cCenter: int) -> List[List[int]]:

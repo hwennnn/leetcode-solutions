@@ -37,7 +37,7 @@ date: 2022-03-21
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='next-greater-element-iii'
 class Solution:
     def nextGreaterElement(self, n: int) -> int:

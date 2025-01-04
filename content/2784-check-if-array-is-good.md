@@ -65,7 +65,7 @@ date: 2023-07-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-if-array-is-good'
 class Solution:
     def isGood(self, nums: List[int]) -> bool:

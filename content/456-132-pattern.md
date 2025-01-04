@@ -81,7 +81,7 @@ public:
     }
 };
 ```
-### Python
+### Python3
 ``` py title='132-pattern'
 class Solution:
     def find132pattern(self, nums: List[int]) -> bool:

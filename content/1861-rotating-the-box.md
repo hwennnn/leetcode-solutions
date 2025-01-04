@@ -83,7 +83,7 @@ date: 2021-05-16
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='rotating-the-box'
 class Solution:
     def rotateTheBox(self, box: List[List[str]]) -> List[List[str]]:

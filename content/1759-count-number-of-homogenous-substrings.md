@@ -61,7 +61,7 @@ date: 2023-11-09
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-number-of-homogenous-substrings'
 class Solution:
     def countHomogenous(self, s: str) -> int:

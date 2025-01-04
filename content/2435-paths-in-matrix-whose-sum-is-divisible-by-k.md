@@ -96,7 +96,7 @@ public:
     }
 };
 ```
-### Python
+### Python3
 ``` py title='paths-in-matrix-whose-sum-is-divisible-by-k'
 M = 10 ** 9 + 7
 

@@ -70,7 +70,7 @@ It can be shown that it is not possible to obtain a difference smaller than 1.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-difference-in-sums-after-removal-of-elements'
 from sortedcontainers import SortedList
 

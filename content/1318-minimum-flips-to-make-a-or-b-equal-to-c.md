@@ -51,7 +51,7 @@ Flip operation&nbsp;consists of change&nbsp;<strong>any</strong>&nbsp;single bit
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-flips-to-make-a-or-b-equal-to-c'
 class Solution:
     def minFlips(self, a: int, b: int, c: int) -> int:

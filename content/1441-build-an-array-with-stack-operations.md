@@ -85,7 +85,7 @@ The answers that read integer 3 from the stream are not accepted.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='build-an-array-with-stack-operations'
 class Solution:
     def buildArray(self, target: List[int], n: int) -> List[str]:

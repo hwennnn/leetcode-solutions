@@ -53,7 +53,7 @@ date: 2023-04-07
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-enclaves'
 class Solution:
     def numEnclaves(self, grid: List[List[int]]) -> int:

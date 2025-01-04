@@ -52,7 +52,7 @@ date: 2022-01-15
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='convert-to-base-2'
 class Solution:
     def baseNeg2(self, n: int) -> str:

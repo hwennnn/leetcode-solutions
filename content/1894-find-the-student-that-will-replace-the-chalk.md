@@ -68,7 +68,7 @@ Student number 1 does not have enough chalk, so they will have to replace it.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-student-that-will-replace-the-chalk'
 class Solution:
     def chalkReplacer(self, chalk: List[int], k: int) -> int:

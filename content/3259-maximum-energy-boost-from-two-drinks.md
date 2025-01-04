@@ -65,7 +65,7 @@ date: 2024-08-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-energy-boost-from-two-drinks'
 class Solution:
     def maxEnergyBoost(self, A: List[int], B: List[int]) -> int:

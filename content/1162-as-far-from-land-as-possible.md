@@ -50,7 +50,7 @@ date: 2023-02-10
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='as-far-from-land-as-possible'
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:

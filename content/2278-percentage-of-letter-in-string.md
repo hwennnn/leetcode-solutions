@@ -45,7 +45,7 @@ The percentage of characters in s that equal the letter &#39;k&#39; is 0%, so we
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='percentage-of-letter-in-string'
 class Solution:
     def percentageLetter(self, s: str, letter: str) -> int:

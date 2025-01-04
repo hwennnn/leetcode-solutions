@@ -65,7 +65,7 @@ date: 2023-03-12
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-the-number-of-beautiful-subarrays'
 class Solution:
     def beautifulSubarrays(self, nums: List[int]) -> int:

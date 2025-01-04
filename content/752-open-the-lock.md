@@ -66,7 +66,7 @@ because the wheels of the lock become stuck after the display becomes the dead e
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='open-the-lock'
 class Solution:
     def openLock(self, deadends: List[str], target: str) -> int:

@@ -57,7 +57,7 @@ date: 2023-06-04
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sum-of-matrix-after-queries'
 class Solution:
     def matrixSumQueries(self, n: int, queries: List[List[int]]) -> int:

@@ -69,7 +69,7 @@ Stones [0,0] and [1,1] cannot be removed since they do not share a row/column wi
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='most-stones-removed-with-same-row-or-column'
 class UnionFind:
     def __init__(self):

@@ -70,7 +70,7 @@ date: 2024-04-07
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-operations-to-make-median-of-array-equal-to-k'
 class Solution:
     def minOperationsToMakeMedianK(self, nums: List[int], k: int) -> int:

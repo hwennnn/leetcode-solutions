@@ -54,7 +54,7 @@ date: 2023-12-06
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='calculate-money-in-leetcode-bank'
 class Solution:
     def totalMoney(self, n: int) -> int:

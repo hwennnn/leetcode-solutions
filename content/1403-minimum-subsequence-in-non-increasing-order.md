@@ -66,7 +66,7 @@ public:
     }
 };
 ```
-### Python
+### Python3
 ``` py title='minimum-subsequence-in-non-increasing-order'
 class Solution:
     def minSubsequence(self, nums: List[int]) -> List[int]:

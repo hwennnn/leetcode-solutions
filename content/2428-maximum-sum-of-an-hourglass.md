@@ -53,7 +53,7 @@ date: 2022-10-02
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-sum-of-an-hourglass'
 class Solution:
     def maxSum(self, grid: List[List[int]]) -> int:

@@ -71,7 +71,7 @@ The array product is 1 * 6 * 1 * 6 * 1 * 6 * 7 = 1512, which is the minimum poss
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-non-zero-product-of-the-array-elements'
 class Solution:
     def minNonZeroProduct(self, p: int) -> int:

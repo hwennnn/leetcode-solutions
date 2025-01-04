@@ -48,7 +48,7 @@ date: 2020-09-21
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='rearrange-spaces-between-words'
 class Solution:
     def reorderSpaces(self, text: str) -> str:

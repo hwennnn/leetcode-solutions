@@ -54,7 +54,7 @@ date: 2023-07-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-arithmetic-subsequence-of-given-difference'
 class Solution:
     def longestSubsequence(self, arr: List[int], difference: int) -> int:

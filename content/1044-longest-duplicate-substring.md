@@ -41,7 +41,7 @@ date: 2021-11-03
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-duplicate-substring'
 class Solution:
     def robinKarp(self, s, M):

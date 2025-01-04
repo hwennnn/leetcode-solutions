@@ -61,7 +61,7 @@ date: 2022-03-24
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='smallest-range-ii'
 class Solution:
     def smallestRangeII(self, A: List[int], K: int) -> int:

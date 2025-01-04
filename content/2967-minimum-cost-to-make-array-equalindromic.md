@@ -72,7 +72,7 @@ It can be shown that changing all elements to any palindromic number other than 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-cost-to-make-array-equalindromic'
 class Solution:
     def minimumCost(self, nums: List[int]) -> int:

@@ -60,7 +60,7 @@ date: 2025-01-01
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-the-number-of-consistent-strings'
 class Solution:
     def countConsistentStrings(self, allowed: str, words: List[str]) -> int:

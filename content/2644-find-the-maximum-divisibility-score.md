@@ -83,7 +83,7 @@ date: 2023-04-16
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-maximum-divisibility-score'
 class Solution:
     def maxDivScore(self, nums: List[int], divisors: List[int]) -> int:

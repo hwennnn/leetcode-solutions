@@ -53,7 +53,7 @@ date: 2021-05-03
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-subarray-sum-with-one-deletion'
 class Solution:
     def maximumSum(self, arr: List[int]) -> int:

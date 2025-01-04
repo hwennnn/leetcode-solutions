@@ -42,7 +42,7 @@ Given an integer array <code>arr</code>, return <code>true</code>&nbsp;if there 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='three-consecutive-odds'
 class Solution:
     def threeConsecutiveOdds(self, arr: List[int]) -> bool:

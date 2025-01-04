@@ -50,7 +50,7 @@ date: 2022-02-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-shortest-superstring'
 class Solution:
     def shortestSuperstring(self, words: List[str]) -> str:

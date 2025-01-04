@@ -79,7 +79,7 @@ Hence, the abbreviated product is &quot;399168e2&quot;.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='abbreviating-the-product-of-a-range'
 class Solution:
     def abbreviateProduct(self, left: int, right: int) -> str:

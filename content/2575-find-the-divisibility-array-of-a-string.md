@@ -56,7 +56,7 @@ date: 2023-02-26
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-divisibility-array-of-a-string'
 class Solution:
     def divisibilityArray(self, word: str, m: int) -> List[int]:

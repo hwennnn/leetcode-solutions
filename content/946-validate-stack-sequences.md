@@ -52,7 +52,7 @@ pop() -&gt; 5, pop() -&gt; 3, pop() -&gt; 2, pop() -&gt; 1
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='validate-stack-sequences'
 class Solution:
     def validateStackSequences(self, pushed: List[int], popped: List[int]) -> bool:

@@ -90,7 +90,7 @@ date: 2023-06-04
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimize-string-length'
 class Solution:
     def minimizedStringLength(self, s: str) -> int:

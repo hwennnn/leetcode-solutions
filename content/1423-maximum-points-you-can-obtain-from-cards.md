@@ -60,7 +60,7 @@ date: 2022-06-26
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-points-you-can-obtain-from-cards'
 class Solution:
     def maxScore(self, cardPoints: List[int], k: int) -> int: 

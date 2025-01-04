@@ -59,7 +59,7 @@ date: 2024-12-02
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence'
 class Solution:
     def isPrefixOfWord(self, sentence: str, sw: str) -> int:

@@ -57,7 +57,7 @@ date: 2023-11-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-unique-binary-string'
 class Solution:
     def findDifferentBinaryString(self, nums: List[str]) -> str:

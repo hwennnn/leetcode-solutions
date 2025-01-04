@@ -53,7 +53,7 @@ Therefore, we return false.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='strictly-palindromic-number'
 class Solution:
     def isStrictlyPalindromic(self, n: int) -> bool:

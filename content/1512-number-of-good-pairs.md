@@ -55,7 +55,7 @@ date: 2023-10-03
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-good-pairs'
 class Solution:
     def numIdenticalPairs(self, nums: List[int]) -> int:

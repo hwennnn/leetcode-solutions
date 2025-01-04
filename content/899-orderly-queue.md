@@ -51,7 +51,7 @@ In the second move, we move the 3<sup>rd</sup> character &#39;c&#39; to the end,
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='orderly-queue'
 class Solution:
     def orderlyQueue(self, s: str, k: int) -> str:

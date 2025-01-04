@@ -61,7 +61,7 @@ Since the largest window of s only has one &#39;a&#39;, return empty string.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-window-substring'
 class Solution:
     def minWindow(self, s: str, t: str) -> str:

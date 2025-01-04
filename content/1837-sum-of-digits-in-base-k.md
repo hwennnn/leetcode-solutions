@@ -45,7 +45,7 @@ date: 2021-04-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sum-of-digits-in-base-k'
 class Solution:
     def sumBase(self, n: int, k: int) -> int:

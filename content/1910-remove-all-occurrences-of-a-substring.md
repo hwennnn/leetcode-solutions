@@ -63,7 +63,7 @@ Now s has no occurrences of &quot;xy&quot;.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='remove-all-occurrences-of-a-substring'
 class Solution:
     def removeOccurrences(self, s: str, part: str) -> str:

@@ -65,7 +65,7 @@ date: 2024-07-21
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-number-of-operations-to-move-ones-to-the-end'
 class Solution:
     def maxOperations(self, s: str) -> int:

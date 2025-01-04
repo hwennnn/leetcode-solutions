@@ -73,7 +73,7 @@ date: 2022-02-20
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='available-captures-for-rook'
 class Solution:
     def numRookCaptures(self, board: List[List[str]]) -> int:

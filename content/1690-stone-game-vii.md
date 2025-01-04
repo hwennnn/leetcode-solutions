@@ -57,7 +57,7 @@ The score difference is 18 - 12 = 6.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='stone-game-vii'
 class Solution:
     def stoneGameVII(self, stones: List[int]) -> int:

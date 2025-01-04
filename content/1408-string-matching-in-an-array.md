@@ -58,7 +58,7 @@ date: 2020-10-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='string-matching-in-an-array'
 class Solution:
     def stringMatching(self, words: List[str]) -> List[str]:

@@ -71,7 +71,7 @@ medianFinder.findMedian(); // return 2.0
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-median-from-data-stream'
 class MedianFinder:
 

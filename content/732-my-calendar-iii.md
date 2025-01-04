@@ -60,7 +60,7 @@ myCalendarThree.book(25, 55); // return 3
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='my-calendar-iii'
 class LazySegmentTree:
     def __init__(self, low, high, val):

@@ -60,7 +60,7 @@ To go from index 0 to index 2, we can just go directly because gcd(nums[0], nums
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='greatest-common-divisor-traversal'
 class DSU:
     def __init__(self, n):

@@ -70,7 +70,7 @@ The resulting array is [1,2,3,4], which is continuous.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-operations-to-make-array-continuous'
 class Solution:
     def minOperations(self, nums: List[int]) -> int:

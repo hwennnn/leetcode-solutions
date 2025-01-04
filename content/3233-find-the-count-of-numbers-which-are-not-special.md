@@ -61,7 +61,7 @@ date: 2024-08-03
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-count-of-numbers-which-are-not-special'
 def generate_primes(n):
 	isPrime = [True] * (n + 1)

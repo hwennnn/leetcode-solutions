@@ -62,7 +62,7 @@ Clearly the destination city is &quot;A&quot;.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='destination-city'
 class Solution:
     def destCity(self, paths: List[List[str]]) -> str:

@@ -63,7 +63,7 @@ date: 2024-07-11
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-encrypted-string'
 class Solution:
     def getEncryptedString(self, s: str, k: int) -> str:

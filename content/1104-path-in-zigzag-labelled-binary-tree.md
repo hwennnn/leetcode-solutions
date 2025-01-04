@@ -48,7 +48,7 @@ date: 2021-05-23
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='path-in-zigzag-labelled-binary-tree'
 class Solution:
     def pathInZigZagTree(self, label: int) -> List[int]:

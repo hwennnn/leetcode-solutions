@@ -61,7 +61,7 @@ Thus, we return 2.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-beautiful-pairs'
 class Solution:
     def countBeautifulPairs(self, nums: List[int]) -> int:

@@ -47,7 +47,7 @@ date: 2022-05-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='valid-perfect-square'
 class Solution:
     def isPerfectSquare(self, num: int) -> bool:

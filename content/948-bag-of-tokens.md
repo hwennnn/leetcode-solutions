@@ -125,7 +125,7 @@ date: 2024-03-05
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='bag-of-tokens'
 class Solution:
     def bagOfTokensScore(self, tokens: List[int], power: int) -> int:

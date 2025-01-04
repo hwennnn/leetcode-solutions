@@ -44,7 +44,7 @@ date: 2021-11-08
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='unique-binary-search-trees'
 class Solution:
     def numTrees(self, n: int) -> int:

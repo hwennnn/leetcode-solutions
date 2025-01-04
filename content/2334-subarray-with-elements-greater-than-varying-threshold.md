@@ -55,7 +55,7 @@ Therefore, 2, 3, 4, or 5 may also be returned.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='subarray-with-elements-greater-than-varying-threshold'
 class Solution:
     def validSubarraySize(self, nums: List[int], threshold: int) -> int:

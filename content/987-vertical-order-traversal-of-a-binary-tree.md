@@ -74,7 +74,7 @@ Note that the solution remains the same since 5 and 6 are in the same location a
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='vertical-order-traversal-of-a-binary-tree'
 # Definition for a binary tree node.
 # class TreeNode:

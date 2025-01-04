@@ -61,7 +61,7 @@ Other lists of favorite companies are not a subset of another list, therefore, t
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list'
 class Solution:
     def peopleIndexes(self, fc: List[List[str]]) -> List[int]:

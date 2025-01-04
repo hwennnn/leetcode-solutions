@@ -62,7 +62,7 @@ It can be shown that there are only 7 incremovable subarrays in nums.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-the-number-of-incremovable-subarrays-ii'
 class Solution:
     def incremovableSubarrayCount(self, nums: List[int]) -> int:

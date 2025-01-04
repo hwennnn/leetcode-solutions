@@ -75,7 +75,7 @@ Thus, on day 2, all the seeds are blooming.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='earliest-possible-day-of-full-bloom'
 class Solution:
     def earliestFullBloom(self, plantTime: List[int], growTime: List[int]) -> int:

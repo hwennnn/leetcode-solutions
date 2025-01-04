@@ -64,7 +64,7 @@ lRUCache.get(4);    // return 4
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='lru-cache'
 class Node:
 

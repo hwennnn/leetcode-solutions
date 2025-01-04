@@ -64,7 +64,7 @@ allOne.getMinKey(); // return &quot;leet&quot;
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='all-oone-data-structure'
 class Node():
     def __init__(self):

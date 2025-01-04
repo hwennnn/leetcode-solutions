@@ -58,7 +58,7 @@ date: 2023-04-16
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='row-with-maximum-ones'
 class Solution:
     def rowAndMaximumOnes(self, mat: List[List[int]]) -> List[int]:

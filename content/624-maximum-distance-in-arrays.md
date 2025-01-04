@@ -51,7 +51,7 @@ date: 2024-08-16
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-distance-in-arrays'
 class Solution:
     def maxDistance(self, arrays: List[List[int]]) -> int:

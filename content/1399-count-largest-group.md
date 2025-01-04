@@ -49,7 +49,7 @@ There are 4 groups with largest size.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-largest-group'
 class Solution:
     def countLargestGroup(self, n: int) -> int:

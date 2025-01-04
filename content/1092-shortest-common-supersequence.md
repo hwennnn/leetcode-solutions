@@ -48,7 +48,7 @@ The answer provided is the shortest such string that satisfies these properties.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='shortest-common-supersequence'
 class Solution:
     def shortestCommonSupersequence(self, A: str, B: str) -> str:

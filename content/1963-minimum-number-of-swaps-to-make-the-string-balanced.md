@@ -73,7 +73,7 @@ The resulting string is &quot;[[][]]&quot;.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-swaps-to-make-the-string-balanced'
 class Solution:
     def minSwaps(self, s: str) -> int:

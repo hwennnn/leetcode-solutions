@@ -52,7 +52,7 @@ date: 2022-03-06
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='reshape-the-matrix'
 class Solution:
     def matrixReshape(self, mat: List[List[int]], r: int, c: int) -> List[List[int]]:

@@ -72,7 +72,7 @@ It can be shown that we cannot partition the string into less than 4 substrings.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='partition-string-into-substrings-with-values-at-most-k'
 class Solution:
     def minimumPartition(self, s: str, k: int) -> int:

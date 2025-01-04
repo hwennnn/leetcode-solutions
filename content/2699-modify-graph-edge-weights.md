@@ -75,7 +75,7 @@ date: 2024-12-26
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='modify-graph-edge-weights'
 class Solution:
     def modifiedGraphEdges(self, n: int, edges: List[List[int]], source: int, destination: int, target: int) -> List[List[int]]:

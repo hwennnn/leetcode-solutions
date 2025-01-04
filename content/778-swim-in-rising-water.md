@@ -61,7 +61,7 @@ We need to wait until time 16 so that (0, 0) and (4, 4) are connected.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='swim-in-rising-water'
 class Solution:
     def swimInWater(self, grid: List[List[int]]) -> int:

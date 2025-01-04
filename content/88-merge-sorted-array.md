@@ -67,7 +67,7 @@ Note that because m = 0, there are no elements in nums1. The 0 is only there to 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='merge-sorted-array'
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:

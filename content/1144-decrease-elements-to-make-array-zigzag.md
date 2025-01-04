@@ -52,7 +52,7 @@ date: 2021-05-22
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='decrease-elements-to-make-array-zigzag'
 class Solution:
     def movesToMakeZigzag(self, A: List[int]) -> int:

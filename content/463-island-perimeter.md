@@ -59,7 +59,7 @@ date: 2024-04-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='island-perimeter'
 class Solution:
     def islandPerimeter(self, grid: List[List[int]]) -> int:

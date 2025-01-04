@@ -59,7 +59,7 @@ date: 2023-10-04
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-operations-to-collect-elements'
 class Solution:
     def minOperations(self, nums: List[int], k: int) -> int:

@@ -48,7 +48,7 @@ date: 2024-08-08
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='spiral-matrix-iii'
 class Solution:
     def spiralMatrixIII(self, rows: int, cols: int, rStart: int, cStart: int) -> List[List[int]]:

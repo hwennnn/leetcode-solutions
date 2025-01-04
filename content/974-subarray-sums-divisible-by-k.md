@@ -48,7 +48,7 @@ date: 2024-06-09
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='subarray-sums-divisible-by-k'
 class Solution:
     def subarraysDivByK(self, nums: List[int], k: int) -> int:

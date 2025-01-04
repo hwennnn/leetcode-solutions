@@ -69,7 +69,7 @@ The total number of operations performed is <code>3 + 2 = 5</code>.</p>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k'
 class Solution:
     def minOperations(self, k: int) -> int:

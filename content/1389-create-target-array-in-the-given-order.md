@@ -75,7 +75,7 @@ nums       index     target
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='create-target-array-in-the-given-order'
 class Solution:
     def createTargetArray(self, nums: List[int], index: List[int]) -> List[int]:

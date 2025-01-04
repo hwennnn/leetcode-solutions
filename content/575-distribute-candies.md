@@ -58,7 +58,7 @@ date: 2019-10-08
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='distribute-candies'
 class Solution:
     def distributeCandies(self, candies: List[int]) -> int:

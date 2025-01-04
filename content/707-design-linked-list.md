@@ -61,7 +61,7 @@ myLinkedList.get(1);              // return 3
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='design-linked-list'
 class Node:
     def __init__(self, value):

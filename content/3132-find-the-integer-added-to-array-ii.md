@@ -74,7 +74,7 @@ date: 2024-04-28
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-integer-added-to-array-ii'
 class Solution:
     def minimumAddedInteger(self, nums1: List[int], nums2: List[int]) -> int:

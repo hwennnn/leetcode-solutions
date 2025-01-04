@@ -61,7 +61,7 @@ We earn 9 + 5 + 6 = 20 dollars in total.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-earnings-from-taxi'
 class Solution:
     def maxTaxiEarnings(self, n: int, rides: List[List[int]]) -> int:

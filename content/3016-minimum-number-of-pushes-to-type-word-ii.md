@@ -118,7 +118,7 @@ public:
     }
 };
 ```
-### Python
+### Python3
 ``` py title='minimum-number-of-pushes-to-type-word-ii'
 class Solution:
     def minimumPushes(self, word: str) -> int:

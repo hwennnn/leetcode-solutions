@@ -72,7 +72,7 @@ Ball b4 is dropped at column 4 and will get stuck on the box between column 2 an
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='where-will-the-ball-fall'
 class Solution:
     def findBall(self, grid: List[List[int]]) -> List[int]:

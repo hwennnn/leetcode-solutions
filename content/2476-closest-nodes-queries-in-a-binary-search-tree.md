@@ -63,7 +63,7 @@ date: 2022-11-20
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='closest-nodes-queries-in-a-binary-search-tree'
 # Definition for a binary tree node.
 # class TreeNode:

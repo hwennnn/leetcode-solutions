@@ -53,7 +53,7 @@ date: 2022-02-21
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='interval-list-intersections'
 class Solution:
     def intervalIntersection(self, firstList: List[List[int]], secondList: List[List[int]]) -> List[List[int]]:

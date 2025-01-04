@@ -55,7 +55,7 @@ date: 2020-10-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='reformat-the-string'
 class Solution:
     def reformat(self, S: str) -> str:

@@ -53,7 +53,7 @@ date: 2023-01-15
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-the-number-of-good-subarrays'
 class Solution:
     def countGood(self, nums: List[int], k: int) -> int:

@@ -63,7 +63,7 @@ In the fourth semester, you can take course 5.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='parallel-courses-ii'
 class Solution:
     def minNumberOfSemesters(self, n: int, relations: List[List[int]], k: int) -> int:

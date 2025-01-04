@@ -49,7 +49,7 @@ coins =  3*1*5    +   3*5*8   +  1*3*8  + 1*8*1 = 167</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='burst-balloons'
 class Solution:
     def maxCoins(self, nums: List[int]) -> int:

@@ -64,7 +64,7 @@ summaryRanges.getIntervals(); // return [[1, 3], [6, 7]]
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='data-stream-as-disjoint-intervals'
 class DSU:
     def __init__(self):

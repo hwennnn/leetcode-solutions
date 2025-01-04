@@ -55,7 +55,7 @@ Note that &quot;ea&quot; is not a valid string since &#39;e&#39; comes after &#3
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-sorted-vowel-strings'
 class Solution:
     def countVowelStrings(self, n: int) -> int:

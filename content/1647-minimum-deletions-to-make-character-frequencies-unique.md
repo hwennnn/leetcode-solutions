@@ -59,7 +59,7 @@ Note that we only care about characters that are still in the string at the end 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-deletions-to-make-character-frequencies-unique'
 class Solution:
     def minDeletions(self, s: str) -> int:

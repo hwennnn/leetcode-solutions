@@ -51,7 +51,7 @@ date: 2024-12-26
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-complement'
 class Solution:
     def findComplement(self, num: int) -> int:

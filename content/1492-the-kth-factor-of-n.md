@@ -58,7 +58,7 @@ date: 2020-12-04
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='the-kth-factor-of-n'
 class Solution:
     def kthFactor(self, n: int, k: int) -> int:

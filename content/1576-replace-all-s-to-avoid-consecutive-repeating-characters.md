@@ -47,7 +47,7 @@ date: 2020-09-06
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='replace-all-s-to-avoid-consecutive-repeating-characters'
 class Solution:
     def modifyString(self, s: str) -> str:

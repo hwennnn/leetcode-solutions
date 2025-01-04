@@ -51,7 +51,7 @@ date: 2024-02-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='modify-the-matrix'
 class Solution:
     def modifiedMatrix(self, matrix: List[List[int]]) -> List[List[int]]:

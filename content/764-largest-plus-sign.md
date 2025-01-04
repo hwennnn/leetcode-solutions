@@ -50,7 +50,7 @@ date: 2021-09-09
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='largest-plus-sign'
 class Solution:
     def orderOfLargestPlusSign(self, n: int, mines: List[List[int]]) -> int:

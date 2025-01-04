@@ -65,7 +65,7 @@ date: 2023-03-05
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='jump-game-iv'
 class Solution:
     def minJumps(self, arr: List[int]) -> int:

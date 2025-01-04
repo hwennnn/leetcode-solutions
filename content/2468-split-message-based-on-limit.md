@@ -58,7 +58,7 @@ Under the given constraints, the string can be split into two parts:
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='split-message-based-on-limit'
 class Solution:
     def splitMessage(self, message: str, limit: int) -> List[str]:

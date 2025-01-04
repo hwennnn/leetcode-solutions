@@ -55,7 +55,7 @@ Total distance traveled is 10km.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='total-distance-traveled'
 class Solution:
     def distanceTraveled(self, mainTank: int, additionalTank: int) -> int:

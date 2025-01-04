@@ -58,7 +58,7 @@ It can be shown that we cannot have less than 3 rows in a valid array.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='convert-an-array-into-a-2d-array-with-conditions'
 class Solution:
     def findMatrix(self, nums: List[int]) -> List[List[int]]:

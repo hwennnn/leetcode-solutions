@@ -43,7 +43,7 @@ date: 2024-02-12
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='majority-element'
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:

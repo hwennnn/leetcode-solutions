@@ -47,7 +47,7 @@ date: 2021-08-28
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-uncommon-subsequence-ii'
 class Solution:
     def findLUSlength(self, words: List[str]) -> int:

@@ -66,7 +66,7 @@ In total, this is 29523 integers that can be written using the digits array.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='numbers-at-most-n-given-digit-set'
 class Solution:
     def atMostNGivenDigitSet(self, digits: List[str], n: int) -> int:

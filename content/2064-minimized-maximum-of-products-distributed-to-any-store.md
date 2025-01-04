@@ -72,7 +72,7 @@ The maximum number of products given to any store is max(100000) = 100000.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimized-maximum-of-products-distributed-to-any-store'
 class Solution:
     def minimizedMaximum(self, n: int, quantities: List[int]) -> int:

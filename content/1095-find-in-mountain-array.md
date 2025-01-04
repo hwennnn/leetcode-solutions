@@ -68,7 +68,7 @@ date: 2023-10-17
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-in-mountain-array'
 # """
 # This is MountainArray's API interface.

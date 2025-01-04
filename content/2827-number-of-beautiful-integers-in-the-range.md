@@ -70,7 +70,7 @@ It can be shown that there is only 1 beautiful integer in the given range.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-beautiful-integers-in-the-range'
 class Solution:
     def numberOfBeautifulIntegers(self, low: int, high: int, k: int) -> int:

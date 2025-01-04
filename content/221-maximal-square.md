@@ -52,7 +52,7 @@ date: 2024-08-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximal-square'
 class Solution:
     def maximalSquare(self, matrix: List[List[str]]) -> int:

@@ -37,7 +37,7 @@ date: 2024-06-02
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='reverse-string'
 class Solution:
     def reverseString(self, s: List[str]) -> None:

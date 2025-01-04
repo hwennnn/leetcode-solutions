@@ -63,7 +63,7 @@ It can be shown that if we place only one food bucket, one of the hamsters will 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-number-of-food-buckets-to-feed-the-hamsters'
 class Solution:
     def minimumBuckets(self, s: str) -> int:

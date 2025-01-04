@@ -54,7 +54,7 @@ The two good lines with the chosen cell as an endpoint are annotated above with 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-if-move-is-legal'
 class Solution:
     def checkMove(self, board: List[List[str]], rMove: int, cMove: int, color: str) -> bool:

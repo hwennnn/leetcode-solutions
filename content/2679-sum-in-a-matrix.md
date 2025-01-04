@@ -53,7 +53,7 @@ date: 2023-05-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sum-in-a-matrix'
 class Solution:
     def matrixSum(self, nums: List[List[int]]) -> int:

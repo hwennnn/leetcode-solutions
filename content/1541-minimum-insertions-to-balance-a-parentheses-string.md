@@ -68,7 +68,7 @@ date: 2021-09-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-insertions-to-balance-a-parentheses-string'
 class Solution:
     def minInsertions(self, s: str) -> int:

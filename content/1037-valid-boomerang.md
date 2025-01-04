@@ -39,7 +39,7 @@ date: 2021-09-25
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='valid-boomerang'
 class Solution:
     def isBoomerang(self, p: List[List[int]]) -> bool:

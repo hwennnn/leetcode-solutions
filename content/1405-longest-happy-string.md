@@ -57,7 +57,7 @@ date: 2024-10-16
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-happy-string'
 class Solution:
     def longestDiverseString(self, a: int, b: int, c: int) -> str:

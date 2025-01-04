@@ -56,7 +56,7 @@ date: 2021-09-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='expression-add-operators'
 class Solution:
     def addOperators(self, s: str, target: int) -> List[str]:

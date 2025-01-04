@@ -73,7 +73,7 @@ It can be shown that there are only 6 valid paths.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-valid-paths-in-a-tree'
 def generate_primes(n):
     primes = []  # Initialize an empty list to store prime numbers

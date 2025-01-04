@@ -72,7 +72,7 @@ end<sub>1</sub> = 1 == 1 = start<sub>2</sub>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='valid-arrangement-of-pairs'
 class Solution:
     def validArrangement(self, pairs: List[List[int]]) -> List[List[int]]:

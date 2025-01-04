@@ -61,7 +61,7 @@ AB -&gt; 28
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='excel-sheet-column-title'
 class Solution:
     def convertToTitle(self, x: int) -> str:

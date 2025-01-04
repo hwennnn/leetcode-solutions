@@ -50,7 +50,7 @@ Number of water bottles you can drink: 15 + 3 + 1 = 19.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='water-bottles'
 class Solution:
     def numWaterBottles(self, numBottles: int, numExchange: int) -> int:

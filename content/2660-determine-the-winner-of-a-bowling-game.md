@@ -104,7 +104,7 @@ date: 2023-04-30
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='determine-the-winner-of-a-bowling-game'
 class Solution:
     def isWinner(self, player1: List[int], player2: List[int]) -> int:

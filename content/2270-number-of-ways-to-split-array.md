@@ -61,7 +61,7 @@ There are two valid splits in nums:
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='number-of-ways-to-split-array'
 class Solution:
     def waysToSplitArray(self, nums: List[int]) -> int:

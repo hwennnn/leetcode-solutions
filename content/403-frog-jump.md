@@ -50,7 +50,7 @@ date: 2023-08-27
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='frog-jump'
 class Solution:
     def canCross(self, stones: List[int]) -> bool:

@@ -67,7 +67,7 @@ date: 2023-09-24
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='beautiful-towers-i'
 class Solution:
     def maximumSumOfHeights(self, maxHeights: List[int]) -> int:

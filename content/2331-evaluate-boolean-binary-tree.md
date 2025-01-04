@@ -68,7 +68,7 @@ The root node evaluates to True, so we return true.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='evaluate-boolean-binary-tree'
 # Definition for a binary tree node.
 # class TreeNode:

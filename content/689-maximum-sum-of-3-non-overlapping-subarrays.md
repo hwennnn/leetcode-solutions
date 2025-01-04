@@ -47,7 +47,7 @@ We could have also taken [2, 1], but an answer of [1, 3, 5] would be lexicograph
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-sum-of-3-non-overlapping-subarrays'
 class Solution:
     def maxSumOfThreeSubarrays(self, nums: List[int], k: int) -> List[int]:

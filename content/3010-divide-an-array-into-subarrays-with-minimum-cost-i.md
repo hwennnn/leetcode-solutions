@@ -64,7 +64,7 @@ It can be shown that 12 is the minimum cost achievable.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='divide-an-array-into-subarrays-with-minimum-cost-i'
 class Solution:
     def minimumCost(self, nums: List[int]) -> int:

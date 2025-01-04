@@ -57,7 +57,7 @@ date: 2021-05-03
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-distance-to-the-target-element'
 class Solution:
     def getMinDistance(self, nums: List[int], target: int, start: int) -> int:

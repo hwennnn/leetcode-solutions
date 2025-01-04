@@ -92,7 +92,7 @@ date: 2024-02-04
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-number-of-ways-to-place-people-i'
 class Solution:
     def numberOfPairs(self, points: List[List[int]]) -> int:

@@ -55,7 +55,7 @@ As shown below, there are 5 ways you can generate &quot;bag&quot; from s.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='distinct-subsequences'
 class Solution:
     def numDistinct(self, s: str, t: str) -> int:

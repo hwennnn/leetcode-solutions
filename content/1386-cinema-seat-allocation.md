@@ -64,7 +64,7 @@ date: 2020-10-15
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='cinema-seat-allocation'
 class Solution:
     def maxNumberOfFamilies(self, n: int, rs: List[List[int]]) -> int:

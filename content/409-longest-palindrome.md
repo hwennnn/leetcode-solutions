@@ -47,7 +47,7 @@ date: 2024-06-04
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='longest-palindrome'
 class Solution:
     def longestPalindrome(self, s: str) -> int:

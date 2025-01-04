@@ -61,7 +61,7 @@ It can be shown that appending any 4 characters to the end of s will never make 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='append-characters-to-string-to-make-subsequence'
 class Solution:
     def appendCharacters(self, s: str, t: str) -> int:

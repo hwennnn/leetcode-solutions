@@ -72,7 +72,7 @@ date: 2024-04-28
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-the-median-of-the-uniqueness-array'
 class Solution:
     def medianOfUniquenessArray(self, nums: List[int]) -> int:

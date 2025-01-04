@@ -77,7 +77,7 @@ date: 2022-01-09
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-words-obtained-after-adding-a-letter'
 class Solution:
     def wordCount(self, startWords: List[str], targetWords: List[str]) -> int:

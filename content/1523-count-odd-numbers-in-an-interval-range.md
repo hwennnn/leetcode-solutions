@@ -39,7 +39,7 @@ date: 2023-02-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-odd-numbers-in-an-interval-range'
 class Solution:
     def countOdds(self, low: int, high: int) -> int:

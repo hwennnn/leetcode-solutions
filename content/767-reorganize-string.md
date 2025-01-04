@@ -41,7 +41,7 @@ date: 2023-08-23
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='reorganize-string'
 class Solution:
     def reorganizeString(self, s: str) -> str:

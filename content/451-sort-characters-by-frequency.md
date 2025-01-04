@@ -61,7 +61,7 @@ Note that &#39;A&#39; and &#39;a&#39; are treated as two different characters.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sort-characters-by-frequency'
 class Solution:
     def frequencySort(self, s: str) -> str:

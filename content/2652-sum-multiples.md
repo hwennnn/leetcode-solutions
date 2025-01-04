@@ -52,7 +52,7 @@ date: 2023-04-23
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sum-multiples'
 class Solution:
     def sumOfMultiples(self, n: int) -> int:

@@ -70,7 +70,7 @@ Total of cherries: 17 + 11 = 28.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='cherry-pickup-ii'
 class Solution:
     def cherryPickup(self, grid: List[List[int]]) -> int:

@@ -59,7 +59,7 @@ solution.shuffle();    // Returns the random shuffling of array [1,2,3]. Example
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='shuffle-an-array'
 from random import randint
 

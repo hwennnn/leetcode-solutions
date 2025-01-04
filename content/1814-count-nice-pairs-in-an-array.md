@@ -54,7 +54,7 @@ date: 2023-11-21
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-nice-pairs-in-an-array'
 class Solution:
     def countNicePairs(self, nums: List[int]) -> int:

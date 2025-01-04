@@ -56,7 +56,7 @@ date: 2023-07-16
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='smallest-sufficient-team'
 class Solution:
     def smallestSufficientTeam(self, req_skills: List[str], people: List[List[str]]) -> List[int]:

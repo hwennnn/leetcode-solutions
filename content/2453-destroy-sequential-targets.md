@@ -62,7 +62,7 @@ Since nums[0] is the minimal integer that can destroy 3 targets, we return 1.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='destroy-sequential-targets'
 class Solution:
     def destroyTargets(self, nums: List[int], space: int) -> int:

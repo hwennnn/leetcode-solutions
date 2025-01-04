@@ -73,7 +73,7 @@ Hence, we return -1.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-total-cost-to-make-arrays-unequal'
 class Solution:
     def minimumTotalCost(self, nums1: List[int], nums2: List[int]) -> int:

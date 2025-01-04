@@ -48,7 +48,7 @@ date: 2023-12-13
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='special-positions-in-a-binary-matrix'
 class Solution:
     def numSpecial(self, mat: List[List[int]]) -> int:

@@ -70,7 +70,7 @@ date: 2021-05-30
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='get-biggest-three-rhombus-sums-in-a-grid'
 class Solution:
     def getBiggestThree(self, grid: List[List[int]]) -> List[int]:

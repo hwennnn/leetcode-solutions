@@ -55,7 +55,7 @@ When i=3, nums[i] = 2, and the average of its neighbors is (6+0) / 2 = 3.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='array-with-elements-not-equal-to-average-of-neighbors'
 class Solution:
     def rearrangeArray(self, nums: List[int]) -> List[int]:

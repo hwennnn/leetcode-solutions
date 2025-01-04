@@ -62,7 +62,7 @@ date: 2024-06-18
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='most-profit-assigning-work'
 class Solution:
     def maxProfitAssignment(self, difficulty: List[int], profit: List[int], worker: List[int]) -> int:

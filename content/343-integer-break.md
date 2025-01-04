@@ -45,7 +45,7 @@ date: 2020-08-12
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='integer-break'
 class Solution:
     def integerBreak(self, n: int) -> int:

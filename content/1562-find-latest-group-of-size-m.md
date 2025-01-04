@@ -66,7 +66,7 @@ No group of size 2 exists during any step.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-latest-group-of-size-m'
 class Solution:
     def findLatestStep(self, A: List[int], m: int) -> int:

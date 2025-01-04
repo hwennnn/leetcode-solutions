@@ -51,7 +51,7 @@ date: 2022-12-23
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='best-time-to-buy-and-sell-stock-with-cooldown'
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:

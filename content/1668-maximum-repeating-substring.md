@@ -56,7 +56,7 @@ date: 2020-11-29
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-repeating-substring'
 class Solution:
     def maxRepeating(self, seq: str, w: str) -> int:

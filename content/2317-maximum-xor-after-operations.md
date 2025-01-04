@@ -52,7 +52,7 @@ It can be shown that 11 is the maximum possible bitwise XOR.</pre>
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-xor-after-operations'
 class Solution:
     def maximumXOR(self, nums: List[int]) -> int:

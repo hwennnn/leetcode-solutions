@@ -71,7 +71,7 @@ For ans[i] == -1, It can be shown that there is no building where Alice and Bob 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='find-building-where-alice-and-bob-can-meet'
 class Solution:
     def leftmostBuildingQueries(self, heights: List[int], queries: List[List[int]]) -> List[int]:

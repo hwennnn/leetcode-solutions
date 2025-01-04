@@ -46,7 +46,7 @@ date: 2021-04-03
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='second-largest-digit-in-a-string'
 class Solution:
     def secondHighest(self, s: str) -> int:

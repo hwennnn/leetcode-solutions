@@ -73,7 +73,7 @@ The total waste is (5-3) + (5-5) + (10-8) + (10-10) + (14-11) + (14-12) = 9.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='minimum-space-wasted-from-packaging'
 class Solution:
     def minWastedSpace(self, packages: List[int], boxes: List[List[int]]) -> int:

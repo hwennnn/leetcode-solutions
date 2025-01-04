@@ -63,7 +63,7 @@ numArray.sumRange(0, 2); // return 1 + 2 + 5 = 8
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='range-sum-query-mutable'
 class LazySegmentTree:
   def __init__(self, arr):

@@ -53,7 +53,7 @@ date: 2024-06-16
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-pairs-that-form-a-complete-day-ii'
 class Solution:
     def countCompleteDayPairs(self, hours: List[int]) -> int:

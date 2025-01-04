@@ -58,7 +58,7 @@ date: 2022-07-21
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='decode-string'
 class Solution:
     def decodeString(self, s: str) -> str:

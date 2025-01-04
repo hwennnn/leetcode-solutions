@@ -68,7 +68,7 @@ We return 0 - 15 = -15 as the answer.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='divisible-and-non-divisible-sums-difference'
 class Solution:
     def differenceOfSums(self, n: int, m: int) -> int:

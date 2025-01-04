@@ -59,7 +59,7 @@ Other possible ways to select elements to have trailing zeroes in the binary rep
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='check-if-bitwise-or-has-trailing-zeros'
 class Solution:
     def hasTrailingZeros(self, nums: List[int]) -> bool:

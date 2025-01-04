@@ -127,7 +127,7 @@ Step 3: &quot;<u>0</u>-1&quot; (&quot;0&quot; is read in; reading stops because 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='string-to-integer-atoi'
 class Solution:
     def myAtoi(self, s: str) -> int:

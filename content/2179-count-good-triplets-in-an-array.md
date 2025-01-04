@@ -57,7 +57,7 @@ Out of those triplets, only the triplet (0,1,3) satisfies pos2<sub>x</sub> &lt; 
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-good-triplets-in-an-array'
 from sortedcontainers import SortedList
 

@@ -49,7 +49,7 @@ Since 2 has only one digit, return it.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='add-digits'
 class Solution:
     def addDigits(self, num: int) -> int:

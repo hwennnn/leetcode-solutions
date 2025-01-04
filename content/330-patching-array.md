@@ -59,7 +59,7 @@ Explanation: The two patches can be [2, 4].
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='patching-array'
 class Solution:
     def minPatches(self, nums: List[int], n: int) -> int:

@@ -53,7 +53,7 @@ Notice that there is a unique path between every pair of points.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='min-cost-to-connect-all-points'
 class UnionFind:
     def __init__(self):

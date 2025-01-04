@@ -59,7 +59,7 @@ The absolute difference between the element sum and digit sum is |10 - 10| = 0.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='difference-between-element-sum-and-digit-sum-of-an-array'
 class Solution:
     def differenceOfSum(self, nums: List[int]) -> int:

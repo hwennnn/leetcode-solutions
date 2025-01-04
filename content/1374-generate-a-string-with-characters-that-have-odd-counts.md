@@ -51,7 +51,7 @@ date: 2020-10-15
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='generate-a-string-with-characters-that-have-odd-counts'
 class Solution:
     def generateTheString(self, n: int) -> str:

@@ -68,7 +68,7 @@ Hence, the maximum k is 2.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximum-number-of-removable-characters'
 class Solution:
     def maximumRemovals(self, s: str, p: str, removable: List[int]) -> int:

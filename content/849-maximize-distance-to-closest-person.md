@@ -63,7 +63,7 @@ This is the maximum distance possible, so the answer is 3.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximize-distance-to-closest-person'
 class Solution:
     def maxDistToClosest(self, seats: List[int]) -> int:

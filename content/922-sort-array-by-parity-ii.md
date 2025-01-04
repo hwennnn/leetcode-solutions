@@ -53,7 +53,7 @@ date: 2021-09-28
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='sort-array-by-parity-ii'
 class Solution:
     def sortArrayByParityII(self, nums: List[int]) -> List[int]:

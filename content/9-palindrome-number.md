@@ -52,7 +52,7 @@ date: 2020-10-12
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='palindrome-number'
 class Solution:
     def isPalindrome(self, x: int) -> bool:

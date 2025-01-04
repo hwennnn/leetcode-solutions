@@ -73,7 +73,7 @@ date: 2024-08-14
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='count-the-number-of-good-nodes'
 class Solution:
     def countGoodNodes(self, edges: List[List[int]]) -> int:

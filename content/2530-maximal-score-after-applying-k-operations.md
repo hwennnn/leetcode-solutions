@@ -61,7 +61,7 @@ The final score is 10 + 4 + 3 = 17.
 ## Solution
 
 ---
-### Python
+### Python3
 ``` py title='maximal-score-after-applying-k-operations'
 class Solution:
     def maxKelements(self, nums: List[int], k: int) -> int:
