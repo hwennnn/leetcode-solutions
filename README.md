@@ -1,12 +1,30 @@
-# Houman's Digital Garden
+# Leetcode Solutions
 
-Welcome to my digital garden! This is where I document my journey through Computer Science concepts and LeetCode problem-solving.
+Welcome to my Leetcode solutions collection! This site contains my solutions to various LeetCode problems, organized and documented for easy reference.
 
-## 🌱 What's Inside
+## Why Separate Branch?
 
-- LeetCode Solutions: A growing collection of solutions to various LeetCode problems
-- CS Concepts: Notes and learnings about different Computer Science topics
-- Regular Updates: New content is added regularly (aiming for daily updates)
+I've created a separate `leetcode` branch to deploy LeetCode solutions independently from my main content. This separation was necessary because:
+
+1. The LeetCode collection has grown to over 2,200 problems and solutions
+2. Having all content in one branch was significantly slowing down hot reloads during development
+3. The large number of files was hindering progress on writing other notes
+
+## Deployment
+
+The LeetCode solutions are now deployed to a dedicated subdomain:
+
+- 🔗 [leetcode.hwendev.com](https://www.leetcode.hwendev.com/)
+
+## Content Updates
+
+I will be regularly syncing new LeetCode solutions using an automated [script](https://github.com/hwennnn/leetcode-sync).
+
+This setup allows me to:
+
+- Maintain faster development cycles for non-LeetCode content
+- Keep LeetCode solutions organized in their own space
+- Continue adding solutions without impacting the main site's performance
 
 ## License
 
