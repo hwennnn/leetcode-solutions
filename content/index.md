@@ -9,6 +9,8 @@ date: 2025-01-04
 
 Welcome to my LeetCode solutions collection! This site contains my solutions to various LeetCode problems, organized and documented for easy reference.
 
+[Back to Home](https://www.hwendev.com)
+
 ## Resources
 
 - [GitHub Repository](https://github.com/hwennnn/digital-garden/tree/leetcode/content)
