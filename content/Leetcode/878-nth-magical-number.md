@@ -2,12 +2,13 @@
 title: 878. Nth Magical Number
 draft: false
 tags: 
+  - leetcode-hard
   - math
   - binary-search
 date: 2021-12-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/nth-magical-number/)
 
 ## Description
 
@@ -61,6 +62,5 @@ class Solution:
                 left = mid + 1
         
         return left % M
-
 ```
 

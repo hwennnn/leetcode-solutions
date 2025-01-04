@@ -2,6 +2,7 @@
 title: 3132. Find the Integer Added to Array II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
   - sorting
@@ -9,7 +10,7 @@ tags:
 date: 2024-04-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-integer-added-to-array-ii/)
 
 ## Description
 
@@ -104,6 +105,5 @@ class Solution:
                 res = min(res, d)
 
         return res
-
 ```
 

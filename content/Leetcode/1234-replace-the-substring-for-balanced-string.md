@@ -2,12 +2,13 @@
 title: 1234. Replace the Substring for Balanced String
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - sliding-window
 date: 2021-01-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/replace-the-substring-for-balanced-string/)
 
 ## Description
 
@@ -81,6 +82,5 @@ class Solution:
                 i += 1
         
         return res
-
 ```
 

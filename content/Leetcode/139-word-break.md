@@ -2,6 +2,7 @@
 title: 139. Word Break
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - string
@@ -11,7 +12,7 @@ tags:
 date: 2024-08-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/word-break/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
             return False
         
         return go(0)
-
 ```
 

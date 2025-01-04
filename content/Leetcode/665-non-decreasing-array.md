@@ -2,11 +2,12 @@
 title: 665. Non-decreasing Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
 date: 2022-06-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/non-decreasing-array/)
 
 ## Description
 
@@ -64,6 +65,5 @@ class Solution:
                     nums[i] = nums[i-1]
                 
         return count <= 1
-
 ```
 

@@ -2,12 +2,13 @@
 title: 1936. Add Minimum Number of Rungs
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
 date: 2021-07-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/add-minimum-number-of-rungs/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
             prev = rung
         
         return res
-
 ```
 

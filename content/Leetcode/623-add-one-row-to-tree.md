@@ -2,6 +2,7 @@
 title: 623. Add One Row to Tree
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - depth-first-search
   - breadth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2024-04-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/add-one-row-to-tree/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class Solution:
             return node
         
         return go(root, 1, True)
-
 ```
 

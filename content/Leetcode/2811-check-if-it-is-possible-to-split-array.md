@@ -2,13 +2,14 @@
 title: 2811. Check if it is Possible to Split Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - greedy
 date: 2023-08-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-it-is-possible-to-split-array/)
 
 ## Description
 
@@ -104,6 +105,5 @@ class Solution:
                 return True
         
         return False
-
 ```
 

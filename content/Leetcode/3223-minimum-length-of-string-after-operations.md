@@ -2,13 +2,14 @@
 title: 3223. Minimum Length of String After Operations
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - counting
 date: 2024-07-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-length-of-string-after-operations/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
         
         return sum(v for v in counter.values())
             
-
 ```
 

@@ -2,12 +2,13 @@
 title: 403. Frog Jump
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
 date: 2023-08-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/frog-jump/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
             return False
 
         return go(1, 1)
-
 ```
 

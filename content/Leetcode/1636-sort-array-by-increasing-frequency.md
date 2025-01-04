@@ -2,13 +2,14 @@
 title: 1636. Sort Array by Increasing Frequency
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - sorting
-date: 2024-07-23
+date: 2020-10-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/sort-array-by-increasing-frequency/)
 
 ## Description
 
@@ -70,6 +71,20 @@ public:
         return nums;
     }
 };
+```
+### Python
+``` py title='sort-array-by-increasing-frequency'
+class Solution:
+    def frequencySort(self, nums: List[int]) -> List[int]:
+        c = collections.Counter(nums)
+        c = sorted(c.items(), key = lambda x : (x[1],-x[0]))
 
+        res = []
+        
+        for key,value in c:
+            for _ in range(value):
+                res.append(key)
+        
+        return res
 ```
 

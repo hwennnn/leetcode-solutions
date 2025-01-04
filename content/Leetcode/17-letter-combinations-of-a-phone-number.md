@@ -2,13 +2,14 @@
 title: 17. Letter Combinations of a Phone Number
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - backtracking
 date: 2023-08-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
         backtrack(0, "")
             
         return res
-
 ```
 

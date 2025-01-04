@@ -2,6 +2,7 @@
 title: 2261. K Divisible Elements Subarrays
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - trie
@@ -11,7 +12,7 @@ tags:
 date: 2022-05-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/k-divisible-elements-subarrays/)
 
 ## Description
 
@@ -115,6 +116,5 @@ class Solution:
         
         
         
-
 ```
 

@@ -2,6 +2,7 @@
 title: 669. Trim a Binary Search Tree
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - depth-first-search
   - binary-search-tree
@@ -9,7 +10,7 @@ tags:
 date: 2022-04-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/trim-a-binary-search-tree/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution(object):
         root.right = self.trimBST(root.right, L, R)
         return root
         
-
 ```
 

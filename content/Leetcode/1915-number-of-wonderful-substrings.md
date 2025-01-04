@@ -2,6 +2,7 @@
 title: 1915. Number of Wonderful Substrings
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - bit-manipulation
@@ -9,7 +10,7 @@ tags:
 date: 2024-04-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-wonderful-substrings/)
 
 ## Description
 
@@ -93,6 +94,5 @@ class Solution:
             count[curr] += 1
         
         return res
-
 ```
 

@@ -2,6 +2,7 @@
 title: 2448. Minimum Cost to Make Array Equal
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - greedy
@@ -10,7 +11,7 @@ tags:
 date: 2024-05-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-cost-to-make-array-equal/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
         # print(left, cost)
 
         return count(left)
-
 ```
 

@@ -2,12 +2,13 @@
 title: 1599. Maximum Profit of Operating a Centennial Wheel
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - simulation
 date: 2020-09-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-profit-of-operating-a-centennial-wheel/)
 
 ## Description
 
@@ -99,6 +100,5 @@ class Solution:
             i += 1
         
         return idx if idx > 0 else -1
-
 ```
 

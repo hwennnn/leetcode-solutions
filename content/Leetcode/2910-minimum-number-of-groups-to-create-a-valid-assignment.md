@@ -2,13 +2,14 @@
 title: 2910. Minimum Number of Groups to Create a Valid Assignment
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - greedy
 date: 2023-10-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-groups-to-create-a-valid-assignment/)
 
 ## Description
 
@@ -121,6 +122,5 @@ class Solution:
                 return cnt
 
         return -1
-
 ```
 

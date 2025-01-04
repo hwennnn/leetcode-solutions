@@ -2,6 +2,7 @@
 title: 2970. Count the Number of Incremovable Subarrays I
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - two-pointers
   - binary-search
@@ -9,7 +10,7 @@ tags:
 date: 2023-12-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
                     res += 1
         
         return res
-
 ```
 

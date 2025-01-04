@@ -2,6 +2,7 @@
 title: 1402. Reducing Dishes
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2023-03-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/reducing-dishes/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
             res = max(res, m)
         
         return res
-
 ```
 

@@ -2,6 +2,7 @@
 title: 3025. Find the Number of Ways to Place People I
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - geometry
@@ -10,7 +11,7 @@ tags:
 date: 2024-02-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-number-of-ways-to-place-people-i/)
 
 ## Description
 
@@ -111,6 +112,5 @@ class Solution:
                     y = y2
         
         return res
-
 ```
 

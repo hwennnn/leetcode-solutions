@@ -2,12 +2,13 @@
 title: 557. Reverse Words in a String III
 draft: false
 tags: 
+  - leetcode-easy
   - two-pointers
   - string
 date: 2023-10-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/reverse-words-in-a-string-iii/)
 
 ## Description
 
@@ -49,6 +50,5 @@ date: 2023-10-01
 class Solution:
     def reverseWords(self, s: str) -> str:
         return " ".join(x[::-1] for x in s.split(" "))
-
 ```
 

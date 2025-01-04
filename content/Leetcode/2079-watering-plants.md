@@ -2,12 +2,13 @@
 title: 2079. Watering Plants
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - simulation
 date: 2021-11-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/watering-plants/)
 
 ## Description
 
@@ -96,6 +97,5 @@ class Solution:
                 curr = capacity
         
         return res
-
 ```
 

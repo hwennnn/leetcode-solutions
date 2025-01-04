@@ -2,12 +2,13 @@
 title: 3142. Check if Grid Satisfies Conditions
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - matrix
 date: 2024-05-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-grid-satisfies-conditions/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class Solution:
                     return False
         
         return True
-
 ```
 

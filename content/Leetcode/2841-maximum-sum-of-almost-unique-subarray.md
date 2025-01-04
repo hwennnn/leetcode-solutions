@@ -2,13 +2,14 @@
 title: 2841. Maximum Sum of Almost Unique Subarray
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - sliding-window
 date: 2023-09-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-sum-of-almost-unique-subarray/)
 
 ## Description
 
@@ -86,6 +87,5 @@ class Solution:
                 res = max(res, curr)
                 
         return res
-
 ```
 

@@ -2,6 +2,7 @@
 title: 1457. Pseudo-Palindromic Paths in a Binary Tree
 draft: false
 tags: 
+  - leetcode-medium
   - bit-manipulation
   - tree
   - depth-first-search
@@ -10,7 +11,7 @@ tags:
 date: 2024-01-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)
 
 ## Description
 
@@ -88,7 +89,6 @@ class Solution:
             return count
 
         return go(root)
-
 
 ```
 

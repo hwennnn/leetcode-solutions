@@ -2,13 +2,14 @@
 title: 2390. Removing Stars From a String
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - stack
   - simulation
 date: 2023-04-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/removing-stars-from-a-string/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
                 stack.append(x)
         
         return "".join(stack)
-
 ```
 

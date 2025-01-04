@@ -2,13 +2,14 @@
 title: 1969. Minimum Non-Zero Product of the Array Elements
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - greedy
   - recursion
 date: 2021-08-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-non-zero-product-of-the-array-elements/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
         M = 10 ** 9 + 7
         
         return (pow(2 ** p - 2, 2 ** (p - 1) - 1, M) * (2 ** p - 1)) % M
-
 ```
 

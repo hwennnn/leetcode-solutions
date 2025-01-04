@@ -2,13 +2,14 @@
 title: 1441. Build an Array With Stack Operations
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - stack
   - simulation
 date: 2023-11-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/build-an-array-with-stack-operations/)
 
 ## Description
 
@@ -106,6 +107,5 @@ class Solution:
         
         return res
         
-
 ```
 

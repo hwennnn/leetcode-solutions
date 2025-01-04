@@ -2,13 +2,14 @@
 title: 1222. Queens That Can Attack the King
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - matrix
   - simulation
 date: 2021-01-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/queens-that-can-attack-the-king/)
 
 ## Description
 
@@ -64,6 +65,5 @@ class Solution:
                         res.append([x, y])
                         break
         return res
-
 ```
 

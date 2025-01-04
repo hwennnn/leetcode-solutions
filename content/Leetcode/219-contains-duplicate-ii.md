@@ -2,13 +2,14 @@
 title: 219. Contains Duplicate II
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - sliding-window
 date: 2022-10-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/contains-duplicate-ii/)
 
 ## Description
 
@@ -63,6 +64,5 @@ class Solution:
             mp[x] = j
         
         return False
-
 ```
 

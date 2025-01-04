@@ -2,15 +2,16 @@
 title: 1338. Reduce Array Size to The Half
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - greedy
   - sorting
-  - heap-(priority-queue)
-date: 2022-08-18
+  - heap-priority-queue
+date: 2020-09-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/reduce-array-size-to-the-half/)
 
 ## Description
 
@@ -66,6 +67,23 @@ class Solution:
             res += 1
         
         return res
-
+```
+### C++
+``` cpp title='reduce-array-size-to-the-half'
+class Solution {
+public:
+    int minSetSize(vector<int>& arr) {
+    unordered_map<int, int> m;
+    multiset<int, greater <int>> s;        
+    for (auto n : arr) ++m[n];
+    for (auto &p : m) s.insert(p.second);
+    int res = 0, cnt = 0;
+    for (auto it = begin(s); cnt * 2 < arr.size(); ++it) {
+        ++res;
+        cnt += *it;
+    }
+    return res;
+}
+};
 ```
 

@@ -2,13 +2,14 @@
 title: 1325. Delete Leaves With a Given Value
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - depth-first-search
   - binary-tree
 date: 2024-05-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/delete-leaves-with-a-given-value/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
             return node
         
         return go(root)
-
 ```
 

@@ -2,12 +2,13 @@
 title: 3193. Count the Number of Inversions
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
 date: 2024-06-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-the-number-of-inversions/)
 
 ## Description
 
@@ -129,6 +130,5 @@ class Solution:
             return res
 
         return go(n - 1, have[n - 1])
-
 ```
 

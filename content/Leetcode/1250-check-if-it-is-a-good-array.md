@@ -2,13 +2,14 @@
 title: 1250. Check If It Is a Good Array
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - math
   - number-theory
 date: 2021-01-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-it-is-a-good-array/)
 
 ## Description
 
@@ -66,6 +67,5 @@ public:
         return res == 1;
     }
 };
-
 ```
 

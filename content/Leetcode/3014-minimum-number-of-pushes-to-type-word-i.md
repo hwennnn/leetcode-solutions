@@ -2,13 +2,14 @@
 title: 3014. Minimum Number of Pushes to Type Word I
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - string
   - greedy
 date: 2024-01-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/)
 
 ## Description
 
@@ -95,6 +96,5 @@ class Solution:
                 count = 0
             
         return res
-
 ```
 

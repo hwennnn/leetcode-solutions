@@ -2,12 +2,13 @@
 title: 2903. Find Indices With Index and Value Difference I
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - two-pointers
 date: 2023-10-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-indices-with-index-and-value-difference-i/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class Solution:
                 return [maxIndex, i]
 
         return [-1, -1]
-
 ```
 

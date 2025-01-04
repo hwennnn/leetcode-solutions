@@ -2,6 +2,7 @@
 title: 3003. Maximize the Number of Partitions After Operations
 draft: false
 tags: 
+  - leetcode-hard
   - string
   - dynamic-programming
   - bit-manipulation
@@ -9,7 +10,7 @@ tags:
 date: 2024-01-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximize-the-number-of-partitions-after-operations/)
 
 ## Description
 
@@ -121,6 +122,5 @@ class Solution:
             return res
         
         return go(0, 1, 0) + 1
-
 ```
 

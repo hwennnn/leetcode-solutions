@@ -2,6 +2,7 @@
 title: 2332. The Latest Time to Catch a Bus
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
   - binary-search
@@ -9,7 +10,7 @@ tags:
 date: 2022-07-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/the-latest-time-to-catch-a-bus/)
 
 ## Description
 
@@ -101,6 +102,5 @@ class Solution:
                 res = max(res, time)
                 
         return res
-
 ```
 

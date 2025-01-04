@@ -2,6 +2,7 @@
 title: 1872. Stone Game VIII
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - math
   - dynamic-programming
@@ -10,7 +11,7 @@ tags:
 date: 2023-07-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/stone-game-viii/)
 
 ## Description
 
@@ -95,6 +96,5 @@ class Solution:
             dp[i] = max(stones[i] - dp[i + 1], dp[i + 1])
             
         return dp[1]
-
 ```
 

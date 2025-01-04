@@ -2,6 +2,7 @@
 title: 942. DI String Match
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - two-pointers
   - string
@@ -9,7 +10,7 @@ tags:
 date: 2022-02-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/di-string-match/)
 
 ## Description
 
@@ -63,6 +64,5 @@ class Solution:
         res.append(queue.pop())
         
         return res
-
 ```
 

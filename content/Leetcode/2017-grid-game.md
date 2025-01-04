@@ -2,13 +2,14 @@
 title: 2017. Grid Game
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - matrix
   - prefix-sum
 date: 2021-09-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/grid-game/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
             bottom += grid[1][i]
         
         return res
-
 ```
 

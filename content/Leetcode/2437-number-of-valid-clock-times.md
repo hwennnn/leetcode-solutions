@@ -2,12 +2,13 @@
 title: 2437. Number of Valid Clock Times
 draft: false
 tags: 
+  - leetcode-easy
   - string
   - enumeration
 date: 2022-10-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-valid-clock-times/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
                     res += 1
         
         return res
-
 ```
 

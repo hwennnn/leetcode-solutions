@@ -2,12 +2,13 @@
 title: 138. Copy List with Random Pointer
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - linked-list
 date: 2023-09-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/copy-list-with-random-pointer/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class Solution:
             curr = curr.next
 
         return res[head]
-
 ```
 

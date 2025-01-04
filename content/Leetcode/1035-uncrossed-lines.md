@@ -2,12 +2,13 @@
 title: 1035. Uncrossed Lines
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
 date: 2023-05-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/uncrossed-lines/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
                     dp[i + 1][j + 1] = max(dp[i][j + 1], dp[i + 1][j])
         
         return dp[-1][-1]
-
 ```
 

@@ -2,6 +2,7 @@
 title: 1366. Rank Teams by Votes
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - string
@@ -10,7 +11,7 @@ tags:
 date: 2020-10-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/rank-teams-by-votes/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
                 mp[t][i] -= 1
         
         return "".join(sorted(votes[0], key = mp.get))
-
 ```
 

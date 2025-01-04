@@ -2,11 +2,12 @@
 title: 1678. Goal Parser Interpretation
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2022-03-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/goal-parser-interpretation/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
                 stack.append("al")
         
         return "".join(stack)
-
 ```
 

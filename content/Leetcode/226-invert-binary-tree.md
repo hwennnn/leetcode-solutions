@@ -2,6 +2,7 @@
 title: 226. Invert Binary Tree
 draft: false
 tags: 
+  - leetcode-easy
   - tree
   - depth-first-search
   - breadth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2023-02-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/invert-binary-tree/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
             return node
         
         return go(root)
-
 ```
 

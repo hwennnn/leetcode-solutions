@@ -2,6 +2,7 @@
 title: 2326. Spiral Matrix IV
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - linked-list
   - matrix
@@ -9,7 +10,7 @@ tags:
 date: 2025-01-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/spiral-matrix-iv/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
             head = head.next
 
         return res
-
 ```
 

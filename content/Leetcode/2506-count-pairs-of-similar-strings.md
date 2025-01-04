@@ -2,6 +2,7 @@
 title: 2506. Count Pairs Of Similar Strings
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - string
@@ -10,7 +11,7 @@ tags:
 date: 2022-12-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-pairs-of-similar-strings/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
                     res += 1
                 
         return res
-
 ```
 

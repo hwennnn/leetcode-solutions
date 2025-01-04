@@ -2,13 +2,14 @@
 title: 1253. Reconstruct a 2-Row Binary Matrix
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
   - matrix
 date: 2021-01-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/reconstruct-a-2-row-binary-matrix/)
 
 ## Description
 
@@ -99,6 +100,5 @@ class Solution:
                 
 
         return res if upper + lower + sum(colsum) == 0 else []
-
 ```
 

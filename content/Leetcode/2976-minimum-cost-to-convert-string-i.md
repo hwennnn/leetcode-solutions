@@ -2,14 +2,15 @@
 title: 2976. Minimum Cost to Convert String I
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - string
   - graph
   - shortest-path
-date: 2024-08-01
+date: 2023-12-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-cost-to-convert-string-i/)
 
 ## Description
 
@@ -102,6 +103,32 @@ public:
         return ans;
     }
 };
-
+```
+### Python
+``` py title='minimum-cost-to-convert-string-i'
+class Solution:
+    def minimumCost(self, source: str, target: str, original: List[str], changed: List[str], cost: List[int]) -> int:
+        change = [[inf] * 26 for _ in range(26)]
+        
+        def f(x):
+            return ord(x) - ord('a')
+        
+        for x, y, cost in zip(original, changed, cost):
+            change[f(x)][f(y)] = min(change[f(x)][f(y)], cost)
+        
+        for k in range(26):
+            for i in range(26):
+                for j in range(26):
+                    change[i][j] = min(change[i][j], change[i][k] + change[k][j])
+        
+        res = 0
+        for x, y in zip(source, target):
+            if x == y: continue
+            
+            if change[f(x)][f(y)] == inf: return -1
+            
+            res += change[f(x)][f(y)]
+        
+        return res
 ```
 

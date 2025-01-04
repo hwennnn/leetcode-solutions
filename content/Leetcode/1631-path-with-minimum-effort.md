@@ -2,17 +2,18 @@
 title: 1631. Path With Minimum Effort
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
   - depth-first-search
   - breadth-first-search
   - union-find
-  - heap-(priority-queue)
+  - heap-priority-queue
   - matrix
 date: 2023-09-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/path-with-minimum-effort/)
 
 ## Description
 
@@ -93,6 +94,5 @@ class Solution:
                         heappush(pq, (newDist, dx, dy))
         
         return -1
-
 ```
 

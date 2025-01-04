@@ -2,13 +2,14 @@
 title: 3040. Maximum Number of Operations With the Same Score II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - memoization
 date: 2024-02-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-number-of-operations-with-the-same-score-ii/)
 
 ## Description
 
@@ -93,6 +94,5 @@ class Solution:
         o3 = go(nums[0] + nums[N - 1], 0, N - 1)
         
         return max(o1, o2, o3)
-
 ```
 

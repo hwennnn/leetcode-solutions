@@ -2,17 +2,18 @@
 title: 862. Shortest Subarray with Sum at Least K
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - queue
   - sliding-window
-  - heap-(priority-queue)
+  - heap-priority-queue
   - prefix-sum
   - monotonic-queue
 date: 2024-11-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
        
         
         return -1 if res == inf else res
-
 ```
 

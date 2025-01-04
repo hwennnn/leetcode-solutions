@@ -2,6 +2,7 @@
 title: 1905. Count Sub Islands
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - depth-first-search
   - breadth-first-search
@@ -10,7 +11,7 @@ tags:
 date: 2024-12-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-sub-islands/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
                     res += int(go(x, y))
 
         return res
-
 ```
 

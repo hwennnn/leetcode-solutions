@@ -2,13 +2,14 @@
 title: 1347. Minimum Number of Steps to Make Two Strings Anagram
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - counting
 date: 2024-01-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
                 res += v
         
         return res
-
 ```
 

@@ -2,11 +2,12 @@
 title: 1184. Distance Between Bus Stops
 draft: false
 tags: 
+  - leetcode-easy
   - array
 date: 2021-05-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/distance-between-bus-stops/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
         b = max(start, end)
         
         return min(sum(distance[a:b]), sum(distance) - sum(distance[a:b]))
-
 ```
 

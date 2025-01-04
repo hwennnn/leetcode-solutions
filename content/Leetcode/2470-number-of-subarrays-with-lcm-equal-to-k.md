@@ -2,13 +2,14 @@
 title: 2470. Number of Subarrays With LCM Equal to K
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - number-theory
 date: 2022-11-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-subarrays-with-lcm-equal-to-k/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
                 
         
         
-
 ```
 

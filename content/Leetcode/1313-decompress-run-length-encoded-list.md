@@ -2,11 +2,12 @@
 title: 1313. Decompress Run-Length Encoded List
 draft: false
 tags: 
+  - leetcode-easy
   - array
 date: 2020-12-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/decompress-run-length-encoded-list/)
 
 ## Description
 
@@ -59,6 +60,5 @@ class Solution:
                 res.append(nums[i+1])
         
         return res
-
 ```
 

@@ -2,13 +2,14 @@
 title: 2283. Check if Number Has Equal Digit Count and Digit Value
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - string
   - counting
 date: 2022-05-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/)
 
 ## Description
 
@@ -67,6 +68,5 @@ class Solution:
                 return False
         
         return True
-
 ```
 

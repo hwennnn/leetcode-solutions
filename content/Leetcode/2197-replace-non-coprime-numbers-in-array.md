@@ -2,6 +2,7 @@
 title: 2197. Replace Non-Coprime Numbers in Array
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - math
   - stack
@@ -9,7 +10,7 @@ tags:
 date: 2022-03-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/replace-non-coprime-numbers-in-array/)
 
 ## Description
 
@@ -93,6 +94,5 @@ class Solution:
 
         return stack
                     
-
 ```
 

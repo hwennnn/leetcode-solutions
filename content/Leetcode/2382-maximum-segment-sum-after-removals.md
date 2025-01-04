@@ -2,6 +2,7 @@
 title: 2382. Maximum Segment Sum After Removals
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - union-find
   - prefix-sum
@@ -9,7 +10,7 @@ tags:
 date: 2022-08-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-segment-sum-after-removals/)
 
 ## Description
 
@@ -111,6 +112,5 @@ class Solution:
         
         return res
         
-
 ```
 

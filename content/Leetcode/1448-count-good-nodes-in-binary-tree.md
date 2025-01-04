@@ -2,6 +2,7 @@
 title: 1448. Count Good Nodes in Binary Tree
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - depth-first-search
   - breadth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2022-09-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
             return (node.val >= mmax) + dfs(node.left, mmax) + dfs(node.right, mmax)
         
         return dfs(root, root.val)
-
 ```
 

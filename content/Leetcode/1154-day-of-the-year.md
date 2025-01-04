@@ -2,12 +2,13 @@
 title: 1154. Day of the Year
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - string
 date: 2021-05-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/day-of-the-year/)
 
 ## Description
 
@@ -54,6 +55,5 @@ class Solution:
         res = dt.timetuple().tm_yday        
         
         return res
-
 ```
 

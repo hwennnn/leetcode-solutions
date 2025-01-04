@@ -2,11 +2,12 @@
 title: 818. Race Car
 draft: false
 tags: 
+  - leetcode-hard
   - dynamic-programming
 date: 2022-03-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/race-car/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
                     visited.add((y, newSpeed))
                     
         return -1
-
 ```
 

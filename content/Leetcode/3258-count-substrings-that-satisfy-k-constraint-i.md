@@ -2,12 +2,13 @@
 title: 3258. Count Substrings That Satisfy K-Constraint I
 draft: false
 tags: 
+  - leetcode-easy
   - string
   - sliding-window
 date: 2024-08-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-i/)
 
 ## Description
 
@@ -93,6 +94,5 @@ class Solution:
                     res += 1
         
         return res
-
 ```
 

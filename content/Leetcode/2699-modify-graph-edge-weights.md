@@ -2,13 +2,14 @@
 title: 2699. Modify Graph Edge Weights
 draft: false
 tags: 
+  - leetcode-hard
   - graph
-  - heap-(priority-queue)
+  - heap-priority-queue
   - shortest-path
 date: 2024-12-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/modify-graph-edge-weights/)
 
 ## Description
 
@@ -134,6 +135,5 @@ class Solution:
                 return edges
         
         return []
-
 ```
 

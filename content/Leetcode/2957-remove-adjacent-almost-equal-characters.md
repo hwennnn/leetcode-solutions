@@ -2,13 +2,14 @@
 title: 2957. Remove Adjacent Almost-Equal Characters
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - dynamic-programming
   - greedy
 date: 2023-12-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/remove-adjacent-almost-equal-characters/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
         
         return res
         
-
 ```
 

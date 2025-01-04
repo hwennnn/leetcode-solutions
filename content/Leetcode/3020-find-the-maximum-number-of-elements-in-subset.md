@@ -2,13 +2,14 @@
 title: 3020. Find the Maximum Number of Elements in Subset
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - enumeration
 date: 2024-01-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/)
 
 ## Description
 
@@ -93,6 +94,5 @@ class Solution:
             res = max(res, curr)
         
         return res
-
 ```
 

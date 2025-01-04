@@ -2,6 +2,7 @@
 title: 850. Rectangle Area II
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - segment-tree
   - line-sweep
@@ -9,7 +10,7 @@ tags:
 date: 2021-08-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/rectangle-area-ii/)
 
 ## Description
 
@@ -94,6 +95,5 @@ class Solution:
             res += (x2 - x1) * (y2 - y1)
         
         return res % M
-
 ```
 

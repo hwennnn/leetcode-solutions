@@ -2,13 +2,14 @@
 title: 2857. Count Pairs of Points With Distance k
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - bit-manipulation
 date: 2023-09-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-pairs-of-points-with-distance-k/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
             mp[(a, b)] += 1
         
         return res
-
 ```
 

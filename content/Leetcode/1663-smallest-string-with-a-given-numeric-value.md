@@ -2,12 +2,13 @@
 title: 1663. Smallest String With A Given Numeric Value
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - greedy
 date: 2022-03-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
                 k -= 1
         
         return "".join(first + last)
-
 ```
 

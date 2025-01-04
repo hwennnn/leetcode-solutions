@@ -2,6 +2,7 @@
 title: 1048. Longest String Chain
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - two-pointers
@@ -11,7 +12,7 @@ tags:
 date: 2023-09-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-string-chain/)
 
 ## Description
 
@@ -89,6 +90,5 @@ class Solution:
             res = max(res, curr)
 
         return res
-
 ```
 

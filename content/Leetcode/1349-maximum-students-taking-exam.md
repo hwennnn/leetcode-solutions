@@ -2,6 +2,7 @@
 title: 1349. Maximum Students Taking Exam
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - bit-manipulation
@@ -10,7 +11,7 @@ tags:
 date: 2022-01-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-students-taking-exam/)
 
 ## Description
 
@@ -98,6 +99,5 @@ class Solution:
         
         return go(0, 0)
                 
-
 ```
 

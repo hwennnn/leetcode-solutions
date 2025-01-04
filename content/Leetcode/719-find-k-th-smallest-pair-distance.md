@@ -2,6 +2,7 @@
 title: 719. Find K-th Smallest Pair Distance
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - two-pointers
   - binary-search
@@ -9,7 +10,7 @@ tags:
 date: 2024-08-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-k-th-smallest-pair-distance/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
             return count >= k
 
         return bisect_left(range(10 ** 7), True, key = good)
-
 ```
 

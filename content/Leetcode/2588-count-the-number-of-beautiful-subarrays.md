@@ -2,6 +2,7 @@
 title: 2588. Count the Number of Beautiful Subarrays
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - bit-manipulation
@@ -9,7 +10,7 @@ tags:
 date: 2023-03-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-the-number-of-beautiful-subarrays/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
             
             
             
-
 ```
 

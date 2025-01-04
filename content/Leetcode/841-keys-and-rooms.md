@@ -2,13 +2,14 @@
 title: 841. Keys and Rooms
 draft: false
 tags: 
+  - leetcode-medium
   - depth-first-search
   - breadth-first-search
   - graph
 date: 2022-12-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/keys-and-rooms/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
                     
         go(0)
         return all(vis)
-
 ```
 

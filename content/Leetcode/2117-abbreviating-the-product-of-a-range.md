@@ -2,11 +2,12 @@
 title: 2117. Abbreviating the Product of a Range
 draft: false
 tags: 
+  - leetcode-hard
   - math
 date: 2021-12-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/abbreviating-the-product-of-a-range/)
 
 ## Description
 
@@ -107,6 +108,5 @@ class Solution:
             return f"{suffix}e{trailing}"
         
         return f"{str(prefix)[:5]}...{str(suffix)[-5:]}e{trailing}"
-
 ```
 

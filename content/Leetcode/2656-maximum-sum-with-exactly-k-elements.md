@@ -2,12 +2,13 @@
 title: 2656. Maximum Sum With Exactly K Elements 
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - greedy
 date: 2023-04-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/)
 
 ## Description
 
@@ -86,6 +87,5 @@ class Solution:
             nums.sort()
             
         return res
-
 ```
 

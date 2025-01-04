@@ -2,6 +2,7 @@
 title: 993. Cousins in Binary Tree
 draft: false
 tags: 
+  - leetcode-easy
   - tree
   - depth-first-search
   - breadth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2022-02-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/cousins-in-binary-tree/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
         
         return len(res) == 2 and res[0][0] == res[1][0] and res[0][1] != res[1][1]
                 
-
 ```
 

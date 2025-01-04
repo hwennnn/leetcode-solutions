@@ -2,6 +2,7 @@
 title: 2019. The Score of Students Solving Math Expression
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - math
   - string
@@ -11,7 +12,7 @@ tags:
 date: 2021-09-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/the-score-of-students-solving-math-expression/)
 
 ## Description
 
@@ -121,6 +122,5 @@ class Solution:
                         ans += 2 * c[i]
                         
             return ans
-
 ```
 

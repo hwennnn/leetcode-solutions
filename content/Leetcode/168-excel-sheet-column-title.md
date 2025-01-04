@@ -2,12 +2,13 @@
 title: 168. Excel Sheet Column Title
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - string
 date: 2023-08-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/excel-sheet-column-title/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
             x //= 26
 
         return "".join(res)[::-1]
-
 ```
 

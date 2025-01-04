@@ -2,6 +2,7 @@
 title: 220. Contains Duplicate III
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - sliding-window
   - sorting
@@ -10,7 +11,7 @@ tags:
 date: 2023-08-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/contains-duplicate-iii/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
                 del mp[(nums[i - k]) // (w + 1)]
             
         return False
-
 ```
 

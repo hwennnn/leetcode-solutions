@@ -2,6 +2,7 @@
 title: 3102. Minimize Manhattan Distances
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - math
   - geometry
@@ -10,7 +11,7 @@ tags:
 date: 2024-03-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimize-manhattan-distances/)
 
 ## Description
 
@@ -115,7 +116,6 @@ class Solution:
         mi2, mj2 = maxManhattanDistance(mj)
 
         return min(manhattan(mi, mj), manhattan(mi1, mj1), manhattan(mi2, mj2))
-
 
 ```
 

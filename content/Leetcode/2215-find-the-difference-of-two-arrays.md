@@ -2,12 +2,13 @@
 title: 2215. Find the Difference of Two Arrays
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
 date: 2023-05-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-difference-of-two-arrays/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
                 B.append(b)
         
         return [A, B]
-
 ```
 

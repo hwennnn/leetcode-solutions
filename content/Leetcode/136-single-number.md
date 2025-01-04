@@ -2,12 +2,13 @@
 title: 136. Single Number
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - bit-manipulation
 date: 2022-02-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/single-number/)
 
 ## Description
 
@@ -50,6 +51,5 @@ class Solution:
             res ^= x
         
         return res
-
 ```
 

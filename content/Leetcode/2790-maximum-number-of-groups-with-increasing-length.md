@@ -2,6 +2,7 @@
 title: 2790. Maximum Number of Groups With Increasing Length
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - math
   - binary-search
@@ -10,7 +11,7 @@ tags:
 date: 2023-07-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-number-of-groups-with-increasing-length/)
 
 ## Description
 
@@ -121,6 +122,44 @@ public:
     }
 };
 
+```
+### Python
+``` py title='maximum-number-of-groups-with-increasing-length'
+class Solution:
+    def maxIncreasingGroups(self, usageLimits: List[int]) -> int:
+        N = len(usageLimits)
+        usageLimits.sort(reverse = 1)
+        left, right = 0, N
+        
+        def good(k):            
+            A = usageLimits[:]
+            credit = 0
 
+            for x in A:
+                if x >= k:
+                    x -= k
+
+                    if credit > 0:
+                        credit -= x
+                else:
+                    credit += k - x
+                
+                if k > 0:
+                    k -= 1
+            
+            return credit <= 0
+        
+        while left < right:
+            mid = left + (right - left + 1) // 2
+            
+            if good(mid):    
+                left = mid
+            else:
+                right = mid - 1
+        
+        return left
+    
+        
+        
 ```
 

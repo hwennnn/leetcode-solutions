@@ -2,13 +2,14 @@
 title: 1926. Nearest Exit from Entrance in Maze
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - breadth-first-search
   - matrix
 date: 2022-11-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/)
 
 ## Description
 
@@ -96,6 +97,5 @@ class Solution:
             steps += 1
         
         return -1
-
 ```
 

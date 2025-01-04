@@ -2,11 +2,12 @@
 title: 1470. Shuffle the Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
 date: 2023-02-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/shuffle-the-array/)
 
 ## Description
 
@@ -65,6 +66,5 @@ class Solution:
             ans.append(second_half[i])
 
         return ans
-
 ```
 

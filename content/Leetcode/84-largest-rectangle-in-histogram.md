@@ -2,13 +2,14 @@
 title: 84. Largest Rectangle in Histogram
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - stack
   - monotonic-stack
 date: 2023-08-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/largest-rectangle-in-histogram/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
             res = max(res, heights[i] * (lessFromRight[i] - lessFromLeft[i] - 1))
         
         return res
-
 ```
 

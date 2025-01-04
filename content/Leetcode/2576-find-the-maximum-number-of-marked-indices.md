@@ -2,6 +2,7 @@
 title: 2576. Find the Maximum Number of Marked Indices
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
   - binary-search
@@ -10,7 +11,7 @@ tags:
 date: 2023-02-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-maximum-number-of-marked-indices/)
 
 ## Description
 
@@ -90,7 +91,6 @@ class Solution:
             right += 1
 
         return left * 2
-
 
 ```
 

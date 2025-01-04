@@ -2,6 +2,7 @@
 title: 310. Minimum Height Trees
 draft: false
 tags: 
+  - leetcode-medium
   - depth-first-search
   - breadth-first-search
   - graph
@@ -9,7 +10,7 @@ tags:
 date: 2024-04-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-height-trees/)
 
 ## Description
 
@@ -89,7 +90,6 @@ class Solution:
             res = curr
 
         return res
-
 
 ```
 

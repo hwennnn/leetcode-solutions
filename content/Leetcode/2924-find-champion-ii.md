@@ -2,11 +2,12 @@
 title: 2924. Find Champion II
 draft: false
 tags: 
+  - leetcode-medium
   - graph
 date: 2024-11-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-champion-ii/)
 
 ## Description
 
@@ -86,6 +87,5 @@ class Solution:
                     return -1
         
         return res
-
 ```
 

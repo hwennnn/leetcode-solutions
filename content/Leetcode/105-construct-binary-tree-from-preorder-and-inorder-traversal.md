@@ -2,6 +2,7 @@
 title: 105. Construct Binary Tree from Preorder and Inorder Traversal
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - divide-and-conquer
@@ -10,7 +11,7 @@ tags:
 date: 2022-07-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
             return root
         
         return go(0, 0, len(inorder) - 1)
-
 ```
 

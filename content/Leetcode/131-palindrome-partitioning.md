@@ -2,13 +2,14 @@
 title: 131. Palindrome Partitioning
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - dynamic-programming
   - backtracking
 date: 2024-05-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/palindrome-partitioning/)
 
 ## Description
 
@@ -67,6 +68,5 @@ class Solution:
 
         backtrack(0, [])
         return res
-
 ```
 

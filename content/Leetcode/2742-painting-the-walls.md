@@ -2,12 +2,13 @@
 title: 2742. Painting the Walls
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
 date: 2023-10-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/painting-the-walls/)
 
 ## Description
 
@@ -66,6 +67,5 @@ class Solution:
             return min(go(index + 1, t - 1), cost[index] + go(index + 1, min(t + time[index], N)))
         
         return go(0, 0)
-
 ```
 

@@ -2,13 +2,14 @@
 title: 3248. Snake in Matrix
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - string
   - simulation
 date: 2024-08-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/snake-in-matrix/)
 
 ## Description
 
@@ -196,6 +197,5 @@ class Solution:
                 x += 1
         
         return (x * n) + y
-
 ```
 

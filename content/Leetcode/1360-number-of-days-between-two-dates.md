@@ -2,12 +2,13 @@
 title: 1360. Number of Days Between Two Dates
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - string
 date: 2020-10-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-days-between-two-dates/)
 
 ## Description
 
@@ -48,6 +49,5 @@ class Solution:
             return 365 * y + y // 4 + y // 400 - y // 100 + d + (153 * m + 8) // 5
         
         return abs(f(date1) - f(date2))
-
 ```
 

@@ -2,12 +2,13 @@
 title: 956. Tallest Billboard
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
 date: 2023-06-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/tallest-billboard/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
             dp = curr
         
         return dp[0]
-
 ```
 

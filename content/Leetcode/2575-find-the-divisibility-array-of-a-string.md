@@ -2,13 +2,14 @@
 title: 2575. Find the Divisibility Array of a String
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - string
 date: 2023-02-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-divisibility-array-of-a-string/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
                 res.append(0)
         
         return res
-
 ```
 

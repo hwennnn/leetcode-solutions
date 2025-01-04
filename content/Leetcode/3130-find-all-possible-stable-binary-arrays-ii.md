@@ -2,12 +2,13 @@
 title: 3130. Find All Possible Stable Binary Arrays II
 draft: false
 tags: 
+  - leetcode-hard
   - dynamic-programming
   - prefix-sum
 date: 2024-04-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-all-possible-stable-binary-arrays-ii/)
 
 ## Description
 
@@ -114,6 +115,5 @@ class Solution:
                     dp[i][j][t] %= MOD
 
         return sum(dp[-1][-1]) % MOD
-
 ```
 

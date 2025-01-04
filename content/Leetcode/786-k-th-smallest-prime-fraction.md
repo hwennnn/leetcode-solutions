@@ -2,15 +2,16 @@
 title: 786. K-th Smallest Prime Fraction
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
   - binary-search
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2024-05-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/k-th-smallest-prime-fraction/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
         
         _, i, j = heappop(pq)
         return [arr[i], arr[j]]
-
 ```
 

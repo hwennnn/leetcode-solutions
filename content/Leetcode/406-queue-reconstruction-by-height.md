@@ -2,6 +2,7 @@
 title: 406. Queue Reconstruction by Height
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-indexed-tree
   - segment-tree
@@ -9,7 +10,7 @@ tags:
 date: 2022-06-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/queue-reconstruction-by-height/)
 
 ## Description
 
@@ -64,6 +65,5 @@ class Solution:
         for p in people:
             res.insert(p[1], p)
         return res
-
 ```
 

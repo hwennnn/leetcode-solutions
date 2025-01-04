@@ -2,6 +2,7 @@
 title: 1649. Create Sorted Array through Instructions
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - divide-and-conquer
@@ -12,7 +13,7 @@ tags:
 date: 2021-01-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/create-sorted-array-through-instructions/)
 
 ## Description
 
@@ -105,6 +106,5 @@ class Solution:
             arr.add(num)
         
         return res % M
-
 ```
 

@@ -2,12 +2,13 @@
 title: 123. Best Time to Buy and Sell Stock III
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
 date: 2021-10-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
                 dp[k] = max(dp[k], prices[i] - buy[k])
         
         return dp[-1]
-
 ```
 

@@ -2,6 +2,7 @@
 title: 2528. Maximize the Minimum Powered City
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - greedy
@@ -11,7 +12,7 @@ tags:
 date: 2023-01-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximize-the-minimum-powered-city/)
 
 ## Description
 
@@ -126,6 +127,5 @@ class Solution:
                 right = mid - 1
         
         return res
-
 ```
 

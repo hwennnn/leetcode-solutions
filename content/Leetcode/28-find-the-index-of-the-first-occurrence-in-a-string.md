@@ -2,13 +2,14 @@
 title: 28. Find the Index of the First Occurrence in a String
 draft: false
 tags: 
+  - leetcode-easy
   - two-pointers
   - string
   - string-matching
-date: 2023-03-03
+date: 2020-08-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
 
 ## Description
 
@@ -60,6 +61,19 @@ class Solution:
                 if j == M - 1: return i
 
         return -1
-
+```
+### Java
+``` java title='find-the-index-of-the-first-occurrence-in-a-string'
+class Solution {
+   public int strStr(String haystack, String needle) {
+      for (int i = 0; ; i++) {
+        for (int j = 0; ; j++) {
+          if (j == needle.length()) return i;
+          if (i + j == haystack.length()) return -1;
+          if (needle.charAt(j) != haystack.charAt(i + j)) break;
+        }
+      }
+    }
+}
 ```
 

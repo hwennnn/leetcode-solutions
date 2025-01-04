@@ -2,6 +2,7 @@
 title: 1032. Stream of Characters
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - string
   - design
@@ -10,7 +11,7 @@ tags:
 date: 2022-01-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/stream-of-characters/)
 
 ## Description
 
@@ -132,6 +133,5 @@ class StreamChecker:
 # Your StreamChecker object will be instantiated and called as such:
 # obj = StreamChecker(words)
 # param_1 = obj.query(letter)
-
 ```
 

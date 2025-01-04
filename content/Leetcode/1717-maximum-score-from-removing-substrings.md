@@ -2,13 +2,14 @@
 title: 1717. Maximum Score From Removing Substrings
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - stack
   - greedy
 date: 2024-07-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-score-from-removing-substrings/)
 
 ## Description
 
@@ -96,6 +97,5 @@ class Solution:
             s, cost2 = helper(s, "ab", cx)
 
             return cost1 + cost2
-
 ```
 

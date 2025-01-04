@@ -2,11 +2,11 @@
 title: 2694. Event Emitter
 draft: false
 tags: 
-
+  - leetcode-medium
 date: 2023-05-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/event-emitter/)
 
 ## Description
 
@@ -150,6 +150,5 @@ class EventEmitter {
  * sub.unsubscribe(); // undefined
  * emitter.emit('onClick'); // []
  */
-
 ```
 

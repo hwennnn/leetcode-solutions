@@ -2,12 +2,13 @@
 title: 2678. Number of Senior Citizens
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - string
-date: 2024-08-01
+date: 2023-05-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-senior-citizens/)
 
 ## Description
 
@@ -69,6 +70,19 @@ public:
         return res;
     }
 };
-
+```
+### Python
+``` py title='number-of-senior-citizens'
+class Solution:
+    def countSeniors(self, details: List[str]) -> int:
+        res = 0
+        
+        for detail in details:
+            age = detail[-4: -2]
+            
+            if int(age) > 60:
+                res += 1
+        
+        return res
 ```
 

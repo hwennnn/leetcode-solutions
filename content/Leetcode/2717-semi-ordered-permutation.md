@@ -2,12 +2,13 @@
 title: 2717. Semi-Ordered Permutation
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - simulation
 date: 2023-06-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/semi-ordered-permutation/)
 
 ## Description
 
@@ -93,6 +94,5 @@ class Solution:
         return res
         
         
-
 ```
 

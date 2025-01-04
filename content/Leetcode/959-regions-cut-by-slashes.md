@@ -2,6 +2,7 @@
 title: 959. Regions Cut By Slashes
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - depth-first-search
@@ -11,7 +12,7 @@ tags:
 date: 2024-08-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/regions-cut-by-slashes/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
                     res += 1
         
         return res
-
 ```
 

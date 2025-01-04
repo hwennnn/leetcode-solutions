@@ -2,13 +2,14 @@
 title: 1452. People Whose List of Favorite Companies Is Not a Subset of Another List
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - string
 date: 2020-10-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
                 res.append(i)
         
         return res
-
 ```
 

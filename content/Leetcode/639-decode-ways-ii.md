@@ -2,12 +2,13 @@
 title: 639. Decode Ways II
 draft: false
 tags: 
+  - leetcode-hard
   - string
   - dynamic-programming
 date: 2021-07-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/decode-ways-ii/)
 
 ## Description
 
@@ -96,6 +97,5 @@ class Solution:
             dp = dp[1], (one.get(s[i], 0) * dp[1] + two.get(s[i-1: i+1], 0) * dp[0]) % 1000000007
 
         return dp[-1]
-
 ```
 

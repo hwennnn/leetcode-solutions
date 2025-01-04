@@ -2,12 +2,13 @@
 title: 81. Search in Rotated Sorted Array II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
 date: 2023-08-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
                     right = mid - 1
         
         return False
-
 ```
 

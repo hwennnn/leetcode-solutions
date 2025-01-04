@@ -2,12 +2,13 @@
 title: 24. Swap Nodes in Pairs
 draft: false
 tags: 
+  - leetcode-medium
   - linked-list
   - recursion
 date: 2023-05-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/swap-nodes-in-pairs/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
             curr = first
 
         return res.next
-
 ```
 

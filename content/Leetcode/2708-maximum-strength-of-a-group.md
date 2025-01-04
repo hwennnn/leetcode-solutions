@@ -2,6 +2,7 @@
 title: 2708. Maximum Strength of a Group
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - backtracking
@@ -12,7 +13,7 @@ tags:
 date: 2023-05-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-strength-of-a-group/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
                 res = curr
         
         return res
-
 ```
 

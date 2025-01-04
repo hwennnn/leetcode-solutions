@@ -2,13 +2,14 @@
 title: 1427. Perform String Shifts
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - math
   - string
 date: 2020-04-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/perform-string-shifts/)
 
 ## Description
 
@@ -48,6 +49,5 @@ class Solution:
 
             
             
-
 ```
 

@@ -2,12 +2,13 @@
 title: 854. K-Similar Strings
 draft: false
 tags: 
+  - leetcode-hard
   - string
   - breadth-first-search
 date: 2022-01-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/k-similar-strings/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
             level += 1
         
         return -1
-
 ```
 

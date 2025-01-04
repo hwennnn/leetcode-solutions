@@ -2,12 +2,13 @@
 title: 624. Maximum Distance in Arrays
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
 date: 2024-08-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-distance-in-arrays/)
 
 ## Description
 
@@ -67,6 +68,5 @@ class Solution:
             mmin = min(mmin, mi)
 
         return res
-
 ```
 

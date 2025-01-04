@@ -2,11 +2,11 @@
 title: 2635. Apply Transform Over Each Element in Array
 draft: false
 tags: 
-
+  - leetcode-easy
 date: 2023-05-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/apply-transform-over-each-element-in-array/)
 
 ## Description
 
@@ -68,6 +68,5 @@ function map(arr: number[], fn: (n: number, i: number) => number): number[] {
 
     return res;
 };
-
 ```
 

@@ -2,6 +2,7 @@
 title: 2751. Robot Collisions
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - stack
   - sorting
@@ -9,7 +10,7 @@ tags:
 date: 2024-07-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/robot-collisions/)
 
 ## Description
 
@@ -104,6 +105,5 @@ class Solution:
                     stack.append(i)
         
         return [h for h in healths if h != 0]
-
 ```
 

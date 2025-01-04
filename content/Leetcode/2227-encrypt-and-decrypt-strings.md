@@ -2,6 +2,7 @@
 title: 2227. Encrypt and Decrypt Strings
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - string
@@ -10,7 +11,7 @@ tags:
 date: 2022-04-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/encrypt-and-decrypt-strings/)
 
 ## Description
 
@@ -114,6 +115,5 @@ class Encrypter:
 # obj = Encrypter(keys, values, dictionary)
 # param_1 = obj.encrypt(word1)
 # param_2 = obj.decrypt(word2)
-
 ```
 

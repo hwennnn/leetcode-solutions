@@ -2,13 +2,14 @@
 title: 1585. Check If String Is Transformable With Substring Sort Operations
 draft: false
 tags: 
+  - leetcode-hard
   - string
   - greedy
   - sorting
 date: 2023-10-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-string-is-transformable-with-substring-sort-operations/)
 
 ## Description
 
@@ -97,7 +98,6 @@ class Solution:
 
         return True
         
-
 
 ```
 

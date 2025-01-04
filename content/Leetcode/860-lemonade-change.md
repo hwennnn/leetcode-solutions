@@ -2,12 +2,13 @@
 title: 860. Lemonade Change
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - greedy
 date: 2024-08-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/lemonade-change/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
                     return False
         
         return True
-
 ```
 

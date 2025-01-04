@@ -2,12 +2,13 @@
 title: 2165. Smallest Value of the Rearranged Number
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - sorting
 date: 2022-02-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/smallest-value-of-the-rearranged-number/)
 
 ## Description
 
@@ -66,7 +67,6 @@ class Solution:
             s = sorted(str(num))
             
             return -int("".join(s[::-1]))
-
 
 ```
 

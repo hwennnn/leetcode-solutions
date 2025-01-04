@@ -2,12 +2,13 @@
 title: 2059. Minimum Operations to Convert Number
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - breadth-first-search
 date: 2021-10-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-operations-to-convert-number/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class Solution:
         
         return -1
             
-
 ```
 

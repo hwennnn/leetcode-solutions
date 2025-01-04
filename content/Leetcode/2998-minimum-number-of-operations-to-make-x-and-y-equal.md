@@ -2,13 +2,14 @@
 title: 2998. Minimum Number of Operations to Make X and Y Equal
 draft: false
 tags: 
+  - leetcode-medium
   - dynamic-programming
   - breadth-first-search
   - memoization
 date: 2024-01-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-operations-to-make-x-and-y-equal/)
 
 ## Description
 
@@ -100,6 +101,5 @@ class Solution:
             return res
         
         return go(x)
-
 ```
 

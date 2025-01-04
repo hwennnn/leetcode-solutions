@@ -2,11 +2,12 @@
 title: 799. Champagne Tower
 draft: false
 tags: 
+  - leetcode-medium
   - dynamic-programming
 date: 2023-09-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/champagne-tower/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
             levels = nextLevels
         
         return min(1, levels[query_glass])
-
 ```
 

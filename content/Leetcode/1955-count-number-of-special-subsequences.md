@@ -2,12 +2,13 @@
 title: 1955. Count Number of Special Subsequences
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
 date: 2021-08-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-number-of-special-subsequences/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
                 c %= M
         
         return c
-
 ```
 

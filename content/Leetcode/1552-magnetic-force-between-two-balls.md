@@ -2,13 +2,14 @@
 title: 1552. Magnetic Force Between Two Balls
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
   - sorting
 date: 2024-06-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/magnetic-force-between-two-balls/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
                 right = mid - 1
 
         return left
-
 ```
 

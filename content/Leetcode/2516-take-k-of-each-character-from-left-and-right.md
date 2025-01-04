@@ -2,13 +2,14 @@
 title: 2516. Take K of Each Character From Left and Right
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - sliding-window
 date: 2024-11-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/take-k-of-each-character-from-left-and-right/)
 
 ## Description
 
@@ -101,6 +102,5 @@ class Solution:
                 left = mid + 1
         
         return res
-
 ```
 

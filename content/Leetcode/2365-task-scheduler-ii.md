@@ -2,13 +2,14 @@
 title: 2365. Task Scheduler II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - simulation
 date: 2022-08-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/task-scheduler-ii/)
 
 ## Description
 
@@ -93,6 +94,5 @@ class Solution:
             day += 1
             
         return day - 1
-
 ```
 

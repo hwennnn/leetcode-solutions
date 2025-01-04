@@ -2,12 +2,13 @@
 title: 393. UTF-8 Validation
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - bit-manipulation
 date: 2022-09-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/utf-8-validation/)
 
 ## Description
 
@@ -92,6 +93,5 @@ class Solution:
             else:
                 return False
         return True
-
 ```
 

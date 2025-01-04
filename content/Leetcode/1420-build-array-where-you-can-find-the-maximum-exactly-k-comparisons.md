@@ -2,12 +2,13 @@
 title: 1420. Build Array Where You Can Find The Maximum Exactly K Comparisons
 draft: false
 tags: 
+  - leetcode-hard
   - dynamic-programming
   - prefix-sum
 date: 2023-10-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
         return res
       
       return go(0, -1, k)
-
 ```
 

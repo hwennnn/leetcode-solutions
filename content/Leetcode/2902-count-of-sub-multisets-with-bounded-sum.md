@@ -2,6 +2,7 @@
 title: 2902. Count of Sub-Multisets With Bounded Sum
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - dynamic-programming
@@ -9,7 +10,7 @@ tags:
 date: 2023-10-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-of-sub-multisets-with-bounded-sum/)
 
 ## Description
 
@@ -110,6 +111,5 @@ class Solution:
             res %= MOD
         
         return ((zeroes + 1) * res) % MOD
-
 ```
 

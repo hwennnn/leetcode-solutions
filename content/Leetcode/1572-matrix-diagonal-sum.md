@@ -2,12 +2,13 @@
 title: 1572. Matrix Diagonal Sum
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - matrix
-date: 2023-05-08
+date: 2020-09-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/matrix-diagonal-sum/)
 
 ## Description
 
@@ -72,6 +73,25 @@ class Solution:
             res -= mat[rows // 2][rows // 2]
                 
         return res
-
+```
+### C++
+``` cpp title='matrix-diagonal-sum'
+class Solution {
+public:
+    int diagonalSum(vector<vector<int>>& mat) {
+        int res = 0;
+        int N = mat.size();
+        
+        for (int i = 0, j = N-1; i < N; i++, j--){
+            if (i == j){
+                res += mat[i][i];
+            }else{
+                res += mat[i][j] + mat[i][i];
+            }
+        }
+        
+        return res;
+    }
+};
 ```
 

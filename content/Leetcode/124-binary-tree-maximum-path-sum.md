@@ -2,14 +2,15 @@
 title: 124. Binary Tree Maximum Path Sum
 draft: false
 tags: 
+  - leetcode-hard
   - dynamic-programming
   - tree
   - depth-first-search
   - binary-tree
-date: 2024-07-15
+date: 2022-12-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
 
 ## Description
 
@@ -81,6 +82,30 @@ public:
         return res;
     }
 };
+```
+### Python
+``` py title='binary-tree-maximum-path-sum'
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def maxPathSum(self, root: Optional[TreeNode]) -> int:
+        res = -inf
 
+        def go(node):
+            nonlocal res
+            if not node: return 0
+
+            curr = node.val
+            left, right = max(0, go(node.left)), max(0, go(node.right))
+            res = max(res, node.val + left + right)
+
+            return node.val + max(0, left, right)
+            
+        go(root)
+        return res
 ```
 

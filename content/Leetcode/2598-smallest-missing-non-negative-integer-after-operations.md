@@ -2,6 +2,7 @@
 title: 2598. Smallest Missing Non-negative Integer After Operations
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - math
@@ -9,7 +10,7 @@ tags:
 date: 2023-03-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
                 return x
         
         return -1
-
 ```
 

@@ -2,13 +2,14 @@
 title: 1834. Single-Threaded CPU
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2022-12-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/single-threaded-cpu/)
 
 ## Description
 
@@ -98,6 +99,5 @@ class Solution:
                 t = A[i][0]
 
         return res
-
 ```
 

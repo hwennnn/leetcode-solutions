@@ -2,13 +2,14 @@
 title: 2241. Design an ATM Machine
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
   - design
 date: 2022-04-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/design-an-atm-machine/)
 
 ## Description
 
@@ -110,6 +111,5 @@ class ATM:
 # obj = ATM()
 # obj.deposit(banknotesCount)
 # param_2 = obj.withdraw(amount)
-
 ```
 

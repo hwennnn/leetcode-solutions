@@ -2,13 +2,14 @@
 title: 1530. Number of Good Leaf Nodes Pairs
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - depth-first-search
   - binary-tree
 date: 2024-07-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/)
 
 ## Description
 
@@ -105,6 +106,5 @@ public:
         return res;
     }
 };
-
 ```
 

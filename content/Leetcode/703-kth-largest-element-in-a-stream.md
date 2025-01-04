@@ -2,16 +2,17 @@
 title: 703. Kth Largest Element in a Stream
 draft: false
 tags: 
+  - leetcode-easy
   - tree
   - design
   - binary-search-tree
-  - heap-(priority-queue)
+  - heap-priority-queue
   - binary-tree
   - data-stream
 date: 2024-08-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/kth-largest-element-in-a-stream/)
 
 ## Description
 
@@ -103,6 +104,5 @@ class KthLargest:
 # Your KthLargest object will be instantiated and called as such:
 # obj = KthLargest(k, nums)
 # param_1 = obj.add(val)
-
 ```
 

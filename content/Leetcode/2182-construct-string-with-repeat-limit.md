@@ -2,15 +2,16 @@
 title: 2182. Construct String With Repeat Limit
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - greedy
-  - heap-(priority-queue)
+  - heap-priority-queue
   - counting
 date: 2024-12-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/construct-string-with-repeat-limit/)
 
 ## Description
 
@@ -95,6 +96,5 @@ class Solution:
             i -= 1
     
         return res
-
 ```
 

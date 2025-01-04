@@ -2,12 +2,13 @@
 title: 2318. Number of Distinct Roll Sequences
 draft: false
 tags: 
+  - leetcode-hard
   - dynamic-programming
   - memoization
 date: 2022-06-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-distinct-roll-sequences/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
             return res % M
         
         return go(0, -1, -1) 
-
 ```
 

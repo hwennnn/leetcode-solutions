@@ -2,12 +2,13 @@
 title: 1929. Concatenation of Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - simulation
 date: 2021-07-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/concatenation-of-array/)
 
 ## Description
 
@@ -56,6 +57,5 @@ date: 2021-07-11
 class Solution:
     def getConcatenation(self, nums: List[int]) -> List[int]:
         return nums + nums
-
 ```
 

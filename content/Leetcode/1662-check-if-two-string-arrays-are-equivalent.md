@@ -2,12 +2,13 @@
 title: 1662. Check If Two String Arrays are Equivalent
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - string
-date: 2023-12-01
+date: 2021-01-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)
 
 ## Description
 
@@ -80,6 +81,18 @@ class Solution:
                 p2 = 0
 
         return i == M and j == N
-
+```
+### C++
+``` cpp title='check-if-two-string-arrays-are-equivalent'
+class Solution {
+public:
+    bool arrayStringsAreEqual(vector<string>& word1, vector<string>& word2) {
+        string s1 = "", s2 = "";
+        for (auto w : word1) s1 += w;
+        for (auto w: word2) s2 += w;
+        
+        return s1 == s2;
+    }
+};
 ```
 

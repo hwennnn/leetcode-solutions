@@ -2,12 +2,13 @@
 title: 1390. Four Divisors
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
 date: 2020-10-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/four-divisors/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
                 res += sum(s)
         
         return res
-
 ```
 

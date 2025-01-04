@@ -2,6 +2,7 @@
 title: 2166. Design Bitset
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - string
@@ -9,7 +10,7 @@ tags:
 date: 2022-02-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/design-bitset/)
 
 ## Description
 
@@ -147,6 +148,5 @@ class Bitset:
 # param_5 = obj.one()
 # param_6 = obj.count()
 # param_7 = obj.toString()
-
 ```
 

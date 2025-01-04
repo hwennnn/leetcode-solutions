@@ -2,6 +2,7 @@
 title: 3029. Minimum Time to Revert Word to Initial State I
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - rolling-hash
   - string-matching
@@ -9,7 +10,7 @@ tags:
 date: 2024-02-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-time-to-revert-word-to-initial-state-i/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
             res += 1
         
         return res
-
 ```
 

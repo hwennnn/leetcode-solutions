@@ -2,13 +2,14 @@
 title: 1210. Minimum Moves to Reach Target with Rotations
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - breadth-first-search
   - matrix
 date: 2021-04-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations/)
 
 ## Description
 
@@ -115,6 +116,5 @@ class Solution:
             moves += 1
             
         return -1
-
 ```
 

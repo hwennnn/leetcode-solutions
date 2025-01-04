@@ -2,13 +2,14 @@
 title: 55. Jump Game
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - greedy
 date: 2022-12-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/jump-game/)
 
 ## Description
 
@@ -59,7 +60,6 @@ class Solution:
             maxJump = max(maxJump, i + x)
         
         return True
-
 
 ```
 

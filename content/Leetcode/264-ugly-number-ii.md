@@ -2,14 +2,15 @@
 title: 264. Ugly Number II
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - math
   - dynamic-programming
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2024-08-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/ugly-number-ii/)
 
 ## Description
 
@@ -61,6 +62,5 @@ class Solution:
             if dp[i] == dp[t5] * 5: t5 += 1
         
         return dp[-1]
-
 ```
 

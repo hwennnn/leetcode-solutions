@@ -2,6 +2,7 @@
 title: 3116. Kth Smallest Amount With Single Denomination Combination
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - math
   - binary-search
@@ -11,7 +12,7 @@ tags:
 date: 2024-04-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/)
 
 ## Description
 
@@ -133,6 +134,5 @@ class Solution:
                 left = mid + 1
         
         return left
-
 ```
 

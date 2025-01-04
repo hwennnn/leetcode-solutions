@@ -2,6 +2,7 @@
 title: 2035. Partition Array Into Two Arrays to Minimize Sum Difference
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - two-pointers
   - binary-search
@@ -12,7 +13,7 @@ tags:
 date: 2022-10-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/)
 
 ## Description
 
@@ -101,6 +102,5 @@ class Solution:
                         res = min(res, abs(leftSum - rightSum))
             
         return res
-
 ```
 

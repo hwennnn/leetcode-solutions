@@ -2,6 +2,7 @@
 title: 969. Pancake Sorting
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2022-02-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/pancake-sorting/)
 
 ## Description
 
@@ -88,6 +89,5 @@ class Solution:
             largest -= 1
         
         return res
-
 ```
 

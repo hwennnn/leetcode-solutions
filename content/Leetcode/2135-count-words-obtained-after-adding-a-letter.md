@@ -2,6 +2,7 @@
 title: 2135. Count Words Obtained After Adding a Letter
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - string
@@ -10,7 +11,7 @@ tags:
 date: 2022-01-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-words-obtained-after-adding-a-letter/)
 
 ## Description
 
@@ -105,6 +106,5 @@ class Solution:
                 targets[newMask] = 0
 
         return res
-
 ```
 

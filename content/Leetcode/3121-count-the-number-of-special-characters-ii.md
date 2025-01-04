@@ -2,12 +2,13 @@
 title: 3121. Count the Number of Special Characters II
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
 date: 2024-04-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-the-number-of-special-characters-ii/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
                 res += 1
         
         return res
-
 ```
 

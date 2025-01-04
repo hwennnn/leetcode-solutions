@@ -2,13 +2,14 @@
 title: 415. Add Strings
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - string
   - simulation
 date: 2021-08-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/add-strings/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
             carry //= 10
         
         return res[::-1]
-
 ```
 

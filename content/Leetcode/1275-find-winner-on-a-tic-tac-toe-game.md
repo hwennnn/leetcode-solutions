@@ -2,6 +2,7 @@
 title: 1275. Find Winner on a Tic Tac Toe Game
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - matrix
@@ -9,7 +10,7 @@ tags:
 date: 2021-09-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class Solution:
             currPlayer *= -1
         
         return "Draw" if len(moves) == n * n else "Pending"
-
 ```
 

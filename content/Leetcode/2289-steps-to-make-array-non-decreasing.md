@@ -2,6 +2,7 @@
 title: 2289. Steps to Make Array Non-decreasing
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - linked-list
   - stack
@@ -9,7 +10,7 @@ tags:
 date: 2023-09-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/steps-to-make-array-non-decreasing/)
 
 ## Description
 
@@ -66,6 +67,5 @@ class Solution:
             stack.append(i)
         
         return max(dp)
-
 ```
 

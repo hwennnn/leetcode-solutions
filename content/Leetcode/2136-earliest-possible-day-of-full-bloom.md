@@ -2,13 +2,14 @@
 title: 2136. Earliest Possible Day of Full Bloom
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - greedy
   - sorting
 date: 2022-10-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
             res = max(res, days + grow)
         
         return res
-
 ```
 

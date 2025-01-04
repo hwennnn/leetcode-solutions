@@ -2,11 +2,12 @@
 title: 2839. Check if Strings Can be Made Equal With Operations I
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2023-09-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
                 return False
         
         return True
-
 ```
 

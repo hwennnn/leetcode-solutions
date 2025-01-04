@@ -2,6 +2,7 @@
 title: 2935. Maximum Strong Pair XOR II
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - bit-manipulation
@@ -10,7 +11,7 @@ tags:
 date: 2023-11-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-strong-pair-xor-ii/)
 
 ## Description
 
@@ -138,6 +139,5 @@ class Solution:
         
         return res
                 
-
 ```
 

@@ -2,13 +2,14 @@
 title: 1897. Redistribute Characters to Make All Strings Equal
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - string
   - counting
 date: 2023-12-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/)
 
 ## Description
 
@@ -63,6 +64,5 @@ class Solution:
                 counter[x] += 1
         
         return all(v % N == 0 for v in counter.values())
-
 ```
 

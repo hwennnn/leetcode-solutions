@@ -2,12 +2,13 @@
 title: 2861. Maximum Number of Alloys
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
 date: 2023-09-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-number-of-alloys/)
 
 ## Description
 
@@ -118,6 +119,5 @@ class Solution:
                 right = mid - 1
         
         return left
-
 ```
 

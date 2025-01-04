@@ -2,12 +2,13 @@
 title: 2076. Process Restricted Friend Requests
 draft: false
 tags: 
+  - leetcode-hard
   - union-find
   - graph
 date: 2021-11-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/process-restricted-friend-requests/)
 
 ## Description
 
@@ -117,6 +118,5 @@ class Solution:
                 dsu.union(x, y)
         
         return res
-
 ```
 

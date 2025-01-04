@@ -2,6 +2,7 @@
 title: 1027. Longest Arithmetic Subsequence
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - binary-search
@@ -9,7 +10,7 @@ tags:
 date: 2023-06-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-arithmetic-subsequence/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
                 dp[(j, nums[j] - nums[i])] = dp.get((i, nums[j] - nums[i]), 1) + 1
         
         return max(dp.values())
-
 ```
 

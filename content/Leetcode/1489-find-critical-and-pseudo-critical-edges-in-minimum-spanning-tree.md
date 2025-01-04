@@ -2,6 +2,7 @@
 title: 1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree
 draft: false
 tags: 
+  - leetcode-hard
   - union-find
   - graph
   - sorting
@@ -10,7 +11,7 @@ tags:
 date: 2023-08-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)
 
 ## Description
 
@@ -148,6 +149,5 @@ class Solution:
                     p_cri.add(edges[i][3])
     
         return [cri, p_cri]
-
 ```
 

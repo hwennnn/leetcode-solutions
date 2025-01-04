@@ -2,6 +2,7 @@
 title: 2275. Largest Combination With Bitwise AND Greater Than Zero
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - bit-manipulation
@@ -9,7 +10,7 @@ tags:
 date: 2024-11-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
             res = max(res, curr)
             
         return res
-
 ```
 

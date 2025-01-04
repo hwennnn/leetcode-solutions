@@ -2,6 +2,7 @@
 title: 2812. Find the Safest Path in a Grid
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
   - breadth-first-search
@@ -10,7 +11,7 @@ tags:
 date: 2024-05-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-safest-path-in-a-grid/)
 
 ## Description
 
@@ -129,6 +130,5 @@ class Solution:
                 right = mid - 1
 
         return left
-
 ```
 

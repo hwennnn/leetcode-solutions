@@ -2,6 +2,7 @@
 title: 2043. Simple Bank System
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - design
@@ -9,7 +10,7 @@ tags:
 date: 2021-10-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/simple-bank-system/)
 
 ## Description
 
@@ -106,6 +107,5 @@ class Bank:
 # param_1 = obj.transfer(account1,account2,money)
 # param_2 = obj.deposit(account,money)
 # param_3 = obj.withdraw(account,money)
-
 ```
 

@@ -2,12 +2,13 @@
 title: 3206. Alternating Groups I
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - sliding-window
 date: 2024-07-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/alternating-groups-i/)
 
 ## Description
 
@@ -81,6 +82,5 @@ class Solution:
                 res += 1
         
         return res
-
 ```
 

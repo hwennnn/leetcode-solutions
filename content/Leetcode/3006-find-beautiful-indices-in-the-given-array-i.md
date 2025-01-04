@@ -2,6 +2,7 @@
 title: 3006. Find Beautiful Indices in the Given Array I
 draft: false
 tags: 
+  - leetcode-medium
   - two-pointers
   - string
   - binary-search
@@ -11,7 +12,7 @@ tags:
 date: 2024-01-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-i/)
 
 ## Description
 
@@ -93,6 +94,5 @@ class Solution:
                     break
         
         return sorted(res)
-
 ```
 

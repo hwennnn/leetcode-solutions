@@ -2,6 +2,7 @@
 title: 538. Convert BST to Greater Tree
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - depth-first-search
   - binary-search-tree
@@ -9,7 +10,7 @@ tags:
 date: 2022-04-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/convert-bst-to-greater-tree/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
         if root.left: self.convertBST(root.left)
         
         return root
-
 ```
 

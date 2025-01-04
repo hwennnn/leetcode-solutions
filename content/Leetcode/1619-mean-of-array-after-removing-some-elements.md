@@ -2,12 +2,13 @@
 title: 1619. Mean of Array After Removing Some Elements
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - sorting
 date: 2020-10-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/mean-of-array-after-removing-some-elements/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
         
         return count / res
             
-
 ```
 

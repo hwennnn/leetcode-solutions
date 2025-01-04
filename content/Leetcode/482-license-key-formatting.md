@@ -2,11 +2,12 @@
 title: 482. License Key Formatting
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2022-01-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/license-key-formatting/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
         
                 
             
-
 ```
 

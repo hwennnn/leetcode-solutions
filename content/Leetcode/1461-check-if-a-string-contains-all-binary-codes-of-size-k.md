@@ -2,6 +2,7 @@
 title: 1461. Check If a String Contains All Binary Codes of Size K
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - bit-manipulation
@@ -10,7 +11,7 @@ tags:
 date: 2022-05-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
         
         return all(seen[mask] for mask in range(1 << k))
                 
-
 ```
 

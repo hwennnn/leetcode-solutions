@@ -2,13 +2,14 @@
 title: 680. Valid Palindrome II
 draft: false
 tags: 
+  - leetcode-easy
   - two-pointers
   - string
   - greedy
 date: 2022-04-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/valid-palindrome-ii/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
             return i >= j
         
         return isPalindrome(i, j)
-
 ```
 

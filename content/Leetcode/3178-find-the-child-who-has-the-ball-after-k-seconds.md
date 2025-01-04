@@ -2,12 +2,13 @@
 title: 3178. Find the Child Who Has the Ball After K Seconds
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - simulation
 date: 2024-06-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-child-who-has-the-ball-after-k-seconds/)
 
 ## Description
 
@@ -170,6 +171,5 @@ class Solution:
                 d = -d
         
         return curr
-
 ```
 

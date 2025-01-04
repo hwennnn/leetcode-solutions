@@ -2,18 +2,19 @@
 title: 347. Top K Frequent Elements
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - divide-and-conquer
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
   - bucket-sort
   - counting
   - quickselect
-date: 2024-08-13
+date: 2020-10-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/top-k-frequent-elements/)
 
 ## Description
 
@@ -59,6 +60,35 @@ class Solution:
                 heappush(pq, (val, key))
         
         return [key for _, key in pq]
-
+```
+### C++
+``` cpp title='top-k-frequent-elements'
+class Solution {
+public:
+    vector<int> topKFrequent(vector<int>& nums, int k) {
+        unordered_map<int,int> mp;
+        
+        for (int num: nums)
+            ++mp[num];
+        
+        
+        vector<vector<int>> buckets(nums.size() + 1); 
+        for (auto v: mp)
+            buckets[v.second].push_back(v.first);
+        
+        
+        vector<int> res;
+        for (int i = buckets.size() - 1; i >= 0 && res.size() < k; --i){
+            for (int num : buckets[i]){
+                res.push_back(num);
+                
+                if (res.size() == k)
+                    break;
+            }
+        }
+        
+        return res;
+    }
+};
 ```
 

@@ -2,11 +2,12 @@
 title: 1009. Complement of Base 10 Integer
 draft: false
 tags: 
+  - leetcode-easy
   - bit-manipulation
 date: 2022-02-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/complement-of-base-10-integer/)
 
 ## Description
 
@@ -67,6 +68,5 @@ class Solution:
         full = (1 << n.bit_length()) - 1
         
         return full ^ n
-
 ```
 

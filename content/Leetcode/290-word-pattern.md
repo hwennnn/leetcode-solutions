@@ -2,12 +2,13 @@
 title: 290. Word Pattern
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - string
 date: 2023-01-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/word-pattern/)
 
 ## Description
 
@@ -89,6 +90,5 @@ class Solution:
             return "".join(map(str, res))
         
         return f(pattern) == f(s.split())
-
 ```
 

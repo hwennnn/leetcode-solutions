@@ -2,12 +2,13 @@
 title: 2535. Difference Between Element Sum and Digit Sum of an Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - math
 date: 2023-01-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
                 x //= 10
         
         return abs(total - digits)
-
 ```
 

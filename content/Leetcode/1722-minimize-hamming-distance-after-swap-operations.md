@@ -2,13 +2,14 @@
 title: 1722. Minimize Hamming Distance After Swap Operations
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - depth-first-search
   - union-find
 date: 2021-01-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/)
 
 ## Description
 
@@ -95,6 +96,5 @@ class Solution:
             res -= sum((count1&count2).values())
             
         return res
-
 ```
 

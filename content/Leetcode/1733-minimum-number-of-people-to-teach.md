@@ -2,13 +2,14 @@
 title: 1733. Minimum Number of People to Teach
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - greedy
 date: 2021-01-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-people-to-teach/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
                 speak[l] += 1
         
         return 0 if len(dontspeak) == 0 else len(dontspeak) - max(speak.values())
-
 ```
 

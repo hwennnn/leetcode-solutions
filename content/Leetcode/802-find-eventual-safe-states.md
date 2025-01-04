@@ -2,6 +2,7 @@
 title: 802. Find Eventual Safe States
 draft: false
 tags: 
+  - leetcode-medium
   - depth-first-search
   - breadth-first-search
   - graph
@@ -9,7 +10,7 @@ tags:
 date: 2023-07-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-eventual-safe-states/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
         return [node for node in range(n) if go(node)]
         
         
-
 ```
 

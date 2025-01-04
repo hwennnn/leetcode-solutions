@@ -2,13 +2,14 @@
 title: 1921. Eliminate Maximum Number of Monsters
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
   - sorting
 date: 2023-11-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/eliminate-maximum-number-of-monsters/)
 
 ## Description
 
@@ -81,6 +82,5 @@ class Solution:
             if i > d: return i
         
         return N
-
 ```
 

@@ -2,11 +2,12 @@
 title: 2849. Determine if a Cell Is Reachable at a Given Time
 draft: false
 tags: 
+  - leetcode-medium
   - math
 date: 2023-11-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/)
 
 ## Description
 
@@ -59,6 +60,5 @@ class Solution:
         mmax = max(distanceX, distanceY)
 
         return mmax <= t
-
 ```
 

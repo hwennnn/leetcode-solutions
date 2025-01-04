@@ -2,12 +2,13 @@
 title: 3033. Modify the Matrix
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - matrix
 date: 2024-02-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/modify-the-matrix/)
 
 ## Description
 
@@ -66,6 +67,5 @@ class Solution:
                     matrix[i][j] = colMax[j]
         
         return matrix
-
 ```
 

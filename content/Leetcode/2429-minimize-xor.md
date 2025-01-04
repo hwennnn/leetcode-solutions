@@ -2,12 +2,13 @@
 title: 2429. Minimize XOR
 draft: false
 tags: 
+  - leetcode-medium
   - greedy
   - bit-manipulation
 date: 2022-10-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimize-xor/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
                 ans ^= (1 << i)
         
         return ans
-
 ```
 

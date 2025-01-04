@@ -2,13 +2,14 @@
 title: 142. Linked List Cycle II
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - linked-list
   - two-pointers
 date: 2023-03-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/linked-list-cycle-ii/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
                 return head
         
         return None
-
 ```
 

@@ -2,14 +2,15 @@
 title: 1524. Number of Sub-arrays With Odd Sum
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - dynamic-programming
   - prefix-sum
-date: 2020-10-12
+date: 2020-08-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/)
 
 ## Description
 
@@ -76,6 +77,26 @@ class Solution:
         
         return res%M
         
-
+```
+### C++
+``` cpp title='number-of-sub-arrays-with-odd-sum'
+class Solution {
+public:
+    int numOfSubarrays(vector<int>& A) {
+        int cur = 0, odd = 0, even = 1, mod = (int)1e9 + 7, res = 0;
+        for (int a: A) {
+            cur += a;
+            if (cur%2){
+                res = (res+even)%mod;
+                odd++;
+            }else{
+                res = (res+odd)%mod;
+                even++;
+            }
+        }
+        return res;
+    }
+        
+};
 ```
 

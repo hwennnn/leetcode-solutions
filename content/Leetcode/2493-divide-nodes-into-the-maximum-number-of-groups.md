@@ -2,13 +2,14 @@
 title: 2493. Divide Nodes Into the Maximum Number of Groups
 draft: false
 tags: 
+  - leetcode-hard
   - breadth-first-search
   - union-find
   - graph
 date: 2022-12-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/divide-nodes-into-the-maximum-number-of-groups/)
 
 ## Description
 
@@ -148,6 +149,5 @@ class Solution:
         
         return res
         
-
 ```
 

@@ -2,6 +2,7 @@
 title: 3144. Minimum Substring Partition of Equal Character Frequency
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - dynamic-programming
@@ -9,7 +10,7 @@ tags:
 date: 2024-05-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-substring-partition-of-equal-character-frequency/)
 
 ## Description
 
@@ -88,6 +89,5 @@ class Solution:
             return res
         
         return go(0)
-
 ```
 

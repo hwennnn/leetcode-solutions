@@ -2,13 +2,14 @@
 title: 68. Text Justification
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - string
   - simulation
 date: 2023-08-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/text-justification/)
 
 ## Description
 
@@ -139,6 +140,5 @@ class Solution:
             res.append(word + " " * w)
             
         return res
-
 ```
 

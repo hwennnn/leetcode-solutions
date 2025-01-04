@@ -2,13 +2,14 @@
 title: 1642. Furthest Building You Can Reach
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2024-02-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/furthest-building-you-can-reach/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class Solution:
                         return i
         
         return N - 1
-
 ```
 

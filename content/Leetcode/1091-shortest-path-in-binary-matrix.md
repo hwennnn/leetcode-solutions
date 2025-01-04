@@ -2,13 +2,14 @@
 title: 1091. Shortest Path in Binary Matrix
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - breadth-first-search
   - matrix
 date: 2023-06-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/shortest-path-in-binary-matrix/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class Solution:
             count += 1
         
         return -1
-
 ```
 

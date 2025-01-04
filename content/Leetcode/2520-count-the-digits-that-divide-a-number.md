@@ -2,11 +2,12 @@
 title: 2520. Count the Digits That Divide a Number
 draft: false
 tags: 
+  - leetcode-easy
   - math
 date: 2023-01-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-the-digits-that-divide-a-number/)
 
 ## Description
 
@@ -64,6 +65,5 @@ class Solution:
                 res += 1
         
         return res
-
 ```
 

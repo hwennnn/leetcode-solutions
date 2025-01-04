@@ -2,11 +2,12 @@
 title: 2798. Number of Employees Who Met the Target
 draft: false
 tags: 
+  - leetcode-easy
   - array
 date: 2023-07-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-employees-who-met-the-target/)
 
 ## Description
 
@@ -60,6 +61,5 @@ There are 0 employees who met the target.
 class Solution:
     def numberOfEmployeesWhoMetTarget(self, hours: List[int], target: int) -> int:
         return sum(1 for x in hours if x >= target)
-
 ```
 

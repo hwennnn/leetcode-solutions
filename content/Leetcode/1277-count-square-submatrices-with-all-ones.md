@@ -2,13 +2,14 @@
 title: 1277. Count Square Submatrices with All Ones
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - matrix
 date: 2024-10-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
             for j in range(1, len(A[0])):
                 A[i][j] = (min(A[i - 1][j - 1], A[i - 1][j], A[i][j - 1]) + 1 if A[i][j] == 1 else 0)
         return sum(map(sum, A))
-
 ```
 

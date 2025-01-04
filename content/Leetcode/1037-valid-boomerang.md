@@ -2,13 +2,14 @@
 title: 1037. Valid Boomerang
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - math
   - geometry
 date: 2021-09-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/valid-boomerang/)
 
 ## Description
 
@@ -43,7 +44,6 @@ date: 2021-09-25
 class Solution:
     def isBoomerang(self, p: List[List[int]]) -> bool:
         return (p[0][0] - p[1][0]) * (p[0][1] - p[2][1]) != (p[0][0] - p[2][0]) * (p[0][1] - p[1][1])
-
 
 ```
 

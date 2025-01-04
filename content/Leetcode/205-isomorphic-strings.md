@@ -2,12 +2,13 @@
 title: 205. Isomorphic Strings
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - string
 date: 2024-04-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/isomorphic-strings/)
 
 ## Description
 
@@ -88,6 +89,5 @@ class Solution:
         
         return construct(s) == construct(t)
             
-
 ```
 

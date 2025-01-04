@@ -2,13 +2,14 @@
 title: 1433. Check If a String Can Break Another String
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - greedy
   - sorting
 date: 2020-10-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-a-string-can-break-another-string/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
         d2 = collections.Counter(s2)
         
         return check(d1,d2) or check(d2,d1)
-
 ```
 

@@ -2,6 +2,7 @@
 title: 2002. Maximum Product of the Length of Two Palindromic Subsequences
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - dynamic-programming
   - backtracking
@@ -10,7 +11,7 @@ tags:
 date: 2021-09-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-product-of-the-length-of-two-palindromic-subsequences/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class Solution:
                     break
         
         return res
-
 ```
 

@@ -2,13 +2,14 @@
 title: 438. Find All Anagrams in a String
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - sliding-window
 date: 2023-02-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
         
         return res
         
-
 ```
 

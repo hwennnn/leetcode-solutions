@@ -2,13 +2,14 @@
 title: 814. Binary Tree Pruning
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - depth-first-search
   - binary-tree
 date: 2022-09-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/binary-tree-pruning/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
             return node
             
         return dfs(root)
-
 ```
 

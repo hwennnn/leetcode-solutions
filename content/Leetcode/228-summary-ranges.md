@@ -2,11 +2,12 @@
 title: 228. Summary Ranges
 draft: false
 tags: 
+  - leetcode-easy
   - array
 date: 2023-06-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/summary-ranges/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
                     prev = x
         
         return res
-
 ```
 

@@ -2,6 +2,7 @@
 title: 2554. Maximum Number of Integers to Choose From a Range I
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - binary-search
@@ -10,7 +11,7 @@ tags:
 date: 2024-12-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
             res += 1
         
         return res
-
 ```
 

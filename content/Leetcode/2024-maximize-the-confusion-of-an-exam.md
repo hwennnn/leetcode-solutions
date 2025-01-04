@@ -2,6 +2,7 @@
 title: 2024. Maximize the Confusion of an Exam
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - binary-search
   - sliding-window
@@ -9,7 +10,7 @@ tags:
 date: 2023-07-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/)
 
 ## Description
 
@@ -92,6 +93,5 @@ class Solution:
             return res
         
         return max(go('T'), go('F'))
-
 ```
 

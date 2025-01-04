@@ -2,6 +2,7 @@
 title: 3153. Sum of Digit Differences of All Pairs
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - math
@@ -9,7 +10,7 @@ tags:
 date: 2024-05-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/sum-of-digit-differences-of-all-pairs/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
                 mp[j][d] += 1
             
         return res
-
 ```
 

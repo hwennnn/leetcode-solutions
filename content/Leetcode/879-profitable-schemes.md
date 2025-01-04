@@ -2,12 +2,13 @@
 title: 879. Profitable Schemes
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
 date: 2023-04-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/profitable-schemes/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
             return res % M
         
         return go(0, n, 0)
-
 ```
 

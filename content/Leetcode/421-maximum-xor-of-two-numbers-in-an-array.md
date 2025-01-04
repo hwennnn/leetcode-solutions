@@ -2,6 +2,7 @@
 title: 421. Maximum XOR of Two Numbers in an Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - bit-manipulation
@@ -9,7 +10,7 @@ tags:
 date: 2023-11-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)
 
 ## Description
 
@@ -94,6 +95,5 @@ class Solution:
             add(x)
         
         return res
-
 ```
 

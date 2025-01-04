@@ -2,14 +2,15 @@
 title: 1395. Count Number of Teams
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - binary-indexed-tree
   - segment-tree
-date: 2024-08-01
+date: 2024-07-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-number-of-teams/)
 
 ## Description
 
@@ -92,6 +93,29 @@ public:
         return res;
     }
 };
+```
+### Python
+``` py title='count-number-of-teams'
+class Solution:
+    def numTeams(self, rating: List[int]) -> int:
+        res = 0
+        for i in range(len(rating)):
+            ls = rs = lb = rb = 0
+            
+            for j in range(i-1,-1,-1):
+                if rating[j] < rating[i]:
+                    ls += 1
+                elif rating[j] > rating[i]:
+                    lb += 1
+            
+            for j in range(i+1,len(rating)):
+                if rating[j] > rating[i]:
+                    rb += 1
+                elif rating[j] < rating[i]:
+                    rs += 1
 
+            res += ls*rb + lb*rs
+        return res
+            
 ```
 

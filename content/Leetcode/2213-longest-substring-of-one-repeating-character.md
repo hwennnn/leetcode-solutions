@@ -2,6 +2,7 @@
 title: 2213. Longest Substring of One Repeating Character
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - string
   - segment-tree
@@ -9,7 +10,7 @@ tags:
 date: 2022-03-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-substring-of-one-repeating-character/)
 
 ## Description
 
@@ -140,6 +141,5 @@ class Solution:
         return res
             
         
-
 ```
 

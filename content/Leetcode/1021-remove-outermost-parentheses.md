@@ -2,12 +2,13 @@
 title: 1021. Remove Outermost Parentheses
 draft: false
 tags: 
+  - leetcode-easy
   - string
   - stack
 date: 2022-01-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/remove-outermost-parentheses/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
                     res.pop()
         
         return "".join(res)
-
 ```
 

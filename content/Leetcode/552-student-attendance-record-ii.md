@@ -2,11 +2,12 @@
 title: 552. Student Attendance Record II
 draft: false
 tags: 
+  - leetcode-hard
   - dynamic-programming
 date: 2024-05-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/student-attendance-record-ii/)
 
 ## Description
 
@@ -86,6 +87,31 @@ def dp(index, absent, late):
 class Solution:
     def checkRecord(self, n: int) -> int:
         return dp(n, 0, 0)
+```
+### C++
+``` cpp title='student-attendance-record-ii'
+class Solution {
+public:
+    int dp[100005][2][3];
+    int MOD = 1e9 + 7;
 
+    long long solve(int index, int absent, int late) {
+        if (absent == 2 || late == 3) return 0LL;
+        if (index == 0) return 1LL;
+
+        if (dp[index][absent][late] != -1) return dp[index][absent][late];
+
+        long long res = solve(index - 1, absent, 0) % MOD;
+        res = (res + solve(index - 1, absent + 1, 0) % MOD) % MOD;
+        res = (res + solve(index - 1, absent, late + 1) % MOD) % MOD;
+
+        return dp[index][absent][late] = res;
+    }
+
+    int checkRecord(int n) {
+        memset(dp, -1, sizeof (dp));
+        return solve(n, 0, 0);
+    }
+};
 ```
 

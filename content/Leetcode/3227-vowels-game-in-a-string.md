@@ -2,6 +2,7 @@
 title: 3227. Vowels Game in a String
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - string
   - brainteaser
@@ -9,7 +10,7 @@ tags:
 date: 2024-07-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/vowels-game-in-a-string/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
                 vowels += 1
 
         return vowels > 0
-
 ```
 

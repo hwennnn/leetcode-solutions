@@ -2,12 +2,13 @@
 title: 1492. The kth Factor of n
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - number-theory
 date: 2020-12-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/the-kth-factor-of-n/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
         res = sorted(list(res))
 
         return res[k-1] if len(res) >= k else -1
-
 ```
 

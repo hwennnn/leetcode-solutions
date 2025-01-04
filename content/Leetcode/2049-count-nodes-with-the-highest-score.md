@@ -2,6 +2,7 @@
 title: 2049. Count Nodes With the Highest Score
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - tree
   - depth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2021-10-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-nodes-with-the-highest-score/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class Solution:
         return freq[max(freq)]
         
         
-
 ```
 

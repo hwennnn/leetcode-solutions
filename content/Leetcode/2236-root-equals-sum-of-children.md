@@ -2,12 +2,13 @@
 title: 2236. Root Equals Sum of Children
 draft: false
 tags: 
+  - leetcode-easy
   - tree
   - binary-tree
 date: 2022-05-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/root-equals-sum-of-children/)
 
 ## Description
 
@@ -58,6 +59,5 @@ date: 2022-05-12
 class Solution:
     def checkTree(self, root: Optional[TreeNode]) -> bool:
         return root.val == root.left.val + root.right.val
-
 ```
 

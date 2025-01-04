@@ -2,6 +2,7 @@
 title: 2007. Find Original Array From Doubled Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2022-09-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-original-array-from-doubled-array/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
             return []
         
         return res
-
 ```
 

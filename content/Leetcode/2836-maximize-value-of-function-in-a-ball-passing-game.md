@@ -2,13 +2,14 @@
 title: 2836. Maximize Value of Function in a Ball Passing Game
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - bit-manipulation
 date: 2023-09-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximize-value-of-function-in-a-ball-passing-game/)
 
 ## Description
 
@@ -159,6 +160,5 @@ class Solution:
             res = max(res, total)
 
         return res
-
 ```
 

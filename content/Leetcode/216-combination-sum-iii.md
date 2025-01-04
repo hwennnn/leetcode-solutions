@@ -2,12 +2,13 @@
 title: 216. Combination Sum III
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - backtracking
 date: 2022-05-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/combination-sum-iii/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
         go(1, [])
         
         return res
-
 ```
 

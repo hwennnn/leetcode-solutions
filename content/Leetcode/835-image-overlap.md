@@ -2,12 +2,13 @@
 title: 835. Image Overlap
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - matrix
 date: 2022-10-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/image-overlap/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
         counter = Counter((a - c, b - d) for a, b in A for c, d in B)
         
         return max(counter.values() or [0])
-
 ```
 

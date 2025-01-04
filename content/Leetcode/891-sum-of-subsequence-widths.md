@@ -2,13 +2,14 @@
 title: 891. Sum of Subsequence Widths
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - math
   - sorting
 date: 2023-08-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/sum-of-subsequence-widths/)
 
 ## Description
 
@@ -71,7 +72,6 @@ class Solution:
             res %= M
         
         return res
-
 
 ```
 

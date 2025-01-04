@@ -2,13 +2,14 @@
 title: 2370. Longest Ideal Subsequence
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - dynamic-programming
 date: 2024-04-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-ideal-subsequence/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
                     dp[v] = max(dp[v], dp[i] + 1)
 
         return max(dp)
-
 ```
 

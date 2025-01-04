@@ -2,13 +2,14 @@
 title: 303. Range Sum Query - Immutable
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - design
   - prefix-sum
 date: 2023-10-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/range-sum-query-immutable/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class NumArray:
 # Your NumArray object will be instantiated and called as such:
 # obj = NumArray(nums)
 # param_1 = obj.sumRange(left,right)
-
 ```
 

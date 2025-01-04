@@ -2,13 +2,14 @@
 title: 1041. Robot Bounded In Circle
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - string
   - simulation
 date: 2022-01-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/robot-bounded-in-circle/)
 
 ## Description
 
@@ -109,6 +110,5 @@ class Solution:
                 x, y = x + d[i][0], y + d[i][1]
         
         return (x, y) == (0, 0) or i > 0
-
 ```
 

@@ -2,13 +2,14 @@
 title: 2279. Maximum Bags With Full Capacity of Rocks
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
   - sorting
 date: 2022-12-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
                 break
 
         return res
-
 ```
 

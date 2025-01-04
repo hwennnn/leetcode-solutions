@@ -2,13 +2,14 @@
 title: 365. Water and Jug Problem
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - depth-first-search
   - breadth-first-search
 date: 2022-03-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/water-and-jug-problem/)
 
 ## Description
 
@@ -106,6 +107,5 @@ class Solution:
         
         return False
         
-
 ```
 

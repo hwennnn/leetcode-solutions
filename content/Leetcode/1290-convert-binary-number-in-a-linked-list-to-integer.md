@@ -2,12 +2,13 @@
 title: 1290. Convert Binary Number in a Linked List to Integer
 draft: false
 tags: 
+  - leetcode-easy
   - linked-list
   - math
-date: 2022-03-09
+date: 2020-12-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)
 
 ## Description
 
@@ -63,6 +64,34 @@ class Solution:
             head = head.next
         
         return res
-
+```
+### C++
+``` cpp title='convert-binary-number-in-a-linked-list-to-integer'
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+class Solution {
+public:
+    int getDecimalValue(ListNode* head) {
+        if (head == nullptr) return 0;
+        int total = 0;
+        
+        while (head){
+            total <<= 1;
+            total |= head->val;
+            head = head->next;
+        }
+        
+        return total;
+    }
+    
+};
 ```
 

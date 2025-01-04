@@ -2,12 +2,13 @@
 title: 2956. Find Common Elements Between Two Arrays
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
 date: 2023-12-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-common-elements-between-two-arrays/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class Solution:
                 res2 += 1
         
         return [res1, res2]
-
 ```
 

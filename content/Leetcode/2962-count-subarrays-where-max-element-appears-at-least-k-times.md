@@ -2,12 +2,13 @@
 title: 2962. Count Subarrays Where Max Element Appears at Least K Times
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - sliding-window
 date: 2024-03-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
             res += j - i + 1
         
         return total - res
-
 ```
 

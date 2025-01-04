@@ -2,12 +2,13 @@
 title: 206. Reverse Linked List
 draft: false
 tags: 
+  - leetcode-easy
   - linked-list
   - recursion
-date: 2024-08-13
+date: 2020-12-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/reverse-linked-list/)
 
 ## Description
 
@@ -69,6 +70,33 @@ class Solution:
             head = nxt
 
         return prev
-
+```
+### C++
+``` cpp title='reverse-linked-list'
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+class Solution {
+public:
+    ListNode* reverseList(ListNode* head) {
+        ListNode *res = NULL;
+        
+        while (head){
+            ListNode *next = head->next;
+            head->next = res;
+            res = head;
+            head = next;
+        }
+        
+        return res;
+    }
+};
 ```
 

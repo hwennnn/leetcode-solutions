@@ -2,15 +2,16 @@
 title: 456. 132 Pattern
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
   - stack
   - monotonic-stack
   - ordered-set
-date: 2024-07-26
+date: 2024-06-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/132-pattern/)
 
 ## Description
 
@@ -79,6 +80,28 @@ public:
         return false;
     }
 };
+```
+### Python
+``` py title='132-pattern'
+class Solution:
+    def find132pattern(self, nums: List[int]) -> bool:
+        N = len(nums)
+        stack = [] # to maintain a monotonic decreasing stack
+        s3 = -inf
 
+        for i in range(N - 1, -1, -1):
+            if nums[i] < s3: # represents nums[i] < nums[k]
+                return True
+
+            # when this condition meets, nums[i] here will be nums[j], the third element
+            # while the popped element is nums[k], the s3 element
+            # s3 will always be the largest possible element, because when a smaller element is encountered, the answer would have already been returned
+            # In short, the below function ensures (j, k) -> which nums[j] > nums[k]
+            while stack and nums[i] > stack[-1]:
+                s3 = stack.pop()
+            
+            stack.append(nums[i])
+
+        return False
 ```
 

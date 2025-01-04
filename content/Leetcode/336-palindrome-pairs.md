@@ -2,6 +2,7 @@
 title: 336. Palindrome Pairs
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - string
@@ -9,7 +10,7 @@ tags:
 date: 2022-09-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/palindrome-pairs/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class Solution:
                         res.append([index, mp[prefixR]])
                 
         return res
-
 ```
 

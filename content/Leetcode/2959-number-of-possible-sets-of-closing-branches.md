@@ -2,15 +2,16 @@
 title: 2959. Number of Possible Sets of Closing Branches
 draft: false
 tags: 
+  - leetcode-hard
   - bit-manipulation
   - graph
-  - heap-(priority-queue)
+  - heap-priority-queue
   - enumeration
   - shortest-path
 date: 2023-12-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-possible-sets-of-closing-branches/)
 
 ## Description
 
@@ -134,6 +135,5 @@ class Solution:
                     
         return res
                 
-
 ```
 

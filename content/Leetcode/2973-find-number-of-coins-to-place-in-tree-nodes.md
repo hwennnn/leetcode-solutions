@@ -2,15 +2,16 @@
 title: 2973. Find Number of Coins to Place in Tree Nodes
 draft: false
 tags: 
+  - leetcode-hard
   - dynamic-programming
   - tree
   - depth-first-search
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2023-12-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-number-of-coins-to-place-in-tree-nodes/)
 
 ## Description
 
@@ -111,6 +112,5 @@ class Solution:
         go(0, -1)
         
         return res
-
 ```
 

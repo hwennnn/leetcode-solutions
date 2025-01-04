@@ -2,11 +2,12 @@
 title: 2595. Number of Even and Odd Bits
 draft: false
 tags: 
+  - leetcode-easy
   - bit-manipulation
 date: 2023-03-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-even-and-odd-bits/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
         
         return res
         
-
 ```
 

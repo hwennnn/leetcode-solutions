@@ -2,12 +2,13 @@
 title: 31. Next Permutation
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
 date: 2022-04-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/next-permutation/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
         while l < r:
             nums[l], nums[r] = nums[r], nums[l]
             l +=1 ; r -= 1
-
 ```
 

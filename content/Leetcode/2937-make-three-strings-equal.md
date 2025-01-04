@@ -2,11 +2,12 @@
 title: 2937. Make Three Strings Equal
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2023-11-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/make-three-strings-equal/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
         if common == 0: return -1
         
         return n1 + n2 + n3 - common
-
 ```
 

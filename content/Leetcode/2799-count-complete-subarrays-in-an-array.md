@@ -2,13 +2,14 @@
 title: 2799. Count Complete Subarrays in an Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - sliding-window
 date: 2023-07-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-complete-subarrays-in-an-array/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
             res += i
                 
         return res
-
 ```
 

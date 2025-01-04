@@ -2,13 +2,14 @@
 title: 2561. Rearranging Fruits
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - greedy
 date: 2023-02-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/rearranging-fruits/)
 
 ## Description
 
@@ -81,6 +82,5 @@ class Solution:
             res += min(mmin * 2, A[i])
         
         return res
-
 ```
 

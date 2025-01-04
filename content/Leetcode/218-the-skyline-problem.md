@@ -2,17 +2,18 @@
 title: 218. The Skyline Problem
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - divide-and-conquer
   - binary-indexed-tree
   - segment-tree
   - line-sweep
-  - heap-(priority-queue)
+  - heap-priority-queue
   - ordered-set
 date: 2022-09-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/the-skyline-problem/)
 
 ## Description
 
@@ -96,6 +97,5 @@ class Solution:
             lastHeight = currHeight
         
         return res
-
 ```
 

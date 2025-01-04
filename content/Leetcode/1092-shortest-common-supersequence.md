@@ -2,12 +2,13 @@
 title: 1092. Shortest Common Supersequence 
 draft: false
 tags: 
+  - leetcode-hard
   - string
   - dynamic-programming
 date: 2021-05-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/shortest-common-supersequence/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
             i, j = i + 1, j + 1
         
         return res + A[i:] + B[j:]
-
 ```
 

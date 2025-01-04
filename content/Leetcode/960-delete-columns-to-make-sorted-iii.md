@@ -2,13 +2,14 @@
 title: 960. Delete Columns to Make Sorted III
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - string
   - dynamic-programming
 date: 2022-02-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/delete-columns-to-make-sorted-iii/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
                     dp[j] = max(dp[j], dp[i] + 1)
             
         return n - max(dp)
-
 ```
 

@@ -2,13 +2,14 @@
 title: 1460. Make Two Arrays Equal by Reversing Subarrays
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - sorting
 date: 2024-08-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/)
 
 ## Description
 
@@ -73,6 +74,11 @@ public:
         return true;
     }
 };
-
+```
+### Python
+``` py title='make-two-arrays-equal-by-reversing-subarrays'
+class Solution:
+    def canBeEqual(self, target: List[int], arr: List[int]) -> bool:
+        return Counter(target) == Counter(arr)
 ```
 

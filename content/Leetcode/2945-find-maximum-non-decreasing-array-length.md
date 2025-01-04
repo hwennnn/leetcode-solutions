@@ -2,6 +2,7 @@
 title: 2945. Find Maximum Non-decreasing Array Length
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - dynamic-programming
@@ -12,7 +13,7 @@ tags:
 date: 2023-11-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-maximum-non-decreasing-array-length/)
 
 ## Description
 
@@ -93,6 +94,5 @@ class Solution:
             pre[k] = j
 
         return max(dp)
-
 ```
 

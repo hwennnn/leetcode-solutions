@@ -2,6 +2,7 @@
 title: 684. Redundant Connection
 draft: false
 tags: 
+  - leetcode-medium
   - depth-first-search
   - breadth-first-search
   - union-find
@@ -9,7 +10,7 @@ tags:
 date: 2021-06-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/redundant-connection/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
                 return [a + 1, b + 1]
             
             uunion(a, b)
-
 ```
 

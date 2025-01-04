@@ -2,13 +2,14 @@
 title: 592. Fraction Addition and Subtraction
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - string
   - simulation
 date: 2024-08-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/fraction-addition-and-subtraction/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
             A //= g
             B //= g
         return '%d/%d' % (A, B)
-
 ```
 

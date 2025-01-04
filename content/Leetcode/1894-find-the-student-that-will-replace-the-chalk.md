@@ -2,6 +2,7 @@
 title: 1894. Find the Student that Will Replace the Chalk
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
   - simulation
@@ -9,7 +10,7 @@ tags:
 date: 2024-12-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
             if k < 0: return i
         
         return -1
-
 ```
 

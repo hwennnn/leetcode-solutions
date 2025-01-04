@@ -2,6 +2,7 @@
 title: 472. Concatenated Words
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - string
   - dynamic-programming
@@ -10,7 +11,7 @@ tags:
 date: 2023-01-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/concatenated-words/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
                 res.append(word)
         
         return res
-
 ```
 

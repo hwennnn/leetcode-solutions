@@ -2,13 +2,14 @@
 title: 1106. Parsing A Boolean Expression
 draft: false
 tags: 
+  - leetcode-hard
   - string
   - stack
   - recursion
 date: 2024-10-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/parsing-a-boolean-expression/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
                 stack.append(True if c == 't' else False if c == 'f' else c)
         
         return stack.pop()
-
 ```
 

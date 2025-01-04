@@ -2,12 +2,13 @@
 title: 1802. Maximum Value at a Given Index in a Bounded Array
 draft: false
 tags: 
+  - leetcode-medium
   - binary-search
   - greedy
 date: 2023-11-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
                 right = mid - 1
         
         return left
-
 ```
 

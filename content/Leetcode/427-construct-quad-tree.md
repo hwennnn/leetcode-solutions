@@ -2,6 +2,7 @@
 title: 427. Construct Quad Tree
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - divide-and-conquer
   - tree
@@ -9,7 +10,7 @@ tags:
 date: 2023-02-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/construct-quad-tree/)
 
 ## Description
 
@@ -130,6 +131,5 @@ class Solution:
             return node
         
         return go(0, 0, rows)
-
 ```
 

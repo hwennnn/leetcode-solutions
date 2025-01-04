@@ -2,6 +2,7 @@
 title: 847. Shortest Path Visiting All Nodes
 draft: false
 tags: 
+  - leetcode-hard
   - dynamic-programming
   - bit-manipulation
   - breadth-first-search
@@ -10,7 +11,7 @@ tags:
 date: 2023-09-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/shortest-path-visiting-all-nodes/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
                     queue.append((adj, mask | 1 << adj, edges + 1))
         
         return -1
-
 ```
 

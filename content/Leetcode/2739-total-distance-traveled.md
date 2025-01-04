@@ -2,12 +2,13 @@
 title: 2739. Total Distance Traveled
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - simulation
 date: 2023-06-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/total-distance-traveled/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
                 mile += 1
             
         return mile * 10
-
 ```
 

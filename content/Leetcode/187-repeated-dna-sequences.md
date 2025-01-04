@@ -2,6 +2,7 @@
 title: 187. Repeated DNA Sequences
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - bit-manipulation
@@ -11,7 +12,7 @@ tags:
 date: 2021-11-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/repeated-dna-sequences/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
         return list(res)
         
         
-
 ```
 

@@ -2,6 +2,7 @@
 title: 3179. Find the N-th Value After K Seconds
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - simulation
@@ -10,7 +11,7 @@ tags:
 date: 2024-06-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-n-th-value-after-k-seconds/)
 
 ## Description
 
@@ -130,6 +131,5 @@ class Solution:
                 total -= curr
         
         return A[-1] % MOD
-
 ```
 

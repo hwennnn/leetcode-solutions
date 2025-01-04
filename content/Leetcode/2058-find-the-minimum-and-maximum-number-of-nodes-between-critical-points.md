@@ -2,11 +2,12 @@
 title: 2058. Find the Minimum and Maximum Number of Nodes Between Critical Points
 draft: false
 tags: 
+  - leetcode-medium
   - linked-list
 date: 2024-07-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
 
 ## Description
 
@@ -103,6 +104,5 @@ class Solution:
         if minDist == inf: return [-1, -1]
 
         return [minDist, prevC - leftMost]
-
 ```
 

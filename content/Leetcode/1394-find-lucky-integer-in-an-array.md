@@ -2,13 +2,14 @@
 title: 1394. Find Lucky Integer in an Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - counting
 date: 2020-10-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-lucky-integer-in-an-array/)
 
 ## Description
 
@@ -66,6 +67,5 @@ class Solution:
                 res = max(res, c)
         
         return res
-
 ```
 

@@ -2,6 +2,7 @@
 title: 1632. Rank Transform of a Matrix
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - union-find
   - graph
@@ -11,7 +12,7 @@ tags:
 date: 2021-08-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/rank-transform-of-a-matrix/)
 
 ## Description
 
@@ -116,6 +117,5 @@ class Solution:
             for i, j in d[a]: M[i][j] = rank[i]
             
         return M
-
 ```
 

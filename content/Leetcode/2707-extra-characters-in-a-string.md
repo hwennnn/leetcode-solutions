@@ -2,6 +2,7 @@
 title: 2707. Extra Characters in a String
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - string
@@ -10,7 +11,7 @@ tags:
 date: 2025-01-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/extra-characters-in-a-string/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
             return res
         
         return go(0)
-
 ```
 

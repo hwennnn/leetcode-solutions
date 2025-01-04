@@ -2,6 +2,7 @@
 title: 304. Range Sum Query 2D - Immutable
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - design
   - matrix
@@ -9,7 +10,7 @@ tags:
 date: 2022-06-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/range-sum-query-2d-immutable/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class NumMatrix:
 # Your NumMatrix object will be instantiated and called as such:
 # obj = NumMatrix(matrix)
 # param_1 = obj.sumRegion(row1,col1,row2,col2)
-
 ```
 

@@ -2,12 +2,13 @@
 title: 188. Best Time to Buy and Sell Stock IV
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
 date: 2022-09-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
                 tempMax = max(tempMax, dp[i - 1][j - 1] - prices[j])
         
         return dp[k][n - 1]
-
 ```
 

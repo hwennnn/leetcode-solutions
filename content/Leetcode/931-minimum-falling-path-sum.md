@@ -2,13 +2,14 @@
 title: 931. Minimum Falling Path Sum
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - matrix
 date: 2024-08-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-falling-path-sum/)
 
 ## Description
 
@@ -62,6 +63,5 @@ class Solution:
                 matrix[i][j] += min(left, mid, right)
         
         return min(matrix[-1])
-
 ```
 

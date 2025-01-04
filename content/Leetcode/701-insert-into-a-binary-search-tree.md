@@ -2,13 +2,14 @@
 title: 701. Insert into a Binary Search Tree
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - binary-search-tree
   - binary-tree
 date: 2022-01-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/insert-into-a-binary-search-tree/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
             return node
         
         return dfs(root)
-
 ```
 

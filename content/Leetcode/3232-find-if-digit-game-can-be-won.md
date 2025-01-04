@@ -2,12 +2,13 @@
 title: 3232. Find if Digit Game Can Be Won
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - math
 date: 2024-08-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-if-digit-game-can-be-won/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
                 a += x
         
         return a != b
-
 ```
 

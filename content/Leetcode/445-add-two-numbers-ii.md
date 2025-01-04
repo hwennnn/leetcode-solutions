@@ -2,13 +2,14 @@
 title: 445. Add Two Numbers II
 draft: false
 tags: 
+  - leetcode-medium
   - linked-list
   - math
   - stack
 date: 2023-07-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/add-two-numbers-ii/)
 
 ## Description
 
@@ -98,6 +99,5 @@ class Solution:
             carry //= 10
         
         return prev
-
 ```
 

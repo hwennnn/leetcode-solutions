@@ -2,13 +2,14 @@
 title: 2295. Replace Elements in an Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - simulation
 date: 2022-06-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/replace-elements-in-an-array/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
             mp[b] = currIndex
         
         return nums
-
 ```
 

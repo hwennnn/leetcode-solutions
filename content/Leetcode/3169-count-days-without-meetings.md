@@ -2,12 +2,13 @@
 title: 3169. Count Days Without Meetings
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - sorting
 date: 2024-06-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-days-without-meetings/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class Solution:
 
         return days - res
             
-
 ```
 

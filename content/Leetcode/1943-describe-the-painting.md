@@ -2,6 +2,7 @@
 title: 1943. Describe the Painting
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - sorting
@@ -9,7 +10,7 @@ tags:
 date: 2021-07-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/describe-the-painting/)
 
 ## Description
 
@@ -116,6 +117,5 @@ class Solution:
                 currentColor = x
 
         return res
-
 ```
 

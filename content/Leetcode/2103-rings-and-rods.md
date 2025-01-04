@@ -2,12 +2,13 @@
 title: 2103. Rings and Rods
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - string
 date: 2021-12-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/rings-and-rods/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class Solution:
 
         return res
         
-
 ```
 

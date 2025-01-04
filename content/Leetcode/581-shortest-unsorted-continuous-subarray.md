@@ -2,6 +2,7 @@
 title: 581. Shortest Unsorted Continuous Subarray
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
   - stack
@@ -11,7 +12,7 @@ tags:
 date: 2023-08-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
             return end - start + 1
         
         return 0
-
 ```
 

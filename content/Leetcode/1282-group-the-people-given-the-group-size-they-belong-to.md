@@ -2,13 +2,14 @@
 title: 1282. Group the People Given the Group Size They Belong To
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - greedy
 date: 2023-09-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
                 mp[x].clear()
         
         return res
-
 ```
 

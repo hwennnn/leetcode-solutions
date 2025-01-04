@@ -2,6 +2,7 @@
 title: 208. Implement Trie (Prefix Tree)
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - design
@@ -9,7 +10,7 @@ tags:
 date: 2023-03-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/implement-trie-prefix-tree/)
 
 ## Description
 
@@ -106,6 +107,5 @@ class Trie:
 # obj.insert(word)
 # param_2 = obj.search(word)
 # param_3 = obj.startsWith(prefix)
-
 ```
 

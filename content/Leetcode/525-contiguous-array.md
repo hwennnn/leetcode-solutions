@@ -2,13 +2,14 @@
 title: 525. Contiguous Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - prefix-sum
 date: 2024-03-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/contiguous-array/)
 
 ## Description
 
@@ -65,6 +66,5 @@ class Solution:
                 mp[curr] = i
         
         return res
-
 ```
 

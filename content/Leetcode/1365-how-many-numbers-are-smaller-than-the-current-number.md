@@ -2,6 +2,7 @@
 title: 1365. How Many Numbers Are Smaller Than the Current Number
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - sorting
@@ -9,7 +10,7 @@ tags:
 date: 2020-10-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
                 res[i] = counts[num-1]
         
         return res
-
 ```
 

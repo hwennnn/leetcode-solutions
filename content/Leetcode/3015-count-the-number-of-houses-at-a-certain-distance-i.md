@@ -2,13 +2,14 @@
 title: 3015. Count the Number of Houses at a Certain Distance I
 draft: false
 tags: 
+  - leetcode-medium
   - breadth-first-search
   - graph
   - prefix-sum
 date: 2024-01-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-the-number-of-houses-at-a-certain-distance-i/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
                 res[dist - 1] += 2
         
         return res
-
 ```
 

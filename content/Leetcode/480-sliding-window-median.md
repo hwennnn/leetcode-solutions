@@ -2,14 +2,15 @@
 title: 480. Sliding Window Median
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - sliding-window
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2021-09-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/sliding-window-median/)
 
 ## Description
 
@@ -101,6 +102,5 @@ class Solution:
             res.append(median())
             
         return res
-
 ```
 

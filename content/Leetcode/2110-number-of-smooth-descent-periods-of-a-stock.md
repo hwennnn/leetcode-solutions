@@ -2,13 +2,14 @@
 title: 2110. Number of Smooth Descent Periods of a Stock
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - dynamic-programming
 date: 2021-12-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
                 inc[i] = inc[i - 1] + 1
         
         return sum(inc)
-
 ```
 

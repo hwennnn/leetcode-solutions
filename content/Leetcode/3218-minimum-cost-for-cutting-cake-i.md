@@ -2,6 +2,7 @@
 title: 3218. Minimum Cost for Cutting Cake I
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2024-07-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-cost-for-cutting-cake-i/)
 
 ## Description
 
@@ -113,6 +114,5 @@ class Solution:
             return res
         
         return go(0, 0, m, n)
-
 ```
 

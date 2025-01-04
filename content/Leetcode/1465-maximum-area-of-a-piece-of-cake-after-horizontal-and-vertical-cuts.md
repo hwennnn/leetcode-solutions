@@ -2,13 +2,14 @@
 title: 1465. Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
   - sorting
 date: 2022-07-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)
 
 ## Description
 
@@ -81,6 +82,5 @@ class Solution:
             v_diff = max(v_diff, v[i] - v[i - 1])
         
         return (h_diff * v_diff) % M
-
 ```
 

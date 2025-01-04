@@ -2,13 +2,14 @@
 title: 3194. Minimum Average of Smallest and Largest Elements
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - two-pointers
   - sorting
 date: 2024-06-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/)
 
 ## Description
 
@@ -175,6 +176,5 @@ class Solution:
             res = min(res, (nums[i] + nums[~i]) / 2)
         
         return res
-
 ```
 

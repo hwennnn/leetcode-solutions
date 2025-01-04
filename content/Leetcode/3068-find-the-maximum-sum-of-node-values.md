@@ -2,6 +2,7 @@
 title: 3068. Find the Maximum Sum of Node Values
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - greedy
@@ -11,7 +12,7 @@ tags:
 date: 2024-05-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-maximum-sum-of-node-values/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class Solution:
         if cnt % 2 == 0: return bestSum
 
         return bestSum - min(abs(n - (n ^ k)) for n in nums)
-
 ```
 

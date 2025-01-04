@@ -2,6 +2,7 @@
 title: 173. Binary Search Tree Iterator
 draft: false
 tags: 
+  - leetcode-medium
   - stack
   - tree
   - design
@@ -11,7 +12,7 @@ tags:
 date: 2022-06-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/binary-search-tree-iterator/)
 
 ## Description
 
@@ -107,6 +108,5 @@ class BSTIterator:
 # obj = BSTIterator(root)
 # param_1 = obj.next()
 # param_2 = obj.hasNext()
-
 ```
 

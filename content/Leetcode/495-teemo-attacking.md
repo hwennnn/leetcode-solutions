@@ -2,12 +2,13 @@
 title: 495. Teemo Attacking
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - simulation
 date: 2020-09-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/teemo-attacking/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution(object):
         
         return res
         
-
 ```
 

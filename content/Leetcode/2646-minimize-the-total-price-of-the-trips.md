@@ -2,6 +2,7 @@
 title: 2646. Minimize the Total Price of the Trips
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - tree
@@ -10,7 +11,7 @@ tags:
 date: 2023-04-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimize-the-total-price-of-the-trips/)
 
 ## Description
 
@@ -121,6 +122,5 @@ class Solution:
         
         return totalPrice - deduct
        
-
 ```
 

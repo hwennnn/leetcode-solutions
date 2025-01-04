@@ -2,11 +2,12 @@
 title: 1155. Number of Dice Rolls With Target Sum
 draft: false
 tags: 
+  - leetcode-medium
   - dynamic-programming
 date: 2023-12-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
             return res % MOD
         
         return go(0, 0)
-
 ```
 

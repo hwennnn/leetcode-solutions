@@ -2,12 +2,13 @@
 title: 944. Delete Columns to Make Sorted
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - string
 date: 2023-01-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/delete-columns-to-make-sorted/)
 
 ## Description
 
@@ -93,7 +94,6 @@ class Solution:
                     break
         
         return res
-
 
 ```
 

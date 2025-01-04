@@ -2,11 +2,12 @@
 title: 1299. Replace Elements with Greatest Element on Right Side
 draft: false
 tags: 
+  - leetcode-easy
   - array
 date: 2020-12-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/)
 
 ## Description
 
@@ -60,6 +61,5 @@ class Solution:
             A[i],mx = mx, max(A[i], mx)
         
         return A
-
 ```
 

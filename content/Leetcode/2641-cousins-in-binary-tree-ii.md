@@ -2,6 +2,7 @@
 title: 2641. Cousins in Binary Tree II
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - tree
   - depth-first-search
@@ -10,7 +11,7 @@ tags:
 date: 2024-10-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/cousins-in-binary-tree-ii/)
 
 ## Description
 
@@ -99,6 +100,5 @@ class Solution:
         
         return go2(root, None, 0)
             
-
 ```
 

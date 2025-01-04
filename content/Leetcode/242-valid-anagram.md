@@ -2,13 +2,14 @@
 title: 242. Valid Anagram
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - string
   - sorting
 date: 2023-12-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/valid-anagram/)
 
 ## Description
 
@@ -60,6 +61,5 @@ class Solution:
                 return False
         
         return True
-
 ```
 

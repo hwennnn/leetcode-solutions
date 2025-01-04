@@ -2,12 +2,13 @@
 title: 2087. Minimum Cost Homecoming of a Robot in a Grid
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
 date: 2021-11-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/)
 
 ## Description
 
@@ -88,6 +89,5 @@ class Solution:
             res += colCosts[sy]
         
         return res
-
 ```
 

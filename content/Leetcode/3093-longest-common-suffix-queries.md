@@ -2,13 +2,14 @@
 title: 3093. Longest Common Suffix Queries
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - string
   - trie
 date: 2024-03-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-common-suffix-queries/)
 
 ## Description
 
@@ -133,6 +134,5 @@ class Solution:
         
         return res
         
-
 ```
 

@@ -2,11 +2,12 @@
 title: 57. Insert Interval
 draft: false
 tags: 
+  - leetcode-medium
   - array
 date: 2024-08-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/insert-interval/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
                 sx, sy = min(sx, x), max(sy, y)
         
         return left + [[sx, sy]] + right
-
 ```
 

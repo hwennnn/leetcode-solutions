@@ -2,6 +2,7 @@
 title: 995. Minimum Number of K Consecutive Bit Flips
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - bit-manipulation
   - queue
@@ -10,7 +11,7 @@ tags:
 date: 2024-06-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
                 res += 1
         
         return res
-
 ```
 

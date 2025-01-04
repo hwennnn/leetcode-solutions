@@ -2,6 +2,7 @@
 title: 1038. Binary Search Tree to Greater Sum Tree
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - depth-first-search
   - binary-search-tree
@@ -9,7 +10,7 @@ tags:
 date: 2024-06-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/)
 
 ## Description
 
@@ -82,7 +83,6 @@ class Solution:
             return node
         
         return go(root)
-
 
 ```
 

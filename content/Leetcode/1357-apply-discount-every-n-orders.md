@@ -2,13 +2,14 @@
 title: 1357. Apply Discount Every n Orders
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - design
 date: 2020-10-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/apply-discount-every-n-orders/)
 
 ## Description
 
@@ -101,6 +102,5 @@ class Cashier:
 # Your Cashier object will be instantiated and called as such:
 # obj = Cashier(n, discount, products, prices)
 # param_1 = obj.getBill(product,amount)
-
 ```
 

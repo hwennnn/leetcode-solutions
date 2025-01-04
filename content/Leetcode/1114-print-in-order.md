@@ -2,11 +2,12 @@
 title: 1114. Print in Order
 draft: false
 tags: 
+  - leetcode-easy
   - concurrency
 date: 2019-10-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/print-in-order/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Foo:
         with self.exec_condition:
             self.exec_condition.wait_for(self.second_finish)
             printThird()
-
 ```
 

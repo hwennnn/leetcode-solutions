@@ -2,12 +2,13 @@
 title: 3096. Minimum Levels to Gain More Points
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - prefix-sum
 date: 2024-03-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-levels-to-gain-more-points/)
 
 ## Description
 
@@ -107,6 +108,5 @@ class Solution:
                 return i + 1
         
         return -1
-
 ```
 

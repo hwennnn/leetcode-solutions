@@ -2,13 +2,14 @@
 title: 649. Dota2 Senate
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - greedy
   - queue
 date: 2023-05-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/dota2-senate/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
                 d.append(j + N)
         
         return "Radiant" if len(r) > 0 else "Dire"
-
 ```
 

@@ -2,11 +2,12 @@
 title: 2016. Maximum Difference Between Increasing Elements
 draft: false
 tags: 
+  - leetcode-easy
   - array
 date: 2021-09-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-difference-between-increasing-elements/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
                     res = max(res, nums[j] - nums[i])
         
         return res
-
 ```
 

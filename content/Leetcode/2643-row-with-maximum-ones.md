@@ -2,12 +2,13 @@
 title: 2643. Row With Maximum Ones
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - matrix
 date: 2023-04-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/row-with-maximum-ones/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
                 res = [index, ones]
         
         return res
-
 ```
 

@@ -2,13 +2,14 @@
 title: 590. N-ary Tree Postorder Traversal
 draft: false
 tags: 
+  - leetcode-easy
   - stack
   - tree
   - depth-first-search
-date: 2024-12-26
+date: 2020-02-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)
 
 ## Description
 
@@ -72,6 +73,34 @@ class Solution:
 
         go(root)
         return res
-
+```
+### Python
+``` py title='n-ary-tree-postorder-traversal'
+"""
+# Definition for a Node.
+class Node(object):
+    def __init__(self, val=None, children=None):
+        self.val = val
+        self.children = children
+"""
+class Solution(object):
+    def postorder(self, root):
+        """
+        :type root: Node
+        :rtype: List[int]
+        """
+        
+        temp = []
+        if root == None: return temp
+        def recursion(root,temp):
+            for child in root.children:
+                recursion(child,temp)
+            
+            temp.append(root.val)
+            
+        recursion(root,temp)
+        
+        return temp
+            
 ```
 

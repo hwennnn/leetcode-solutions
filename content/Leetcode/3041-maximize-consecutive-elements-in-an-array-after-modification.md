@@ -2,13 +2,14 @@
 title: 3041. Maximize Consecutive Elements in an Array After Modification
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - sorting
 date: 2024-02-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximize-consecutive-elements-in-an-array-after-modification/)
 
 ## Description
 
@@ -64,6 +65,5 @@ class Solution:
             dp[x] = max(dp[x], dp[x - 1] + 1)
         
         return max(dp.values())
-
 ```
 

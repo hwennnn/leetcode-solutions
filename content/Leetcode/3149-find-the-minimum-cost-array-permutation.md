@@ -2,6 +2,7 @@
 title: 3149. Find the Minimum Cost Array Permutation
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - bit-manipulation
@@ -9,7 +10,7 @@ tags:
 date: 2024-05-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-minimum-cost-array-permutation/)
 
 ## Description
 
@@ -98,7 +99,6 @@ class Solution:
             curr = nxt[curr]
         
         return res
-
 
 
 ```

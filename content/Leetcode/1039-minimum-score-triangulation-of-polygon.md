@@ -2,12 +2,13 @@
 title: 1039. Minimum Score Triangulation of Polygon
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
 date: 2022-03-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-score-triangulation-of-polygon/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class Solution:
             return res
         
         return go(0, n - 1)
-
 ```
 

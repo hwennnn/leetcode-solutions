@@ -2,6 +2,7 @@
 title: 368. Largest Divisible Subset
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - dynamic-programming
@@ -9,7 +10,7 @@ tags:
 date: 2024-02-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/largest-divisible-subset/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
             index = parent[index]
 
         return res
-
 ```
 

@@ -2,12 +2,13 @@
 title: 1451. Rearrange Words in a Sentence
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - sorting
 date: 2020-10-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/rearrange-words-in-a-sentence/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
                 text[i] = text[i].lower()
                 
         return " ".join(text)
-
 ```
 

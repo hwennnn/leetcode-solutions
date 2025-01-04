@@ -2,6 +2,7 @@
 title: 522. Longest Uncommon Subsequence II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - two-pointers
@@ -10,7 +11,7 @@ tags:
 date: 2021-08-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-uncommon-subsequence-ii/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
                     if j == i - 1: return len(word)
         
         return -1
-
 ```
 

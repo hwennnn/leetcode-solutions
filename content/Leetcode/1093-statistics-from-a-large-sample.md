@@ -2,13 +2,14 @@
 title: 1093. Statistics from a Large Sample
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - probability-and-statistics
 date: 2021-05-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/statistics-from-a-large-sample/)
 
 ## Description
 
@@ -98,6 +99,5 @@ class Solution:
         median = (l + r) / 2
         
         return [mmin, mmax, mean, median, mode]
-
 ```
 

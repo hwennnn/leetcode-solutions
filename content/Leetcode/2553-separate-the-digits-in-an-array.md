@@ -2,12 +2,13 @@
 title: 2553. Separate the Digits in an Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - simulation
 date: 2023-02-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/separate-the-digits-in-an-array/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
             res += curr[::-1]
         
         return res
-
 ```
 

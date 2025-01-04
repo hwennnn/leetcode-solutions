@@ -2,13 +2,14 @@
 title: 357. Count Numbers with Unique Digits
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - dynamic-programming
   - backtracking
 date: 2022-09-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-numbers-with-unique-digits/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
             return res
         
         return dp(0, True, 0)
-
 ```
 

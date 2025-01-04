@@ -2,6 +2,7 @@
 title: 2300. Successful Pairs of Spells and Potions
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
   - binary-search
@@ -9,7 +10,7 @@ tags:
 date: 2023-04-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
             res.append(M - index)
 
         return res
-
 ```
 

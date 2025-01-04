@@ -2,11 +2,12 @@
 title: 201. Bitwise AND of Numbers Range
 draft: false
 tags: 
+  - leetcode-medium
   - bit-manipulation
 date: 2024-02-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/bitwise-and-of-numbers-range/)
 
 ## Description
 
@@ -58,6 +59,5 @@ class Solution:
             shift += 1
 
         return left << shift
-
 ```
 

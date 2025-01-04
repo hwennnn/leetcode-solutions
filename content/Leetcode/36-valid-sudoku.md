@@ -2,13 +2,14 @@
 title: 36. Valid Sudoku
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - matrix
 date: 2022-11-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/valid-sudoku/)
 
 ## Description
 
@@ -95,6 +96,5 @@ class Solution:
                     usedRow[i][num] = usedCol[j][num] = usedSec[k][num] = True
         
         return True
-
 ```
 

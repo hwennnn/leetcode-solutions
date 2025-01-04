@@ -2,12 +2,13 @@
 title: 2373. Largest Local Values in a Matrix
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - matrix
 date: 2024-05-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/largest-local-values-in-a-matrix/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
                 res[i][j] = currMax
 
         return res
-
 ```
 

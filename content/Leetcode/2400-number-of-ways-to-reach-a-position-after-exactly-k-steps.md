@@ -2,13 +2,14 @@
 title: 2400. Number of Ways to Reach a Position After Exactly k Steps
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - dynamic-programming
   - combinatorics
 date: 2022-09-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
             return (dfs(pos + 1, steps + 1) + dfs(pos - 1, steps + 1)) % M
     
         return dfs(startPos, 0)
-
 ```
 

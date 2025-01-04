@@ -2,6 +2,7 @@
 title: 1857. Largest Color Value in a Directed Graph
 draft: false
 tags: 
+  - leetcode-hard
   - hash-table
   - dynamic-programming
   - graph
@@ -11,7 +12,7 @@ tags:
 date: 2023-04-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/largest-color-value-in-a-directed-graph/)
 
 ## Description
 
@@ -94,6 +95,5 @@ class Solution:
             res = max(res, max(counts[node]))
         
         return res if visited == N else -1
-
 ```
 

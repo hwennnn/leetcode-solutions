@@ -2,16 +2,17 @@
 title: 1686. Stone Game VI
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - greedy
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
   - game-theory
 date: 2020-12-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/stone-game-vi/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
         p2 = sum(b for (_,b) in res[-2::-2])
         
         return 1 if p1 > p2 else 0 if p1 == p2 else -1
-
 ```
 

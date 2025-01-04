@@ -2,6 +2,7 @@
 title: 331. Verify Preorder Serialization of a Binary Tree
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - stack
   - tree
@@ -9,7 +10,7 @@ tags:
 date: 2021-08-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/)
 
 ## Description
 
@@ -67,6 +68,5 @@ class Solution:
                 diff += 2
         
         return diff == 0
-
 ```
 

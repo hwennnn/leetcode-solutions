@@ -2,13 +2,14 @@
 title: 609. Find Duplicate File in System
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - string
 date: 2022-09-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-duplicate-file-in-system/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
                 contents[content].append(directory + "/" + fileName)
     
         return [content for content in contents.values() if len(content) > 1]
-
 ```
 

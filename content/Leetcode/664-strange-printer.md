@@ -2,12 +2,13 @@
 title: 664. Strange Printer
 draft: false
 tags: 
+  - leetcode-hard
   - string
   - dynamic-programming
 date: 2024-08-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/strange-printer/)
 
 ## Description
 
@@ -68,7 +69,6 @@ class Solution:
             return res - 1 if s[i] == s[j] else res
         
         return go(0, len(s) - 1)
-
 
 
 ```

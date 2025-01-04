@@ -2,6 +2,7 @@
 title: 2831. Find the Longest Equal Subarray
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - binary-search
@@ -9,7 +10,7 @@ tags:
 date: 2023-08-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-longest-equal-subarray/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
                 res = max(res, j - i + 1)
         
         return res
-
 ```
 

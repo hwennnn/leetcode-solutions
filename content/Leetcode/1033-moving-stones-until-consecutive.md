@@ -2,12 +2,13 @@
 title: 1033. Moving Stones Until Consecutive
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - brainteaser
 date: 2021-09-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/moving-stones-until-consecutive/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
         a, b, c = A
         if c - a == 2: return [0, 0]
         return [1 if min(c - b, b - a) <= 2 else 2, c - a - 2]
-
 ```
 

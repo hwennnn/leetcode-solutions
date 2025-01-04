@@ -2,13 +2,14 @@
 title: 2216. Minimum Deletions to Make Array Beautiful
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - stack
   - greedy
 date: 2022-03-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-deletions-to-make-array-beautiful/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
                 prev = x
         
         return n - valid
-
 ```
 

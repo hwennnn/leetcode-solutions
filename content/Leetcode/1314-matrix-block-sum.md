@@ -2,13 +2,14 @@
 title: 1314. Matrix Block Sum
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - matrix
   - prefix-sum
 date: 2021-09-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/matrix-block-sum/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
         return mat
         
     
-
 ```
 

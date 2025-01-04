@@ -2,13 +2,14 @@
 title: 2527. Find Xor-Beauty of Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - bit-manipulation
 date: 2023-01-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-xor-beauty-of-array/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
             res ^= x
         
         return res
-
 ```
 

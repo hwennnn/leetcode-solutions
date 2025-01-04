@@ -2,6 +2,7 @@
 title: 2234. Maximum Total Beauty of the Gardens
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - two-pointers
   - binary-search
@@ -10,7 +11,7 @@ tags:
 date: 2022-04-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-total-beauty-of-the-gardens/)
 
 ## Description
 
@@ -112,6 +113,5 @@ class Solution:
             j -= 1
             
         return res
-
 ```
 

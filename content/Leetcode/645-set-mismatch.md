@@ -2,6 +2,7 @@
 title: 645. Set Mismatch
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - bit-manipulation
@@ -9,7 +10,7 @@ tags:
 date: 2024-01-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/set-mismatch/)
 
 ## Description
 
@@ -61,6 +62,5 @@ class Solution:
                 return res
         
         return res
-
 ```
 

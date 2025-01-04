@@ -2,17 +2,18 @@
 title: 2398. Maximum Number of Robots Within Budget
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - queue
   - sliding-window
-  - heap-(priority-queue)
+  - heap-priority-queue
   - prefix-sum
   - monotonic-queue
 date: 2022-09-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-number-of-robots-within-budget/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
             res = max(res, j - i + 1)
         
         return res
-
 ```
 

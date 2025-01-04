@@ -2,13 +2,14 @@
 title: 437. Path Sum III
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - depth-first-search
   - binary-tree
 date: 2022-06-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/path-sum-iii/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
         go(root, 0)
         
         return res
-
 ```
 

@@ -2,6 +2,7 @@
 title: 2367. Number of Arithmetic Triplets
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - two-pointers
@@ -9,7 +10,7 @@ tags:
 date: 2022-09-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-arithmetic-triplets/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
                         res += 1
         
         return res
-
 ```
 

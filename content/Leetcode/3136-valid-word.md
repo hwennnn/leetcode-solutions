@@ -2,11 +2,12 @@
 title: 3136. Valid Word
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2024-05-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/valid-word/)
 
 ## Description
 
@@ -100,6 +101,5 @@ class Solution:
                 return False
         
         return N >= 3 and v >= 1 and c >= 1
-
 ```
 

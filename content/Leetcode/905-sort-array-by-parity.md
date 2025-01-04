@@ -2,13 +2,14 @@
 title: 905. Sort Array By Parity
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - two-pointers
   - sorting
-date: 2023-09-28
+date: 2020-08-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/sort-array-by-parity/)
 
 ## Description
 
@@ -57,6 +58,16 @@ class Solution:
                 i += 1
         
         return nums
-
+```
+### C++
+``` cpp title='sort-array-by-parity'
+class Solution {
+public:
+    vector<int> sortArrayByParity(vector<int> &A) {
+        for (int i = 0, j = 0; j < A.size(); j++)
+            if (A[j] % 2 == 0) swap(A[i++], A[j]);
+        return A;
+    }
+};
 ```
 

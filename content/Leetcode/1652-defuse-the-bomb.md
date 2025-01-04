@@ -2,12 +2,13 @@
 title: 1652. Defuse the Bomb
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - sliding-window
 date: 2024-11-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/defuse-the-bomb/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
             res.append(num)
         
         return res
-
 ```
 

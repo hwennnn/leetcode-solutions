@@ -2,6 +2,7 @@
 title: 2499. Minimum Total Cost to Make Arrays Unequal
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2022-12-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-total-cost-to-make-arrays-unequal/)
 
 ## Description
 
@@ -101,7 +102,6 @@ class Solution:
             return -1
         
         return res
-
 
 ```
 

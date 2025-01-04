@@ -2,13 +2,14 @@
 title: 1781. Sum of Beauty of All Substrings
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - counting
 date: 2021-04-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/sum-of-beauty-of-all-substrings/)
 
 ## Description
 
@@ -63,6 +64,5 @@ class Solution:
                 res += max(v) - min(v)
         
         return res
-
 ```
 

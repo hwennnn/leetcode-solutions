@@ -2,13 +2,14 @@
 title: 1835. Find XOR Sum of All Pairs Bitwise AND
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - math
   - bit-manipulation
 date: 2021-04-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-xor-sum-of-all-pairs-bitwise-and/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
             xorb ^= num
         
         return xora & xorb
-
 ```
 

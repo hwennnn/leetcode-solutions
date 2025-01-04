@@ -2,13 +2,14 @@
 title: 2451. Odd String Difference
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - string
 date: 2022-10-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/odd-string-difference/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
         for k, v in diff.items():
             if len(v) == 1:
                 return v[0]
-
 ```
 

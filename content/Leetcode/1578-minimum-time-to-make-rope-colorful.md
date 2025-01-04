@@ -2,6 +2,7 @@
 title: 1578. Minimum Time to Make Rope Colorful
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - string
   - dynamic-programming
@@ -9,7 +10,7 @@ tags:
 date: 2023-12-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
         res += total - mmax
     
         return res
-
 ```
 

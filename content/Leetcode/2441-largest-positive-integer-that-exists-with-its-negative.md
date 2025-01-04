@@ -2,6 +2,7 @@
 title: 2441. Largest Positive Integer That Exists With Its Negative
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - two-pointers
@@ -9,7 +10,7 @@ tags:
 date: 2024-05-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
                 s.add(x)
         
         return res
-
 ```
 

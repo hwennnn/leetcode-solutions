@@ -2,12 +2,13 @@
 title: 972. Equal Rational Numbers
 draft: false
 tags: 
+  - leetcode-hard
   - math
   - string
 date: 2022-02-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/equal-rational-numbers/)
 
 ## Description
 
@@ -138,6 +139,5 @@ class Solution:
             
         
         
-
 ```
 

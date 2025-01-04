@@ -2,6 +2,7 @@
 title: 1255. Maximum Score Words Formed by Letters
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - string
   - dynamic-programming
@@ -11,7 +12,7 @@ tags:
 date: 2024-05-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-score-words-formed-by-letters/)
 
 ## Description
 
@@ -101,6 +102,5 @@ class Solution:
 
         backtrack(0, 0)
         return res
-
 ```
 

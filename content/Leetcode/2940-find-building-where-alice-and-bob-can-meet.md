@@ -2,17 +2,18 @@
 title: 2940. Find Building Where Alice and Bob Can Meet
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - stack
   - binary-indexed-tree
   - segment-tree
-  - heap-(priority-queue)
+  - heap-priority-queue
   - monotonic-stack
 date: 2024-12-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-building-where-alice-and-bob-can-meet/)
 
 ## Description
 
@@ -98,6 +99,5 @@ class Solution:
                 heappush(pq, (h, j))
 
         return res
-
 ```
 

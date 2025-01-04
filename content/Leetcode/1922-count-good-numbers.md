@@ -2,12 +2,13 @@
 title: 1922. Count Good Numbers
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - recursion
 date: 2021-07-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-good-numbers/)
 
 ## Description
 
@@ -77,6 +78,33 @@ class Solution:
         return (ipower(5, even) * ipower(4, odd)) % M
         
         
-
+```
+### C++
+``` cpp title='count-good-numbers'
+class Solution {
+public:
+    int M = 1e9 + 7;
+    
+    long long power(long long base, long long exp){
+        if (exp == 0) return 1;
+        
+        long long res = power(base, exp / 2) % M;
+        
+        res *= res;
+        res %= M;
+        
+        if (exp & 1)
+            res *= base;
+        res %= M;
+        
+        return res;
+    }
+    int countGoodNumbers(long long n) {
+        long long even = (n + 1) / 2;
+        long long odd = n - even;
+        
+        return (power(5, even) * power(4, odd)) % M;
+    }
+};
 ```
 

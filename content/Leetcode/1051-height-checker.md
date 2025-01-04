@@ -2,13 +2,14 @@
 title: 1051. Height Checker
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - sorting
   - counting-sort
-date: 2024-06-10
+date: 2020-02-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/height-checker/)
 
 ## Description
 
@@ -70,6 +71,17 @@ All indices match.
 class Solution:
     def heightChecker(self, heights: List[int]) -> int:
         return sum(1 for a, b in zip(heights, sorted(heights)) if a != b)
-
+```
+### Python
+``` py title='height-checker'
+class Solution(object):
+    def heightChecker(self, heights):
+        """
+        :type heights: List[int]
+        :rtype: int
+        """
+        
+        return sum([sum1 != sum2 for sum1,sum2 in zip(heights,sorted(heights))])
+        
 ```
 

@@ -2,6 +2,7 @@
 title: 3113. Find the Number of Subarrays Where Boundary Elements Are Maximum
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - stack
@@ -9,7 +10,7 @@ tags:
 date: 2024-04-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-number-of-subarrays-where-boundary-elements-are-maximum/)
 
 ## Description
 
@@ -111,6 +112,5 @@ class Solution:
             res += stack[-1][1]
         
         return res
-
 ```
 

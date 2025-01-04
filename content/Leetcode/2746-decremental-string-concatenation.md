@@ -2,13 +2,14 @@
 title: 2746. Decremental String Concatenation
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - string
   - dynamic-programming
 date: 2023-08-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/decremental-string-concatenation/)
 
 ## Description
 
@@ -103,6 +104,5 @@ class Solution:
             
         
         return len(words[0]) + go(1, words[0][0], words[0][-1])
-
 ```
 

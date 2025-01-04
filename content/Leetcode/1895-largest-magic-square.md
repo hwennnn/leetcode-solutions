@@ -2,13 +2,14 @@
 title: 1895. Largest Magic Square
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - matrix
   - prefix-sum
 date: 2021-06-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/largest-magic-square/)
 
 ## Description
 
@@ -101,6 +102,5 @@ class Solution:
                 dfs(i, j, 1)
         
         return self.res
-
 ```
 

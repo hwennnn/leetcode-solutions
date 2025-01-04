@@ -2,6 +2,7 @@
 title: 2981. Find Longest Special Substring That Occurs Thrice I
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - binary-search
@@ -10,7 +11,7 @@ tags:
 date: 2024-12-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i/)
 
 ## Description
 
@@ -102,6 +103,5 @@ class Solution:
         if left == 0: return -1
 
         return left
-
 ```
 

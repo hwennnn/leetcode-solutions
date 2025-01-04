@@ -2,13 +2,14 @@
 title: 45. Jump Game II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - greedy
 date: 2023-08-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/jump-game-ii/)
 
 ## Description
 
@@ -70,7 +71,6 @@ class Solution:
             end = maxSoFar
         
         return count
-
 
 ```
 

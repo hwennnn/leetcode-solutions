@@ -2,6 +2,7 @@
 title: 2540. Minimum Common Value
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - two-pointers
@@ -9,7 +10,7 @@ tags:
 date: 2024-03-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-common-value/)
 
 ## Description
 
@@ -65,6 +66,5 @@ class Solution:
                 return nums1[i]
         
         return -1
-
 ```
 

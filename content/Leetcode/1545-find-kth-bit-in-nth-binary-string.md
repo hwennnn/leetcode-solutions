@@ -2,13 +2,14 @@
 title: 1545. Find Kth Bit in Nth Binary String
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - recursion
   - simulation
 date: 2024-10-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
             return go(x - 1) + "1" + r[::-1]
         
         return go(n)[k - 1]
-
 ```
 

@@ -2,13 +2,14 @@
 title: 392. Is Subsequence
 draft: false
 tags: 
+  - leetcode-easy
   - two-pointers
   - string
   - dynamic-programming
 date: 2023-09-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/is-subsequence/)
 
 ## Description
 
@@ -56,6 +57,5 @@ class Solution:
             if i == N: break
             
         return i == N
-
 ```
 

@@ -2,13 +2,14 @@
 title: 2150. Find All Lonely Numbers in the Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - counting
 date: 2022-01-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
                 res.append(x)
         
         return res
-
 ```
 

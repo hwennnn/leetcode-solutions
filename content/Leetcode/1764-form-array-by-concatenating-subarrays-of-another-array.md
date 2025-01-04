@@ -2,6 +2,7 @@
 title: 1764. Form Array by Concatenating Subarrays of Another Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2021-04-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/form-array-by-concatenating-subarrays-of-another-array/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
                 return False
         
         return True
-
 ```
 

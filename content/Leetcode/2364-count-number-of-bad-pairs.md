@@ -2,6 +2,7 @@
 title: 2364. Count Number of Bad Pairs
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - math
@@ -9,7 +10,7 @@ tags:
 date: 2022-08-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-number-of-bad-pairs/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
             mp[x - i] += 1
         
         return total - good
-
 ```
 

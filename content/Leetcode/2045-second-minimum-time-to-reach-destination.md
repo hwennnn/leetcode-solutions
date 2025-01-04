@@ -2,13 +2,14 @@
 title: 2045. Second Minimum Time to Reach Destination
 draft: false
 tags: 
+  - leetcode-hard
   - breadth-first-search
   - graph
   - shortest-path
-date: 2024-08-02
+date: 2024-07-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/second-minimum-time-to-reach-destination/)
 
 ## Description
 
@@ -114,6 +115,50 @@ class Solution:
                     heappush(pq, (d + time, adj))
                 else:
                     heappush(pq, (((d // change) + 1) * change + time, adj))
-
+```
+### C++
+``` cpp title='second-minimum-time-to-reach-destination'
+class Solution {
+public:
+    const int INF = 1e9;
+    int secondMinimum(int n, vector<vector<int>>& edges, int time, int change) {
+        vector<vector<int>> adj(n);
+        for (auto &edge : edges){
+            int u = edge[0] - 1, v = edge[1] - 1;
+            adj[u].push_back(v);
+            adj[v].push_back(u);
+        }
+        priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> min_heap;
+        vector<pair<int, int>> dist(n, {INF, INF});
+        dist[0].first = 0;
+        min_heap.push({0, 0});
+        while (min_heap.size()){
+            auto [tin, u] = min_heap.top();
+            min_heap.pop();
+            if (tin != dist[u].first && tin != dist[u].second){
+                continue;
+            }
+            if (u == n - 1 && tin == dist[u].second){
+                return tin;
+            }
+            int m = tin / change;
+            if (m & 1){
+                tin = (m + 1) * change;
+            }
+            int tout = tin + time;
+            for (auto &v : adj[u]){
+                if (tout < dist[v].first){
+                    dist[v].first = tout;
+                    min_heap.push({tout, v});
+                }
+                else if (tout != dist[v].first && tout < dist[v].second){
+                    dist[v].second = tout;
+                    min_heap.push({tout, v});
+                }
+            }
+        }
+        return -1;
+    }
+};
 ```
 

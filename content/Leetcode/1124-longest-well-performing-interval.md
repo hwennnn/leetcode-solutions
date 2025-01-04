@@ -2,6 +2,7 @@
 title: 1124. Longest Well-Performing Interval
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - stack
@@ -10,7 +11,7 @@ tags:
 date: 2021-05-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-well-performing-interval/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
                 res = max(res, i - seen[v - 1])
         
         return res
-
 ```
 

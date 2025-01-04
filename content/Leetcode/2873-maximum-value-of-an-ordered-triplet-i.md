@@ -2,11 +2,12 @@
 title: 2873. Maximum Value of an Ordered Triplet I
 draft: false
 tags: 
+  - leetcode-easy
   - array
 date: 2023-10-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
             res = max(res, (leftMax[i - 1] - nums[i]) * rightMax[i + 1])
         
         return res
-
 ```
 

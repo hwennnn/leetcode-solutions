@@ -2,6 +2,7 @@
 title: 287. Find the Duplicate Number
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
   - binary-search
@@ -9,7 +10,7 @@ tags:
 date: 2024-03-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-duplicate-number/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
             fast = nums[fast]
         
         return slow
-
 ```
 

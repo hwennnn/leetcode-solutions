@@ -2,11 +2,12 @@
 title: 1291. Sequential Digits
 draft: false
 tags: 
+  - leetcode-medium
   - enumeration
 date: 2024-02-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/sequential-digits/)
 
 ## Description
 
@@ -50,7 +51,6 @@ class Solution:
                 queue.append(x * 10 + last + 1)
         
         return res
-
 
 ```
 

@@ -2,6 +2,7 @@
 title: 2258. Escape the Spreading Fire
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - breadth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2022-05-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/escape-the-spreading-fire/)
 
 ## Description
 
@@ -136,7 +137,6 @@ class Solution:
             return 0 if good(0) else -1
                 
         return left
-
 
 ```
 

@@ -2,6 +2,7 @@
 title: 1679. Max Number of K-Sum Pairs
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - two-pointers
@@ -9,7 +10,7 @@ tags:
 date: 2022-09-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/max-number-of-k-sum-pairs/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
             res += d
         
         return res // 2
-
 ```
 

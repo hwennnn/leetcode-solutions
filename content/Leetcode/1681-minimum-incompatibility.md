@@ -2,6 +2,7 @@
 title: 1681. Minimum Incompatibility
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - bit-manipulation
@@ -9,7 +10,7 @@ tags:
 date: 2022-01-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-incompatibility/)
 
 ## Description
 
@@ -105,6 +106,5 @@ class Solution:
         ans = go((1 << n) - 1)
         
         return -1 if ans == float('inf') else ans
-
 ```
 

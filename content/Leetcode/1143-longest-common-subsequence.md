@@ -2,12 +2,13 @@
 title: 1143. Longest Common Subsequence
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - dynamic-programming
 date: 2024-01-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-common-subsequence/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
             return max(go(i + 1, j), go(i, j + 1))
         
         return go(0, 0)
-
 ```
 

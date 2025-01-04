@@ -2,12 +2,13 @@
 title: 771. Jewels and Stones
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - string
-date: 2020-02-21
+date: 2019-10-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/jewels-and-stones/)
 
 ## Description
 
@@ -43,6 +44,25 @@ class Solution:
     def numJewelsInStones(self, J: str, S: str) -> int:
         
         return sum([i in J for i in S])
-
+```
+### Python
+``` py title='jewels-and-stones'
+class Solution(object):
+    def numJewelsInStones(self, J, S):
+        """
+        :type J: str
+        :type S: str
+        :rtype: int
+        """
+        lst = []
+        for i in J:
+            lst.append(i)
+        count=0
+        
+        for i in S:
+            if i in lst:
+                count+=1
+        return count
+            
 ```
 

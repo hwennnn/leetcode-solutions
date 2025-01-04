@@ -2,13 +2,14 @@
 title: 1297. Maximum Number of Occurrences of a Substring
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - sliding-window
 date: 2020-12-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/)
 
 ## Description
 
@@ -62,6 +63,5 @@ class Solution:
             count[s[i:i+k]] += 1
         
         return max([count[w] for w in count if len(set(w)) <= maxLetters] + [0])
-
 ```
 

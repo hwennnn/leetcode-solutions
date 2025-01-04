@@ -2,6 +2,7 @@
 title: 843. Guess the Word
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - math
   - string
@@ -10,7 +11,7 @@ tags:
 date: 2022-12-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/guess-the-word/)
 
 ## Description
 
@@ -108,6 +109,5 @@ class Solution:
 
             words = temp
             i += 1
-
 ```
 

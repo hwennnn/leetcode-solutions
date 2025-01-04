@@ -2,12 +2,13 @@
 title: 2413. Smallest Even Multiple
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - number-theory
 date: 2022-09-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/smallest-even-multiple/)
 
 ## Description
 
@@ -48,6 +49,5 @@ class Solution:
         if n % 2 == 0: return n
         
         return n * 2
-
 ```
 

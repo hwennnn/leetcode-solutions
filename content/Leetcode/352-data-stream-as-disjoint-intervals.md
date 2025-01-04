@@ -2,13 +2,14 @@
 title: 352. Data Stream as Disjoint Intervals
 draft: false
 tags: 
+  - leetcode-hard
   - binary-search
   - design
   - ordered-set
 date: 2023-01-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)
 
 ## Description
 
@@ -112,7 +113,6 @@ class SummaryRanges:
 
     def getIntervals(self) -> List[List[int]]:
         return sorted(self.dsu.intervals.values())
-
 
 ```
 

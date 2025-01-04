@@ -2,12 +2,13 @@
 title: 1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - greedy
 date: 2020-10-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
             i -= 1
         
         return res
-
 ```
 

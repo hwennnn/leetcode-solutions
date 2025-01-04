@@ -2,12 +2,13 @@
 title: 1480. Running Sum of 1d Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - prefix-sum
 date: 2022-07-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/running-sum-of-1d-array/)
 
 ## Description
 
@@ -60,6 +61,5 @@ class Solution:
             nums[i] += nums[i - 1]
         
         return nums
-
 ```
 

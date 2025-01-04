@@ -2,11 +2,12 @@
 title: 2194. Cells in a Range on an Excel Sheet
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2022-03-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
                 res.append(chr(c) + chr(r))
         
         return res
-
 ```
 

@@ -2,6 +2,7 @@
 title: 363. Max Sum of Rectangle No Larger Than K
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - matrix
@@ -10,7 +11,7 @@ tags:
 date: 2022-08-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class Solution:
                     sl.add(curr)
 
         return res
-
 ```
 

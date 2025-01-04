@@ -2,13 +2,14 @@
 title: 872. Leaf-Similar Trees
 draft: false
 tags: 
+  - leetcode-easy
   - tree
   - depth-first-search
   - binary-tree
 date: 2024-01-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/leaf-similar-trees/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
             return res
         
         return getLeaves(root1) == getLeaves(root2)
-
 ```
 

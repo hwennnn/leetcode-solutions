@@ -2,13 +2,14 @@
 title: 2208. Minimum Operations to Halve Array Sum
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2022-03-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-operations-to-halve-array-sum/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
         
         return res
         
-
 ```
 

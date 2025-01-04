@@ -2,6 +2,7 @@
 title: 96. Unique Binary Search Trees
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - dynamic-programming
   - tree
@@ -10,7 +11,7 @@ tags:
 date: 2021-11-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/unique-binary-search-trees/)
 
 ## Description
 
@@ -60,6 +61,5 @@ class Solution:
             return res
         
         return go(n)
-
 ```
 

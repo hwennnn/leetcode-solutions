@@ -2,14 +2,15 @@
 title: 1514. Path with Maximum Probability
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - graph
-  - heap-(priority-queue)
+  - heap-priority-queue
   - shortest-path
 date: 2024-12-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/path-with-maximum-probability/)
 
 ## Description
 
@@ -96,6 +97,5 @@ class Solution:
                     heappush(pq, (-newProb, adj))
         
         return dist[end_node]
-
 ```
 

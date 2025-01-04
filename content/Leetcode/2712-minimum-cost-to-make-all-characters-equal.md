@@ -2,13 +2,14 @@
 title: 2712. Minimum Cost to Make All Characters Equal
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - dynamic-programming
   - greedy
 date: 2023-05-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-cost-to-make-all-characters-equal/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
                 res += min(i, N - i)
         
         return res
-
 ```
 

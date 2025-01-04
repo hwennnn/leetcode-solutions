@@ -2,13 +2,14 @@
 title: 1901. Find a Peak Element II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
   - matrix
 date: 2022-04-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-a-peak-element-ii/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
                 top = mid + 1
                 
         return [bottom, mat[bottom].index(max(mat[bottom]))]
-
 ```
 

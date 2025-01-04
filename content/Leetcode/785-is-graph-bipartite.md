@@ -2,6 +2,7 @@
 title: 785. Is Graph Bipartite?
 draft: false
 tags: 
+  - leetcode-medium
   - depth-first-search
   - breadth-first-search
   - union-find
@@ -9,7 +10,7 @@ tags:
 date: 2023-05-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/is-graph-bipartite/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
                     return False
         
         return True
-
 ```
 

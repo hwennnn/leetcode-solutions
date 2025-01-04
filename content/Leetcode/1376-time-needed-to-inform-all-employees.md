@@ -2,13 +2,14 @@
 title: 1376. Time Needed to Inform All Employees
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - depth-first-search
   - breadth-first-search
 date: 2023-06-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/time-needed-to-inform-all-employees/)
 
 ## Description
 
@@ -81,6 +82,5 @@ class Solution:
             return informTime[x] + maxTime
         
         return go(headID)
-
 ```
 

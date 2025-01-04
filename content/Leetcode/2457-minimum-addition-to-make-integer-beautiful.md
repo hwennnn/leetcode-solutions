@@ -2,12 +2,13 @@
 title: 2457. Minimum Addition to Make Integer Beautiful
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - greedy
 date: 2022-10-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-addition-to-make-integer-beautiful/)
 
 ## Description
 
@@ -93,6 +94,5 @@ class Solution:
         go(N - 1, n)
         return res
         
-
 ```
 

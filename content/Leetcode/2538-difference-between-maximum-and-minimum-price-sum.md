@@ -2,6 +2,7 @@
 title: 2538. Difference Between Maximum and Minimum Price Sum
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - tree
@@ -9,7 +10,7 @@ tags:
 date: 2023-03-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/difference-between-maximum-and-minimum-price-sum/)
 
 ## Description
 
@@ -116,6 +117,5 @@ class Solution:
         
         dfs2(0, -1, 0)
         return res
-
 ```
 

@@ -2,6 +2,7 @@
 title: 111. Minimum Depth of Binary Tree
 draft: false
 tags: 
+  - leetcode-easy
   - tree
   - depth-first-search
   - breadth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2023-07-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
                 for n in (node.left,node.right):
                     if n:
                         q.append([n, level + 1])
-
 ```
 

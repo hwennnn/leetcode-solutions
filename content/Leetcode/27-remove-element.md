@@ -2,12 +2,13 @@
 title: 27. Remove Element
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - two-pointers
 date: 2020-03-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/remove-element/)
 
 ## Description
 
@@ -88,6 +89,5 @@ class Solution:
                 count += 1
         
         return count
-
 ```
 

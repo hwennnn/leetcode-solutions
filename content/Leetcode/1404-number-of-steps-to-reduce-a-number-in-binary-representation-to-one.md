@@ -2,12 +2,13 @@
 title: 1404. Number of Steps to Reduce a Number in Binary Representation to One
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - bit-manipulation
-date: 2024-05-29
+date: 2020-08-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/)
 
 ## Description
 
@@ -86,6 +87,31 @@ class Solution:
                 res += 1
 
         return res + carry
-
+```
+### C++
+``` cpp title='number-of-steps-to-reduce-a-number-in-binary-representation-to-one'
+class Solution { // my own simulation 
+public:
+    int numSteps(string s) {        
+        int ans = 0;
+        while(s!="1"){
+            const int n = s.size();
+            if(s[n-1]=='0'){       // using right shift to simulate divide in binary          
+               // s=s.substr(0,n-1); //ok
+                s.pop_back(); // better
+            }else{                 // binary addition
+                int i = n - 1;
+                for(; i>=0 && s[i]!='0'; i--) s[i]='0';
+                if(i>= 0) s[i]='1';
+                else 
+                    s = '1'+s;
+                    //s.insert(s.begin(), '1'); //ok
+                    //s.insert(0, 1,'1'); //ok
+            }
+            ans++;
+        }
+        return ans;
+    }
+}; 
 ```
 

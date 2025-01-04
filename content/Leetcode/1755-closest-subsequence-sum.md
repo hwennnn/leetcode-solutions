@@ -2,6 +2,7 @@
 title: 1755. Closest Subsequence Sum
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - two-pointers
   - dynamic-programming
@@ -10,7 +11,7 @@ tags:
 date: 2021-10-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/closest-subsequence-sum/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class Solution:
                     res = min(res, abs(x + s2[p] - goal))
         
         return res
-
 ```
 

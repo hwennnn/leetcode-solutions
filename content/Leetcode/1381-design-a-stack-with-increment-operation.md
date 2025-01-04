@@ -2,13 +2,14 @@
 title: 1381. Design a Stack With Increment Operation
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - stack
   - design
 date: 2025-01-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/design-a-stack-with-increment-operation/)
 
 ## Description
 
@@ -95,6 +96,5 @@ class CustomStack:
 # obj.push(x)
 # param_2 = obj.pop()
 # obj.increment(k,val)
-
 ```
 

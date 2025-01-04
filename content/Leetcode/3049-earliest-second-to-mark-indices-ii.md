@@ -2,14 +2,15 @@
 title: 3049. Earliest Second to Mark Indices II
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - greedy
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2024-02-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/earliest-second-to-mark-indices-ii/)
 
 ## Description
 
@@ -136,6 +137,5 @@ class Solution:
         if left == M + 1: return -1
         
         return left
-
 ```
 

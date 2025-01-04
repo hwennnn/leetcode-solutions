@@ -2,12 +2,13 @@
 title: 1502. Can Make Arithmetic Progression From Sequence
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - sorting
 date: 2023-06-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)
 
 ## Description
 
@@ -58,6 +59,5 @@ class Solution:
             if d != diff: return False
         
         return True
-
 ```
 

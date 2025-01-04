@@ -2,11 +2,12 @@
 title: 1108. Defanging an IP Address
 draft: false
 tags: 
+  - leetcode-easy
   - string
-date: 2021-05-23
+date: 2019-10-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/defanging-an-ip-address/)
 
 ## Description
 
@@ -40,6 +41,17 @@ class Solution:
         address = address.replace('.', '[.]')
         
         return address
-
+```
+### Python
+``` py title='defanging-an-ip-address'
+class Solution(object):
+    def defangIPaddr(self, address):
+        """
+        :type address: str
+        :rtype: str
+        """
+        return address.replace('.',"[.]")
+        
+        
 ```
 

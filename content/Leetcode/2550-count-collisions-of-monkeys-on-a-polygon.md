@@ -2,12 +2,13 @@
 title: 2550. Count Collisions of Monkeys on a Polygon
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - recursion
 date: 2023-01-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-collisions-of-monkeys-on-a-polygon/)
 
 ## Description
 
@@ -63,6 +64,5 @@ class Solution:
         MOD = 10 ** 9 + 7
         
         return (pow(2, n, MOD) - 2) % MOD
-
 ```
 

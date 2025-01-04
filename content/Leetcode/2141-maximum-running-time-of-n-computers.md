@@ -2,6 +2,7 @@
 title: 2141. Maximum Running Time of N Computers
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2023-07-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-running-time-of-n-computers/)
 
 ## Description
 
@@ -92,6 +93,5 @@ class Solution:
                 right = mid - 1
 
         return left
-
 ```
 

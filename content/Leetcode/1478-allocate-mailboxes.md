@@ -2,6 +2,7 @@
 title: 1478. Allocate Mailboxes
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - math
   - dynamic-programming
@@ -9,7 +10,7 @@ tags:
 date: 2024-03-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/allocate-mailboxes/)
 
 ## Description
 
@@ -80,7 +81,6 @@ class Solution:
             return res
         
         return go(0, k)
-
 
 ```
 

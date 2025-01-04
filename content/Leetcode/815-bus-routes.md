@@ -2,13 +2,14 @@
 title: 815. Bus Routes
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - breadth-first-search
 date: 2023-11-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/bus-routes/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
                 routes[adj] = []
         
         return -1
-
 ```
 

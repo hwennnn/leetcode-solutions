@@ -2,12 +2,13 @@
 title: 25. Reverse Nodes in k-Group
 draft: false
 tags: 
+  - leetcode-hard
   - linked-list
   - recursion
 date: 2021-09-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/reverse-nodes-in-k-group/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
             else:
                 return res.next
             
-
 ```
 

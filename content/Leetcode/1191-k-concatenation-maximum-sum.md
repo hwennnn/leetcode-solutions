@@ -2,12 +2,13 @@
 title: 1191. K-Concatenation Maximum Sum
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
 date: 2021-04-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/k-concatenation-maximum-sum/)
 
 ## Description
 
@@ -67,6 +68,5 @@ class Solution:
             return res
         
         return ((k - 2) * max(sum(arr), 0) + kadane(arr * 2) if k > 1 else kadane(arr)) % M
-
 ```
 

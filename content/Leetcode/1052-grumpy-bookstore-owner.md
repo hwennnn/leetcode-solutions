@@ -2,12 +2,13 @@
 title: 1052. Grumpy Bookstore Owner
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - sliding-window
 date: 2024-06-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/grumpy-bookstore-owner/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
             mmax = max(mmax, curr)
 
         return res + mmax
-
 ```
 

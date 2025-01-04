@@ -2,15 +2,16 @@
 title: 2402. Meeting Rooms III
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
   - simulation
 date: 2024-02-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/meeting-rooms-iii/)
 
 ## Description
 
@@ -103,6 +104,5 @@ class Solution:
             usedCount[r] += 1
             
         return usedCount.index(max(usedCount))
-
 ```
 

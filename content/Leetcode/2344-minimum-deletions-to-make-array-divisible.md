@@ -2,15 +2,16 @@
 title: 2344. Minimum Deletions to Make Array Divisible
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - math
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
   - number-theory
 date: 2022-07-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-deletions-to-make-array-divisible/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
                 return i
         
         return -1
-
 ```
 

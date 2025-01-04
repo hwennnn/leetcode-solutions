@@ -2,12 +2,13 @@
 title: 1920. Build Array from Permutation
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - simulation
 date: 2021-07-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/build-array-from-permutation/)
 
 ## Description
 
@@ -63,6 +64,5 @@ class Solution:
             res[i] = nums[nums[i]]
         
         return res
-
 ```
 

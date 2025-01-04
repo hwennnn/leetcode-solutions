@@ -2,11 +2,12 @@
 title: 2315. Count Asterisks
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2022-06-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-asterisks/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
             res += A[i].count("*")
         
         return res
-
 ```
 

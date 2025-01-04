@@ -2,6 +2,7 @@
 title: 930. Binary Subarrays With Sum
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - sliding-window
@@ -9,7 +10,7 @@ tags:
 date: 2024-03-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/binary-subarrays-with-sum/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
             return res
         
         return atMost(goal) - atMost(goal - 1) # to find the number of subarrays with exact "goal"
-
 ```
 

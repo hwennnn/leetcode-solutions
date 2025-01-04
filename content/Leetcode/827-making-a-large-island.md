@@ -2,6 +2,7 @@
 title: 827. Making A Large Island
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - depth-first-search
   - breadth-first-search
@@ -10,7 +11,7 @@ tags:
 date: 2021-08-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/making-a-large-island/)
 
 ## Description
 
@@ -99,6 +100,5 @@ class Solution:
                     res = max(res, size)
         
         return res
-
 ```
 

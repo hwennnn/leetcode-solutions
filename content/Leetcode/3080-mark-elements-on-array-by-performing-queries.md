@@ -2,15 +2,16 @@
 title: 3080. Mark Elements on Array by Performing Queries
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
   - simulation
 date: 2024-03-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/mark-elements-on-array-by-performing-queries/)
 
 ## Description
 
@@ -106,6 +107,5 @@ class Solution:
             res.append(total)
         
         return res
-
 ```
 

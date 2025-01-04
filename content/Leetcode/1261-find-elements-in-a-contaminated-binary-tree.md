@@ -2,6 +2,7 @@
 title: 1261. Find Elements in a Contaminated Binary Tree
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - tree
   - depth-first-search
@@ -11,7 +12,7 @@ tags:
 date: 2021-01-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/)
 
 ## Description
 
@@ -128,6 +129,5 @@ class FindElements:
 # Your FindElements object will be instantiated and called as such:
 # obj = FindElements(root)
 # param_1 = obj.find(target)
-
 ```
 

@@ -2,6 +2,7 @@
 title: 2106. Maximum Fruits Harvested After at Most K Steps
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - sliding-window
@@ -9,7 +10,7 @@ tags:
 date: 2021-12-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-fruits-harvested-after-at-most-k-steps/)
 
 ## Description
 
@@ -101,6 +102,5 @@ class Solution:
                 res = max(res, s[i] - left)
         
         return res
-
 ```
 

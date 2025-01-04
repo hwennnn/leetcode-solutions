@@ -2,13 +2,14 @@
 title: 1593. Split a String Into the Max Number of Unique Substrings
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - backtracking
 date: 2024-10-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
         return backtrack(S, seen)
                 
         
-
 ```
 

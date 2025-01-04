@@ -2,12 +2,13 @@
 title: 3030. Find the Grid of Region Average
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - matrix
 date: 2024-02-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-grid-of-region-average/)
 
 ## Description
 
@@ -129,6 +130,5 @@ class Solution:
         return ans
                     
                             
-
 ```
 

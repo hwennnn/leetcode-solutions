@@ -2,12 +2,13 @@
 title: 2917. Find the K-or of an Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - bit-manipulation
 date: 2023-10-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-k-or-of-an-array/)
 
 ## Description
 
@@ -28,7 +29,7 @@ date: 2023-10-29
 
 <p>Represent numbers in binary:</p>
 
-<table style="text-indent:10px; margin-bottom=20px;">
+<table>
 	<tbody>
 		<tr>
 			<th><b>Number</b></th>
@@ -143,6 +144,5 @@ class Solution:
                 res += 1 << j
         
         return res
-
 ```
 

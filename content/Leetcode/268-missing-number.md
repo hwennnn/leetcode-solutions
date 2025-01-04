@@ -2,6 +2,7 @@
 title: 268. Missing Number
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - math
@@ -11,7 +12,7 @@ tags:
 date: 2024-02-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/missing-number/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
         total = N * (N + 1) // 2
 
         return total - sum(nums)
-
 ```
 

@@ -2,13 +2,14 @@
 title: 890. Find and Replace Pattern
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - string
 date: 2022-07-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-and-replace-pattern/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
                 res.append(word)
         
         return res
-
 ```
 

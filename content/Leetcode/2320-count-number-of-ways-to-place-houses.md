@@ -2,11 +2,12 @@
 title: 2320. Count Number of Ways to Place Houses
 draft: false
 tags: 
+  - leetcode-medium
   - dynamic-programming
 date: 2022-06-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-number-of-ways-to-place-houses/)
 
 ## Description
 
@@ -65,6 +66,5 @@ class Solution:
         
         return total * total % M
         
-
 ```
 

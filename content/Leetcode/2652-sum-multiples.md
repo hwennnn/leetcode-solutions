@@ -2,11 +2,12 @@
 title: 2652. Sum Multiples
 draft: false
 tags: 
+  - leetcode-easy
   - math
 date: 2023-04-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/sum-multiples/)
 
 ## Description
 
@@ -62,6 +63,5 @@ class Solution:
                 res += i
                 
         return res
-
 ```
 

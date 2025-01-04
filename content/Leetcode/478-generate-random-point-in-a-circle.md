@@ -2,6 +2,7 @@
 title: 478. Generate Random Point in a Circle
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - geometry
   - rejection-sampling
@@ -9,7 +10,7 @@ tags:
 date: 2021-03-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/generate-random-point-in-a-circle/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution(object):
             x, y = random.uniform(self.x_min, self.x_max), random.uniform(self.y_min, self.y_max)
             if (x - self.x_center)**2 + (y - self.y_center)**2 <= self.radius**2:
                 return [x, y]
-
 ```
 

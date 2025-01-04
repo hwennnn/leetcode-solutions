@@ -2,13 +2,14 @@
 title: 1339. Maximum Product of Splitted Binary Tree
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - depth-first-search
   - binary-tree
 date: 2022-12-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/)
 
 ## Description
 
@@ -81,6 +82,5 @@ class Solution:
         
         dfs2(root)
         return res % M
-
 ```
 

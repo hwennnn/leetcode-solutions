@@ -2,6 +2,7 @@
 title: 49. Group Anagrams
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - string
@@ -9,7 +10,7 @@ tags:
 date: 2024-08-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/group-anagrams/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
             mp[hash(x)].append(x)
 
         return mp.values()
-
 ```
 

@@ -2,6 +2,7 @@
 title: 2080. Range Frequency Queries
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - binary-search
@@ -10,7 +11,7 @@ tags:
 date: 2021-11-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/range-frequency-queries/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class RangeFreqQuery:
 # Your RangeFreqQuery object will be instantiated and called as such:
 # obj = RangeFreqQuery(arr)
 # param_1 = obj.query(left,right,value)
-
 ```
 

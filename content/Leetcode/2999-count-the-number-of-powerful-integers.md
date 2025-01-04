@@ -2,13 +2,14 @@
 title: 2999. Count the Number of Powerful Integers
 draft: false
 tags: 
+  - leetcode-hard
   - math
   - string
   - dynamic-programming
 date: 2024-01-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-the-number-of-powerful-integers/)
 
 ## Description
 
@@ -94,6 +95,5 @@ class Solution:
             return dp(0, True, 0)
         
         return f(finish) - f(start - 1)
-
 ```
 

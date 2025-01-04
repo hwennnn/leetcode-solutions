@@ -2,12 +2,13 @@
 title: 3254. Find the Power of K-Size Subarrays I
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - sliding-window
 date: 2024-11-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i/)
 
 ## Description
 
@@ -100,7 +101,6 @@ class Solution:
                     res.append(-1)
         
         return res
-
 
 ```
 

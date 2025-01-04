@@ -2,13 +2,14 @@
 title: 3138. Minimum Length of Anagram Concatenation
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - counting
 date: 2024-05-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-length-of-anagram-concatenation/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
                 return i
         
         return N
-
 ```
 

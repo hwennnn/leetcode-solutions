@@ -2,13 +2,14 @@
 title: 2972. Count the Number of Incremovable Subarrays II
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - two-pointers
   - binary-search
 date: 2023-12-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-ii/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
             res += len(right) - bisect_right(right, nums[i]) + 1
         
         return res
-
 ```
 

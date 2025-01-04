@@ -2,13 +2,14 @@
 title: 1798. Maximum Number of Consecutive Values You Can Make
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
   - sorting
 date: 2023-12-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-number-of-consecutive-values-you-can-make/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
                 break
 
         return maxReach + 1 # including zero
-
 ```
 

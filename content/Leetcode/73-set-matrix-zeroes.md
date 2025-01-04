@@ -2,13 +2,14 @@
 title: 73. Set Matrix Zeroes
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - matrix
 date: 2021-08-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/set-matrix-zeroes/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
             
             if setCol0: 
                 matrix[x][0] = 0
-
 ```
 

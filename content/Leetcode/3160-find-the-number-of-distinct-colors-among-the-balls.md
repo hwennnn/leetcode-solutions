@@ -2,13 +2,14 @@
 title: 3160. Find the Number of Distinct Colors Among the Balls
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - simulation
 date: 2024-05-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls/)
 
 ## Description
 
@@ -99,6 +100,5 @@ class Solution:
             res.append(colorCount)
         
         return res
-
 ```
 

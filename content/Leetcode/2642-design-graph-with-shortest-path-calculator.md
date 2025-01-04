@@ -2,14 +2,15 @@
 title: 2642. Design Graph With Shortest Path Calculator
 draft: false
 tags: 
+  - leetcode-hard
   - graph
   - design
-  - heap-(priority-queue)
+  - heap-priority-queue
   - shortest-path
 date: 2023-11-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/design-graph-with-shortest-path-calculator/)
 
 ## Description
 
@@ -99,6 +100,5 @@ class Graph:
 # obj = Graph(n, edges)
 # obj.addEdge(edge)
 # param_2 = obj.shortestPath(node1,node2)
-
 ```
 

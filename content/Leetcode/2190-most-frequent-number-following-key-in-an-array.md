@@ -2,13 +2,14 @@
 title: 2190. Most Frequent Number Following Key In an Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - counting
 date: 2022-03-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/most-frequent-number-following-key-in-an-array/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
                     count[nums[i + 1]] += 1
         
         return count.most_common()[0][0]
-
 ```
 

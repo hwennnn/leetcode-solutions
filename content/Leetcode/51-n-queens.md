@@ -2,12 +2,13 @@
 title: 51. N-Queens
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - backtracking
 date: 2022-06-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/n-queens/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
         go(0)
         
         return res
-
 ```
 

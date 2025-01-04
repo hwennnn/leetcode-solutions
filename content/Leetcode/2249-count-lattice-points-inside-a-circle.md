@@ -2,6 +2,7 @@
 title: 2249. Count Lattice Points Inside a Circle
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - math
@@ -10,7 +11,7 @@ tags:
 date: 2022-04-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-lattice-points-inside-a-circle/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
                         s.add((dx, dy))
         
         return len(s)
-
 ```
 

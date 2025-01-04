@@ -2,18 +2,19 @@
 title: 2617. Minimum Number of Visited Cells in a Grid
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - stack
   - breadth-first-search
   - union-find
-  - heap-(priority-queue)
+  - heap-priority-queue
   - matrix
   - monotonic-stack
 date: 2023-04-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-visited-cells-in-a-grid/)
 
 ## Description
 
@@ -104,6 +105,5 @@ class Solution:
                 C[nc].remove(nr)
         
         return -1
-
 ```
 

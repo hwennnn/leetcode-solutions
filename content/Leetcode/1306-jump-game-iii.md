@@ -2,13 +2,14 @@
 title: 1306. Jump Game III
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - depth-first-search
   - breadth-first-search
 date: 2022-03-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/jump-game-iii/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
                     queue.append(j)
         
         return False
-
 ```
 

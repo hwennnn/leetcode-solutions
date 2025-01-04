@@ -2,6 +2,7 @@
 title: 1948. Delete Duplicate Folders in System
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - string
@@ -10,7 +11,7 @@ tags:
 date: 2023-08-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/delete-duplicate-folders-in-system/)
 
 ## Description
 
@@ -136,6 +137,5 @@ class Solution:
         res = []
         dfs2(root, [])
         return res
-
 ```
 

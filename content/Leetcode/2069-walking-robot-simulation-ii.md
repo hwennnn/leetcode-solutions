@@ -2,12 +2,13 @@
 title: 2069. Walking Robot Simulation II
 draft: false
 tags: 
+  - leetcode-medium
   - design
   - simulation
 date: 2021-11-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/walking-robot-simulation-ii/)
 
 ## Description
 
@@ -127,6 +128,5 @@ class Robot:
 # obj.move(num)
 # param_2 = obj.getPos()
 # param_3 = obj.getDir()
-
 ```
 

@@ -2,6 +2,7 @@
 title: 108. Convert Sorted Array to Binary Search Tree
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - divide-and-conquer
   - tree
@@ -10,7 +11,7 @@ tags:
 date: 2022-08-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
             return node
         
         return go(0, n - 1)
-
 ```
 

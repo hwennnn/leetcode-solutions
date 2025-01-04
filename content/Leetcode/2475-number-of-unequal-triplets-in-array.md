@@ -2,13 +2,14 @@
 title: 2475. Number of Unequal Triplets in Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - sorting
 date: 2022-11-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-unequal-triplets-in-array/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
                         res += 1
         
         return res
-
 ```
 

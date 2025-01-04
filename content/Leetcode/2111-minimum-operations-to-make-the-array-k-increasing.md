@@ -2,12 +2,13 @@
 title: 2111. Minimum Operations to Make the Array K-Increasing
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
 date: 2021-12-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-operations-to-make-the-array-k-increasing/)
 
 ## Description
 
@@ -104,6 +105,5 @@ class Solution:
             res += len(s) - len(lis)
         
         return res
-
 ```
 

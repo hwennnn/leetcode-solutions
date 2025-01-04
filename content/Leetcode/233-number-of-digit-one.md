@@ -2,13 +2,14 @@
 title: 233. Number of Digit One
 draft: false
 tags: 
+  - leetcode-hard
   - math
   - dynamic-programming
   - recursion
 date: 2023-07-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-digit-one/)
 
 ## Description
 
@@ -64,6 +65,5 @@ class Solution:
         
         return dp(0, True, 0)
             
-
 ```
 

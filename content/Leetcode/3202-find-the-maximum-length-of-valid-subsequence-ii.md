@@ -2,12 +2,13 @@
 title: 3202. Find the Maximum Length of Valid Subsequence II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
 date: 2024-07-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-ii/)
 
 ## Description
 
@@ -74,7 +75,6 @@ class Solution:
             res = max(res, max(dp))
         
         return res
-
 
 ```
 

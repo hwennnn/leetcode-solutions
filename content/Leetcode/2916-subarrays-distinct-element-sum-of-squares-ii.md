@@ -2,14 +2,15 @@
 title: 2916. Subarrays Distinct Element Sum of Squares II
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - binary-indexed-tree
   - segment-tree
-date: 2023-11-02
+date: 2023-11-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-ii/)
 
 ## Description
 
@@ -124,6 +125,95 @@ class Solution:
 
         return res
 
+```
+### C++
+``` cpp title='subarrays-distinct-element-sum-of-squares-ii'
+const int MOD = 1000000007;
+
+class LazySegmentTree {
+public:
+    LazySegmentTree(int N) {
+        n = N;
+        tree.assign(4 * n, 0);
+        lazy.assign(4 * n, 0);
+    }
+
+    int query(int v, int tl, int tr, int l, int r) {
+        lazy_update(v, tl, tr);
+
+        if (tr < l || tl > r) return 0;
+        
+        if (tl >= l && tr <= r) {
+            return tree[v] % MOD;
+        } else {
+            int tm = tl + (tr - tl) / 2;
+
+            return (query(2 * v, tl, tm, l, min(tm, r)) + query(2 * v + 1, tm + 1, tr, max(tm + 1, l), r)) % MOD;
+        }
+    }
+
+    void lazy_update(int v, int tl, int tr) {
+        if (lazy[v] != 0) {
+            tree[v] += (tr - tl + 1) * lazy[v];
+            tree[v] %= MOD;
+
+            if (tl < tr) {
+                lazy[2 * v] += lazy[v];
+                lazy[2 * v] %= MOD;
+                lazy[2 * v + 1] += lazy[v];
+                lazy[2 * v + 1] %= MOD;
+            }
+
+            lazy[v] = 0;
+        }
+    }
+
+    void range_update(int v, int tl, int tr, int l, int r, int value) {
+        lazy_update(v, tl, tr);
+
+        if (tr < l || tl > r) return;
+
+        if (tl >= l and tr <= r) {
+            lazy[v] += value;
+            lazy[v] %= MOD;
+            lazy_update(v, tl, tr);
+        } else {
+            int tm = tl + (tr - tl) / 2;
+
+            range_update(2 * v, tl, tm, l, min(tm, r), value);
+            range_update(2 * v + 1, tm + 1, tr, max(tm + 1, l), r, value);
+            tree[v] = (tree[2 * v] + tree[2 * v + 1]) % MOD;
+        }
+    }
+
+private:
+    int n;
+    vector<int> tree;
+    vector<int> lazy;
+};
+
+class Solution {
+public:
+    int sumCounts(vector<int>& nums) {
+        int N = nums.size();
+        LazySegmentTree st(N);
+        unordered_map<int, int> last_seen;
+        long long curr = 0;
+        long long res = 0;
+
+        for (int i = 0; i < N; i++) {
+            int x = nums[i];
+            int last = (last_seen.find(x) != last_seen.end() ? last_seen[x]: -1) + 1;
+            int queryLength = i - last + 1;
+            curr = (curr + queryLength + 2 * st.query(1, 0, N - 1, last, i)) % MOD;
+            st.range_update(1, 0, N - 1, last, i, 1);
+            res = (res + curr) % MOD;
+            last_seen[x] = i;
+        }
+
+        return (int) res;
+    }
+};
 
 ```
 

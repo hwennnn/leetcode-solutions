@@ -2,13 +2,14 @@
 title: 221. Maximal Square
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - matrix
 date: 2024-08-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximal-square/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
 
         return res
         
-
 ```
 

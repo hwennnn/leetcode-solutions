@@ -2,11 +2,12 @@
 title: 551. Student Attendance Record I
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2020-03-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/student-attendance-record-i/)
 
 ## Description
 
@@ -62,6 +63,5 @@ date: 2020-03-02
 class Solution:
     def checkRecord(self, s: str) -> bool:
         return s.count("A")<2 and s.count("LLL")==0
-
 ```
 

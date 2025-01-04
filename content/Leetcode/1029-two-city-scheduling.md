@@ -2,13 +2,14 @@
 title: 1029. Two City Scheduling
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
   - sorting
 date: 2022-03-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/two-city-scheduling/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
         diff = sorted([b - a for a, b in costs])
         
         return sum(firstCity) + sum(diff[:n])
-
 ```
 

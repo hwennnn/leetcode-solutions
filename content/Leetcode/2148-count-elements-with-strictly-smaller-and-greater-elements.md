@@ -2,13 +2,14 @@
 title: 2148. Count Elements With Strictly Smaller and Greater Elements 
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - sorting
   - counting
 date: 2022-01-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
         
         
         return res
-
 ```
 

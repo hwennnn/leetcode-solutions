@@ -2,13 +2,14 @@
 title: 2930. Number of Strings Which Can Be Rearranged to Contain Substring
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - dynamic-programming
   - combinatorics
 date: 2023-11-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-strings-which-can-be-rearranged-to-contain-substring/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
             return res % MOD
         
         return go(0, 0, 0, 0)
-
 ```
 

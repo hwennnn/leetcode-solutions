@@ -2,6 +2,7 @@
 title: 2685. Count the Number of Complete Components
 draft: false
 tags: 
+  - leetcode-medium
   - depth-first-search
   - breadth-first-search
   - union-find
@@ -9,7 +10,7 @@ tags:
 date: 2023-05-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-the-number-of-complete-components/)
 
 ## Description
 
@@ -111,6 +112,5 @@ class Solution:
         
         return res
         
-
 ```
 

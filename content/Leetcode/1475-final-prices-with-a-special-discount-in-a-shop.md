@@ -2,13 +2,14 @@
 title: 1475. Final Prices With a Special Discount in a Shop
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - stack
   - monotonic-stack
 date: 2024-12-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)
 
 ## Description
 
@@ -78,7 +79,6 @@ class Solution:
                 prices[i] -= prices[nextSmaller[i]]
         
         return prices
-
 
 ```
 

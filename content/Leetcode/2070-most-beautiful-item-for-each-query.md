@@ -2,13 +2,14 @@
 title: 2070. Most Beautiful Item for Each Query
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
   - sorting
 date: 2024-11-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/most-beautiful-item-for-each-query/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class Solution:
             
         return res
             
-
 ```
 

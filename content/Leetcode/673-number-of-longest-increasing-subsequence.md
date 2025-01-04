@@ -2,6 +2,7 @@
 title: 673. Number of Longest Increasing Subsequence
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - binary-indexed-tree
@@ -9,7 +10,7 @@ tags:
 date: 2023-07-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
         
         return sum(count[i] for i in range(N) if dp[i] == maxLength)
         
-
 ```
 

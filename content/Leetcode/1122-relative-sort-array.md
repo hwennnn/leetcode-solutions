@@ -2,6 +2,7 @@
 title: 1122. Relative Sort Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - sorting
@@ -9,7 +10,7 @@ tags:
 date: 2024-06-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/relative-sort-array/)
 
 ## Description
 
@@ -57,6 +58,5 @@ class Solution:
         arr1.sort(key = lambda x : mp.get(x, M + x))
     
         return arr1
-
 ```
 

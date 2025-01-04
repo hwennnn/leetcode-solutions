@@ -2,12 +2,13 @@
 title: 2217. Find Palindrome With Fixed Length
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
 date: 2022-03-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-palindrome-with-fixed-length/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
             res.append(solve(q))
         
         return res
-
 ```
 

@@ -2,13 +2,14 @@
 title: 1139. Largest 1-Bordered Square
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - matrix
 date: 2021-05-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/largest-1-bordered-square/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
                     size -= 1
         
         return res * res
-
 ```
 

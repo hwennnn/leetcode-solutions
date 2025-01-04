@@ -2,6 +2,7 @@
 title: 1267. Count Servers that Communicate
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - depth-first-search
   - breadth-first-search
@@ -11,7 +12,7 @@ tags:
 date: 2021-01-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-servers-that-communicate/)
 
 ## Description
 
@@ -86,6 +87,5 @@ class Solution:
         
         return res
         
-
 ```
 

@@ -2,13 +2,14 @@
 title: 1238. Circular Permutation in Binary Representation
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - backtracking
   - bit-manipulation
 date: 2021-01-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/circular-permutation-in-binary-representation/)
 
 ## Description
 
@@ -63,7 +64,6 @@ class Solution:
         return res[i:] + res[:i]
 
             
-
 
 ```
 

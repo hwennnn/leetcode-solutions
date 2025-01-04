@@ -2,6 +2,7 @@
 title: 1638. Count Substrings That Differ by One Character
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - dynamic-programming
@@ -9,7 +10,7 @@ tags:
 date: 2020-11-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-substrings-that-differ-by-one-character/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
                         res += 1
             
         return res
-
 ```
 

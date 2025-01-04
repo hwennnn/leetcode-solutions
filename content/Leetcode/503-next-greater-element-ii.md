@@ -2,13 +2,14 @@
 title: 503. Next Greater Element II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - stack
   - monotonic-stack
 date: 2023-08-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/next-greater-element-ii/)
 
 ## Description
 
@@ -65,6 +66,5 @@ class Solution:
             
         return res
         
-
 ```
 

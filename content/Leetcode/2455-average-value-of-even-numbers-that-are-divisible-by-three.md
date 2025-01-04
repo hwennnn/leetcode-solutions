@@ -2,12 +2,13 @@
 title: 2455. Average Value of Even Numbers That Are Divisible by Three
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - math
 date: 2022-10-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/)
 
 ## Description
 
@@ -60,6 +61,5 @@ class Solution:
         if count == 0: return 0
         
         return res // count
-
 ```
 

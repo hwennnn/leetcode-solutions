@@ -2,6 +2,7 @@
 title: 211. Design Add and Search Words Data Structure
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - depth-first-search
   - design
@@ -9,7 +10,7 @@ tags:
 date: 2023-03-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
 
 ## Description
 
@@ -112,6 +113,5 @@ class WordDictionary:
 # obj = WordDictionary()
 # obj.addWord(word)
 # param_2 = obj.search(word)
-
 ```
 

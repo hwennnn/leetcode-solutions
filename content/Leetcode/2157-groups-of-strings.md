@@ -2,13 +2,14 @@
 title: 2157. Groups of Strings
 draft: false
 tags: 
+  - leetcode-hard
   - string
   - bit-manipulation
   - union-find
 date: 2022-01-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/groups-of-strings/)
 
 ## Description
 
@@ -132,6 +133,5 @@ class Solution:
         
         return [len(count), max(count.values())]
         
-
 ```
 

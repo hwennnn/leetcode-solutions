@@ -2,13 +2,14 @@
 title: 2960. Count Tested Devices After Test Operations
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - simulation
   - counting
 date: 2023-12-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-tested-devices-after-test-operations/)
 
 ## Description
 
@@ -86,6 +87,5 @@ class Solution:
         
         return res
         
-
 ```
 

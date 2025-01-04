@@ -2,17 +2,18 @@
 title: 973. K Closest Points to Origin
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - divide-and-conquer
   - geometry
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
   - quickselect
 date: 2022-03-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/k-closest-points-to-origin/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
                 heapq.heappush(pq, (-(x * x + y * y), x, y))
                 
         return [[x, y] for _, x, y in pq]
-
 ```
 

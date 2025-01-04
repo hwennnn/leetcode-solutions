@@ -2,12 +2,13 @@
 title: 2145. Count the Hidden Sequences
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - prefix-sum
 date: 2022-01-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-the-hidden-sequences/)
 
 ## Description
 
@@ -95,6 +96,5 @@ class Solution:
                 res += 1
         
         return res
-
 ```
 

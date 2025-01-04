@@ -2,12 +2,13 @@
 title: 334. Increasing Triplet Subsequence
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
 date: 2022-10-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/increasing-triplet-subsequence/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
                 return True
         
         return False
-
 ```
 

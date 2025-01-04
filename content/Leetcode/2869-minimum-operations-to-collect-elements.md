@@ -2,13 +2,14 @@
 title: 2869. Minimum Operations to Collect Elements
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - bit-manipulation
 date: 2023-10-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-operations-to-collect-elements/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
             
         
         return res
-
 ```
 

@@ -2,6 +2,7 @@
 title: 106. Construct Binary Tree from Inorder and Postorder Traversal
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - divide-and-conquer
@@ -10,7 +11,7 @@ tags:
 date: 2023-03-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
             return node
         
         return go(0, N - 1)
-
 ```
 

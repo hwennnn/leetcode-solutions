@@ -2,11 +2,12 @@
 title: 941. Valid Mountain Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
 date: 2022-02-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/valid-mountain-array/)
 
 ## Description
 
@@ -64,6 +65,5 @@ class Solution:
             j -= 1
         
         return i == j and j != n - 1 and i != 0
-
 ```
 

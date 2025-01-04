@@ -2,6 +2,7 @@
 title: 2407. Longest Increasing Subsequence II
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - divide-and-conquer
   - dynamic-programming
@@ -12,7 +13,7 @@ tags:
 date: 2022-09-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-increasing-subsequence-ii/)
 
 ## Description
 
@@ -144,6 +145,5 @@ class Solution:
                 res = st[x]
 
         return res
-
 ```
 

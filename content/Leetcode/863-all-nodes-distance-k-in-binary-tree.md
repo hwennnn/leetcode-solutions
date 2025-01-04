@@ -2,6 +2,7 @@
 title: 863. All Nodes Distance K in Binary Tree
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - tree
   - depth-first-search
@@ -10,7 +11,7 @@ tags:
 date: 2023-07-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)
 
 ## Description
 
@@ -97,6 +98,5 @@ class Solution:
         dfs2(root, mp[root])
 
         return res
-
 ```
 

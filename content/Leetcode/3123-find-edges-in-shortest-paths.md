@@ -2,15 +2,16 @@
 title: 3123. Find Edges in Shortest Paths
 draft: false
 tags: 
+  - leetcode-hard
   - depth-first-search
   - breadth-first-search
   - graph
-  - heap-(priority-queue)
+  - heap-priority-queue
   - shortest-path
 date: 2024-04-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-edges-in-shortest-paths/)
 
 ## Description
 
@@ -120,6 +121,5 @@ class Solution:
         
         go(n - 1)
         return res
-
 ```
 

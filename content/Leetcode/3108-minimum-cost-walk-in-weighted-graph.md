@@ -2,6 +2,7 @@
 title: 3108. Minimum Cost Walk in Weighted Graph
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - bit-manipulation
   - union-find
@@ -9,7 +10,7 @@ tags:
 date: 2024-04-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-cost-walk-in-weighted-graph/)
 
 ## Description
 
@@ -125,6 +126,5 @@ class Solution:
                 res.append(costs[uf.find(x)])
         
         return res
-
 ```
 

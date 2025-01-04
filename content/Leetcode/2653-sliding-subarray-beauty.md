@@ -2,13 +2,14 @@
 title: 2653. Sliding Subarray Beauty
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - sliding-window
 date: 2023-04-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/sliding-subarray-beauty/)
 
 ## Description
 
@@ -99,6 +100,5 @@ class Solution:
                     sl.remove((nums[prevIndex], prevIndex))
                 
         return res
-
 ```
 

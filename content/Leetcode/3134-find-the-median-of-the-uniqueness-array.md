@@ -2,6 +2,7 @@
 title: 3134. Find the Median of the Uniqueness Array
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - binary-search
@@ -9,7 +10,7 @@ tags:
 date: 2024-04-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-median-of-the-uniqueness-array/)
 
 ## Description
 
@@ -109,6 +110,5 @@ class Solution:
                 left = mid + 1
         
         return left
-
 ```
 

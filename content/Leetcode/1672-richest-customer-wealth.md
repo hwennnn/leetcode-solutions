@@ -2,12 +2,13 @@
 title: 1672. Richest Customer Wealth
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - matrix
 date: 2022-03-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/richest-customer-wealth/)
 
 ## Description
 
@@ -65,6 +66,5 @@ The 2nd customer is the richest with a wealth of 10.</pre>
 class Solution:
     def maximumWealth(self, accounts: List[List[int]]) -> int:
         return max(sum(A) for A in accounts)
-
 ```
 

@@ -2,11 +2,11 @@
 title: 2623. Memoize
 draft: false
 tags: 
-
+  - leetcode-medium
 date: 2023-05-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/memoize/)
 
 ## Description
 
@@ -118,6 +118,5 @@ function memoize(fn) {
  * memoizedFn(2, 3) // 5
  * console.log(callCount) // 1 
  */
-
 ```
 

@@ -2,6 +2,7 @@
 title: 2310. Sum of Numbers With Units Digit K
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - dynamic-programming
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2022-06-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/)
 
 ## Description
 
@@ -81,6 +82,5 @@ class Solution:
                 return i
         
         return -1
-
 ```
 

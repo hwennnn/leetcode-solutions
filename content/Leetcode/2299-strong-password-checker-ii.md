@@ -2,11 +2,12 @@
 title: 2299. Strong Password Checker II
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2022-06-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/strong-password-checker-ii/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
                 special += 1
 
         return lower > 0 and upper > 0 and numbers > 0 and special > 0
-
 ```
 

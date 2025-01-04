@@ -2,6 +2,7 @@
 title: 1525. Number of Good Ways to Split a String
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - dynamic-programming
@@ -9,7 +10,7 @@ tags:
 date: 2020-10-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-good-ways-to-split-a-string/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
             res += prefix[i-1] == suffix[i]
         
         return res
-
 ```
 

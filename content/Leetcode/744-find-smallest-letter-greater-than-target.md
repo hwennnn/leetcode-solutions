@@ -2,12 +2,13 @@
 title: 744. Find Smallest Letter Greater Than Target
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - binary-search
 date: 2023-06-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
 
         return letters[0] if m is None else m
             
-
 ```
 

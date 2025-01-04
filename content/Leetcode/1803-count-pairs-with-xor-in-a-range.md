@@ -2,13 +2,14 @@
 title: 1803. Count Pairs With XOR in a Range
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - bit-manipulation
   - trie
 date: 2023-11-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-pairs-with-xor-in-a-range/)
 
 ## Description
 
@@ -125,6 +126,5 @@ class Solution:
             add(x)
         
         return ans
-
 ```
 

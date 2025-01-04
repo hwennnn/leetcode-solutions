@@ -2,13 +2,14 @@
 title: 2064. Minimized Maximum of Products Distributed to Any Store
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
   - greedy
 date: 2024-11-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/)
 
 ## Description
 
@@ -92,6 +93,5 @@ class Solution:
                 left = mid + 1
         
         return left
-
 ```
 

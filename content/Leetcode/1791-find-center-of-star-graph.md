@@ -2,11 +2,12 @@
 title: 1791. Find Center of Star Graph
 draft: false
 tags: 
+  - leetcode-easy
   - graph
 date: 2024-06-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-center-of-star-graph/)
 
 ## Description
 
@@ -55,6 +56,5 @@ class Solution:
             return edges[0][0]
         
         return edges[0][1]
-
 ```
 

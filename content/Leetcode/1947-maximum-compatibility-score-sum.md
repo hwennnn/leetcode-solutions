@@ -2,6 +2,7 @@
 title: 1947. Maximum Compatibility Score Sum
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - backtracking
@@ -10,7 +11,7 @@ tags:
 date: 2023-08-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-compatibility-score-sum/)
 
 ## Description
 
@@ -88,6 +89,5 @@ class Solution:
             return res
         
         return go(0, 0)
-
 ```
 

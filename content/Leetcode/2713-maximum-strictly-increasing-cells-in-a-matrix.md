@@ -2,6 +2,7 @@
 title: 2713. Maximum Strictly Increasing Cells in a Matrix
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - binary-search
@@ -13,7 +14,7 @@ tags:
 date: 2023-05-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-strictly-increasing-cells-in-a-matrix/)
 
 ## Description
 
@@ -98,6 +99,5 @@ class Solution:
                 C[j] = max(C[j], temp[i][j])
         
         return max(max(R), max(C))
-
 ```
 

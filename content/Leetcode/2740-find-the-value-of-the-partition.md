@@ -2,12 +2,13 @@
 title: 2740. Find the Value of the Partition
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - sorting
 date: 2023-06-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-value-of-the-partition/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
         
         return res
         
-
 ```
 

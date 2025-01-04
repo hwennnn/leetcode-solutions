@@ -2,12 +2,13 @@
 title: 1859. Sorting the Sentence
 draft: false
 tags: 
+  - leetcode-easy
   - string
   - sorting
 date: 2021-05-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/sorting-the-sentence/)
 
 ## Description
 
@@ -62,6 +63,5 @@ class Solution:
         s.sort(key = lambda x:x[-1])
         
         return " ".join(c[:-1] for c in s)
-
 ```
 

@@ -2,14 +2,15 @@
 title: 2662. Minimum Cost of a Path With Special Roads
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - graph
-  - heap-(priority-queue)
+  - heap-priority-queue
   - shortest-path
 date: 2023-05-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-cost-of-a-path-with-special-roads/)
 
 ## Description
 
@@ -133,6 +134,5 @@ class Solution:
                     heappush(heap, (newDistance, dx, dy))
         
         return res
-
 ```
 

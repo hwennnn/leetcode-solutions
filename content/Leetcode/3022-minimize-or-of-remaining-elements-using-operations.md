@@ -2,13 +2,14 @@
 title: 3022. Minimize OR of Remaining Elements Using Operations
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - greedy
   - bit-manipulation
 date: 2024-01-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimize-or-of-remaining-elements-using-operations/)
 
 ## Description
 
@@ -89,6 +90,5 @@ class Solution:
                 res |= (1 << bit)
             
         return res
-
 ```
 

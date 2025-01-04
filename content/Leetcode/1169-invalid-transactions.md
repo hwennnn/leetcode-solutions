@@ -2,6 +2,7 @@
 title: 1169. Invalid Transactions
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - string
@@ -9,7 +10,7 @@ tags:
 date: 2021-05-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/invalid-transactions/)
 
 ## Description
 
@@ -92,6 +93,5 @@ class Solution:
                 ans.append(transactions[ind])
                 
         return ans
-
 ```
 

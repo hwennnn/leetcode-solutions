@@ -2,13 +2,14 @@
 title: 2559. Count Vowel Strings in Ranges
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - string
   - prefix-sum
 date: 2025-01-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-vowel-strings-in-ranges/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
             res.append(prefix[b + 1] - prefix[a])
         
         return res
-
 ```
 

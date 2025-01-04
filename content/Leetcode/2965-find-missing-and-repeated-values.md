@@ -2,6 +2,7 @@
 title: 2965. Find Missing and Repeated Values
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - math
@@ -9,7 +10,7 @@ tags:
 date: 2023-12-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-missing-and-repeated-values/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
                 res[1] = x
         
         return res
-
 ```
 

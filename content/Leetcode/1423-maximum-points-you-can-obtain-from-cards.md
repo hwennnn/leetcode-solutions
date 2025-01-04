@@ -2,13 +2,14 @@
 title: 1423. Maximum Points You Can Obtain from Cards
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - sliding-window
   - prefix-sum
 date: 2022-06-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
 
         return total - res
         
-
 ```
 

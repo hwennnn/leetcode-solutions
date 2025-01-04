@@ -2,13 +2,14 @@
 title: 1754. Largest Merge Of Two Strings
 draft: false
 tags: 
+  - leetcode-medium
   - two-pointers
   - string
   - greedy
 date: 2021-02-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/largest-merge-of-two-strings/)
 
 ## Description
 
@@ -95,6 +96,23 @@ public:
     }
 };
 
-
+```
+### Python
+``` py title='largest-merge-of-two-strings'
+class Solution:
+    def largestMerge(self, word1: str, word2: str) -> str:
+        res = ""
+        
+        while word1 and word2:
+            if word1 >= word2:
+                res += word1[0]
+                word1 = word1[1:]
+            else:
+                res += word2[0]
+                word2 = word2[1:]
+        
+        res += word1 or word2
+        
+        return res
 ```
 

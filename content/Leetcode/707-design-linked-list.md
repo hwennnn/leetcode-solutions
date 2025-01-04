@@ -2,12 +2,13 @@
 title: 707. Design Linked List
 draft: false
 tags: 
+  - leetcode-medium
   - linked-list
   - design
 date: 2022-03-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/design-linked-list/)
 
 ## Description
 
@@ -149,6 +150,5 @@ class MyLinkedList:
 # obj.addAtTail(val)
 # obj.addAtIndex(index,val)
 # obj.deleteAtIndex(index)
-
 ```
 

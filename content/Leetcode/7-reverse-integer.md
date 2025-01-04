@@ -2,11 +2,12 @@
 title: 7. Reverse Integer
 draft: false
 tags: 
+  - leetcode-medium
   - math
 date: 2019-10-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/reverse-integer/)
 
 ## Description
 
@@ -58,7 +59,6 @@ class Solution(object):
         """
         n = cmp(x, 0) * int(str(abs(x))[::-1])
         return n if n.bit_length() < 32 else 0
-
 
 ```
 

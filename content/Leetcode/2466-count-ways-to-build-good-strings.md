@@ -2,11 +2,12 @@
 title: 2466. Count Ways To Build Good Strings
 draft: false
 tags: 
+  - leetcode-medium
   - dynamic-programming
 date: 2024-12-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-ways-to-build-good-strings/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
                 res %= MOD
 
         return res
-
 ```
 

@@ -2,13 +2,14 @@
 title: 1590. Make Sum Divisible by P
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - prefix-sum
 date: 2024-10-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/make-sum-divisible-by-p/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
                 res = min(res, i - mp[(c - need) % p])
         
         return res if res != n else -1
-
 ```
 

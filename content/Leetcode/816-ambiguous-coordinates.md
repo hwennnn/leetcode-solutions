@@ -2,13 +2,14 @@
 title: 816. Ambiguous Coordinates
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - backtracking
   - enumeration
 date: 2021-05-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/ambiguous-coordinates/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
                 res.append("(" + l + ", " + r + ")")
         
         return res
-
 ```
 

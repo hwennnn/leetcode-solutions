@@ -2,6 +2,7 @@
 title: 1963. Minimum Number of Swaps to Make the String Balanced
 draft: false
 tags: 
+  - leetcode-medium
   - two-pointers
   - string
   - stack
@@ -9,7 +10,7 @@ tags:
 date: 2024-10-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/)
 
 ## Description
 
@@ -89,6 +90,5 @@ class Solution:
                 res += 1
         
         return res
-
 ```
 

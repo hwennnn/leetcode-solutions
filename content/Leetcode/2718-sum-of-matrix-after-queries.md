@@ -2,12 +2,13 @@
 title: 2718. Sum of Matrix After Queries
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
 date: 2023-06-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/sum-of-matrix-after-queries/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class Solution:
                 rowCount -= 1
 
         return res
-
 ```
 

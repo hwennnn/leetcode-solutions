@@ -2,6 +2,7 @@
 title: 945. Minimum Increment to Make Array Unique
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
   - sorting
@@ -9,7 +10,7 @@ tags:
 date: 2024-06-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-increment-to-make-array-unique/)
 
 ## Description
 
@@ -67,7 +68,6 @@ class Solution:
                 curr += 1
 
         return res 
-
 
 ```
 

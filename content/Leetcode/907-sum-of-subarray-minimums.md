@@ -2,6 +2,7 @@
 title: 907. Sum of Subarray Minimums
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - stack
@@ -9,7 +10,7 @@ tags:
 date: 2024-01-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/sum-of-subarray-minimums/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
             res %= M
         
         return res
-
 ```
 

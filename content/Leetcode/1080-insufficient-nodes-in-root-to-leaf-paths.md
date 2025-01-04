@@ -2,13 +2,14 @@
 title: 1080. Insufficient Nodes in Root to Leaf Paths
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - depth-first-search
   - binary-tree
 date: 2021-05-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
             root.right = self.sufficientSubset(root.right, limit - root.val)
         
         return root if root.left or root.right else None
-
 ```
 

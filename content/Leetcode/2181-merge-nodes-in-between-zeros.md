@@ -2,12 +2,13 @@
 title: 2181. Merge Nodes in Between Zeros
 draft: false
 tags: 
+  - leetcode-medium
   - linked-list
   - simulation
 date: 2024-07-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/merge-nodes-in-between-zeros/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
             head = head.next
 
         return res.next
-
 ```
 

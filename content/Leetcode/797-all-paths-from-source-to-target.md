@@ -2,6 +2,7 @@
 title: 797. All Paths From Source to Target
 draft: false
 tags: 
+  - leetcode-medium
   - backtracking
   - depth-first-search
   - breadth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2022-12-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/all-paths-from-source-to-target/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
         dfs(0, [0])
 
         return res
-
 ```
 

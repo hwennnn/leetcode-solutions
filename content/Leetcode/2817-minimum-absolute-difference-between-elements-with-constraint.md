@@ -2,13 +2,14 @@
 title: 2817. Minimum Absolute Difference Between Elements With Constraint
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
   - ordered-set
 date: 2023-08-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-absolute-difference-between-elements-with-constraint/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class Solution:
                 sl.remove(nums[i + k])
         
         return res
-
 ```
 

@@ -2,14 +2,15 @@
 title: 3092. Most Frequent IDs
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
-  - heap-(priority-queue)
+  - heap-priority-queue
   - ordered-set
 date: 2024-03-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/most-frequent-ids/)
 
 ## Description
 
@@ -88,6 +89,5 @@ class Solution:
             res.append(-pq[0][0])
             
         return res
-
 ```
 

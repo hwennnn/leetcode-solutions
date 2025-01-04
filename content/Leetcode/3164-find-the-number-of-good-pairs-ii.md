@@ -2,12 +2,13 @@
 title: 3164. Find the Number of Good Pairs II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
-date: 2024-06-23
+date: 2024-05-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-number-of-good-pairs-ii/)
 
 ## Description
 
@@ -72,6 +73,28 @@ class Solution:
                 res += nums2[factor]
                 
         return res
+```
+### C++
+``` cpp title='find-the-number-of-good-pairs-ii'
+class Solution {
+public:
+    long long numberOfPairs(vector<int>& nums1, vector<int>& nums2, int k) {
+        long long ans = 0;
+        unordered_map<int, int> mp;
 
+        for (auto& x : nums2) mp[x * k]++;
+
+        for (auto& x : nums1) {
+            for (int d = 1; d * d <= x; d++) {
+                if (x % d == 0) {
+                    ans += (long long) mp[d];
+                    if (d != (x / d)) ans += (long long) mp[x / d];
+                }
+            }
+        }
+
+        return ans;
+    }
+};
 ```
 

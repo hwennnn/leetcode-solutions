@@ -2,12 +2,13 @@
 title: 3079. Find the Sum of Encrypted Integers
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - math
 date: 2024-03-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-sum-of-encrypted-integers/)
 
 ## Description
 
@@ -62,6 +63,5 @@ class Solution:
             res += int(str(maxDigit) * len(s))
             
         return res
-
 ```
 

@@ -2,13 +2,14 @@
 title: 160. Intersection of Two Linked Lists
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - linked-list
   - two-pointers
-date: 2022-06-06
+date: 2020-12-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/intersection-of-two-linked-lists/)
 
 ## Description
 
@@ -101,6 +102,36 @@ class Solution:
             currB = currB.next if currB else headA
             
         return currA
-
+```
+### C++
+``` cpp title='intersection-of-two-linked-lists'
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
+class Solution {
+public:
+    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
+        ListNode *c1 = headA, *c2 = headB;
+        
+        while (c1 != c2){
+            if (c1 == nullptr)
+                c1 = headB;
+            else
+                c1 = c1->next;
+            
+            if (c2 == nullptr)
+                c2 = headA;
+            else
+                c2 = c2->next;
+        }
+        
+        return c1;
+    }
+};
 ```
 

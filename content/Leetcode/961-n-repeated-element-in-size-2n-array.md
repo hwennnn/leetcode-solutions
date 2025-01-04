@@ -2,12 +2,13 @@
 title: 961. N-Repeated Element in Size 2N Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
 date: 2022-02-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)
 
 ## Description
 
@@ -59,6 +60,5 @@ class Solution:
         for k, v in count.items():
             if v == n:
                 return k
-
 ```
 

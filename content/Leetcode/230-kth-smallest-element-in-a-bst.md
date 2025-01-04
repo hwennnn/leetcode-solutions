@@ -2,6 +2,7 @@
 title: 230. Kth Smallest Element in a BST
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - depth-first-search
   - binary-search-tree
@@ -9,7 +10,7 @@ tags:
 date: 2022-06-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
         dfs(root)
         
         return self.res
-
 ```
 

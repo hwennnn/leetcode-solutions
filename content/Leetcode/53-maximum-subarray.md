@@ -2,13 +2,14 @@
 title: 53. Maximum Subarray
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - divide-and-conquer
   - dynamic-programming
 date: 2024-08-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-subarray/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
             res = max(res, curr)
 
         return res
-
 ```
 

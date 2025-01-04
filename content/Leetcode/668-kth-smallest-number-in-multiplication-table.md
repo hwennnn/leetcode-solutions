@@ -2,12 +2,13 @@
 title: 668. Kth Smallest Number in Multiplication Table
 draft: false
 tags: 
+  - leetcode-hard
   - math
   - binary-search
 date: 2021-11-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
                 left = mid + 1
             
         return left
-
 ```
 

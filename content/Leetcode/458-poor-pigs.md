@@ -2,13 +2,14 @@
 title: 458. Poor Pigs
 draft: false
 tags: 
+  - leetcode-hard
   - math
   - dynamic-programming
   - combinatorics
 date: 2023-10-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/poor-pigs/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
         while (minutesToTest / minutesToDie + 1) ** pigs < buckets:
             pigs += 1
         return pigs
-
 ```
 

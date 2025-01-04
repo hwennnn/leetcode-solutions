@@ -2,6 +2,7 @@
 title: 2846. Minimum Edge Weight Equilibrium Queries in a Tree
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - tree
   - graph
@@ -9,7 +10,7 @@ tags:
 date: 2023-09-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-edge-weight-equilibrium-queries-in-a-tree/)
 
 ## Description
 
@@ -135,6 +136,5 @@ class Solution:
             res.append(total - most_common)
         
         return res
-
 ```
 

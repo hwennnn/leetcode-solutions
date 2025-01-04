@@ -2,6 +2,7 @@
 title: 2385. Amount of Time for Binary Tree to Be Infected
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - tree
   - depth-first-search
@@ -10,7 +11,7 @@ tags:
 date: 2024-01-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/)
 
 ## Description
 
@@ -103,6 +104,5 @@ class Solution:
             time += 1
         
         return time
-
 ```
 

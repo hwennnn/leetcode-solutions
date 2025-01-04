@@ -2,11 +2,12 @@
 title: 2124. Check if All A's Appears Before All B's
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2022-01-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
                     return False
         
         return True
-
 ```
 

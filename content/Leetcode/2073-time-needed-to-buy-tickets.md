@@ -2,13 +2,14 @@
 title: 2073. Time Needed to Buy Tickets
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - queue
   - simulation
 date: 2024-04-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/time-needed-to-buy-tickets/)
 
 ## Description
 
@@ -86,6 +87,5 @@ class Solution:
                 res += min(tickets[k] - 1, x)
         
         return res
-
 ```
 

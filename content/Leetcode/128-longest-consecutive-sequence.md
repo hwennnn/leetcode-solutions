@@ -2,13 +2,14 @@
 title: 128. Longest Consecutive Sequence
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - union-find
 date: 2022-07-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-consecutive-sequence/)
 
 ## Description
 
@@ -66,6 +67,5 @@ class Solution:
             res = max(res, last - first + 1)
         
         return res
-
 ```
 

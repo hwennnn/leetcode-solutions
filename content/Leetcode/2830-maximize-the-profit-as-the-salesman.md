@@ -2,6 +2,7 @@
 title: 2830. Maximize the Profit as the Salesman
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - binary-search
@@ -10,7 +11,7 @@ tags:
 date: 2023-08-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximize-the-profit-as-the-salesman/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
             return max(skip, take)
         
         return dp(0)
-
 ```
 

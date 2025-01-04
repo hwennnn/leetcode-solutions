@@ -2,6 +2,7 @@
 title: 2014. Longest Subsequence Repeated k Times
 draft: false
 tags: 
+  - leetcode-hard
   - string
   - backtracking
   - greedy
@@ -10,7 +11,7 @@ tags:
 date: 2021-09-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-subsequence-repeated-k-times/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class Solution:
         for comb in combs:
             if isSubsequence(comb * k, s):
                 return comb
-
 ```
 

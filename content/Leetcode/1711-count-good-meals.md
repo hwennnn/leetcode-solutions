@@ -2,12 +2,13 @@
 title: 1711. Count Good Meals
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
 date: 2021-01-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-good-meals/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
         res //= 2
         
         return res % M
-
 ```
 

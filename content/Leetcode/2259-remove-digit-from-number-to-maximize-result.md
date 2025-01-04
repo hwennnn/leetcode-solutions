@@ -2,13 +2,14 @@
 title: 2259. Remove Digit From Number to Maximize Result
 draft: false
 tags: 
+  - leetcode-easy
   - string
   - greedy
   - enumeration
 date: 2022-05-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
                 res = max(res, number[:i] + number[i + 1:])
         
         return res
-
 ```
 

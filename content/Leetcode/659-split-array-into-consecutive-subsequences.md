@@ -2,14 +2,15 @@
 title: 659. Split Array into Consecutive Subsequences
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - greedy
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2022-08-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)
 
 ## Description
 
@@ -91,7 +92,6 @@ class Solution:
                 once[num] += 1
         
         return sum(once.values()) + sum(twice.values()) == 0
-
 
 ```
 

@@ -2,17 +2,18 @@
 title: 2343. Query Kth Smallest Trimmed Number
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - string
   - divide-and-conquer
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
   - radix-sort
   - quickselect
 date: 2022-07-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/query-kth-smallest-trimmed-number/)
 
 ## Description
 
@@ -101,6 +102,5 @@ class Solution:
         return res
             
             
-
 ```
 

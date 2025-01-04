@@ -2,13 +2,14 @@
 title: 90. Subsets II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - backtracking
   - bit-manipulation
-date: 2021-09-04
+date: 2019-10-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/subsets-ii/)
 
 ## Description
 
@@ -61,6 +62,53 @@ class Solution:
         return ans
                 
         
+```
+### C++
+``` cpp title='subsets-ii'
+class Solution {
+public:
+    vector<vector<int>> subsetsWithDup(vector<int>& nums) {
+        sort(nums.begin(), nums.end());
+        int n = nums.size();
+        vector<vector<int>> res;
+        
+        for (int i=0; i < 1<<n; ++i){
+            vector<int> c;
+            bool illegal = false;
+            for (int j = 0; j < n; ++j)
+                if (i >> j&1){
+                    if (j > 0 && nums[j]==nums[j-1] && (i>>(j-1)&1) == 0){
+                        illegal = true;
+                        break;
+                    }else{
+                        c.push_back(nums[j]);
+                    }
+                }
+                    
+            if (!illegal){
+                res.push_back(c);
+            }
+        }
+        
+        return res;
+    }
+};
+```
+### Python
+``` py title='subsets-ii'
+class Solution:
+    def subsetsWithDup(self, nums):
+        if not nums:
+            return []
+        nums.sort()
+        res, cur = [[]], []
+        for i in range(len(nums)):
+            if i > 0 and nums[i] == nums[i-1]:
+                cur = [item + [nums[i]] for item in cur]
+            else:
+                cur = [item + [nums[i]] for item in res]
+            res += cur
+        return res
 
 ```
 

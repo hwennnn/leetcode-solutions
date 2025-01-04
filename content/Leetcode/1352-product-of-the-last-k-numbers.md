@@ -2,6 +2,7 @@
 title: 1352. Product of the Last K Numbers
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - design
@@ -10,7 +11,7 @@ tags:
 date: 2020-10-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/product-of-the-last-k-numbers/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class ProductOfNumbers:
 # obj = ProductOfNumbers()
 # obj.add(num)
 # param_2 = obj.getProduct(k)
-
 ```
 

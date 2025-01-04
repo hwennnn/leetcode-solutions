@@ -2,13 +2,14 @@
 title: 2901. Longest Unequal Adjacent Groups Subsequence II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - string
   - dynamic-programming
 date: 2023-10-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-ii/)
 
 ## Description
 
@@ -119,6 +120,5 @@ class Solution:
                     curr = prev[curr]
                 
                 return res[::-1]
-
 ```
 

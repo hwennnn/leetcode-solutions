@@ -2,13 +2,14 @@
 title: 2507. Smallest Value After Replacing With Sum of Prime Factors
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - simulation
   - number-theory
 date: 2022-12-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/smallest-value-after-replacing-with-sum-of-prime-factors/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
             n = k
 
         return n
-
 ```
 

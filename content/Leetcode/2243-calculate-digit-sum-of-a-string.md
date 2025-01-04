@@ -2,12 +2,13 @@
 title: 2243. Calculate Digit Sum of a String
 draft: false
 tags: 
+  - leetcode-easy
   - string
   - simulation
 date: 2022-04-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/calculate-digit-sum-of-a-string/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class Solution:
             s = "".join(temp)
         
         return s
-
 ```
 

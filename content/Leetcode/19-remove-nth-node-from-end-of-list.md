@@ -2,12 +2,13 @@
 title: 19. Remove Nth Node From End of List
 draft: false
 tags: 
+  - leetcode-medium
   - linked-list
   - two-pointers
 date: 2024-03-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
         curr.next = curr.next.next
 
         return res.next
-
 ```
 

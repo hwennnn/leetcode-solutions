@@ -2,13 +2,14 @@
 title: 1824. Minimum Sideway Jumps
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - greedy
 date: 2021-04-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-sideway-jumps/)
 
 ## Description
 
@@ -111,6 +112,5 @@ class Solution:
 
             
         return jumps
-
 ```
 

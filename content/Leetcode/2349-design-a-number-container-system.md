@@ -2,14 +2,15 @@
 title: 2349. Design a Number Container System
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - design
-  - heap-(priority-queue)
+  - heap-priority-queue
   - ordered-set
 date: 2022-07-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/design-a-number-container-system/)
 
 ## Description
 
@@ -93,6 +94,5 @@ class NumberContainers:
 # obj = NumberContainers()
 # obj.change(index,number)
 # param_2 = obj.find(number)
-
 ```
 

@@ -2,6 +2,7 @@
 title: 732. My Calendar III
 draft: false
 tags: 
+  - leetcode-hard
   - binary-search
   - design
   - segment-tree
@@ -10,7 +11,7 @@ tags:
 date: 2022-10-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/my-calendar-iii/)
 
 ## Description
 
@@ -118,6 +119,5 @@ class MyCalendarThree:
 # Your MyCalendarThree object will be instantiated and called as such:
 # obj = MyCalendarThree()
 # param_1 = obj.book(start,end)
-
 ```
 

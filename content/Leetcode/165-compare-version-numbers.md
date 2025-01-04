@@ -2,12 +2,13 @@
 title: 165. Compare Version Numbers
 draft: false
 tags: 
+  - leetcode-medium
   - two-pointers
   - string
 date: 2024-05-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/compare-version-numbers/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
             if a > b: return 1
         
         return 0
-
 ```
 

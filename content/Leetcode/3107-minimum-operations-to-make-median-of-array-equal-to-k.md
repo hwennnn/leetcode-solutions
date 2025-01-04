@@ -2,13 +2,14 @@
 title: 3107. Minimum Operations to Make Median of Array Equal to K
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
   - sorting
 date: 2024-04-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-operations-to-make-median-of-array-equal-to-k/)
 
 ## Description
 
@@ -89,6 +90,5 @@ class Solution:
                     res += k - x
         
         return res
-
 ```
 

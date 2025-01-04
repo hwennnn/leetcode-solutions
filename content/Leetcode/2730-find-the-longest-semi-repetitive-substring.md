@@ -2,12 +2,13 @@
 title: 2730. Find the Longest Semi-Repetitive Substring
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - sliding-window
 date: 2023-06-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-longest-semi-repetitive-substring/)
 
 ## Description
 
@@ -88,6 +89,5 @@ class Solution:
         
         return res
         
-
 ```
 

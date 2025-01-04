@@ -2,13 +2,14 @@
 title: 424. Longest Repeating Character Replacement
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - sliding-window
 date: 2024-08-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-repeating-character-replacement/)
 
 ## Description
 
@@ -67,6 +68,5 @@ class Solution:
             res = max(res, j - i + 1)
 
         return res
-
 ```
 

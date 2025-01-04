@@ -2,15 +2,16 @@
 title: 2679. Sum in a Matrix
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
   - matrix
   - simulation
 date: 2023-05-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/sum-in-a-matrix/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
             res += m
         
         return res
-
 ```
 

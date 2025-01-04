@@ -2,12 +2,13 @@
 title: 1718. Construct the Lexicographically Largest Valid Sequence
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - backtracking
 date: 2021-07-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/construct-the-lexicographically-largest-valid-sequence/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class Solution:
         backtrack(0)
         
         return res
-
 ```
 

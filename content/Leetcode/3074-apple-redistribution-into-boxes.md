@@ -2,13 +2,14 @@
 title: 3074. Apple Redistribution into Boxes
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - greedy
   - sorting
 date: 2024-03-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/apple-redistribution-into-boxes/)
 
 ## Description
 
@@ -66,6 +67,5 @@ class Solution:
             if curr >= total: return i + 1
         
         return -1
-
 ```
 

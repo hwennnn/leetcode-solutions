@@ -2,16 +2,17 @@
 title: 2406. Divide Intervals Into Minimum Number of Groups
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
   - greedy
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
   - prefix-sum
 date: 2025-01-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
                 heappush(pq, y)
 
         return res
-
 ```
 

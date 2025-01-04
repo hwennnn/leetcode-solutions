@@ -2,13 +2,14 @@
 title: 3024. Type of Triangle
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - math
   - sorting
 date: 2024-02-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/type-of-triangle/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
         if a == b or b == c: return "isosceles"
         
         return "scalene"
-
 ```
 

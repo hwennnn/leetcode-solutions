@@ -2,12 +2,13 @@
 title: 2376. Count Special Integers
 draft: false
 tags: 
+  - leetcode-hard
   - math
   - dynamic-programming
 date: 2022-09-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-special-integers/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
         return dp(0, True, 0)
                 
                 
-
 ```
 

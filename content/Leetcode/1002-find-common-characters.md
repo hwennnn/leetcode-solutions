@@ -2,13 +2,14 @@
 title: 1002. Find Common Characters
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - string
 date: 2024-06-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-common-characters/)
 
 ## Description
 
@@ -56,6 +57,5 @@ class Solution:
                 res.append(chr(ord('a') + i))
         
         return res
-
 ```
 

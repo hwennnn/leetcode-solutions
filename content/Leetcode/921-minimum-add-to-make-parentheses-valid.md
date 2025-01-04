@@ -2,13 +2,14 @@
 title: 921. Minimum Add to Make Parentheses Valid
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - stack
   - greedy
 date: 2024-10-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
                     needLeft += 1
         
         return needLeft + needRight
-
 ```
 

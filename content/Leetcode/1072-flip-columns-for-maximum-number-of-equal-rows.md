@@ -2,13 +2,14 @@
 title: 1072. Flip Columns For Maximum Number of Equal Rows
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - matrix
 date: 2024-11-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/flip-columns-for-maximum-number-of-equal-rows/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
             mp[tuple(A)] += 1
         
         return max(mp.values())
-
 ```
 

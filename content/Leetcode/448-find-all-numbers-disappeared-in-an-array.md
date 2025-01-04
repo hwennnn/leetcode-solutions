@@ -2,12 +2,13 @@
 title: 448. Find All Numbers Disappeared in an Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
 date: 2021-11-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
 
 ## Description
 
@@ -55,6 +56,5 @@ class Solution:
         return res
         
         
-
 ```
 

@@ -2,13 +2,14 @@
 title: 1289. Minimum Falling Path Sum II
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - matrix
 date: 2024-04-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-falling-path-sum-ii/)
 
 ## Description
 
@@ -63,6 +64,5 @@ class Solution:
                 grid[i][j] += (prev[1] if grid[i - 1][j] == prev[0] else prev[0])
 
         return min(grid[-1])
-
 ```
 

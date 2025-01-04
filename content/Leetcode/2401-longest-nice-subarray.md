@@ -2,13 +2,14 @@
 title: 2401. Longest Nice Subarray
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - bit-manipulation
   - sliding-window
 date: 2022-09-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-nice-subarray/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
             res = max(res, j - i + 1)
         
         return res
-
 ```
 

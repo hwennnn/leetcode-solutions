@@ -2,11 +2,12 @@
 title: 849. Maximize Distance to Closest Person
 draft: false
 tags: 
+  - leetcode-medium
   - array
 date: 2022-01-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximize-distance-to-closest-person/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
         res = max(res, n - last - 1)
         
         return res
-
 ```
 

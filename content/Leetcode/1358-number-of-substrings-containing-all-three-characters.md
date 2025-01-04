@@ -2,13 +2,14 @@
 title: 1358. Number of Substrings Containing All Three Characters
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - sliding-window
 date: 2020-10-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
         
         
         
-
 ```
 

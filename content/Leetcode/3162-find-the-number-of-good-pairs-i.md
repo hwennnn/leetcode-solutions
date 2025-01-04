@@ -2,12 +2,13 @@
 title: 3162. Find the Number of Good Pairs I
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
 date: 2024-05-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-number-of-good-pairs-i/)
 
 ## Description
 
@@ -67,6 +68,5 @@ class Solution:
                     res += 1
         
         return res
-
 ```
 

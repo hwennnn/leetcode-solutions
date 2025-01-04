@@ -2,12 +2,13 @@
 title: 119. Pascal's Triangle II
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - dynamic-programming
-date: 2023-10-16
+date: 2020-08-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/pascals-triangle-ii/)
 
 ## Description
 
@@ -58,6 +59,28 @@ class Solution:
             t.append(tmp)
         
         return t[rowIndex]
-
+```
+### C++
+``` cpp title='pascals-triangle-ii'
+class Solution {
+public:
+    vector<int> getRow(int rowIndex) {
+        int n = rowIndex+1;
+        vector<int> tri(n,0);
+        tri[0] = 1;
+        
+        
+        for (int i = 1; i < n; i++){
+             for (int j = i; j > 0; j--){
+                 tri[j] += tri[j-1];
+             }
+        }
+           
+                
+        
+        return tri;
+        
+    }
+};
 ```
 

@@ -2,11 +2,12 @@
 title: 1344. Angle Between Hands of a Clock
 draft: false
 tags: 
+  - leetcode-medium
   - math
 date: 2020-11-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/angle-between-hands-of-a-clock/)
 
 ## Description
 
@@ -63,6 +64,5 @@ class Solution:
             angle = 360 - angle
         
         return angle
-
 ```
 

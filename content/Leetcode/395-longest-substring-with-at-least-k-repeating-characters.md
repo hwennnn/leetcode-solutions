@@ -2,6 +2,7 @@
 title: 395. Longest Substring with At Least K Repeating Characters
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - divide-and-conquer
@@ -9,7 +10,7 @@ tags:
 date: 2020-11-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)
 
 ## Description
 
@@ -67,6 +68,5 @@ class Solution:
         
         return res
         
-
 ```
 

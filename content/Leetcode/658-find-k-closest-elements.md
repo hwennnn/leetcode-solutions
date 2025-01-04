@@ -2,16 +2,17 @@
 title: 658. Find K Closest Elements
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
   - binary-search
   - sliding-window
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2022-09-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-k-closest-elements/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
 
         return sorted(res)
             
-
 ```
 

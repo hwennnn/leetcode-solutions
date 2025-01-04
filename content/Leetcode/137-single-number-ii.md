@@ -2,12 +2,13 @@
 title: 137. Single Number II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - bit-manipulation
 date: 2023-07-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/single-number-ii/)
 
 ## Description
 
@@ -58,6 +59,5 @@ class Solution:
             res -= 2 ** 32
 
         return res
-
 ```
 

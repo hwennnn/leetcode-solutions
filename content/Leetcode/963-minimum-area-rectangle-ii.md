@@ -2,13 +2,14 @@
 title: 963. Minimum Area Rectangle II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - geometry
 date: 2022-02-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-area-rectangle-ii/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class Solution:
         
                 
         return res if res != float('inf') else 0
-
 ```
 

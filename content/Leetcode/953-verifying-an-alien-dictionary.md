@@ -2,13 +2,14 @@
 title: 953. Verifying an Alien Dictionary
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - string
 date: 2023-02-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/verifying-an-alien-dictionary/)
 
 ## Description
 
@@ -65,6 +66,5 @@ class Solution:
         words = [[O[x] for x in word] for word in words]
         
         return all(x1 <= x2 for x1, x2 in zip(words, words[1:]))
-
 ```
 

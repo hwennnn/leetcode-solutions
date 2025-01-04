@@ -2,13 +2,14 @@
 title: 1219. Path with Maximum Gold
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - backtracking
   - matrix
 date: 2024-05-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/path-with-maximum-gold/)
 
 ## Description
 
@@ -95,6 +96,5 @@ class Solution:
                     visited[x][y] = False
 
         return res
-
 ```
 

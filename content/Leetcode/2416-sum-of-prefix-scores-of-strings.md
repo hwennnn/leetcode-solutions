@@ -2,6 +2,7 @@
 title: 2416. Sum of Prefix Scores of Strings
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - string
   - trie
@@ -9,7 +10,7 @@ tags:
 date: 2025-01-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/sum-of-prefix-scores-of-strings/)
 
 ## Description
 
@@ -109,6 +110,5 @@ class Solution:
             res.append(trie.query(word))
 
         return res
-
 ```
 

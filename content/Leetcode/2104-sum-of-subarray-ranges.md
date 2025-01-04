@@ -2,13 +2,14 @@
 title: 2104. Sum of Subarray Ranges
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - stack
   - monotonic-stack
 date: 2021-12-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/sum-of-subarray-ranges/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class Solution:
                 res += largest - smallest
         
         return res
-
 ```
 

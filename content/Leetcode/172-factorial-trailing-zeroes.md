@@ -2,11 +2,12 @@
 title: 172. Factorial Trailing Zeroes
 draft: false
 tags: 
+  - leetcode-medium
   - math
 date: 2020-08-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/factorial-trailing-zeroes/)
 
 ## Description
 
@@ -66,6 +67,5 @@ public class Solution {
         return count;
     }
 }
-
 ```
 

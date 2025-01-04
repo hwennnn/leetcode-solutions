@@ -2,13 +2,14 @@
 title: 2571. Minimum Operations to Reduce an Integer to 0
 draft: false
 tags: 
+  - leetcode-medium
   - dynamic-programming
   - greedy
   - bit-manipulation
 date: 2023-02-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
             res += 1
         
         return res
-
 ```
 

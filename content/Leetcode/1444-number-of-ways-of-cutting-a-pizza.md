@@ -2,6 +2,7 @@
 title: 1444. Number of Ways of Cutting a Pizza
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - memoization
@@ -9,7 +10,7 @@ tags:
 date: 2023-04-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/)
 
 ## Description
 
@@ -93,7 +94,6 @@ class Solution:
             return res % M
         
         return count(0, 0, k)
-
 
 ```
 

@@ -2,6 +2,7 @@
 title: 1976. Number of Ways to Arrive at Destination
 draft: false
 tags: 
+  - leetcode-medium
   - dynamic-programming
   - graph
   - topological-sort
@@ -9,7 +10,7 @@ tags:
 date: 2021-12-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/)
 
 ## Description
 
@@ -96,6 +97,5 @@ class Solution:
                     dest[nei] = new
                     heapq.heappush(pq, (new, nei))
                     count[nei] = count[src]
-
 ```
 

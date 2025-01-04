@@ -2,13 +2,14 @@
 title: 2396. Strictly Palindromic Number
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - two-pointers
   - brainteaser
 date: 2022-09-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/strictly-palindromic-number/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
                 return False
             
         return True
-
 ```
 

@@ -2,6 +2,7 @@
 title: 2440. Create Components With Same Value
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - math
   - tree
@@ -10,7 +11,7 @@ tags:
 date: 2022-10-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/create-components-with-same-value/)
 
 ## Description
 
@@ -101,6 +102,5 @@ class Solution:
                 return divisor - 1
         
         return 0
-
 ```
 

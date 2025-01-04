@@ -2,6 +2,7 @@
 title: 1481. Least Number of Unique Integers after K Removals
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - greedy
@@ -10,7 +11,7 @@ tags:
 date: 2024-02-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/)
 
 ## Description
 
@@ -61,6 +62,5 @@ class Solution:
             k -= v
         
         return 0
-
 ```
 

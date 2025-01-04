@@ -2,12 +2,13 @@
 title: 1614. Maximum Nesting Depth of the Parentheses
 draft: false
 tags: 
+  - leetcode-easy
   - string
   - stack
 date: 2024-04-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
                 res = curr
         
         return res
-
 ```
 

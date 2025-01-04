@@ -2,13 +2,14 @@
 title: 1680. Concatenation of Consecutive Binary Numbers
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - bit-manipulation
   - simulation
 date: 2022-09-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/)
 
 ## Description
 
@@ -67,6 +68,5 @@ class Solution:
             total %= M
         
         return total
-
 ```
 

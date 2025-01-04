@@ -2,14 +2,15 @@
 title: 2551. Put Marbles in Bags
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - greedy
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2023-07-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/put-marbles-in-bags/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
 
         
         
-
 ```
 

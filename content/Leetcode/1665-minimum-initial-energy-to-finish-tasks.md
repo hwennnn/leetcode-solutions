@@ -2,13 +2,14 @@
 title: 1665. Minimum Initial Energy to Finish Tasks
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - greedy
   - sorting
 date: 2020-11-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/)
 
 ## Description
 
@@ -94,6 +95,5 @@ class Solution:
             curr -= cost
         
         return res
-
 ```
 

@@ -2,13 +2,14 @@
 title: 103. Binary Tree Zigzag Level Order Traversal
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - breadth-first-search
   - binary-tree
 date: 2023-02-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
             r ^= 1
         
         return res
-
 ```
 

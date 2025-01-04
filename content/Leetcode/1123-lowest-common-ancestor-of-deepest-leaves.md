@@ -2,6 +2,7 @@
 title: 1123. Lowest Common Ancestor of Deepest Leaves
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - tree
   - depth-first-search
@@ -10,7 +11,7 @@ tags:
 date: 2021-05-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class Solution:
         
         return helper(root)[1]
         
-
 ```
 

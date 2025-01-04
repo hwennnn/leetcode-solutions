@@ -2,6 +2,7 @@
 title: 1763. Longest Nice Substring
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - string
   - divide-and-conquer
@@ -10,7 +11,7 @@ tags:
 date: 2021-04-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-nice-substring/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
             return max(first, second, key = len)
         
         return s
-
 ```
 

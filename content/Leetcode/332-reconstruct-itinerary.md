@@ -2,13 +2,14 @@
 title: 332. Reconstruct Itinerary
 draft: false
 tags: 
+  - leetcode-hard
   - depth-first-search
   - graph
   - eulerian-circuit
 date: 2023-09-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/reconstruct-itinerary/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
         
         go(S)
         return res[::-1]
-
 ```
 

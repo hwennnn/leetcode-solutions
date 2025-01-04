@@ -2,12 +2,13 @@
 title: 125. Valid Palindrome
 draft: false
 tags: 
+  - leetcode-easy
   - two-pointers
   - string
 date: 2020-08-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/valid-palindrome/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
                 return False
         return True
         
-
 ```
 

@@ -2,13 +2,14 @@
 title: 3137. Minimum Number of Operations to Make Word K-Periodic
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - counting
 date: 2024-05-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-operations-to-make-word-k-periodic/)
 
 ## Description
 
@@ -116,6 +117,5 @@ class Solution:
             res = max(res, v)
             
         return (N // k) - res
-
 ```
 

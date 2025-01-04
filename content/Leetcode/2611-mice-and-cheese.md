@@ -2,14 +2,15 @@
 title: 2611. Mice and Cheese
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2023-04-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/mice-and-cheese/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
         return res
         
             
-
 ```
 

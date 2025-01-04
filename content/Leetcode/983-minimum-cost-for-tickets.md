@@ -2,12 +2,13 @@
 title: 983. Minimum Cost For Tickets
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
 date: 2024-12-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-cost-for-tickets/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class Solution:
             last = day + 1
 
         return dp[-1]
-
 ```
 

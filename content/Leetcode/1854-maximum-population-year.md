@@ -2,13 +2,14 @@
 title: 1854. Maximum Population Year
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - counting
   - prefix-sum
 date: 2021-05-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-population-year/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
                 mmax = x
         
         return res
-
 ```
 

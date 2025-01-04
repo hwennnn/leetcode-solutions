@@ -2,11 +2,12 @@
 title: 1523. Count Odd Numbers in an Interval Range
 draft: false
 tags: 
+  - leetcode-easy
   - math
 date: 2023-02-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)
 
 ## Description
 
@@ -43,6 +44,5 @@ date: 2023-02-13
 class Solution:
     def countOdds(self, low: int, high: int) -> int:
         return (high - low) // 2 + int(low & 1 or high & 1)
-
 ```
 

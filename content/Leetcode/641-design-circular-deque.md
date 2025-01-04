@@ -2,6 +2,7 @@
 title: 641. Design Circular Deque
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - linked-list
   - design
@@ -9,7 +10,7 @@ tags:
 date: 2025-01-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/design-circular-deque/)
 
 ## Description
 
@@ -139,6 +140,5 @@ class MyCircularDeque:
 # param_6 = obj.getRear()
 # param_7 = obj.isEmpty()
 # param_8 = obj.isFull()
-
 ```
 

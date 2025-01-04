@@ -2,12 +2,13 @@
 title: 2810. Faulty Keyboard
 draft: false
 tags: 
+  - leetcode-easy
   - string
   - simulation
 date: 2023-08-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/faulty-keyboard/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
                 res.append(x)
         
         return "".join(res)
-
 ```
 

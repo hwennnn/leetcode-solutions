@@ -2,13 +2,14 @@
 title: 977. Squares of a Sorted Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - two-pointers
   - sorting
-date: 2024-03-02
+date: 2019-10-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/squares-of-a-sorted-array/)
 
 ## Description
 
@@ -66,6 +67,21 @@ class Solution:
             p -= 1
         
         return res
-
+```
+### Python
+``` py title='squares-of-a-sorted-array'
+class Solution(object):
+    def sortedSquares(self, A):
+        """
+        :type A: List[int]
+        :rtype: List[int]
+        """
+        lst = []
+        for i in A:
+            lst.append(i**2)
+        
+        lst.sort()
+        return lst
+            
 ```
 

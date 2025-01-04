@@ -2,12 +2,13 @@
 title: 330. Patching Array
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - greedy
 date: 2024-06-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/patching-array/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
                 res += 1
 
         return res
-
 ```
 

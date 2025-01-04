@@ -2,11 +2,12 @@
 title: 3021. Alice and Bob Playing Flower Game
 draft: false
 tags: 
+  - leetcode-medium
   - math
 date: 2024-01-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/alice-and-bob-playing-flower-game/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
             res += (n - i + 1) // 2
         
         return res
-
 ```
 

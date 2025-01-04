@@ -2,6 +2,7 @@
 title: 1302. Deepest Leaves Sum
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - depth-first-search
   - breadth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2022-05-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/deepest-leaves-sum/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
         return res
                 
         
-
 ```
 

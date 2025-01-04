@@ -2,12 +2,13 @@
 title: 1629. Slowest Key
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - string
 date: 2021-09-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/slowest-key/)
 
 ## Description
 
@@ -86,6 +87,5 @@ class Solution:
                 res = (char, t)
         
         return res[0]
-
 ```
 

@@ -2,12 +2,13 @@
 title: 1750. Minimum Length of String After Deleting Similar Ends
 draft: false
 tags: 
+  - leetcode-medium
   - two-pointers
   - string
 date: 2024-03-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
                 j -= 1
         
         return j - i + 1
-
 ```
 

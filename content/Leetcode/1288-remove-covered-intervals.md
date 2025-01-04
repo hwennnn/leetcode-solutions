@@ -2,12 +2,13 @@
 title: 1288. Remove Covered Intervals
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - sorting
 date: 2022-02-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/remove-covered-intervals/)
 
 ## Description
 
@@ -61,6 +62,5 @@ class Solution:
             right = max(right, end)
         
         return res
-
 ```
 

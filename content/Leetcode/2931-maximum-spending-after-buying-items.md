@@ -2,15 +2,16 @@
 title: 2931. Maximum Spending After Buying Items
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - greedy
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
   - matrix
 date: 2023-11-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-spending-after-buying-items/)
 
 ## Description
 
@@ -100,6 +101,5 @@ class Solution:
                 heappush(pq, (values[i][j - 1], i, j - 1))
         
         return res
-
 ```
 

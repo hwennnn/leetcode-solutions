@@ -2,6 +2,7 @@
 title: 2206. Divide Array Into Equal Pairs
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - bit-manipulation
@@ -9,7 +10,7 @@ tags:
 date: 2022-03-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/divide-array-into-equal-pairs/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
             n -= v // 2
         
         return n == 0
-
 ```
 

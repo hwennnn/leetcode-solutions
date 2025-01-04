@@ -2,12 +2,13 @@
 title: 3168. Minimum Number of Chairs in a Waiting Room
 draft: false
 tags: 
+  - leetcode-easy
   - string
   - simulation
 date: 2024-06-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/)
 
 ## Description
 
@@ -210,6 +211,5 @@ class Solution:
                 curr -= 1
         
         return res
-
 ```
 

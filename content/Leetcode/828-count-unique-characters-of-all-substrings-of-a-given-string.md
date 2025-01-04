@@ -2,13 +2,14 @@
 title: 828. Count Unique Characters of All Substrings of a Given String
 draft: false
 tags: 
+  - leetcode-hard
   - hash-table
   - string
   - dynamic-programming
 date: 2023-08-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class Solution:
             res += left[i] * right[i]
 
         return res
-
 ```
 

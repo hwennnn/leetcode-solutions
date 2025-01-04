@@ -2,13 +2,14 @@
 title: 1914. Cyclically Rotating a Grid
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - matrix
   - simulation
 date: 2021-06-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/cyclically-rotating-a-grid/)
 
 ## Description
 
@@ -96,6 +97,5 @@ class Solution:
         
         return grid
             
-
 ```
 

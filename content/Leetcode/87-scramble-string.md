@@ -2,12 +2,13 @@
 title: 87. Scramble String
 draft: false
 tags: 
+  - leetcode-hard
   - string
   - dynamic-programming
 date: 2023-03-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/scramble-string/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class Solution:
             return False
         
         return go(0, 0, len(s1))
-
 ```
 

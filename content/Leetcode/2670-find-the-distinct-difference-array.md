@@ -2,12 +2,13 @@
 title: 2670. Find the Distinct Difference Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
 date: 2023-05-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-distinct-difference-array/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
             res.append(left - right)
         
         return res
-
 ```
 

@@ -2,6 +2,7 @@
 title: 840. Magic Squares In Grid
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - math
@@ -9,7 +10,7 @@ tags:
 date: 2024-08-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/magic-squares-in-grid/)
 
 ## Description
 
@@ -86,6 +87,5 @@ class Solution:
         row_sums.extend(col_sums)
         row_sums.extend(diag_sums)
         return len(set(row_sums)) == 1
-
 ```
 

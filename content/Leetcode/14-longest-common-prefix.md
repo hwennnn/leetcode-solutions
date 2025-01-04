@@ -2,12 +2,13 @@
 title: 14. Longest Common Prefix
 draft: false
 tags: 
+  - leetcode-easy
   - string
   - trie
 date: 2022-06-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-common-prefix/)
 
 ## Description
 
@@ -66,6 +67,5 @@ class Solution:
                 break
         
         return res
-
 ```
 

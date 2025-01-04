@@ -2,13 +2,14 @@
 title: 1806. Minimum Number of Operations to Reinitialize a Permutation
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - simulation
 date: 2021-03-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-operations-to-reinitialize-a-permutation/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class Solution:
             
         return count
         
-
 ```
 

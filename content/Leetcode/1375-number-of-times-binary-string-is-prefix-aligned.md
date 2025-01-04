@@ -2,11 +2,12 @@
 title: 1375. Number of Times Binary String Is Prefix-Aligned
 draft: false
 tags: 
+  - leetcode-medium
   - array
 date: 2020-10-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-times-binary-string-is-prefix-aligned/)
 
 ## Description
 
@@ -73,6 +74,35 @@ public:
         return res;
     }
 };
+```
+### Python
+``` py title='number-of-times-binary-string-is-prefix-aligned'
+class Solution:
+    def numTimesAllBlue(self, light: List[int]) -> int:
+        n = len(light)
+        blues = [False] * n
+        ons = [False] * n
+        res = 0
+        on = 0
+        for i, x in enumerate(light):
+            ons[x-1] = True
+            # if idx == 0, then light it up to blue
+            if x == 1 or blues[x-2]: 
+                blues[x-1] = True
 
+            r = x
+            if blues[x-1]:
+                while r < n and ons[r]:
+                    blues[r] = True
+                    on -= 1
+                    r += 1
+            else:
+                on += 1
+            
+            if on == 0:
+                res += 1
+            
+        return res
+            
 ```
 

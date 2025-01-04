@@ -2,6 +2,7 @@
 title: 2501. Longest Square Streak in an Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - binary-search
@@ -10,7 +11,7 @@ tags:
 date: 2024-10-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-square-streak-in-an-array/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
         
         return res if res >= 2 else -1
         
-
 ```
 

@@ -2,12 +2,13 @@
 title: 2663. Lexicographically Smallest Beautiful String
 draft: false
 tags: 
+  - leetcode-hard
   - string
   - greedy
 date: 2023-05-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/lexicographically-smallest-beautiful-string/)
 
 ## Description
 
@@ -88,6 +89,5 @@ class Solution:
             i -= 1
             
         return ""
-
 ```
 

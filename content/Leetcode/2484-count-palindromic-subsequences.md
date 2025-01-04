@@ -2,12 +2,13 @@
 title: 2484. Count Palindromic Subsequences
 draft: false
 tags: 
+  - leetcode-hard
   - string
   - dynamic-programming
 date: 2022-11-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-palindromic-subsequences/)
 
 ## Description
 
@@ -97,6 +98,5 @@ class Solution:
         return res
 
                 
-
 ```
 

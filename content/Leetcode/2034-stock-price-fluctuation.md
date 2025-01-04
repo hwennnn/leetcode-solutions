@@ -2,15 +2,16 @@
 title: 2034. Stock Price Fluctuation 
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - design
-  - heap-(priority-queue)
+  - heap-priority-queue
   - data-stream
   - ordered-set
 date: 2021-10-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/stock-price-fluctuation/)
 
 ## Description
 
@@ -110,6 +111,5 @@ class StockPrice:
 # param_2 = obj.current()
 # param_3 = obj.maximum()
 # param_4 = obj.minimum()
-
 ```
 

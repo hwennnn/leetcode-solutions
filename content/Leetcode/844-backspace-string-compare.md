@@ -2,6 +2,7 @@
 title: 844. Backspace String Compare
 draft: false
 tags: 
+  - leetcode-easy
   - two-pointers
   - string
   - stack
@@ -9,7 +10,7 @@ tags:
 date: 2023-10-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/backspace-string-compare/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class Solution:
         return i == -1 and j == -1
 
   
-
 ```
 

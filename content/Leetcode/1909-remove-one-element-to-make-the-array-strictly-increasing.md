@@ -2,11 +2,12 @@
 title: 1909. Remove One Element to Make the Array Strictly Increasing
 draft: false
 tags: 
+  - leetcode-easy
   - array
 date: 2021-06-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
             if isIncreasing(nums[:i] + nums[i + 1:]): return True
             
         return False
-
 ```
 

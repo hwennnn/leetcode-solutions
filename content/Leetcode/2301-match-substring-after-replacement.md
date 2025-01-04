@@ -2,6 +2,7 @@
 title: 2301. Match Substring After Replacement
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - string
@@ -9,7 +10,7 @@ tags:
 date: 2022-07-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/match-substring-after-replacement/)
 
 ## Description
 
@@ -97,6 +98,5 @@ class Solution:
                 return True
         
         return False
-
 ```
 

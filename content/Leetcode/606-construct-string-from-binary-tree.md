@@ -2,6 +2,7 @@
 title: 606. Construct String from Binary Tree
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - tree
   - depth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2023-12-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/construct-string-from-binary-tree/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class Solution:
             return res
         
         return go(root)
-
 ```
 

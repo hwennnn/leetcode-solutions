@@ -2,6 +2,7 @@
 title: 1074. Number of Submatrices That Sum to Target
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - matrix
@@ -9,7 +10,7 @@ tags:
 date: 2024-01-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)
 
 ## Description
 
@@ -81,6 +82,5 @@ class Solution:
                     mp[curr] += 1
 
         return res
-
 ```
 

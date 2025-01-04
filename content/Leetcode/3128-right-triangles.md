@@ -2,6 +2,7 @@
 title: 3128. Right Triangles
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - math
@@ -10,7 +11,7 @@ tags:
 date: 2024-04-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/right-triangles/)
 
 ## Description
 
@@ -222,6 +223,5 @@ class Solution:
                     res += r * c
         
         return res
-
 ```
 

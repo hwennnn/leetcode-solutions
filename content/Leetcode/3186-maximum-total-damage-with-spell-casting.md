@@ -2,6 +2,7 @@
 title: 3186. Maximum Total Damage With Spell Casting
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - two-pointers
@@ -12,7 +13,7 @@ tags:
 date: 2024-06-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-total-damage-with-spell-casting/)
 
 ## Description
 
@@ -92,6 +93,5 @@ class Solution:
         return go(0)
             
             
-
 ```
 

@@ -2,6 +2,7 @@
 title: 2284. Sender With Largest Word Count
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - string
@@ -9,7 +10,7 @@ tags:
 date: 2022-05-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/sender-with-largest-word-count/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
         
         return res
         
-
 ```
 

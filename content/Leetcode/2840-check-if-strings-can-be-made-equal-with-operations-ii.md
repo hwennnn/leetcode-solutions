@@ -2,13 +2,14 @@
 title: 2840. Check if Strings Can be Made Equal With Operations II
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - sorting
 date: 2023-09-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-ii/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
                 return False
         
         return True
-
 ```
 

@@ -2,12 +2,13 @@
 title: 2729. Check if The Number is Fascinating
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - math
 date: 2023-06-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-the-number-is-fascinating/)
 
 ## Description
 
@@ -60,6 +61,5 @@ class Solution:
         s = set(A)
         
         return len(s) == len(A) == 9 and "0" not in s
-
 ```
 

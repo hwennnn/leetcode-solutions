@@ -2,11 +2,12 @@
 title: 2210. Count Hills and Valleys in an Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
 date: 2022-03-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-hills-and-valleys-in-an-array/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
                     res += 1
         
         return res
-
 ```
 

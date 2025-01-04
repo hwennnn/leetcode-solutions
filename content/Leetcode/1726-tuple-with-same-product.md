@@ -2,13 +2,14 @@
 title: 1726. Tuple with Same Product
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - counting
 date: 2021-01-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/tuple-with-same-product/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
             
         
         return res * 8
-
 ```
 

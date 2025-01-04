@@ -2,12 +2,13 @@
 title: 2918. Minimum Equal Sum of Two Arrays After Replacing Zeros
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
 date: 2023-10-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-equal-sum-of-two-arrays-after-replacing-zeros/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
                 left = mid + 1
 
         return res
-
 ```
 

@@ -2,13 +2,14 @@
 title: 3243. Shortest Distance After Road Addition Queries I
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - breadth-first-search
   - graph
 date: 2024-11-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i/)
 
 ## Description
 
@@ -110,6 +111,5 @@ class Solution:
             res.append(dijkstra())
         
         return res
-
 ```
 

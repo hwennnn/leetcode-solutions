@@ -2,11 +2,12 @@
 title: 2288. Apply Discount to Prices
 draft: false
 tags: 
+  - leetcode-medium
   - string
 date: 2022-06-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/apply-discount-to-prices/)
 
 ## Description
 
@@ -94,6 +95,5 @@ class Solution:
                     res.append(x)
         
         return " ".join(res)
-
 ```
 

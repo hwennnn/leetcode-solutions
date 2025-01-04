@@ -2,11 +2,12 @@
 title: 476. Number Complement
 draft: false
 tags: 
+  - leetcode-easy
   - bit-manipulation
 date: 2024-12-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-complement/)
 
 ## Description
 
@@ -55,6 +56,5 @@ date: 2024-12-26
 class Solution:
     def findComplement(self, num: int) -> int:
         return num ^ ((1 << num.bit_length()) - 1)
-
 ```
 

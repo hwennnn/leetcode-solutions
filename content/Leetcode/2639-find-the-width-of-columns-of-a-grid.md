@@ -2,12 +2,13 @@
 title: 2639. Find the Width of Columns of a Grid
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - matrix
 date: 2023-04-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
             res.append(l)
             
         return res
-
 ```
 

@@ -2,6 +2,7 @@
 title: 1655. Distribute Repeating Integers
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - backtracking
@@ -10,7 +11,7 @@ tags:
 date: 2022-01-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/distribute-repeating-integers/)
 
 ## Description
 
@@ -102,6 +103,5 @@ class Solution:
             
         
         
-
 ```
 

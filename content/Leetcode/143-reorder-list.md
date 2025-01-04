@@ -2,6 +2,7 @@
 title: 143. Reorder List
 draft: false
 tags: 
+  - leetcode-medium
   - linked-list
   - two-pointers
   - stack
@@ -9,7 +10,7 @@ tags:
 date: 2024-03-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/reorder-list/)
 
 ## Description
 
@@ -93,6 +94,5 @@ class Solution:
             head.next = head2
             head = temp1
             head2 = temp2
-
 ```
 

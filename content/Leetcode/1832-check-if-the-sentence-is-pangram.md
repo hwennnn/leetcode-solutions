@@ -2,12 +2,13 @@
 title: 1832. Check if the Sentence Is Pangram
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - string
 date: 2022-10-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)
 
 ## Description
 
@@ -57,6 +58,5 @@ class Solution:
                 res ^= (1 << k)
         
         return res == (1 << 26) - 1
-
 ```
 

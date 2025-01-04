@@ -2,6 +2,7 @@
 title: 3045. Count Prefix and Suffix Pairs II
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - string
   - trie
@@ -11,7 +12,7 @@ tags:
 date: 2024-02-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-prefix-and-suffix-pairs-ii/)
 
 ## Description
 
@@ -96,6 +97,5 @@ class Solution:
             x.count += 1
 
         return res
-
 ```
 

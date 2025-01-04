@@ -2,6 +2,7 @@
 title: 470. Implement Rand10() Using Rand7()
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - rejection-sampling
   - randomized
@@ -9,7 +10,7 @@ tags:
 date: 2020-08-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/implement-rand10-using-rand7/)
 
 ## Description
 
@@ -63,6 +64,5 @@ class Solution:
         
         return rand40 % 10 + 1
         
-
 ```
 

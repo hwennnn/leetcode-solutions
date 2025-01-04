@@ -2,13 +2,14 @@
 title: 700. Search in a Binary Search Tree
 draft: false
 tags: 
+  - leetcode-easy
   - tree
   - binary-search-tree
   - binary-tree
 date: 2022-04-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/search-in-a-binary-search-tree/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
                 return search(node.right)
         
         return search(root)
-
 ```
 

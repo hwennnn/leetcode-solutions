@@ -2,11 +2,12 @@
 title: 1848. Minimum Distance to the Target Element
 draft: false
 tags: 
+  - leetcode-easy
   - array
 date: 2021-05-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-distance-to-the-target-element/)
 
 ## Description
 
@@ -61,6 +62,5 @@ date: 2021-05-03
 class Solution:
     def getMinDistance(self, nums: List[int], target: int, start: int) -> int:
         return min([abs(i - start) for i in range(len(nums)) if nums[i] == target])
-
 ```
 

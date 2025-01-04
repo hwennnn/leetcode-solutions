@@ -2,6 +2,7 @@
 title: 819. Most Common Word
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - string
@@ -9,7 +10,7 @@ tags:
 date: 2020-03-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/most-common-word/)
 
 ## Description
 
@@ -61,6 +62,5 @@ class Solution:
         ban = set(banned)
         words = re.findall(r'\w+', p.lower())
         return collections.Counter(w for w in words if w not in ban).most_common(1)[0][0]
-
 ```
 

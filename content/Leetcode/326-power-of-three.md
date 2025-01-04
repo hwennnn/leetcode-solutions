@@ -2,12 +2,13 @@
 title: 326. Power of Three
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - recursion
 date: 2022-08-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/power-of-three/)
 
 ## Description
 
@@ -65,6 +66,5 @@ class Solution:
         if n % 3 != 0: return False
         
         return self.isPowerOfThree(n // 3)
-
 ```
 

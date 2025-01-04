@@ -2,12 +2,13 @@
 title: 2765. Longest Alternating Subarray
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - enumeration
 date: 2023-07-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-alternating-subarray/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
                 res = max(res, j - i + 1)
 
         return res
-
 ```
 

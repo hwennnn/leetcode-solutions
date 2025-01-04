@@ -2,6 +2,7 @@
 title: 95. Unique Binary Search Trees II
 draft: false
 tags: 
+  - leetcode-medium
   - dynamic-programming
   - backtracking
   - tree
@@ -10,7 +11,7 @@ tags:
 date: 2023-08-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/unique-binary-search-trees-ii/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
             return res
         
         return generate(1, n)
-
 ```
 

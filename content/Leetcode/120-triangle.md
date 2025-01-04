@@ -2,12 +2,13 @@
 title: 120. Triangle
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
 date: 2024-08-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/triangle/)
 
 ## Description
 
@@ -66,6 +67,5 @@ class Solution:
                 triangle[i][j] += min(l, r)
         
         return min(triangle[-1])
-
 ```
 

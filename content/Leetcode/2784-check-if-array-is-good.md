@@ -2,13 +2,14 @@
 title: 2784. Check if Array is Good
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - sorting
 date: 2023-07-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-array-is-good/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
         A = list(range(1, MAX)) + [MAX] * 2
         
         return sorted(nums) == A
-
 ```
 

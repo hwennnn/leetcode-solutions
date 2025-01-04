@@ -2,16 +2,17 @@
 title: 2357. Make Array Zero by Subtracting Equal Amounts
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - greedy
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
   - simulation
 date: 2022-07-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/)
 
 ## Description
 
@@ -62,6 +63,5 @@ In the third operation, choose x = 2. Now, nums = [0,0,0,0,0].
 class Solution:
     def minimumOperations(self, nums: List[int]) -> int:
         return len(set([x for x in nums if x != 0]))
-
 ```
 

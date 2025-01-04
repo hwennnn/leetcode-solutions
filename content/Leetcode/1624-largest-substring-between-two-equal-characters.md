@@ -2,12 +2,13 @@
 title: 1624. Largest Substring Between Two Equal Characters
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - string
 date: 2023-12-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/largest-substring-between-two-equal-characters/)
 
 ## Description
 
@@ -67,6 +68,5 @@ class Solution:
                 prev[x] = i
 
         return res
-
 ```
 

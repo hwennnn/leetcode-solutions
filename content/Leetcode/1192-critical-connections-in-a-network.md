@@ -2,13 +2,14 @@
 title: 1192. Critical Connections in a Network
 draft: false
 tags: 
+  - leetcode-hard
   - depth-first-search
   - graph
   - biconnected-component
 date: 2022-05-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/critical-connections-in-a-network/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
             
         dfs(0, 0)  # since this is a connected graph, we don't have to loop over all nodes.
         return list(connections)
-
 ```
 

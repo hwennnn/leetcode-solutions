@@ -2,11 +2,12 @@
 title: 1450. Number of Students Doing Homework at a Given Time
 draft: false
 tags: 
+  - leetcode-easy
   - array
 date: 2020-10-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/)
 
 ## Description
 
@@ -62,6 +63,5 @@ class Solution:
                 res += 1
         
         return res
-
 ```
 

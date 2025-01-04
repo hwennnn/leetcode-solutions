@@ -2,13 +2,14 @@
 title: 2144. Minimum Cost of Buying Candies With Discount
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - greedy
   - sorting
 date: 2022-01-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
             res += cost[-i - 1]
         
         return res
-
 ```
 

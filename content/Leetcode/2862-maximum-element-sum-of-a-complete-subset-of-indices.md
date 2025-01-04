@@ -2,13 +2,14 @@
 title: 2862. Maximum Element-Sum of a Complete Subset of Indices
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - math
   - number-theory
 date: 2023-09-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-element-sum-of-a-complete-subset-of-indices/)
 
 ## Description
 
@@ -82,7 +83,6 @@ class Solution:
             res = max(res, curr)
 
         return res
-
 
 ```
 

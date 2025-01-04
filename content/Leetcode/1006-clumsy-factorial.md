@@ -2,13 +2,14 @@
 title: 1006. Clumsy Factorial
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - stack
   - simulation
 date: 2022-02-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/clumsy-factorial/)
 
 ## Description
 
@@ -98,6 +99,5 @@ public:
         return res;
     }
 };
-
 ```
 

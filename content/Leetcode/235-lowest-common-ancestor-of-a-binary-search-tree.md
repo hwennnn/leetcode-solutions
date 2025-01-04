@@ -2,6 +2,7 @@
 title: 235. Lowest Common Ancestor of a Binary Search Tree
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - depth-first-search
   - binary-search-tree
@@ -9,7 +10,7 @@ tags:
 date: 2022-08-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
                 return root
         
         return dfs(root)
-
 ```
 

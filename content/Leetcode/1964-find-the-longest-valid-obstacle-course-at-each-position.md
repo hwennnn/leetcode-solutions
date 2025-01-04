@@ -2,13 +2,14 @@
 title: 1964. Find the Longest Valid Obstacle Course at Each Position
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - binary-indexed-tree
 date: 2023-05-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/)
 
 ## Description
 
@@ -95,6 +96,5 @@ class Solution:
                 res.append(index + 1)
 
         return res
-
 ```
 

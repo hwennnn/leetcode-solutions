@@ -2,13 +2,14 @@
 title: 3011. Find if Array Can Be Sorted
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - bit-manipulation
   - sorting
 date: 2024-11-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-if-array-can-be-sorted/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
             i = j
 
         return all(a == b for a, b in zip(nums, s))
-
 ```
 

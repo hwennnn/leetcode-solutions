@@ -2,13 +2,14 @@
 title: 63. Unique Paths II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - matrix
 date: 2024-08-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/unique-paths-ii/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
             return count
         
         return go(0, 0)
-
 ```
 

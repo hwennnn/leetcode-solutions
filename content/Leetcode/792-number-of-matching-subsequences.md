@@ -2,6 +2,7 @@
 title: 792. Number of Matching Subsequences
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - string
@@ -12,7 +13,7 @@ tags:
 date: 2022-07-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-matching-subsequences/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
                     mp[word[1]].append(word[1:])
         
         return res
-
 ```
 

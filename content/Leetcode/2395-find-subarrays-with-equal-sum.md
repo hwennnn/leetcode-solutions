@@ -2,12 +2,13 @@
 title: 2395. Find Subarrays With Equal Sum
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
 date: 2022-09-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-subarrays-with-equal-sum/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
         
         return False
                 
-
 ```
 

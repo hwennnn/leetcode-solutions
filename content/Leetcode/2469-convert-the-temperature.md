@@ -2,11 +2,12 @@
 title: 2469. Convert the Temperature
 draft: false
 tags: 
+  - leetcode-easy
   - math
 date: 2022-11-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/convert-the-temperature/)
 
 ## Description
 
@@ -57,6 +58,5 @@ date: 2022-11-13
 class Solution:
     def convertTemperature(self, c: float) -> List[float]:
         return [c + 273.15, c * 1.80 + 32.00]
-
 ```
 

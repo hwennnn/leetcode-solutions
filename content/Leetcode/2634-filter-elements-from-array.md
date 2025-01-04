@@ -2,11 +2,11 @@
 title: 2634. Filter Elements from Array
 draft: false
 tags: 
-
+  - leetcode-easy
 date: 2023-05-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/filter-elements-from-array/)
 
 ## Description
 
@@ -78,6 +78,5 @@ function filter(arr: number[], fn: (n: number, i: number) => any): number[] {
 
     return result;
 };
-
 ```
 

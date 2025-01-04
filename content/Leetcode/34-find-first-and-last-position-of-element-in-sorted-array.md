@@ -2,12 +2,13 @@
 title: 34. Find First and Last Position of Element in Sorted Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
 date: 2023-10-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 
 ## Description
 
@@ -58,6 +59,5 @@ class Solution:
             return [-1, -1]
         
         return [start, end]
-
 ```
 

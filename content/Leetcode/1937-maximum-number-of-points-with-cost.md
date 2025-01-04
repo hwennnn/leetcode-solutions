@@ -2,13 +2,14 @@
 title: 1937. Maximum Number of Points with Cost
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - matrix
 date: 2024-08-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-number-of-points-with-cost/)
 
 ## Description
 
@@ -98,6 +99,5 @@ class Solution:
                     prev = (dp[i - 1][j], j)
 
         return max(dp[-1])
-
 ```
 

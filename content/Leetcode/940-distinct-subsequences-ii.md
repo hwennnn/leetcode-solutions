@@ -2,12 +2,13 @@
 title: 940. Distinct Subsequences II
 draft: false
 tags: 
+  - leetcode-hard
   - string
   - dynamic-programming
 date: 2022-02-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/distinct-subsequences-ii/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
             res %= M
         
         return res
-
 ```
 

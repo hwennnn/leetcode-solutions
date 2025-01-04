@@ -2,12 +2,13 @@
 title: 1749. Maximum Absolute Sum of Any Subarray
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
 date: 2021-02-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/)
 
 ## Description
 
@@ -64,6 +65,5 @@ class Solution:
             mmin = min(mmin, s)
 
         return mmax - mmin
-
 ```
 

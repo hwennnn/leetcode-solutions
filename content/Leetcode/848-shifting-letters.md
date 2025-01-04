@@ -2,13 +2,14 @@
 title: 848. Shifting Letters
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - string
   - prefix-sum
 date: 2021-09-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/shifting-letters/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
             res += chr(v + ord('a'))
         
         return res[::-1]
-
 ```
 

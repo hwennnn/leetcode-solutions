@@ -2,12 +2,13 @@
 title: 1018. Binary Prefix Divisible By 5
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - bit-manipulation
 date: 2022-01-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/binary-prefix-divisible-by-5/)
 
 ## Description
 
@@ -64,6 +65,5 @@ class Solution:
             res.append(prev % 5 == 0)
         
         return res
-
 ```
 

@@ -2,13 +2,14 @@
 title: 2386. Find the K-Sum of an Array
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2022-09-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-k-sum-of-an-array/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
             res = -nextSum
         
         return res
-
 ```
 

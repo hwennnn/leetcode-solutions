@@ -2,11 +2,11 @@
 title: 2649. Nested Array Generator
 draft: false
 tags: 
-
+  - leetcode-medium
 date: 2023-06-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/nested-array-generator/)
 
 ## Description
 
@@ -74,6 +74,5 @@ function* inorderTraversal(arr: MultidimensionalArray): Generator<number, void, 
  * gen.next().value; // 2
  * gen.next().value; // 3
  */
-
 ```
 

@@ -2,15 +2,16 @@
 title: 2146. K Highest Ranked Items Within a Price Range
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - breadth-first-search
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
   - matrix
 date: 2022-01-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/k-highest-ranked-items-within-a-price-range/)
 
 ## Description
 
@@ -136,6 +137,5 @@ class Solution:
         
         
         
-
 ```
 

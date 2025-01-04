@@ -2,12 +2,13 @@
 title: 2980. Check if Bitwise OR Has Trailing Zeros
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - bit-manipulation
 date: 2023-12-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
                 return True
         
         return False
-
 ```
 

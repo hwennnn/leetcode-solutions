@@ -2,6 +2,7 @@
 title: 902. Numbers At Most N Given Digit Set
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - math
   - string
@@ -10,7 +11,7 @@ tags:
 date: 2023-07-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)
 
 ## Description
 
@@ -92,6 +93,5 @@ class Solution:
             return res
         
         return dp(0, True, True) - 1
-
 ```
 

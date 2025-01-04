@@ -2,12 +2,13 @@
 title: 1945. Sum of Digits of String After Convert
 draft: false
 tags: 
+  - leetcode-easy
   - string
   - simulation
 date: 2024-12-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/)
 
 ## Description
 
@@ -105,6 +106,5 @@ class Solution:
             curr = temp
         
         return curr
-
 ```
 

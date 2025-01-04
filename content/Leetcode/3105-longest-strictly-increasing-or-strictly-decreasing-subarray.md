@@ -2,11 +2,12 @@
 title: 3105. Longest Strictly Increasing or Strictly Decreasing Subarray
 draft: false
 tags: 
+  - leetcode-easy
   - array
 date: 2024-04-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/)
 
 ## Description
 
@@ -95,6 +96,5 @@ class Solution:
                 dec = 1
                 
         return res
-
 ```
 

@@ -2,13 +2,14 @@
 title: 289. Game of Life
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - matrix
   - simulation
 date: 2022-04-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/game-of-life/)
 
 ## Description
 
@@ -108,6 +109,5 @@ class Solution:
                             
         
         
-
 ```
 

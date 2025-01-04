@@ -2,11 +2,12 @@
 title: 1276. Number of Burgers with No Waste of Ingredients
 draft: false
 tags: 
+  - leetcode-medium
   - math
 date: 2020-12-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-burgers-with-no-waste-of-ingredients/)
 
 ## Description
 
@@ -62,6 +63,5 @@ There will be no remaining ingredients.
 class Solution:
     def numOfBurgers(self, t: int, c: int) -> List[int]:
         return [(t//2) - c, c * 2 - t // 2] if t % 2 == 0 and c*2 <= t <= c*4 else []
-
 ```
 

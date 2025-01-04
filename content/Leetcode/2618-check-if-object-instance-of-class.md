@@ -2,11 +2,11 @@
 title: 2618. Check if Object Instance of Class
 draft: false
 tags: 
-
+  - leetcode-medium
 date: 2023-05-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-object-instance-of-class/)
 
 ## Description
 
@@ -67,6 +67,5 @@ function checkIfInstanceOf(obj: any, classFunction: any): boolean {
 /**
  * checkIfInstanceOf(new Date(), Date); // true
  */
-
 ```
 

@@ -2,6 +2,7 @@
 title: 653. Two Sum IV - Input is a BST
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - two-pointers
   - tree
@@ -12,7 +13,7 @@ tags:
 date: 2022-10-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
             return (root.val == t and root.val != curr.val) or (root.val > t and search(root.left, curr, t)) or (root.val < t and search(root.right, curr, t))
         
         return dfs(root, root)
-
 ```
 

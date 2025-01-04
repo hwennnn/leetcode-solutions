@@ -2,13 +2,14 @@
 title: 946. Validate Stack Sequences
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - stack
   - simulation
 date: 2023-04-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/validate-stack-sequences/)
 
 ## Description
 
@@ -67,6 +68,5 @@ class Solution:
                 stack.pop()
         
         return len(stack) == 0
-
 ```
 

@@ -2,13 +2,14 @@
 title: 2929. Distribute Candies Among Children II
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - combinatorics
   - enumeration
 date: 2023-11-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/distribute-candies-among-children-ii/)
 
 ## Description
 
@@ -61,6 +62,5 @@ class Solution:
         
         return res
             
-
 ```
 

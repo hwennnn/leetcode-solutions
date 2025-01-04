@@ -2,6 +2,7 @@
 title: 3043. Find the Length of the Longest Common Prefix
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - string
@@ -9,7 +10,7 @@ tags:
 date: 2024-09-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
         
         
         return res
-
 ```
 

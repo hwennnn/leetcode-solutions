@@ -2,16 +2,17 @@
 title: 1648. Sell Diminishing-Valued Colored Balls
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - binary-search
   - greedy
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2022-06-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/sell-diminishing-valued-colored-balls/)
 
 ## Description
 
@@ -114,6 +115,5 @@ class Solution:
             
                         
         return res % M
-
 ```
 

@@ -2,6 +2,7 @@
 title: 2514. Count Anagrams
 draft: false
 tags: 
+  - leetcode-hard
   - hash-table
   - math
   - string
@@ -10,7 +11,7 @@ tags:
 date: 2022-12-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-anagrams/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
         
         return res
         
-
 ```
 

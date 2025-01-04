@@ -2,11 +2,12 @@
 title: 461. Hamming Distance
 draft: false
 tags: 
+  - leetcode-easy
   - bit-manipulation
 date: 2021-11-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/hamming-distance/)
 
 ## Description
 
@@ -63,6 +64,5 @@ class Solution:
             xor >>= 1
             
         return res
-
 ```
 

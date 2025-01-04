@@ -2,6 +2,7 @@
 title: 164. Maximum Gap
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - sorting
   - bucket-sort
@@ -9,7 +10,7 @@ tags:
 date: 2021-05-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-gap/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
             prevMax = bucket_max[i]
         
         return maxGap
-
 ```
 

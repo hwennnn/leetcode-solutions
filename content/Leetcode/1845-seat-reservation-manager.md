@@ -2,12 +2,13 @@
 title: 1845. Seat Reservation Manager
 draft: false
 tags: 
+  - leetcode-medium
   - design
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2023-11-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/seat-reservation-manager/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class SeatManager:
 # obj = SeatManager(n)
 # param_1 = obj.reserve()
 # obj.unreserve(seatNumber)
-
 ```
 

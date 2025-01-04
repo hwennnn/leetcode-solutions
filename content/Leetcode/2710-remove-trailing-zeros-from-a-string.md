@@ -2,11 +2,12 @@
 title: 2710. Remove Trailing Zeros From a String
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2023-05-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/)
 
 ## Description
 
@@ -59,6 +60,5 @@ class Solution:
         if index == -1: return num
         
         return num[:index]
-
 ```
 

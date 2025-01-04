@@ -2,6 +2,7 @@
 title: 2581. Count Number of Possible Root Nodes
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - dynamic-programming
@@ -10,7 +11,7 @@ tags:
 date: 2023-03-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-number-of-possible-root-nodes/)
 
 ## Description
 
@@ -142,6 +143,5 @@ class Solution:
             dfs2(adj, 0, guessTrue)
 
         return res
-
 ```
 

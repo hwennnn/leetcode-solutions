@@ -2,11 +2,12 @@
 title: 2909. Minimum Sum of Mountain Triplets II
 draft: false
 tags: 
+  - leetcode-medium
   - array
 date: 2023-10-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-ii/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
             leftMin = min(leftMin, x)
         
         return -1 if res == inf else res
-
 ```
 

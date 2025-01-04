@@ -2,13 +2,14 @@
 title: 3075. Maximize Happiness of Selected Children
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
   - sorting
 date: 2024-05-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximize-happiness-of-selected-children/)
 
 ## Description
 
@@ -81,6 +82,5 @@ class Solution:
             res += happiness[i] - i
 
         return res
-
 ```
 

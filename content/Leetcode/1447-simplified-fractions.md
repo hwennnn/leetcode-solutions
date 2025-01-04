@@ -2,13 +2,14 @@
 title: 1447. Simplified Fractions
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - string
   - number-theory
 date: 2020-10-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/simplified-fractions/)
 
 ## Description
 
@@ -60,6 +61,5 @@ class Solution:
                 if math.gcd(i, j) == 1:
                     res.append(str(j) + '/' + str(i))
         return res
-
 ```
 

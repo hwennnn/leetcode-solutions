@@ -2,13 +2,14 @@
 title: 54. Spiral Matrix
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - matrix
   - simulation
 date: 2023-05-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/spiral-matrix/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
                 
         
         return res
-
 ```
 

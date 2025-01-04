@@ -2,12 +2,13 @@
 title: 2433. Find The Original Array of Prefix Xor
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - bit-manipulation
 date: 2023-10-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
             res.append(pref[i] ^ pref[i - 1])
         
         return res
-
 ```
 

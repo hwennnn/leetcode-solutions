@@ -2,11 +2,12 @@
 title: 2894. Divisible and Non-divisible Sums Difference
 draft: false
 tags: 
+  - leetcode-easy
   - math
 date: 2023-10-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
                 res += i
         
         return res
-
 ```
 

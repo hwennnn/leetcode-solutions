@@ -2,12 +2,13 @@
 title: 1721. Swapping Nodes in a Linked List
 draft: false
 tags: 
+  - leetcode-medium
   - linked-list
   - two-pointers
 date: 2023-05-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)
 
 ## Description
 
@@ -67,6 +68,5 @@ class Solution:
         first.val, second.val = second.val, first.val
 
         return head
-
 ```
 

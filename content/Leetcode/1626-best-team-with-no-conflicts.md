@@ -2,13 +2,14 @@
 title: 1626. Best Team With No Conflicts
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - sorting
 date: 2023-01-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/best-team-with-no-conflicts/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
             res = max(res, dp[i])
         
         return res
-
 ```
 

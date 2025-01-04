@@ -2,12 +2,13 @@
 title: 2683. Neighboring Bitwise XOR
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - bit-manipulation
 date: 2023-05-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/neighboring-bitwise-xor/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
             xor ^= x
         
         return xor == 0
-
 ```
 

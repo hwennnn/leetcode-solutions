@@ -2,12 +2,13 @@
 title: 2523. Closest Prime Numbers in Range
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - number-theory
 date: 2023-01-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/closest-prime-numbers-in-range/)
 
 ## Description
 
@@ -92,6 +93,5 @@ class Solution:
         
         return res[1:]
             
-
 ```
 

@@ -2,13 +2,14 @@
 title: 2939. Maximum Xor Product
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - greedy
   - bit-manipulation
 date: 2023-11-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-xor-product/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
         
         return (A * B) % MOD
     
-
 ```
 

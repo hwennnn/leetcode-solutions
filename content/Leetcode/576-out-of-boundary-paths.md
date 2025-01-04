@@ -2,11 +2,12 @@
 title: 576. Out of Boundary Paths
 draft: false
 tags: 
+  - leetcode-medium
   - dynamic-programming
 date: 2024-01-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/out-of-boundary-paths/)
 
 ## Description
 
@@ -59,6 +60,5 @@ class Solution:
             return (go(i - 1, j, moves - 1) + go(i, j - 1, moves - 1) + go(i + 1, j, moves - 1) + go(i, j + 1, moves - 1)) % MOD
         
         return go(startRow, startColumn, maxMove)
-
 ```
 

@@ -2,12 +2,13 @@
 title: 1413. Minimum Value to Get Positive Step by Step Sum
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - prefix-sum
 date: 2021-11-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
             mmin = min(mmin, curr)
         
         return mmin if mmin > 0 else abs(mmin) + 1
-
 ```
 

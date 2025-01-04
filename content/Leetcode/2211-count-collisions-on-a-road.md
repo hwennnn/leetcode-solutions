@@ -2,13 +2,14 @@
 title: 2211. Count Collisions on a Road
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - stack
   - simulation
 date: 2022-03-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-collisions-on-a-road/)
 
 ## Description
 
@@ -94,6 +95,5 @@ class Solution:
                     break
         
         return res
-
 ```
 

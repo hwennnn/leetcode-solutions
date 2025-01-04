@@ -2,6 +2,7 @@
 title: 1986. Minimum Number of Work Sessions to Finish the Tasks
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - backtracking
@@ -10,7 +11,7 @@ tags:
 date: 2021-08-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/)
 
 ## Description
 
@@ -94,6 +95,5 @@ class Solution:
             return res
         
         return go((1 << n) - 1, 0, 1)
-
 ```
 

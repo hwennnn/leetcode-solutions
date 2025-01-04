@@ -2,13 +2,14 @@
 title: 300. Longest Increasing Subsequence
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
   - dynamic-programming
 date: 2024-08-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-increasing-subsequence/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
                 A.append(x)
 
         return len(A)
-
 ```
 

@@ -2,12 +2,13 @@
 title: 2785. Sort Vowels in a String
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - sorting
 date: 2023-11-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/sort-vowels-in-a-string/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
                 j += 1
 
         return "".join(res)
-
 ```
 

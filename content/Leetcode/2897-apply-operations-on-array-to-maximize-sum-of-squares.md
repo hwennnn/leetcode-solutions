@@ -2,6 +2,7 @@
 title: 2897. Apply Operations on Array to Maximize Sum of Squares
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2023-10-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/apply-operations-on-array-to-maximize-sum-of-squares/)
 
 ## Description
 
@@ -92,6 +93,5 @@ class Solution:
             res = (res + (curr * curr) % M) % M
         
         return res
-
 ```
 

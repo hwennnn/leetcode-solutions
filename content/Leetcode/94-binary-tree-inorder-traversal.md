@@ -2,14 +2,15 @@
 title: 94. Binary Tree Inorder Traversal
 draft: false
 tags: 
+  - leetcode-easy
   - stack
   - tree
   - depth-first-search
   - binary-tree
-date: 2023-12-09
+date: 2020-12-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 
 ## Description
 
@@ -94,6 +95,35 @@ class Solution:
         
         go(root)
         return res
-
+```
+### C++
+``` cpp title='binary-tree-inorder-traversal'
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
+class Solution {
+public:
+    vector<int> res;
+    void helperR(TreeNode *root){
+        if (root == nullptr) return;
+        
+        helperR(root->left);
+        res.push_back(root->val);
+        helperR(root->right);
+    }
+    vector<int> inorderTraversal(TreeNode* root) {
+        helperR(root);
+        return res;
+    }
+    
+};
 ```
 

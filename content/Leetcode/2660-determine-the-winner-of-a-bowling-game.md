@@ -2,12 +2,13 @@
 title: 2660. Determine the Winner of a Bowling Game
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - simulation
 date: 2023-04-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/determine-the-winner-of-a-bowling-game/)
 
 ## Description
 
@@ -136,6 +137,5 @@ class Solution:
             return 1
         else:
             return 2
-
 ```
 

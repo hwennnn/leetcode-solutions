@@ -2,11 +2,11 @@
 title: 2675. Array of Objects to Matrix
 draft: false
 tags: 
-
+  - leetcode-hard
 date: 2023-05-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/array-of-objects-to-matrix/)
 
 ## Description
 
@@ -53,6 +53,5 @@ function jsonToMatrix(arr: any[]): (string | number | boolean | null)[][] {
 
   return matrix;
 }
-
 ```
 

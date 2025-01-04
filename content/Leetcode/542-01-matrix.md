@@ -2,6 +2,7 @@
 title: 542. 01 Matrix
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - breadth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2023-08-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/01-matrix/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
             d += 1
 
         return dist
-
 ```
 

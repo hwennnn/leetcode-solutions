@@ -2,14 +2,15 @@
 title: 1262. Greatest Sum Divisible by Three
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - greedy
   - sorting
-date: 2021-01-02
+date: 2020-08-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/greatest-sum-divisible-by-three/)
 
 ## Description
 
@@ -67,6 +68,24 @@ class Solution:
         
         return dp[0]
     
-
+```
+### C++
+``` cpp title='greatest-sum-divisible-by-three'
+class Solution {
+public:
+    int maxSumDivThree(vector<int>& nums) {
+        vector<int> dp {0,0,0}, dp2;
+        
+        for (int num : nums){
+            dp2 = dp;
+            
+            for (int i : dp2){
+                dp[(num+i)%3] = max(dp[(num+i)%3], num+i);
+            }
+        }
+        
+        return dp[0];
+    }
+};
 ```
 

@@ -2,13 +2,14 @@
 title: 299. Bulls and Cows
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - counting
 date: 2022-07-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/bulls-and-cows/)
 
 ## Description
 
@@ -83,7 +84,6 @@ class Solution:
                 c += min(s[i], g[i])
                 
         return '{0}A{1}B'.format(b, c)
-
 
 ```
 

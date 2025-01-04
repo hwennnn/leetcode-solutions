@@ -2,6 +2,7 @@
 title: 695. Max Area of Island
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - depth-first-search
   - breadth-first-search
@@ -10,7 +11,7 @@ tags:
 date: 2024-08-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/max-area-of-island/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
                     res = max(res, dfs(i, j))
 
         return res
-
 ```
 

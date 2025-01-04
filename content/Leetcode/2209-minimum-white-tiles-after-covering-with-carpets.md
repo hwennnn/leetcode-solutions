@@ -2,13 +2,14 @@
 title: 2209. Minimum White Tiles After Covering With Carpets
 draft: false
 tags: 
+  - leetcode-hard
   - string
   - dynamic-programming
   - prefix-sum
 date: 2022-03-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-white-tiles-after-covering-with-carpets/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class Solution:
         res = go(0, numCarpets)
         
         return total - res if total - res > 0 else 0
-
 ```
 

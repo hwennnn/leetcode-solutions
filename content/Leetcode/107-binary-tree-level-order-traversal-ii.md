@@ -2,13 +2,14 @@
 title: 107. Binary Tree Level Order Traversal II
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - breadth-first-search
   - binary-tree
 date: 2020-10-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
                         q.append([i, lvl+1])
                 
         return res
-
 ```
 

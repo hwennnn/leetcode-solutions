@@ -2,14 +2,15 @@
 title: 2102. Sequentially Ordinal Rank Tracker
 draft: false
 tags: 
+  - leetcode-hard
   - design
-  - heap-(priority-queue)
+  - heap-priority-queue
   - data-stream
   - ordered-set
 date: 2021-12-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/sequentially-ordinal-rank-tracker/)
 
 ## Description
 
@@ -109,6 +110,5 @@ class SORTracker:
 # obj = SORTracker()
 # obj.add(name,score)
 # param_2 = obj.get()
-
 ```
 

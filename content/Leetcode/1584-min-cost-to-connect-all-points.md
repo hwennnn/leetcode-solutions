@@ -2,6 +2,7 @@
 title: 1584. Min Cost to Connect All Points
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - union-find
   - graph
@@ -9,7 +10,7 @@ tags:
 date: 2023-10-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/min-cost-to-connect-all-points/)
 
 ## Description
 
@@ -104,6 +105,5 @@ class Solution:
                 res += dist
         
         return res
-
 ```
 

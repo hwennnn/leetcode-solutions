@@ -2,12 +2,13 @@
 title: 3175. Find The First Player to win K Games in a Row
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - simulation
 date: 2024-06-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-first-player-to-win-k-games-in-a-row/)
 
 ## Description
 
@@ -102,7 +103,6 @@ class Solution:
             if count >= k: break
 
         return res
-
 
 ```
 

@@ -2,12 +2,13 @@
 title: 2829. Determine the Minimum Sum of a k-avoiding Array
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - greedy
 date: 2023-08-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/determine-the-minimum-sum-of-a-k-avoiding-array/)
 
 ## Description
 
@@ -65,6 +66,5 @@ class Solution:
             x += 1
             
         return res
-
 ```
 

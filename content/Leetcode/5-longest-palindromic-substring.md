@@ -2,13 +2,14 @@
 title: 5. Longest Palindromic Substring
 draft: false
 tags: 
+  - leetcode-medium
   - two-pointers
   - string
   - dynamic-programming
 date: 2024-08-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-palindromic-substring/)
 
 ## Description
 
@@ -66,7 +67,6 @@ class Solution:
             res = max(res, pal(i, i), pal(i, i + 1), key = len)
         
         return res
-
 
 ```
 

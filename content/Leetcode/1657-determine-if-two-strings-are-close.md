@@ -2,6 +2,7 @@
 title: 1657. Determine if Two Strings Are Close
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - sorting
@@ -9,7 +10,7 @@ tags:
 date: 2024-01-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/determine-if-two-strings-are-close/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
         cnt1, cnt2 = Counter(word1), Counter(word2)
 
         return cnt1 == cnt2 or (cnt1.keys() == cnt2.keys() and sorted(cnt1.values()) == sorted(cnt2.values()))
-
 ```
 

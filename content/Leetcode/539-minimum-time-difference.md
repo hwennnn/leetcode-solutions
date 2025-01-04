@@ -2,6 +2,7 @@
 title: 539. Minimum Time Difference
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - string
@@ -9,7 +10,7 @@ tags:
 date: 2024-09-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-time-difference/)
 
 ## Description
 
@@ -42,6 +43,5 @@ class Solution:
         t = sorted(int(t[:2]) * 60 + int(t[-2:]) for t in timePoints)
         t.append(t[0] + 1440)
         return min(b - a for a, b in zip(t, t[1:]))
-
 ```
 

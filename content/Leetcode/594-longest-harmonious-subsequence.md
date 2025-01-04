@@ -2,6 +2,7 @@
 title: 594. Longest Harmonious Subsequence
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - sliding-window
@@ -10,7 +11,7 @@ tags:
 date: 2021-02-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-harmonious-subsequence/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
                 res = max(res, cnt[num] + cnt[num + 1])
         
         return res
-
 ```
 

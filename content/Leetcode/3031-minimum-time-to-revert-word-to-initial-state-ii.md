@@ -2,14 +2,15 @@
 title: 3031. Minimum Time to Revert Word to Initial State II
 draft: false
 tags: 
+  - leetcode-hard
   - string
   - rolling-hash
   - string-matching
   - hash-function
-date: 2024-02-06
+date: 2024-02-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-time-to-revert-word-to-initial-state-ii/)
 
 ## Description
 
@@ -106,6 +107,42 @@ class Solution:
             res += 1
         
         return res
+```
+### C++
+``` cpp title='minimum-time-to-revert-word-to-initial-state-ii'
+vector<int> z_function(string s) {
+    int n = s.size();
+    vector<int> z(n);
+    int l = 0, r = 0;
+    for(int i = 1; i < n; i++) {
+        if(i < r) {
+            z[i] = min(r - i, z[i - l]);
+        }
+        while(i + z[i] < n && s[z[i]] == s[i + z[i]]) {
+            z[i]++;
+        }
+        if(i + z[i] > r) {
+            l = i;
+            r = i + z[i];
+        }
+    }
+    return z;
+}
 
+class Solution {
+public:
+    int minimumTimeToInitialState(string word, int k) {
+        int N = word.size();
+        vector<int> Z = z_function(word);
+        int res = 1;
+
+        for (int i = k; i < N; i += k, res++) {
+            // word[i : N] == word[0 : N - i]
+            if (Z[i] == N - i) return res;
+        }
+
+        return res;
+    }
+};
 ```
 

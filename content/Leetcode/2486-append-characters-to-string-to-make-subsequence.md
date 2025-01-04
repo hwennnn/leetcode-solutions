@@ -2,13 +2,14 @@
 title: 2486. Append Characters to String to Make Subsequence
 draft: false
 tags: 
+  - leetcode-medium
   - two-pointers
   - string
   - greedy
 date: 2024-06-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
             if i == N: return 0
         
         return N - i
-
 ```
 

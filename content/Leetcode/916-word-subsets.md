@@ -2,13 +2,14 @@
 title: 916. Word Subsets
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - string
 date: 2022-07-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/word-subsets/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
                 
         return res
         
-
 ```
 

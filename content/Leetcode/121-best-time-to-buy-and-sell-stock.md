@@ -2,12 +2,13 @@
 title: 121. Best Time to Buy and Sell Stock
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - dynamic-programming
 date: 2024-08-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
 ## Description
 
@@ -61,6 +62,5 @@ class Solution:
             buy = min(buy, price)
 
         return res
-
 ```
 

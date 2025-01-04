@@ -2,6 +2,7 @@
 title: 140. Word Break II
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - string
@@ -12,7 +13,7 @@ tags:
 date: 2024-05-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/word-break-ii/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
 
         backtrack(0, [])
         return res
-
 ```
 

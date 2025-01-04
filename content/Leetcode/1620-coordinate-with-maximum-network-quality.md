@@ -2,12 +2,13 @@
 title: 1620. Coordinate With Maximum Network Quality
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - enumeration
 date: 2020-10-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/coordinate-with-maximum-network-quality/)
 
 ## Description
 
@@ -106,6 +107,5 @@ class Solution:
                 mp[s] = [t1[0],t1[1]]
 
         return mp[res]
-
 ```
 

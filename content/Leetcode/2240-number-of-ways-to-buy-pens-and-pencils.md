@@ -2,12 +2,13 @@
 title: 2240. Number of Ways to Buy Pens and Pencils
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - enumeration
 date: 2022-04-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-ways-to-buy-pens-and-pencils/)
 
 ## Description
 
@@ -64,6 +65,5 @@ class Solution:
             res += (curr // cost2) + 1
         
         return res
-
 ```
 

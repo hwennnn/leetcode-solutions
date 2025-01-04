@@ -2,12 +2,13 @@
 title: 50. Pow(x, n)
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - recursion
 date: 2023-07-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/powx-n/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
                 return res * res * base
         
         return p(x, n)
-
 ```
 

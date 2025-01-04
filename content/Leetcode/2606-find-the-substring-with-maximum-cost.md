@@ -2,6 +2,7 @@
 title: 2606. Find the Substring With Maximum Cost
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - string
@@ -9,7 +10,7 @@ tags:
 date: 2023-04-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-substring-with-maximum-cost/)
 
 ## Description
 
@@ -96,6 +97,5 @@ class Solution:
             res = max(res, curr)
         
         return res
-
 ```
 

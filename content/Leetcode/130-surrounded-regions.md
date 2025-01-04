@@ -2,6 +2,7 @@
 title: 130. Surrounded Regions
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - depth-first-search
   - breadth-first-search
@@ -10,7 +11,7 @@ tags:
 date: 2021-11-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/surrounded-regions/)
 
 ## Description
 
@@ -99,6 +100,5 @@ class Solution:
             
         
         
-
 ```
 

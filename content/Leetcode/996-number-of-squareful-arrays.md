@@ -2,6 +2,7 @@
 title: 996. Number of Squareful Arrays
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - math
@@ -12,7 +13,7 @@ tags:
 date: 2022-02-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-squareful-arrays/)
 
 ## Description
 
@@ -86,6 +87,5 @@ class Solution:
         perm([])        
 
         return res
-
 ```
 

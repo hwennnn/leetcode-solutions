@@ -2,13 +2,14 @@
 title: 2000. Reverse Prefix of Word
 draft: false
 tags: 
+  - leetcode-easy
   - two-pointers
   - string
   - stack
 date: 2024-05-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/reverse-prefix-of-word/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
                 break
 
         return "".join(word)
-
 ```
 

@@ -2,6 +2,7 @@
 title: 1673. Find the Most Competitive Subsequence
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - stack
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2021-01-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-most-competitive-subsequence/)
 
 ## Description
 
@@ -65,6 +66,5 @@ class Solution:
         
         return res
         
-
 ```
 

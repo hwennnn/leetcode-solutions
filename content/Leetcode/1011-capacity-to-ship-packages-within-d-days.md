@@ -2,12 +2,13 @@
 title: 1011. Capacity To Ship Packages Within D Days
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
 date: 2023-02-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
 
 ## Description
 
@@ -103,6 +104,5 @@ class Solution:
                 left = mid + 1
         
         return left
-
 ```
 

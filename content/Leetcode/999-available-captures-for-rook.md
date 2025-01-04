@@ -2,13 +2,14 @@
 title: 999. Available Captures for Rook
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - matrix
   - simulation
 date: 2022-02-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/available-captures-for-rook/)
 
 ## Description
 
@@ -128,6 +129,5 @@ class Solution:
         
                 
         
-
 ```
 

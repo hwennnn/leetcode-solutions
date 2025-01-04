@@ -2,11 +2,12 @@
 title: 915. Partition Array into Disjoint Intervals
 draft: false
 tags: 
+  - leetcode-medium
   - array
 date: 2021-07-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/partition-array-into-disjoint-intervals/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
                 mmax = max(mmax, x)
         
         return partitionIndex + 1
-
 ```
 

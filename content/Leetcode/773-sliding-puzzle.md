@@ -2,6 +2,7 @@
 title: 773. Sliding Puzzle
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - backtracking
@@ -11,7 +12,7 @@ tags:
 date: 2024-11-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/sliding-puzzle/)
 
 ## Description
 
@@ -99,6 +100,5 @@ class Solution:
                     i0, j0 = i, j
         bt(i0, j0, 0)
         return -1 if target not in state2min else state2min[target]
-
 ```
 

@@ -2,13 +2,14 @@
 title: 89. Gray Code
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - backtracking
   - bit-manipulation
 date: 2021-07-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/gray-code/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
                 res.append(res[j] | 1 << i)
         
         return res
-
 ```
 

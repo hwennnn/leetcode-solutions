@@ -2,6 +2,7 @@
 title: 297. Serialize and Deserialize Binary Tree
 draft: false
 tags: 
+  - leetcode-hard
   - string
   - tree
   - depth-first-search
@@ -11,7 +12,7 @@ tags:
 date: 2021-09-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
 
 ## Description
 
@@ -102,6 +103,5 @@ class Codec:
 # ser = Codec()
 # deser = Codec()
 # ans = deser.deserialize(ser.serialize(root))
-
 ```
 

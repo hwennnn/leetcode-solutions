@@ -2,12 +2,13 @@
 title: 1513. Number of Substrings With Only 1s
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - string
 date: 2020-10-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-substrings-with-only-1s/)
 
 ## Description
 
@@ -65,6 +66,5 @@ class Solution:
             res += count
         
         return res%M
-
 ```
 

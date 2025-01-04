@@ -2,6 +2,7 @@
 title: 501. Find Mode in Binary Search Tree
 draft: false
 tags: 
+  - leetcode-easy
   - tree
   - depth-first-search
   - binary-search-tree
@@ -9,7 +10,7 @@ tags:
 date: 2023-11-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-mode-in-binary-search-tree/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class Solution:
         dfs(root)
         return res
         
-
 ```
 

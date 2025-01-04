@@ -2,6 +2,7 @@
 title: 975. Odd Even Jump
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - stack
@@ -10,7 +11,7 @@ tags:
 date: 2022-02-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/odd-even-jump/)
 
 ## Description
 
@@ -114,6 +115,5 @@ class Solution:
         
         return sum(odd)
             
-
 ```
 

@@ -2,6 +2,7 @@
 title: 2900. Longest Unequal Adjacent Groups Subsequence I
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - string
   - dynamic-programming
@@ -9,7 +10,7 @@ tags:
 date: 2023-10-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i/)
 
 ## Description
 
@@ -115,6 +116,5 @@ class Solution:
                     curr = prev[curr]
                 
                 return res[::-1]
-
 ```
 

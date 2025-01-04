@@ -2,13 +2,14 @@
 title: 1403. Minimum Subsequence in Non-Increasing Order
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - greedy
   - sorting
 date: 2020-10-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/)
 
 ## Description
 
@@ -64,6 +65,17 @@ public:
         return res;
     }
 };
-
+```
+### Python
+``` py title='minimum-subsequence-in-non-increasing-order'
+class Solution:
+    def minSubsequence(self, nums: List[int]) -> List[int]:
+        nums.sort()
+        res = []
+        while sum(res) <= sum(nums):
+            res.append(nums.pop())
+        
+        return res
+    
 ```
 

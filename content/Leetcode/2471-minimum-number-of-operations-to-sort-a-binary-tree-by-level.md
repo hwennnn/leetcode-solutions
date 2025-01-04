@@ -2,13 +2,14 @@
 title: 2471. Minimum Number of Operations to Sort a Binary Tree by Level
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - breadth-first-search
   - binary-tree
 date: 2024-12-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/)
 
 ## Description
 
@@ -105,6 +106,5 @@ class Solution:
                 res += 1
 
         return res
-
 ```
 

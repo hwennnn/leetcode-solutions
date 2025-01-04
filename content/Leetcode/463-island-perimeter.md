@@ -2,6 +2,7 @@
 title: 463. Island Perimeter
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - depth-first-search
   - breadth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2024-04-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/island-perimeter/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
                             res += 1
 
         return res
-
 ```
 

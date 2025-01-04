@@ -2,12 +2,13 @@
 title: 2040. Kth Smallest Product of Two Sorted Arrays
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
 date: 2021-10-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/kth-smallest-product-of-two-sorted-arrays/)
 
 ## Description
 
@@ -107,6 +108,5 @@ class Solution:
         
         return left * s
         
-
 ```
 

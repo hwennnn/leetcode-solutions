@@ -2,13 +2,14 @@
 title: 64. Minimum Path Sum
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - matrix
 date: 2024-08-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-path-sum/)
 
 ## Description
 
@@ -64,6 +65,5 @@ class Solution:
                 grid[i][j] += min(grid[i - 1][j], grid[i][j - 1])
 
         return grid[-1][-1]
-
 ```
 

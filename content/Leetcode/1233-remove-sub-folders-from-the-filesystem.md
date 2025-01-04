@@ -2,6 +2,7 @@
 title: 1233. Remove Sub-Folders from the Filesystem
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - string
   - depth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2024-10-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
                 ans.append(folder[i])
         
         return ans
-
 ```
 

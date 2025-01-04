@@ -2,6 +2,7 @@
 title: 1797. Design Authentication Manager
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - linked-list
   - design
@@ -9,7 +10,7 @@ tags:
 date: 2022-03-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/design-authentication-manager/)
 
 ## Description
 
@@ -96,6 +97,5 @@ class AuthenticationManager:
 # obj.generate(tokenId,currentTime)
 # obj.renew(tokenId,currentTime)
 # param_3 = obj.countUnexpiredTokens(currentTime)
-
 ```
 

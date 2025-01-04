@@ -2,6 +2,7 @@
 title: 1036. Escape a Large Maze
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - depth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2021-09-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/escape-a-large-maze/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
         
         return dfs(source[0], source[1], target, set()) and dfs(target[0], target[1], source, set())
         
-
 ```
 

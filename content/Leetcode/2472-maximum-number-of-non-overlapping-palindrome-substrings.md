@@ -2,6 +2,7 @@
 title: 2472. Maximum Number of Non-overlapping Palindrome Substrings
 draft: false
 tags: 
+  - leetcode-hard
   - two-pointers
   - string
   - dynamic-programming
@@ -9,7 +10,7 @@ tags:
 date: 2022-11-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
                     dp[i] = max(dp[i], 1 + dp[j + 1])
         
         return dp[0]
-
 ```
 

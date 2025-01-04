@@ -2,6 +2,7 @@
 title: 389. Find the Difference
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - string
   - bit-manipulation
@@ -9,7 +10,7 @@ tags:
 date: 2023-09-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-difference/)
 
 ## Description
 
@@ -62,6 +63,5 @@ class Solution:
             res ^= ord(x)
         
         return chr(res)
-
 ```
 

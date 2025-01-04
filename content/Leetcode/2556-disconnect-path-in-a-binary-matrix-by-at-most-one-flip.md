@@ -2,6 +2,7 @@
 title: 2556. Disconnect Path in a Binary Matrix by at Most One Flip
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - depth-first-search
@@ -10,7 +11,7 @@ tags:
 date: 2023-02-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/disconnect-path-in-a-binary-matrix-by-at-most-one-flip/)
 
 ## Description
 
@@ -75,6 +76,23 @@ class Solution:
         grid[0][0] = 1
 
         return not dfs(0, 0)
+```
+### C++
+``` cpp title='disconnect-path-in-a-binary-matrix-by-at-most-one-flip'
+class Solution {
+public:
+    bool dfs(vector<vector<int>> &grid, int i, int j){ 
+        if(i+1 == grid.size() && j+1 == grid[0].size()) return true;
+        if(i >= grid.size() || j >= grid[0].size() || grid[i][j] == 0) return false;
+        grid[i][j] = 0;
+        return dfs(grid, i+1, j) || dfs(grid, i, j+1);
+    }
 
+    bool isPossibleToCutPath(vector<vector<int>>& grid) { 
+        if(dfs(grid, 0, 0) == false) return true;
+        grid[0][0] = 1;
+        return !dfs(grid, 0, 0);
+    }
+};
 ```
 

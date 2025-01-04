@@ -2,6 +2,7 @@
 title: 2818. Apply Operations to Maximize Score
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - math
   - stack
@@ -11,7 +12,7 @@ tags:
 date: 2023-08-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/apply-operations-to-maximize-score/)
 
 ## Description
 
@@ -162,7 +163,6 @@ class Solution:
             if k == 0: break
         
         return res
-
 
 
 ```

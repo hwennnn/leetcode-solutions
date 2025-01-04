@@ -2,6 +2,7 @@
 title: 2844. Minimum Operations to Make a Special Number
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - string
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2023-09-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-operations-to-make-a-special-number/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
                     count += 1
         
         return res
-
 ```
 

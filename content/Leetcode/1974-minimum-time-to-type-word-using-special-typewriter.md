@@ -2,12 +2,13 @@
 title: 1974. Minimum Time to Type Word Using Special Typewriter
 draft: false
 tags: 
+  - leetcode-easy
   - string
   - greedy
 date: 2021-08-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/)
 
 ## Description
 
@@ -95,6 +96,5 @@ class Solution:
             res += min(val, 26 - val)
         
         return res
-
 ```
 

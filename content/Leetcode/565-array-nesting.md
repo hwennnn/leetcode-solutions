@@ -2,12 +2,13 @@
 title: 565. Array Nesting
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - depth-first-search
 date: 2021-09-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/array-nesting/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
             res = max(res, count)
         
         return res
-
 ```
 

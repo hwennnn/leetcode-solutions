@@ -2,12 +2,13 @@
 title: 1323. Maximum 69 Number
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - greedy
 date: 2022-11-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-69-number/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
         if k == -1: return num
         
         return num + 3 * 10 ** k
-
 ```
 

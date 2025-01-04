@@ -2,6 +2,7 @@
 title: 2572. Count the Number of Square-Free Subsets
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - dynamic-programming
@@ -10,7 +11,7 @@ tags:
 date: 2023-02-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-the-number-of-square-free-subsets/)
 
 ## Description
 
@@ -101,6 +102,5 @@ public:
         return (dfs(0, 1, nums) - 1 + mod) % mod; // -1 because of the case when we have not taken any number
     }
 };
-
 ```
 

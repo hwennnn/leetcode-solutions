@@ -2,6 +2,7 @@
 title: 1472. Design Browser History
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - linked-list
   - stack
@@ -11,7 +12,7 @@ tags:
 date: 2023-03-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/design-browser-history/)
 
 ## Description
 
@@ -101,6 +102,5 @@ class BrowserHistory:
 # obj.visit(url)
 # param_2 = obj.back(steps)
 # param_3 = obj.forward(steps)
-
 ```
 

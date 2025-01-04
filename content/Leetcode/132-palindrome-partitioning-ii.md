@@ -2,12 +2,13 @@
 title: 132. Palindrome Partitioning II
 draft: false
 tags: 
+  - leetcode-hard
   - string
   - dynamic-programming
 date: 2021-08-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/palindrome-partitioning-ii/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
                 end += 1
         
         return dp[-1]
-
 ```
 

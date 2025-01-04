@@ -2,15 +2,16 @@
 title: 769. Max Chunks To Make Sorted
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - stack
   - greedy
   - sorting
   - monotonic-stack
-date: 2024-12-19
+date: 2020-10-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/max-chunks-to-make-sorted/)
 
 ## Description
 
@@ -70,6 +71,21 @@ class Solution:
                 res += 1
 
         return res
-
+```
+### C++
+``` cpp title='max-chunks-to-make-sorted'
+class Solution {
+public:
+    int maxChunksToSorted(vector<int>& arr) {
+        int right = -1, res = 0;
+        
+        for (int i = 0; i < arr.size(); i++){
+            right = max(right, arr[i]);
+            res += right == i;
+        }
+        
+        return res;
+    }
+};
 ```
 

@@ -2,13 +2,14 @@
 title: 3192. Minimum Operations to Make Binary Array Elements Equal to One II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - greedy
 date: 2024-06-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-ii/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
                 res += 1
         
         return res
-
 ```
 

@@ -2,11 +2,12 @@
 title: 1716. Calculate Money in Leetcode Bank
 draft: false
 tags: 
+  - leetcode-easy
   - math
 date: 2023-12-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/calculate-money-in-leetcode-bank/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
         remSum = (remainingDays * (2 * startMoney + (remainingDays - 1))) // 2
 
         return completeWeeksSum + remSum
-
 ```
 

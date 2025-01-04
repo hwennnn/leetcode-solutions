@@ -2,6 +2,7 @@
 title: 1697. Checking Existence of Edge Length Limited Paths
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - two-pointers
   - union-find
@@ -10,7 +11,7 @@ tags:
 date: 2023-04-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/)
 
 ## Description
 
@@ -97,6 +98,5 @@ class Solution:
             res[i] = uf.find(p) == uf.find(q)
 
         return res
-
 ```
 

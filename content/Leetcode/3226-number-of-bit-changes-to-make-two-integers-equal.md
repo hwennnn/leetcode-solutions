@@ -2,11 +2,12 @@
 title: 3226. Number of Bit Changes to Make Two Integers Equal
 draft: false
 tags: 
+  - leetcode-easy
   - bit-manipulation
 date: 2024-07-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
                 return -1
 
         return res
-
 ```
 

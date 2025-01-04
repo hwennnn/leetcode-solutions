@@ -2,12 +2,13 @@
 title: 3038. Maximum Number of Operations With the Same Score I
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - simulation
 date: 2024-02-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-number-of-operations-with-the-same-score-i/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class Solution:
                 break
         
         return res
-
 ```
 

@@ -2,6 +2,7 @@
 title: 1818. Minimum Absolute Sum Difference
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
   - sorting
@@ -9,7 +10,7 @@ tags:
 date: 2022-04-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-absolute-sum-difference/)
 
 ## Description
 
@@ -95,6 +96,5 @@ class Solution:
                 res = min(res, total - diff + abs(b - sl[idx]))
                     
         return res % M
-
 ```
 

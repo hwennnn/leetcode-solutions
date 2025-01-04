@@ -2,12 +2,13 @@
 title: 3100. Water Bottles II
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - simulation
 date: 2024-03-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/water-bottles-ii/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
                 numExchange += 1
             
         return res
-
 ```
 

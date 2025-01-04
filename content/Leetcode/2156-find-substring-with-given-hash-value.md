@@ -2,6 +2,7 @@
 title: 2156. Find Substring With Given Hash Value
 draft: false
 tags: 
+  - leetcode-hard
   - string
   - sliding-window
   - rolling-hash
@@ -9,7 +10,7 @@ tags:
 date: 2022-01-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-substring-with-given-hash-value/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
                 res = i
         
         return s[res: res + k]
-
 ```
 

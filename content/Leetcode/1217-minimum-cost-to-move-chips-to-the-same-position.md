@@ -2,13 +2,14 @@
 title: 1217. Minimum Cost to Move Chips to The Same Position
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - math
   - greedy
 date: 2021-12-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
                 odd += 1
         
         return min(even, odd)
-
 ```
 

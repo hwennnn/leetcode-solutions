@@ -2,13 +2,14 @@
 title: 587. Erect the Fence
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - math
   - geometry
 date: 2022-11-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/erect-the-fence/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
             return hull
         
         return list(set(build(points) + build(points[::-1])))
-
 ```
 

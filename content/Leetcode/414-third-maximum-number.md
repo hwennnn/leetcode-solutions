@@ -2,12 +2,13 @@
 title: 414. Third Maximum Number
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - sorting
 date: 2020-09-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/third-maximum-number/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
             print(first, second, third)
         
         return third if third != float('-inf') else first
-
 ```
 

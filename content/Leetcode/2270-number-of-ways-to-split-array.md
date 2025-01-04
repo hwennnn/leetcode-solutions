@@ -2,12 +2,13 @@
 title: 2270. Number of Ways to Split Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - prefix-sum
 date: 2025-01-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-ways-to-split-array/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
                 res += 1
         
         return res
-
 ```
 

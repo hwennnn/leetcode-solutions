@@ -2,6 +2,7 @@
 title: 2791. Count Paths That Can Form a Palindrome in a Tree
 draft: false
 tags: 
+  - leetcode-hard
   - dynamic-programming
   - bit-manipulation
   - tree
@@ -10,7 +11,7 @@ tags:
 date: 2023-07-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-paths-that-can-form-a-palindrome-in-a-tree/)
 
 ## Description
 
@@ -83,6 +84,48 @@ class Solution:
             mp[v] += 1
 
         return res
+
+```
+### C++
+``` cpp title='count-paths-that-can-form-a-palindrome-in-a-tree'
+class Solution {
+public:
+    long long countPalindromePaths(vector<int>& parent, string s) {
+        int N = parent.size();
+        vector<long long> mp(N);
+        unordered_map<long long, long long> counter;
+        vector<vector<int>> graph(N, vector<int>());
+
+        for (int node = 0; node < N; node++) {
+            if (parent[node] != -1) 
+                graph[parent[node]].push_back(node);
+        }
+        
+        function<void(int, long long)> dfs = [&](int node, long long mask) {
+            mp[node] = mask;
+            
+            for (int adj: graph[node])
+                dfs(adj, mask ^ (1LL << (s[adj] - 'a')));   
+        };
+        
+        dfs(0, 0);
+        
+        long long res = 0;
+        for (int node = 0; node < N; node++) {
+            long long mask = mp[node];
+            
+            res += counter[mask];
+            
+            for (int mid = 0; mid < 26; mid++) {
+                res += counter[mask ^ (1LL << mid)];
+            }
+            
+            counter[mask]++;
+        }
+        
+        return res;
+    }
+};
 
 
 ```

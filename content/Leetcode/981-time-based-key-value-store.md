@@ -2,6 +2,7 @@
 title: 981. Time Based Key-Value Store
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - binary-search
@@ -9,7 +10,7 @@ tags:
 date: 2022-10-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/time-based-key-value-store/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class TimeMap:
 # obj = TimeMap()
 # obj.set(key,value,timestamp)
 # param_2 = obj.get(key,timestamp)
-
 ```
 

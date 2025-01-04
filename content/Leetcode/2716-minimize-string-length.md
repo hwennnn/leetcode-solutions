@@ -2,12 +2,13 @@
 title: 2716. Minimize String Length
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - string
 date: 2023-06-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimize-string-length/)
 
 ## Description
 
@@ -95,6 +96,5 @@ class Solution:
     def minimizedStringLength(self, s: str) -> int:
         return len(set(s))
                 
-
 ```
 

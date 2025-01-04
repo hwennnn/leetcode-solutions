@@ -2,13 +2,14 @@
 title: 1774. Closest Dessert Cost
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - backtracking
 date: 2021-04-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/closest-dessert-cost/)
 
 ## Description
 
@@ -104,6 +105,5 @@ class Solution:
             helper(base, 0)
         
         return self.res
-
 ```
 

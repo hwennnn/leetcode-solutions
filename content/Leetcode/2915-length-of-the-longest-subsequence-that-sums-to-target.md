@@ -2,12 +2,13 @@
 title: 2915. Length of the Longest Subsequence That Sums to Target
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
-date: 2023-11-02
+date: 2023-10-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/length-of-the-longest-subsequence-that-sums-to-target/)
 
 ## Description
 
@@ -70,6 +71,36 @@ class Solution:
                     dp[k] = max(dp[k], 1 + dp[k - x])
         
         return dp[target] if dp[target] != -inf else -1
+```
+### C++
+``` cpp title='length-of-the-longest-subsequence-that-sums-to-target'
+int memo[1001][1001];
 
+class Solution {
+public:
+    int go(int index, int curr, int target, vector<int>& nums) {
+        if (memo[index][curr] != -1) return memo[index][curr];
+        if (curr == target) return 0;
+        if (index >= nums.size()) return -1001;
+        
+        int res = go(index + 1, curr, target, nums);
+        
+        if (curr + nums[index] <= target) {
+            res = max(res, 1 + go(index + 1, curr + nums[index], target, nums));
+        }
+        
+        return memo[index][curr] = res;
+    }
+    
+    int lengthOfLongestSubsequence(vector<int>& nums, int target) {
+        memset(memo, -1, sizeof(memo));
+        
+        int ans = go(0, 0, target, nums);
+        
+        if (ans < 0) return -1;
+        
+        return ans;
+    }
+};
 ```
 

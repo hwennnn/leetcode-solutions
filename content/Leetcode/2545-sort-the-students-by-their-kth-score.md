@@ -2,13 +2,14 @@
 title: 2545. Sort the Students by Their Kth Score
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - sorting
   - matrix
 date: 2023-01-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/sort-the-students-by-their-kth-score/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
             A.append((-row[k], i))
         
         return [score[i] for _, i in sorted(A)]
-
 ```
 

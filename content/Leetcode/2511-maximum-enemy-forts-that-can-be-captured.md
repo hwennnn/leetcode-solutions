@@ -2,12 +2,13 @@
 title: 2511. Maximum Enemy Forts That Can Be Captured
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - two-pointers
 date: 2022-12-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-enemy-forts-that-can-be-captured/)
 
 ## Description
 
@@ -85,7 +86,6 @@ class Solution:
             return res
         
         return max(go(forts), go(forts[::-1]))
-
 
 ```
 

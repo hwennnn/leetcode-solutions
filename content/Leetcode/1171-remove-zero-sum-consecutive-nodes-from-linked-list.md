@@ -2,12 +2,13 @@
 title: 1171. Remove Zero Sum Consecutive Nodes from Linked List
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - linked-list
 date: 2024-03-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)
 
 ## Description
 
@@ -81,6 +82,5 @@ class Solution:
             head = head.next
         
         return dummy.next
-
 ```
 

@@ -2,13 +2,14 @@
 title: 2130. Maximum Twin Sum of a Linked List
 draft: false
 tags: 
+  - leetcode-medium
   - linked-list
   - two-pointers
   - stack
 date: 2023-05-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)
 
 ## Description
 
@@ -96,6 +97,5 @@ class Solution:
             tail = tail.next
         
         return res
-
 ```
 

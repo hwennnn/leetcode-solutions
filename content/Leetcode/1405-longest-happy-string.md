@@ -2,13 +2,14 @@
 title: 1405. Longest Happy String
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - greedy
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2024-10-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-happy-string/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
                 B = 0
         
         return res
-
 ```
 

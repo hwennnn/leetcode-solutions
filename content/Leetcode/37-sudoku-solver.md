@@ -2,6 +2,7 @@
 title: 37. Sudoku Solver
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - backtracking
@@ -9,7 +10,7 @@ tags:
 date: 2021-08-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/sudoku-solver/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
         backtrack(board)
         return board
         
-
 ```
 

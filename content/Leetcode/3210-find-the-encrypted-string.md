@@ -2,11 +2,12 @@
 title: 3210. Find the Encrypted String
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2024-07-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-encrypted-string/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
             res.append(s[index])
         
         return "".join(res)
-
 ```
 

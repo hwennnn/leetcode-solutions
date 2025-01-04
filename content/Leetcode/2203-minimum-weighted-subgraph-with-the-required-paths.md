@@ -2,12 +2,13 @@
 title: 2203. Minimum Weighted Subgraph With the Required Paths
 draft: false
 tags: 
+  - leetcode-hard
   - graph
   - shortest-path
 date: 2022-03-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-weighted-subgraph-with-the-required-paths/)
 
 ## Description
 
@@ -104,6 +105,5 @@ class Solution:
         return -1 if res == float('inf') else res
             
             
-
 ```
 

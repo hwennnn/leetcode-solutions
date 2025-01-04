@@ -2,12 +2,13 @@
 title: 724. Find Pivot Index
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - prefix-sum
 date: 2022-07-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-pivot-index/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
 
             
         return -1
-
 ```
 

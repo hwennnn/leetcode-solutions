@@ -2,12 +2,13 @@
 title: 643. Maximum Average Subarray I
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - sliding-window
 date: 2020-08-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-average-subarray-i/)
 
 ## Description
 
@@ -63,6 +64,5 @@ class Solution:
                 m = max(m, s)
         
         return m / K 
-
 ```
 

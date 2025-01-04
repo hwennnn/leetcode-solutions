@@ -2,14 +2,15 @@
 title: 2336. Smallest Number in Infinite Set
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - design
-  - heap-(priority-queue)
+  - heap-priority-queue
   - ordered-set
 date: 2023-04-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/smallest-number-in-infinite-set/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class SmallestInfiniteSet:
 # obj = SmallestInfiniteSet()
 # param_1 = obj.popSmallest()
 # obj.addBack(num)
-
 ```
 

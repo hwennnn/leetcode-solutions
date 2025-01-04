@@ -2,6 +2,7 @@
 title: 2281. Sum of Total Strength of Wizards
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - stack
   - monotonic-stack
@@ -9,7 +10,7 @@ tags:
 date: 2022-06-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/sum-of-total-strength-of-wizards/)
 
 ## Description
 
@@ -111,6 +112,5 @@ class Solution:
             res %= M
         
         return res
-
 ```
 

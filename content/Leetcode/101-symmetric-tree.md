@@ -2,6 +2,7 @@
 title: 101. Symmetric Tree
 draft: false
 tags: 
+  - leetcode-easy
   - tree
   - depth-first-search
   - breadth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2023-03-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/symmetric-tree/)
 
 ## Description
 
@@ -64,6 +65,5 @@ class Solution:
             return isSame(left.left, right.right) and isSame(left.right, right.left)
         
         return not root or isSame(root.left, root.right)
-
 ```
 

@@ -2,12 +2,13 @@
 title: 3196. Maximize Total Cost of Alternating Subarrays
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
 date: 2024-06-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximize-total-cost-of-alternating-subarrays/)
 
 ## Description
 
@@ -112,6 +113,5 @@ class Solution:
         
         return go(0, 0)
             
-
 ```
 

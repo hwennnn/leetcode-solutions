@@ -2,15 +2,16 @@
 title: 1825. Finding MK Average
 draft: false
 tags: 
+  - leetcode-hard
   - design
   - queue
-  - heap-(priority-queue)
+  - heap-priority-queue
   - data-stream
   - ordered-set
 date: 2021-04-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/finding-mk-average/)
 
 ## Description
 
@@ -155,7 +156,6 @@ class MKAverage:
 # obj = MKAverage(m, k)
 # obj.addElement(num)
 # param_2 = obj.calculateMKAverage()
-
 
 ```
 

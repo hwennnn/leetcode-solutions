@@ -2,13 +2,14 @@
 title: 3005. Count Elements With Maximum Frequency
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - counting
 date: 2024-03-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-elements-with-maximum-frequency/)
 
 ## Description
 
@@ -58,6 +59,5 @@ class Solution:
         maxFreq = max(counter.values())
 
         return sum(v for v in counter.values() if v == maxFreq)
-
 ```
 

@@ -2,6 +2,7 @@
 title: 1202. Smallest String With Swaps
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - string
@@ -12,7 +13,7 @@ tags:
 date: 2022-04-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/smallest-string-with-swaps/)
 
 ## Description
 
@@ -121,6 +122,5 @@ class Solution:
         return "".join(res)
         
         
-
 ```
 

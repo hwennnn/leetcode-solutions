@@ -2,11 +2,12 @@
 title: 830. Positions of Large Groups
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2020-08-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/positions-of-large-groups/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
         
         return res
                 
-
 ```
 

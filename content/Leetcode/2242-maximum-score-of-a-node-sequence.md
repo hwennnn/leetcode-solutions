@@ -2,6 +2,7 @@
 title: 2242. Maximum Score of a Node Sequence
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - graph
   - sorting
@@ -9,7 +10,7 @@ tags:
 date: 2022-04-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-score-of-a-node-sequence/)
 
 ## Description
 
@@ -94,6 +95,5 @@ class Solution:
                         res = max(res, scores[x] + scores[y] + score1 + score2)
         
         return -1 if res == float('-inf') else res
-
 ```
 

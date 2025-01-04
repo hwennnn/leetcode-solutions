@@ -2,6 +2,7 @@
 title: 1569. Number of Ways to Reorder Array to Get Same BST
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - math
   - divide-and-conquer
@@ -15,7 +16,7 @@ tags:
 date: 2023-06-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/)
 
 ## Description
 
@@ -89,6 +90,5 @@ class Solution:
             return (comb(len(left) + len(right), len(left)) * go(left) * go(right)) % M
         
         return go(nums) - 1
-
 ```
 

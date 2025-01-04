@@ -2,12 +2,13 @@
 title: 344. Reverse String
 draft: false
 tags: 
+  - leetcode-easy
   - two-pointers
   - string
 date: 2024-06-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/reverse-string/)
 
 ## Description
 
@@ -50,6 +51,5 @@ class Solution:
             s[i], s[j] = s[j], s[i]
             i += 1
             j -= 1
-
 ```
 

@@ -2,11 +2,12 @@
 title: 2155. All Divisions With the Highest Score of a Binary Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
 date: 2022-01-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/all-divisions-with-the-highest-score-of-a-binary-array/)
 
 ## Description
 
@@ -101,6 +102,5 @@ class Solution:
             res = max(res, count)
         
         return mp[res]
-
 ```
 

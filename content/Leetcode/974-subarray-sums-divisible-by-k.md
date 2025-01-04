@@ -2,13 +2,14 @@
 title: 974. Subarray Sums Divisible by K
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - prefix-sum
 date: 2024-06-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/subarray-sums-divisible-by-k/)
 
 ## Description
 
@@ -64,7 +65,6 @@ class Solution:
             count[s] += 1
 
         return res
-
 
 ```
 

@@ -2,6 +2,7 @@
 title: 1625. Lexicographically Smallest String After Applying Operations
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - depth-first-search
   - breadth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2020-10-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations/)
 
 ## Description
 
@@ -109,6 +110,5 @@ class Solution:
         
         return res
                 
-
 ```
 

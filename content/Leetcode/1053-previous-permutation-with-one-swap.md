@@ -2,12 +2,13 @@
 title: 1053. Previous Permutation With One Swap
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
 date: 2021-06-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/previous-permutation-with-one-swap/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
         
         return arr
         
-
 ```
 

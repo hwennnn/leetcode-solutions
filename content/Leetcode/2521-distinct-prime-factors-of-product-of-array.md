@@ -2,6 +2,7 @@
 title: 2521. Distinct Prime Factors of Product of Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - math
@@ -9,7 +10,7 @@ tags:
 date: 2023-01-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
                 res.add(x)
 
         return len(set(res))
-
 ```
 

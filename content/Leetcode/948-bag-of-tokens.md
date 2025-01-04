@@ -2,6 +2,7 @@
 title: 948. Bag of Tokens
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2024-03-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/bag-of-tokens/)
 
 ## Description
 
@@ -148,6 +149,5 @@ class Solution:
                     break
 
         return res
-
 ```
 

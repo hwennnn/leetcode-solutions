@@ -2,12 +2,13 @@
 title: 1768. Merge Strings Alternately
 draft: false
 tags: 
+  - leetcode-easy
   - two-pointers
   - string
 date: 2023-04-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/merge-strings-alternately/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
                 j += 1
         
         return "".join(res)
-
 ```
 

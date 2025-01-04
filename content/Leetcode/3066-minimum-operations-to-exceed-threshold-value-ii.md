@@ -2,13 +2,14 @@
 title: 3066. Minimum Operations to Exceed Threshold Value II
 draft: false
 tags: 
+  - leetcode-medium
   - array
-  - heap-(priority-queue)
+  - heap-priority-queue
   - simulation
 date: 2024-03-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
             res += 1
         
         return res
-
 ```
 

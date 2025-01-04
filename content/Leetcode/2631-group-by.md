@@ -2,11 +2,11 @@
 title: 2631. Group By
 draft: false
 tags: 
-
+  - leetcode-medium
 date: 2023-05-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/group-by/)
 
 ## Description
 
@@ -120,6 +120,5 @@ Array.prototype.groupBy = function(fn) {
 /**
  * [1,2,3].groupBy(String) // {"1":[1],"2":[2],"3":[3]}
  */
-
 ```
 

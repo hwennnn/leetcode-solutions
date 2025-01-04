@@ -2,12 +2,13 @@
 title: 661. Image Smoother
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - matrix
 date: 2023-12-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/image-smoother/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
                 res[i][j] = total // count
         
         return res
-
 ```
 

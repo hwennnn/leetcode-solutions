@@ -2,6 +2,7 @@
 title: 2491. Divide Players Into Teams of Equal Skill
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - two-pointers
@@ -9,7 +10,7 @@ tags:
 date: 2025-01-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
             res += skill[i] * skill[~i]
 
         return res
-
 ```
 

@@ -2,13 +2,14 @@
 title: 1247. Minimum Swaps to Make Strings Equal
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - string
   - greedy
 date: 2021-01-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
                     res += 1
         
         return res
-
 ```
 

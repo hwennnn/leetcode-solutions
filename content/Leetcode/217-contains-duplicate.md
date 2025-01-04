@@ -2,13 +2,14 @@
 title: 217. Contains Duplicate
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - sorting
 date: 2022-03-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/contains-duplicate/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
             s.add(x)
         
         return False
-
 ```
 

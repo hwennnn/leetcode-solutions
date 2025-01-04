@@ -2,6 +2,7 @@
 title: 820. Short Encoding of Words
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - string
@@ -9,7 +10,7 @@ tags:
 date: 2022-06-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/short-encoding-of-words/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
                 s.discard(w[i:])
         
         return sum(len(w) + 1 for w in s)
-
 ```
 

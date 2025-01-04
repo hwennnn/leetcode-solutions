@@ -2,12 +2,13 @@
 title: 2594. Minimum Time to Repair Cars
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
 date: 2023-03-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-time-to-repair-cars/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
                 left = mid + 1
         
         return left
-
 ```
 

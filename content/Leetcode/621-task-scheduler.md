@@ -2,16 +2,17 @@
 title: 621. Task Scheduler
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - greedy
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
   - counting
 date: 2024-03-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/task-scheduler/)
 
 ## Description
 
@@ -143,6 +144,5 @@ class Solution:
             res += 1
 
         return res
-
 ```
 

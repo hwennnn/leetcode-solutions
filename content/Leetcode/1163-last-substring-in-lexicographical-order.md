@@ -2,12 +2,13 @@
 title: 1163. Last Substring in Lexicographical Order
 draft: false
 tags: 
+  - leetcode-hard
   - two-pointers
   - string
 date: 2021-05-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/last-substring-in-lexicographical-order/)
 
 ## Description
 
@@ -64,6 +65,5 @@ class Solution:
             indexes = new
             
         return s[indexes[0]:]
-
 ```
 

@@ -2,12 +2,13 @@
 title: 2671. Frequency Tracker
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - design
 date: 2023-05-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/frequency-tracker/)
 
 ## Description
 
@@ -116,6 +117,5 @@ class FrequencyTracker:
 # obj.add(number)
 # obj.deleteOne(number)
 # param_3 = obj.hasFrequency(frequency)
-
 ```
 

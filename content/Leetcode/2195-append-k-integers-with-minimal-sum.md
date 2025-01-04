@@ -2,6 +2,7 @@
 title: 2195. Append K Integers With Minimal Sum
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2022-03-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/append-k-integers-with-minimal-sum/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
                 left = mid + 1
         
         return (left + k) * (left + k + 1) // 2 - sum(nums[:left])
-
 ```
 

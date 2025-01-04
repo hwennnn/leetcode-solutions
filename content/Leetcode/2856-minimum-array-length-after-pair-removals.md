@@ -2,6 +2,7 @@
 title: 2856. Minimum Array Length After Pair Removals
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - two-pointers
@@ -11,7 +12,7 @@ tags:
 date: 2023-09-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-array-length-after-pair-removals/)
 
 ## Description
 
@@ -112,6 +113,5 @@ class Solution:
                 heappush(pq, -second)
 
         return sum(-v for v in pq)
-
 ```
 

@@ -2,11 +2,12 @@
 title: 1752. Check if Array Is Sorted and Rotated
 draft: false
 tags: 
+  - leetcode-easy
   - array
 date: 2021-02-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
         return True
             
             
-
 ```
 

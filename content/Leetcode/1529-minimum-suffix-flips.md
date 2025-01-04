@@ -2,12 +2,13 @@
 title: 1529. Minimum Suffix Flips
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - greedy
 date: 2020-10-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-suffix-flips/)
 
 ## Description
 
@@ -88,6 +89,5 @@ public:
            
     }
 };
-
 ```
 

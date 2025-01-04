@@ -2,13 +2,14 @@
 title: 1329. Sort the Matrix Diagonally
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - sorting
   - matrix
 date: 2022-08-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/sort-the-matrix-diagonally/)
 
 ## Description
 
@@ -65,6 +66,5 @@ class Solution:
                 mat[i][j] = mp[j-i].pop()
         
         return mat
-
 ```
 

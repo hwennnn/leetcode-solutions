@@ -2,14 +2,15 @@
 title: 1388. Pizza With 3n Slices
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - greedy
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2022-03-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/pizza-with-3n-slices/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
         n = len(slices)
         
         return max(go(0, n - 2, n // 3), go(1, n - 1, n // 3))
-
 ```
 

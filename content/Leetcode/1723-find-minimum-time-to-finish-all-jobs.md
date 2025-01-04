@@ -2,6 +2,7 @@
 title: 1723. Find Minimum Time to Finish All Jobs
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - backtracking
@@ -10,7 +11,7 @@ tags:
 date: 2022-06-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/)
 
 ## Description
 
@@ -81,6 +82,5 @@ class Solution:
         go(0)
         
         return res
-
 ```
 

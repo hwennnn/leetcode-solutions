@@ -2,14 +2,15 @@
 title: 1383. Maximum Performance of a Team
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - greedy
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2022-09-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-performance-of-a-team/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
             
         return res % M
         
-
 ```
 

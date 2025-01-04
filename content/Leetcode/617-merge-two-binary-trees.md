@@ -2,6 +2,7 @@
 title: 617. Merge Two Binary Trees
 draft: false
 tags: 
+  - leetcode-easy
   - tree
   - depth-first-search
   - breadth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2021-09-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/merge-two-binary-trees/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
         node.right = self.mergeTrees(r1, r2)
         
         return node
-
 ```
 

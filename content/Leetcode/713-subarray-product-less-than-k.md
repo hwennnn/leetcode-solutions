@@ -2,14 +2,15 @@
 title: 713. Subarray Product Less Than K
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
   - sliding-window
   - prefix-sum
-date: 2024-03-28
+date: 2020-09-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/subarray-product-less-than-k/)
 
 ## Description
 
@@ -66,6 +67,23 @@ class Solution:
             res += j - i + 1
 
         return res
-
+```
+### C++
+``` cpp title='subarray-product-less-than-k'
+class Solution {
+public:
+    int numSubarrayProductLessThanK(vector<int>& nums, int k) {
+        int c = 1, res = 0;
+        
+        for (int i = 0,j = 0; j < nums.size(); j++){
+            c *= nums[j];
+            while (i <= j && c >= k)
+                c /= nums[i++];
+            res += (j - i + 1);
+        }
+        
+        return res;
+    }
+};
 ```
 

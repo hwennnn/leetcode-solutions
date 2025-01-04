@@ -2,6 +2,7 @@
 title: 387. First Unique Character in a String
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - string
   - queue
@@ -9,7 +10,7 @@ tags:
 date: 2024-02-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/first-unique-character-in-a-string/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
                 return i
         
         return -1
-
 ```
 

@@ -2,6 +2,7 @@
 title: 914. X of a Kind in a Deck of Cards
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - math
@@ -10,7 +11,7 @@ tags:
 date: 2020-03-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
         return False
                 
             
-
 ```
 

@@ -2,13 +2,14 @@
 title: 2245. Maximum Trailing Zeros in a Cornered Path
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - matrix
   - prefix-sum
 date: 2022-04-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-trailing-zeros-in-a-cornered-path/)
 
 ## Description
 
@@ -115,6 +116,5 @@ class Solution:
                 res = max(res, topLeft, topRight, botLeft, botRight)
 
         return res
-
 ```
 

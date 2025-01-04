@@ -2,6 +2,7 @@
 title: 2415. Reverse Odd Levels of Binary Tree
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - depth-first-search
   - breadth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2024-12-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/)
 
 ## Description
 
@@ -94,7 +95,6 @@ class Solution:
         go(root.left, root.right, True)
 
         return root
-
 
 ```
 

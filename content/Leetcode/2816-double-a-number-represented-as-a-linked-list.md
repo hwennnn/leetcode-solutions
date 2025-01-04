@@ -2,13 +2,14 @@
 title: 2816. Double a Number Represented as a Linked List
 draft: false
 tags: 
+  - leetcode-medium
   - linked-list
   - math
   - stack
 date: 2024-05-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
             carry //= 10
 
         return reverseLL(res.next)
-
 ```
 

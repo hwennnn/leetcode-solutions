@@ -2,13 +2,14 @@
 title: 1981. Minimize the Difference Between Target and Chosen Elements
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - matrix
 date: 2021-08-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimize-the-difference-between-target-and-chosen-elements/)
 
 ## Description
 
@@ -106,6 +107,5 @@ class Solution:
                 res = min(res, abs(i - target))
         
         return res
-
 ```
 

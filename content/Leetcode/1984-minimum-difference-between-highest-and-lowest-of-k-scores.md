@@ -2,13 +2,14 @@
 title: 1984. Minimum Difference Between Highest and Lowest of K Scores
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - sliding-window
   - sorting
 date: 2021-08-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
             res = min(res, nums[i + k - 1] - nums[i])
         
         return res
-
 ```
 

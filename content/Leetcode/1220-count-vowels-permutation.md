@@ -2,11 +2,12 @@
 title: 1220. Count Vowels Permutation
 draft: false
 tags: 
+  - leetcode-hard
   - dynamic-programming
 date: 2023-10-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-vowels-permutation/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
             u %= MOD
         
         return (a + e + i + o + u) % MOD
-
 ```
 

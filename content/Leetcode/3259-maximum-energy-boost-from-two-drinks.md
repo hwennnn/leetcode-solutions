@@ -2,12 +2,13 @@
 title: 3259. Maximum Energy Boost From Two Drinks
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
 date: 2024-08-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-energy-boost-from-two-drinks/)
 
 ## Description
 
@@ -88,6 +89,5 @@ class Solution:
             return res
         
         return max(go(0, True), go(0, False))
-
 ```
 

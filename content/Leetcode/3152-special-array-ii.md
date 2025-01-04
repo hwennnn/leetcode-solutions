@@ -2,13 +2,14 @@
 title: 3152. Special Array II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
   - prefix-sum
 date: 2024-12-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/special-array-ii/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
             res.append(A[b] - A[a] == (b - a))
         
         return res
-
 ```
 

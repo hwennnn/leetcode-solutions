@@ -2,13 +2,14 @@
 title: 2616. Minimize the Maximum Difference of Pairs
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
   - greedy
 date: 2023-08-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
                 left = mid + 1
         
         return left
-
 ```
 

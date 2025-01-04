@@ -2,13 +2,14 @@
 title: 682. Baseball Game
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - stack
   - simulation
 date: 2022-04-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/baseball-game/)
 
 ## Description
 
@@ -119,6 +120,5 @@ class Solution:
                 stack.append(int(x))
         
         return sum(stack)
-
 ```
 

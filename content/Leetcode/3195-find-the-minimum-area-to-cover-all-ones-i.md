@@ -2,12 +2,13 @@
 title: 3195. Find the Minimum Area to Cover All Ones I
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - matrix
 date: 2024-06-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-minimum-area-to-cover-all-ones-i/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
                     maxC = max(maxC, j)
         
         return (maxR - minR + 1) * (maxC - minC + 1)
-
 ```
 

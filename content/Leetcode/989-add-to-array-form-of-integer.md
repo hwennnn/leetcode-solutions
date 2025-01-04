@@ -2,12 +2,13 @@
 title: 989. Add to Array-Form of Integer
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - math
 date: 2023-02-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/add-to-array-form-of-integer/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
             carry //= 10
         
         return res[::-1]
-
 ```
 

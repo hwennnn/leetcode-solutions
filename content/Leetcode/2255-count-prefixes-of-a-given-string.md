@@ -2,12 +2,13 @@
 title: 2255. Count Prefixes of a Given String
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - string
 date: 2022-04-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-prefixes-of-a-given-string/)
 
 ## Description
 
@@ -62,6 +63,5 @@ class Solution:
                 res += 1
         
         return res
-
 ```
 

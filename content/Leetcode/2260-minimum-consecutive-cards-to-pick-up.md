@@ -2,13 +2,14 @@
 title: 2260. Minimum Consecutive Cards to Pick Up
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - sliding-window
 date: 2022-05-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up/)
 
 ## Description
 
@@ -61,6 +62,5 @@ class Solution:
         
         
         return -1 if res == float('inf') else res
-
 ```
 

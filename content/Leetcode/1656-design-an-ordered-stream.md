@@ -2,6 +2,7 @@
 title: 1656. Design an Ordered Stream
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - design
@@ -9,7 +10,7 @@ tags:
 date: 2020-11-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/design-an-ordered-stream/)
 
 ## Description
 
@@ -92,6 +93,5 @@ class OrderedStream:
 # Your OrderedStream object will be instantiated and called as such:
 # obj = OrderedStream(n)
 # param_1 = obj.insert(id,value)
-
 ```
 

@@ -2,13 +2,14 @@
 title: 1464. Maximum Product of Two Elements in an Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2023-12-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/)
 
 ## Description
 
@@ -64,7 +65,6 @@ class Solution:
                 secondLargest = x
 
         return (largest - 1) * (secondLargest - 1)
-
 
 ```
 

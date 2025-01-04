@@ -2,6 +2,7 @@
 title: 1879. Minimum XOR Sum of Two Arrays
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - bit-manipulation
@@ -9,7 +10,7 @@ tags:
 date: 2022-01-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-xor-sum-of-two-arrays/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
             return res
         
         return dp(0, (1 << n) - 1)
-
 ```
 

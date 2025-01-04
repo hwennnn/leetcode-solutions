@@ -2,13 +2,14 @@
 title: 3148. Maximum Difference Score in a Grid
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - matrix
 date: 2024-05-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-difference-score-in-a-grid/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
                 grid[i][j] = min(grid[i][j], prev)
         
         return res
-
 ```
 

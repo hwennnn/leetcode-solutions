@@ -2,13 +2,14 @@
 title: 3185. Count Pairs That Form a Complete Day II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - counting
 date: 2024-06-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-ii/)
 
 ## Description
 
@@ -66,6 +67,5 @@ class Solution:
             mp[x] += 1
         
         return res
-
 ```
 

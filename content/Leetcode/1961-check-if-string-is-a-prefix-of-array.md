@@ -2,13 +2,14 @@
 title: 1961. Check If String Is a Prefix of Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - two-pointers
   - string
 date: 2021-08-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/)
 
 ## Description
 
@@ -63,6 +64,5 @@ class Solution:
             if res == s: return True
         
         return False
-
 ```
 

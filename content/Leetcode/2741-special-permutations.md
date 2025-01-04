@@ -2,6 +2,7 @@
 title: 2741. Special Permutations
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - bit-manipulation
@@ -9,7 +10,7 @@ tags:
 date: 2023-06-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/special-permutations/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
             res = (res + go(i, 1 << i)) % M
         
         return res
-
 ```
 

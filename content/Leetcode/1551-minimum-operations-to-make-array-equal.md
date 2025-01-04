@@ -2,11 +2,12 @@
 title: 1551. Minimum Operations to Make Array Equal
 draft: false
 tags: 
+  - leetcode-medium
   - math
 date: 2021-04-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-operations-to-make-array-equal/)
 
 ## Description
 
@@ -59,6 +60,5 @@ class Solution:
             res += abs(t - num)
         
         return res // 2
-
 ```
 

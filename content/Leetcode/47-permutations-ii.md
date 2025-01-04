@@ -2,12 +2,13 @@
 title: 47. Permutations II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - backtracking
 date: 2022-05-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/permutations-ii/)
 
 ## Description
 
@@ -66,6 +67,5 @@ class Solution:
         
         backtrack(0, [])
         return res
-
 ```
 

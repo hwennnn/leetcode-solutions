@@ -2,12 +2,13 @@
 title: 2574. Left and Right Sum Differences
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - prefix-sum
 date: 2023-02-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/left-and-right-sum-differences/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
             
         return res
         
-
 ```
 

@@ -2,12 +2,13 @@
 title: 29. Divide Two Integers
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - bit-manipulation
 date: 2022-05-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/divide-two-integers/)
 
 ## Description
 
@@ -66,6 +67,5 @@ class Solution:
         if not positive:
             res = -res
         return min(max(-2147483648, res), 2147483647)
-
 ```
 

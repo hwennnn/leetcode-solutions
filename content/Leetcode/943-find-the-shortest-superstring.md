@@ -2,6 +2,7 @@
 title: 943. Find the Shortest Superstring
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - string
   - dynamic-programming
@@ -10,7 +11,7 @@ tags:
 date: 2022-02-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-shortest-superstring/)
 
 ## Description
 
@@ -104,6 +105,5 @@ class Solution:
             
         return res
             
-
 ```
 

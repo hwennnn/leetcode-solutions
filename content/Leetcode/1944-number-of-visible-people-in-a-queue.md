@@ -2,13 +2,14 @@
 title: 1944. Number of Visible People in a Queue
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - stack
   - monotonic-stack
 date: 2021-07-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-visible-people-in-a-queue/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
             stack.append(i)
             
         return res
-
 ```
 

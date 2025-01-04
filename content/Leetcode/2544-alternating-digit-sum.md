@@ -2,11 +2,12 @@
 title: 2544. Alternating Digit Sum
 draft: false
 tags: 
+  - leetcode-easy
   - math
 date: 2023-01-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/alternating-digit-sum/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
             sign *= -1
         
         return res
-
 ```
 

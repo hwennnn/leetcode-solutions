@@ -2,18 +2,19 @@
 title: 912. Sort an Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - divide-and-conquer
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
   - merge-sort
   - bucket-sort
   - radix-sort
   - counting-sort
-date: 2024-07-25
+date: 2023-03-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/sort-an-array/)
 
 ## Description
 
@@ -90,6 +91,46 @@ public:
        return nums;
     }
 };
+```
+### Python
+``` py title='sort-an-array'
+class Solution:
+    def sortArray(self, nums: List[int]) -> List[int]:
+        N = len(nums)
 
+        def merge(left, right):
+            L, R = len(left), len(right)
+            s = []
+            i = j = 0
+
+            while i < L or j < R:
+                if i < L and j < R:
+                    if left[i] < right[j]:
+                        s.append(left[i])
+                        i += 1
+                    else:
+                        s.append(right[j])
+                        j += 1
+                else:
+                    if i < L:
+                        s.append(left[i])
+                        i += 1
+                    else:
+                        s.append(right[j])
+                        j += 1
+
+            return s
+
+        def mergeSort(i, j):
+            if i == j: return [nums[i]]
+
+            mid = (i + j) // 2
+
+            left = mergeSort(i, mid)
+            right = mergeSort(mid + 1, j)
+
+            return merge(left, right)
+        
+        return mergeSort(0, N - 1)
 ```
 

@@ -2,6 +2,7 @@
 title: 721. Accounts Merge
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - string
@@ -12,7 +13,7 @@ tags:
 date: 2021-11-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/accounts-merge/)
 
 ## Description
 
@@ -97,6 +98,5 @@ class Solution:
             
             
         
-
 ```
 

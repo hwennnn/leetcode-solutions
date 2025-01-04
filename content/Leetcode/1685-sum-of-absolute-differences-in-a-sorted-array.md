@@ -2,13 +2,14 @@
 title: 1685. Sum of Absolute Differences in a Sorted Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - prefix-sum
 date: 2023-11-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
             prefix += x
 
         return res
-
 ```
 

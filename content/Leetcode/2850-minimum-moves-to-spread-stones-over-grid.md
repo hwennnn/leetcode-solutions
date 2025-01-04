@@ -2,6 +2,7 @@
 title: 2850. Minimum Moves to Spread Stones Over Grid
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - breadth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2023-09-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-moves-to-spread-stones-over-grid/)
 
 ## Description
 
@@ -102,6 +103,5 @@ class Solution:
         return backtrack(0)
             
             
-
 ```
 

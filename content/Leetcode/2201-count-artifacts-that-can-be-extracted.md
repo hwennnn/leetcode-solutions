@@ -2,13 +2,14 @@
 title: 2201. Count Artifacts That Can Be Extracted
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - simulation
 date: 2022-03-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-artifacts-that-can-be-extracted/)
 
 ## Description
 
@@ -97,6 +98,5 @@ class Solution:
         
         return res
         
-
 ```
 

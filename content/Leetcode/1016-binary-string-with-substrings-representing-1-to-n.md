@@ -2,11 +2,12 @@
 title: 1016. Binary String With Substrings Representing 1 To N
 draft: false
 tags: 
+  - leetcode-medium
   - string
 date: 2022-01-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/)
 
 ## Description
 
@@ -46,6 +47,5 @@ class Solution:
             if b not in s: return False
         
         return True
-
 ```
 

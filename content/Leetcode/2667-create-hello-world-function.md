@@ -2,11 +2,11 @@
 title: 2667. Create Hello World Function
 draft: false
 tags: 
-
+  - leetcode-easy
 date: 2023-05-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/create-hello-world-function/)
 
 ## Description
 
@@ -60,6 +60,5 @@ function createHelloWorld() {
  * const f = createHelloWorld();
  * f(); // "Hello World"
  */
-
 ```
 

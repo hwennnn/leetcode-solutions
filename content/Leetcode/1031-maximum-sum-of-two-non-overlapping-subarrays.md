@@ -2,13 +2,14 @@
 title: 1031. Maximum Sum of Two Non-Overlapping Subarrays
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - sliding-window
 date: 2022-01-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/)
 
 ## Description
 
@@ -79,7 +80,6 @@ class Solution:
             res = max(res, first + second)
         
         return res
-
 
 ```
 

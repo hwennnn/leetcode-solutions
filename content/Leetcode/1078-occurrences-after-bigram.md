@@ -2,11 +2,12 @@
 title: 1078. Occurrences After Bigram
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2021-05-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/occurrences-after-bigram/)
 
 ## Description
 
@@ -52,6 +53,5 @@ class Solution:
                 res.append(text[i])
         
         return res
-
 ```
 

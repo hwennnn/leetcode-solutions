@@ -2,12 +2,13 @@
 title: 985. Sum of Even Numbers After Queries
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - simulation
 date: 2022-09-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/sum-of-even-numbers-after-queries/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
             res.append(total)
         
         return res
-
 ```
 

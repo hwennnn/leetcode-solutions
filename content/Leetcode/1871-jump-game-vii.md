@@ -2,6 +2,7 @@
 title: 1871. Jump Game VII
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - dynamic-programming
   - sliding-window
@@ -9,7 +10,7 @@ tags:
 date: 2021-05-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/jump-game-vii/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
             dp[i] &= m > 0
         
         return dp[-1]
-
 ```
 

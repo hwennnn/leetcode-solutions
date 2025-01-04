@@ -2,13 +2,14 @@
 title: 1293. Shortest Path in a Grid with Obstacles Elimination
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - breadth-first-search
   - matrix
 date: 2022-10-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
                         visited.add((dx, dy, skip - 1))
             
         return -1
-
 ```
 

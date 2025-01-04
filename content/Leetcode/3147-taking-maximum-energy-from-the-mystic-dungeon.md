@@ -2,12 +2,13 @@
 title: 3147. Taking Maximum Energy From the Mystic Dungeon
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - prefix-sum
 date: 2024-05-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon/)
 
 ## Description
 
@@ -96,6 +97,5 @@ class Solution:
             energy[i] += energy[i + k]
         
         return max(energy)
-
 ```
 

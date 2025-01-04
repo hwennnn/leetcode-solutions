@@ -2,11 +2,12 @@
 title: 1880. Check if Word Equals Summation of Two Words
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2021-06-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
             return int("".join(str(ord(c) - ord('a')) for c in word))
         
         return helper(firstWord) + helper(secondWord) == helper(targetWord)
-
 ```
 

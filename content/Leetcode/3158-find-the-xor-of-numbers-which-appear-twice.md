@@ -2,13 +2,14 @@
 title: 3158. Find the XOR of Numbers Which Appear Twice
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - bit-manipulation
 date: 2024-05-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
                 res ^= k
         
         return res
-
 ```
 

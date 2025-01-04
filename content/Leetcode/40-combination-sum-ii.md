@@ -2,12 +2,13 @@
 title: 40. Combination Sum II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - backtracking
 date: 2024-08-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/combination-sum-ii/)
 
 ## Description
 
@@ -81,7 +82,6 @@ class Solution:
 
         go(0, 0, [])
         return res
-
 
 ```
 

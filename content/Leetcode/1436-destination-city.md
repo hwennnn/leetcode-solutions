@@ -2,13 +2,14 @@
 title: 1436. Destination City
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - string
 date: 2023-12-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/destination-city/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
         for k, v in indegree.items():
             if v == 1 and outdegree[k] == 0:
                 return k
-
 ```
 

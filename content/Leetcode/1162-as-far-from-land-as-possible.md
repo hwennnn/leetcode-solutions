@@ -2,6 +2,7 @@
 title: 1162. As Far from Land as Possible
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - breadth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2023-02-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/as-far-from-land-as-possible/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
 
         return distance - 1
                 
-
 ```
 

@@ -2,13 +2,14 @@
 title: 2435. Paths in Matrix Whose Sum Is Divisible by K
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - matrix
 date: 2022-10-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/paths-in-matrix-whose-sum-is-divisible-by-k/)
 
 ## Description
 
@@ -94,6 +95,26 @@ public:
         return go(0, 0, grid[0][0] % k);
     }
 };
+```
+### Python
+``` py title='paths-in-matrix-whose-sum-is-divisible-by-k'
+M = 10 ** 9 + 7
 
+class Solution:
+    def numberOfPaths(self, grid: List[List[int]], k: int) -> int:
+        rows, cols = len(grid), len(grid[0])
+        dp = [[[0] * k for _ in range(cols)] for _ in range(rows)]
+        dp[0][0][grid[0][0] % k] = 1
+        
+        for i in range(rows):
+            for j in range(cols):
+                for kk in range(k):
+                    dp[i][j][kk] %= M
+                    if i + 1 < rows:
+                        dp[i + 1][j][(grid[i + 1][j] + kk) % k] += dp[i][j][kk]
+                    if j + 1 < cols:
+                        dp[i][j + 1][(grid[i][j + 1] + kk) % k] += dp[i][j][kk]
+        
+        return dp[rows - 1][cols - 1][0]
 ```
 

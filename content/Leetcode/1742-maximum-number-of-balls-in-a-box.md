@@ -2,13 +2,14 @@
 title: 1742. Maximum Number of Balls in a Box
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - math
   - counting
 date: 2021-02-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
             mp[value] += 1
 
         return max(mp.values())
-
 ```
 

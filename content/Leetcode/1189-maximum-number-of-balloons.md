@@ -2,13 +2,14 @@
 title: 1189. Maximum Number of Balloons
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - string
   - counting
 date: 2021-09-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-number-of-balloons/)
 
 ## Description
 
@@ -65,6 +66,5 @@ class Solution:
         counter = collections.Counter(text)
         
         return min(counter['b'], counter['a'], counter['l'] // 2, counter['o'] // 2, counter['n'])
-
 ```
 

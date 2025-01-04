@@ -2,12 +2,13 @@
 title: 1822. Sign of the Product of an Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - math
 date: 2023-05-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/sign-of-the-product-of-an-array/)
 
 ## Description
 
@@ -76,7 +77,6 @@ class Solution:
         
         return res
         
-
 
 ```
 

@@ -2,12 +2,13 @@
 title: 135. Candy
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - greedy
 date: 2023-09-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/candy/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
                 candies[i] = max(candies[i], candies[i + 1] + 1)
 
         return sum(candies)
-
 ```
 

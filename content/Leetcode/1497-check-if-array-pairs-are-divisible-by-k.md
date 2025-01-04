@@ -2,13 +2,14 @@
 title: 1497. Check If Array Pairs Are Divisible by k
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - counting
 date: 2025-01-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
                 count[curr] += 1
         
         return sum(count) == 0
-
 ```
 

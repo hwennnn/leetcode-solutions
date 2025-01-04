@@ -2,12 +2,13 @@
 title: 1535. Find the Winner of an Array Game
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - simulation
-date: 2023-11-05
+date: 2020-10-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-winner-of-an-array-game/)
 
 ## Description
 
@@ -77,6 +78,26 @@ class Solution:
             if count == k: break
         
         return curr
+
+```
+### C++
+``` cpp title='find-the-winner-of-an-array-game'
+class Solution {
+public:
+    int getWinner(vector<int>& arr, int k) {
+        for (int i=1, j=0; i < arr.size() && j < k; ++i){
+            if (arr[0] > arr[i])
+                ++j;
+            else{
+                swap(arr[0], arr[i]);
+                j = 1;
+            }
+                
+        }
+        
+        return arr[0];
+    }
+};
 
 
 ```

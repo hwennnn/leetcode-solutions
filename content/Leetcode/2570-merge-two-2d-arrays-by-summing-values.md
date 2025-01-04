@@ -2,13 +2,14 @@
 title: 2570. Merge Two 2D Arrays by Summing Values
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - two-pointers
 date: 2023-02-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
             res.append([key, mp[key]])
         
         return res
-
 ```
 

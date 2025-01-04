@@ -2,6 +2,7 @@
 title: 526. Beautiful Arrangement
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - backtracking
@@ -10,7 +11,7 @@ tags:
 date: 2021-01-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/beautiful-arrangement/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
             return res
         
         return dfs(n, [False]*(n+1))
-
 ```
 

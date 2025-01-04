@@ -2,6 +2,7 @@
 title: 3039. Apply Operations to Make String Empty
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - sorting
@@ -9,7 +10,7 @@ tags:
 date: 2024-02-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/apply-operations-to-make-string-empty/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
                 res.append(x)
         
         return "".join(res)
-
 ```
 

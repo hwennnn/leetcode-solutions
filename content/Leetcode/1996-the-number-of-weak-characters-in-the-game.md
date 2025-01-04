@@ -2,6 +2,7 @@
 title: 1996. The Number of Weak Characters in the Game
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - stack
   - greedy
@@ -10,7 +11,7 @@ tags:
 date: 2022-09-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
             stack.append((a, b))
         
         return res
-
 ```
 

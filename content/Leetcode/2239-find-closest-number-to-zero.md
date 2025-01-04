@@ -2,11 +2,12 @@
 title: 2239. Find Closest Number to Zero
 draft: false
 tags: 
+  - leetcode-easy
   - array
 date: 2022-04-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-closest-number-to-zero/)
 
 ## Description
 
@@ -60,6 +61,5 @@ class Solution:
                 m = max(m, x)
         
         return m
-
 ```
 

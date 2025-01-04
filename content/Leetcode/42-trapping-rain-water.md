@@ -2,6 +2,7 @@
 title: 42. Trapping Rain Water
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - two-pointers
   - dynamic-programming
@@ -10,7 +11,7 @@ tags:
 date: 2024-08-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/trapping-rain-water/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
                 right -= 1
 
         return res
-
 ```
 

@@ -2,12 +2,13 @@
 title: 2140. Solving Questions With Brainpower
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
 date: 2023-05-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/solving-questions-with-brainpower/)
 
 ## Description
 
@@ -86,6 +87,5 @@ class Solution:
             return res
         
         return go(0)
-
 ```
 

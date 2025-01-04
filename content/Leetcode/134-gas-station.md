@@ -2,12 +2,13 @@
 title: 134. Gas Station
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
 date: 2023-01-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/gas-station/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
         return start if start < n else -1
         
         
-
 ```
 

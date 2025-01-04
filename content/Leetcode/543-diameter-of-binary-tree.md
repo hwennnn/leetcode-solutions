@@ -2,13 +2,14 @@
 title: 543. Diameter of Binary Tree
 draft: false
 tags: 
+  - leetcode-easy
   - tree
   - depth-first-search
   - binary-tree
 date: 2024-02-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/diameter-of-binary-tree/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
         go(root)
 
         return res
-
 ```
 

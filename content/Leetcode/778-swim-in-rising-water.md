@@ -2,17 +2,18 @@
 title: 778. Swim in Rising Water
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - depth-first-search
   - breadth-first-search
   - union-find
-  - heap-(priority-queue)
+  - heap-priority-queue
   - matrix
 date: 2021-06-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/swim-in-rising-water/)
 
 ## Description
 
@@ -88,6 +89,5 @@ class Solution:
                 left = mid + 1
             
         return left
-
 ```
 

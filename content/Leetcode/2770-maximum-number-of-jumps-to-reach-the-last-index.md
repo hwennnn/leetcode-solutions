@@ -2,12 +2,13 @@
 title: 2770. Maximum Number of Jumps to Reach the Last Index
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
 date: 2023-07-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class Solution:
             return res
         
         return ans if (ans := go(0)) != -inf else -1
-
 ```
 

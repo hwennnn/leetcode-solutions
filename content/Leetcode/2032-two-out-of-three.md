@@ -2,13 +2,14 @@
 title: 2032. Two Out of Three
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - bit-manipulation
 date: 2021-10-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/two-out-of-three/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
                 res.append(k)
         
         return res
-
 ```
 

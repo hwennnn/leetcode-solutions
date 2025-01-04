@@ -2,13 +2,14 @@
 title: 342. Power of Four
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - bit-manipulation
   - recursion
 date: 2023-10-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/power-of-four/)
 
 ## Description
 
@@ -54,6 +55,5 @@ class Solution:
             if (1 << k) == n: return True
         
         return False
-
 ```
 

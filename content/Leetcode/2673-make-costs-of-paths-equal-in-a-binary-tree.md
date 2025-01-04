@@ -2,6 +2,7 @@
 title: 2673. Make Costs of Paths Equal in a Binary Tree
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - greedy
@@ -10,7 +11,7 @@ tags:
 date: 2023-05-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/make-costs-of-paths-equal-in-a-binary-tree/)
 
 ## Description
 
@@ -86,6 +87,5 @@ class Solution:
         dfs(1)
 
         return res
-
 ```
 

@@ -2,13 +2,14 @@
 title: 2347. Best Poker Hand
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - counting
 date: 2022-07-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/best-poker-hand/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
         if max(Counter(ranks).values()) >= 2: return "Pair"
         
         return "High Card"
-
 ```
 

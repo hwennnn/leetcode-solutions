@@ -2,6 +2,7 @@
 title: 229. Majority Element II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - sorting
@@ -9,7 +10,7 @@ tags:
 date: 2023-10-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/majority-element-ii/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
                 count2 -= 1
         
         return [maj for maj in (maj1, maj2) if nums.count(maj) > N // 3]
-
 ```
 

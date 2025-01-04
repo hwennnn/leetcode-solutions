@@ -2,13 +2,14 @@
 title: 2121. Intervals Between Identical Elements
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - prefix-sum
 date: 2021-12-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/intervals-between-identical-elements/)
 
 ## Description
 
@@ -94,6 +95,5 @@ class Solution:
         
         return res
         
-
 ```
 

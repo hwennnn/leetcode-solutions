@@ -2,12 +2,13 @@
 title: 2325. Decode the Message
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - string
 date: 2022-07-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/decode-the-message/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
                 res += mp[x]
         
         return res
-
 ```
 

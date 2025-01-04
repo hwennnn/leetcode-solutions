@@ -2,13 +2,14 @@
 title: 2780. Minimum Index of a Valid Split
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - sorting
 date: 2023-07-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-index-of-a-valid-split/)
 
 ## Description
 
@@ -100,6 +101,5 @@ class Solution:
                 return i
         
         return -1
-
 ```
 

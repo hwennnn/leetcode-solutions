@@ -2,13 +2,14 @@
 title: 1609. Even Odd Tree
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - breadth-first-search
   - binary-tree
 date: 2024-02-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/even-odd-tree/)
 
 ## Description
 
@@ -102,6 +103,5 @@ class Solution:
             isEven = not isEven
         
         return True
-
 ```
 

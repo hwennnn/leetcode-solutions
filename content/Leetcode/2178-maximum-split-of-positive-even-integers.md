@@ -2,13 +2,14 @@
 title: 2178. Maximum Split of Positive Even Integers
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - backtracking
   - greedy
 date: 2022-02-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-split-of-positive-even-integers/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
         res[-1] += s
         
         return res
-
 ```
 

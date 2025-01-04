@@ -2,12 +2,13 @@
 title: 1295. Find Numbers with Even Number of Digits
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - math
 date: 2020-12-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)
 
 ## Description
 
@@ -60,6 +61,5 @@ class Solution:
             res += (len(num) % 2 == 0)
         
         return res
-
 ```
 

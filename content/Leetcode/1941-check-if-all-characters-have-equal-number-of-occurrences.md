@@ -2,13 +2,14 @@
 title: 1941. Check if All Characters Have Equal Number of Occurrences
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - string
   - counting
 date: 2021-07-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/)
 
 ## Description
 
@@ -58,6 +59,5 @@ class Solution:
             if v != values[0]: return False
         
         return True
-
 ```
 

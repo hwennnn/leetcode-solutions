@@ -2,13 +2,14 @@
 title: 1463. Cherry Pickup II
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - matrix
 date: 2024-02-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/cherry-pickup-ii/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class Solution:
             return res + cherries
         
         return go(0, 0, cols - 1)
-
 ```
 

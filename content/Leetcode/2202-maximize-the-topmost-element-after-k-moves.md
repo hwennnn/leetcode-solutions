@@ -2,12 +2,13 @@
 title: 2202. Maximize the Topmost Element After K Moves
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
 date: 2022-03-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximize-the-topmost-element-after-k-moves/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
             mmax = max(mmax, nums[k])
         
         return mmax
-
 ```
 

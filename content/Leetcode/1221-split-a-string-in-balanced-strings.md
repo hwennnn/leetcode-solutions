@@ -2,13 +2,14 @@
 title: 1221. Split a String in Balanced Strings
 draft: false
 tags: 
+  - leetcode-easy
   - string
   - greedy
   - counting
 date: 2021-01-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/split-a-string-in-balanced-strings/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
             res += l == r
         
         return res
-
 ```
 

@@ -2,6 +2,7 @@
 title: 133. Clone Graph
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - depth-first-search
   - breadth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2023-04-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/clone-graph/)
 
 ## Description
 
@@ -109,6 +110,5 @@ class Solution:
                 mp[curr].neighbors.append(mp[nei])
 
         return mp[node]
-
 ```
 

@@ -2,13 +2,14 @@
 title: 2800. Shortest String That Contains Three Strings
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - greedy
   - enumeration
 date: 2023-07-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/shortest-string-that-contains-three-strings/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
                 res = (x, len(x))
 
         return res[0]
-
 ```
 

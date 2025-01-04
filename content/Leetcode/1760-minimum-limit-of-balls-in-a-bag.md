@@ -2,12 +2,13 @@
 title: 1760. Minimum Limit of Balls in a Bag
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
 date: 2024-12-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag/)
 
 ## Description
 
@@ -81,6 +82,5 @@ class Solution:
                 right = mid
         
         return left
-
 ```
 

@@ -2,11 +2,12 @@
 title: 1317. Convert Integer to the Sum of Two No-Zero Integers
 draft: false
 tags: 
+  - leetcode-easy
   - math
 date: 2020-12-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
         return [a,b]
             
         
-
 ```
 

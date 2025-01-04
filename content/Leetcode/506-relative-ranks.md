@@ -2,13 +2,14 @@
 title: 506. Relative Ranks
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2024-05-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/relative-ranks/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
                 res[A[i]] = str(i + 1)
 
         return res
-
 ```
 

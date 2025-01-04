@@ -2,13 +2,14 @@
 title: 920. Number of Music Playlists
 draft: false
 tags: 
+  - leetcode-hard
   - math
   - dynamic-programming
   - combinatorics
 date: 2023-08-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-music-playlists/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
                     dp[i][j] = dp[i - 1][j - 1] * i + dp[i][j - 1] * (i - k)
 
         return dp[n][goal] % M
-
 ```
 

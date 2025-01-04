@@ -2,12 +2,13 @@
 title: 147. Insertion Sort List
 draft: false
 tags: 
+  - leetcode-medium
   - linked-list
   - sorting
 date: 2021-12-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/insertion-sort-list/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
             head = head.next
         
         return res.next
-
 ```
 

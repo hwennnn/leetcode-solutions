@@ -2,13 +2,14 @@
 title: 2404. Most Frequent Even Element
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - counting
 date: 2022-09-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/most-frequent-even-element/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
                 return x
         
         return -1
-
 ```
 

@@ -2,12 +2,13 @@
 title: 2383. Minimum Hours of Training to Win a Competition
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - greedy
 date: 2022-08-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-hours-of-training-to-win-a-competition/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
             B += b
         
         return res
-
 ```
 

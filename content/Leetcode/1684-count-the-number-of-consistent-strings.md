@@ -2,6 +2,7 @@
 title: 1684. Count the Number of Consistent Strings
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - string
@@ -10,7 +11,7 @@ tags:
 date: 2025-01-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-the-number-of-consistent-strings/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
                 res += 1
         
         return res
-
 ```
 

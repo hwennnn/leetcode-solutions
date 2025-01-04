@@ -2,12 +2,13 @@
 title: 2167. Minimum Time to Remove All Cars Containing Illegal Goods
 draft: false
 tags: 
+  - leetcode-hard
   - string
   - dynamic-programming
 date: 2022-02-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-time-to-remove-all-cars-containing-illegal-goods/)
 
 ## Description
 
@@ -128,6 +129,5 @@ class Solution:
             save = max(save, max(0, leftMax[i]) + max(0, rightMax[i + 1]))
         
         return total - save
-
 ```
 

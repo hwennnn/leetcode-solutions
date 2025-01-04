@@ -2,13 +2,14 @@
 title: 2809. Minimum Time to Make Array Sum At Most x
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - sorting
 date: 2023-08-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-time-to-make-array-sum-at-most-x/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
                 return t
 
         return -1
-
 ```
 

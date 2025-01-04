@@ -2,12 +2,13 @@
 title: 2951. Find the Peaks
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - enumeration
 date: 2023-12-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-peaks/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
                 res.append(i)
         
         return res
-
 ```
 

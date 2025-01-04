@@ -2,12 +2,13 @@
 title: 1759. Count Number of Homogenous Substrings
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - string
 date: 2023-11-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-number-of-homogenous-substrings/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
             res %= MOD
 
         return res
-
 ```
 

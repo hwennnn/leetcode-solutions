@@ -2,6 +2,7 @@
 title: 380. Insert Delete GetRandom O(1)
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - math
@@ -10,7 +11,7 @@ tags:
 date: 2024-01-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/insert-delete-getrandom-o1/)
 
 ## Description
 
@@ -96,6 +97,5 @@ class RandomizedSet:
 # param_1 = obj.insert(val)
 # param_2 = obj.remove(val)
 # param_3 = obj.getRandom()
-
 ```
 

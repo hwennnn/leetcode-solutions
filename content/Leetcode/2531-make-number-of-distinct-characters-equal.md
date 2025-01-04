@@ -2,13 +2,14 @@
 title: 2531. Make Number of Distinct Characters Equal
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - counting
 date: 2023-01-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/make-number-of-distinct-characters-equal/)
 
 ## Description
 
@@ -92,6 +93,5 @@ class Solution:
                     cnt2[b] += 1
         
         return False
-
 ```
 

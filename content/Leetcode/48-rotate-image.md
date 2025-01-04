@@ -2,13 +2,14 @@
 title: 48. Rotate Image
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - matrix
 date: 2022-08-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/rotate-image/)
 
 ## Description
 
@@ -58,6 +59,5 @@ class Solution:
         for i in range(rows):
             for j in range(i+1, cols):
                 matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
-
 ```
 

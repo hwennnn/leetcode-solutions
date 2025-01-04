@@ -2,12 +2,13 @@
 title: 260. Single Number III
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - bit-manipulation
 date: 2024-05-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/single-number-iii/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
                 res[1] ^= x
         
         return res
-
 ```
 

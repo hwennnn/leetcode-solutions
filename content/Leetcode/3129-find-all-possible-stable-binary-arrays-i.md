@@ -2,12 +2,13 @@
 title: 3129. Find All Possible Stable Binary Arrays I
 draft: false
 tags: 
+  - leetcode-medium
   - dynamic-programming
   - prefix-sum
 date: 2024-04-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-all-possible-stable-binary-arrays-i/)
 
 ## Description
 
@@ -103,6 +104,52 @@ class Solution:
         
         return go(zero, one, -1)
                 
+```
+### C++
+``` cpp title='find-all-possible-stable-binary-arrays-i'
+class Solution {
+public:
+    const int MOD = 1e9 + 7;
+    int dp[201][201][201][2];
+    int maxLimit;
 
+    int helper(int ones, int zeroes, int count, int prev) {
+        if (ones == 0 && zeroes == 0) return 1;
+
+        if (dp[ones][zeroes][count][prev] != -1) return dp[ones][zeroes][count][prev];
+
+        int res = 0;
+
+        if (count == 0 || prev == 0) {
+            if (ones - 1 >= 0) 
+                res += helper(ones - 1, zeroes, 1, 1);
+        } else {
+            if (count + 1 <= maxLimit && ones - 1 >= 0)
+                res += helper(ones - 1, zeroes, count + 1, 1);
+        }
+
+        if (res >= MOD) res %= MOD;
+
+        if (count == 0 || prev == 1) {
+            if (zeroes - 1 >= 0) 
+                res += helper(ones, zeroes - 1, 1, 0);
+        } else {
+            if (count + 1 <= maxLimit && zeroes - 1 >= 0)
+                res += helper(ones, zeroes - 1, count + 1, 0);
+        }
+
+        if (res >= MOD) res %= MOD;
+
+        return dp[ones][zeroes][count][prev] = res;
+    }
+
+    int numberOfStableArrays(int zero, int one, int limit) {
+        memset(dp, -1, sizeof(dp));
+        maxLimit = limit;
+        int res = helper(one, zero, 0, 0);
+
+        return res;
+    }
+};
 ```
 

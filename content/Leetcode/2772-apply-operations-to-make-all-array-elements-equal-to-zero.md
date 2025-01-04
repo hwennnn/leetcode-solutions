@@ -2,12 +2,13 @@
 title: 2772. Apply Operations to Make All Array Elements Equal to Zero
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - prefix-sum
 date: 2023-07-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/apply-operations-to-make-all-array-elements-equal-to-zero/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
                 nums[i] = 0
         
         return all(x == 0 for x in nums)
-
 ```
 

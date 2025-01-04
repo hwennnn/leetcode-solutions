@@ -2,6 +2,7 @@
 title: 432. All O`one Data Structure
 draft: false
 tags: 
+  - leetcode-hard
   - hash-table
   - linked-list
   - design
@@ -9,7 +10,7 @@ tags:
 date: 2024-09-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/all-oone-data-structure/)
 
 ## Description
 
@@ -191,6 +192,5 @@ class AllOne():
 # obj.dec(key)
 # param_3 = obj.getMaxKey()
 # param_4 = obj.getMinKey()
-
 ```
 

@@ -2,13 +2,14 @@
 title: 3217. Delete Nodes From Linked List Present in Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - linked-list
 date: 2024-12-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/)
 
 ## Description
 
@@ -99,6 +100,5 @@ class Solution:
                 curr = curr.next
 
         return head
-
 ```
 

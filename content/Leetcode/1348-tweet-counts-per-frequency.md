@@ -2,6 +2,7 @@
 title: 1348. Tweet Counts Per Frequency
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - binary-search
   - design
@@ -10,7 +11,7 @@ tags:
 date: 2020-10-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/tweet-counts-per-frequency/)
 
 ## Description
 
@@ -104,6 +105,5 @@ class TweetCounts:
 # obj = TweetCounts()
 # obj.recordTweet(tweetName,time)
 # param_2 = obj.getTweetCountsPerFrequency(freq,tweetName,startTime,endTime)
-
 ```
 

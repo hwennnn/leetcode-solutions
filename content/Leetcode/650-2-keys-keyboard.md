@@ -2,12 +2,13 @@
 title: 650. 2 Keys Keyboard
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - dynamic-programming
 date: 2024-12-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/2-keys-keyboard/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
             return res
         
         return go(1, 1) + 1
-
 ```
 

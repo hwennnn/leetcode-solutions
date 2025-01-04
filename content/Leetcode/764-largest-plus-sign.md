@@ -2,12 +2,13 @@
 title: 764. Largest Plus Sign
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
 date: 2021-09-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/largest-plus-sign/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
         
         return max(dp[i][j] for i in range(n) for j in range(n))
         
-
 ```
 

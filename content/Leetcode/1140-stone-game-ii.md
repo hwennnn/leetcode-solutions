@@ -2,6 +2,7 @@
 title: 1140. Stone Game II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - dynamic-programming
@@ -10,7 +11,7 @@ tags:
 date: 2024-08-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/stone-game-ii/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
             return res
         
         return (sum(piles) + go(0, 1)) // 2
-
 ```
 

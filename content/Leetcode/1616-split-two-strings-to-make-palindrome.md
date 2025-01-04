@@ -2,12 +2,13 @@
 title: 1616. Split Two Strings to Make Palindrome
 draft: false
 tags: 
+  - leetcode-medium
   - two-pointers
   - string
-date: 2020-10-12
+date: 2020-10-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/split-two-strings-to-make-palindrome/)
 
 ## Description
 
@@ -85,6 +86,27 @@ class Solution:
         
         return check(a,b) or check(b,a)
             
-
+```
+### C++
+``` cpp title='split-two-strings-to-make-palindrome'
+class Solution {
+public:
+    bool isPalindrome(string &s, int i, int j){
+        while (i < j && s[i] == s[j])
+            ++i, --j;
+        return i >= j;
+    }
+    
+    bool check(string &a, string &b){
+        int i = 0, j = a.size() - 1;
+        while (i < j && a[i] == b[j])
+            ++i, --j;
+        return isPalindrome(a, i, j) || isPalindrome(b, i, j);
+    }
+    
+    bool checkPalindromeFormation(string a, string b) {
+        return check(a,b) || check(b,a);   
+    }
+};
 ```
 

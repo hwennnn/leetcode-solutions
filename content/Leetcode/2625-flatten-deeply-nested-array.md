@@ -2,11 +2,11 @@
 title: 2625. Flatten Deeply Nested Array
 draft: false
 tags: 
-
+  - leetcode-medium
 date: 2023-05-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/flatten-deeply-nested-array/)
 
 ## Description
 
@@ -89,6 +89,5 @@ var flat = function (arr:  MultiDimensionalArray, n: number):  MultiDimensionalA
     flatten(arr, 0)
     return res;
 };
-
 ```
 

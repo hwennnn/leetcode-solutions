@@ -2,13 +2,14 @@
 title: 560. Subarray Sum Equals K
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - prefix-sum
 date: 2024-08-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/subarray-sum-equals-k/)
 
 ## Description
 
@@ -56,6 +57,5 @@ class Solution:
             mp[s] += 1
 
         return res
-
 ```
 

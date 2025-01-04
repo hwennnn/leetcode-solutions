@@ -2,12 +2,13 @@
 title: 991. Broken Calculator
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - greedy
 date: 2022-03-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/broken-calculator/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
             return self.brokenCalc(startValue, target // 2) + 1
         else:
             return self.brokenCalc(startValue, target + 1) + 1
-
 ```
 

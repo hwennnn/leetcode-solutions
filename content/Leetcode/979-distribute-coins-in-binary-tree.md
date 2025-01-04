@@ -2,13 +2,14 @@
 title: 979. Distribute Coins in Binary Tree
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - depth-first-search
   - binary-tree
 date: 2024-05-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/distribute-coins-in-binary-tree/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
         
         go(root)
         return res
-
 ```
 

@@ -2,11 +2,11 @@
 title: 2676. Throttle
 draft: false
 tags: 
-
+  - leetcode-medium
 date: 2023-05-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/throttle/)
 
 ## Description
 
@@ -43,6 +43,5 @@ const throttle = (fn: F, t: number): F => {
  * throttled("log"); // logged immediately.
  * throttled("log"); // logged at t=100ms.
  */
-
 ```
 

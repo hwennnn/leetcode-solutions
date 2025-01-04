@@ -2,13 +2,14 @@
 title: 2391. Minimum Amount of Time to Collect Garbage
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - string
   - prefix-sum
 date: 2023-11-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/)
 
 ## Description
 
@@ -93,6 +94,5 @@ class Solution:
                     prev[j] = i
 
         return res
-
 ```
 

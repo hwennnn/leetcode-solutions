@@ -2,6 +2,7 @@
 title: 2526. Find Consecutive Integers from a Data Stream
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - design
   - queue
@@ -10,7 +11,7 @@ tags:
 date: 2023-01-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-consecutive-integers-from-a-data-stream/)
 
 ## Description
 
@@ -81,6 +82,5 @@ class DataStream:
 # Your DataStream object will be instantiated and called as such:
 # obj = DataStream(value, k)
 # param_1 = obj.consec(num)
-
 ```
 

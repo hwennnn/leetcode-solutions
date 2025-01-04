@@ -2,13 +2,14 @@
 title: 633. Sum of Square Numbers
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - two-pointers
   - binary-search
 date: 2024-06-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/sum-of-square-numbers/)
 
 ## Description
 
@@ -59,6 +60,5 @@ class Solution:
                 left += 1
         
         return False
-
 ```
 

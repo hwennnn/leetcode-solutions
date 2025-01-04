@@ -2,13 +2,14 @@
 title: 2567. Minimum Score by Changing Two Elements
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
   - sorting
 date: 2023-02-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-score-by-changing-two-elements/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
         C = nums[-2] - nums[1]
         
         return min(A, B, C)
-
 ```
 

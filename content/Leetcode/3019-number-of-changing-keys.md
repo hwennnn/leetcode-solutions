@@ -2,11 +2,12 @@
 title: 3019. Number of Changing Keys
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2024-01-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-changing-keys/)
 
 ## Description
 
@@ -64,6 +65,5 @@ class Solution:
                 res += 1
         
         return res
-
 ```
 

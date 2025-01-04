@@ -2,13 +2,14 @@
 title: 2327. Number of People Aware of a Secret
 draft: false
 tags: 
+  - leetcode-medium
   - dynamic-programming
   - queue
   - simulation
 date: 2022-07-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-people-aware-of-a-secret/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
             toForget[day + forget] += propagate
         
         return res % M
-
 ```
 

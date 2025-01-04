@@ -2,12 +2,13 @@
 title: 2081. Sum of k-Mirror Numbers
 draft: false
 tags: 
+  - leetcode-hard
   - math
   - enumeration
 date: 2021-11-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/sum-of-k-mirror-numbers/)
 
 ## Description
 
@@ -109,6 +110,5 @@ class Solution:
                     if len(ans) == n:
                         return sum(ans)
                 
-
 ```
 

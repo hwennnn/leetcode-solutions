@@ -2,13 +2,14 @@
 title: 11. Container With Most Water
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
   - greedy
 date: 2024-08-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/container-with-most-water/)
 
 ## Description
 
@@ -67,6 +68,5 @@ class Solution:
                 right -= 1
         
         return res
-
 ```
 

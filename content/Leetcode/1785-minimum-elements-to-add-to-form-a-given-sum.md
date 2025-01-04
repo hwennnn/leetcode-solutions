@@ -2,12 +2,13 @@
 title: 1785. Minimum Elements to Add to Form a Given Sum
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
 date: 2021-04-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-elements-to-add-to-form-a-given-sum/)
 
 ## Description
 
@@ -58,6 +59,5 @@ class Solution:
         res = target // limit + (1 if target % limit else 0)
         
         return res
-
 ```
 

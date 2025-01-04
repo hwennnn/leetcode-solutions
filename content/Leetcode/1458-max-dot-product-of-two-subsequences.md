@@ -2,12 +2,13 @@
 title: 1458. Max Dot Product of Two Subsequences
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
 date: 2023-10-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/max-dot-product-of-two-subsequences/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
                     dp[i][j] = max(dp[i][j], dp[i][j - 1])
 
         return dp[-1][-1]
-
 ```
 

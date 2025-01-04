@@ -2,6 +2,7 @@
 title: 2607. Make K-Subarray Sums Equal
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - sorting
@@ -9,7 +10,7 @@ tags:
 date: 2023-04-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/make-k-subarray-sums-equal/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class Solution:
             res += sum(abs(x - median) for x in A)
         
         return res
-
 ```
 

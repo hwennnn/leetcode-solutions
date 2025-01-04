@@ -2,6 +2,7 @@
 title: 2151. Maximum Good People Based on Statements
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - backtracking
   - bit-manipulation
@@ -9,7 +10,7 @@ tags:
 date: 2022-01-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-good-people-based-on-statements/)
 
 ## Description
 
@@ -126,6 +127,5 @@ class Solution:
         
         return res
         
-
 ```
 

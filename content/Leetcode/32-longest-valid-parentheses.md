@@ -2,13 +2,14 @@
 title: 32. Longest Valid Parentheses
 draft: false
 tags: 
+  - leetcode-hard
   - string
   - dynamic-programming
   - stack
 date: 2022-05-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-valid-parentheses/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
     
         return res
                     
-
 ```
 

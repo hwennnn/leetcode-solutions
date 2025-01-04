@@ -2,13 +2,14 @@
 title: 1765. Map of Highest Peak
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - breadth-first-search
   - matrix
 date: 2021-04-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/map-of-highest-peak/)
 
 ## Description
 
@@ -96,6 +97,5 @@ class Solution:
                     deq.append((dx, dy))
         
         return res
-
 ```
 

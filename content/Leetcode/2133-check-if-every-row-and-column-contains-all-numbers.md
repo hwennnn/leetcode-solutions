@@ -2,13 +2,14 @@
 title: 2133. Check if Every Row and Column Contains All Numbers
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - matrix
 date: 2022-01-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/)
 
 ## Description
 
@@ -62,6 +63,5 @@ class Solution:
             if len(set(col)) != n: return False
         
         return True
-
 ```
 

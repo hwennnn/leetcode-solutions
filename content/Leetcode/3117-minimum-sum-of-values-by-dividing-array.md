@@ -2,6 +2,7 @@
 title: 3117. Minimum Sum of Values by Dividing Array
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - dynamic-programming
@@ -11,7 +12,7 @@ tags:
 date: 2024-04-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-sum-of-values-by-dividing-array/)
 
 ## Description
 
@@ -112,6 +113,5 @@ class Solution:
         
         ans = go(0, 0, defaultMask)
         return -1 if ans == inf else ans
-
 ```
 

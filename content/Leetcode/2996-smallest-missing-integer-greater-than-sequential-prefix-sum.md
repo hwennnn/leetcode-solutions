@@ -2,13 +2,14 @@
 title: 2996. Smallest Missing Integer Greater Than Sequential Prefix Sum
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - sorting
 date: 2024-01-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/)
 
 ## Description
 
@@ -64,6 +65,5 @@ class Solution:
             prefix += 1
         
         return prefix
-
 ```
 

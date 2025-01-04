@@ -2,12 +2,13 @@
 title: 2319. Check if Matrix Is X-Matrix
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - matrix
 date: 2022-06-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-matrix-is-x-matrix/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
                         return False
         
         return True
-
 ```
 

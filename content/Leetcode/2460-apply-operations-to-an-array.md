@@ -2,13 +2,14 @@
 title: 2460. Apply Operations to an Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - two-pointers
   - simulation
 date: 2022-11-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/apply-operations-to-an-array/)
 
 ## Description
 
@@ -86,6 +87,5 @@ class Solution:
             nums[k] = 0
         
         return nums
-
 ```
 

@@ -2,12 +2,13 @@
 title: 151. Reverse Words in a String
 draft: false
 tags: 
+  - leetcode-medium
   - two-pointers
   - string
 date: 2022-11-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/reverse-words-in-a-string/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
                 curr += x
 
         return " ".join(res[::-1])
-
 ```
 

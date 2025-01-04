@@ -2,14 +2,15 @@
 title: 3013. Divide an Array Into Subarrays With Minimum Cost II
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - sliding-window
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2024-01-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-ii/)
 
 ## Description
 
@@ -125,6 +126,5 @@ class Solution:
             res = min(res, first + nums[i] + topMinimum)
         
         return res
-
 ```
 

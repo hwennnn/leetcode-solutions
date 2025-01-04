@@ -2,12 +2,13 @@
 title: 1701. Average Waiting Time
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - simulation
 date: 2024-07-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/average-waiting-time/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
             total += curr - arrival
 
         return total / N
-
 ```
 

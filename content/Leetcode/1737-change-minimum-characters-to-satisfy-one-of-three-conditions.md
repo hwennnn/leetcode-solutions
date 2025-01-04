@@ -2,6 +2,7 @@
 title: 1737. Change Minimum Characters to Satisfy One of Three Conditions
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - counting
@@ -9,7 +10,7 @@ tags:
 date: 2021-01-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/change-minimum-characters-to-satisfy-one-of-three-conditions/)
 
 ## Description
 
@@ -88,6 +89,5 @@ class Solution:
         return min(operation1(countA, countB), operation1(countB, countA), operation3(countA, countB))
                 
         
-
 ```
 

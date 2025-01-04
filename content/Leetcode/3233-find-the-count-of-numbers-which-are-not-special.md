@@ -2,13 +2,14 @@
 title: 3233. Find the Count of Numbers Which Are Not Special
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - number-theory
 date: 2024-08-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-count-of-numbers-which-are-not-special/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
                     res += 1
 
         return (r - l + 1) - res
-
 ```
 

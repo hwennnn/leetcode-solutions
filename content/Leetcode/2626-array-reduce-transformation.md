@@ -2,11 +2,11 @@
 title: 2626. Array Reduce Transformation
 draft: false
 tags: 
-
+  - leetcode-easy
 date: 2023-05-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/array-reduce-transformation/)
 
 ## Description
 
@@ -91,6 +91,5 @@ function reduce(nums: number[], fn: Fn, init: number): number {
 
     return res;
 };
-
 ```
 

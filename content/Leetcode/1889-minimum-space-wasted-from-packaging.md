@@ -2,6 +2,7 @@
 title: 1889. Minimum Space Wasted From Packaging
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - sorting
@@ -9,7 +10,7 @@ tags:
 date: 2021-06-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-space-wasted-from-packaging/)
 
 ## Description
 
@@ -94,6 +95,5 @@ class Solution:
                 res = min(res, curr)
 
         return -1 if res == float('inf') else (res - ssum) % M
-
 ```
 

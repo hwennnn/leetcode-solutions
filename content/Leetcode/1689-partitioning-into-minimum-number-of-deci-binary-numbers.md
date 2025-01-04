@@ -2,12 +2,13 @@
 title: 1689. Partitioning Into Minimum Number Of Deci-Binary Numbers
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - greedy
 date: 2022-06-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/)
 
 ## Description
 
@@ -57,6 +58,5 @@ date: 2022-06-27
 class Solution:
     def minPartitions(self, n: str) -> int:
         return max(int(x) for x in n)
-
 ```
 

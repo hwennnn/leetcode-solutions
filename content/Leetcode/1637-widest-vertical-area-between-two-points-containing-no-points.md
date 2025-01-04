@@ -2,12 +2,13 @@
 title: 1637. Widest Vertical Area Between Two Points Containing No Points
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - sorting
 date: 2023-12-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/)
 
 ## Description
 
@@ -65,6 +66,5 @@ class Solution:
             prevX = x
         
         return res
-
 ```
 

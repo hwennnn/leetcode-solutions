@@ -2,12 +2,13 @@
 title: 1773. Count Items Matching a Rule
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - string
 date: 2021-04-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-items-matching-a-rule/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
         return res
         
         
-
 ```
 

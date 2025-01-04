@@ -2,6 +2,7 @@
 title: 2221. Find Triangular Sum of an Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - simulation
@@ -9,7 +10,7 @@ tags:
 date: 2022-04-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-triangular-sum-of-an-array/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
             nums = curr
         
         return nums[0]
-
 ```
 

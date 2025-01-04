@@ -2,13 +2,14 @@
 title: 2265. Count Nodes Equal to Average of Subtree
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - depth-first-search
   - binary-tree
 date: 2023-11-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
         
         go(root)
         return res
-
 ```
 

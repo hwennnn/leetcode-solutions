@@ -2,6 +2,7 @@
 title: 2946. Matrix Similarity After Cyclic Shifts
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - math
   - matrix
@@ -9,7 +10,7 @@ tags:
 date: 2023-11-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/)
 
 ## Description
 
@@ -97,6 +98,5 @@ class Solution:
                     return False
                 
         return True
-
 ```
 

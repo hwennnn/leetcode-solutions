@@ -2,13 +2,14 @@
 title: 1829. Maximum XOR for Each Query
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - bit-manipulation
   - prefix-sum
 date: 2024-11-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-xor-for-each-query/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
             res.append(num ^ m)
             
         return res
-
 ```
 

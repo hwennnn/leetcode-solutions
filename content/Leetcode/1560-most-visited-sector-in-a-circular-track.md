@@ -2,12 +2,13 @@
 title: 1560. Most Visited Sector in  a Circular Track
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - simulation
 date: 2020-08-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/most-visited-sector-in-a-circular-track/)
 
 ## Description
 
@@ -89,6 +90,22 @@ class Solution:
 
             
             
-
+```
+### C++
+``` cpp title='most-visited-sector-in-a-circular-track'
+class Solution {
+public:
+    vector<int> mostVisited(int n, vector<int>& A) {
+        vector<int> res;
+        for (int i = A[0]; i <= A[A.size() - 1]; ++i)
+            res.push_back(i);
+        if (res.size() > 0) return res;
+        for (int i = 1; i <= A[A.size() - 1]; ++i)
+            res.push_back(i);
+        for (int i = A[0]; i <= n; ++i)
+            res.push_back(i);
+        return res;
+    }
+};
 ```
 

@@ -2,6 +2,7 @@
 title: 1019. Next Greater Node In Linked List
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - linked-list
   - stack
@@ -9,7 +10,7 @@ tags:
 date: 2022-01-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/next-greater-node-in-linked-list/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
             stack.append(i)
         
         return res
-
 ```
 

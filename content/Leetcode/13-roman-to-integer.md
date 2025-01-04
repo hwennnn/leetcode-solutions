@@ -2,13 +2,14 @@
 title: 13. Roman to Integer
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - math
   - string
 date: 2022-08-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/roman-to-integer/)
 
 ## Description
 
@@ -93,6 +94,5 @@ class Solution:
             prev = curr
             
         return total
-
 ```
 

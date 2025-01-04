@@ -2,12 +2,13 @@
 title: 2191. Sort the Jumbled Numbers
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - sorting
-date: 2024-07-24
+date: 2022-03-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/sort-the-jumbled-numbers/)
 
 ## Description
 
@@ -103,6 +104,22 @@ public:
         return ans;
     }
 };
-
+```
+### Python
+``` py title='sort-the-jumbled-numbers'
+class Solution:
+    def sortJumbled(self, mapping: List[int], nums: List[int]) -> List[int]:
+        res = []
+        
+        for index, num in enumerate(nums):
+            s = str(num)
+            curr = ""
+            
+            for char in s:
+                curr += str(mapping[int(char)])
+            
+            res.append((int(curr), index, num))
+        
+        return [num for _, __, num in sorted(res)]
 ```
 

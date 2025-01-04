@@ -2,6 +2,7 @@
 title: 515. Find Largest Value in Each Tree Row
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - depth-first-search
   - breadth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2024-12-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
         go(root, 0)
         
         return res
-
 ```
 

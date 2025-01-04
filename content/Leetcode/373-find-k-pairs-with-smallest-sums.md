@@ -2,12 +2,13 @@
 title: 373. Find K Pairs with Smallest Sums
 draft: false
 tags: 
+  - leetcode-medium
   - array
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2023-06-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
             heappush(pq, (nums1[i] + nums2[j + 1], i, j + 1))
         
         return res
-
 ```
 

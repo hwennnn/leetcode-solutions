@@ -2,13 +2,14 @@
 title: 1345. Jump Game IV
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - breadth-first-search
 date: 2023-03-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/jump-game-iv/)
 
 ## Description
 
@@ -99,6 +100,5 @@ class Solution:
             steps += 1
 
         return -1
-
 ```
 

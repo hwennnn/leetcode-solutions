@@ -2,6 +2,7 @@
 title: 2736. Maximum Sum Queries
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - stack
@@ -12,7 +13,7 @@ tags:
 date: 2023-06-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-sum-queries/)
 
 ## Description
 
@@ -131,6 +132,5 @@ class Solution:
                     ans[v] = ybit.query(y)
         
         return ans
-
 ```
 

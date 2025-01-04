@@ -2,13 +2,14 @@
 title: 75. Sort Colors
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
   - sorting
 date: 2024-06-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/sort-colors/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
                 right -= 1
             else:
                 i += 1
-
 ```
 

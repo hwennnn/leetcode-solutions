@@ -2,12 +2,13 @@
 title: 2508. Add Edges to Make Degrees of All Nodes Even
 draft: false
 tags: 
+  - leetcode-hard
   - hash-table
   - graph
 date: 2022-12-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/add-edges-to-make-degrees-of-all-nodes-even/)
 
 ## Description
 
@@ -104,6 +105,5 @@ class Solution:
                     return True
         
         return False
-
 ```
 

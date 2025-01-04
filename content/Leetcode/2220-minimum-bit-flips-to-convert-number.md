@@ -2,11 +2,12 @@
 title: 2220. Minimum Bit Flips to Convert Number
 draft: false
 tags: 
+  - leetcode-easy
   - bit-manipulation
 date: 2025-01-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-bit-flips-to-convert-number/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
             goal >>= 1
         
         return res
-
 ```
 

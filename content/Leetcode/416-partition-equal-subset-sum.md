@@ -2,12 +2,13 @@
 title: 416. Partition Equal Subset Sum
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
-date: 2022-06-30
+date: 2020-11-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/partition-equal-subset-sum/)
 
 ## Description
 
@@ -58,6 +59,20 @@ class Solution:
             bits |= (bits << x)
         
         return (bits & (1 << target)) > 0
-
+```
+### C++
+``` cpp title='partition-equal-subset-sum'
+class Solution {
+public:
+    bool canPartition(vector<int>& nums) {
+        bitset<10001> bits(1);
+        int total = 0;
+        
+        for (auto n:nums)
+            bits |= bits << n, total += n;
+        
+        return !(total&1) && bits[total / 2];
+    }
+};
 ```
 

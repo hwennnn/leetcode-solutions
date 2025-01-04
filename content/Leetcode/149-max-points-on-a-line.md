@@ -2,6 +2,7 @@
 title: 149. Max Points on a Line
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - math
@@ -9,7 +10,7 @@ tags:
 date: 2023-01-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/max-points-on-a-line/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
             res = max(res, mmax)
                     
         return res
-
 ```
 

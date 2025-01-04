@@ -2,13 +2,14 @@
 title: 2381. Shifting Letters II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - string
   - prefix-sum
 date: 2022-08-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/shifting-letters-ii/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
             A[index] %= 26
             
         return "".join([chr(x + ord("a")) for x in A])
-
 ```
 

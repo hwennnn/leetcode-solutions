@@ -2,6 +2,7 @@
 title: 1418. Display Table of Food Orders in a Restaurant
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - string
@@ -10,7 +11,7 @@ tags:
 date: 2020-10-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/display-table-of-food-orders-in-a-restaurant/)
 
 ## Description
 
@@ -103,6 +104,5 @@ class Solution:
         tablelist.sort(key = lambda x : int(x[0]))
         
         return res + tablelist
-
 ```
 

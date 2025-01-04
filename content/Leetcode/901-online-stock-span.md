@@ -2,6 +2,7 @@
 title: 901. Online Stock Span
 draft: false
 tags: 
+  - leetcode-medium
   - stack
   - design
   - monotonic-stack
@@ -9,7 +10,7 @@ tags:
 date: 2023-08-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/online-stock-span/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class StockSpanner:
 # Your StockSpanner object will be instantiated and called as such:
 # obj = StockSpanner()
 # param_1 = obj.next(price)
-
 ```
 

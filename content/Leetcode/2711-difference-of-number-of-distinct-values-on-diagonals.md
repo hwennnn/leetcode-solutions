@@ -2,13 +2,14 @@
 title: 2711. Difference of Number of Distinct Values on Diagonals
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - matrix
 date: 2023-05-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/difference-of-number-of-distinct-values-on-diagonals/)
 
 ## Description
 
@@ -186,6 +187,5 @@ class Solution:
                 res[i][j] = abs(len(topLeft) - len(bottomRight))
         
         return res
-
 ```
 

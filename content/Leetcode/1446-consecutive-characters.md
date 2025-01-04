@@ -2,11 +2,12 @@
 title: 1446. Consecutive Characters
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2021-12-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/consecutive-characters/)
 
 ## Description
 
@@ -62,6 +63,5 @@ class Solution:
             res = max(res, count)
         
         return res
-
 ```
 

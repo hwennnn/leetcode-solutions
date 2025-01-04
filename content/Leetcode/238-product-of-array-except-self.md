@@ -2,12 +2,13 @@
 title: 238. Product of Array Except Self
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - prefix-sum
-date: 2024-08-13
+date: 2024-07-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/product-of-array-except-self/)
 
 ## Description
 
@@ -61,6 +62,31 @@ class Solution:
 
         return res
 
+```
+### C++
+``` cpp title='product-of-array-except-self'
+class Solution {
+public:
+    vector<int> productExceptSelf(vector<int>& nums) {
+        int N = nums.size();
+        vector<int> res(N, 1);
 
+        int curr = 1;
+        // construct prefix
+        for (int i = 0; i < N; i++) {
+            res[i] *= curr;
+            curr *= nums[i];
+        }
+
+        curr = 1;
+        // construct suffix
+        for (int i = N - 1; i >= 0; i--) {
+            res[i] *= curr;
+            curr *= nums[i];
+        }
+
+        return res;
+    }
+};
 ```
 

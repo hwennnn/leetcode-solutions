@@ -2,13 +2,14 @@
 title: 3228. Maximum Number of Operations to Move Ones to the End
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - greedy
   - counting
 date: 2024-07-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-number-of-operations-to-move-ones-to-the-end/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class Solution:
                 index += 1
         
         return res
-
 ```
 

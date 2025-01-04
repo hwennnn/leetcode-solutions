@@ -2,6 +2,7 @@
 title: 329. Longest Increasing Path in a Matrix
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - depth-first-search
@@ -13,7 +14,7 @@ tags:
 date: 2022-05-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
                 res = max(res, go(x, y))
         
         return res
-
 ```
 

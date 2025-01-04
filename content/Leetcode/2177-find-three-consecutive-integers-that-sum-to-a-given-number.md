@@ -2,12 +2,13 @@
 title: 2177. Find Three Consecutive Integers That Sum to a Given Number
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - simulation
 date: 2022-02-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number/)
 
 ## Description
 
@@ -50,6 +51,5 @@ class Solution:
         if num % 3 != 0: return []
         mid = num // 3
         return [mid - 1, mid, mid + 1]
-
 ```
 

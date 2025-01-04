@@ -2,6 +2,7 @@
 title: 381. Insert Delete GetRandom O(1) - Duplicates allowed
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - math
@@ -10,7 +11,7 @@ tags:
 date: 2021-10-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)
 
 ## Description
 
@@ -104,6 +105,5 @@ class RandomizedCollection:
 # param_1 = obj.insert(val)
 # param_2 = obj.remove(val)
 # param_3 = obj.getRandom()
-
 ```
 

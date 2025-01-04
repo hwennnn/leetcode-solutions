@@ -2,11 +2,12 @@
 title: 1869. Longer Contiguous Segments of Ones than Zeros
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2021-05-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
                 zeroes = max(zeroes, len(list(g)))
 
         return ones > zeroes
-
 ```
 

@@ -2,13 +2,14 @@
 title: 994. Rotting Oranges
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - breadth-first-search
   - matrix
 date: 2022-06-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/rotting-oranges/)
 
 ## Description
 
@@ -96,6 +97,5 @@ class Solution:
             mins += 1
         
         return mins - 1 if fresh == 0 else -1
-
 ```
 

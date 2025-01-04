@@ -2,12 +2,13 @@
 title: 796. Rotate String
 draft: false
 tags: 
+  - leetcode-easy
   - string
   - string-matching
 date: 2024-11-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/rotate-string/)
 
 ## Description
 
@@ -46,6 +47,5 @@ class Solution:
     def rotateString(self, A: str, B: str) -> bool:
         
         return len(A) == len(B) and B in A+A
-
 ```
 

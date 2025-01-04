@@ -2,12 +2,13 @@
 title: 754. Reach a Number
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - binary-search
 date: 2020-12-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/reach-a-number/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
             c += step
         
         return step
-
 ```
 

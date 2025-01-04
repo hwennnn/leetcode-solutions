@@ -2,6 +2,7 @@
 title: 1814. Count Nice Pairs in an Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - math
@@ -9,7 +10,7 @@ tags:
 date: 2023-11-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-nice-pairs-in-an-array/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
             mp[x - rev(x)] += 1
         
         return res % MOD
-
 ```
 

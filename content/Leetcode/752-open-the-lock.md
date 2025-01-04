@@ -2,6 +2,7 @@
 title: 752. Open the Lock
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - string
@@ -9,7 +10,7 @@ tags:
 date: 2024-04-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/open-the-lock/)
 
 ## Description
 
@@ -98,6 +99,5 @@ class Solution:
             res += 1
         
         return -1
-
 ```
 

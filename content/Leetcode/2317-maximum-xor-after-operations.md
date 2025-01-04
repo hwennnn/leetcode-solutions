@@ -2,13 +2,14 @@
 title: 2317. Maximum XOR After Operations 
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - bit-manipulation
 date: 2022-06-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-xor-after-operations/)
 
 ## Description
 
@@ -62,6 +63,5 @@ class Solution:
         
         return res
             
-
 ```
 

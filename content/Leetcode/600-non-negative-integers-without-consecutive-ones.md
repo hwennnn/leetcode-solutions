@@ -2,11 +2,12 @@
 title: 600. Non-negative Integers without Consecutive Ones
 draft: false
 tags: 
+  - leetcode-hard
   - dynamic-programming
 date: 2022-09-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/)
 
 ## Description
 
@@ -86,6 +87,5 @@ class Solution:
             return res
         
         return dp(0, True, 0)
-
 ```
 

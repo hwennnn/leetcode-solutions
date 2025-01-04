@@ -2,13 +2,14 @@
 title: 2447. Number of Subarrays With GCD Equal to K
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - number-theory
 date: 2022-10-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-subarrays-with-gcd-equal-to-k/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
         
         return res
         
-
 ```
 

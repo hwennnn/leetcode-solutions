@@ -2,6 +2,7 @@
 title: 3260. Find the Largest Palindrome Divisible by K
 draft: false
 tags: 
+  - leetcode-hard
   - math
   - string
   - dynamic-programming
@@ -10,7 +11,7 @@ tags:
 date: 2024-08-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-largest-palindrome-divisible-by-k/)
 
 ## Description
 
@@ -130,6 +131,5 @@ class Solution:
                        8: '99944999', 9: '999969999', 10: '9999449999', 11: '99999499999'}
             l, r = divmod(n, 12)
             return '999999' * l + dic[r] + '999999' * l
-
 ```
 

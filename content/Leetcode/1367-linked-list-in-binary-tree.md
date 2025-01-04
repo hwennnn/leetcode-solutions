@@ -2,6 +2,7 @@
 title: 1367. Linked List in Binary Tree
 draft: false
 tags: 
+  - leetcode-medium
   - linked-list
   - tree
   - depth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2025-01-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/linked-list-in-binary-tree/)
 
 ## Description
 
@@ -96,6 +97,5 @@ class Solution:
             return go(node.left, ll, curr) or go(node.right, ll, curr)
             
         return go(root, head, head) or self.isSubPath(head, root.left) or self.isSubPath(head, root.right)
-
 ```
 

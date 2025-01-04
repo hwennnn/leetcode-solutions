@@ -2,12 +2,13 @@
 title: 2997. Minimum Number of Operations to Make Array XOR Equal to K
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - bit-manipulation
 date: 2024-04-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-xor-equal-to-k/)
 
 ## Description
 
@@ -76,7 +77,6 @@ class Solution:
                 res += 1
         
         return res
-
 
 ```
 

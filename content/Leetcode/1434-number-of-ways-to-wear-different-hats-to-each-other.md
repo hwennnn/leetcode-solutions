@@ -2,6 +2,7 @@
 title: 1434. Number of Ways to Wear Different Hats to Each Other
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - bit-manipulation
@@ -9,7 +10,7 @@ tags:
 date: 2022-01-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/)
 
 ## Description
 
@@ -97,6 +98,5 @@ class Solution:
                 
                 
         
-
 ```
 

@@ -2,12 +2,13 @@
 title: 880. Decoded String at Index
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - stack
 date: 2023-09-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/decoded-string-at-index/)
 
 ## Description
 
@@ -89,6 +90,5 @@ class Solution:
                 if k == 0 or k == curr: return s[j]
 
                 curr -= 1
-
 ```
 

@@ -2,13 +2,14 @@
 title: 3174. Clear Digits
 draft: false
 tags: 
+  - leetcode-easy
   - string
   - stack
   - simulation
 date: 2024-06-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/clear-digits/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
                 stack.append(x)
         
         return "".join(stack)
-
 ```
 

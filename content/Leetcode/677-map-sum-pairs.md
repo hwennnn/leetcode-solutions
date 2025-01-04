@@ -2,6 +2,7 @@
 title: 677. Map Sum Pairs
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - design
@@ -9,7 +10,7 @@ tags:
 date: 2021-07-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/map-sum-pairs/)
 
 ## Description
 
@@ -113,6 +114,5 @@ class MapSum:
 # obj = MapSum()
 # obj.insert(key,val)
 # param_2 = obj.sum(prefix)
-
 ```
 

@@ -2,11 +2,12 @@
 title: 3110. Score of a String
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2024-06-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/score-of-a-string/)
 
 ## Description
 
@@ -63,6 +64,5 @@ class Solution:
             res += abs(ord(s[i]) - ord(s[i - 1]))
         
         return res
-
 ```
 

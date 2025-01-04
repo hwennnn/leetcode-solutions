@@ -2,6 +2,7 @@
 title: 2597. The Number of Beautiful Subsets
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - math
@@ -12,7 +13,7 @@ tags:
 date: 2024-05-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/the-number-of-beautiful-subsets/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
         
         backtrack(0)
         return res - 1 # minus one for the empty subset
-
 ```
 

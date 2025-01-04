@@ -2,13 +2,14 @@
 title: 779. K-th Symbol in Grammar
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - bit-manipulation
   - recursion
 date: 2023-10-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/k-th-symbol-in-grammar/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
                     return 1
         
         return go(n, k)
-
 ```
 

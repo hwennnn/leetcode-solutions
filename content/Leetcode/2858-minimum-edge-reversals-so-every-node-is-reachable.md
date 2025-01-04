@@ -2,6 +2,7 @@
 title: 2858. Minimum Edge Reversals So Every Node Is Reachable
 draft: false
 tags: 
+  - leetcode-hard
   - dynamic-programming
   - depth-first-search
   - breadth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2023-09-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-edge-reversals-so-every-node-is-reachable/)
 
 ## Description
 
@@ -108,6 +109,5 @@ class Solution:
         dfs2(0, -1, dfs1(0, -1))
 
         return res
-
 ```
 

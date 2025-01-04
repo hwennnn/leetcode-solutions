@@ -2,6 +2,7 @@
 title: 112. Path Sum
 draft: false
 tags: 
+  - leetcode-easy
   - tree
   - depth-first-search
   - breadth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2022-10-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/path-sum/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
             return go(node.left, curr + node.val) or go(node.right, curr + node.val)
         
         return go(root, 0)
-
 ```
 

@@ -2,11 +2,12 @@
 title: 3065. Minimum Operations to Exceed Threshold Value I
 draft: false
 tags: 
+  - leetcode-easy
   - array
 date: 2024-03-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-i/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
                 res += 1
         
         return res
-
 ```
 

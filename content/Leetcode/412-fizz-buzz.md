@@ -2,13 +2,14 @@
 title: 412. Fizz Buzz
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - string
   - simulation
 date: 2020-08-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/fizz-buzz/)
 
 ## Description
 
@@ -61,6 +62,5 @@ class Solution:
                 ans.append(str(i))
         
         return ans
-
 ```
 

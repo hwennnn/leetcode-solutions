@@ -2,13 +2,14 @@
 title: 2161. Partition Array According to Given Pivot
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
   - simulation
 date: 2022-02-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/partition-array-according-to-given-pivot/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
                 count += 1
         
         return left + [pivot] * count + right
-
 ```
 

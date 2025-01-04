@@ -2,6 +2,7 @@
 title: 2487. Remove Nodes From Linked List
 draft: false
 tags: 
+  - leetcode-medium
   - linked-list
   - stack
   - recursion
@@ -9,7 +10,7 @@ tags:
 date: 2024-05-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/remove-nodes-from-linked-list/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
                 curr = curr.next
 
         return reverseLL(head)
-
 ```
 

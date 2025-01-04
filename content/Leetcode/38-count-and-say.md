@@ -2,11 +2,12 @@
 title: 38. Count and Say
 draft: false
 tags: 
+  - leetcode-medium
   - string
 date: 2022-10-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-and-say/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
             return res
     
         return go(n)
-
 ```
 

@@ -2,6 +2,7 @@
 title: 832. Flipping an Image
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - two-pointers
   - bit-manipulation
@@ -10,7 +11,7 @@ tags:
 date: 2020-11-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/flipping-an-image/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
             res.append(tmp)
             
         return res
-
 ```
 

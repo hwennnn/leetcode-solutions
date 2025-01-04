@@ -2,13 +2,14 @@
 title: 1903. Largest Odd Number in String
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - string
   - greedy
 date: 2023-12-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/largest-odd-number-in-string/)
 
 ## Description
 
@@ -66,6 +67,5 @@ class Solution:
         
         return ""
         
-
 ```
 

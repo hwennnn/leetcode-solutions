@@ -2,6 +2,7 @@
 title: 2363. Merge Similar Items
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - sorting
@@ -9,7 +10,7 @@ tags:
 date: 2022-08-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/merge-similar-items/)
 
 ## Description
 
@@ -89,6 +90,5 @@ class Solution:
         A.sort(key = lambda x : x[0])
         
         return [[v, w] for v, w in A]
-
 ```
 

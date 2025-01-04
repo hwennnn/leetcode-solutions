@@ -2,12 +2,13 @@
 title: 2409. Count Days Spent Together
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - string
 date: 2022-09-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-days-spent-together/)
 
 ## Description
 
@@ -65,6 +66,5 @@ class Solution:
         a, b, c, d = map(f, (arriveAlice, leaveAlice, arriveBob, leaveBob))
         
         return max(0, min(b, d) - max(a, c) + 1)
-
 ```
 

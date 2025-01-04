@@ -2,13 +2,14 @@
 title: 1611. Minimum One Bit Operations to Make Integers Zero
 draft: false
 tags: 
+  - leetcode-hard
   - dynamic-programming
   - bit-manipulation
   - memoization
 date: 2023-12-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
         k = int(log2(n))
 
         return ((1 << (k + 1)) - 1) - self.minimumOneBitOperations(n - (1 << k))
-
 ```
 

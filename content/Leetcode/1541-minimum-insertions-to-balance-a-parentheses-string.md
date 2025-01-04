@@ -2,13 +2,14 @@
 title: 1541. Minimum Insertions to Balance a Parentheses String
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - stack
   - greedy
 date: 2021-09-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/)
 
 ## Description
 
@@ -88,6 +89,5 @@ class Solution:
                 closed -= 1
         
         return res + closed
-
 ```
 

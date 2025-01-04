@@ -2,12 +2,13 @@
 title: 554. Brick Wall
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
 date: 2021-04-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/brick-wall/)
 
 ## Description
 
@@ -65,6 +66,5 @@ class Solution:
         
         return n - (max(mp.values()) if len(mp) > 0 else 0)
             
-
 ```
 

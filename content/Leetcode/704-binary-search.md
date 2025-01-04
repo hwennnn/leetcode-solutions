@@ -2,12 +2,13 @@
 title: 704. Binary Search
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - binary-search
 date: 2023-04-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/binary-search/)
 
 ## Description
 
@@ -64,6 +65,5 @@ class Solution:
                 left = mid + 1
         
         return left if nums[left] == target else -1
-
 ```
 

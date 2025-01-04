@@ -2,15 +2,16 @@
 title: 1337. The K Weakest Rows in a Matrix
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - binary-search
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
   - matrix
-date: 2023-09-18
+date: 2020-02-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)
 
 ## Description
 
@@ -104,6 +105,20 @@ class Solution:
         res.reverse()
 
         return res
+```
+### Python
+``` py title='the-k-weakest-rows-in-a-matrix'
+class Solution(object):
+    def kWeakestRows(self, mat, k):
+        """
+        :type mat: List[List[int]]
+        :type k: int
+        :rtype: List[int]
+        """
+        
+        temp = [[sum(mat[i]),i ]for i in range(len(mat))]
+        lst = sorted(temp)
 
+        return ([i[1] for i in lst[:k]])
 ```
 

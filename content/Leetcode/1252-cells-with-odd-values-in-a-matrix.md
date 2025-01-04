@@ -2,13 +2,14 @@
 title: 1252. Cells with Odd Values in a Matrix
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - math
   - simulation
 date: 2021-01-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
         return sum(1 for num in sum(grid,[]) if num & 1)
                     
         
-
 ```
 

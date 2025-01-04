@@ -2,11 +2,12 @@
 title: 2176. Count Equal and Divisible Pairs in an Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
 date: 2022-02-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/)
 
 ## Description
 
@@ -59,6 +60,5 @@ class Solution:
                     res += 1
         
         return res
-
 ```
 

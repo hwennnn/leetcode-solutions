@@ -2,13 +2,14 @@
 title: 2039. The Time When the Network Becomes Idle
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - breadth-first-search
   - graph
 date: 2021-10-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/the-time-when-the-network-becomes-idle/)
 
 ## Description
 
@@ -118,6 +119,5 @@ class Solution:
         
         return res + 1
         
-
 ```
 

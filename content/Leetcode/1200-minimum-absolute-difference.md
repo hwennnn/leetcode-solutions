@@ -2,12 +2,13 @@
 title: 1200. Minimum Absolute Difference
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - sorting
 date: 2021-12-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-absolute-difference/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
             mp[diff].append([arr[i - 1], arr[i]])
         
         return mp[mmin]
-
 ```
 

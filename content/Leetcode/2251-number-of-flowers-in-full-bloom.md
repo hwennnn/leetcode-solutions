@@ -2,6 +2,7 @@
 title: 2251. Number of Flowers in Full Bloom
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - binary-search
@@ -11,7 +12,7 @@ tags:
 date: 2023-10-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-flowers-in-full-bloom/)
 
 ## Description
 
@@ -80,7 +81,6 @@ class Solution:
             res[i] = count
 
         return res
-
 
 ```
 

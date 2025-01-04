@@ -2,11 +2,12 @@
 title: 1576. Replace All ?'s to Avoid Consecutive Repeating Characters
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2020-09-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
             else:
                 res += s[i]
         return res
-
 ```
 

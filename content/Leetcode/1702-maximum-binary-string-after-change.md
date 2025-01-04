@@ -2,12 +2,13 @@
 title: 1702. Maximum Binary String After Change
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - greedy
 date: 2020-12-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-binary-string-after-change/)
 
 ## Description
 
@@ -92,6 +93,5 @@ class Solution:
             ones -= 1
         
         return "".join(res)
-
 ```
 

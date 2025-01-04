@@ -2,13 +2,14 @@
 title: 1310. XOR Queries of a Subarray
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - bit-manipulation
   - prefix-sum
 date: 2025-01-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/xor-queries-of-a-subarray/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
             res.append(prefix[l] ^ prefix[r+1])
         
         return res
-
 ```
 

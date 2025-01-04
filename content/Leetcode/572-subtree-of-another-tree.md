@@ -2,6 +2,7 @@
 title: 572. Subtree of Another Tree
 draft: false
 tags: 
+  - leetcode-easy
   - tree
   - depth-first-search
   - string-matching
@@ -10,7 +11,7 @@ tags:
 date: 2021-09-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/subtree-of-another-tree/)
 
 ## Description
 
@@ -67,6 +68,5 @@ class Solution:
             return a.val == b.val and isSameTree(a.left, b.left) and isSameTree(a.right, b.right)
         
         return isSameTree(root, subRoot) or self.isSubtree(root.left, subRoot) or self.isSubtree(root.right, subRoot)
-
 ```
 

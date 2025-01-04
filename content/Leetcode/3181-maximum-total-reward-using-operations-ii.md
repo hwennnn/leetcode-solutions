@@ -2,13 +2,14 @@
 title: 3181. Maximum Total Reward Using Operations II
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - bit-manipulation
 date: 2024-06-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-total-reward-using-operations-ii/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
             x |= validX << a
         
         return x.bit_length() - 1
-
 ```
 

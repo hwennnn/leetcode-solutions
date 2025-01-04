@@ -2,12 +2,13 @@
 title: 2934. Minimum Operations to Maximize Last Elements in Arrays
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - enumeration
 date: 2023-11-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-operations-to-maximize-last-elements-in-arrays/)
 
 ## Description
 
@@ -112,6 +113,5 @@ class Solution:
         else:
             return min(ans1, ans2)
             
-
 ```
 

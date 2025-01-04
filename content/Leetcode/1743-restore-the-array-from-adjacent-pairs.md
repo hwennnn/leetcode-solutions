@@ -2,13 +2,14 @@
 title: 1743. Restore the Array From Adjacent Pairs
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - depth-first-search
 date: 2023-11-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/restore-the-array-from-adjacent-pairs/)
 
 ## Description
 
@@ -92,7 +93,6 @@ class Solution:
                 res.append(adj[0])
         
         return res
-
 
 ```
 

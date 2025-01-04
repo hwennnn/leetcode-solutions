@@ -2,12 +2,13 @@
 title: 1432. Max Difference You Can Get From Changing an Integer
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - greedy
 date: 2020-10-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/max-difference-you-can-get-from-changing-an-integer/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
         
         return int(a) - int(b)
             
-
 ```
 

@@ -2,6 +2,7 @@
 title: 768. Max Chunks To Make Sorted II
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - stack
   - greedy
@@ -10,7 +11,7 @@ tags:
 date: 2023-09-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/max-chunks-to-make-sorted-ii/)
 
 ## Description
 
@@ -74,7 +75,6 @@ class Solution:
                 res += 1
         
         return res
-
 
 ```
 

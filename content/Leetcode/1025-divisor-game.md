@@ -2,6 +2,7 @@
 title: 1025. Divisor Game
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - dynamic-programming
   - brainteaser
@@ -9,7 +10,7 @@ tags:
 date: 2022-01-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/divisor-game/)
 
 ## Description
 
@@ -60,6 +61,5 @@ date: 2022-01-14
 class Solution:
     def divisorGame(self, n: int) -> bool:
         return n % 2 == 0
-
 ```
 

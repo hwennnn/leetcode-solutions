@@ -2,13 +2,14 @@
 title: 885. Spiral Matrix III
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - matrix
   - simulation
 date: 2024-08-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/spiral-matrix-iii/)
 
 ## Description
 
@@ -60,6 +61,5 @@ class Solution:
                 rStart, cStart = rStart + dx, cStart + dy
             dx, dy, n = dy, -dx, n + 1
         return res
-
 ```
 

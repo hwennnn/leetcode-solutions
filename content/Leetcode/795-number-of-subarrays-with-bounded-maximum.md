@@ -2,12 +2,13 @@
 title: 795. Number of Subarrays with Bounded Maximum
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
 date: 2021-06-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/)
 
 ## Description
 
@@ -65,6 +66,5 @@ class Solution:
                 res += dp
         
         return res
-
 ```
 

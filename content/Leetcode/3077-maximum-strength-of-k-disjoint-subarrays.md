@@ -2,13 +2,14 @@
 title: 3077. Maximum Strength of K Disjoint Subarrays
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - prefix-sum
 date: 2024-03-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-strength-of-k-disjoint-subarrays/)
 
 ## Description
 
@@ -110,6 +111,5 @@ class Solution:
         go.cache_clear()
         
         return res
-
 ```
 

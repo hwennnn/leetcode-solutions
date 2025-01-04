@@ -2,13 +2,14 @@
 title: 2147. Number of Ways to Divide a Long Corridor
 draft: false
 tags: 
+  - leetcode-hard
   - math
   - string
   - dynamic-programming
 date: 2023-11-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-ways-to-divide-a-long-corridor/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
             res %= MOD
         
         return res
-
 ```
 

@@ -2,12 +2,13 @@
 title: 1491. Average Salary Excluding the Minimum and Maximum Salary
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - sorting
 date: 2023-05-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/)
 
 ## Description
 
@@ -58,6 +59,5 @@ class Solution:
         mmin = min(salary)
 
         return (total - mmax - mmin) / (N - 2)
-
 ```
 

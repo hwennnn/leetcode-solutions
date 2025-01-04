@@ -2,12 +2,13 @@
 title: 367. Valid Perfect Square
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - binary-search
 date: 2022-05-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/valid-perfect-square/)
 
 ## Description
 
@@ -61,6 +62,5 @@ class Solution:
                 left = mid + 1
         
         return left * left == num
-
 ```
 

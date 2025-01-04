@@ -2,13 +2,14 @@
 title: 958. Check Completeness of a Binary Tree
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - breadth-first-search
   - binary-tree
 date: 2023-03-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-completeness-of-a-binary-tree/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
             queue.append(node.right)
 
         return True
-
 ```
 

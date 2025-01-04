@@ -2,12 +2,13 @@
 title: 2446. Determine if Two Events Have Conflict
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - string
 date: 2022-10-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/determine-if-two-events-have-conflict/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
         s2, e2 = map(parse, event2)
         
         return s1 <= s2 <= e1 or s2 <= s1 <= e2
-
 ```
 

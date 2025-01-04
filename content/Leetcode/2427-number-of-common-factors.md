@@ -2,13 +2,14 @@
 title: 2427. Number of Common Factors
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - enumeration
   - number-theory
 date: 2022-10-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-common-factors/)
 
 ## Description
 
@@ -56,6 +57,5 @@ class Solution:
                 res += 1
         
         return res
-
 ```
 

@@ -2,6 +2,7 @@
 title: 2125. Number of Laser Beams in a Bank
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - string
@@ -9,7 +10,7 @@ tags:
 date: 2024-01-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/)
 
 ## Description
 
@@ -86,6 +87,5 @@ class Solution:
             prev = curr
         
         return res
-
 ```
 

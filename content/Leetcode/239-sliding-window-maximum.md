@@ -2,15 +2,16 @@
 title: 239. Sliding Window Maximum
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - queue
   - sliding-window
-  - heap-(priority-queue)
+  - heap-priority-queue
   - monotonic-queue
-date: 2024-08-13
+date: 2020-11-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/sliding-window-maximum/)
 
 ## Description
 
@@ -77,6 +78,31 @@ class Solution:
                     queue.popleft()
 
         return res
-
+```
+### C++
+``` cpp title='sliding-window-maximum'
+class Solution {
+public:
+    vector<int> maxSlidingWindow(vector<int>& nums, int k) {
+        deque<int> deq;
+        vector<int> res;
+        
+        for (int i = 0; i < nums.size(); i++){
+            if (i >= k && deq.front() == nums[i-k])
+                deq.pop_front();
+            
+            while (deq.size() > 0 && deq.back() < nums[i])
+                deq.pop_back();
+            
+            deq.push_back(nums[i]);
+            
+            if (i >= k-1)
+                res.push_back(deq.front());
+            
+        }
+        
+        return res;
+    }
+};
 ```
 

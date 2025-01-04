@@ -2,6 +2,7 @@
 title: 952. Largest Component Size by Common Factor
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - math
@@ -10,7 +11,7 @@ tags:
 date: 2022-02-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/largest-component-size-by-common-factor/)
 
 ## Description
 
@@ -99,6 +100,5 @@ class Solution:
         
         return max(Counter(dsu.find(i) for i in range(n)).values())
             
-
 ```
 

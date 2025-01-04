@@ -2,11 +2,12 @@
 title: 896. Monotonic Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
 date: 2023-09-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/monotonic-array/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
                     return False
         
         return True
-
 ```
 

@@ -2,6 +2,7 @@
 title: 2101. Detonate the Maximum Bombs
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - depth-first-search
@@ -11,7 +12,7 @@ tags:
 date: 2023-06-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/detonate-the-maximum-bombs/)
 
 ## Description
 
@@ -106,6 +107,5 @@ class Solution:
             res = max(res, go(i))
         
         return res
-
 ```
 

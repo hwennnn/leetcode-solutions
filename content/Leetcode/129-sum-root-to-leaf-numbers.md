@@ -2,13 +2,14 @@
 title: 129. Sum Root to Leaf Numbers
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - depth-first-search
   - binary-tree
 date: 2024-04-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
 
 ## Description
 
@@ -88,6 +89,5 @@ class Solution:
                     queue.append((child, val * 10 + child.val))
 
         return res
-
 ```
 

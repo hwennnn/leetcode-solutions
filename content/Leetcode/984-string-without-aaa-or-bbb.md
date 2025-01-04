@@ -2,12 +2,13 @@
 title: 984. String Without AAA or BBB
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - greedy
 date: 2022-02-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/string-without-aaa-or-bbb/)
 
 ## Description
 
@@ -81,6 +82,5 @@ class Solution:
             res += "b" * b
         
         return res
-
 ```
 

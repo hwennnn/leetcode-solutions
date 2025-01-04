@@ -2,14 +2,15 @@
 title: 407. Trapping Rain Water II
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - breadth-first-search
-  - heap-(priority-queue)
+  - heap-priority-queue
   - matrix
 date: 2022-12-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/trapping-rain-water-ii/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
                     heappush(pq, (max(h, heights[dx][dy]), dx, dy))
 
         return res
-
 ```
 

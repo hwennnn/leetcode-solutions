@@ -2,16 +2,17 @@
 title: 2290. Minimum Obstacle Removal to Reach Corner
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - breadth-first-search
   - graph
-  - heap-(priority-queue)
+  - heap-priority-queue
   - matrix
   - shortest-path
 date: 2024-11-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/)
 
 ## Description
 
@@ -89,6 +90,5 @@ class Solution:
                             queue.appendleft((dx, dy, new))
         
         return dp[-1][-1]
-
 ```
 

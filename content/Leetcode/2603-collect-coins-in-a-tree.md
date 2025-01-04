@@ -2,6 +2,7 @@
 title: 2603. Collect Coins in a Tree
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - tree
   - graph
@@ -9,7 +10,7 @@ tags:
 date: 2023-04-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/collect-coins-in-a-tree/)
 
 ## Description
 
@@ -95,6 +96,5 @@ class Solution:
                         leaf.append(adj)
 
         return sum(len(graph[node]) for node in range(N))
-
 ```
 

@@ -2,12 +2,13 @@
 title: 2788. Split Strings by Separator
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - string
 date: 2023-07-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/split-strings-by-separator/)
 
 ## Description
 
@@ -86,6 +87,5 @@ class Solution:
                     res.append(x)
         
         return res
-
 ```
 

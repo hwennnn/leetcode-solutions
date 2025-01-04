@@ -2,14 +2,15 @@
 title: 678. Valid Parenthesis String
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - dynamic-programming
   - stack
   - greedy
-date: 2024-04-07
+date: 2020-04-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/valid-parenthesis-string/)
 
 ## Description
 
@@ -71,6 +72,34 @@ class Solution:
             cmin = max(0, cmin)
         
         return cmin == 0
-
+```
+### Java
+``` java title='valid-parenthesis-string'
+class Solution {
+   public boolean checkValidString(String s) {
+        int low = 0;
+        int high = 0;
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) == '(') {
+                low++;
+                high++;
+            } else if (s.charAt(i) == ')') {
+                if (low > 0) {
+                    low--;
+                }
+                high--;
+            } else {
+                if (low > 0) {
+                    low--;
+                }
+                high++;
+            }
+            if (high < 0) {
+                return false;
+            }
+        }
+        return low == 0;
+    }
+}
 ```
 

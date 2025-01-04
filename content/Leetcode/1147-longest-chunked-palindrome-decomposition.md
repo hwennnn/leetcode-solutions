@@ -2,6 +2,7 @@
 title: 1147. Longest Chunked Palindrome Decomposition
 draft: false
 tags: 
+  - leetcode-hard
   - two-pointers
   - string
   - dynamic-programming
@@ -11,7 +12,7 @@ tags:
 date: 2021-05-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-chunked-palindrome-decomposition/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
                 return 2 + self.longestDecomposition(text[i + 1: n - i - 1])
         
         return 0 if n == 0 else 1
-
 ```
 

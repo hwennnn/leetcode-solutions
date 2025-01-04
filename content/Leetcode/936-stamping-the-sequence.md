@@ -2,6 +2,7 @@
 title: 936. Stamping The Sequence
 draft: false
 tags: 
+  - leetcode-hard
   - string
   - stack
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2022-08-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/stamping-the-sequence/)
 
 ## Description
 
@@ -96,6 +97,5 @@ class Solution:
                         res.append(i)
         
         return reversed(res) if all(c == "*" for c in T) else []
-
 ```
 

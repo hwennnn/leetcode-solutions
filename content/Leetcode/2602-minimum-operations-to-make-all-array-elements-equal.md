@@ -2,6 +2,7 @@
 title: 2602. Minimum Operations to Make All Array Elements Equal
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
   - sorting
@@ -9,7 +10,7 @@ tags:
 date: 2023-03-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-operations-to-make-all-array-elements-equal/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
             res.append(leftTotal + rightTotal)
         
         return res
-
 ```
 

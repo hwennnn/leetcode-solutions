@@ -2,12 +2,13 @@
 title: 2560. House Robber IV
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
 date: 2023-02-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/house-robber-iv/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
                 left = mid + 1
         
         return left
-
 ```
 

@@ -2,6 +2,7 @@
 title: 1371. Find the Longest Substring Containing Vowels in Even Counts
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - bit-manipulation
@@ -9,7 +10,7 @@ tags:
 date: 2025-01-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
         
         return res
                 
-
 ```
 

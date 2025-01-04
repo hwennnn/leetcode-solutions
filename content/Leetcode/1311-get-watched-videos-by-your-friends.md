@@ -2,6 +2,7 @@
 title: 1311. Get Watched Videos by Your Friends
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - breadth-first-search
@@ -10,7 +11,7 @@ tags:
 date: 2020-12-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/get-watched-videos-by-your-friends/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class Solution:
         
         return sorted(videos, key = lambda x: (videos[x], x))
                 
-
 ```
 

@@ -2,13 +2,14 @@
 title: 43. Multiply Strings
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - string
   - simulation
 date: 2022-06-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/multiply-strings/)
 
 ## Description
 
@@ -60,6 +61,5 @@ class Solution:
                 res += str(c)
         
         return res or "0"
-
 ```
 

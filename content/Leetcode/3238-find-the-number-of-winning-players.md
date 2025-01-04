@@ -2,13 +2,14 @@
 title: 3238. Find the Number of Winning Players
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - counting
 date: 2024-08-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-number-of-winning-players/)
 
 ## Description
 
@@ -102,6 +103,5 @@ class Solution:
                 res += 1
         
         return res
-
 ```
 

@@ -2,6 +2,7 @@
 title: 1659. Maximize Grid Happiness
 draft: false
 tags: 
+  - leetcode-hard
   - dynamic-programming
   - bit-manipulation
   - memoization
@@ -9,7 +10,7 @@ tags:
 date: 2022-01-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximize-grid-happiness/)
 
 ## Description
 
@@ -99,6 +100,5 @@ class Solution:
             return res
         
         return go(rows * cols - 1, tuple([0] * cols), introvertsCount, extrovertsCount)
-
 ```
 

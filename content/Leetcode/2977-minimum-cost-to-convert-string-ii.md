@@ -2,6 +2,7 @@
 title: 2977. Minimum Cost to Convert String II
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - string
   - dynamic-programming
@@ -11,7 +12,7 @@ tags:
 date: 2023-12-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-cost-to-convert-string-ii/)
 
 ## Description
 
@@ -140,6 +141,5 @@ class Solution:
             
         ans = dp(0)
         return -1 if ans == INF else ans
-
 ```
 

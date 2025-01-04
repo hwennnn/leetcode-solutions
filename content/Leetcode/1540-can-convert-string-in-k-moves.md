@@ -2,12 +2,13 @@
 title: 1540. Can Convert String in K Moves
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
 date: 2020-08-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/can-convert-string-in-k-moves/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution {
         return s.length() == t.length();
     }
 }
-
 ```
 

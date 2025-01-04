@@ -2,13 +2,14 @@
 title: 873. Length of Longest Fibonacci Subsequence
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - dynamic-programming
 date: 2020-08-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/)
 
 ## Description
 
@@ -72,7 +73,6 @@ public:
        return res > 2 ? res : 0;
     }
 };
-
 
 
 ```

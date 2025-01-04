@@ -2,13 +2,14 @@
 title: 1828. Queries on Number of Points Inside a Circle
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - geometry
 date: 2021-04-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
             res.append(count)
         
         return res
-
 ```
 

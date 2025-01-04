@@ -2,6 +2,7 @@
 title: 1386. Cinema Seat Allocation
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2020-10-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/cinema-seat-allocation/)
 
 ## Description
 
@@ -88,6 +89,5 @@ class Solution:
             res += (cnt - 2)
         
         return res
-
 ```
 

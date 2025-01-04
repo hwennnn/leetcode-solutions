@@ -2,6 +2,7 @@
 title: 2397. Maximum Rows Covered by Columns
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - backtracking
   - bit-manipulation
@@ -10,7 +11,7 @@ tags:
 date: 2022-09-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-rows-covered-by-columns/)
 
 ## Description
 
@@ -109,6 +110,5 @@ class Solution:
             res = max(res, filled)
             
         return res
-
 ```
 

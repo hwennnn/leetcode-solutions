@@ -2,13 +2,14 @@
 title: 2719. Count of Integers
 draft: false
 tags: 
+  - leetcode-hard
   - math
   - string
   - dynamic-programming
 date: 2023-07-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-of-integers/)
 
 ## Description
 
@@ -88,6 +89,5 @@ class Solution:
         b = helper(num1)
         
         return (a - b) % M
-
 ```
 

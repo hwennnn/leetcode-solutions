@@ -2,11 +2,12 @@
 title: 2874. Maximum Value of an Ordered Triplet II
 draft: false
 tags: 
+  - leetcode-medium
   - array
 date: 2023-10-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-ii/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
             mmax = max(mmax, x)
         
         return res
-
 ```
 

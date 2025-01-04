@@ -2,6 +2,7 @@
 title: 1442. Count Triplets That Can Form Two Arrays of Equal XOR
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - math
@@ -10,7 +11,7 @@ tags:
 date: 2024-05-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
             total[prefix[i]] += i
         
         return res
-
 ```
 

@@ -2,12 +2,13 @@
 title: 2379. Minimum Recolors to Get K Consecutive Black Blocks
 draft: false
 tags: 
+  - leetcode-easy
   - string
   - sliding-window
 date: 2022-08-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
                 res = min(res, k - b)
         
         return res
-
 ```
 

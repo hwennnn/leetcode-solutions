@@ -2,12 +2,13 @@
 title: 3048. Earliest Second to Mark Indices I
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
 date: 2024-02-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/earliest-second-to-mark-indices-i/)
 
 ## Description
 
@@ -125,6 +126,5 @@ class Solution:
         if left == M + 1: return -1
         
         return left
-
 ```
 

@@ -2,6 +2,7 @@
 title: 992. Subarrays with K Different Integers
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - sliding-window
@@ -9,7 +10,7 @@ tags:
 date: 2024-03-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/subarrays-with-k-different-integers/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
             return res
         
         return atMost(k) - atMost(k - 1)
-
 ```
 

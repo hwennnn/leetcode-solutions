@@ -2,6 +2,7 @@
 title: 2681. Power of Heroes
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - math
   - dynamic-programming
@@ -10,7 +11,7 @@ tags:
 date: 2023-05-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/power-of-heroes/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
             pre = (pre * 2 + x) % MOD
         
         return res
-
 ```
 

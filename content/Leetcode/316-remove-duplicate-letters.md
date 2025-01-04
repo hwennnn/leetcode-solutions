@@ -2,6 +2,7 @@
 title: 316. Remove Duplicate Letters
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - stack
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2023-09-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/remove-duplicate-letters/)
 
 ## Description
 
@@ -65,6 +66,5 @@ class Solution:
             put.add(x)
 
         return "".join(stack)
-
 ```
 

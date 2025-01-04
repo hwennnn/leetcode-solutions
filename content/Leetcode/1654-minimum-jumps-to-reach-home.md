@@ -2,13 +2,14 @@
 title: 1654. Minimum Jumps to Reach Home
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - breadth-first-search
 date: 2022-03-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-jumps-to-reach-home/)
 
 ## Description
 
@@ -94,6 +95,5 @@ class Solution:
                 queue.append((backward, steps + 1, True))
         
         return -1
-
 ```
 

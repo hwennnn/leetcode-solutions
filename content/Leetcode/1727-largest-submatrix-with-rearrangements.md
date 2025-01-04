@@ -2,6 +2,7 @@
 title: 1727. Largest Submatrix With Rearrangements
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
   - sorting
@@ -9,7 +10,7 @@ tags:
 date: 2023-11-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/largest-submatrix-with-rearrangements/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
         
         return res
             
-
 ```
 

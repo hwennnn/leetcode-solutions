@@ -2,11 +2,12 @@
 title: 688. Knight Probability in Chessboard
 draft: false
 tags: 
+  - leetcode-medium
   - dynamic-programming
 date: 2023-07-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/knight-probability-in-chessboard/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
             return prob / 8
 
         return go(row, column, k)
-
 ```
 

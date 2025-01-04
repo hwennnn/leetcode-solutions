@@ -2,6 +2,7 @@
 title: 1008. Construct Binary Search Tree from Preorder Traversal
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - stack
   - tree
@@ -11,7 +12,7 @@ tags:
 date: 2022-02-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
             return node
         
         return go(preorder[::-1])
-
 ```
 

@@ -2,6 +2,7 @@
 title: 1568. Minimum Number of Days to Disconnect Island
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - depth-first-search
   - breadth-first-search
@@ -10,7 +11,7 @@ tags:
 date: 2024-08-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-days-to-disconnect-island/)
 
 ## Description
 
@@ -98,7 +99,6 @@ class Solution:
 
         return 2
         
-
 
 ```
 

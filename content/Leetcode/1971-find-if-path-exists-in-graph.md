@@ -2,6 +2,7 @@
 title: 1971. Find if Path Exists in Graph
 draft: false
 tags: 
+  - leetcode-easy
   - depth-first-search
   - breadth-first-search
   - union-find
@@ -9,7 +10,7 @@ tags:
 date: 2024-04-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-if-path-exists-in-graph/)
 
 ## Description
 
@@ -88,6 +89,5 @@ class Solution:
             uf.union(a, b)
         
         return uf.find(source) == uf.find(destination)
-
 ```
 

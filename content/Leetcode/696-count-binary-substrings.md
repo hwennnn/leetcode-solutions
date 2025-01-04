@@ -2,12 +2,13 @@
 title: 696. Count Binary Substrings
 draft: false
 tags: 
+  - leetcode-easy
   - two-pointers
   - string
 date: 2021-04-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-binary-substrings/)
 
 ## Description
 
@@ -66,6 +67,5 @@ class Solution:
         
         return res
         
-
 ```
 

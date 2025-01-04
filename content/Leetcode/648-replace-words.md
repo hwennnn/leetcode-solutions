@@ -2,6 +2,7 @@
 title: 648. Replace Words
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - string
@@ -9,7 +10,7 @@ tags:
 date: 2024-06-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/replace-words/)
 
 ## Description
 
@@ -103,6 +104,5 @@ class Solution:
         
         return " ".join(res)
         
-
 ```
 

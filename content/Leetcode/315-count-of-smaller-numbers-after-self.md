@@ -2,6 +2,7 @@
 title: 315. Count of Smaller Numbers After Self
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - divide-and-conquer
@@ -12,7 +13,7 @@ tags:
 date: 2022-07-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
             sl.add(nums[i])
         
         return res
-
 ```
 

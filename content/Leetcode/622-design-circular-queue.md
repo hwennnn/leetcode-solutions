@@ -2,6 +2,7 @@
 title: 622. Design Circular Queue
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - linked-list
   - design
@@ -9,7 +10,7 @@ tags:
 date: 2022-10-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/design-circular-queue/)
 
 ## Description
 
@@ -122,6 +123,5 @@ class MyCircularQueue:
 # param_4 = obj.Rear()
 # param_5 = obj.isEmpty()
 # param_6 = obj.isFull()
-
 ```
 

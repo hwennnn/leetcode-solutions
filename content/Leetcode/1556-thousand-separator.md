@@ -2,11 +2,12 @@
 title: 1556. Thousand Separator
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2020-08-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/thousand-separator/)
 
 ## Description
 
@@ -56,6 +57,5 @@ class Solution:
         ans = ans[::-1]
         
         return ans
-
 ```
 

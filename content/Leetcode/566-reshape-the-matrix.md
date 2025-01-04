@@ -2,13 +2,14 @@
 title: 566. Reshape the Matrix
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - matrix
   - simulation
 date: 2022-03-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/reshape-the-matrix/)
 
 ## Description
 
@@ -67,6 +68,5 @@ class Solution:
                 index += 1
         
         return res
-
 ```
 

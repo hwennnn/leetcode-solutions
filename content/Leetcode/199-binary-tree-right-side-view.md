@@ -2,6 +2,7 @@
 title: 199. Binary Tree Right Side View
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - depth-first-search
   - breadth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2024-08-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/binary-tree-right-side-view/)
 
 ## Description
 
@@ -96,6 +97,5 @@ class Solution:
             res.append(node.val)
 
         return res
-
 ```
 

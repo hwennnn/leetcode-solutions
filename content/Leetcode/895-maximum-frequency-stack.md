@@ -2,6 +2,7 @@
 title: 895. Maximum Frequency Stack
 draft: false
 tags: 
+  - leetcode-hard
   - hash-table
   - stack
   - design
@@ -9,7 +10,7 @@ tags:
 date: 2022-03-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-frequency-stack/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class FreqStack:
 # obj = FreqStack()
 # obj.push(val)
 # param_2 = obj.pop()
-
 ```
 

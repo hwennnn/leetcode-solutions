@@ -2,12 +2,13 @@
 title: 2496. Maximum Value of a String in an Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - string
 date: 2022-12-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
                 res = max(res, len(x))
             
         return res
-
 ```
 

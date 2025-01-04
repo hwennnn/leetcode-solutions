@@ -2,12 +2,13 @@
 title: 1544. Make The String Great
 draft: false
 tags: 
+  - leetcode-easy
   - string
   - stack
 date: 2024-04-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/make-the-string-great/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
                 stack.append(x)
 
         return "".join(stack)
-
 ```
 

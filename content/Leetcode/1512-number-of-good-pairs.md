@@ -2,6 +2,7 @@
 title: 1512. Number of Good Pairs
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - math
@@ -9,7 +10,7 @@ tags:
 date: 2023-10-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-good-pairs/)
 
 ## Description
 
@@ -66,6 +67,5 @@ class Solution:
             count[x] += 1
 
         return res
-
 ```
 

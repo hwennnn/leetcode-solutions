@@ -2,13 +2,14 @@
 title: 2257. Count Unguarded Cells in the Grid
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - matrix
   - simulation
 date: 2024-11-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-unguarded-cells-in-the-grid/)
 
 ## Description
 
@@ -118,6 +119,5 @@ class Solution:
                     res += 1
         
         return res
-
 ```
 

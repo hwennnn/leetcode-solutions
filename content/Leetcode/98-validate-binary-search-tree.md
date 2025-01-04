@@ -2,6 +2,7 @@
 title: 98. Validate Binary Search Tree
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - depth-first-search
   - binary-search-tree
@@ -9,7 +10,7 @@ tags:
 date: 2022-08-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/validate-binary-search-tree/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
             return True
         
         return dfs(root, inf, -inf)
-
 ```
 

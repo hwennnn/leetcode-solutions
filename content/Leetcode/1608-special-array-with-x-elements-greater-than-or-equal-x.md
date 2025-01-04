@@ -2,13 +2,14 @@
 title: 1608. Special Array With X Elements Greater Than or Equal X
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - binary-search
   - sorting
 date: 2024-05-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
                 return x
 
         return -1
-
 ```
 

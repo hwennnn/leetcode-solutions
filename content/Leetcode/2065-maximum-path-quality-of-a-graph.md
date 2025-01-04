@@ -2,13 +2,14 @@
 title: 2065. Maximum Path Quality of a Graph
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - backtracking
   - graph
 date: 2021-11-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-path-quality-of-a-graph/)
 
 ## Description
 
@@ -95,6 +96,5 @@ class Solution:
                     
         go(0, {0}, maxTime)
         return res
-
 ```
 

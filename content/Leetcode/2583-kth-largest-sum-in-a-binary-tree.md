@@ -2,6 +2,7 @@
 title: 2583. Kth Largest Sum in a Binary Tree
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - breadth-first-search
   - sorting
@@ -9,7 +10,7 @@ tags:
 date: 2024-10-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/)
 
 ## Description
 
@@ -92,6 +93,5 @@ class Solution:
                 
         
         
-
 ```
 

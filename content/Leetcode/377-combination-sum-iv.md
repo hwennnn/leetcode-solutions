@@ -2,12 +2,13 @@
 title: 377. Combination Sum IV
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
 date: 2023-09-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/combination-sum-iv/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
                     dp[t] += dp[t - x]
 
         return dp[target]
-
 ```
 

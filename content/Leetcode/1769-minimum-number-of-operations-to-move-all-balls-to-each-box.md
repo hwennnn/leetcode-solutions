@@ -2,13 +2,14 @@
 title: 1769. Minimum Number of Operations to Move All Balls to Each Box
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - string
   - prefix-sum
 date: 2021-04-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
         
         return res
             
-
 ```
 

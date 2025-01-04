@@ -2,12 +2,13 @@
 title: 1796. Second Largest Digit in a String
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - string
 date: 2021-04-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/second-largest-digit-in-a-string/)
 
 ## Description
 
@@ -52,6 +53,5 @@ class Solution:
         res = set(list(c for c in s if c.isdigit()))
     
         return sorted(list(res))[-2] if len(res) > 1 else -1
-
 ```
 

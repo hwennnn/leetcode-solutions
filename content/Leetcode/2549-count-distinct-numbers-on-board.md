@@ -2,6 +2,7 @@
 title: 2549. Count Distinct Numbers on Board
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - math
@@ -9,7 +10,7 @@ tags:
 date: 2023-01-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-distinct-numbers-on-board/)
 
 ## Description
 
@@ -68,6 +69,5 @@ After a billion days, the only two distinct numbers on the board are 2 and 3.
 class Solution:
     def distinctIntegers(self, n: int) -> int:
         return 1 if n == 1 else n - 1
-
 ```
 

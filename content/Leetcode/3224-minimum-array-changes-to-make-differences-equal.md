@@ -2,13 +2,14 @@
 title: 3224. Minimum Array Changes to Make Differences Equal
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - prefix-sum
 date: 2024-07-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-array-changes-to-make-differences-equal/)
 
 ## Description
 
@@ -102,6 +103,5 @@ class Solution:
             res = min(res, rem + extras)
 
         return res
-
 ```
 

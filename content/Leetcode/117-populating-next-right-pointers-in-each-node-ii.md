@@ -2,6 +2,7 @@
 title: 117. Populating Next Right Pointers in Each Node II
 draft: false
 tags: 
+  - leetcode-medium
   - linked-list
   - tree
   - depth-first-search
@@ -10,7 +11,7 @@ tags:
 date: 2022-05-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)
 
 ## Description
 
@@ -101,6 +102,5 @@ class Solution:
         
         return root
                 
-
 ```
 

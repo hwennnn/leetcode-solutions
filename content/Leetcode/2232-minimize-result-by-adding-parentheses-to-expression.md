@@ -2,12 +2,13 @@
 title: 2232. Minimize Result by Adding Parentheses to Expression
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - enumeration
 date: 2022-04-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimize-result-by-adding-parentheses-to-expression/)
 
 ## Description
 
@@ -108,6 +109,5 @@ class Solution:
         go(index - 1, index + 1)
         
         return res[1]
-
 ```
 

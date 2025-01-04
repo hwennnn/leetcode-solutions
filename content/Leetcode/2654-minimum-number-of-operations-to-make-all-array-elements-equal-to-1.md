@@ -2,13 +2,14 @@
 title: 2654. Minimum Number of Operations to Make All Array Elements Equal to 1
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - number-theory
 date: 2023-04-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-operations-to-make-all-array-elements-equal-to-1/)
 
 ## Description
 
@@ -78,7 +79,6 @@ class Solution:
             if g != 1: break
         
         return -1 if ans == inf else N + ans - 1
-
 
 ```
 

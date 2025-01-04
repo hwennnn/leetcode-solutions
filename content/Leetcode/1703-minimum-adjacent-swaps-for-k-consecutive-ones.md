@@ -2,6 +2,7 @@
 title: 1703. Minimum Adjacent Swaps for K Consecutive Ones
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - greedy
   - sliding-window
@@ -9,7 +10,7 @@ tags:
 date: 2020-12-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
         res -= (k//2)*((k+1)//2)
         
         return res
-
 ```
 

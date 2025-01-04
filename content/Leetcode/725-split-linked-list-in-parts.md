@@ -2,11 +2,12 @@
 title: 725. Split Linked List in Parts
 draft: false
 tags: 
+  - leetcode-medium
   - linked-list
 date: 2025-01-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/split-linked-list-in-parts/)
 
 ## Description
 
@@ -93,6 +94,5 @@ class Solution:
             res.append(None)
 
         return res
-
 ```
 

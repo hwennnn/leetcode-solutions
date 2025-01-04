@@ -2,13 +2,14 @@
 title: 2425. Bitwise XOR of All Pairings
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - bit-manipulation
   - brainteaser
 date: 2022-10-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/bitwise-xor-of-all-pairings/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
                 xor ^= x
         
         return xor
-
 ```
 

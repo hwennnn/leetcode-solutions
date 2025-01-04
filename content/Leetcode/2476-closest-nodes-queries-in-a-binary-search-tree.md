@@ -2,6 +2,7 @@
 title: 2476. Closest Nodes Queries in a Binary Search Tree
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
   - tree
@@ -11,7 +12,7 @@ tags:
 date: 2022-11-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/)
 
 ## Description
 
@@ -105,6 +106,5 @@ class Solution:
             res.append([mmax, mmin])
         
         return res
-
 ```
 

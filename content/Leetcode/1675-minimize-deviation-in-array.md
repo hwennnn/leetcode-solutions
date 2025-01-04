@@ -2,14 +2,15 @@
 title: 1675. Minimize Deviation in Array
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - greedy
-  - heap-(priority-queue)
+  - heap-priority-queue
   - ordered-set
 date: 2023-02-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimize-deviation-in-array/)
 
 ## Description
 
@@ -95,6 +96,5 @@ class Solution:
                 heappush(heap, -x // 2)
 
         return res
-
 ```
 

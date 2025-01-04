@@ -2,6 +2,7 @@
 title: 2037. Minimum Number of Moves to Seat Everyone
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - greedy
   - sorting
@@ -9,7 +10,7 @@ tags:
 date: 2024-06-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/)
 
 ## Description
 
@@ -84,6 +85,5 @@ In total, 1 + 3 + 0 + 0 = 4 moves were used.
 class Solution:
     def minMovesToSeat(self, seats: List[int], students: List[int]) -> int:
         return sum(abs(a - b) for a, b in zip(sorted(seats), sorted(students)))
-
 ```
 

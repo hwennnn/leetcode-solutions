@@ -2,12 +2,13 @@
 title: 1816. Truncate Sentence
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - string
 date: 2021-04-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/truncate-sentence/)
 
 ## Description
 
@@ -69,6 +70,5 @@ Hence, you should return &quot;What is the solution&quot;.</pre>
 class Solution:
     def truncateSentence(self, s: str, k: int) -> str:
         return " ".join(s.split()[:k])
-
 ```
 

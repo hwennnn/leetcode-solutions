@@ -2,13 +2,14 @@
 title: 127. Word Ladder
 draft: false
 tags: 
+  - leetcode-hard
   - hash-table
   - string
   - breadth-first-search
 date: 2024-08-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/word-ladder/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
                         seen.add(s)
         
         return 0
-
 ```
 

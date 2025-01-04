@@ -2,12 +2,13 @@
 title: 2828. Check if a String Is an Acronym of Words
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - string
 date: 2023-08-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
             if word[0] != x: return False
         
         return True
-
 ```
 

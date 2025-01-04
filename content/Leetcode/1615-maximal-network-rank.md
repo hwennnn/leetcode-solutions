@@ -2,11 +2,12 @@
 title: 1615. Maximal Network Rank
 draft: false
 tags: 
+  - leetcode-medium
   - graph
 date: 2023-08-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximal-network-rank/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
                 res = max(res, degree[i] + degree[j] - (1 if same[i][j] else 0))
         
         return res
-
 ```
 

@@ -2,12 +2,13 @@
 title: 338. Counting Bits
 draft: false
 tags: 
+  - leetcode-easy
   - dynamic-programming
   - bit-manipulation
 date: 2023-09-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/counting-bits/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
             dp[x] = (x & 1) + dp[x >> 1]
 
         return dp
-
 ```
 

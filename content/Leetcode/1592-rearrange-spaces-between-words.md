@@ -2,11 +2,12 @@
 title: 1592. Rearrange Spaces Between Words
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2020-09-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/rearrange-spaces-between-words/)
 
 ## Description
 
@@ -65,6 +66,5 @@ class Solution:
         leftover = spaces % (len(texts)-1)
         
         return (" " * between).join(texts) + " "*leftover
-
 ```
 

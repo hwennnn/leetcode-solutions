@@ -2,11 +2,12 @@
 title: 9. Palindrome Number
 draft: false
 tags: 
+  - leetcode-easy
   - math
 date: 2020-10-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/palindrome-number/)
 
 ## Description
 
@@ -63,6 +64,5 @@ class Solution:
             j -= 1
         
         return i >= j
-
 ```
 

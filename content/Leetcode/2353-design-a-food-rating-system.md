@@ -2,14 +2,15 @@
 title: 2353. Design a Food Rating System
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - design
-  - heap-(priority-queue)
+  - heap-priority-queue
   - ordered-set
 date: 2023-12-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/design-a-food-rating-system/)
 
 ## Description
 
@@ -111,6 +112,5 @@ class FoodRatings:
 # obj = FoodRatings(foods, cuisines, ratings)
 # obj.changeRating(food,newRating)
 # param_2 = obj.highestRated(cuisine)
-
 ```
 

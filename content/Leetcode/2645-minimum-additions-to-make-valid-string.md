@@ -2,6 +2,7 @@
 title: 2645. Minimum Additions to Make Valid String
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - dynamic-programming
   - stack
@@ -9,7 +10,7 @@ tags:
 date: 2023-04-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-additions-to-make-valid-string/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
         return res
                 
             
-
 ```
 

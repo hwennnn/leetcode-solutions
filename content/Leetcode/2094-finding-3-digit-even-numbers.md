@@ -2,6 +2,7 @@
 title: 2094. Finding 3-Digit Even Numbers
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - sorting
@@ -9,7 +10,7 @@ tags:
 date: 2021-12-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/finding-3-digit-even-numbers/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
                     res.add(digits[i] * 100 + digits[j] * 10 + digits[k])
         
         return sorted(list(res))
-
 ```
 

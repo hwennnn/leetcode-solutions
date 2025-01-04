@@ -2,6 +2,7 @@
 title: 2354. Number of Excellent Pairs
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - binary-search
@@ -9,7 +10,7 @@ tags:
 date: 2022-07-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-excellent-pairs/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
         
         return res
         
-
 ```
 

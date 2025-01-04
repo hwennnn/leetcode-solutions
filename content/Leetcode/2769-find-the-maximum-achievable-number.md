@@ -2,11 +2,12 @@
 title: 2769. Find the Maximum Achievable Number
 draft: false
 tags: 
+  - leetcode-easy
   - math
 date: 2023-07-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-maximum-achievable-number/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
     def theMaximumAchievableX(self, num: int, t: int) -> int:
         return num + 2 * t
             
-
 ```
 

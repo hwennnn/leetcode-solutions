@@ -2,13 +2,14 @@
 title: 202. Happy Number
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - math
   - two-pointers
 date: 2022-06-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/happy-number/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
             n = curr
         
         return n == 1
-
 ```
 

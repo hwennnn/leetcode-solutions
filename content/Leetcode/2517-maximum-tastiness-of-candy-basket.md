@@ -2,6 +2,7 @@
 title: 2517. Maximum Tastiness of Candy Basket
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2022-12-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-tastiness-of-candy-basket/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class Solution:
                 right = mid
 
         return res
-
 ```
 

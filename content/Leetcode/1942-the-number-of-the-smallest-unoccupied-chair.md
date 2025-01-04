@@ -2,13 +2,14 @@
 title: 1942. The Number of the Smallest Unoccupied Chair
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2025-01-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/the-number-of-the-smallest-unoccupied-chair/)
 
 ## Description
 
@@ -103,7 +104,6 @@ class Solution:
                 del mp[index]
         
         return -1
-
 
 ```
 

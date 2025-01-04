@@ -2,6 +2,7 @@
 title: 1125. Smallest Sufficient Team
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - bit-manipulation
@@ -9,7 +10,7 @@ tags:
 date: 2023-07-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/smallest-sufficient-team/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
 
         
         return dp[(1 << N) - 1]
-
 ```
 

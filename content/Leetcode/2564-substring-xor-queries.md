@@ -2,6 +2,7 @@
 title: 2564. Substring XOR Queries
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - string
@@ -9,7 +10,7 @@ tags:
 date: 2023-02-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/substring-xor-queries/)
 
 ## Description
 
@@ -93,6 +94,5 @@ class Solution:
                 res.append(lookup[t])
         
         return res
-
 ```
 

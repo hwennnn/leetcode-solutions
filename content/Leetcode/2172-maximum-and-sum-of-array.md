@@ -2,6 +2,7 @@
 title: 2172. Maximum AND Sum of Array
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - bit-manipulation
@@ -9,7 +10,7 @@ tags:
 date: 2022-02-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-and-sum-of-array/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
             return res
         
         return go(0, 0)
-
 ```
 

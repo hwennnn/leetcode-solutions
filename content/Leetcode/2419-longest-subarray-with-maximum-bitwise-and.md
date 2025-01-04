@@ -2,13 +2,14 @@
 title: 2419. Longest Subarray With Maximum Bitwise AND
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - bit-manipulation
   - brainteaser
 date: 2025-01-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
                 curr = 0
         
         return res
-
 ```
 

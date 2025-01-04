@@ -2,13 +2,14 @@
 title: 1958. Check if Move is Legal
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - matrix
   - enumeration
 date: 2021-08-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-move-is-legal/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
                         y += dj
                 
         return False
-
 ```
 

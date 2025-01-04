@@ -2,12 +2,13 @@
 title: 2272. Substring With Largest Variance
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
 date: 2023-07-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/substring-with-largest-variance/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
         
         return res
             
-
 ```
 

@@ -2,6 +2,7 @@
 title: 1519. Number of Nodes in the Sub-Tree With the Same Label
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - tree
   - depth-first-search
@@ -10,7 +11,7 @@ tags:
 date: 2023-01-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/)
 
 ## Description
 
@@ -97,6 +98,5 @@ class Solution:
 
         go(0, -1)
         return res
-
 ```
 

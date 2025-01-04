@@ -2,13 +2,14 @@
 title: 2954. Count the Number of Infection Sequences
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - math
   - combinatorics
 date: 2023-12-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-the-number-of-infection-sequences/)
 
 ## Description
 
@@ -102,6 +103,5 @@ class Solution:
                 res %= Solution.MOD
 
         return res
-
 ```
 

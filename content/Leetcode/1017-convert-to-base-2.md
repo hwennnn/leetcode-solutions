@@ -2,11 +2,12 @@
 title: 1017. Convert to Base -2
 draft: false
 tags: 
+  - leetcode-medium
   - math
 date: 2022-01-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/convert-to-base-2/)
 
 ## Description
 
@@ -62,6 +63,5 @@ class Solution:
             n = -(n >> 1)
         
         return "".join(map(str, res[::-1] or [0]))
-
 ```
 

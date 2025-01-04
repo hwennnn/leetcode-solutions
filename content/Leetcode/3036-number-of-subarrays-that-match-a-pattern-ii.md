@@ -2,6 +2,7 @@
 title: 3036. Number of Subarrays That Match a Pattern II
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - rolling-hash
   - string-matching
@@ -9,7 +10,7 @@ tags:
 date: 2024-02-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-ii/)
 
 ## Description
 
@@ -108,6 +109,5 @@ class Solution:
         rk = rabin_karp(pattern, A)
         
         return len(rk)
-
 ```
 

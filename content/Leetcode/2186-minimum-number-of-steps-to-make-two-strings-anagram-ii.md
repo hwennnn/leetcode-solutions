@@ -2,13 +2,14 @@
 title: 2186. Minimum Number of Steps to Make Two Strings Anagram II
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - counting
 date: 2022-02-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
                 count1[x] -= 1
         
         return sum(count1.values()) + sum(count2.values())
-
 ```
 

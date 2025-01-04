@@ -2,6 +2,7 @@
 title: 3203. Find Minimum Diameter After Merging Two Trees
 draft: false
 tags: 
+  - leetcode-hard
   - tree
   - depth-first-search
   - breadth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2024-12-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-minimum-diameter-after-merging-two-trees/)
 
 ## Description
 
@@ -101,6 +102,5 @@ class Solution:
         diameter2 = bfs(edges2)
 
         return max(diameter1, diameter2, ceil(diameter1 / 2) + ceil(diameter2 / 2) + 1)
-
 ```
 

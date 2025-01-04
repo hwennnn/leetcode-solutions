@@ -2,13 +2,14 @@
 title: 2835. Minimum Operations to Form Subsequence With Target Sum
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - greedy
   - bit-manipulation
 date: 2023-08-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-operations-to-form-subsequence-with-target-sum/)
 
 ## Description
 
@@ -97,6 +98,5 @@ class Solution:
             count[j + 1] += count[j] // 2
         
         return res if i == 32 else -1
-
 ```
 

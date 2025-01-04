@@ -2,13 +2,14 @@
 title: 292. Nim Game
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - brainteaser
   - game-theory
 date: 2020-02-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/nim-game/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
     def canWinNim(self, n: int) -> bool:
         
         return n%4!=0
-
 ```
 

@@ -2,6 +2,7 @@
 title: 2709. Greatest Common Divisor Traversal
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - math
   - union-find
@@ -9,7 +10,7 @@ tags:
 date: 2024-02-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/greatest-common-divisor-traversal/)
 
 ## Description
 
@@ -108,6 +109,5 @@ class Solution:
             if uf.find(i) != p: return False
         
         return True
-
 ```
 

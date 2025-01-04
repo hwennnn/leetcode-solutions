@@ -2,12 +2,13 @@
 title: 1207. Unique Number of Occurrences
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
-date: 2024-01-21
+date: 2019-10-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/unique-number-of-occurrences/)
 
 ## Description
 
@@ -53,6 +54,39 @@ date: 2024-01-21
 class Solution:
     def uniqueOccurrences(self, arr: List[int]) -> bool:
         return (cnt:= Counter(arr)) and len(set(cnt.values())) == len(cnt)
-
+```
+### Python
+``` py title='unique-number-of-occurrences'
+class Solution(object):
+    def uniqueOccurrences(self, arr):
+        """
+        :type arr: List[int]
+        :rtype: bool
+        """
+        res = []
+        lst=  []
+        
+        for i in arr:
+            if i not in res:
+                res.append(i)
+                
+        for i in range(len(res)):
+            lst.append(arr.count(res[i]))
+        
+        check_lst = []
+        for i in range(len(lst)):
+            if i>0:
+                if lst[i-1] == lst[i]:
+                    break
+            check_lst.append(lst.count(lst[i]))
+        
+        for i in check_lst:
+            if i>1:
+                return False
+            
+        return True
+        
+        
+       
 ```
 

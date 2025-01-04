@@ -2,12 +2,13 @@
 title: 2843.   Count Symmetric Integers
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - enumeration
 date: 2023-09-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-symmetric-integers/)
 
 ## Description
 
@@ -64,6 +65,5 @@ class Solution:
                     res += 1
         
         return res
-
 ```
 

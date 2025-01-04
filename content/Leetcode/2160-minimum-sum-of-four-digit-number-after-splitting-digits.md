@@ -2,13 +2,14 @@
 title: 2160. Minimum Sum of Four Digit Number After Splitting Digits
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - greedy
   - sorting
 date: 2022-02-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/)
 
 ## Description
 
@@ -58,6 +59,5 @@ class Solution:
         digits = [int(c) for c in str(num)]
         digits.sort()
         return (digits[0] * 10 + digits[2]) + (digits[1] * 10 + digits[3])
-
 ```
 

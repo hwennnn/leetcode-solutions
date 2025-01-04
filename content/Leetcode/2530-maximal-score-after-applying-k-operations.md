@@ -2,13 +2,14 @@
 title: 2530. Maximal Score After Applying K Operations
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2024-10-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximal-score-after-applying-k-operations/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
                 heappush(heap, -new)
         
         return res
-
 ```
 

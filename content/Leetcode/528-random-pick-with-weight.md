@@ -2,6 +2,7 @@
 title: 528. Random Pick with Weight
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - binary-search
@@ -10,7 +11,7 @@ tags:
 date: 2022-04-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/random-pick-with-weight/)
 
 ## Description
 
@@ -96,6 +97,5 @@ class Solution:
 # Your Solution object will be instantiated and called as such:
 # obj = Solution(w)
 # param_1 = obj.pickIndex()
-
 ```
 

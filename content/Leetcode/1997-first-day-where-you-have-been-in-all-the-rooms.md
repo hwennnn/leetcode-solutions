@@ -2,12 +2,13 @@
 title: 1997. First Day Where You Have Been in All the Rooms
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
 date: 2021-09-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/first-day-where-you-have-been-in-all-the-rooms/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
             dp[i] = (2 * dp[i - 1] - dp[nextVisit[i - 1]] + 2) % (10 ** 9 + 7)
         
         return dp[-1]
-
 ```
 

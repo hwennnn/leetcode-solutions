@@ -2,6 +2,7 @@
 title: 1023. Camelcase Matching
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
   - string
@@ -10,7 +11,7 @@ tags:
 date: 2022-01-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/camelcase-matching/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
             res[i] = valid and index == n
         
         return res
-
 ```
 

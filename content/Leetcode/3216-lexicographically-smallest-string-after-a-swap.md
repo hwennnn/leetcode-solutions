@@ -2,12 +2,13 @@
 title: 3216. Lexicographically Smallest String After a Swap
 draft: false
 tags: 
+  - leetcode-easy
   - string
   - greedy
 date: 2024-07-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
                 break
         
         return "".join(res)
-
 ```
 

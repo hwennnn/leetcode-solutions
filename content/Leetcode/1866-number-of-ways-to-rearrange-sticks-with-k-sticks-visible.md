@@ -2,13 +2,14 @@
 title: 1866. Number of Ways to Rearrange Sticks With K Sticks Visible
 draft: false
 tags: 
+  - leetcode-hard
   - math
   - dynamic-programming
   - combinatorics
 date: 2021-05-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-ways-to-rearrange-sticks-with-k-sticks-visible/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
         if k == 0: return 0
         
         return (self.rearrangeSticks(n - 1, k - 1) + self.rearrangeSticks(n - 1, k) * (n - 1)) % M
-
 ```
 

@@ -2,6 +2,7 @@
 title: 1044. Longest Duplicate Substring
 draft: false
 tags: 
+  - leetcode-hard
   - string
   - binary-search
   - sliding-window
@@ -11,7 +12,7 @@ tags:
 date: 2021-11-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-duplicate-substring/)
 
 ## Description
 
@@ -81,6 +82,5 @@ class Solution:
             
         return res
         
-
 ```
 

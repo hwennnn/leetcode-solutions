@@ -2,12 +2,13 @@
 title: 1013. Partition Array Into Three Parts With Equal Sum
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - greedy
 date: 2022-01-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
                 count += 1
         
         return count >= 3
-
 ```
 

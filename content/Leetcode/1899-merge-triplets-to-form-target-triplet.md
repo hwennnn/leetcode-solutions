@@ -2,12 +2,13 @@
 title: 1899. Merge Triplets to Form Target Triplet
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
 date: 2021-06-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/merge-triplets-to-form-target-triplet/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
                 res[2] = True
                 
         return all(res)
-
 ```
 

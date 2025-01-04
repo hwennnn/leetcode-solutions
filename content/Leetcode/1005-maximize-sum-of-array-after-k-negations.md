@@ -2,13 +2,14 @@
 title: 1005. Maximize Sum Of Array After K Negations
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - greedy
   - sorting
 date: 2022-02-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/)
 
 ## Description
 
@@ -88,6 +89,5 @@ class Solution:
             neg.sort()
             
             return sum(pos) - sum(neg[:k]) + sum(neg[k:])
-
 ```
 

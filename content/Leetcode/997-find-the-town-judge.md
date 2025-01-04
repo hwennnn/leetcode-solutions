@@ -2,13 +2,14 @@
 title: 997. Find the Town Judge
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - graph
 date: 2024-02-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-town-judge/)
 
 ## Description
 
@@ -81,6 +82,5 @@ class Solution:
                 return i
         
         return -1
-
 ```
 

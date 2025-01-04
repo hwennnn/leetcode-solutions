@@ -2,12 +2,13 @@
 title: 2139. Minimum Moves to Reach Target Score
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - greedy
 date: 2022-01-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-moves-to-reach-target-score/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class Solution:
                 res += 1
         
         return res
-
 ```
 

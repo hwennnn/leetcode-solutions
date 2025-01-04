@@ -2,6 +2,7 @@
 title: 2286. Booking Concert Tickets in Groups
 draft: false
 tags: 
+  - leetcode-hard
   - binary-search
   - design
   - binary-indexed-tree
@@ -9,7 +10,7 @@ tags:
 date: 2022-06-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/booking-concert-tickets-in-groups/)
 
 ## Description
 
@@ -200,6 +201,5 @@ class BookMyShow:
 # obj = BookMyShow(n, m)
 # param_1 = obj.gather(k,maxRow)
 # param_2 = obj.scatter(k,maxRow)
-
 ```
 

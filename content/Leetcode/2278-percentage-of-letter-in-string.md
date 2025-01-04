@@ -2,11 +2,12 @@
 title: 2278. Percentage of Letter in String
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2022-05-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/percentage-of-letter-in-string/)
 
 ## Description
 
@@ -52,6 +53,5 @@ class Solution:
         c = s.count(letter)
         # print(n, c)
         return int(c / n * 100)
-
 ```
 

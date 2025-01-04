@@ -2,13 +2,14 @@
 title: 1603. Design Parking System
 draft: false
 tags: 
+  - leetcode-easy
   - design
   - simulation
   - counting
 date: 2023-05-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/design-parking-system/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class ParkingSystem:
 # Your ParkingSystem object will be instantiated and called as such:
 # obj = ParkingSystem(big, medium, small)
 # param_1 = obj.addCar(carType)
-
 ```
 

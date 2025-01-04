@@ -2,6 +2,7 @@
 title: 1160. Find Words That Can Be Formed by Characters
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - string
@@ -9,7 +10,7 @@ tags:
 date: 2023-12-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
                 res += len(word)
         
         return res
-
 ```
 

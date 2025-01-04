@@ -2,12 +2,13 @@
 title: 446. Arithmetic Slices II - Subsequence
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
 date: 2024-01-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/)
 
 ## Description
 
@@ -83,7 +84,6 @@ class Solution:
                     res += dp[i][diff]
         
         return res
-
 
 ```
 

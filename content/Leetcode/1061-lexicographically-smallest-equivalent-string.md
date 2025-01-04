@@ -2,12 +2,13 @@
 title: 1061. Lexicographically Smallest Equivalent String
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - union-find
 date: 2023-01-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/lexicographically-smallest-equivalent-string/)
 
 ## Description
 
@@ -124,6 +125,5 @@ class Solution:
                 res.append(parents[parent][0])
 
         return "".join(res)
-
 ```
 

@@ -2,13 +2,14 @@
 title: 2488. Count Subarrays With Median K
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - prefix-sum
 date: 2022-11-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-subarrays-with-median-k/)
 
 ## Description
 
@@ -97,6 +98,5 @@ class Solution:
         return res
                 
             
-
 ```
 

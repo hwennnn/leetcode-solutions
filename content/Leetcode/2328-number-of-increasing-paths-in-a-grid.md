@@ -2,6 +2,7 @@
 title: 2328. Number of Increasing Paths in a Grid
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - depth-first-search
@@ -13,7 +14,7 @@ tags:
 date: 2023-06-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/)
 
 ## Description
 
@@ -88,6 +89,5 @@ class Solution:
                 res %= M
         
         return res
-
 ```
 

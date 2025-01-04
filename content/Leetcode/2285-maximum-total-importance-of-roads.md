@@ -2,14 +2,15 @@
 title: 2285. Maximum Total Importance of Roads
 draft: false
 tags: 
+  - leetcode-medium
   - greedy
   - graph
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2024-06-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-total-importance-of-roads/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class Solution:
         return res
 
         
-
 ```
 

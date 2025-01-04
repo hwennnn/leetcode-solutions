@@ -2,13 +2,14 @@
 title: 2864. Maximum Odd Binary Number
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - string
   - greedy
 date: 2024-03-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-odd-binary-number/)
 
 ## Description
 
@@ -60,6 +61,5 @@ class Solution:
         front = count - 1
 
         return "1" * (front) + "0" * (N - count) + ("1" if count > 0 else "")
-
 ```
 

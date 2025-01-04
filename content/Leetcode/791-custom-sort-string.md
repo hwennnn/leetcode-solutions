@@ -2,13 +2,14 @@
 title: 791. Custom Sort String
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - sorting
 date: 2024-03-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/custom-sort-string/)
 
 ## Description
 
@@ -79,7 +80,6 @@ class Solution:
             res += chr(i + ord('a')) * x
         
         return res
-
 
 ```
 

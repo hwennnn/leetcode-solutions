@@ -2,6 +2,7 @@
 title: 3257. Maximum Value Sum by Placing Three Rooks II
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - matrix
@@ -9,7 +10,7 @@ tags:
 date: 2024-08-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-value-sum-by-placing-three-rooks-ii/)
 
 ## Description
 
@@ -110,6 +111,5 @@ class Solution:
                             res = max(res, v1 + v2 + v3)
         
         return res
-
 ```
 

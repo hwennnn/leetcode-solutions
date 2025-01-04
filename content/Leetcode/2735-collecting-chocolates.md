@@ -2,12 +2,13 @@
 title: 2735. Collecting Chocolates
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - enumeration
 date: 2023-06-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/collecting-chocolates/)
 
 ## Description
 
@@ -70,7 +71,6 @@ class Solution:
                 res[k] += curr
         
         return min(res)
-
 
 ```
 

@@ -2,11 +2,12 @@
 title: 520. Detect Capital
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2023-01-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/detect-capital/)
 
 ## Description
 
@@ -55,6 +56,5 @@ class Solution:
                 cap += 1
         
         return cap == N or cap == 0 or (cap == 1 and isCap(word[0]))
-
 ```
 

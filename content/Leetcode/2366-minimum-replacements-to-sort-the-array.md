@@ -2,13 +2,14 @@
 title: 2366. Minimum Replacements to Sort the Array
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - math
   - greedy
 date: 2023-08-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-replacements-to-sort-the-array/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
                 prev = nums[i] // segments
 
         return res
-
 ```
 

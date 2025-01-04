@@ -2,15 +2,16 @@
 title: 1851. Minimum Interval to Include Each Query
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - line-sweep
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2021-05-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-interval-to-include-each-query/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
             res[q] = pq[0][0] if pq else -1
         
         return [res[q] for q in queries]
-
 ```
 

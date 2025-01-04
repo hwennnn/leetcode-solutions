@@ -2,12 +2,13 @@
 title: 852. Peak Index in a Mountain Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
 date: 2023-07-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/peak-index-in-a-mountain-array/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
                 right = mid
         
         return left
-
 ```
 

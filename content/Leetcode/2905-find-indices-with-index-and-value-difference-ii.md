@@ -2,12 +2,13 @@
 title: 2905. Find Indices With Index and Value Difference II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
 date: 2023-10-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-indices-with-index-and-value-difference-ii/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class Solution:
                 return [minIndex, i]
         
         return [-1, -1]
-
 ```
 

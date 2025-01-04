@@ -2,12 +2,13 @@
 title: 1111. Maximum Nesting Depth of Two Valid Parentheses Strings
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - stack
 date: 2021-05-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
                 res[i] = 1
                 
         return res
-
 ```
 

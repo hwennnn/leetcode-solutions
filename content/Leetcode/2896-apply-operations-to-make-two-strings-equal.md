@@ -2,12 +2,13 @@
 title: 2896. Apply Operations to Make Two Strings Equal
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - dynamic-programming
 date: 2023-10-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/apply-operations-to-make-two-strings-equal/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
             return min(go(index - 1) + x / 2, go(index - 2) + diff[index] - diff[index - 1])
         
         return int(go(len(diff) - 1))
-
 ```
 

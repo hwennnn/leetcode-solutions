@@ -2,12 +2,13 @@
 title: 927. Three Equal Parts
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - math
 date: 2021-07-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/three-equal-parts/)
 
 ## Description
 
@@ -81,6 +82,5 @@ class Solution:
 		if right == len(A):
 			return [left-1, mid]
 		return [-1, -1]
-
 ```
 

@@ -2,11 +2,11 @@
 title: 2621. Sleep
 draft: false
 tags: 
-
+  - leetcode-easy
 date: 2023-05-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/sleep/)
 
 ## Description
 
@@ -56,6 +56,5 @@ async function sleep(millis: number): Promise<void> {
  * let t = Date.now()
  * sleep(100).then(() => console.log(Date.now() - t)) // 100
  */
-
 ```
 

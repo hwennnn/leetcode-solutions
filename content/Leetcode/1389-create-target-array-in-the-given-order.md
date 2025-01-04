@@ -2,12 +2,13 @@
 title: 1389. Create Target Array in the Given Order
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - simulation
 date: 2020-10-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/create-target-array-in-the-given-order/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
             res.insert(i,n)
         
         return res
-
 ```
 

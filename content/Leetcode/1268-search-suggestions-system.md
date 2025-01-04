@@ -2,16 +2,17 @@
 title: 1268. Search Suggestions System
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - string
   - binary-search
   - trie
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2022-06-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/search-suggestions-system/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
             res.append(mp[curr][:3])
         
         return res
-
 ```
 

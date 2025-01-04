@@ -2,11 +2,11 @@
 title: 2622. Cache With Time Limit
 draft: false
 tags: 
-
+  - leetcode-medium
 date: 2023-05-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/cache-with-time-limit/)
 
 ## Description
 
@@ -110,6 +110,5 @@ class TimeLimitedCache {
  * obj.get(1) // 42
  * obj.count() // 1
  */
-
 ```
 

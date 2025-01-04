@@ -2,13 +2,14 @@
 title: 899. Orderly Queue
 draft: false
 tags: 
+  - leetcode-hard
   - math
   - string
   - sorting
 date: 2022-11-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/orderly-queue/)
 
 ## Description
 
@@ -55,6 +56,5 @@ In the second move, we move the 3<sup>rd</sup> character &#39;c&#39; to the end,
 class Solution:
     def orderlyQueue(self, s: str, k: int) -> str:
         return "".join(sorted(s)) if k > 1 else min(s[i:] + s[:i] for i in range(len(s)))
-
 ```
 

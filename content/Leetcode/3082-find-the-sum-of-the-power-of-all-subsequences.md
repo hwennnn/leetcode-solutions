@@ -2,12 +2,13 @@
 title: 3082. Find the Sum of the Power of All Subsequences
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
 date: 2024-03-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-sum-of-the-power-of-all-subsequences/)
 
 ## Description
 
@@ -105,6 +106,5 @@ class Solution:
             return (skip + take) % MOD
         
         return go(0, 0, 0)
-
 ```
 

@@ -2,13 +2,14 @@
 title: 141. Linked List Cycle
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - linked-list
   - two-pointers
-date: 2024-03-06
+date: 2020-12-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/linked-list-cycle/)
 
 ## Description
 
@@ -82,6 +83,30 @@ class Solution:
                 return True
         
         return False
-
+```
+### C++
+``` cpp title='linked-list-cycle'
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
+class Solution {
+public:
+    bool hasCycle(ListNode *head) {
+        ListNode *slow = head, *fast = head;
+        
+        while (fast && fast->next){
+            slow = slow->next;
+            fast = fast->next->next;
+            if (slow == fast) return true;
+        }
+        
+        return false;
+    }
+};
 ```
 

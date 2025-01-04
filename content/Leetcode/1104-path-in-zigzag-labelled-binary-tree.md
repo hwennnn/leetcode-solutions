@@ -2,13 +2,14 @@
 title: 1104. Path In Zigzag Labelled Binary Tree
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - tree
   - binary-tree
 date: 2021-05-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)
 
 ## Description
 
@@ -66,6 +67,5 @@ class Solution:
             level -= 1
         
         return res[::-1]
-
 ```
 

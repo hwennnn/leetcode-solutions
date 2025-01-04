@@ -2,15 +2,16 @@
 title: 378. Kth Smallest Element in a Sorted Matrix
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
   - matrix
 date: 2022-08-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
                     heappush(heap, -m)
 
         return -heap[0]
-
 ```
 

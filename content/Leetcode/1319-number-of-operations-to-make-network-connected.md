@@ -2,6 +2,7 @@
 title: 1319. Number of Operations to Make Network Connected
 draft: false
 tags: 
+  - leetcode-medium
   - depth-first-search
   - breadth-first-search
   - union-find
@@ -9,7 +10,7 @@ tags:
 date: 2023-03-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
             return 1
         
         return sum(go(node) for node in range(n)) - 1
-
 ```
 

@@ -2,6 +2,7 @@
 title: 2747. Count Zero Request Servers
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - sliding-window
@@ -9,7 +10,7 @@ tags:
 date: 2023-08-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-zero-request-servers/)
 
 ## Description
 
@@ -94,6 +95,5 @@ class Solution:
             res[index] = n - len(mp)
         
         return res
-
 ```
 

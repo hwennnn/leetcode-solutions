@@ -2,13 +2,14 @@
 title: 3187. Peaks in Array
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-indexed-tree
   - segment-tree
 date: 2024-06-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/peaks-in-array/)
 
 ## Description
 
@@ -159,6 +160,76 @@ public:
         return ans;
     }
 };
+```
+### Python
+``` py title='peaks-in-array'
+class SegmentTree:
+	def __init__(self, arr):
+		self.n = len(arr)
+		self.tree = [0] * (4 * self.n)		
+		self._build(1, 0, self.n - 1, arr)
 
+	def _build(self, v, tl, tr, arr):
+		if tl == tr:
+			self.tree[v] = arr[tl]
+		else:
+			tm = tl + (tr - tl) // 2
+			self._build(v * 2, tl, tm, arr)
+			self._build(v * 2 + 1, tm + 1, tr, arr)
+			self.tree[v] = self.tree[v * 2] + self.tree[v * 2 + 1]
+
+	def query(self, v, tl, tr, l, r):
+		if l > r: return 0
+		
+		if tl == l and tr == r:
+			return self.tree[v]
+		else:
+			tm = tl + (tr - tl) // 2
+			
+			return self.query(v * 2, tl, tm, l, min(tm, r)) + self.query(v * 2 + 1, tm + 1, tr, max(tm + 1, l), r)
+
+	def update(self, v, tl, tr, pos, value):
+		if tl == tr:
+			self.tree[v] = value
+		else:
+			tm = tl + (tr - tl) // 2
+
+			if pos <= tm:
+				self.update(v * 2, tl, tm, pos, value)
+			else:
+				self.update(v * 2 + 1, tm + 1, tr, pos, value)
+
+			self.tree[v] = self.tree[v * 2] + self.tree[v * 2 + 1]
+            
+class Solution:
+    def countOfPeaks(self, nums: List[int], queries: List[List[int]]) -> List[int]:
+        N = len(nums)
+        isPeaked = [0] * N
+        res = []
+        
+        def isPeak(j):
+            return int(0 < j < N - 1 and nums[j] > nums[j - 1] and nums[j] > nums[j + 1])
+        
+        for i in range(1, N - 1):
+            isPeaked[i] = isPeak(i)
+        
+        st = SegmentTree(isPeaked)
+        
+        for query in queries:
+            if query[0] == 1:
+                _, l, r = query
+                v = st.query(1, 0, N - 1, l + 1, r - 1)
+                res.append(v)
+            else:
+                _, index, val = query
+                nums[index] = val
+                
+                for j in [index - 1, index, index + 1]:
+                    count = isPeak(j)
+                    if j < N and count != isPeaked[j]:
+                        st.update(1, 0, N - 1, j, count)
+                        isPeaked[j] = count
+        
+        return res
 ```
 

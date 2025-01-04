@@ -2,13 +2,14 @@
 title: 2536. Increment Submatrices by One
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - matrix
   - prefix-sum
 date: 2023-01-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/increment-submatrices-by-one/)
 
 ## Description
 
@@ -81,6 +82,5 @@ class Solution:
                 A[i][j] += A[i - 1][j]
 
         return A
-
 ```
 

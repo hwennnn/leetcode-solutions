@@ -2,11 +2,12 @@
 title: 1784. Check if Binary String Has at Most One Segment of Ones
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2021-04-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)
 
 ## Description
 
@@ -46,6 +47,5 @@ date: 2021-04-10
 class Solution:
     def checkOnesSegment(self, s: str) -> bool:
         return "01" not in s
-
 ```
 

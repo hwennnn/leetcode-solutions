@@ -2,12 +2,13 @@
 title: 2919. Minimum Increment Operations to Make Array Beautiful
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
 date: 2023-10-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-increment-operations-to-make-array-beautiful/)
 
 ## Description
 
@@ -102,6 +103,5 @@ class Solution:
             return res
     
         return go(0, 0)
-
 ```
 

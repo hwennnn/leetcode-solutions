@@ -2,13 +2,14 @@
 title: 2513. Minimize the Maximum of Two Arrays
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - binary-search
   - number-theory
 date: 2022-12-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimize-the-maximum-of-two-arrays/)
 
 ## Description
 
@@ -92,6 +93,5 @@ class Solution:
                 left = mid + 1
             
         return left
-
 ```
 

@@ -2,6 +2,7 @@
 title: 1254. Number of Closed Islands
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - depth-first-search
   - breadth-first-search
@@ -10,7 +11,7 @@ tags:
 date: 2023-04-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-closed-islands/)
 
 ## Description
 
@@ -92,6 +93,5 @@ class Solution:
                     res += 1
         
         return res
-
 ```
 

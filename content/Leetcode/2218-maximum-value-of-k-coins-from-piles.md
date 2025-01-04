@@ -2,13 +2,14 @@
 title: 2218. Maximum Value of K Coins From Piles
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - prefix-sum
 date: 2023-04-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-value-of-k-coins-from-piles/)
 
 ## Description
 
@@ -77,7 +78,6 @@ class Solution:
             return res
         
         return go(0, K)
-
 
 ```
 

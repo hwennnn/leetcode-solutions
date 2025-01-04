@@ -2,13 +2,14 @@
 title: 2207. Maximize Number of Subsequences in a String
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - greedy
   - prefix-sum
 date: 2022-03-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximize-number-of-subsequences-in-a-string/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
             return res
         
         return max(count(p1 + text), count(text + p2))
-
 ```
 

@@ -2,6 +2,7 @@
 title: 399. Evaluate Division
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - string
   - depth-first-search
@@ -12,7 +13,7 @@ tags:
 date: 2023-05-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/evaluate-division/)
 
 ## Description
 
@@ -89,6 +90,5 @@ class Solution:
                     lookup[b][c] = lookup[b][a] * lookup[a][c]
 
         return [lookup[a][b] for a, b in queries]
-
 ```
 

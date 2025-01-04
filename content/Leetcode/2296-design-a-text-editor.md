@@ -2,6 +2,7 @@
 title: 2296. Design a Text Editor
 draft: false
 tags: 
+  - leetcode-hard
   - linked-list
   - string
   - stack
@@ -11,7 +12,7 @@ tags:
 date: 2022-06-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/design-a-text-editor/)
 
 ## Description
 
@@ -131,6 +132,5 @@ class TextEditor:
 # param_2 = obj.deleteText(k)
 # param_3 = obj.cursorLeft(k)
 # param_4 = obj.cursorRight(k)
-
 ```
 

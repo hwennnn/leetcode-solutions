@@ -2,13 +2,14 @@
 title: 2938. Separate Black and White Balls
 draft: false
 tags: 
+  - leetcode-medium
   - two-pointers
   - string
   - greedy
 date: 2024-10-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/separate-black-and-white-balls/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
                 res += count
 
         return res
-
 ```
 

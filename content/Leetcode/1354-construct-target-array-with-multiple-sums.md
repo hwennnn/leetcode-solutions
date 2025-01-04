@@ -2,12 +2,13 @@
 title: 1354. Construct Target Array With Multiple Sums
 draft: false
 tags: 
+  - leetcode-hard
   - array
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2022-06-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
             total += x
             
             heappush(heap, -x)
-
 ```
 

@@ -2,13 +2,14 @@
 title: 2509. Cycle Length Queries in a Tree
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - tree
   - binary-tree
 date: 2022-12-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/cycle-length-queries-in-a-tree/)
 
 ## Description
 
@@ -95,6 +96,5 @@ class Solution:
             res.append(count)
             
         return res
-
 ```
 

@@ -2,6 +2,7 @@
 title: 2050. Parallel Courses III
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - graph
@@ -9,7 +10,7 @@ tags:
 date: 2023-10-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/parallel-courses-iii/)
 
 ## Description
 
@@ -106,6 +107,5 @@ class Solution:
                 
         
         return max(dist)
-
 ```
 

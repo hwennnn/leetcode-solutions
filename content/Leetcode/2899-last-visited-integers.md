@@ -2,12 +2,13 @@
 title: 2899. Last Visited Integers
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - simulation
 date: 2023-10-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/last-visited-integers/)
 
 ## Description
 
@@ -103,6 +104,5 @@ class Solution:
                 p = len(stack) - 1
         
         return res
-
 ```
 

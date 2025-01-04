@@ -2,12 +2,13 @@
 title: 1640. Check Array Formation Through Concatenation
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
 date: 2021-01-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-array-formation-through-concatenation/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
             res += mp.get(num, [])
         
         return arr == res
-
 ```
 

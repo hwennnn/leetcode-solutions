@@ -2,6 +2,7 @@
 title: 349. Intersection of Two Arrays
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - two-pointers
@@ -10,7 +11,7 @@ tags:
 date: 2024-03-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/intersection-of-two-arrays/)
 
 ## Description
 
@@ -50,6 +51,5 @@ date: 2024-03-10
 class Solution:
     def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:
         return set(nums1) & set(nums2)
-
 ```
 

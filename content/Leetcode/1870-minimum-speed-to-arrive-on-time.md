@@ -2,12 +2,13 @@
 title: 1870. Minimum Speed to Arrive on Time
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
 date: 2023-07-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-speed-to-arrive-on-time/)
 
 ## Description
 
@@ -99,6 +100,5 @@ class Solution:
                 left = mid + 1
 
         return left if left <= 10 ** 7 else -1
-
 ```
 

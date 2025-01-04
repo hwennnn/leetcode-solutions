@@ -2,6 +2,7 @@
 title: 2492. Minimum Score of a Path Between Two Cities
 draft: false
 tags: 
+  - leetcode-medium
   - depth-first-search
   - breadth-first-search
   - union-find
@@ -9,7 +10,7 @@ tags:
 date: 2023-03-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class Solution:
                 stack.append(nei)
             
         return res
-
 ```
 

@@ -2,13 +2,14 @@
 title: 1024. Video Stitching
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - greedy
 date: 2023-08-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/video-stitching/)
 
 ## Description
 
@@ -88,6 +89,5 @@ class Solution:
         if end < time: return -1
 
         return count
-
 ```
 

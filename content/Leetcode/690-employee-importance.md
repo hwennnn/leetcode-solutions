@@ -2,6 +2,7 @@
 title: 690. Employee Importance
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - tree
@@ -10,7 +11,7 @@ tags:
 date: 2020-02-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/employee-importance/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
             subordinates_importance = sum([dfs(sub_id) for sub_id in emps[id].subordinates])
             return subordinates_importance + emps[id].importance
         return dfs(id)
-
 ```
 

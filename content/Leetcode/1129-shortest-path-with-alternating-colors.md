@@ -2,12 +2,13 @@
 title: 1129. Shortest Path with Alternating Colors
 draft: false
 tags: 
+  - leetcode-medium
   - breadth-first-search
   - graph
 date: 2023-02-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/shortest-path-with-alternating-colors/)
 
 ## Description
 
@@ -94,6 +95,5 @@ class Solution:
         return res
         
         
-
 ```
 

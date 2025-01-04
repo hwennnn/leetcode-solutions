@@ -2,13 +2,14 @@
 title: 970. Powerful Integers
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - math
   - enumeration
 date: 2022-02-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/powerful-integers/)
 
 ## Description
 
@@ -67,6 +68,5 @@ class Solution:
                     res.add(z)
         
         return list(res)
-
 ```
 

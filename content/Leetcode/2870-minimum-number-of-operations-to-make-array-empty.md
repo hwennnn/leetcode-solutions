@@ -2,6 +2,7 @@
 title: 2870. Minimum Number of Operations to Make Array Empty
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2024-01-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
                 res += (v - 2) // 3 + 1
 
         return res
-
 ```
 

@@ -2,14 +2,15 @@
 title: 355. Design Twitter
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - linked-list
   - design
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2021-04-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/design-twitter/)
 
 ## Description
 
@@ -168,6 +169,5 @@ class Twitter:
 # param_2 = obj.getNewsFeed(userId)
 # obj.follow(followerId,followeeId)
 # obj.unfollow(followerId,followeeId)
-
 ```
 

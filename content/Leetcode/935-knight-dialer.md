@@ -2,11 +2,12 @@
 title: 935. Knight Dialer
 draft: false
 tags: 
+  - leetcode-medium
   - dynamic-programming
 date: 2023-11-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/knight-dialer/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
             s0, s1, s2, s3, s4, s5, s6, s7, s8, s9 = s4 + s6, s6 + s8, s7 + s9, s4 + s8, s0 + s3 + s9, 0, s0 + s1 + s7, s2 + s6, s1 + s3, s2 + s4
         
         return (s0 + s1 + s2 + s3 + s4 + s5 + s6 + s7 + s8 + s9) % MOD
-
 ```
 

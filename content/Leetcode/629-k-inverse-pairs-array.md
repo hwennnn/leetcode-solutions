@@ -2,11 +2,12 @@
 title: 629. K Inverse Pairs Array
 draft: false
 tags: 
+  - leetcode-hard
   - dynamic-programming
 date: 2024-01-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/k-inverse-pairs-array/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
                 dp[i][j] = (dp[i][j] + MOD) % MOD
             
         return dp[n][k]
-
 ```
 

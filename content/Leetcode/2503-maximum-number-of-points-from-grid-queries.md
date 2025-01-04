@@ -2,17 +2,18 @@
 title: 2503. Maximum Number of Points From Grid Queries
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - two-pointers
   - breadth-first-search
   - union-find
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
   - matrix
 date: 2022-12-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/)
 
 ## Description
 
@@ -88,6 +89,5 @@ class Solution:
             res.append(bisect_left(orders, q))
         
         return res
-
 ```
 

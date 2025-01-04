@@ -2,11 +2,12 @@
 title: 2579. Count Total Number of Colored Cells
 draft: false
 tags: 
+  - leetcode-medium
   - math
 date: 2023-03-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-total-number-of-colored-cells/)
 
 ## Description
 
@@ -62,6 +63,5 @@ class Solution:
             x += 4
         
         return res
-
 ```
 

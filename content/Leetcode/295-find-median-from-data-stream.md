@@ -2,15 +2,16 @@
 title: 295. Find Median from Data Stream
 draft: false
 tags: 
+  - leetcode-hard
   - two-pointers
   - design
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
   - data-stream
 date: 2022-11-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-median-from-data-stream/)
 
 ## Description
 
@@ -96,6 +97,5 @@ class MedianFinder:
 # obj = MedianFinder()
 # obj.addNum(num)
 # param_2 = obj.findMedian()
-
 ```
 

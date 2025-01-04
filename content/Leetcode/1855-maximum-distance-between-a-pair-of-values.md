@@ -2,13 +2,14 @@
 title: 1855. Maximum Distance Between a Pair of Values
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
   - binary-search
 date: 2022-05-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
                 j += 1
         
         return res
-
 ```
 

@@ -2,13 +2,14 @@
 title: 1575. Count All Possible Routes
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - memoization
 date: 2023-06-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-all-possible-routes/)
 
 ## Description
 
@@ -94,6 +95,5 @@ class Solution:
             return res
         
         return go(start, fuel)
-
 ```
 

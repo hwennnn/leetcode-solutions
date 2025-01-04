@@ -2,13 +2,14 @@
 title: 2537. Count the Number of Good Subarrays
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - sliding-window
 date: 2023-01-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-the-number-of-good-subarrays/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
                 i += 1
         
         return res
-
 ```
 

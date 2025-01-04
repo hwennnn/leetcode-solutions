@@ -2,12 +2,13 @@
 title: 1332. Remove Palindromic Subsequences
 draft: false
 tags: 
+  - leetcode-easy
   - two-pointers
   - string
 date: 2022-06-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/remove-palindromic-subsequences/)
 
 ## Description
 
@@ -65,6 +66,5 @@ class Solution:
     def removePalindromeSub(self, s: str) -> int:
         
         return 2 - (s == s[::-1]) - (s == "")
-
 ```
 

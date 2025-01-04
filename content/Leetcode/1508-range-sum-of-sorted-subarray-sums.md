@@ -2,14 +2,15 @@
 title: 1508. Range Sum of Sorted Subarray Sums
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
   - binary-search
   - sorting
-date: 2024-08-06
+date: 2024-08-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/)
 
 ## Description
 
@@ -79,6 +80,28 @@ public:
         return ans;
     }
 };
+```
+### Python
+``` py title='range-sum-of-sorted-subarray-sums'
+class Solution:
+    def rangeSum(self, nums: List[int], N: int, left: int, right: int) -> int:
+        M = 10 ** 9 + 7
+        pq = [] # max priority queue
+        res = 0
 
+        for i, x in enumerate(nums):
+            heappush(pq, (x, i + 1))
+        
+        for i in range(1, right + 1):
+            x, j = heappop(pq)
+
+            if i >= left:
+                res += x
+                res %= M
+            
+            if j < N:
+                heappush(pq, (x + nums[j], j + 1))
+        
+        return res
 ```
 

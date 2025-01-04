@@ -2,12 +2,13 @@
 title: 1935. Maximum Number of Words You Can Type
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - string
 date: 2021-07-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-number-of-words-you-can-type/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
                 res -= 1
         
         return res
-
 ```
 

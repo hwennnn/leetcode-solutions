@@ -2,6 +2,7 @@
 title: 1647. Minimum Deletions to Make Character Frequencies Unique
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2023-09-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)
 
 ## Description
 
@@ -75,7 +76,6 @@ class Solution:
             curr = max(v - 1, 0)
 
         return res
-
 
 ```
 

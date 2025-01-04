@@ -2,15 +2,16 @@
 title: 1094. Car Pooling
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
   - simulation
   - prefix-sum
 date: 2022-01-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/car-pooling/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
             if capacity < 0: return False
         
         return True
-
 ```
 

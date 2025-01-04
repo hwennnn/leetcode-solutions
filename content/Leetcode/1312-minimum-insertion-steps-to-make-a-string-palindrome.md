@@ -2,12 +2,13 @@
 title: 1312. Minimum Insertion Steps to Make a String Palindrome
 draft: false
 tags: 
+  - leetcode-hard
   - string
   - dynamic-programming
 date: 2023-04-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
             return 1 + min(go(i + 1, j), go(i, j - 1))
         
         return go(0, N - 1)
-
 ```
 

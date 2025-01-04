@@ -2,11 +2,12 @@
 title: 440. K-th Smallest in Lexicographical Order
 draft: false
 tags: 
+  - leetcode-hard
   - trie
 date: 2024-09-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/)
 
 ## Description
 
@@ -60,6 +61,5 @@ class Solution:
             if k > cnt: k -= cnt; x += 1
             else: k -= 1; x *= 10 
         return x
-
 ```
 

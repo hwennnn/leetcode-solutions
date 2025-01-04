@@ -2,6 +2,7 @@
 title: 2842. Count K-Subsequences of a String With Maximum Beauty
 draft: false
 tags: 
+  - leetcode-hard
   - hash-table
   - math
   - string
@@ -10,7 +11,7 @@ tags:
 date: 2023-09-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-k-subsequences-of-a-string-with-maximum-beauty/)
 
 ## Description
 
@@ -116,6 +117,5 @@ class Solution:
             
         
         return res
-
 ```
 

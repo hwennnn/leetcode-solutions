@@ -2,6 +2,7 @@
 title: 2748. Number of Beautiful Pairs
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - math
@@ -10,7 +11,7 @@ tags:
 date: 2023-06-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-beautiful-pairs/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
                     res += 1
         
         return res
-
 ```
 

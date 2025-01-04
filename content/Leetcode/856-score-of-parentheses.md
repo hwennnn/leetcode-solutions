@@ -2,12 +2,13 @@
 title: 856. Score of Parentheses
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - stack
 date: 2022-03-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/score-of-parentheses/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
                 curr = stack.pop() + max(curr * 2, 1)
         
         return curr
-
 ```
 

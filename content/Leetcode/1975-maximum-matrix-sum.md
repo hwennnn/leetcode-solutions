@@ -2,13 +2,14 @@
 title: 1975. Maximum Matrix Sum
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
   - matrix
 date: 2024-11-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-matrix-sum/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
             return total - 2 * mmin
         
         
-
 ```
 

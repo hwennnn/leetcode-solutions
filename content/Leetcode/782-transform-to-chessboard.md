@@ -2,6 +2,7 @@
 title: 782. Transform to Chessboard
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - math
   - bit-manipulation
@@ -9,7 +10,7 @@ tags:
 date: 2021-09-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/transform-to-chessboard/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
         coldiff= n - coldiff if coldiff % 2 != 0 or (n % 2 == 0 and (n - coldiff) < coldiff) else coldiff
         
         return (rowdiff + coldiff) // 2
-
 ```
 

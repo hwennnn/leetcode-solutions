@@ -2,13 +2,14 @@
 title: 2127. Maximum Employees to Be Invited to a Meeting
 draft: false
 tags: 
+  - leetcode-hard
   - depth-first-search
   - graph
   - topological-sort
 date: 2022-01-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/)
 
 ## Description
 
@@ -139,6 +140,5 @@ class Solution:
         return max(res1, res2)
             
                 
-
 ```
 

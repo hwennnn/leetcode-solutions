@@ -2,13 +2,14 @@
 title: 937. Reorder Data in Log Files
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - string
   - sorting
 date: 2022-02-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/reorder-data-in-log-files/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
                 let.append((content, d, index))
         
         return [logs[index] for _, __, index in sorted(let)] + dig
-
 ```
 

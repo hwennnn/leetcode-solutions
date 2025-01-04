@@ -2,12 +2,13 @@
 title: 2443. Sum of Number and Its Reverse
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - enumeration
 date: 2022-10-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/sum-of-number-and-its-reverse/)
 
 ## Description
 
@@ -61,6 +62,5 @@ class Solution:
                 return True
         
         return False
-
 ```
 

@@ -2,6 +2,7 @@
 title: 2971. Find Polygon With the Largest Perimeter
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
   - sorting
@@ -9,7 +10,7 @@ tags:
 date: 2024-02-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-polygon-with-the-largest-perimeter/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
                 curr += nums[i]
         
         return res
-
 ```
 

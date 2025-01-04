@@ -2,13 +2,14 @@
 title: 1042. Flower Planting With No Adjacent
 draft: false
 tags: 
+  - leetcode-medium
   - depth-first-search
   - breadth-first-search
   - graph
 date: 2021-06-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/flower-planting-with-no-adjacent/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
             res[i] = ({1, 2, 3, 4} - {res[j] for j in graph[i]}).pop()
         
         return res
-
 ```
 

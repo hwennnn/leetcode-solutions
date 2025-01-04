@@ -2,11 +2,12 @@
 title: 3163. String Compression III
 draft: false
 tags: 
+  - leetcode-medium
   - string
 date: 2024-11-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/string-compression-iii/)
 
 ## Description
 
@@ -89,6 +90,5 @@ class Solution:
             res += str(count) + curr
         
         return res
-
 ```
 

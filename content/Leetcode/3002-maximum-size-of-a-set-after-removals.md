@@ -2,13 +2,14 @@
 title: 3002. Maximum Size of a Set After Removals
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - greedy
 date: 2024-01-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-size-of-a-set-after-removals/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
         n1, n2, c = len(s1), len(s2), len(s1 & s2)
 
         return min(N, min(n1 - c, N // 2) + min(n2 - c, N // 2) + c)
-
 ```
 

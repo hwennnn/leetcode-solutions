@@ -2,15 +2,16 @@
 title: 1912. Design Movie Rental System
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - design
-  - heap-(priority-queue)
+  - heap-priority-queue
   - ordered-set
 date: 2021-06-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/design-movie-rental-system/)
 
 ## Description
 
@@ -114,6 +115,5 @@ class MovieRentingSystem:
 # obj.rent(shop,movie)
 # obj.drop(shop,movie)
 # param_4 = obj.report()
-
 ```
 

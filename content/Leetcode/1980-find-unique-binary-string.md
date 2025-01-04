@@ -2,6 +2,7 @@
 title: 1980. Find Unique Binary String
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - string
@@ -9,7 +10,7 @@ tags:
 date: 2023-11-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-unique-binary-string/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class Solution:
             curr = curr[bit]
         
         return "".join(res)
-
 ```
 

@@ -2,13 +2,14 @@
 title: 1397. Find All Good Strings
 draft: false
 tags: 
+  - leetcode-hard
   - string
   - dynamic-programming
   - string-matching
 date: 2023-07-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-all-good-strings/)
 
 ## Description
 
@@ -106,6 +107,5 @@ class Solution:
             return res
 
         return go(0, 0, True, True)
-
 ```
 

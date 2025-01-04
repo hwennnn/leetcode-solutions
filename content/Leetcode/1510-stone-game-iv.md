@@ -2,13 +2,14 @@
 title: 1510. Stone Game IV
 draft: false
 tags: 
+  - leetcode-hard
   - math
   - dynamic-programming
   - game-theory
 date: 2022-01-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/stone-game-iv/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
                     y += 1
         
         return dp[n]
-
 ```
 

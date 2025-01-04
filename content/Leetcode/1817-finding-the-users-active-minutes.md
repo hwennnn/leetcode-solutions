@@ -2,12 +2,13 @@
 title: 1817. Finding the Users Active Minutes
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
 date: 2021-04-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/finding-the-users-active-minutes/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
             res[len(v) - 1] += 1
         
         return res
-
 ```
 

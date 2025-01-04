@@ -2,13 +2,14 @@
 title: 2586. Count the Number of Vowel Strings in Range
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - string
   - counting
 date: 2023-03-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
                 res += 1
         
         return res
-
 ```
 

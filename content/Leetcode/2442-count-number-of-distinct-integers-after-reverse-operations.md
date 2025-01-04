@@ -2,6 +2,7 @@
 title: 2442. Count Number of Distinct Integers After Reverse Operations
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - math
@@ -9,7 +10,7 @@ tags:
 date: 2022-10-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/)
 
 ## Description
 
@@ -65,6 +66,5 @@ class Solution:
             res.add(r)
         
         return len(res)
-
 ```
 

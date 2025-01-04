@@ -2,6 +2,7 @@
 title: 2458. Height of Binary Tree After Subtree Removal Queries
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - tree
   - depth-first-search
@@ -10,7 +11,7 @@ tags:
 date: 2024-10-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries/)
 
 ## Description
 
@@ -115,6 +116,5 @@ class Solution:
                 res.append(levels[depth][1][0] + depth)
         
         return res
-
 ```
 

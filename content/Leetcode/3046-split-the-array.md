@@ -2,13 +2,14 @@
 title: 3046. Split the Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - counting
 date: 2024-02-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/split-the-array/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
         
         return left == right == len(nums) // 2
                 
-
 ```
 

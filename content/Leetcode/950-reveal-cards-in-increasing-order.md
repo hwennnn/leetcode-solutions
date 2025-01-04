@@ -2,6 +2,7 @@
 title: 950. Reveal Cards In Increasing Order
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - queue
   - sorting
@@ -9,7 +10,7 @@ tags:
 date: 2024-04-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/reveal-cards-in-increasing-order/)
 
 ## Description
 
@@ -86,6 +87,5 @@ class Solution:
                 queue.append(queue.popleft())
 
         return res
-
 ```
 

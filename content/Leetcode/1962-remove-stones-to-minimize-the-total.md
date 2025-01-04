@@ -2,13 +2,14 @@
 title: 1962. Remove Stones to Minimize the Total
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2022-12-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/remove-stones-to-minimize-the-total/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
             heappush(heap, -x)
             
         return sum(-x for x in heap)
-
 ```
 

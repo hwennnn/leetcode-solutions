@@ -2,13 +2,14 @@
 title: 3197. Find the Minimum Area to Cover All Ones II
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - matrix
   - enumeration
 date: 2024-06-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-minimum-area-to-cover-all-ones-ii/)
 
 ## Description
 
@@ -114,6 +115,5 @@ class Solution:
 
         
         return go(0, 0, rows - 1, cols - 1, 3)
-
 ```
 

@@ -2,12 +2,13 @@
 title: 1579. Remove Max Number of Edges to Keep Graph Fully Traversable
 draft: false
 tags: 
+  - leetcode-hard
   - union-find
   - graph
 date: 2024-06-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/)
 
 ## Description
 
@@ -134,6 +135,5 @@ class Solution:
         if alice.count() != 1 or bob.count() != 1: return -1
 
         return res
-
 ```
 

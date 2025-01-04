@@ -2,13 +2,14 @@
 title: 1968. Array With Elements Not Equal to Average of Neighbors
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
   - sorting
 date: 2021-08-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/array-with-elements-not-equal-to-average-of-neighbors/)
 
 ## Description
 
@@ -64,6 +65,5 @@ class Solution:
             nums[i], nums[i - 1] = nums[i - 1], nums[i]
         
         return nums
-
 ```
 

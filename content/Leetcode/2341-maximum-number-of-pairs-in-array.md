@@ -2,13 +2,14 @@
 title: 2341. Maximum Number of Pairs in Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - counting
 date: 2022-07-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-number-of-pairs-in-array/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
             removed += x // 2
         
         return [removed, n - removed * 2]
-
 ```
 

@@ -2,12 +2,13 @@
 title: 2786. Visit Array Positions to Maximize Score
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
 date: 2023-07-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/visit-array-positions-to-maximize-score/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
                 odd = max(odd + nums[i], even + nums[i] - x)
         
         return max(odd, even)
-
 ```
 

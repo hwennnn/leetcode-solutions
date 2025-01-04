@@ -2,6 +2,7 @@
 title: 1658. Minimum Operations to Reduce X to Zero
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - binary-search
@@ -10,7 +11,7 @@ tags:
 date: 2023-09-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
                 res = max(res, j - i + 1)
         
         return -1 if res == -1 else N - res
-
 ```
 

@@ -2,13 +2,14 @@
 title: 556. Next Greater Element III
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - two-pointers
   - string
 date: 2022-03-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/next-greater-element-iii/)
 
 ## Description
 
@@ -60,6 +61,5 @@ class Solution:
         
         return res if res < (1 << 31) else -1 
     
-
 ```
 

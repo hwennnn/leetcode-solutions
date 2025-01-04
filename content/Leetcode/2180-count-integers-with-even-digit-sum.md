@@ -2,12 +2,13 @@
 title: 2180. Count Integers With Even Digit Sum
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - simulation
 date: 2022-02-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-integers-with-even-digit-sum/)
 
 ## Description
 
@@ -59,6 +60,5 @@ class Solution:
                 res += 1
         
         return res
-
 ```
 

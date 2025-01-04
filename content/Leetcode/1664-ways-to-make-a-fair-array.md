@@ -2,12 +2,13 @@
 title: 1664. Ways to Make a Fair Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - prefix-sum
 date: 2021-01-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/ways-to-make-a-fair-array/)
 
 ## Description
 
@@ -88,6 +89,5 @@ class Solution:
             else: le += x
         
         return res
-
 ```
 

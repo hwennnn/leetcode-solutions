@@ -2,11 +2,12 @@
 title: 2914. Minimum Number of Changes to Make Binary String Beautiful
 draft: false
 tags: 
+  - leetcode-medium
   - string
 date: 2024-11-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
                 res += 1
         
         return res
-
 ```
 

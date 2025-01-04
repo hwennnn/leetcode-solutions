@@ -2,6 +2,7 @@
 title: 2444. Count Subarrays With Fixed Bounds
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - queue
   - sliding-window
@@ -9,7 +10,7 @@ tags:
 date: 2024-03-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
             res += max(0, min(minPos, maxPos) - i + 1)
 
         return res
-
 ```
 

@@ -2,6 +2,7 @@
 title: 513. Find Bottom Left Tree Value
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - depth-first-search
   - breadth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2024-02-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-bottom-left-tree-value/)
 
 ## Description
 
@@ -64,6 +65,5 @@ class Solution:
             
         return node.val
                 
-
 ```
 

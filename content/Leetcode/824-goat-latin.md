@@ -2,11 +2,12 @@
 title: 824. Goat Latin
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2020-08-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/goat-latin/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
         
         return " ".join(ans)
                 
-
 ```
 

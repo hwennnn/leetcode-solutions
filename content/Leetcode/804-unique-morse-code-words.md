@@ -2,13 +2,14 @@
 title: 804. Unique Morse Code Words
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - string
-date: 2022-08-17
+date: 2019-10-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/unique-morse-code-words/)
 
 ## Description
 
@@ -86,6 +87,38 @@ class Solution:
             seen.add("".join(s))
         
         return len(seen)
+```
+### Python
+``` py title='unique-morse-code-words'
+class Solution(object):
+    def uniqueMorseRepresentations(self, words):
+        """
+        :type words: List[str]
+        :rtype: int
+        """
+        
+        
+        string = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+        table = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."]
+        lst = []
 
+        for i in words:
+            i_str = ""
+            for x in i:
+                str_index = string.index(x)
+                i_str+=table[str_index]  
+            lst.append(i_str)
+
+        another_lst = []
+        
+        for i in lst:
+            if i not in another_lst:
+                another_lst.append(i)
+        
+        return len(another_lst)
+    
+        
+        
+            
 ```
 

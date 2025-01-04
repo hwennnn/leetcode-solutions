@@ -2,13 +2,14 @@
 title: 874. Walking Robot Simulation
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - simulation
 date: 2024-09-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/walking-robot-simulation/)
 
 ## Description
 
@@ -131,6 +132,5 @@ class Solution:
                     command -= 1
             mx = max(mx, i ** 2 + j ** 2)
         return mx
-
 ```
 

@@ -2,13 +2,14 @@
 title: 2876. Count Visited Nodes in a Directed Graph
 draft: false
 tags: 
+  - leetcode-hard
   - dynamic-programming
   - graph
   - memoization
 date: 2023-10-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-visited-nodes-in-a-directed-graph/)
 
 ## Description
 
@@ -125,6 +126,5 @@ class Solution:
                     sccCount[count] += sccCount[scc[adj]]
     
         return [sccCount[scc[node]] for node in range(N)]
-
 ```
 

@@ -2,12 +2,13 @@
 title: 998. Maximum Binary Tree II
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - binary-tree
 date: 2022-02-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-binary-tree-ii/)
 
 ## Description
 
@@ -89,6 +90,5 @@ class Solution:
         node.left = root
         
         return node
-
 ```
 

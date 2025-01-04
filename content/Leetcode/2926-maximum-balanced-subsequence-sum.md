@@ -2,6 +2,7 @@
 title: 2926. Maximum Balanced Subsequence Sum
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - dynamic-programming
@@ -10,7 +11,7 @@ tags:
 date: 2023-11-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-balanced-subsequence-sum/)
 
 ## Description
 
@@ -114,7 +115,6 @@ class Solution:
                 tree.change(k, sums)
         
         return tree.query(M)
-
 
 
 ```

@@ -2,6 +2,7 @@
 title: 2781. Length of the Longest Valid Substring
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - string
@@ -9,7 +10,7 @@ tags:
 date: 2023-07-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/length-of-the-longest-valid-substring/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
             res = max(res, right - i)
         
         return res
-
 ```
 

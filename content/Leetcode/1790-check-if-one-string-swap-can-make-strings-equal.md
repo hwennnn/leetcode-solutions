@@ -2,13 +2,14 @@
 title: 1790. Check if One String Swap Can Make Strings Equal
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - string
   - counting
 date: 2022-03-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)
 
 ## Description
 
@@ -67,6 +68,5 @@ class Solution:
                 diff += 1
         
         return diff == 2 and Counter(s1) == Counter(s2)
-
 ```
 

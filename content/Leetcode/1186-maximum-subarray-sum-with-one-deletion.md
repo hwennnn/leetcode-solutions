@@ -2,12 +2,13 @@
 title: 1186. Maximum Subarray Sum with One Deletion
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
 date: 2021-05-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
                 dp1[i] = max(dp1[i], dp2[i - 2] + arr[i])
             
         return max(dp1)
-
 ```
 

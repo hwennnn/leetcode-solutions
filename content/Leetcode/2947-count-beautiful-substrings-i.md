@@ -2,6 +2,7 @@
 title: 2947. Count Beautiful Substrings I
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - math
   - string
@@ -11,7 +12,7 @@ tags:
 date: 2023-11-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-beautiful-substrings-i/)
 
 ## Description
 
@@ -101,6 +102,5 @@ class Solution:
                     res += 1
         
         return res
-
 ```
 

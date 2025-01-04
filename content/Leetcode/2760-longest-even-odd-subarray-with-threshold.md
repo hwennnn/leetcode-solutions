@@ -2,12 +2,13 @@
 title: 2760. Longest Even Odd Subarray With Threshold
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - sliding-window
 date: 2023-07-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-even-odd-subarray-with-threshold/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
                         break
 
         return res
-
 ```
 

@@ -2,13 +2,14 @@
 title: 2116. Check if a Parentheses String Can Be Valid
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - stack
   - greedy
 date: 2021-12-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/)
 
 ## Description
 
@@ -104,6 +105,5 @@ class Solution:
                 return False
         
         return True
-
 ```
 

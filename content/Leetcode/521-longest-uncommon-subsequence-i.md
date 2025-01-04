@@ -2,11 +2,12 @@
 title: 521. Longest Uncommon Subsequence I
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2021-08-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-uncommon-subsequence-i/)
 
 ## Description
 
@@ -58,6 +59,5 @@ Note that &quot;cdc&quot; is also a longest uncommon subsequence.
 class Solution:
     def findLUSlength(self, a: str, b: str) -> int:
         return -1 if a == b else max(len(a), len(b))
-
 ```
 

@@ -2,13 +2,14 @@
 title: 1668. Maximum Repeating Substring
 draft: false
 tags: 
+  - leetcode-easy
   - string
   - dynamic-programming
   - string-matching
 date: 2020-11-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-repeating-substring/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
                 res += 1
         
         return res
-
 ```
 

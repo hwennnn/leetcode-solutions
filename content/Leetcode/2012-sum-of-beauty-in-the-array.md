@@ -2,11 +2,12 @@
 title: 2012. Sum of Beauty in the Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
 date: 2021-09-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/sum-of-beauty-in-the-array/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
             left = max(left, nums[i])
         
         return res
-
 ```
 

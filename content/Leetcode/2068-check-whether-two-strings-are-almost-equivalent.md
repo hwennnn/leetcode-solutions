@@ -2,13 +2,14 @@
 title: 2068. Check Whether Two Strings are Almost Equivalent
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - string
   - counting
 date: 2021-11-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
                 return False
         
         return True
-
 ```
 

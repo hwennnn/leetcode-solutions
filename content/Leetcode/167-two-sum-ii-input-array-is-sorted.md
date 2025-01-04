@@ -2,13 +2,14 @@
 title: 167. Two Sum II - Input Array Is Sorted
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
   - binary-search
 date: 2022-06-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
                 i += 1
             else:
                 return [i + 1, j + 1]
-
 ```
 

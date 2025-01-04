@@ -2,12 +2,13 @@
 title: 2231. Largest Number After Digit Swaps by Parity
 draft: false
 tags: 
+  - leetcode-easy
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2022-04-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
         return int("".join(res))
         
         
-
 ```
 

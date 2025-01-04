@@ -2,13 +2,14 @@
 title: 274. H-Index
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - sorting
   - counting-sort
 date: 2020-08-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/h-index/)
 
 ## Description
 
@@ -62,6 +63,5 @@ public:
         return 0;
     }
 };
-
 ```
 

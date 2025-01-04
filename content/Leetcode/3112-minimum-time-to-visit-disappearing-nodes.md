@@ -2,14 +2,15 @@
 title: 3112. Minimum Time to Visit Disappearing Nodes
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - graph
-  - heap-(priority-queue)
+  - heap-priority-queue
   - shortest-path
 date: 2024-04-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-time-to-visit-disappearing-nodes/)
 
 ## Description
 
@@ -121,6 +122,5 @@ class Solution:
                 dist[i] = -1
 
         return dist
-
 ```
 

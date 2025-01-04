@@ -2,12 +2,13 @@
 title: 2734. Lexicographically Smallest String After Substring Operation
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - greedy
 date: 2023-06-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/lexicographically-smallest-string-after-substring-operation/)
 
 ## Description
 
@@ -116,6 +117,5 @@ class Solution:
             
         return transform(start, N - 1)
                 
-
 ```
 

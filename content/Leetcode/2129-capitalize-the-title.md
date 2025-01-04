@@ -2,11 +2,12 @@
 title: 2129. Capitalize the Title
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2022-01-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/capitalize-the-title/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
                 res.append(s.title())
         
         return " ".join(res)
-
 ```
 

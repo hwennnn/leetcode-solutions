@@ -2,12 +2,13 @@
 title: 2481. Minimum Cuts to Divide a Circle
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - geometry
 date: 2022-11-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-cuts-to-divide-a-circle/)
 
 ## Description
 
@@ -63,6 +64,5 @@ class Solution:
         if n % 2 == 0: return n // 2
         
         return n
-
 ```
 

@@ -2,6 +2,7 @@
 title: 637. Average of Levels in Binary Tree
 draft: false
 tags: 
+  - leetcode-easy
   - tree
   - depth-first-search
   - breadth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2022-09-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/average-of-levels-in-binary-tree/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
             res.append(curr / n)
         
         return res
-
 ```
 

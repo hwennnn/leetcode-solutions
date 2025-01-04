@@ -2,6 +2,7 @@
 title: 2932. Maximum Strong Pair XOR I
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - bit-manipulation
@@ -10,7 +11,7 @@ tags:
 date: 2023-11-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-strong-pair-xor-i/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
                     res = max(res, nums[i] ^ nums[j])
         
         return res
-
 ```
 

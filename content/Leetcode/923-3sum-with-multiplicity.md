@@ -2,15 +2,16 @@
 title: 923. 3Sum With Multiplicity
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - two-pointers
   - sorting
   - counting
-date: 2022-04-06
+date: 2020-09-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/3sum-with-multiplicity/)
 
 ## Description
 
@@ -84,6 +85,25 @@ class Solution:
         
         return res
         
-
+```
+### Java
+``` java title='3sum-with-multiplicity'
+class Solution {
+    public int threeSumMulti(int[] A, int target) {
+        Map<Integer, Integer> map = new HashMap<>();
+        
+        int res = 0;
+        int mod = 1000000007;
+        for (int i = 0; i < A.length; i++) {
+            res = (res + map.getOrDefault(target - A[i], 0)) % mod;
+            
+            for (int j = 0; j < i; j++) {
+                int temp = A[i] + A[j];
+                map.put(temp, map.getOrDefault(temp, 0) + 1);
+            }
+        }
+        return res;
+    }
+}
 ```
 

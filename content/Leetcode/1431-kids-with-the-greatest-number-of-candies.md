@@ -2,11 +2,12 @@
 title: 1431. Kids With the Greatest Number of Candies
 draft: false
 tags: 
+  - leetcode-easy
   - array
 date: 2023-04-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)
 
 ## Description
 
@@ -67,6 +68,5 @@ class Solution:
     def kidsWithCandies(self, candies: List[int], extraCandies: int) -> List[bool]:
         mmax = max(candies)
         return [x + extraCandies >= mmax for x in candies]
-
 ```
 

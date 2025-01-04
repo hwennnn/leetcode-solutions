@@ -2,13 +2,14 @@
 title: 1865. Finding Pairs With a Certain Sum
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - design
 date: 2021-05-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/)
 
 ## Description
 
@@ -95,6 +96,5 @@ class FindSumPairs:
 # obj = FindSumPairs(nums1, nums2)
 # obj.add(index,val)
 # param_2 = obj.count(tot)
-
 ```
 

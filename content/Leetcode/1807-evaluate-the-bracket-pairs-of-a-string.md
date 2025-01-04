@@ -2,13 +2,14 @@
 title: 1807. Evaluate the Bracket Pairs of a String
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - string
 date: 2021-03-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/)
 
 ## Description
 
@@ -103,6 +104,5 @@ class Solution:
                 res.append(x)
         
         return "".join(res)
-
 ```
 

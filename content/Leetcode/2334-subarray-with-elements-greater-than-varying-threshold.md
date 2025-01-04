@@ -2,6 +2,7 @@
 title: 2334. Subarray With Elements Greater Than Varying Threshold
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - stack
   - union-find
@@ -9,7 +10,7 @@ tags:
 date: 2024-08-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/subarray-with-elements-greater-than-varying-threshold/)
 
 ## Description
 
@@ -85,7 +86,6 @@ class Solution:
                 return N
         
         return -1
-
 
 ```
 

@@ -2,6 +2,7 @@
 title: 2875. Minimum Size Subarray in Infinite Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - sliding-window
@@ -9,7 +10,7 @@ tags:
 date: 2023-10-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-size-subarray-in-infinite-array/)
 
 ## Description
 
@@ -89,6 +90,5 @@ class Solution:
                 res = min(res, j - i + 1)
                 
         return N * k + res if res != inf else -1
-
 ```
 

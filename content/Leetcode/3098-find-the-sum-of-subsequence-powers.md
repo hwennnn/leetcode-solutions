@@ -2,13 +2,14 @@
 title: 3098. Find the Sum of Subsequence Powers
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - sorting
 date: 2024-03-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-sum-of-subsequence-powers/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class Solution:
             return (take + skip) % M
         
         return go(0, k, inf, None)
-
 ```
 

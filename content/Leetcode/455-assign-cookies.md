@@ -2,6 +2,7 @@
 title: 455. Assign Cookies
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - two-pointers
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2024-01-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/assign-cookies/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
                 break
         
         return res
-
 ```
 

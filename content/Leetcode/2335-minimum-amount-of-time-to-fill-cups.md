@@ -2,14 +2,15 @@
 title: 2335. Minimum Amount of Time to Fill Cups
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - greedy
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2022-07-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups/)
 
 ## Description
 
@@ -72,6 +73,5 @@ Second 7: Fill up a hot cup.
 class Solution:
     def fillCups(self, amount: List[int]) -> int:
         return max(max(amount), (sum(amount) + 1) // 2)
-
 ```
 

@@ -2,6 +2,7 @@
 title: 169. Majority Element
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - divide-and-conquer
@@ -10,7 +11,7 @@ tags:
 date: 2024-02-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/majority-element/)
 
 ## Description
 
@@ -61,6 +62,5 @@ class Solution:
                     count = 1
 
         return majority
-
 ```
 

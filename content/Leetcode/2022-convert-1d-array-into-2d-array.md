@@ -2,13 +2,14 @@
 title: 2022. Convert 1D Array Into 2D Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - matrix
   - simulation
 date: 2024-12-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/convert-1d-array-into-2d-array/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
                 curr.clear()
 
         return res
-
 ```
 

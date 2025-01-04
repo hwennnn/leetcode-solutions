@@ -2,13 +2,14 @@
 title: 1801. Number of Orders in the Backlog
 draft: false
 tags: 
+  - leetcode-medium
   - array
-  - heap-(priority-queue)
+  - heap-priority-queue
   - simulation
 date: 2023-11-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-orders-in-the-backlog/)
 
 ## Description
 
@@ -108,6 +109,5 @@ class Solution:
                     
         
         return sum(amt for _, amt in buy + sell) % (10 ** 9 + 7)
-
 ```
 

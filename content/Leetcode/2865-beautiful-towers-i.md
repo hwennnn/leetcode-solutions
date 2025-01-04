@@ -2,13 +2,14 @@
 title: 2865. Beautiful Towers I
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - stack
   - monotonic-stack
 date: 2023-09-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/beautiful-towers-i/)
 
 ## Description
 
@@ -89,6 +90,5 @@ class Solution:
             res = max(res, curr)
         
         return res
-
 ```
 

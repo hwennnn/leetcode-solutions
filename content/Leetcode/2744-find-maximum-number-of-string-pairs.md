@@ -2,6 +2,7 @@
 title: 2744. Find Maximum Number of String Pairs
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - string
@@ -9,7 +10,7 @@ tags:
 date: 2023-08-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-maximum-number-of-string-pairs/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
                     res += 1
         
         return res
-
 ```
 

@@ -2,15 +2,16 @@
 title: 743. Network Delay Time
 draft: false
 tags: 
+  - leetcode-medium
   - depth-first-search
   - breadth-first-search
   - graph
-  - heap-(priority-queue)
+  - heap-priority-queue
   - shortest-path
 date: 2022-05-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/network-delay-time/)
 
 ## Description
 
@@ -89,6 +90,5 @@ class Solution:
         ans = max(weights)
         
         return -1 if ans == float('inf') else ans
-
 ```
 

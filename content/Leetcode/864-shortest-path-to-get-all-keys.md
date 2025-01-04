@@ -2,6 +2,7 @@
 title: 864. Shortest Path to Get All Keys
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - bit-manipulation
   - breadth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2023-06-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/shortest-path-to-get-all-keys/)
 
 ## Description
 
@@ -125,6 +126,5 @@ class Solution:
             steps += 1
         
         return -1     
-
 ```
 

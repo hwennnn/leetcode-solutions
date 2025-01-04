@@ -2,13 +2,14 @@
 title: 647. Palindromic Substrings
 draft: false
 tags: 
+  - leetcode-medium
   - two-pointers
   - string
   - dynamic-programming
 date: 2024-02-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/palindromic-substrings/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
             res += helper(mid, mid + 1)
         
         return res
-
 ```
 

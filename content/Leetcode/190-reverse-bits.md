@@ -2,12 +2,13 @@
 title: 190. Reverse Bits
 draft: false
 tags: 
+  - leetcode-easy
   - divide-and-conquer
   - bit-manipulation
 date: 2021-10-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/reverse-bits/)
 
 ## Description
 
@@ -63,6 +64,5 @@ class Solution:
             n >>= 1
         
         return res
-
 ```
 

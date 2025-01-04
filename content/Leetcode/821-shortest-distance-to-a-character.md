@@ -2,13 +2,14 @@
 title: 821. Shortest Distance to a Character
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - two-pointers
   - string
 date: 2021-02-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/shortest-distance-to-a-character/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
                 res.append(min(i - prev if i > prev else prev - i, pos[0] - i if pos else float('inf')))
         
         return res
-
 ```
 

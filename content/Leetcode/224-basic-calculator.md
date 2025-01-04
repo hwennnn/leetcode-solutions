@@ -2,6 +2,7 @@
 title: 224. Basic Calculator
 draft: false
 tags: 
+  - leetcode-hard
   - math
   - string
   - stack
@@ -9,7 +10,7 @@ tags:
 date: 2022-11-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/basic-calculator/)
 
 ## Description
 
@@ -92,6 +93,5 @@ class Solution:
             result += sign * number
         
         return result
-
 ```
 

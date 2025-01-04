@@ -2,13 +2,14 @@
 title: 3067. Count Pairs of Connectable Servers in a Weighted Tree Network
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - tree
   - depth-first-search
 date: 2024-03-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-pairs-of-connectable-servers-in-a-weighted-tree-network/)
 
 ## Description
 
@@ -101,6 +102,5 @@ class Solution:
             res[node] = pairs
         
         return res
-
 ```
 

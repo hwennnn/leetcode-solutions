@@ -2,13 +2,14 @@
 title: 2541. Minimum Operations to Make Array Equal II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - greedy
 date: 2023-01-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-operations-to-make-array-equal-ii/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
                 
         return inc if inc == dec else -1
         
-
 ```
 

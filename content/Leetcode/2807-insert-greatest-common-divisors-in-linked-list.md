@@ -2,13 +2,14 @@
 title: 2807. Insert Greatest Common Divisors in Linked List
 draft: false
 tags: 
+  - leetcode-medium
   - linked-list
   - math
   - number-theory
 date: 2025-01-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
                 head = head.next
 
         return res
-
 ```
 

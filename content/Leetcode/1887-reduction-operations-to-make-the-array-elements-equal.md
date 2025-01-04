@@ -2,12 +2,13 @@
 title: 1887. Reduction Operations to Make the Array Elements Equal
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - sorting
 date: 2023-11-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
         
         return res
         
-
 ```
 

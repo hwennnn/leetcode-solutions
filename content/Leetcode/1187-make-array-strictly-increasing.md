@@ -2,6 +2,7 @@
 title: 1187. Make Array Strictly Increasing
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - dynamic-programming
@@ -9,7 +10,7 @@ tags:
 date: 2023-06-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/make-array-strictly-increasing/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
         res = go(0, -inf)
 
         return -1 if res == inf else res
-
 ```
 

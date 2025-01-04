@@ -2,13 +2,14 @@
 title: 1409. Queries on a Permutation With Key
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-indexed-tree
   - simulation
 date: 2020-10-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/queries-on-a-permutation-with-key/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
                     break
         
         return res
-
 ```
 

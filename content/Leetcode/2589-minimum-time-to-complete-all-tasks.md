@@ -2,6 +2,7 @@
 title: 2589. Minimum Time to Complete All Tasks
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - stack
@@ -10,7 +11,7 @@ tags:
 date: 2023-03-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-time-to-complete-all-tasks/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
         return sum(1 for x in A if x == True)
         
         
-
 ```
 

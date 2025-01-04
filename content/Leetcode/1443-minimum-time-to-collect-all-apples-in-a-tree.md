@@ -2,6 +2,7 @@
 title: 1443. Minimum Time to Collect All Apples in a Tree
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - tree
   - depth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2023-01-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
             return 2 + val if not hasApple[node] and val > 0 else val
 
         return max(0, go(0, -1) - 2)
-
 ```
 

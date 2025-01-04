@@ -2,6 +2,7 @@
 title: 1833. Maximum Ice Cream Bars
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
   - sorting
@@ -9,7 +10,7 @@ tags:
 date: 2023-01-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-ice-cream-bars/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
             coins -= x
             
         return N
-
 ```
 

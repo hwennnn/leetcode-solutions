@@ -2,6 +2,7 @@
 title: 839. Similar String Groups
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - string
@@ -11,7 +12,7 @@ tags:
 date: 2023-04-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/similar-string-groups/)
 
 ## Description
 
@@ -88,6 +89,5 @@ class Solution:
                     uf.union(i, j)
         
         return uf.component_count
-
 ```
 

@@ -2,12 +2,13 @@
 title: 2303. Calculate Amount Paid in Taxes
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - simulation
 date: 2022-06-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/calculate-amount-paid-in-taxes/)
 
 ## Description
 
@@ -93,6 +94,5 @@ class Solution:
                 break
         
         return res
-
 ```
 

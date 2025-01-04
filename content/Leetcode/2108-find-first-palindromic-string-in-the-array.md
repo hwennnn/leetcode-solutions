@@ -2,13 +2,14 @@
 title: 2108. Find First Palindromic String in the Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - two-pointers
   - string
 date: 2024-02-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
                 return x
                 
         return ""
-
 ```
 

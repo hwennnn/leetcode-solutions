@@ -2,12 +2,13 @@
 title: 3083. Existence of a Substring in a String and Its Reverse
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - string
 date: 2024-03-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
                 return True
         
         return False
-
 ```
 

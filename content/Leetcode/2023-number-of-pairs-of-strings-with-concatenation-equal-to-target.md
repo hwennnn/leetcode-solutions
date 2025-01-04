@@ -2,6 +2,7 @@
 title: 2023. Number of Pairs of Strings With Concatenation Equal to Target
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - string
@@ -9,7 +10,7 @@ tags:
 date: 2021-10-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/)
 
 ## Description
 
@@ -88,6 +89,5 @@ class Solution:
         
         return res
                 
-
 ```
 

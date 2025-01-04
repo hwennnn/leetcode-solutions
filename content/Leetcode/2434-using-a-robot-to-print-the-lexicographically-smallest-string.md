@@ -2,6 +2,7 @@
 title: 2434. Using a Robot to Print the Lexicographically Smallest String
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - stack
@@ -9,7 +10,7 @@ tags:
 date: 2022-10-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/using-a-robot-to-print-the-lexicographically-smallest-string/)
 
 ## Description
 
@@ -94,6 +95,5 @@ class Solution:
             res += stack[::-1]
         
         return "".join(res)
-
 ```
 

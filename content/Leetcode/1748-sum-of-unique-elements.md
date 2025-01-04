@@ -2,13 +2,14 @@
 title: 1748. Sum of Unique Elements
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - counting
 date: 2021-02-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/sum-of-unique-elements/)
 
 ## Description
 
@@ -61,6 +62,5 @@ class Solution:
         cnt = Counter(nums)
         
         return sum(n for n in cnt if cnt[n] == 1)
-
 ```
 

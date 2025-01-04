@@ -2,13 +2,14 @@
 title: 409. Longest Palindrome
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - string
   - greedy
 date: 2024-06-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-palindrome/)
 
 ## Description
 
@@ -62,6 +63,5 @@ class Solution:
                 hasOdd = True
         
         return res + int(hasOdd)
-
 ```
 

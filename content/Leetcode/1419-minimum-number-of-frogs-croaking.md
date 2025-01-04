@@ -2,12 +2,13 @@
 title: 1419. Minimum Number of Frogs Croaking
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - counting
 date: 2020-10-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-frogs-croaking/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class Solution:
                     return -1
         
         return peak
-
 ```
 

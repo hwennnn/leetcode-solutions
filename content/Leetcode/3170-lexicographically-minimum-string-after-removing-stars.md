@@ -2,15 +2,16 @@
 title: 3170. Lexicographically Minimum String After Removing Stars
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - stack
   - greedy
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2024-06-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/)
 
 ## Description
 
@@ -86,6 +87,5 @@ class Solution:
         
         return "".join(s[i] for i in range(N) if not deleted[i])
                 
-
 ```
 

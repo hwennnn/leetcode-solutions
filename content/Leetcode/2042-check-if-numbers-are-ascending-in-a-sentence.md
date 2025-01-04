@@ -2,11 +2,12 @@
 title: 2042. Check if Numbers Are Ascending in a Sentence
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2021-10-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
             if nums[i] <= nums[i - 1]: return False
         
         return True
-
 ```
 

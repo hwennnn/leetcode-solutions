@@ -2,13 +2,14 @@
 title: 1232. Check If It Is a Straight Line
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - math
   - geometry
 date: 2023-06-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-it-is-a-straight-line/)
 
 ## Description
 
@@ -57,6 +58,5 @@ class Solution:
         (x0, y0), (x1, y1) = coordinates[:2]
         
         return all((x1 - x0) * (y - y1) == (x - x1) * (y1 - y0) for x,y in coordinates)
-
 ```
 

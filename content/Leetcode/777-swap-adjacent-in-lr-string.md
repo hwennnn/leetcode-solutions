@@ -2,12 +2,13 @@
 title: 777. Swap Adjacent in LR String
 draft: false
 tags: 
+  - leetcode-medium
   - two-pointers
   - string
 date: 2022-07-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/swap-adjacent-in-lr-string/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
                 if i > j: return False
         
         return True
-
 ```
 

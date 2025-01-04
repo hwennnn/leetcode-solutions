@@ -2,6 +2,7 @@
 title: 954. Array of Doubled Pairs
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2022-02-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/array-of-doubled-pairs/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
             counter[t] -= 1
         
         return True
-
 ```
 

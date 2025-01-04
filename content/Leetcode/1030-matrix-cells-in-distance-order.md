@@ -2,6 +2,7 @@
 title: 1030. Matrix Cells in Distance Order
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - math
   - geometry
@@ -10,7 +11,7 @@ tags:
 date: 2022-01-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/matrix-cells-in-distance-order/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
         res.sort()
         
         return [v[1] for v in res]
-
 ```
 

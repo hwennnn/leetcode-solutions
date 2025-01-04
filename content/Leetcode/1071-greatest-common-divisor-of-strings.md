@@ -2,12 +2,13 @@
 title: 1071. Greatest Common Divisor of Strings
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - string
 date: 2023-02-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/greatest-common-divisor-of-strings/)
 
 ## Description
 
@@ -64,6 +65,5 @@ class Solution:
             return self.gcdOfStrings(A[len(B):], B)
         else:
             return ""
-
 ```
 

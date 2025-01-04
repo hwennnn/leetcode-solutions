@@ -2,6 +2,7 @@
 title: 3244. Shortest Distance After Road Addition Queries II
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - greedy
   - graph
@@ -9,7 +10,7 @@ tags:
 date: 2024-08-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-ii/)
 
 ## Description
 
@@ -102,6 +103,23 @@ public:
         return res;
     }
 };
+```
+### Python
+``` py title='shortest-distance-after-road-addition-queries-ii'
+class Solution:
+    def shortestDistanceAfterQueries(self, n: int, queries: List[List[int]]) -> List[int]:
+        d = {i: i + 1 for i in range(n - 1)}
+        res = []
 
+        for i, j in queries:
+            if i in d and d[i] < j:
+                v = i
+                while v < j:
+                    v = d.pop(v)
+                d[i] = j
+                
+            res.append(len(d))
+
+        return res
 ```
 

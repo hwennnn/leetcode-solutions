@@ -2,13 +2,14 @@
 title: 922. Sort Array By Parity II
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - two-pointers
   - sorting
 date: 2021-09-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/sort-array-by-parity-ii/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
                 nums[i], nums[j] = nums[j], nums[i]
         
         return nums
-
 ```
 

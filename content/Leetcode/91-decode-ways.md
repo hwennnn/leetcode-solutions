@@ -2,12 +2,13 @@
 title: 91. Decode Ways
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - dynamic-programming
 date: 2024-08-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/decode-ways/)
 
 ## Description
 
@@ -109,6 +110,5 @@ class Solution:
             return res
 
         return go(0)
-
 ```
 

@@ -2,12 +2,13 @@
 title: 2733. Neither Minimum nor Maximum
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - sorting
 date: 2023-06-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/neither-minimum-nor-maximum/)
 
 ## Description
 
@@ -65,6 +66,5 @@ class Solution:
                 return x
         
         return -1
-
 ```
 

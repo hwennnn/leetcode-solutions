@@ -2,11 +2,12 @@
 title: 3131. Find the Integer Added to Array I
 draft: false
 tags: 
+  - leetcode-easy
   - array
 date: 2024-04-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-integer-added-to-array-i/)
 
 ## Description
 
@@ -95,6 +96,5 @@ class Solution:
         min2 = min(nums2)
         
         return min2 - min1
-
 ```
 

@@ -2,11 +2,12 @@
 title: 3133. Minimum Array End
 draft: false
 tags: 
+  - leetcode-medium
   - bit-manipulation
 date: 2024-11-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-array-end/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
 
         return ans
             
-
 ```
 

@@ -2,13 +2,14 @@
 title: 2925. Maximum Score After Applying Operations on a Tree
 draft: false
 tags: 
+  - leetcode-medium
   - dynamic-programming
   - tree
   - depth-first-search
 date: 2023-11-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-score-after-applying-operations-on-a-tree/)
 
 ## Description
 
@@ -99,6 +100,5 @@ class Solution:
             return res
         
         return total - go(0, -1)
-
 ```
 

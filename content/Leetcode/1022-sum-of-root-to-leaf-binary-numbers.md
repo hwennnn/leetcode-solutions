@@ -2,13 +2,14 @@
 title: 1022. Sum of Root To Leaf Binary Numbers
 draft: false
 tags: 
+  - leetcode-easy
   - tree
   - depth-first-search
   - binary-tree
 date: 2022-01-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
         go(root, 0)
         
         return res
-
 ```
 

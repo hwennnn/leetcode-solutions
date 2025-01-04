@@ -2,12 +2,13 @@
 title: 2134. Minimum Swaps to Group All 1's Together II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - sliding-window
 date: 2024-08-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
             maxOnes = max(maxOnes, curr)
 
         return ones - maxOnes
-
 ```
 

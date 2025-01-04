@@ -2,11 +2,12 @@
 title: 1837. Sum of Digits in Base K
 draft: false
 tags: 
+  - leetcode-easy
   - math
 date: 2021-04-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/sum-of-digits-in-base-k/)
 
 ## Description
 
@@ -56,6 +57,5 @@ class Solution:
         
         return res
         
-
 ```
 

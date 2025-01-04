@@ -2,13 +2,14 @@
 title: 225. Implement Stack using Queues
 draft: false
 tags: 
+  - leetcode-easy
   - stack
   - design
   - queue
 date: 2023-08-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/implement-stack-using-queues/)
 
 ## Description
 
@@ -95,6 +96,5 @@ class MyStack:
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-
 ```
 

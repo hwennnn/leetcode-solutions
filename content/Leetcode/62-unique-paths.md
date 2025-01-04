@@ -2,13 +2,14 @@
 title: 62. Unique Paths
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - dynamic-programming
   - combinatorics
 date: 2024-08-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/unique-paths/)
 
 ## Description
 
@@ -67,6 +68,5 @@ class Solution:
                 dp[i][j] += dp[i - 1][j] + dp[i][j - 1]
         
         return dp[-1][-1]
-
 ```
 

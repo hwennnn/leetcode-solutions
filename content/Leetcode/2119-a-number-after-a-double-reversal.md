@@ -2,11 +2,12 @@
 title: 2119. A Number After a Double Reversal
 draft: false
 tags: 
+  - leetcode-easy
   - math
 date: 2021-12-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/a-number-after-a-double-reversal/)
 
 ## Description
 
@@ -60,6 +61,5 @@ date: 2021-12-26
 class Solution:
     def isSameAfterReversals(self, num: int) -> bool:
         return num == 0 or num % 10 != 0
-
 ```
 

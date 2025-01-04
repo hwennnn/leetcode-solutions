@@ -2,12 +2,13 @@
 title: 1573. Number of Ways to Split a String
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - string
 date: 2020-10-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-ways-to-split-a-string/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
                 second += 1
         
         return (first * second) % M
-
 ```
 

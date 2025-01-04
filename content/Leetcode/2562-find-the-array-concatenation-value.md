@@ -2,13 +2,14 @@
 title: 2562. Find the Array Concatenation Value
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - two-pointers
   - simulation
 date: 2023-02-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-array-concatenation-value/)
 
 ## Description
 
@@ -105,6 +106,5 @@ class Solution:
             res += nums[N // 2]
         
         return res
-
 ```
 

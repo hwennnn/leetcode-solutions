@@ -2,12 +2,13 @@
 title: 386. Lexicographical Numbers
 draft: false
 tags: 
+  - leetcode-medium
   - depth-first-search
   - trie
 date: 2025-01-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/lexicographical-numbers/)
 
 ## Description
 
@@ -53,7 +54,6 @@ class Solution:
             go(k)
         
         return res
-
 
 ```
 

@@ -2,6 +2,7 @@
 title: 3165. Maximum Sum of Subsequence With Non-adjacent Elements
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - divide-and-conquer
   - dynamic-programming
@@ -9,7 +10,7 @@ tags:
 date: 2024-06-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-sum-of-subsequence-with-non-adjacent-elements/)
 
 ## Description
 
@@ -178,7 +179,6 @@ class Solution:
                 res %= M
         
         return res
-
 
 ```
 

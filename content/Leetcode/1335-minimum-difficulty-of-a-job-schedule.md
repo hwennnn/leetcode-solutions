@@ -2,12 +2,13 @@
 title: 1335. Minimum Difficulty of a Job Schedule
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
 date: 2023-12-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
             return res
         
         return go(0, d)
-
 ```
 

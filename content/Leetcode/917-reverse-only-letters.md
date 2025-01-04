@@ -2,12 +2,13 @@
 title: 917. Reverse Only Letters
 draft: false
 tags: 
+  - leetcode-easy
   - two-pointers
   - string
 date: 2021-09-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/reverse-only-letters/)
 
 ## Description
 
@@ -64,6 +65,5 @@ class Solution:
                 j -= 1
         
         return "".join(s)
-
 ```
 

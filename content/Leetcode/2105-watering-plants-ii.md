@@ -2,13 +2,14 @@
 title: 2105. Watering Plants II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
   - simulation
 date: 2021-12-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/watering-plants-ii/)
 
 ## Description
 
@@ -111,6 +112,5 @@ class Solution:
                     res += 1
                     
         return res
-
 ```
 

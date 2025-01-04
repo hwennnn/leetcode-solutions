@@ -2,6 +2,7 @@
 title: 934. Shortest Bridge
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - depth-first-search
   - breadth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2023-05-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/shortest-bridge/)
 
 ## Description
 
@@ -101,7 +102,6 @@ class Solution:
             res += 1
 
         return -1
-
 
 ```
 

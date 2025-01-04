@@ -2,12 +2,13 @@
 title: 2114. Maximum Number of Words Found in Sentences
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - string
 date: 2021-12-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/)
 
 ## Description
 
@@ -65,6 +66,5 @@ class Solution:
             res = max(res, len(s.split()))
         
         return res
-
 ```
 

@@ -2,13 +2,14 @@
 title: 1605. Find Valid Matrix Given Row and Column Sums
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
   - matrix
-date: 2024-07-20
+date: 2020-12-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-valid-matrix-given-row-and-column-sums/)
 
 ## Description
 
@@ -78,6 +79,26 @@ public:
         return res;
     }
 };
+```
+### Python
+``` py title='find-valid-matrix-given-row-and-column-sums'
+class Solution:
+    def restoreMatrix(self, rs: List[int], cs: List[int]) -> List[List[int]]:
+        r = len(rs)
+        c = len(cs)
+        
+        lst = [[0]*c for _ in range(r)]
+        
+        for i in range(r):
+            for j in range(c):
+                
+                cur = min(rs[i], cs[j])
+                
+                lst[i][j] = cur
+                rs[i] -= cur
+                cs[j] -= cur
 
+        return lst
+                
 ```
 

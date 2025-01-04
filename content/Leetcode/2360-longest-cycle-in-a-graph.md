@@ -2,13 +2,14 @@
 title: 2360. Longest Cycle in a Graph
 draft: false
 tags: 
+  - leetcode-hard
   - depth-first-search
   - graph
   - topological-sort
 date: 2023-03-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-cycle-in-a-graph/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
         
         return res
         
-
 ```
 

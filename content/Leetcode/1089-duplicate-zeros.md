@@ -2,12 +2,13 @@
 title: 1089. Duplicate Zeros
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - two-pointers
 date: 2021-05-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/duplicate-zeros/)
 
 ## Description
 
@@ -66,6 +67,5 @@ class Solution:
                 
                 if i + zeroes < n:
                     arr[i + zeroes] = 0
-
 ```
 

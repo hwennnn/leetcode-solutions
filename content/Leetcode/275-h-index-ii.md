@@ -2,12 +2,13 @@
 title: 275. H-Index II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
 date: 2022-04-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/h-index-ii/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
                 beg = mid + 1             
                 
         return n - beg
-
 ```
 

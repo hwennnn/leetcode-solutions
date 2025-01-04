@@ -2,12 +2,13 @@
 title: 1953. Maximum Number of Weeks for Which You Can Work
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
 date: 2021-08-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-number-of-weeks-for-which-you-can-work/)
 
 ## Description
 
@@ -81,6 +82,5 @@ class Solution:
         if ssum - mmax >= mmax: return ssum
         
         return 2 * (ssum - mmax) + 1
-
 ```
 

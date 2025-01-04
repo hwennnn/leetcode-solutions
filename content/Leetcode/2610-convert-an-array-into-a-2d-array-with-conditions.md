@@ -2,12 +2,13 @@
 title: 2610. Convert an Array Into a 2D Array With Conditions
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
 date: 2024-01-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/)
 
 ## Description
 
@@ -74,7 +75,6 @@ class Solution:
         
         return res
             
-
 
 
 ```

@@ -2,12 +2,13 @@
 title: 2359. Find Closest Node to Given Two Nodes
 draft: false
 tags: 
+  - leetcode-medium
   - depth-first-search
   - graph
 date: 2023-01-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-closest-node-to-given-two-nodes/)
 
 ## Description
 
@@ -89,6 +90,5 @@ class Solution:
         
         return -1 if res == inf else index
         
-
 ```
 

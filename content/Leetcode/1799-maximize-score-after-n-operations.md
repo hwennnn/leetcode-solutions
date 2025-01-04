@@ -2,6 +2,7 @@
 title: 1799. Maximize Score After N Operations
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - math
   - dynamic-programming
@@ -12,7 +13,7 @@ tags:
 date: 2023-05-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximize-score-after-n-operations/)
 
 ## Description
 
@@ -97,7 +98,6 @@ class Solution:
             return res
         
         return go(1, 0)
-
 
 
 ```

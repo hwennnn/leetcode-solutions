@@ -2,12 +2,13 @@
 title: 2943. Maximize Area of Square Hole in Grid
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - sorting
 date: 2023-11-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/)
 
 ## Description
 
@@ -110,6 +111,5 @@ class Solution:
         res = 1 + min(maxH, maxV)
         
         return res * res
-
 ```
 

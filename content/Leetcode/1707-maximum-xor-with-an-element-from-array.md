@@ -2,13 +2,14 @@
 title: 1707. Maximum XOR With an Element From Array
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - bit-manipulation
   - trie
 date: 2023-11-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-xor-with-an-element-from-array/)
 
 ## Description
 
@@ -107,6 +108,5 @@ class Solution:
             ans[qi] = query(x)
 
         return ans
-
 ```
 

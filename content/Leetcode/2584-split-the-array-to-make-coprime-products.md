@@ -2,6 +2,7 @@
 title: 2584. Split the Array to Make Coprime Products
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - math
@@ -9,7 +10,7 @@ tags:
 date: 2023-03-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/split-the-array-to-make-coprime-products/)
 
 ## Description
 
@@ -100,6 +101,5 @@ class Solution:
         
         return maxl if maxl != N - 1 else -1
                 
-
 ```
 

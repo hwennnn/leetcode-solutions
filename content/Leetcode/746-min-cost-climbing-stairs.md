@@ -2,12 +2,13 @@
 title: 746. Min Cost Climbing Stairs
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - dynamic-programming
 date: 2024-08-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/min-cost-climbing-stairs/)
 
 ## Description
 
@@ -67,6 +68,5 @@ class Solution:
             one, two = two, cost[i] + min(one, two)
 
         return min(one, two)
-
 ```
 

@@ -2,12 +2,13 @@
 title: 2226. Maximum Candies Allocated to K Children
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
 date: 2022-04-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-candies-allocated-to-k-children/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
         return left
             
             
-
 ```
 

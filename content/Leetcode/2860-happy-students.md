@@ -2,13 +2,14 @@
 title: 2860. Happy Students
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - sorting
   - enumeration
 date: 2023-09-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/happy-students/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
                 res += 1
 
         return res
-
 ```
 

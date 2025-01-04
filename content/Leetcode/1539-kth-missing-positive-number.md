@@ -2,12 +2,13 @@
 title: 1539. Kth Missing Positive Number
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - binary-search
 date: 2023-03-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/kth-missing-positive-number/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
                 left = mid + 1
         
         return left + k
-
 ```
 

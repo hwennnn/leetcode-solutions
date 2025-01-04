@@ -2,13 +2,14 @@
 title: 3095. Shortest Subarray With OR at Least K I
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - bit-manipulation
   - sliding-window
 date: 2024-03-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-i/)
 
 ## Description
 
@@ -113,7 +114,6 @@ class Solution:
             return -1
 
         return res
-
 
 ```
 

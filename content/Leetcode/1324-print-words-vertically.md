@@ -2,13 +2,14 @@
 title: 1324. Print Words Vertically
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - string
   - simulation
 date: 2020-12-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/print-words-vertically/)
 
 ## Description
 
@@ -81,6 +82,5 @@ class Solution:
         
         return res
         
-
 ```
 

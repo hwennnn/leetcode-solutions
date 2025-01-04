@@ -2,13 +2,14 @@
 title: 1509. Minimum Difference Between Largest and Smallest Value in Three Moves
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
   - sorting
-date: 2024-07-04
+date: 2020-07-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/)
 
 ## Description
 
@@ -82,6 +83,21 @@ class Solution:
             res = min(res, nums[N - 4 + i] - nums[i])
 
         return res
-
+```
+### C++
+``` cpp title='minimum-difference-between-largest-and-smallest-value-in-three-moves'
+class Solution {
+public:
+    int minDifference(vector<int>& nums) {
+        int n = nums.size();
+        if (n < 5) return 0;
+        
+        sort(nums.begin(), nums.end());
+        
+        return min({nums[n-4]-nums[0], nums[n-3]-nums[1], nums[n-2]-nums[2], nums[n-1]-nums[3]});
+        
+        
+    }
+};
 ```
 

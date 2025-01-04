@@ -2,13 +2,14 @@
 title: 2453. Destroy Sequential Targets
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - counting
 date: 2022-10-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/destroy-sequential-targets/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
                 res = x
         
         return res
-
 ```
 

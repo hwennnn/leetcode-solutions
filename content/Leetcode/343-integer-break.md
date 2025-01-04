@@ -2,12 +2,13 @@
 title: 343. Integer Break
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - dynamic-programming
-date: 2023-10-10
+date: 2020-08-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/integer-break/)
 
 ## Description
 
@@ -69,6 +70,26 @@ class Solution:
         res *= n
 
         return res
-
+```
+### C++
+``` cpp title='integer-break'
+class Solution {
+public:
+    int integerBreak(int n) {
+        if(n==2)    return 1;
+        if(n==3)    return 2;
+        
+        int res = 1;
+        
+        while (n > 4){
+            res *= 3;
+            n -= 3;
+        }
+            
+        res *= n;
+        
+        return res;
+    }
+};
 ```
 

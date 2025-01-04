@@ -2,6 +2,7 @@
 title: 823. Binary Trees With Factors
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - dynamic-programming
@@ -9,7 +10,7 @@ tags:
 date: 2023-10-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/binary-trees-with-factors/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
             res %= M
         
         return res
-
 ```
 

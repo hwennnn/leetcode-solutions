@@ -2,13 +2,14 @@
 title: 3010. Divide an Array Into Subarrays With Minimum Cost I
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - sorting
   - enumeration
 date: 2024-01-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
         second, third = sorted(nums[1:])[:2]
         
         return first + second + third
-
 ```
 

@@ -2,6 +2,7 @@
 title: 2115. Find All Possible Recipes from Given Supplies
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - string
@@ -10,7 +11,7 @@ tags:
 date: 2021-12-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/)
 
 ## Description
 
@@ -107,6 +108,5 @@ class Solution:
                         queue.append(nei)
         
         return res
-
 ```
 

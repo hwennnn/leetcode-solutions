@@ -2,11 +2,12 @@
 title: 1507. Reformat Date
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2020-10-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/reformat-date/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
         else:
             D += date[-4:] + "-" + M[date[-8:-5]] + "-0" + date[0]
         return D
-
 ```
 

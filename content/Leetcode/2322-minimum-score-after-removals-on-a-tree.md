@@ -2,6 +2,7 @@
 title: 2322. Minimum Score After Removals on a Tree
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - bit-manipulation
   - tree
@@ -9,7 +10,7 @@ tags:
 date: 2022-06-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-score-after-removals-on-a-tree/)
 
 ## Description
 
@@ -142,6 +143,5 @@ class Solution:
                 res = min(res, max(curr) - min(curr))
         
         return res
-
 ```
 

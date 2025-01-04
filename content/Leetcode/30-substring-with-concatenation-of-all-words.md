@@ -2,13 +2,14 @@
 title: 30. Substring with Concatenation of All Words
 draft: false
 tags: 
+  - leetcode-hard
   - hash-table
   - string
   - sliding-window
 date: 2022-08-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)
 
 ## Description
 
@@ -137,6 +138,5 @@ public:
         return ans;
     }
 };
-
 ```
 

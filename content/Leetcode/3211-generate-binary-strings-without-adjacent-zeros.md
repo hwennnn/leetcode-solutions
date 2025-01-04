@@ -2,13 +2,14 @@
 title: 3211. Generate Binary Strings Without Adjacent Zeros
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - backtracking
   - bit-manipulation
 date: 2024-07-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/)
 
 ## Description
 
@@ -81,6 +82,5 @@ class Solution:
         return res
         
         
-
 ```
 

@@ -2,11 +2,12 @@
 title: 2432. The Employee That Worked on the Longest Task
 draft: false
 tags: 
+  - leetcode-easy
   - array
 date: 2022-10-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/the-employee-that-worked-on-the-longest-task/)
 
 ## Description
 
@@ -99,6 +100,5 @@ class Solution:
             prev = d
         
         return res
-
 ```
 

@@ -2,14 +2,15 @@
 title: 2099. Find Subsequence of Length K With the Largest Sum
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2021-12-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
             
         
         return [nums[i] for i in sorted(list(res))]
-
 ```
 

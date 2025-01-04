@@ -2,6 +2,7 @@
 title: 3044. Most Frequent Prime
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - math
@@ -12,7 +13,7 @@ tags:
 date: 2024-02-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/most-frequent-prime/)
 
 ## Description
 
@@ -134,6 +135,5 @@ class Solution:
                 res = max(res, k)
         
         return res
-
 ```
 

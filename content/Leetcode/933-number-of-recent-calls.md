@@ -2,13 +2,14 @@
 title: 933. Number of Recent Calls
 draft: false
 tags: 
+  - leetcode-easy
   - design
   - queue
   - data-stream
 date: 2022-02-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-recent-calls/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class RecentCounter:
 # Your RecentCounter object will be instantiated and called as such:
 # obj = RecentCounter()
 # param_1 = obj.ping(t)
-
 ```
 

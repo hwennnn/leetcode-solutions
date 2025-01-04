@@ -2,6 +2,7 @@
 title: 113. Path Sum II
 draft: false
 tags: 
+  - leetcode-medium
   - backtracking
   - tree
   - depth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2022-09-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/path-sum-ii/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
         
         go(root, 0, [])
         return res
-
 ```
 

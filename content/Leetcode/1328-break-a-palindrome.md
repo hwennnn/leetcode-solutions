@@ -2,12 +2,13 @@
 title: 1328. Break a Palindrome
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - greedy
 date: 2022-10-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/break-a-palindrome/)
 
 ## Description
 
@@ -59,6 +60,5 @@ class Solution:
                 return A[:i] + 'a' + A[i + 1:]
         
         return A[:-1] + 'b'
-
 ```
 

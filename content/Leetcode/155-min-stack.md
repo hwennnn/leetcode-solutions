@@ -2,12 +2,13 @@
 title: 155. Min Stack
 draft: false
 tags: 
+  - leetcode-medium
   - stack
   - design
 date: 2022-07-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/min-stack/)
 
 ## Description
 
@@ -92,6 +93,5 @@ class MinStack:
 # obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.getMin()
-
 ```
 

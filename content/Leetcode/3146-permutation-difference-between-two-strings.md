@@ -2,12 +2,13 @@
 title: 3146. Permutation Difference between Two Strings
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - string
 date: 2024-05-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/permutation-difference-between-two-strings/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
             res += abs(i - mp[x])
         
         return res
-
 ```
 

@@ -2,6 +2,7 @@
 title: 1577. Number of Ways Where Square of Number Is Equal to Product of Two Numbers
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - math
@@ -9,7 +10,7 @@ tags:
 date: 2020-09-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
         
         return res
         
-
 ```
 

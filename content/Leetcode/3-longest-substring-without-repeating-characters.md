@@ -2,13 +2,14 @@
 title: 3. Longest Substring Without Repeating Characters
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - sliding-window
-date: 2024-08-13
+date: 2024-07-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
 ## Description
 
@@ -71,6 +72,28 @@ class Solution:
             res = max(res, j - i + 1)
 
         return res
+```
+### C++
+``` cpp title='longest-substring-without-repeating-characters'
+class Solution {
+public:
+    int lengthOfLongestSubstring(string s) {
+        int res = 0, N = s.size();
+        unordered_map<int, int> count;
 
+        for (int i = 0, j = 0; j < N; j++) {
+            count[s[j]]++;
+
+            while (count[s[j]] > 1) {
+                count[s[i]]--;
+                i++;
+            }
+
+            res = max(res, j - i + 1);
+        }
+
+        return res;
+    }
+};
 ```
 

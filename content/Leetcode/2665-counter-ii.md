@@ -2,11 +2,11 @@
 title: 2665. Counter II
 draft: false
 tags: 
-
+  - leetcode-easy
 date: 2023-05-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/counter-ii/)
 
 ## Description
 
@@ -85,6 +85,5 @@ function createCounter(init: number): ReturnObj {
  * counter.reset(); // 5
  * counter.decrement(); // 4
  */
-
 ```
 

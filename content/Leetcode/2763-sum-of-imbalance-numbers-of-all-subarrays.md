@@ -2,13 +2,14 @@
 title: 2763. Sum of Imbalance Numbers of All Subarrays
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - ordered-set
 date: 2023-07-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/sum-of-imbalance-numbers-of-all-subarrays/)
 
 ## Description
 
@@ -89,6 +90,5 @@ class Solution:
                 res += len(target) - 1
                 
         return res
-
 ```
 

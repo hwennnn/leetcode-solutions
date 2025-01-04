@@ -2,13 +2,14 @@
 title: 955. Delete Columns to Make Sorted II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - string
   - greedy
 date: 2022-02-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/delete-columns-to-make-sorted-ii/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
                     words[index] = words[index][:-1]
         
         return res
-
 ```
 

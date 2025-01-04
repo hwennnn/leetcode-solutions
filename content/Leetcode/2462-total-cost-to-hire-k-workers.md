@@ -2,14 +2,15 @@
 title: 2462. Total Cost to Hire K Workers
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
-  - heap-(priority-queue)
+  - heap-priority-queue
   - simulation
 date: 2023-06-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/total-cost-to-hire-k-workers/)
 
 ## Description
 
@@ -100,6 +101,5 @@ class Solution:
                 heappop(right)
         
         return res
-
 ```
 

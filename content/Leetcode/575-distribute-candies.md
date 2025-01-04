@@ -2,12 +2,13 @@
 title: 575. Distribute Candies
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
-date: 2021-03-01
+date: 2019-10-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/distribute-candies/)
 
 ## Description
 
@@ -63,6 +64,15 @@ class Solution:
     def distributeCandies(self, candies: List[int]) -> int:
         
         return int(min(len(candies)/2,len(set(candies))))
-
+```
+### Python
+``` py title='distribute-candies'
+class Solution(object):
+    def distributeCandies(self, candies):
+        """
+        :type candies: List[int]
+        :rtype: int
+        """
+        return min(len(candies) / 2, len(set(candies)))
 ```
 

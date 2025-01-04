@@ -2,11 +2,12 @@
 title: 2806. Account Balance After Rounded Purchase
 draft: false
 tags: 
+  - leetcode-easy
   - math
 date: 2023-08-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/account-balance-after-rounded-purchase/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
             res += 1
         
         return 100 - res * 10
-
 ```
 

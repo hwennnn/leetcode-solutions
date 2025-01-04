@@ -2,13 +2,14 @@
 title: 1710. Maximum Units on a Truck
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - greedy
   - sorting
 date: 2022-07-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-units-on-a-truck/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
             res += take * x
         
         return res
-
 ```
 

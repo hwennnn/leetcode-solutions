@@ -2,6 +2,7 @@
 title: 2375. Construct Smallest Number From DI String
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - backtracking
   - stack
@@ -9,7 +10,7 @@ tags:
 date: 2022-08-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/construct-smallest-number-from-di-string/)
 
 ## Description
 
@@ -104,7 +105,6 @@ class Solution:
             used[i] = False
         
         return ans
-
 
 ```
 

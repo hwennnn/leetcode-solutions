@@ -2,12 +2,13 @@
 title: 1109. Corporate Flight Bookings
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - prefix-sum
 date: 2021-05-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/corporate-flight-bookings/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
             res[i] += res[i - 1]
         
         return res[:-1]
-
 ```
 

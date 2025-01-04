@@ -2,12 +2,13 @@
 title: 1967. Number of Strings That Appear as Substrings in Word
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - string
 date: 2021-08-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
                 res += 1
         
         return res
-
 ```
 

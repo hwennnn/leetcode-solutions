@@ -2,14 +2,15 @@
 title: 1079. Letter Tile Possibilities
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - backtracking
   - counting
-date: 2021-05-29
+date: 2019-10-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/letter-tile-possibilities/)
 
 ## Description
 
@@ -70,6 +71,29 @@ class Solution:
         dfs('', tiles)
         
         return len(res)
+```
+### Python
+``` py title='letter-tile-possibilities'
+class Solution(object):
+    def numTilePossibilities(self, tiles):
+        s = "".join(set(tiles))
+        ans = [] 
 
+        for char in s:
+            ans.append(char)    
+
+        for elem in ans:
+            temp = elem
+
+            for char in s:
+                temp += char
+                if temp.count(char)<=tiles.count(char): 
+                    ans.append(temp)
+                temp = elem
+                
+        return len(set(ans))
+
+
+        
 ```
 

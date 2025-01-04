@@ -2,13 +2,14 @@
 title: 1326. Minimum Number of Taps to Open to Water a Garden
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - greedy
 date: 2023-08-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
             end = maxSoFar
 
         return count
-
 ```
 

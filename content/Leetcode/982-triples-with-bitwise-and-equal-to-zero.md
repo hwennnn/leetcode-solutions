@@ -2,13 +2,14 @@
 title: 982. Triples with Bitwise AND Equal To Zero
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - bit-manipulation
 date: 2022-02-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/triples-with-bitwise-and-equal-to-zero/)
 
 ## Description
 
@@ -81,6 +82,5 @@ class Solution:
                     res += mp[ab]
         
         return res
-
 ```
 

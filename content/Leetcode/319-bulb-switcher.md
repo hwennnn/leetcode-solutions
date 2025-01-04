@@ -2,12 +2,13 @@
 title: 319. Bulb Switcher
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - brainteaser
 date: 2023-04-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/bulb-switcher/)
 
 ## Description
 
@@ -60,6 +61,5 @@ So you should return 1 because there is only one bulb is on.</pre>
 class Solution:
     def bulbSwitch(self, n: int) -> int:
         return int(math.sqrt(n))
-
 ```
 

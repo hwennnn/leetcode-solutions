@@ -2,15 +2,16 @@
 title: 2333. Minimum Sum of Squared Difference
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
   - greedy
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2022-07-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-sum-of-squared-difference/)
 
 ## Description
 
@@ -96,6 +97,5 @@ class Solution:
                 
             
             
-
 ```
 

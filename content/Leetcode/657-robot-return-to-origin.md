@@ -2,12 +2,13 @@
 title: 657. Robot Return to Origin
 draft: false
 tags: 
+  - leetcode-easy
   - string
   - simulation
-date: 2020-02-22
+date: 2019-10-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/robot-return-to-origin/)
 
 ## Description
 
@@ -68,6 +69,32 @@ class Solution:
             
         
         return True if (x==0 and y==0) else False
-
+```
+### Python
+``` py title='robot-return-to-origin'
+class Solution(object):
+    def judgeCircle(self, moves):
+        """
+        :type moves: str
+        :rtype: bool
+        """
+        
+        val = [0,0]
+        
+        for i in moves:
+            if i == "U":
+                val[1]+=1
+            elif i == "D":
+                val[1]-=1
+            elif i == "L":
+                val[0]+=1
+            elif i == "R":
+                val[0]-=1
+        
+        for i in val:
+            if i != 0:
+                return False
+        
+        return True
 ```
 

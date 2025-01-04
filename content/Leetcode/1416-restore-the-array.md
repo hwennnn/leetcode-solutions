@@ -2,12 +2,13 @@
 title: 1416. Restore The Array
 draft: false
 tags: 
+  - leetcode-hard
   - string
   - dynamic-programming
 date: 2023-04-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/restore-the-array/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
             return res % MOD
         
         return go(0)
-
 ```
 

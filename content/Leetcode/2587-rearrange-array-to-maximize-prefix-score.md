@@ -2,6 +2,7 @@
 title: 2587. Rearrange Array to Maximize Prefix Score
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
   - sorting
@@ -9,7 +10,7 @@ tags:
 date: 2023-03-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/rearrange-array-to-maximize-prefix-score/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
         
         return res
         
-
 ```
 

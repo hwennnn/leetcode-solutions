@@ -2,6 +2,7 @@
 title: 1020. Number of Enclaves
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - depth-first-search
   - breadth-first-search
@@ -10,7 +11,7 @@ tags:
 date: 2023-04-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-enclaves/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
                 res += grid[i][j]
 
         return res
-
 ```
 

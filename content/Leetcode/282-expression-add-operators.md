@@ -2,13 +2,14 @@
 title: 282. Expression Add Operators
 draft: false
 tags: 
+  - leetcode-hard
   - math
   - string
   - backtracking
 date: 2021-09-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/expression-add-operators/)
 
 ## Description
 
@@ -81,6 +82,5 @@ class Solution:
                     
         backtrack(0, "", 0, 0)
         return res
-
 ```
 

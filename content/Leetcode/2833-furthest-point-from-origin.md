@@ -2,12 +2,13 @@
 title: 2833. Furthest Point From Origin
 draft: false
 tags: 
+  - leetcode-easy
   - string
   - counting
 date: 2023-08-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/furthest-point-from-origin/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
                 dynamic += 1
         
         return abs(res) + dynamic
-
 ```
 

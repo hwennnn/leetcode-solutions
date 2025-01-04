@@ -2,12 +2,13 @@
 title: 1881. Maximum Value after Insertion
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - greedy
 date: 2021-06-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-value-after-insertion/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
                     return word[:i] + str(x) + word[i:]
                 
             return word + str(x)
-
 ```
 

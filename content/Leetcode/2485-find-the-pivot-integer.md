@@ -2,12 +2,13 @@
 title: 2485. Find the Pivot Integer
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - prefix-sum
 date: 2024-03-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-pivot-integer/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
             right -= x
 
         return -1
-
 ```
 

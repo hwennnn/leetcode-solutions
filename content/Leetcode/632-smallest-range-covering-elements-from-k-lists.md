@@ -2,16 +2,17 @@
 title: 632. Smallest Range Covering Elements from K Lists
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - greedy
   - sliding-window
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2024-10-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/)
 
 ## Description
 
@@ -89,6 +90,5 @@ class Solution:
             current_max = max(current_max, next_elem)
         
         return result_range
-
 ```
 

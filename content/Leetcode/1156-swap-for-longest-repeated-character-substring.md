@@ -2,13 +2,14 @@
 title: 1156. Swap For Longest Repeated Character Substring
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - sliding-window
 date: 2021-05-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/swap-for-longest-repeated-character-substring/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
                 res = max(res, min(A[i - 1][1] + A[i + 1][1] + 1, count[A[i - 1][0]]))
         
         return res
-
 ```
 

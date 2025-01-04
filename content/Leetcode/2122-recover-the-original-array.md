@@ -2,6 +2,7 @@
 title: 2122. Recover the Original Array
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - two-pointers
@@ -10,7 +11,7 @@ tags:
 date: 2021-12-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/recover-the-original-array/)
 
 ## Description
 
@@ -103,6 +104,5 @@ class Solution:
 
                 if valid:
                     return res
-
 ```
 

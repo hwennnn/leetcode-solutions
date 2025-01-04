@@ -2,12 +2,13 @@
 title: 2600. K Items With the Maximum Sum
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - greedy
 date: 2023-03-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/k-items-with-the-maximum-sum/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
         k -= takeNeg
     
         return res
-
 ```
 

@@ -2,12 +2,13 @@
 title: 1422. Maximum Score After Splitting a String
 draft: false
 tags: 
+  - leetcode-easy
   - string
   - prefix-sum
 date: 2025-01-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-score-after-splitting-a-string/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
             res = max(res, leftZeroes + rightOnes) 
 
         return res
-
 ```
 

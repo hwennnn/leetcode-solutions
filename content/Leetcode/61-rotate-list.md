@@ -2,12 +2,13 @@
 title: 61. Rotate List
 draft: false
 tags: 
+  - leetcode-medium
   - linked-list
   - two-pointers
 date: 2022-03-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/rotate-list/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
         curr.next = None
         
         return head
-
 ```
 

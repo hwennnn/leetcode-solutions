@@ -2,6 +2,7 @@
 title: 1356. Sort Integers by The Number of 1 Bits
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - bit-manipulation
   - sorting
@@ -9,7 +10,7 @@ tags:
 date: 2023-10-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/)
 
 ## Description
 
@@ -56,6 +57,5 @@ The sorted array by bits is [0,1,2,4,8,3,5,6,7]
 class Solution:
     def sortByBits(self, arr: List[int]) -> List[int]:
         return sorted(arr, key = lambda x: (x.bit_count(), x))
-
 ```
 

@@ -2,12 +2,13 @@
 title: 2872. Maximum Number of K-Divisible Components
 draft: false
 tags: 
+  - leetcode-hard
   - tree
   - depth-first-search
 date: 2024-12-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-number-of-k-divisible-components/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class Solution:
         count, val = go(0, -1)
 
         return count
-
 ```
 

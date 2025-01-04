@@ -2,12 +2,13 @@
 title: 1007. Minimum Domino Rotations For Equal Row
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
 date: 2022-03-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
         
         return -1 if res == float('inf') else res
             
-
 ```
 

@@ -2,13 +2,14 @@
 title: 3047. Find the Largest Area of Square Inside Two Rectangles
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - geometry
 date: 2024-02-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles/)
 
 ## Description
 
@@ -102,6 +103,5 @@ class Solution:
         
         return res * res
                     
-
 ```
 

@@ -2,12 +2,13 @@
 title: 3190. Find Minimum Operations to Make All Elements Divisible by Three
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - math
 date: 2024-06-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
                 res += min(m, 3 - m)
         
         return res
-
 ```
 

@@ -2,6 +2,7 @@
 title: 811. Subdomain Visit Count
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - string
@@ -9,7 +10,7 @@ tags:
 date: 2021-10-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/subdomain-visit-count/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
             res.append(f'{v} {k}')
         
         return res
-
 ```
 

@@ -2,6 +2,7 @@
 title: 486. Predict the Winner
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - dynamic-programming
@@ -10,7 +11,7 @@ tags:
 date: 2023-07-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/predict-the-winner/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
             return max(takeLeft, takeRight)
         
         return go(0, N - 1) >= 0
-
 ```
 

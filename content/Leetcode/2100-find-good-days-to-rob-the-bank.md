@@ -2,13 +2,14 @@
 title: 2100. Find Good Days to Rob the Bank
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - prefix-sum
 date: 2021-12-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-good-days-to-rob-the-bank/)
 
 ## Description
 
@@ -99,6 +100,5 @@ class Solution:
                 
         
         return res
-
 ```
 

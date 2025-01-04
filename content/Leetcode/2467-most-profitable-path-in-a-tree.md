@@ -2,6 +2,7 @@
 title: 2467. Most Profitable Path in a Tree
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - tree
   - depth-first-search
@@ -10,7 +11,7 @@ tags:
 date: 2022-11-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/most-profitable-path-in-a-tree/)
 
 ## Description
 
@@ -155,6 +156,5 @@ class Solution:
         
         return res
                          
-
 ```
 

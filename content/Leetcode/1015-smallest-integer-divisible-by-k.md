@@ -2,12 +2,13 @@
 title: 1015. Smallest Integer Divisible by K
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - math
 date: 2022-01-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/smallest-integer-divisible-by-k/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
             mod_set.add(prev)
         
         return -1
-
 ```
 

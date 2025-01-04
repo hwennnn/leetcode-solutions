@@ -2,14 +2,15 @@
 title: 1562. Find Latest Group of Size M
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - binary-search
   - simulation
-date: 2022-04-20
+date: 2020-08-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-latest-group-of-size-m/)
 
 ## Description
 
@@ -81,6 +82,25 @@ class Solution:
             length[a - left] = length[a + right] = left + right + 1
         
         return res
-
+```
+### C++
+``` cpp title='find-latest-group-of-size-m'
+class Solution {
+public:
+     int findLatestStep(vector<int>& A, int m) {
+        int res = -1, n = A.size();
+        vector<int> length(n + 2), count(n + 1);
+        for (int i = 0; i < n; ++i) {
+            int a = A[i], left = length[a - 1], right = length[a + 1];
+            length[a] = length[a - left] = length[a + right] = left + right + 1;
+            count[left]--;
+            count[right]--;
+            count[length[a]]++;
+            if (count[m])
+                res = i + 1;
+        }
+        return res;
+    }
+};
 ```
 

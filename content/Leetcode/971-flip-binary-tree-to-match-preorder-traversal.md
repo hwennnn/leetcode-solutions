@@ -2,13 +2,14 @@
 title: 971. Flip Binary Tree To Match Preorder Traversal
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - depth-first-search
   - binary-tree
 date: 2022-02-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/)
 
 ## Description
 
@@ -93,6 +94,5 @@ class Solution:
         return res if go(root) else [-1]
             
             
-
 ```
 

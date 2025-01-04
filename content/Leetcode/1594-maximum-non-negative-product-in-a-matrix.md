@@ -2,13 +2,14 @@
 title: 1594. Maximum Non Negative Product in a Matrix
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - matrix
 date: 2020-09-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class Solution:
         res = mp[row-1][col-1]
         
         return res%M if res > -1 else -1
-
 ```
 

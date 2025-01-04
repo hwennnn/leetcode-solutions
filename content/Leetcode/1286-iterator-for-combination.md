@@ -2,6 +2,7 @@
 title: 1286. Iterator for Combination
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - backtracking
   - design
@@ -9,7 +10,7 @@ tags:
 date: 2021-11-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/iterator-for-combination/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class CombinationIterator:
 # obj = CombinationIterator(characters, combinationLength)
 # param_1 = obj.next()
 # param_2 = obj.hasNext()
-
 ```
 

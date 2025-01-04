@@ -2,6 +2,7 @@
 title: 706. Design HashMap
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - linked-list
@@ -10,7 +11,7 @@ tags:
 date: 2023-10-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/design-hashmap/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class MyHashMap:
 # obj.put(key,value)
 # param_2 = obj.get(key)
 # obj.remove(key)
-
 ```
 

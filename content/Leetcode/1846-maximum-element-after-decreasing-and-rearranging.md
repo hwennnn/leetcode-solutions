@@ -2,13 +2,14 @@
 title: 1846. Maximum Element After Decreasing and Rearranging
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
   - sorting
 date: 2023-11-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
             curr = min(curr + v, k)
 
         return curr
-
 ```
 

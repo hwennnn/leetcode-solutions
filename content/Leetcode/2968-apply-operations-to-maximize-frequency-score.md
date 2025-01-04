@@ -2,6 +2,7 @@
 title: 2968. Apply Operations to Maximize Frequency Score
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - sliding-window
@@ -10,7 +11,7 @@ tags:
 date: 2023-12-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/apply-operations-to-maximize-frequency-score/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
             res = max(res, right - left + 1)
         
         return res
-
 ```
 

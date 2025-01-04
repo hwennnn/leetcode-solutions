@@ -2,6 +2,7 @@
 title: 2358. Maximum Number of Groups Entering a Competition
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - binary-search
@@ -9,7 +10,7 @@ tags:
 date: 2022-07-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-number-of-groups-entering-a-competition/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
                 right = mid - 1
 
         return left
-
 ```
 

@@ -2,13 +2,14 @@
 title: 78. Subsets
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - backtracking
   - bit-manipulation
-date: 2024-08-13
+date: 2020-10-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/subsets/)
 
 ## Description
 
@@ -62,6 +63,25 @@ class Solution:
             res.append(A)
         
         return res
-
+```
+### C++
+``` cpp title='subsets'
+class Solution {
+public:
+    vector<vector<int>> subsets(vector<int>& nums) {
+        int n = nums.size();
+        vector<vector<int>> res;
+        
+        for (int i=0; i < 1<<n; ++i){
+            vector<int> c;
+            for (int j = 0; j < n; ++j)
+                if (i >> j&1)
+                    c.push_back(nums[j]);
+            res.push_back(c);
+        }
+        
+        return res;
+    }
+};
 ```
 

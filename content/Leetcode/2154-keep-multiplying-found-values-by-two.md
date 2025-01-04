@@ -2,6 +2,7 @@
 title: 2154. Keep Multiplying Found Values by Two
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - sorting
@@ -9,7 +10,7 @@ tags:
 date: 2022-01-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/keep-multiplying-found-values-by-two/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
             found = res in s
         
         return res
-
 ```
 

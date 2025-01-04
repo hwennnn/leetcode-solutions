@@ -2,11 +2,11 @@
 title: 2695. Array Wrapper
 draft: false
 tags: 
-
+  - leetcode-easy
 date: 2023-06-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/array-wrapper/)
 
 ## Description
 
@@ -89,6 +89,5 @@ class ArrayWrapper {
  * String(obj1); // "[1,2]"
  * String(obj2); // "[3,4]"
  */
-
 ```
 

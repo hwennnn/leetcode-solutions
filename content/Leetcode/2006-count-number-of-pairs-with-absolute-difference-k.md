@@ -2,13 +2,14 @@
 title: 2006. Count Number of Pairs With Absolute Difference K
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - counting
 date: 2021-09-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
                     res += 1
     
         return res
-
 ```
 

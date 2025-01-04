@@ -2,12 +2,13 @@
 title: 1486. XOR Operation in an Array
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - bit-manipulation
 date: 2020-08-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/xor-operation-in-an-array/)
 
 ## Description
 
@@ -60,6 +61,5 @@ class Solution:
             ans ^= start+2*i
         
         return ans
-
 ```
 

@@ -2,12 +2,13 @@
 title: 2224. Minimum Number of Operations to Convert Time
 draft: false
 tags: 
+  - leetcode-easy
   - string
   - greedy
 date: 2022-04-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-operations-to-convert-time/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
         
         return res
         
-
 ```
 

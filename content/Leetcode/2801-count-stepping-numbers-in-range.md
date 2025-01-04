@@ -2,12 +2,13 @@
 title: 2801. Count Stepping Numbers in Range
 draft: false
 tags: 
+  - leetcode-hard
   - string
   - dynamic-programming
 date: 2023-08-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-stepping-numbers-in-range/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class Solution:
 
         return (a - b) % M
         
-
 ```
 

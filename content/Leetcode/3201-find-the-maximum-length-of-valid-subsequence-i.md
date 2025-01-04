@@ -2,12 +2,13 @@
 title: 3201. Find the Maximum Length of Valid Subsequence I
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
 date: 2024-07-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-i/)
 
 ## Description
 
@@ -92,6 +93,5 @@ class Solution:
                 c = 1 - c
         
         return max(both, even, odd)
-
 ```
 

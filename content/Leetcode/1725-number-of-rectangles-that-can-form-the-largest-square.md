@@ -2,11 +2,12 @@
 title: 1725. Number Of Rectangles That Can Form The Largest Square
 draft: false
 tags: 
+  - leetcode-easy
   - array
 date: 2021-01-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square/)
 
 ## Description
 
@@ -59,6 +60,5 @@ class Solution:
             res.append(min(a,b))
         
         return res.count(max(res))
-
 ```
 

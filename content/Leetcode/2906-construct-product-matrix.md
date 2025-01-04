@@ -2,13 +2,14 @@
 title: 2906. Construct Product Matrix
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - matrix
   - prefix-sum
 date: 2023-10-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/construct-product-matrix/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
             res[i][j] = (prefix[k] * suffix[-k-2]) % MOD
         
         return res
-
 ```
 

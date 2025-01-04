@@ -2,14 +2,15 @@
 title: 857. Minimum Cost to Hire K Workers
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - greedy
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2024-05-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
             if len(pq) == k: res = min(res, qSum * r)
 
         return res
-
 ```
 

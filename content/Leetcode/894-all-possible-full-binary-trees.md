@@ -2,6 +2,7 @@
 title: 894. All Possible Full Binary Trees
 draft: false
 tags: 
+  - leetcode-medium
   - dynamic-programming
   - tree
   - recursion
@@ -10,7 +11,7 @@ tags:
 date: 2023-07-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/all-possible-full-binary-trees/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
             return res
         
         return go(n)
-
 ```
 

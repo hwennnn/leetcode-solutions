@@ -2,12 +2,13 @@
 title: 747. Largest Number At Least Twice of Others
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - sorting
 date: 2020-03-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/largest-number-at-least-twice-of-others/)
 
 ## Description
 
@@ -65,6 +66,5 @@ class Solution:
                 h2 = num
                 
         return highestindex if h1 >= h2*2 else -1
-
 ```
 

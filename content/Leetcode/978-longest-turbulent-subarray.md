@@ -2,13 +2,14 @@
 title: 978. Longest Turbulent Subarray
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - sliding-window
 date: 2022-02-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-turbulent-subarray/)
 
 ## Description
 
@@ -88,6 +89,5 @@ class Solution:
             res = max(res, curr)
         
         return res
-
 ```
 

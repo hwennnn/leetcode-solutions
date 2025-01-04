@@ -2,12 +2,13 @@
 title: 1827. Minimum Operations to Make the Array Increasing
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - greedy
 date: 2021-04-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
                 nums[i] = d
     
         return res
-
 ```
 

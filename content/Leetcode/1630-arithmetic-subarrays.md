@@ -2,13 +2,14 @@
 title: 1630. Arithmetic Subarrays
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - sorting
 date: 2023-11-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/arithmetic-subarrays/)
 
 ## Description
 
@@ -94,6 +95,5 @@ class Solution:
             res.append(isArithmetic(start, end))
         
         return res
-
 ```
 

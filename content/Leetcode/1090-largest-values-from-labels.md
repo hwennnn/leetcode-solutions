@@ -2,6 +2,7 @@
 title: 1090. Largest Values From Labels
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - greedy
@@ -10,7 +11,7 @@ tags:
 date: 2021-05-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/largest-values-from-labels/)
 
 ## Description
 
@@ -100,6 +101,5 @@ class Solution:
         return res
         
         
-
 ```
 

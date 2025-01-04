@@ -2,12 +2,13 @@
 title: 2162. Minimum Cost to Set Cooking Time
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - enumeration
 date: 2022-02-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-cost-to-set-cooking-time/)
 
 ## Description
 
@@ -108,6 +109,5 @@ class Solution:
             res = min(res, costs)
         
         return res
-
 ```
 

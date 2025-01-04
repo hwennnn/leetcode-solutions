@@ -2,6 +2,7 @@
 title: 1927. Sum Game
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - string
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2021-07-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/sum-game/)
 
 ## Description
 
@@ -106,6 +107,5 @@ class Solution:
             return left_sum != right_sum
         
         return canAliceWin(left_sum, right_sum, left_count, right_count) or canAliceWin(right_sum, left_sum, right_count, left_count)
-
 ```
 

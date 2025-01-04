@@ -2,11 +2,12 @@
 title: 2490. Circular Sentence
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2024-11-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/circular-sentence/)
 
 ## Description
 
@@ -93,6 +94,5 @@ class Solution:
         if s[0][0] != prev: return False
         
         return True
-
 ```
 

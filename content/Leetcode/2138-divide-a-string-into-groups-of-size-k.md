@@ -2,12 +2,13 @@
 title: 2138. Divide a String Into Groups of Size k
 draft: false
 tags: 
+  - leetcode-easy
   - string
   - simulation
 date: 2022-01-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
         
         
         return res
-
 ```
 

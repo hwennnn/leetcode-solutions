@@ -2,13 +2,14 @@
 title: 258. Add Digits
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - simulation
   - number-theory
 date: 2023-04-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/add-digits/)
 
 ## Description
 
@@ -62,6 +63,5 @@ class Solution:
             num = curr
         
         return num
-
 ```
 

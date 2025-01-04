@@ -2,12 +2,13 @@
 title: 1925. Count Square Sum Triples
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - enumeration
 date: 2021-07-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-square-sum-triples/)
 
 ## Description
 
@@ -60,6 +61,5 @@ class Solution:
 
         
         return res
-
 ```
 

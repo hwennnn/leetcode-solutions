@@ -2,6 +2,7 @@
 title: 987. Vertical Order Traversal of a Binary Tree
 draft: false
 tags: 
+  - leetcode-hard
   - hash-table
   - tree
   - depth-first-search
@@ -11,7 +12,7 @@ tags:
 date: 2022-09-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)
 
 ## Description
 
@@ -108,6 +109,5 @@ class Solution:
             res.append(curr)
         
         return res
-
 ```
 

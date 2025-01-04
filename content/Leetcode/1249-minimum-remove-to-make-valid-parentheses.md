@@ -2,12 +2,13 @@
 title: 1249. Minimum Remove to Make Valid Parentheses
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - stack
 date: 2024-04-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
                 res[i] = x
 
         return "".join(res)
-
 ```
 

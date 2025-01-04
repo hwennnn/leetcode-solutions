@@ -2,11 +2,12 @@
 title: 674. Longest Continuous Increasing Subsequence
 draft: false
 tags: 
+  - leetcode-easy
   - array
 date: 2020-03-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)
 
 ## Description
 
@@ -64,6 +65,5 @@ class Solution:
                 
         return max(dp)
         
-
 ```
 

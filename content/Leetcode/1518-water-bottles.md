@@ -2,12 +2,13 @@
 title: 1518. Water Bottles
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - simulation
-date: 2024-07-07
+date: 2020-07-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/water-bottles/)
 
 ## Description
 
@@ -61,6 +62,24 @@ class Solution:
             numBottles += rem
         
         return res
-
+```
+### C++
+``` cpp title='water-bottles'
+class Solution {
+public:
+    int numWaterBottles(int numBottles, int numExchange) {
+        int res = numBottles;
+        
+        while (numBottles >= numExchange){
+            int remaining = numBottles % numExchange;
+            numBottles /= numExchange;
+            res += numBottles;
+            numBottles += remaining;
+        }
+           
+        return res;
+        
+    }
+};
 ```
 

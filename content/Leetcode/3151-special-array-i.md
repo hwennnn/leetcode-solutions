@@ -2,11 +2,12 @@
 title: 3151. Special Array I
 draft: false
 tags: 
+  - leetcode-easy
   - array
 date: 2024-05-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/special-array-i/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
                 return False
         
         return True
-
 ```
 

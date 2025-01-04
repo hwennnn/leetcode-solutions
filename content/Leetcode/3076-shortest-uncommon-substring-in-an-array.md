@@ -2,6 +2,7 @@
 title: 3076. Shortest Uncommon Substring in an Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - string
@@ -9,7 +10,7 @@ tags:
 date: 2024-03-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/shortest-uncommon-substring-in-an-array/)
 
 ## Description
 
@@ -93,6 +94,5 @@ class Solution:
         
         return res
                 
-
 ```
 

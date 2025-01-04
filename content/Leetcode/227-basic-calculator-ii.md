@@ -2,13 +2,14 @@
 title: 227. Basic Calculator II
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - string
   - stack
 date: 2022-07-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/basic-calculator-ii/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
                 num = 0
         
         return sum(stack)
-
 ```
 

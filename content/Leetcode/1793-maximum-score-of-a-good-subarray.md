@@ -2,6 +2,7 @@
 title: 1793. Maximum Score of a Good Subarray
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - two-pointers
   - binary-search
@@ -10,7 +11,7 @@ tags:
 date: 2023-10-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-score-of-a-good-subarray/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
             res = max(res, (j - i - 1) * min_num)
 
         return res
-
 ```
 

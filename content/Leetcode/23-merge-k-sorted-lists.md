@@ -2,14 +2,15 @@
 title: 23. Merge k Sorted Lists
 draft: false
 tags: 
+  - leetcode-hard
   - linked-list
   - divide-and-conquer
-  - heap-(priority-queue)
+  - heap-priority-queue
   - merge-sort
 date: 2024-08-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/merge-k-sorted-lists/)
 
 ## Description
 
@@ -94,6 +95,5 @@ class Solution:
                 heappush(pq, (lists[index].val, index))
 
         return res.next
-
 ```
 

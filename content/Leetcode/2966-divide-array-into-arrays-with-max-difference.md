@@ -2,13 +2,14 @@
 title: 2966. Divide Array Into Arrays With Max Difference
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
   - sorting
 date: 2024-02-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/)
 
 ## Description
 
@@ -107,6 +108,5 @@ class Solution:
                 curr = []
         
         return res
-
 ```
 

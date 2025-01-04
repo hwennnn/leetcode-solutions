@@ -2,6 +2,7 @@
 title: 2009. Minimum Number of Operations to Make Array Continuous
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - binary-search
@@ -9,7 +10,7 @@ tags:
 date: 2023-10-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
             res = min(res, N - gap) 
 
         return res
-
 ```
 

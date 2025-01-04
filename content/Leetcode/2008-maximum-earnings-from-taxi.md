@@ -2,6 +2,7 @@
 title: 2008. Maximum Earnings From Taxi
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - binary-search
@@ -10,7 +11,7 @@ tags:
 date: 2021-09-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-earnings-from-taxi/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
                 curr_max = max(curr_max, x)
                 
         return curr_max
-
 ```
 

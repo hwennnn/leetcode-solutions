@@ -2,12 +2,13 @@
 title: 3106. Lexicographically Smallest String After Operations With Constraint
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - greedy
 date: 2024-04-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/lexicographically-smallest-string-after-operations-with-constraint/)
 
 ## Description
 
@@ -95,6 +96,5 @@ class Solution:
                 res.append(chr(ord(x) - left))
         
         return "".join(res)
-
 ```
 

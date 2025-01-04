@@ -2,13 +2,14 @@
 title: 2558. Take Gifts From the Richest Pile
 draft: false
 tags: 
+  - leetcode-easy
   - array
-  - heap-(priority-queue)
+  - heap-priority-queue
   - simulation
 date: 2024-12-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/take-gifts-from-the-richest-pile/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
             heappush(pq, -sq)
         
         return -sum(pq)
-
 ```
 

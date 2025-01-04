@@ -2,13 +2,14 @@
 title: 1300. Sum of Mutated Array Closest to Target
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
   - sorting
 date: 2022-04-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/)
 
 ## Description
 
@@ -88,6 +89,5 @@ class Solution:
         
         return l2
         
-
 ```
 

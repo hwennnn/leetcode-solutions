@@ -2,6 +2,7 @@
 title: 384. Shuffle an Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - design
@@ -9,7 +10,7 @@ tags:
 date: 2021-09-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/shuffle-an-array/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class Solution:
 # obj = Solution(nums)
 # param_1 = obj.reset()
 # param_2 = obj.shuffle()
-
 ```
 

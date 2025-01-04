@@ -2,6 +2,7 @@
 title: 1498. Number of Subsequences That Satisfy the Given Sum Condition
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
   - binary-search
@@ -9,7 +10,7 @@ tags:
 date: 2023-05-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/)
 
 ## Description
 
@@ -79,7 +80,6 @@ class Solution:
                 res %= M
         
         return res
-
 
 
 ```

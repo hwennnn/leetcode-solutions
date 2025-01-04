@@ -2,12 +2,13 @@
 title: 72. Edit Distance
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - dynamic-programming
 date: 2024-08-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/edit-distance/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
                 return 1 + min(go(i + 1, j), go(i, j + 1), go(i + 1, j + 1))
         
         return go(0, 0)
-
 ```
 

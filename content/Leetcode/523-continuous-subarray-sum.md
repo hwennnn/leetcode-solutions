@@ -2,6 +2,7 @@
 title: 523. Continuous Subarray Sum
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - math
@@ -9,7 +10,7 @@ tags:
 date: 2024-06-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/continuous-subarray-sum/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class Solution:
                 return True
             
         return False
-
 ```
 

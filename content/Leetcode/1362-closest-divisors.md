@@ -2,11 +2,12 @@
 title: 1362. Closest Divisors
 draft: false
 tags: 
+  - leetcode-medium
   - math
 date: 2020-10-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/closest-divisors/)
 
 ## Description
 
@@ -61,6 +62,5 @@ class Solution:
             if (num + 2) % i == 0:
                 return [i, (num+2)//i]
                 
-
 ```
 

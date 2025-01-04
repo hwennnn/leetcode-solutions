@@ -2,12 +2,13 @@
 title: 2200. Find All K-Distant Indices in an Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - two-pointers
 date: 2022-03-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
                     break
         
         return res
-
 ```
 

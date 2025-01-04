@@ -2,6 +2,7 @@
 title: 2192. All Ancestors of a Node in a Directed Acyclic Graph
 draft: false
 tags: 
+  - leetcode-medium
   - depth-first-search
   - breadth-first-search
   - graph
@@ -9,7 +10,7 @@ tags:
 date: 2024-06-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/)
 
 ## Description
 
@@ -99,7 +100,6 @@ class Solution:
                 go(node)
         
         return [sorted(list(p[i])) for i in range(n)]
-
 
 
 

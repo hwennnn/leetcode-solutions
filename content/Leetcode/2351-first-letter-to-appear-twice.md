@@ -2,6 +2,7 @@
 title: 2351. First Letter to Appear Twice
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - string
   - bit-manipulation
@@ -9,7 +10,7 @@ tags:
 date: 2022-07-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/first-letter-to-appear-twice/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
                 return x
             
             seen.add(x)
-
 ```
 

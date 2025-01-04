@@ -2,6 +2,7 @@
 title: 976. Largest Perimeter Triangle
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - math
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2022-10-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/largest-perimeter-triangle/)
 
 ## Description
 
@@ -61,6 +62,5 @@ class Solution:
                 return nums[i] + nums[i + 1] + nums[i + 2]
                 
         return 0
-
 ```
 

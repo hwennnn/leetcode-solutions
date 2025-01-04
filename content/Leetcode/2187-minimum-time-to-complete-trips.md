@@ -2,12 +2,13 @@
 title: 2187. Minimum Time to Complete Trips
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
 date: 2023-03-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-time-to-complete-trips/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
                 left = mid + 1
         
         return left
-
 ```
 

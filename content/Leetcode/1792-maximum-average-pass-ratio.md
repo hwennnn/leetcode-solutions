@@ -2,13 +2,14 @@
 title: 1792. Maximum Average Pass Ratio
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2024-12-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-average-pass-ratio/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
             heapq.heappush(heap, (-profit(a + 1, b + 1), a + 1, b + 1))
         
         return sum(a / b for _, a, b in heap) / len(classes)
-
 ```
 

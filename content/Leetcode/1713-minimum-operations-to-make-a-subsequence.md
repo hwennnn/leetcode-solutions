@@ -2,6 +2,7 @@
 title: 1713. Minimum Operations to Make a Subsequence
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - binary-search
@@ -9,7 +10,7 @@ tags:
 date: 2021-01-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-operations-to-make-a-subsequence/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
 
         return len(target) - self.LIS(stack)
                 
-
 ```
 

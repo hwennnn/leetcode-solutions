@@ -2,12 +2,13 @@
 title: 1991. Find the Middle Index in Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - prefix-sum
 date: 2021-09-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-middle-index-in-array/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
                 return i
         
         return -1
-
 ```
 

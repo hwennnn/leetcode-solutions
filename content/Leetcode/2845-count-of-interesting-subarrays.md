@@ -2,13 +2,14 @@
 title: 2845. Count of Interesting Subarrays
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - prefix-sum
 date: 2023-09-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-of-interesting-subarrays/)
 
 ## Description
 
@@ -94,6 +95,5 @@ class Solution:
             counter[prefix] += 1
 
         return res
-
 ```
 

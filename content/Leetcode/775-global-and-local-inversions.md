@@ -2,12 +2,13 @@
 title: 775. Global and Local Inversions
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
 date: 2021-04-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/global-and-local-inversions/)
 
 ## Description
 
@@ -67,7 +68,6 @@ date: 2021-04-05
 class Solution:
     def isIdealPermutation(self, A: List[int]) -> bool:
         return all(abs(i - v) <= 1 for i, v in enumerate(A))
-
 
 ```
 

@@ -2,12 +2,13 @@
 title: 3249. Count the Number of Good Nodes
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - depth-first-search
 date: 2024-08-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-the-number-of-good-nodes/)
 
 ## Description
 
@@ -114,6 +115,5 @@ class Solution:
         
         return res
                     
-
 ```
 

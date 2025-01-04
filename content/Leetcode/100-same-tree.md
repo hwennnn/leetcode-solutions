@@ -2,6 +2,7 @@
 title: 100. Same Tree
 draft: false
 tags: 
+  - leetcode-easy
   - tree
   - depth-first-search
   - breadth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2024-02-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/same-tree/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
             return node1.val == node2.val and same(node1.left, node2.left) and same(node1.right, node2.right)
 
         return same(p, q)
-
 ```
 

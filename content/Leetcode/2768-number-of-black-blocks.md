@@ -2,13 +2,14 @@
 title: 2768. Number of Black Blocks
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - enumeration
 date: 2023-07-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-black-blocks/)
 
 ## Description
 
@@ -88,6 +89,5 @@ class Solution:
         res[0] = (rows - 1) * (cols - 1) - sum(res[1:])
         
         return res
-
 ```
 

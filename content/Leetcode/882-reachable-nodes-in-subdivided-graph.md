@@ -2,13 +2,14 @@
 title: 882. Reachable Nodes In Subdivided Graph
 draft: false
 tags: 
+  - leetcode-hard
   - graph
-  - heap-(priority-queue)
+  - heap-priority-queue
   - shortest-path
 date: 2021-12-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/reachable-nodes-in-subdivided-graph/)
 
 ## Description
 
@@ -95,6 +96,5 @@ class Solution:
             res += min(seen.get(u, 0) + seen.get(v, 0), w)
         
         return res
-
 ```
 

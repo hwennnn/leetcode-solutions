@@ -2,6 +2,7 @@
 title: 3012. Minimize Length of Array Using Operations
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2024-01-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimize-length-of-array-using-operations/)
 
 ## Description
 
@@ -98,6 +99,5 @@ class Solution:
                 count += 1
         
         return (count + 1) // 2
-
 ```
 

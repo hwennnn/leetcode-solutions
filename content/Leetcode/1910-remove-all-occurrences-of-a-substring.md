@@ -2,13 +2,14 @@
 title: 1910. Remove All Occurrences of a Substring
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - stack
   - simulation
 date: 2021-06-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
                     queue.pop()
             
         return "".join(queue)
-
 ```
 

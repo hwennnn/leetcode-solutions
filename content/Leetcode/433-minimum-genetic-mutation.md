@@ -2,13 +2,14 @@
 title: 433. Minimum Genetic Mutation
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - breadth-first-search
 date: 2022-11-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-genetic-mutation/)
 
 ## Description
 
@@ -83,7 +84,6 @@ class Solution:
             count += 1
         
         return -1
-
 
 ```
 

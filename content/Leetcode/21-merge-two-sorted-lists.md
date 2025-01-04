@@ -2,12 +2,13 @@
 title: 21. Merge Two Sorted Lists
 draft: false
 tags: 
+  - leetcode-easy
   - linked-list
   - recursion
-date: 2022-07-10
+date: 2020-12-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/merge-two-sorted-lists/)
 
 ## Description
 
@@ -77,6 +78,44 @@ class Solution:
         curr.next = rem
         
         return res.next
-
+```
+### C++
+``` cpp title='merge-two-sorted-lists'
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+class Solution {
+public:
+    ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
+        ListNode *curr = new ListNode;
+        curr->val = -1;
+        curr->next = NULL;
+        ListNode *res = curr;
+        
+        while (l1 != nullptr && l2 != nullptr){
+            if (l1->val < l2->val){
+                curr->next = l1;
+                l1 = l1->next;
+            }else{
+                curr->next = l2;
+                l2 = l2->next;
+            }
+            
+            curr = curr->next;
+        }
+        
+        ListNode *leftover = (l1 == nullptr) ? l2 : l1;
+        curr->next = leftover;
+        
+        return res->next;
+    }
+};
 ```
 

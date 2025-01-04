@@ -2,12 +2,13 @@
 title: 429. N-ary Tree Level Order Traversal
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - breadth-first-search
 date: 2022-09-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
             res.append(curr)
                 
         return res
-
 ```
 

@@ -2,12 +2,13 @@
 title: 3114. Latest Time You Can Obtain After Replacing Characters
 draft: false
 tags: 
+  - leetcode-easy
   - string
   - enumeration
 date: 2024-04-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
             s[4] = "9"
         
         return "".join(s)
-
 ```
 

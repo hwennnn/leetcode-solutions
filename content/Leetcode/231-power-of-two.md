@@ -2,13 +2,14 @@
 title: 231. Power of Two
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - bit-manipulation
   - recursion
 date: 2024-02-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/power-of-two/)
 
 ## Description
 
@@ -59,6 +60,5 @@ date: 2024-02-19
 class Solution:
     def isPowerOfTwo(self, n: int) -> bool:
         return n > 0 and (n & n - 1) == 0
-
 ```
 

@@ -2,12 +2,13 @@
 title: 593. Valid Square
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - geometry
 date: 2020-11-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/valid-square/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
         res.sort()
         
         return res[0] > 0 and res[0] == res[1] and res[0] == res[2] and res[0] == res[3] and res[4] == res[5]
-
 ```
 

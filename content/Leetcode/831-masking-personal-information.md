@@ -2,11 +2,12 @@
 title: 831. Masking Personal Information
 draft: false
 tags: 
+  - leetcode-medium
   - string
 date: 2022-08-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/masking-personal-information/)
 
 ## Description
 
@@ -121,6 +122,5 @@ class Solution:
         digits = "".join([x for x in s if x.isdigit()])
 
         return ["", "+*-", "+**-", "+***-"][len(digits) - 10] + "***-***-" + digits[-4:]
-
 ```
 

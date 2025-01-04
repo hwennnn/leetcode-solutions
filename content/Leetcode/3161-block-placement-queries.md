@@ -2,6 +2,7 @@
 title: 3161. Block Placement Queries
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - binary-indexed-tree
@@ -9,7 +10,7 @@ tags:
 date: 2024-05-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/block-placement-queries/)
 
 ## Description
 
@@ -154,6 +155,5 @@ public:
         return ans;
     }
 };
-
 ```
 

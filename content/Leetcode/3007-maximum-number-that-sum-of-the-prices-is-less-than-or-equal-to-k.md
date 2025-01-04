@@ -2,13 +2,14 @@
 title: 3007. Maximum Number That Sum of the Prices Is Less Than or Equal to K
 draft: false
 tags: 
+  - leetcode-medium
   - binary-search
   - dynamic-programming
   - bit-manipulation
 date: 2024-01-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k/)
 
 ## Description
 
@@ -270,6 +271,5 @@ class Solution:
                 right = mid - 1
         
         return left - 1
-
 ```
 

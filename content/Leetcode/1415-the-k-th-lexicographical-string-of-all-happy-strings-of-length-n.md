@@ -2,12 +2,13 @@
 title: 1415. The k-th Lexicographical String of All Happy Strings of Length n
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - backtracking
 date: 2020-10-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
                 q.append(v+u)
         
         return q[k-1] if len(q) >= k else ""
-
 ```
 

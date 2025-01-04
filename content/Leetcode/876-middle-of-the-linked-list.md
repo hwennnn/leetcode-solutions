@@ -2,12 +2,13 @@
 title: 876. Middle of the Linked List
 draft: false
 tags: 
+  - leetcode-easy
   - linked-list
   - two-pointers
-date: 2024-03-07
+date: 2020-12-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/middle-of-the-linked-list/)
 
 ## Description
 
@@ -61,6 +62,31 @@ class Solution:
             fast = fast.next.next
         
         return slow
-
+```
+### C++
+``` cpp title='middle-of-the-linked-list'
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+class Solution {
+public:
+    ListNode* middleNode(ListNode* head) {
+        ListNode *slow = head, *fast = head;
+        
+        while (fast && fast->next){
+            slow = slow->next;
+            fast = fast->next->next;
+        }
+        
+        return slow;
+    }
+};
 ```
 

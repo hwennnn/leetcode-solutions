@@ -2,13 +2,14 @@
 title: 1503. Last Moment Before All Ants Fall Out of a Plank
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - brainteaser
   - simulation
 date: 2023-11-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/)
 
 ## Description
 
@@ -81,6 +82,5 @@ class Solution:
             res = max(res, n - x)
         
         return res
-
 ```
 

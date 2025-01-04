@@ -2,11 +2,12 @@
 title: 2074. Reverse Nodes in Even Length Groups
 draft: false
 tags: 
+  - leetcode-medium
   - linked-list
 date: 2021-11-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/)
 
 ## Description
 
@@ -102,6 +103,5 @@ class Solution:
             k += 1
             
         return head
-
 ```
 

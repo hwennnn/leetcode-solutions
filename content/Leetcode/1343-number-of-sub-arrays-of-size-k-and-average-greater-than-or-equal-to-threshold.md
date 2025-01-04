@@ -2,12 +2,13 @@
 title: 1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - sliding-window
 date: 2020-11-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)
 
 ## Description
 
@@ -61,6 +62,5 @@ class Solution:
                 res += 1
         
         return res
-
 ```
 

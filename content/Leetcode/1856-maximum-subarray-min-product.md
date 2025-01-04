@@ -2,6 +2,7 @@
 title: 1856. Maximum Subarray Min-Product
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - stack
   - monotonic-stack
@@ -9,7 +10,7 @@ tags:
 date: 2021-05-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-subarray-min-product/)
 
 ## Description
 
@@ -110,6 +111,5 @@ class Solution:
             res = max(res, nums[i] * (prefix[r[i] + 1] - prefix[l[i]]))
         
         return res % M
-
 ```
 

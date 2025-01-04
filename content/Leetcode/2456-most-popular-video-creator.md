@@ -2,15 +2,16 @@
 title: 2456. Most Popular Video Creator
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - string
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2022-10-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/most-popular-video-creator/)
 
 ## Description
 
@@ -99,6 +100,5 @@ class Solution:
         
         return res
                     
-
 ```
 

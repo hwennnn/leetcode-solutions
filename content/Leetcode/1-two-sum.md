@@ -2,12 +2,13 @@
 title: 1. Two Sum
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
-date: 2024-12-26
+date: 2019-10-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/two-sum/)
 
 ## Description
 
@@ -71,6 +72,21 @@ class Solution:
             mp[x] = i
 
         return None
-
+```
+### Python
+``` py title='two-sum'
+class Solution:
+    def twoSum(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+        dict = {}
+        for i in range(len(nums)):
+            if target-nums[i] not in dict:
+                dict[nums[i]]=i
+            else:
+                return [dict[target-nums[i]],i]
 ```
 

@@ -2,6 +2,7 @@
 title: 241. Different Ways to Add Parentheses
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - string
   - dynamic-programming
@@ -10,7 +11,7 @@ tags:
 date: 2024-09-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/different-ways-to-add-parentheses/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
             res.append(int(expression))
 
         return res
-
 ```
 

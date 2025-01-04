@@ -2,6 +2,7 @@
 title: 2477. Minimum Fuel Cost to Report to the Capital
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - depth-first-search
   - breadth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2023-02-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital/)
 
 ## Description
 
@@ -108,6 +109,5 @@ class Solution:
 
         go(0, 0)
         return res
-
 ```
 

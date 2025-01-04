@@ -2,14 +2,15 @@
 title: 1353. Maximum Number of Events That Can Be Attended
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
   - sorting
-  - heap-(priority-queue)
-date: 2023-07-15
+  - heap-priority-queue
+date: 2020-10-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)
 
 ## Description
 
@@ -76,6 +77,30 @@ class Solution:
                 res += 1
 
         return res
-
+```
+### C++
+``` cpp title='maximum-number-of-events-that-can-be-attended'
+class Solution {
+public:
+    int maxEvents(vector<vector<int>>& A) {
+        priority_queue <int,vector<int>,greater<int>> pq;
+        sort(A.begin(), A.end());
+        int i = 0, res = 0, n = A.size();
+        for (int d = 1; d <= 100000; d++){
+            while (pq.size() && pq.top() < d)
+                pq.pop();
+                
+            while (i < n && A[i][0] == d)
+                pq.push(A[i++][1]);
+            
+            if (pq.size()){
+                pq.pop();
+                ++res;
+            }
+        }
+        
+        return res;
+    }
+};
 ```
 

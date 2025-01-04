@@ -2,6 +2,7 @@
 title: 846. Hand of Straights
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2024-06-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/hand-of-straights/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
             
         return True
         
-
 ```
 

@@ -2,6 +2,7 @@
 title: 1372. Longest ZigZag Path in a Binary Tree
 draft: false
 tags: 
+  - leetcode-medium
   - dynamic-programming
   - tree
   - depth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2023-04-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class Solution:
         go(root.right, 0, False)
 
         return res
-
 ```
 

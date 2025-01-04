@@ -2,13 +2,14 @@
 title: 2222. Number of Ways to Select Buildings
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - dynamic-programming
   - prefix-sum
 date: 2024-02-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-ways-to-select-buildings/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
         
         return res
         
-
 ```
 

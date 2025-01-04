@@ -2,13 +2,14 @@
 title: 1850. Minimum Adjacent Swaps to Reach the Kth Smallest Number
 draft: false
 tags: 
+  - leetcode-medium
   - two-pointers
   - string
   - greedy
 date: 2021-05-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number/)
 
 ## Description
 
@@ -115,6 +116,5 @@ class Solution:
         
         return res
                 
-
 ```
 

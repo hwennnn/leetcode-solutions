@@ -2,13 +2,14 @@
 title: 2706. Buy Two Chocolates
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - greedy
   - sorting
 date: 2023-12-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/buy-two-chocolates/)
 
 ## Description
 
@@ -62,6 +63,5 @@ class Solution:
                 secondSmallest = price
         
         return money - smallest - secondSmallest if smallest + secondSmallest <= money else money
-
 ```
 

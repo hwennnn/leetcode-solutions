@@ -2,6 +2,7 @@
 title: 2731. Movement of Robots
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - brainteaser
   - sorting
@@ -9,7 +10,7 @@ tags:
 date: 2023-06-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/movement-of-robots/)
 
 ## Description
 
@@ -99,6 +100,5 @@ class Solution:
             res = (res + i * nums[i] - prefix[i] + M) % M
 
         return res
-
 ```
 

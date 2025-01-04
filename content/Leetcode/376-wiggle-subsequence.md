@@ -2,13 +2,14 @@
 title: 376. Wiggle Subsequence
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - greedy
 date: 2022-07-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/wiggle-subsequence/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
         
         return max(up, down)
         
-
 ```
 

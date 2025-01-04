@@ -2,13 +2,14 @@
 title: 951. Flip Equivalent Binary Trees
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - depth-first-search
   - binary-tree
 date: 2024-10-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/flip-equivalent-binary-trees/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
             return (go(node1.left, node2.left) and go(node1.right, node2.right)) or (go(node1.left, node2.right) and go(node1.right, node2.left))
         
         return go(root1, root2)
-
 ```
 

@@ -2,6 +2,7 @@
 title: 2053. Kth Distinct String in an Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - string
@@ -9,7 +10,7 @@ tags:
 date: 2024-08-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/kth-distinct-string-in-an-array/)
 
 ## Description
 
@@ -77,6 +78,19 @@ public:
         return "";
     }
 };
+```
+### Python
+``` py title='kth-distinct-string-in-an-array'
+class Solution:
+    def kthDistinct(self, arr: List[str], k: int) -> str:
+        counter = Counter(arr)
 
+        for x in arr:
+            if counter[x] == 1:
+                k -= 1
+            
+            if k == 0: return x
+        
+        return ""
 ```
 

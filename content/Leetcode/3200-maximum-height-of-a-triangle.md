@@ -2,12 +2,13 @@
 title: 3200. Maximum Height of a Triangle
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - enumeration
 date: 2024-06-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-height-of-a-triangle/)
 
 ## Description
 
@@ -99,6 +100,5 @@ class Solution:
             return curr
         
         return max(helper(red, blue), helper(blue, red)) - 1
-
 ```
 

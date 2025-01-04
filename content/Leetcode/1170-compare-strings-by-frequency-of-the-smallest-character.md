@@ -2,6 +2,7 @@
 title: 1170. Compare Strings by Frequency of the Smallest Character
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - string
@@ -10,7 +11,7 @@ tags:
 date: 2021-05-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/)
 
 ## Description
 
@@ -86,6 +87,5 @@ class Solution:
         
         
             
-
 ```
 

@@ -2,11 +2,12 @@
 title: 728. Self Dividing Numbers
 draft: false
 tags: 
+  - leetcode-easy
   - math
-date: 2020-02-22
+date: 2019-10-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/self-dividing-numbers/)
 
 ## Description
 
@@ -64,6 +65,32 @@ class Solution:
         
             check = True
         return temp
+```
+### Python
+``` py title='self-dividing-numbers'
+class Solution(object):
+    def selfDividingNumbers(self, left, right):
+        """
+        :type left: int
+        :type right: int
+        :rtype: List[int]
+        """
+        ans = []
+        isSelfDividing = True
+        for i in range(left, right+1):
+        # single digit
+            if i < 10:
+                ans.append(i)      
+            # check if not contains 0, aka mod 10 != 0
+            elif '0' not in str(i):
+                for d in str(i):
+                    if i%int(d):
+                        isSelfDividing = False
+                        break
+                if isSelfDividing:
+                    ans.append(i)
 
+                isSelfDividing = True
+        return ans           
 ```
 

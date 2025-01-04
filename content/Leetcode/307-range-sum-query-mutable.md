@@ -2,6 +2,7 @@
 title: 307. Range Sum Query - Mutable
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - design
   - binary-indexed-tree
@@ -9,7 +10,7 @@ tags:
 date: 2023-10-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/range-sum-query-mutable/)
 
 ## Description
 
@@ -151,6 +152,5 @@ class NumArray:
 # obj = NumArray(nums)
 # obj.update(index,val)
 # param_2 = obj.sumRange(left,right)
-
 ```
 

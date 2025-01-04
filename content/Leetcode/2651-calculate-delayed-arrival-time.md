@@ -2,11 +2,12 @@
 title: 2651. Calculate Delayed Arrival Time
 draft: false
 tags: 
+  - leetcode-easy
   - math
 date: 2023-04-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/calculate-delayed-arrival-time/)
 
 ## Description
 
@@ -51,6 +52,5 @@ date: 2023-04-23
 class Solution:
     def findDelayedArrivalTime(self, arrivalTime: int, delayedTime: int) -> int:
         return (arrivalTime + delayedTime) % 24
-
 ```
 

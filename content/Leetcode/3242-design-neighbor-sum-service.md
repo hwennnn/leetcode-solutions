@@ -2,6 +2,7 @@
 title: 3242. Design Neighbor Sum Service
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - design
@@ -10,7 +11,7 @@ tags:
 date: 2024-08-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/design-neighbor-sum-service/)
 
 ## Description
 
@@ -126,6 +127,5 @@ class neighborSum:
 # obj = neighborSum(grid)
 # param_1 = obj.adjacentSum(value)
 # param_2 = obj.diagonalSum(value)
-
 ```
 

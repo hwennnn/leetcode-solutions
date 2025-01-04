@@ -2,6 +2,7 @@
 title: 910. Smallest Range II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2022-03-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/smallest-range-ii/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
             res = min(res, maxi - mini)
         
         return res
-
 ```
 

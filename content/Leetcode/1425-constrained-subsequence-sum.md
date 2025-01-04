@@ -2,16 +2,17 @@
 title: 1425. Constrained Subsequence Sum
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - queue
   - sliding-window
-  - heap-(priority-queue)
+  - heap-priority-queue
   - monotonic-queue
 date: 2023-10-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/constrained-subsequence-sum/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
             res = max(res, curr)
 
         return res
-
 ```
 

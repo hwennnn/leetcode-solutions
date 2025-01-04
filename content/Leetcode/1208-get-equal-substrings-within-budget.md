@@ -2,6 +2,7 @@
 title: 1208. Get Equal Substrings Within Budget
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - binary-search
   - sliding-window
@@ -9,7 +10,7 @@ tags:
 date: 2024-05-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/get-equal-substrings-within-budget/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
             res = max(res, j - i + 1)
 
         return res
-
 ```
 

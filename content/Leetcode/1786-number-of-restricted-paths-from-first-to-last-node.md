@@ -2,15 +2,16 @@
 title: 1786. Number of Restricted Paths From First to Last Node
 draft: false
 tags: 
+  - leetcode-medium
   - dynamic-programming
   - graph
   - topological-sort
-  - heap-(priority-queue)
+  - heap-priority-queue
   - shortest-path
 date: 2021-12-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-restricted-paths-from-first-to-last-node/)
 
 ## Description
 
@@ -104,6 +105,5 @@ class Solution:
             return res
         
         return dfs(0)
-
 ```
 

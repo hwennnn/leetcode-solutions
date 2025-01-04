@@ -2,14 +2,15 @@
 title: 204. Count Primes
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - enumeration
   - number-theory
-date: 2021-05-10
+date: 2020-08-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-primes/)
 
 ## Description
 
@@ -65,6 +66,30 @@ class Solution:
                     arr[j] = False
         
         return sum(arr)
-
+```
+### C++
+``` cpp title='count-primes'
+class Solution {
+public:
+    int countPrimes(int n) {
+        vector<bool> arr(n, false);
+        int count = 0;
+        
+        if (n <=2){
+            return 0;
+        } 
+        
+       for (int i = 2; i < n; i++){
+           if (!arr[i]){
+               count++;
+               
+               for (int j = 2; i*j<=n; j++)
+                   arr[i*j] = true;
+           }
+       }
+        
+        return count;
+    }
+};
 ```
 

@@ -2,12 +2,13 @@
 title: 788. Rotated Digits
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - dynamic-programming
 date: 2022-09-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/rotated-digits/)
 
 ## Description
 
@@ -95,6 +96,5 @@ class Solution:
             return res
         
         return dp(0, True, False)
-
 ```
 

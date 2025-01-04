@@ -2,15 +2,16 @@
 title: 3016. Minimum Number of Pushes to Type Word II
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - greedy
   - sorting
   - counting
-date: 2024-08-06
+date: 2024-01-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/)
 
 ## Description
 
@@ -116,6 +117,26 @@ public:
         return ans;
     }
 };
-
+```
+### Python
+``` py title='minimum-number-of-pushes-to-type-word-ii'
+class Solution:
+    def minimumPushes(self, word: str) -> int:
+        N = len(word)
+        V = sorted(Counter(word).values(), reverse = 1)
+        res = 0
+        press = 1
+        count = 0
+        MAX = 8
+        
+        for v in V:
+            res += v * press
+            count += 1
+            
+            if count == MAX:
+                press += 1
+                count = 0
+        
+        return res
 ```
 

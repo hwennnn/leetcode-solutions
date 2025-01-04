@@ -2,13 +2,14 @@
 title: 2163. Minimum Difference in Sums After Removal of Elements
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2022-02-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-difference-in-sums-after-removal-of-elements/)
 
 ## Description
 
@@ -104,6 +105,5 @@ class Solution:
         
         return res
         
-
 ```
 

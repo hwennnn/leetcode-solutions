@@ -2,12 +2,13 @@
 title: 1736. Latest Time by Replacing Hidden Digits
 draft: false
 tags: 
+  - leetcode-easy
   - string
   - greedy
 date: 2021-01-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/latest-time-by-replacing-hidden-digits/)
 
 ## Description
 
@@ -81,6 +82,5 @@ class Solution:
         
         return "".join(time)
             
-
 ```
 

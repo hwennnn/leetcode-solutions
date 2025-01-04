@@ -2,6 +2,7 @@
 title: 1305. All Elements in Two Binary Search Trees
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - depth-first-search
   - binary-search-tree
@@ -10,7 +11,7 @@ tags:
 date: 2022-01-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)
 
 ## Description
 
@@ -67,6 +68,5 @@ class Solution:
         self.helperR(root.left, res)
         self.helperR(root.right, res)
         
-
 ```
 

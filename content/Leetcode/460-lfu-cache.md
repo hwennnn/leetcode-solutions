@@ -2,6 +2,7 @@
 title: 460. LFU Cache
 draft: false
 tags: 
+  - leetcode-hard
   - hash-table
   - linked-list
   - design
@@ -9,7 +10,7 @@ tags:
 date: 2023-01-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/lfu-cache/)
 
 ## Description
 
@@ -173,6 +174,5 @@ class LFUCache:
 # obj = LFUCache(capacity)
 # param_1 = obj.get(key)
 # obj.put(key,value)
-
 ```
 

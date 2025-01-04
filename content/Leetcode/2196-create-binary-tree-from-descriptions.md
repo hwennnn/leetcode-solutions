@@ -2,6 +2,7 @@
 title: 2196. Create Binary Tree From Descriptions
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - tree
@@ -9,7 +10,7 @@ tags:
 date: 2024-07-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/create-binary-tree-from-descriptions/)
 
 ## Description
 
@@ -110,6 +111,43 @@ public:
         return dfs(root);
     }
 };
+```
+### Python
+``` py title='create-binary-tree-from-descriptions'
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def createBinaryTree(self, descriptions: List[List[int]]) -> Optional[TreeNode]:
+        graph = defaultdict(list)
+        indegree = defaultdict(int)
 
+        for parent, child, isLeft in descriptions:
+            graph[parent].append((child, isLeft))
+            indegree[child] += 1
+        
+        root = -1
+        for parent, _, _ in descriptions:
+            if indegree[parent] == 0:
+                root = parent
+                break
+        
+        assert root != -1
+
+        def dfs(val):
+            node = TreeNode(val)
+
+            for child, isLeft in graph[val]:
+                if isLeft:
+                    node.left = dfs(child)
+                else:
+                    node.right = dfs(child)
+            
+            return node
+        
+        return dfs(root)
 ```
 

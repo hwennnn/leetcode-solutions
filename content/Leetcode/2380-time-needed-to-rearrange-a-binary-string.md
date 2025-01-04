@@ -2,13 +2,14 @@
 title: 2380. Time Needed to Rearrange a Binary String
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - dynamic-programming
   - simulation
 date: 2022-08-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
             res += 1
         
         return res
-
 ```
 

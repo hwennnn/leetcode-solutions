@@ -2,6 +2,7 @@
 title: 2055. Plates Between Candles
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - string
   - binary-search
@@ -9,7 +10,7 @@ tags:
 date: 2021-10-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/plates-between-candles/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
             res.append(A[j] - A[i] - (j - i) if i < j else 0)
         
         return res
-
 ```
 

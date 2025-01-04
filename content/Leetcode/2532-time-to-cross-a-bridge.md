@@ -2,13 +2,14 @@
 title: 2532. Time to Cross a Bridge
 draft: false
 tags: 
+  - leetcode-hard
   - array
-  - heap-(priority-queue)
+  - heap-priority-queue
   - simulation
 date: 2023-07-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/time-to-cross-a-bridge/)
 
 ## Description
 
@@ -126,6 +127,5 @@ class Solution:
                 ans = min(leftWorkers[0][0] if leftWorkers and n > 0 else INF, rightWorkers[0][0] if rightWorkers else INF)
 
         return ans
-
 ```
 

@@ -2,6 +2,7 @@
 title: 2411. Smallest Subarrays With Maximum Bitwise OR
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
   - bit-manipulation
@@ -9,7 +10,7 @@ tags:
 date: 2022-09-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/)
 
 ## Description
 
@@ -96,6 +97,5 @@ class Solution:
             res[i] = j - i + 2
             
         return res
-
 ```
 

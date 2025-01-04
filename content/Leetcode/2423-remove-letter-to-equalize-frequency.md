@@ -2,13 +2,14 @@
 title: 2423. Remove Letter To Equalize Frequency
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - string
   - counting
 date: 2022-10-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/remove-letter-to-equalize-frequency/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
                 return True
         
         return False
-
 ```
 

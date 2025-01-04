@@ -2,6 +2,7 @@
 title: 2563. Count the Number of Fair Pairs
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
   - binary-search
@@ -9,7 +10,7 @@ tags:
 date: 2024-11-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-the-number-of-fair-pairs/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
             sl.add(x)
 
         return res
-
 ```
 

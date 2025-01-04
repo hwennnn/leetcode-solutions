@@ -2,11 +2,12 @@
 title: 328. Odd Even Linked List
 draft: false
 tags: 
+  - leetcode-medium
   - linked-list
 date: 2022-12-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/odd-even-linked-list/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
         odd.next = e.next
         
         return o.next
-
 ```
 

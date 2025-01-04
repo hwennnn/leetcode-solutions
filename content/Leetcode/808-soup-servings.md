@@ -2,13 +2,14 @@
 title: 808. Soup Servings
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - dynamic-programming
   - probability-and-statistics
 date: 2023-07-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/soup-servings/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
             return (o1 + o2 + o3 + o4) / 4
         
         return f(n, n)
-
 ```
 

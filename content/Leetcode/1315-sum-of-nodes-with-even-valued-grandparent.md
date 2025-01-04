@@ -2,6 +2,7 @@
 title: 1315. Sum of Nodes with Even-Valued Grandparent
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - depth-first-search
   - breadth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2020-12-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/)
 
 ## Description
 
@@ -65,6 +66,5 @@ class Solution:
         
     def sumEvenGrandparent(self, root: TreeNode) -> int:
         return self.dfs(root, None, None)
-
 ```
 

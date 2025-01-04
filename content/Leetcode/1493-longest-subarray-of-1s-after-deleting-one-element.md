@@ -2,13 +2,14 @@
 title: 1493. Longest Subarray of 1's After Deleting One Element
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - sliding-window
 date: 2023-07-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
             res = max(res, j - i)
 
         return res
-
 ```
 

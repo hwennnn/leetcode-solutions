@@ -2,13 +2,14 @@
 title: 1466. Reorder Routes to Make All Paths Lead to the City Zero
 draft: false
 tags: 
+  - leetcode-medium
   - depth-first-search
   - breadth-first-search
   - graph
 date: 2023-03-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
             return res
         
         return go(0)
-
 ```
 

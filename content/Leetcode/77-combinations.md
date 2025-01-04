@@ -2,11 +2,12 @@
 title: 77. Combinations
 draft: false
 tags: 
+  - leetcode-medium
   - backtracking
 date: 2023-08-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/combinations/)
 
 ## Description
 
@@ -62,6 +63,5 @@ class Solution:
             res.append(curr)
         
         return res
-
 ```
 

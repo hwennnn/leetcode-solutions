@@ -2,6 +2,7 @@
 title: 1993. Operations on Tree
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - tree
@@ -11,7 +12,7 @@ tags:
 date: 2021-09-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/operations-on-tree/)
 
 ## Description
 
@@ -132,6 +133,5 @@ class LockingTree:
 # param_1 = obj.lock(num,user)
 # param_2 = obj.unlock(num,user)
 # param_3 = obj.upgrade(num,user)
-
 ```
 

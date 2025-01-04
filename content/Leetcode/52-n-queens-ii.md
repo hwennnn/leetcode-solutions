@@ -2,11 +2,12 @@
 title: 52. N-Queens II
 draft: false
 tags: 
+  - leetcode-hard
   - backtracking
 date: 2022-06-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/n-queens-ii/)
 
 ## Description
 
@@ -66,6 +67,5 @@ class Solution:
             return res
         
         return go(0)
-
 ```
 

@@ -2,13 +2,14 @@
 title: 2953. Count Complete Substrings
 draft: false
 tags: 
+  - leetcode-hard
   - hash-table
   - string
   - sliding-window
 date: 2023-12-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-complete-substrings/)
 
 ## Description
 
@@ -112,6 +113,5 @@ class Solution:
         res += solve(curr)
 
         return res
-
 ```
 

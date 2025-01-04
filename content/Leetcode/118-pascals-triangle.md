@@ -2,12 +2,13 @@
 title: 118. Pascal's Triangle
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - dynamic-programming
-date: 2023-09-08
+date: 2020-08-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/pascals-triangle/)
 
 ## Description
 
@@ -46,6 +47,23 @@ class Solution:
                 A[row][j] = A[row - 1][j - 1] + A[row - 1][j]
         
         return A
-
+```
+### Java
+``` java title='pascals-triangle'
+public class Solution {
+    public List<List<Integer>> generate(int numRows) {
+        List<List<Integer>> result = new ArrayList<List<Integer>>();
+        ArrayList<Integer> pre = null;
+        for (int i = 1; i <= numRows; i++) {
+            ArrayList<Integer> save = new ArrayList<>();
+            for (int j = 1; j <= i; j++)
+                if (j == 1 || j == i) save.add(1);
+                else save.add(pre.get(j-1) + pre.get(j-2));
+            result.add(save);
+            pre = save;
+        }
+        return result;
+    }
+}
 ```
 

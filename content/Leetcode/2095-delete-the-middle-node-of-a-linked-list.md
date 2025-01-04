@@ -2,12 +2,13 @@
 title: 2095. Delete the Middle Node of a Linked List
 draft: false
 tags: 
+  - leetcode-medium
   - linked-list
   - two-pointers
 date: 2022-10-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
         slow.next = slow.next.next
         
         return res.next
-
 ```
 

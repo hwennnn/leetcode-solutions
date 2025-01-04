@@ -2,13 +2,14 @@
 title: 2498. Frog Jump II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
   - greedy
 date: 2022-12-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/frog-jump-ii/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
             res = max(res, stones[i] - stones[i - 2])
         
         return res
-
 ```
 

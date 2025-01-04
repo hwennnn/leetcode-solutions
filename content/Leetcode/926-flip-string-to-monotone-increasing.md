@@ -2,12 +2,13 @@
 title: 926. Flip String to Monotone Increasing
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - dynamic-programming
 date: 2023-01-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/flip-string-to-monotone-increasing/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
             flipCount = min(flipCount, oneCount)
 
         return flipCount
-
 ```
 

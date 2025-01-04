@@ -2,13 +2,14 @@
 title: 3028. Ant on the Boundary
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - simulation
   - prefix-sum
 date: 2024-02-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/ant-on-the-boundary/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
                 res += 1
         
         return res
-
 ```
 

@@ -2,6 +2,7 @@
 title: 1601. Maximum Number of Achievable Transfer Requests
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - backtracking
   - bit-manipulation
@@ -9,7 +10,7 @@ tags:
 date: 2023-07-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-number-of-achievable-transfer-requests/)
 
 ## Description
 
@@ -94,6 +95,5 @@ class Solution:
             return res
 
         return backtrack(0)
-
 ```
 

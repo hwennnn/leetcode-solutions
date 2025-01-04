@@ -2,13 +2,14 @@
 title: 2568. Minimum Impossible OR
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - bit-manipulation
   - brainteaser
 date: 2023-02-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-impossible-or/)
 
 ## Description
 
@@ -59,6 +60,5 @@ class Solution:
                 return 1 << k
         
         return 0
-
 ```
 

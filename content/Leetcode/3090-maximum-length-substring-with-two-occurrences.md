@@ -2,13 +2,14 @@
 title: 3090. Maximum Length Substring With Two Occurrences
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - string
   - sliding-window
 date: 2024-03-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
         return res
             
         
-
 ```
 

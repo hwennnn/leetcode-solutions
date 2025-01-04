@@ -2,17 +2,18 @@
 title: 2424. Longest Uploaded Prefix
 draft: false
 tags: 
+  - leetcode-medium
   - binary-search
   - union-find
   - design
   - binary-indexed-tree
   - segment-tree
-  - heap-(priority-queue)
+  - heap-priority-queue
   - ordered-set
 date: 2022-10-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-uploaded-prefix/)
 
 ## Description
 
@@ -88,6 +89,5 @@ class LUPrefix:
 # obj = LUPrefix(n)
 # obj.upload(video)
 # param_2 = obj.longest()
-
 ```
 

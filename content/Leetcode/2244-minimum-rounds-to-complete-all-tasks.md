@@ -2,6 +2,7 @@
 title: 2244. Minimum Rounds to Complete All Tasks
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2023-01-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
                 res += v // 3 + 1
         
         return res
-
 ```
 

@@ -2,16 +2,17 @@
 title: 1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - queue
   - sliding-window
-  - heap-(priority-queue)
+  - heap-priority-queue
   - ordered-set
   - monotonic-queue
 date: 2024-06-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
 
 ## Description
 
@@ -91,7 +92,6 @@ class Solution:
             res = max(res, j - i + 1)
             
         return res
-
 
 ```
 

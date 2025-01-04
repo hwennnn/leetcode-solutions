@@ -2,12 +2,13 @@
 title: 2515. Shortest Distance to Target String in a Circular Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - string
 date: 2022-12-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
                 res = min(res, min(left, right))
         
         return -1 if res == inf else res
-
 ```
 

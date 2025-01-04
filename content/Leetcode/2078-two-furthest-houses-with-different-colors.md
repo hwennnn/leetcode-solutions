@@ -2,12 +2,13 @@
 title: 2078. Two Furthest Houses With Different Colors
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - greedy
 date: 2021-11-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/two-furthest-houses-with-different-colors/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
         
         return res
             
-
 ```
 

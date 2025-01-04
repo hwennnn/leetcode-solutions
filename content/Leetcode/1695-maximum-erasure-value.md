@@ -2,13 +2,14 @@
 title: 1695. Maximum Erasure Value
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - sliding-window
 date: 2022-06-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-erasure-value/)
 
 ## Description
 
@@ -66,6 +67,5 @@ class Solution:
             res = max(res, total)
         
         return res
-
 ```
 

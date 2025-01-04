@@ -2,12 +2,13 @@
 title: 1720. Decode XORed Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - bit-manipulation
 date: 2021-01-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/decode-xored-array/)
 
 ## Description
 
@@ -60,6 +61,5 @@ class Solution:
             res.append(res[-1] ^ encoded[i])
         
         return res
-
 ```
 

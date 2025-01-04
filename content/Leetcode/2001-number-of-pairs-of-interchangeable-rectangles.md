@@ -2,6 +2,7 @@
 title: 2001. Number of Pairs of Interchangeable Rectangles
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - math
@@ -10,7 +11,7 @@ tags:
 date: 2021-09-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
         
         return res
         
-
 ```
 

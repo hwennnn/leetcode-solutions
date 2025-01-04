@@ -2,12 +2,13 @@
 title: 2543. Check if Point Is Reachable
 draft: false
 tags: 
+  - leetcode-hard
   - math
   - number-theory
 date: 2023-01-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-point-is-reachable/)
 
 ## Description
 
@@ -60,6 +61,5 @@ class Solution:
         g = gcd(targetX, targetY)
 
         return g.bit_count() == 1
-
 ```
 

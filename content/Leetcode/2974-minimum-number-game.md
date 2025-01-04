@@ -2,14 +2,15 @@
 title: 2974. Minimum Number Game
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
   - simulation
 date: 2023-12-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-game/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
             res.append(alice)
         
         return res
-
 ```
 

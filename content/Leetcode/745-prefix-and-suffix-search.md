@@ -2,6 +2,7 @@
 title: 745. Prefix and Suffix Search
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - string
@@ -10,7 +11,7 @@ tags:
 date: 2022-06-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/prefix-and-suffix-search/)
 
 ## Description
 
@@ -88,6 +89,5 @@ class WordFilter:
 # Your WordFilter object will be instantiated and called as such:
 # obj = WordFilter(words)
 # param_1 = obj.f(prefix,suffix)
-
 ```
 

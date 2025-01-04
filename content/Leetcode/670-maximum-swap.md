@@ -2,12 +2,13 @@
 title: 670. Maximum Swap
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - greedy
 date: 2024-10-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-swap/)
 
 ## Description
 
@@ -62,6 +63,5 @@ class Solution:
         
         return int("".join(num))
         
-
 ```
 

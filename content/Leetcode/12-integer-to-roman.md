@@ -2,13 +2,14 @@
 title: 12. Integer to Roman
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - math
   - string
 date: 2022-10-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/integer-to-roman/)
 
 ## Description
 
@@ -139,6 +140,5 @@ class Solution:
                 num %= x
         
         return res
-
 ```
 

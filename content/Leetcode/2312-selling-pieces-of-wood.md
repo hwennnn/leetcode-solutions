@@ -2,13 +2,14 @@
 title: 2312. Selling Pieces of Wood
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - memoization
 date: 2022-06-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/selling-pieces-of-wood/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
         return dp[m][n]
         
         
-
 ```
 

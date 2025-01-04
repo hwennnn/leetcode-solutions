@@ -2,13 +2,14 @@
 title: 2961. Double Modular Exponentiation
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - simulation
 date: 2023-12-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/double-modular-exponentiation/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
                 res.append(index)
         
         return res
-
 ```
 

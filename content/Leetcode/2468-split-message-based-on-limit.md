@@ -2,12 +2,13 @@
 title: 2468. Split Message Based on Limit
 draft: false
 tags: 
+  - leetcode-hard
   - string
   - binary-search
 date: 2022-11-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/split-message-based-on-limit/)
 
 ## Description
 
@@ -84,7 +85,6 @@ class Solution:
             curr += 1
         
         return res
-
 
 
 ```

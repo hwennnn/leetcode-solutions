@@ -2,13 +2,14 @@
 title: 2975. Maximum Square Area by Removing Fences From a Field
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - enumeration
 date: 2023-12-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
         
         return pow(max(s), 2, MOD)
         
-
 ```
 

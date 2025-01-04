@@ -2,15 +2,16 @@
 title: 1488. Avoid Flood in The City
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - binary-search
   - greedy
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2022-04-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/avoid-flood-in-the-city/)
 
 ## Description
 
@@ -112,6 +113,5 @@ class Solution:
                     res.append(-1)
         
         return res
-
 ```
 

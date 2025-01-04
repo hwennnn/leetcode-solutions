@@ -2,11 +2,12 @@
 title: 1758. Minimum Changes To Make Alternating Binary String
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2023-12-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
                 count2 += x != '0'
 
         return min(count1, count2)
-
 ```
 

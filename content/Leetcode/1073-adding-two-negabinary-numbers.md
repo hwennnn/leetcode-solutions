@@ -2,12 +2,13 @@
 title: 1073. Adding Two Negabinary Numbers
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
 date: 2021-05-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/adding-two-negabinary-numbers/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
         while len(res) > 1 and res[-1] == 0: res.pop()
         
         return res[::-1]
-
 ```
 

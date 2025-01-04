@@ -2,13 +2,14 @@
 title: 2331. Evaluate Boolean Binary Tree
 draft: false
 tags: 
+  - leetcode-easy
   - tree
   - depth-first-search
   - binary-tree
 date: 2024-05-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/evaluate-boolean-binary-tree/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
                 return dfs(node.left) and dfs(node.right)
         
         return dfs(root)
-
 ```
 

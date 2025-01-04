@@ -2,6 +2,7 @@
 title: 2044. Count Number of Maximum Bitwise-OR Subsets
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - backtracking
   - bit-manipulation
@@ -9,7 +10,7 @@ tags:
 date: 2024-10-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
             mp[s] += 1
 
         return mp[mmax]
-
 ```
 

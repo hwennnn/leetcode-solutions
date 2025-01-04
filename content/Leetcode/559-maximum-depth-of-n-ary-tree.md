@@ -2,13 +2,14 @@
 title: 559. Maximum Depth of N-ary Tree
 draft: false
 tags: 
+  - leetcode-easy
   - tree
   - depth-first-search
   - breadth-first-search
 date: 2020-02-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)
 
 ## Description
 
@@ -67,6 +68,5 @@ class Solution:
         if not root.children: return 1
         
         return max(self.maxDepth(child) for child in root.children) + 1
-
 ```
 

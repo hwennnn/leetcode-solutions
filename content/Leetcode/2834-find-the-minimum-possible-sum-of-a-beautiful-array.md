@@ -2,12 +2,13 @@
 title: 2834. Find the Minimum Possible Sum of a Beautiful Array
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - greedy
 date: 2023-08-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
             
         
         return res
-
 ```
 

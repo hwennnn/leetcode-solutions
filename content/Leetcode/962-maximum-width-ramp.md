@@ -2,13 +2,14 @@
 title: 962. Maximum Width Ramp
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - stack
   - monotonic-stack
 date: 2025-01-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-width-ramp/)
 
 ## Description
 
@@ -63,6 +64,5 @@ class Solution:
                 res = max(res, i - stack.pop())
             
         return res
-
 ```
 

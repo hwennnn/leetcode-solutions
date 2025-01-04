@@ -2,11 +2,12 @@
 title: 709. To Lower Case
 draft: false
 tags: 
+  - leetcode-easy
   - string
-date: 2022-03-08
+date: 2019-10-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/to-lower-case/)
 
 ## Description
 
@@ -52,6 +53,16 @@ date: 2022-03-08
 class Solution:
     def toLowerCase(self, s: str) -> str:
         return s.lower()
-
+```
+### Python
+``` py title='to-lower-case'
+class Solution(object):
+    def toLowerCase(self, str):
+        """
+        :type str: str
+        :rtype: str
+        """
+        return str.lower()
+        
 ```
 

@@ -2,12 +2,13 @@
 title: 1482. Minimum Number of Days to Make m Bouquets
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
 date: 2024-06-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)
 
 ## Description
 
@@ -104,7 +105,6 @@ class Solution:
                 left = mid + 1
         
         return res if res != inf else -1
-
 
 ```
 

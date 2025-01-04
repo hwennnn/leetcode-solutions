@@ -2,6 +2,7 @@
 title: 496. Next Greater Element I
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - stack
@@ -9,7 +10,7 @@ tags:
 date: 2023-08-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/next-greater-element-i/)
 
 ## Description
 
@@ -74,7 +75,6 @@ class Solution:
             stack.append(x)
         
         return [-1 if x not in mp else mp[x] for x in nums1]
-
 
 ```
 

@@ -2,18 +2,19 @@
 title: 1738. Find Kth Largest XOR Coordinate Value
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - divide-and-conquer
   - bit-manipulation
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
   - matrix
   - prefix-sum
   - quickselect
 date: 2021-01-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
                 res.append(matrix[i][j])
                 
         return sorted(res)[-k]
-
 ```
 

@@ -2,12 +2,13 @@
 title: 2815. Max Pair Sum in an Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
 date: 2023-08-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/max-pair-sum-in-an-array/)
 
 ## Description
 
@@ -94,6 +95,5 @@ class Solution:
                     res = max(res, nums[i] + nums[j])
         
         return res
-
 ```
 

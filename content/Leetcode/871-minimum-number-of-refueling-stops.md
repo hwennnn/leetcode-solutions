@@ -2,14 +2,15 @@
 title: 871. Minimum Number of Refueling Stops
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - greedy
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2022-08-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-refueling-stops/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
                 i += 1
             
         return res if curr >= target else -1
-
 ```
 

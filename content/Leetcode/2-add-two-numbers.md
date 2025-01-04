@@ -2,13 +2,14 @@
 title: 2. Add Two Numbers
 draft: false
 tags: 
+  - leetcode-medium
   - linked-list
   - math
   - recursion
-date: 2022-03-26
+date: 2021-01-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/add-two-numbers/)
 
 ## Description
 
@@ -79,6 +80,46 @@ class Solution:
             carry //= 10
         
         return res.next
-
+```
+### C++
+``` cpp title='add-two-numbers'
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+class Solution {
+public:
+    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
+        ListNode res(-1), *curr = &res;
+        
+        int carry = 0;
+        
+        while (l1 || l2 || carry > 0){
+            if (l1){
+                carry += l1->val;
+                l1 = l1->next;
+            }
+            
+            if (l2){
+                carry += l2->val;
+                l2 = l2->next;
+            }
+            
+            curr->next = new ListNode(carry%10);
+            curr = curr->next;
+            
+            carry /= 10;
+                
+        }
+        
+        return res.next;
+    }
+};
 ```
 

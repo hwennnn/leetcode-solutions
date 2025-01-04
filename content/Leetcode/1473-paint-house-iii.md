@@ -2,12 +2,13 @@
 title: 1473. Paint House III
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
 date: 2022-07-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/paint-house-iii/)
 
 ## Description
 
@@ -106,6 +107,5 @@ class Solution:
         
         ans = go(0, -1, 0)
         return ans if ans != INF else -1
-
 ```
 

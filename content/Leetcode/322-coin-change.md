@@ -2,13 +2,14 @@
 title: 322. Coin Change
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - breadth-first-search
 date: 2024-08-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/coin-change/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
         ans = dp[-1]
 
         return -1 if ans == inf else ans
-
 ```
 

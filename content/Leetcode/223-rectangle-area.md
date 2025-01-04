@@ -2,12 +2,13 @@
 title: 223. Rectangle Area
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - geometry
 date: 2022-11-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/rectangle-area/)
 
 ## Description
 
@@ -58,6 +59,5 @@ class Solution:
         overlap = w * h
         
         return areaA + areaB - overlap
-
 ```
 

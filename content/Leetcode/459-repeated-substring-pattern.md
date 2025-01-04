@@ -2,12 +2,13 @@
 title: 459. Repeated Substring Pattern
 draft: false
 tags: 
+  - leetcode-easy
   - string
   - string-matching
 date: 2023-08-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/repeated-substring-pattern/)
 
 ## Description
 
@@ -55,6 +56,5 @@ date: 2023-08-21
 class Solution:
     def repeatedSubstringPattern(self, s: str) -> bool:
         return s in (s + s)[1:-1]
-
 ```
 

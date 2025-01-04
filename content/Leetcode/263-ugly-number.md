@@ -2,11 +2,12 @@
 title: 263. Ugly Number
 draft: false
 tags: 
+  - leetcode-easy
   - math
 date: 2022-11-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/ugly-number/)
 
 ## Description
 
@@ -62,6 +63,5 @@ class Solution:
         while n % 2 == 0: n //= 2
 
         return n == 1
-
 ```
 

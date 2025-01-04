@@ -2,6 +2,7 @@
 title: 3154. Find Number of Ways to Reach the K-th Stair
 draft: false
 tags: 
+  - leetcode-hard
   - math
   - dynamic-programming
   - bit-manipulation
@@ -10,7 +11,7 @@ tags:
 date: 2024-05-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-number-of-ways-to-reach-the-k-th-stair/)
 
 ## Description
 
@@ -126,6 +127,5 @@ class Solution:
 
         return go(1, 0, True)
             
-
 ```
 

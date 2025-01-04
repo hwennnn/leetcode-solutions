@@ -2,12 +2,13 @@
 title: 1003. Check If Word Is Valid After Substitutions
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - stack
 date: 2022-02-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/)
 
 ## Description
 
@@ -94,6 +95,5 @@ class Solution:
                 
                 
         return len(s) == 0
-
 ```
 

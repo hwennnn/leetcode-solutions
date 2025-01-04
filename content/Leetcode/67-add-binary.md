@@ -2,6 +2,7 @@
 title: 67. Add Binary
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - string
   - bit-manipulation
@@ -9,7 +10,7 @@ tags:
 date: 2023-02-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/add-binary/)
 
 ## Description
 
@@ -59,6 +60,5 @@ class Solution:
             carry //= 2
         
         return "".join(res[::-1])
-
 ```
 

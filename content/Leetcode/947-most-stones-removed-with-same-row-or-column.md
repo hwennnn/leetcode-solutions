@@ -2,6 +2,7 @@
 title: 947. Most Stones Removed with Same Row or Column
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - depth-first-search
   - union-find
@@ -9,7 +10,7 @@ tags:
 date: 2024-12-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)
 
 ## Description
 
@@ -118,6 +119,5 @@ class Solution:
             parents.add(p)
         
         return N - len(parents)
-
 ```
 

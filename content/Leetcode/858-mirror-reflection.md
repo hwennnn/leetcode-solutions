@@ -2,13 +2,14 @@
 title: 858. Mirror Reflection
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - geometry
   - number-theory
 date: 2022-08-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/mirror-reflection/)
 
 ## Description
 
@@ -54,6 +55,5 @@ class Solution:
     def mirrorReflection(self, p, q):
         while p % 2 == 0 and q % 2 == 0: p, q = p // 2, q // 2
         return 1 - p % 2 + q % 2
-
 ```
 

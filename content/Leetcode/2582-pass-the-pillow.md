@@ -2,12 +2,13 @@
 title: 2582. Pass the Pillow
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - simulation
 date: 2024-07-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/pass-the-pillow/)
 
 ## Description
 
@@ -67,6 +68,5 @@ class Solution:
                 direction = -direction
         
         return curr
-
 ```
 

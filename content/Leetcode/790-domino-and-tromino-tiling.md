@@ -2,11 +2,12 @@
 title: 790. Domino and Tromino Tiling
 draft: false
 tags: 
+  - leetcode-medium
   - dynamic-programming
 date: 2022-12-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/domino-and-tromino-tiling/)
 
 ## Description
 
@@ -54,6 +55,5 @@ class Solution:
             a, b, c = b, c, (c + c + a) % (10 ** 9 + 7)
             
         return c
-
 ```
 

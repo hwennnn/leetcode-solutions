@@ -2,11 +2,12 @@
 title: 485. Max Consecutive Ones
 draft: false
 tags: 
+  - leetcode-easy
   - array
 date: 2021-09-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/max-consecutive-ones/)
 
 ## Description
 
@@ -56,6 +57,5 @@ class Solution:
             res = max(res, ones)
         
         return res
-
 ```
 

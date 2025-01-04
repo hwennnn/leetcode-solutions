@@ -2,13 +2,14 @@
 title: 2605. Form Smallest Number From Two Digit Arrays
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - enumeration
 date: 2023-04-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/)
 
 ## Description
 
@@ -63,6 +64,5 @@ class Solution:
             
         return min(A)
                 
-
 ```
 

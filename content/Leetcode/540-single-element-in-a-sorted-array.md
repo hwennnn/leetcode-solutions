@@ -2,12 +2,13 @@
 title: 540. Single Element in a Sorted Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
 date: 2023-02-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/single-element-in-a-sorted-array/)
 
 ## Description
 
@@ -54,6 +55,5 @@ class Solution:
                 right = mid
         
         return nums[left]
-
 ```
 

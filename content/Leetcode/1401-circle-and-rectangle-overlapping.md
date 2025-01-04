@@ -2,12 +2,13 @@
 title: 1401. Circle and Rectangle Overlapping
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - geometry
 date: 2020-10-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/circle-and-rectangle-overlapping/)
 
 ## Description
 
@@ -67,6 +68,5 @@ public:
         return minX + minY <= radius * radius;
     }
 };
-
 ```
 

@@ -2,13 +2,14 @@
 title: 1706. Where Will the Ball Fall
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - matrix
   - simulation
 date: 2022-11-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/where-will-the-ball-fall/)
 
 ## Description
 
@@ -92,6 +93,5 @@ class Solution:
                 return go(x + 1, y - 1)
             
         return [go(0, y) for y in range(cols)]
-
 ```
 

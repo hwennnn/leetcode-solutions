@@ -2,13 +2,14 @@
 title: 2750. Ways to Split Array Into Good Subarrays
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - dynamic-programming
 date: 2023-06-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/ways-to-split-array-into-good-subarrays/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
             res %= M
         
         return res
-
 ```
 

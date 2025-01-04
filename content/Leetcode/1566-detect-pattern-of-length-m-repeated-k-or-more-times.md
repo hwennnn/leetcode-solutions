@@ -2,12 +2,13 @@
 title: 1566. Detect Pattern of Length M Repeated K or More Times
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - enumeration
-date: 2020-08-31
+date: 2020-08-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/)
 
 ## Description
 
@@ -76,6 +77,25 @@ class Solution:
         
         return False
             
-
+```
+### C++
+``` cpp title='detect-pattern-of-length-m-repeated-k-or-more-times'
+class Solution {
+public:
+    bool containsPattern(vector<int>& arr, int m, int k) {
+        int cnt=0;
+        for(int i=0;i+m < arr.size(); i++){
+            
+            if(arr[i]!=arr[i+m]){
+              cnt=0;  
+            }
+            cnt += (arr[i] == arr[i+m]);
+            if(cnt == (k-1)*m)
+                return true;
+            
+        }
+        return false;
+    }
+};
 ```
 

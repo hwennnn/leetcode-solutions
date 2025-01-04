@@ -2,12 +2,13 @@
 title: 1528. Shuffle String
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - string
-date: 2020-10-12
+date: 2020-08-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/shuffle-string/)
 
 ## Description
 
@@ -59,6 +60,23 @@ class Solution:
         
         return "".join(res)
             
-
+```
+### C++
+``` cpp title='shuffle-string'
+class Solution {
+public:
+    string restoreString(string s, vector<int>& indices) {
+        
+        for (int i = 0; i < indices.size(); i++){
+            
+            while (indices[i] != i){
+                swap(s[i], s[indices[i]]);
+                swap(indices[i],indices[indices[i]]);
+            }
+        }
+        
+        return s;
+    }
+};
 ```
 

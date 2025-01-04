@@ -2,12 +2,13 @@
 title: 1043. Partition Array for Maximum Sum
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
 date: 2024-02-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/partition-array-for-maximum-sum/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
             return res
         
         return go(0)
-
 ```
 

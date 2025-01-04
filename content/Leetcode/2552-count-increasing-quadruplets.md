@@ -2,6 +2,7 @@
 title: 2552. Count Increasing Quadruplets
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - binary-indexed-tree
@@ -10,7 +11,7 @@ tags:
 date: 2023-01-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-increasing-quadruplets/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class Solution:
                     res += left[j][nums[k]] * right[k][nums[j]]
         
         return res
-
 ```
 

@@ -2,12 +2,13 @@
 title: 2374. Node With Highest Edge Score
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - graph
 date: 2022-08-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/node-with-highest-edge-score/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
         
         return res
         
-
 ```
 

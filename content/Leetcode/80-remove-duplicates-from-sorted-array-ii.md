@@ -2,12 +2,13 @@
 title: 80. Remove Duplicates from Sorted Array II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
 date: 2022-02-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
         
         return i
             
-
 ```
 

@@ -2,6 +2,7 @@
 title: 1146. Snapshot Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - binary-search
@@ -9,7 +10,7 @@ tags:
 date: 2023-06-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/snapshot-array/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class SnapshotArray:
 # obj.set(index,val)
 # param_2 = obj.snap()
 # param_3 = obj.get(index,snap_id)
-
 ```
 

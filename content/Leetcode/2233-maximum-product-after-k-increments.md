@@ -2,13 +2,14 @@
 title: 2233. Maximum Product After K Increments
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2022-04-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-product-after-k-increments/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
 
         return x
         
-
 ```
 

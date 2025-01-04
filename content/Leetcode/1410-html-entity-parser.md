@@ -2,12 +2,13 @@
 title: 1410. HTML Entity Parser
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
 date: 2020-10-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/html-entity-parser/)
 
 ## Description
 
@@ -89,6 +90,5 @@ class Solution:
                 special = "&"
             
         return res
-
 ```
 

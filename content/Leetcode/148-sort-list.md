@@ -2,6 +2,7 @@
 title: 148. Sort List
 draft: false
 tags: 
+  - leetcode-medium
   - linked-list
   - two-pointers
   - divide-and-conquer
@@ -10,7 +11,7 @@ tags:
 date: 2022-06-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/sort-list/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class Solution:
         pre.next = None
         
         return merge(self.sortList(head), self.sortList(slow))
-
 ```
 

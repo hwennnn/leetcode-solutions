@@ -2,12 +2,13 @@
 title: 1304. Find N Unique Integers Sum up to Zero
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - math
 date: 2020-12-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/)
 
 ## Description
 
@@ -65,6 +66,5 @@ class Solution:
         
         return res
             
-
 ```
 

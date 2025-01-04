@@ -2,13 +2,14 @@
 title: 22. Generate Parentheses
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - dynamic-programming
   - backtracking
 date: 2021-09-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/generate-parentheses/)
 
 ## Description
 
@@ -53,6 +54,5 @@ class Solution:
             
         backtrack(0, 0, "")
         return res
-
 ```
 

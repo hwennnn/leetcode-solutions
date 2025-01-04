@@ -2,12 +2,13 @@
 title: 1144. Decrease Elements To Make Array Zigzag
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
 date: 2021-05-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/decrease-elements-to-make-array-zigzag/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
         
         return min(helper(0), helper(1))
                 
-
 ```
 

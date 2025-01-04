@@ -2,11 +2,12 @@
 title: 1557. Minimum Number of Vertices to Reach All Nodes
 draft: false
 tags: 
+  - leetcode-medium
   - graph
 date: 2023-05-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
                 res.append(i)
         
         return res
-
 ```
 

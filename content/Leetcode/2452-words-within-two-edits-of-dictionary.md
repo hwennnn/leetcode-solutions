@@ -2,12 +2,13 @@
 title: 2452. Words Within Two Edits of Dictionary
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - string
 date: 2022-10-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/words-within-two-edits-of-dictionary/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
                     break
 
         return res
-
 ```
 

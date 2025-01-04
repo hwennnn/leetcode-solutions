@@ -2,13 +2,14 @@
 title: 1979. Find Greatest Common Divisor of Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - math
   - number-theory
 date: 2021-08-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-greatest-common-divisor-of-array/)
 
 ## Description
 
@@ -68,6 +69,5 @@ The greatest common divisor of 3 and 3 is 3.
 class Solution:
     def findGCD(self, nums: List[int]) -> int:
         return gcd(max(nums), min(nums))
-
 ```
 

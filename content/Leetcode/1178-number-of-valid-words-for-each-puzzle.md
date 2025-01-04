@@ -2,6 +2,7 @@
 title: 1178. Number of Valid Words for Each Puzzle
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - string
@@ -10,7 +11,7 @@ tags:
 date: 2021-11-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/)
 
 ## Description
 
@@ -95,6 +96,5 @@ class Solution:
                 sub = (sub - 1) & mask
         
         return res
-
 ```
 

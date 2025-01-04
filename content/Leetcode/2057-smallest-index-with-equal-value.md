@@ -2,11 +2,12 @@
 title: 2057. Smallest Index With Equal Value
 draft: false
 tags: 
+  - leetcode-easy
   - array
 date: 2021-10-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/smallest-index-with-equal-value/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
                 return i
             
         return -1
-
 ```
 

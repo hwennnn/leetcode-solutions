@@ -2,12 +2,13 @@
 title: 2942. Find Words Containing Character
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - string
 date: 2023-11-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-words-containing-character/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
                 res.append(i)
         
         return res
-
 ```
 

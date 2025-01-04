@@ -2,13 +2,14 @@
 title: 1137. N-th Tribonacci Number
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - dynamic-programming
   - memoization
-date: 2024-08-14
+date: 2019-10-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/n-th-tribonacci-number/)
 
 ## Description
 
@@ -61,6 +62,33 @@ class Solution:
             a, b, c = b, c, a + b + c
         
         return a + b + c
-
+```
+### C++
+``` cpp title='n-th-tribonacci-number'
+class Solution {
+public:
+    int arr[38];
+    int recur(int n){
+        if (arr[n] != -1) return arr[n];
+        int result = recur(n-1) + recur(n-2) + recur(n-3);
+        arr[n] = result;
+        return result;
+    }
+    int tribonacci(int n) {
+        fill_n(arr, 38, -1);
+        arr[0] = 0;
+        arr[1] = 1;
+        arr[2] = 1;
+        return recur(n);
+    }
+};
+```
+### Python
+``` py title='n-th-tribonacci-number'
+class Solution(object):
+    def tribonacci(self, n):
+        a, b, c = 1, 0, 0
+        for _ in xrange(n): a, b, c = b, c, a + b + c
+        return c
 ```
 

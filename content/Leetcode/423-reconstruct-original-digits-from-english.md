@@ -2,13 +2,14 @@
 title: 423. Reconstruct Original Digits from English
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - math
   - string
 date: 2021-03-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/reconstruct-original-digits-from-english/)
 
 ## Description
 
@@ -49,7 +50,6 @@ class Solution:
             cnt -= Counter(digits[i]*cnt[x])
             
         return "".join(str(i)*x for i, x in enumerate(freq))
-
 
 ```
 

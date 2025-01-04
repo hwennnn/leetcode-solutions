@@ -2,13 +2,14 @@
 title: 2661. First Completely Painted Row or Column
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - matrix
 date: 2023-04-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/first-completely-painted-row-or-column/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
                 return index
         
         return -1
-
 ```
 

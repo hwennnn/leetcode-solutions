@@ -2,13 +2,14 @@
 title: 318. Maximum Product of Word Lengths
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - string
   - bit-manipulation
 date: 2022-05-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-product-of-word-lengths/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
         
         return res
         
-
 ```
 

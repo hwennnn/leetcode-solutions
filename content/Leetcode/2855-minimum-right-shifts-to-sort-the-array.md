@@ -2,11 +2,12 @@
 title: 2855. Minimum Right Shifts to Sort the Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
 date: 2023-09-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-right-shifts-to-sort-the-array/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
             nums = [nums[-1]] + nums[:-1]
 
         return -1
-
 ```
 

@@ -2,11 +2,12 @@
 title: 1185. Day of the Week
 draft: false
 tags: 
+  - leetcode-easy
   - math
 date: 2021-05-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/day-of-the-week/)
 
 ## Description
 
@@ -58,6 +59,5 @@ class Solution:
         from datetime import datetime
         return days[datetime(y, m, d).weekday()]
         
-
 ```
 

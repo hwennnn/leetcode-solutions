@@ -2,6 +2,7 @@
 title: 2170. Minimum Operations to Make the Array Alternating
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2022-02-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-operations-to-make-the-array-alternating/)
 
 ## Description
 
@@ -93,6 +94,5 @@ class Solution:
         else:
             return n - o[0][1] - e[0][1]
         
-
 ```
 

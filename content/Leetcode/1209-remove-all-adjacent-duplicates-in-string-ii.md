@@ -2,12 +2,13 @@
 title: 1209. Remove All Adjacent Duplicates in String II
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - stack
 date: 2022-05-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
                 stack.pop()
             
         return "".join(x * cnt for x, cnt in stack)
-
 ```
 

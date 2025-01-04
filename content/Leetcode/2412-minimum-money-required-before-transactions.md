@@ -2,13 +2,14 @@
 title: 2412. Minimum Money Required Before Transactions
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - greedy
   - sorting
 date: 2022-09-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-money-required-before-transactions/)
 
 ## Description
 
@@ -65,6 +66,5 @@ class Solution:
             res = max(res, diff - max(0, i - j) + i)
         
         return res
-
 ```
 

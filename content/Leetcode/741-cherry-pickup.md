@@ -2,13 +2,14 @@
 title: 741. Cherry Pickup
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - matrix
 date: 2022-01-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/cherry-pickup/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class Solution:
             return res
         
         return max(0, go(0, 0, 0, 0) + grid[0][0])
-
 ```
 

@@ -2,6 +2,7 @@
 title: 2225. Find Players With Zero or One Losses
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - sorting
@@ -9,7 +10,7 @@ tags:
 date: 2024-01-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-players-with-zero-or-one-losses/)
 
 ## Description
 
@@ -93,6 +94,5 @@ class Solution:
         res[1].sort()
 
         return res
-
 ```
 

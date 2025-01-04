@@ -2,12 +2,13 @@
 title: 2091. Removing Minimum and Maximum From Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
 date: 2021-11-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/)
 
 ## Description
 
@@ -88,6 +89,5 @@ class Solution:
         removeFromLeftAndRight = (min(mini, maxi) + 1) + (n - max(mini, maxi))
         
         return min(removeFromLeft, removeFromRight, removeFromLeftAndRight)
-
 ```
 

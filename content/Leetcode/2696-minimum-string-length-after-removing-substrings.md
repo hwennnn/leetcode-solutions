@@ -2,13 +2,14 @@
 title: 2696. Minimum String Length After Removing Substrings
 draft: false
 tags: 
+  - leetcode-easy
   - string
   - stack
   - simulation
 date: 2024-10-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/)
 
 ## Description
 
@@ -64,6 +65,5 @@ class Solution:
             s = s.replace('CD', '')
         
         return len(s)
-
 ```
 

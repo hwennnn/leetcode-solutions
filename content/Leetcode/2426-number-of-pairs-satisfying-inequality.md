@@ -2,6 +2,7 @@
 title: 2426. Number of Pairs Satisfying Inequality
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - divide-and-conquer
@@ -12,7 +13,7 @@ tags:
 date: 2022-10-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-pairs-satisfying-inequality/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
             sl.add(nums1[j] - nums2[j])
         
         return res
-
 ```
 

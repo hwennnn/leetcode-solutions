@@ -2,6 +2,7 @@
 title: 698. Partition to K Equal Sum Subsets
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - backtracking
@@ -11,7 +12,7 @@ tags:
 date: 2022-07-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
             return False
         
         return go(0)
-
 ```
 

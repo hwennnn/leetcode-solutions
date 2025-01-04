@@ -2,13 +2,14 @@
 title: 2269. Find the K-Beauty of a Number
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - string
   - sliding-window
 date: 2022-06-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-k-beauty-of-a-number/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
                 res += 1
         
         return res
-
 ```
 

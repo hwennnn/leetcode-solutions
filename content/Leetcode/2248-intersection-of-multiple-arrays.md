@@ -2,6 +2,7 @@
 title: 2248. Intersection of Multiple Arrays
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - sorting
@@ -9,7 +10,7 @@ tags:
 date: 2022-04-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/intersection-of-multiple-arrays/)
 
 ## Description
 
@@ -65,6 +66,5 @@ class Solution:
                 res.append(k)
         
         return sorted(res)
-
 ```
 

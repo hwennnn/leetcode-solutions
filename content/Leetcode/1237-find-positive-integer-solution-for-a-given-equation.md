@@ -2,6 +2,7 @@
 title: 1237. Find Positive Integer Solution for a Given Equation
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - two-pointers
   - binary-search
@@ -9,7 +10,7 @@ tags:
 date: 2021-01-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-positive-integer-solution-for-a-given-equation/)
 
 ## Description
 
@@ -106,6 +107,5 @@ class Solution:
                 res.append([x,y])
         
         return res
-
 ```
 

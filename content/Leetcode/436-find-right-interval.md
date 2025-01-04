@@ -2,13 +2,14 @@
 title: 436. Find Right Interval
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
   - sorting
 date: 2022-04-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-right-interval/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
         
         return res
         
-
 ```
 

@@ -2,12 +2,13 @@
 title: 2580. Count Ways to Group Overlapping Ranges
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - sorting
 date: 2023-03-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-ways-to-group-overlapping-ranges/)
 
 ## Description
 
@@ -92,6 +93,5 @@ class Solution:
         
         
         
-
 ```
 

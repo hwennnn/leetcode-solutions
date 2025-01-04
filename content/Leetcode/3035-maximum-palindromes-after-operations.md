@@ -2,6 +2,7 @@
 title: 3035. Maximum Palindromes After Operations
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - string
@@ -11,7 +12,7 @@ tags:
 date: 2024-02-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-palindromes-after-operations/)
 
 ## Description
 
@@ -95,6 +96,5 @@ class Solution:
         
         return res
             
-
 ```
 

@@ -2,12 +2,13 @@
 title: 2859. Sum of Values at Indices With K Set Bits
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - bit-manipulation
 date: 2023-09-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
                 res += x
         
         return res
-
 ```
 

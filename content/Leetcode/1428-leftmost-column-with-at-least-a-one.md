@@ -2,6 +2,7 @@
 title: 1428. Leftmost Column with at Least a One
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
   - matrix
@@ -9,7 +10,7 @@ tags:
 date: 2020-04-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/)
 
 ## Description
 
@@ -44,6 +45,5 @@ class Solution:
             if left < m and binaryMatrix.get(i,left) == 1:
                 res = min(res, left)
         return res if res < float('inf') else -1
-
 ```
 

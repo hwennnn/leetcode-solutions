@@ -2,16 +2,17 @@
 title: 1368. Minimum Cost to Make at Least One Valid Path in a Grid
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - breadth-first-search
   - graph
-  - heap-(priority-queue)
+  - heap-priority-queue
   - matrix
   - shortest-path
 date: 2021-12-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
 
 ## Description
 
@@ -118,6 +119,5 @@ class Solution:
                             queue.append((new, dx, dy))
         
         return dist[-1][-1]
-
 ```
 

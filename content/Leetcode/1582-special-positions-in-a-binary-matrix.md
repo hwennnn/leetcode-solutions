@@ -2,12 +2,13 @@
 title: 1582. Special Positions in a Binary Matrix
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - matrix
 date: 2023-12-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/special-positions-in-a-binary-matrix/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
                     res += 1
 
         return res
-
 ```
 

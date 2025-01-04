@@ -2,6 +2,7 @@
 title: 968. Binary Tree Cameras
 draft: false
 tags: 
+  - leetcode-hard
   - dynamic-programming
   - tree
   - depth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2022-06-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/binary-tree-cameras/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
             res += 1
         
         return res
-
 ```
 

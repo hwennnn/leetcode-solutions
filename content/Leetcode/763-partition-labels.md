@@ -2,14 +2,15 @@
 title: 763. Partition Labels
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - two-pointers
   - string
   - greedy
-date: 2022-03-21
+date: 2020-09-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/partition-labels/)
 
 ## Description
 
@@ -77,6 +78,29 @@ class Solution:
         
         return res
                 
-
+```
+### C++
+``` cpp title='partition-labels'
+class Solution {
+public:
+    vector<int> partitionLabels(string S) {
+        vector<int> res, pos(26, 0);  
+        for (auto i = 0; i < S.size(); ++i){
+          pos[S[i] - 'a'] = i;
+        }
+        
+        int maxIdx = INT_MIN, lastIdx = 0;
+        
+        for (auto i = 0; i < S.size(); i++){
+            maxIdx = max(maxIdx, pos[S[i] - 'a']);
+            if (i == maxIdx){
+                res.push_back(maxIdx - lastIdx + 1);
+                lastIdx = i + 1;
+            }
+        }
+        
+        return res;      
+    }
+};
 ```
 

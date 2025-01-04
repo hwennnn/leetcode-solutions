@@ -2,13 +2,14 @@
 title: 2276. Count Integers in Intervals
 draft: false
 tags: 
+  - leetcode-hard
   - design
   - segment-tree
   - ordered-set
 date: 2022-05-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-integers-in-intervals/)
 
 ## Description
 
@@ -112,6 +113,5 @@ class CountIntervals:
 # obj = CountIntervals()
 # obj.add(left,right)
 # param_2 = obj.count()
-
 ```
 

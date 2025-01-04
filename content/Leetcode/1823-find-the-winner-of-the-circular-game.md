@@ -2,6 +2,7 @@
 title: 1823. Find the Winner of the Circular Game
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - recursion
@@ -10,7 +11,7 @@ tags:
 date: 2024-07-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)
 
 ## Description
 
@@ -81,6 +82,5 @@ class Solution:
             return (go(n - 1) + k) % n
         
         return go(n) + 1
-
 ```
 

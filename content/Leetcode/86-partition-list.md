@@ -2,12 +2,13 @@
 title: 86. Partition List
 draft: false
 tags: 
+  - leetcode-medium
   - linked-list
   - two-pointers
 date: 2023-08-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/partition-list/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
         smaller.next = g.next
         
         return s.next
-
 ```
 

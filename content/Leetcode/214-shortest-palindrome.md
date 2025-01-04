@@ -2,6 +2,7 @@
 title: 214. Shortest Palindrome
 draft: false
 tags: 
+  - leetcode-hard
   - string
   - rolling-hash
   - string-matching
@@ -9,7 +10,7 @@ tags:
 date: 2024-09-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/shortest-palindrome/)
 
 ## Description
 
@@ -46,6 +47,5 @@ class Solution:
         for i in range(len(s) + 1):
             if s.startswith(r[i:]):
                 return r[:i] + s
-
 ```
 

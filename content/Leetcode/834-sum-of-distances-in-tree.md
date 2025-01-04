@@ -2,6 +2,7 @@
 title: 834. Sum of Distances in Tree
 draft: false
 tags: 
+  - leetcode-hard
   - dynamic-programming
   - tree
   - depth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2024-04-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/sum-of-distances-in-tree/)
 
 ## Description
 
@@ -98,6 +99,5 @@ class Solution:
         dfs2(0, -1)
 
         return res
-
 ```
 

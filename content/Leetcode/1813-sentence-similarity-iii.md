@@ -2,13 +2,14 @@
 title: 1813. Sentence Similarity III
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
   - string
 date: 2024-10-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/sentence-similarity-iii/)
 
 ## Description
 
@@ -98,6 +99,5 @@ class Solution:
             return len(a) == 0
         
         return good(s1, s2) or good(s2, s1)
-
 ```
 

@@ -2,6 +2,7 @@
 title: 2430. Maximum Deletions on a String
 draft: false
 tags: 
+  - leetcode-hard
   - string
   - dynamic-programming
   - rolling-hash
@@ -10,7 +11,7 @@ tags:
 date: 2022-10-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-deletions-on-a-string/)
 
 ## Description
 
@@ -105,6 +106,5 @@ class Solution:
                     dp[i] = 1 + dp[i+j]
 
         return dp[0]
-
 ```
 

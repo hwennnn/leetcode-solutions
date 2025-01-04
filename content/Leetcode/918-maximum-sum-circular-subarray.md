@@ -2,6 +2,7 @@
 title: 918. Maximum Sum Circular Subarray
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - divide-and-conquer
   - dynamic-programming
@@ -10,7 +11,7 @@ tags:
 date: 2023-01-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-sum-circular-subarray/)
 
 ## Description
 
@@ -74,7 +75,6 @@ class Solution:
             total += nums[i]
         
         return max(mmax, total - mmin) if mmax > 0 else mmax
-
 
 ```
 

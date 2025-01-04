@@ -2,16 +2,17 @@
 title: 2762. Continuous Subarrays
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - queue
   - sliding-window
-  - heap-(priority-queue)
+  - heap-priority-queue
   - ordered-set
   - monotonic-queue
 date: 2024-12-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/continuous-subarrays/)
 
 ## Description
 
@@ -89,6 +90,5 @@ class Solution:
             res += j - i + 1
         
         return res
-
 ```
 

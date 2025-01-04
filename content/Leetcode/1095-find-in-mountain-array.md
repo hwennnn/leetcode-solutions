@@ -2,13 +2,14 @@
 title: 1095. Find in Mountain Array
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - interactive
 date: 2023-10-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-in-mountain-array/)
 
 ## Description
 
@@ -118,6 +119,5 @@ class Solution:
         return -1
         
         
-
 ```
 

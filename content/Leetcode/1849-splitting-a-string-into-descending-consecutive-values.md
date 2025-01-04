@@ -2,12 +2,13 @@
 title: 1849. Splitting a String Into Descending Consecutive Values
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - backtracking
 date: 2021-05-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/splitting-a-string-into-descending-consecutive-values/)
 
 ## Description
 
@@ -89,6 +90,5 @@ class Solution:
         
         return False
         
-
 ```
 

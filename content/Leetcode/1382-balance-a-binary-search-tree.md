@@ -2,6 +2,7 @@
 title: 1382. Balance a Binary Search Tree
 draft: false
 tags: 
+  - leetcode-medium
   - divide-and-conquer
   - greedy
   - tree
@@ -11,7 +12,7 @@ tags:
 date: 2024-06-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/balance-a-binary-search-tree/)
 
 ## Description
 
@@ -81,6 +82,5 @@ class Solution:
             return node
 
         return build(0, len(A) - 1)
-
 ```
 

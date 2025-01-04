@@ -2,12 +2,13 @@
 title: 2789. Largest Element in an Array after Merge Operations
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
 date: 2023-07-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/largest-element-in-an-array-after-merge-operations/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
             res = max(res, nums[i])
         
         return res
-
 ```
 

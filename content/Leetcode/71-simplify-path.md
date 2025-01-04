@@ -2,12 +2,13 @@
 title: 71. Simplify Path
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - stack
 date: 2023-04-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/simplify-path/)
 
 ## Description
 
@@ -124,6 +125,5 @@ class Solution:
                 stack.append(x)
 
         return "/" + "/".join(stack)
-
 ```
 

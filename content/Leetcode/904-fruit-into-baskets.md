@@ -2,13 +2,14 @@
 title: 904. Fruit Into Baskets
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - sliding-window
 date: 2023-02-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/fruit-into-baskets/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
             res = max(res, j - i + 1)
 
         return res
-
 ```
 

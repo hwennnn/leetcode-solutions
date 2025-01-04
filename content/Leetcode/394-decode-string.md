@@ -2,13 +2,14 @@
 title: 394. Decode String
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - stack
   - recursion
 date: 2022-07-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/decode-string/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
                 stack.append(x)
         
         return "".join(stack)
-
 ```
 

@@ -2,13 +2,14 @@
 title: 986. Interval List Intersections
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
   - line-sweep
 date: 2022-02-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/interval-list-intersections/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
                 j += 1
         
         return res
-
 ```
 

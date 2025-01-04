@@ -2,12 +2,13 @@
 title: 1583. Count Unhappy Friends
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - simulation
 date: 2023-10-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-unhappy-friends/)
 
 ## Description
 
@@ -101,6 +102,5 @@ class Solution:
                     break
 
         return res
-
 ```
 

@@ -2,13 +2,14 @@
 title: 452. Minimum Number of Arrows to Burst Balloons
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
   - sorting
 date: 2024-03-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
                 shoot = points[i][1]
         
         return res
-
 ```
 

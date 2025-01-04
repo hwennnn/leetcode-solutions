@@ -2,15 +2,16 @@
 title: 1696. Jump Game VI
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - queue
-  - heap-(priority-queue)
+  - heap-priority-queue
   - monotonic-queue
 date: 2022-07-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/jump-game-vi/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
                 queue.popleft()
         
         return nums[-1]
-
 ```
 

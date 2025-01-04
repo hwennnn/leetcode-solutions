@@ -2,6 +2,7 @@
 title: 2465. Number of Distinct Averages
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - two-pointers
@@ -9,7 +10,7 @@ tags:
 date: 2022-11-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-distinct-averages/)
 
 ## Description
 
@@ -81,6 +82,5 @@ class Solution:
             s.add((nums[i] + nums[~i]) / 2)
         
         return len(s)
-
 ```
 

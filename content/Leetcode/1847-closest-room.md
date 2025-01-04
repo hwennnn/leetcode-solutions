@@ -2,6 +2,7 @@
 title: 1847. Closest Room
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - sorting
@@ -9,7 +10,7 @@ tags:
 date: 2021-05-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/closest-room/)
 
 ## Description
 
@@ -92,6 +93,5 @@ class Solution:
                 p2 += 1
 
         return ans
-
 ```
 

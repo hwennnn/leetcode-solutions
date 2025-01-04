@@ -2,11 +2,12 @@
 title: 8. String to Integer (atoi)
 draft: false
 tags: 
+  - leetcode-medium
   - string
 date: 2022-01-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/string-to-integer-atoi/)
 
 ## Description
 
@@ -156,6 +157,5 @@ class Solution:
             res *= -1
         
         return max(INT_MIN, min(res, INT_MAX))
-
 ```
 

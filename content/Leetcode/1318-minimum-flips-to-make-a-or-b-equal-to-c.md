@@ -2,11 +2,12 @@
 title: 1318. Minimum Flips to Make a OR b Equal to c
 draft: false
 tags: 
+  - leetcode-medium
   - bit-manipulation
 date: 2023-06-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/)
 
 ## Description
 
@@ -72,7 +73,6 @@ class Solution:
                 res += ones
 
         return res
-
 
 
 ```

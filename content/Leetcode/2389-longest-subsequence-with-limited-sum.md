@@ -2,6 +2,7 @@
 title: 2389. Longest Subsequence With Limited Sum
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - binary-search
   - greedy
@@ -10,7 +11,7 @@ tags:
 date: 2022-12-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-subsequence-with-limited-sum/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
 
         return res
             
-
 ```
 

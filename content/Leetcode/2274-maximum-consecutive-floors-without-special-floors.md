@@ -2,12 +2,13 @@
 title: 2274. Maximum Consecutive Floors Without Special Floors
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - sorting
 date: 2022-05-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors/)
 
 ## Description
 
@@ -65,6 +66,5 @@ class Solution:
             last = x + 1
         
         return res
-
 ```
 

@@ -2,6 +2,7 @@
 title: 2963. Count the Number of Good Partitions
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - math
@@ -9,7 +10,7 @@ tags:
 date: 2023-12-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-the-number-of-good-partitions/)
 
 ## Description
 
@@ -86,6 +87,5 @@ class Solution:
                 a, b = c, d
 
         return res
-
 ```
 

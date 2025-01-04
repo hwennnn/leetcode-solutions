@@ -2,16 +2,17 @@
 title: 3081. Replace Question Marks in String to Minimize Its Value
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - greedy
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
   - counting
 date: 2024-03-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/replace-question-marks-in-string-to-minimize-its-value/)
 
 ## Description
 
@@ -114,6 +115,5 @@ class Solution:
                 j += 1
         
         return "".join(res)
-
 ```
 

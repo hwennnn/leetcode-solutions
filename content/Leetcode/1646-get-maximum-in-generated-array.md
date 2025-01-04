@@ -2,12 +2,13 @@
 title: 1646. Get Maximum in Generated Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - simulation
 date: 2021-01-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/get-maximum-in-generated-array/)
 
 ## Description
 
@@ -86,6 +87,5 @@ class Solution:
             i += 1
             
         return max(res)
-
 ```
 

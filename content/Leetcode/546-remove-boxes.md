@@ -2,13 +2,14 @@
 title: 546. Remove Boxes
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - memoization
 date: 2021-08-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/remove-boxes/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
                     res=max(res, dfs(i2,m-1,0)+dfs(m,j,k+cnt))
             return res
         return dfs(0,len(boxes)-1,0)
-
 ```
 

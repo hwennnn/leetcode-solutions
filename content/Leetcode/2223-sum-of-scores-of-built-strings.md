@@ -2,6 +2,7 @@
 title: 2223. Sum of Scores of Built Strings
 draft: false
 tags: 
+  - leetcode-hard
   - string
   - binary-search
   - rolling-hash
@@ -11,7 +12,7 @@ tags:
 date: 2024-02-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/sum-of-scores-of-built-strings/)
 
 ## Description
 
@@ -94,6 +95,5 @@ public:
         return accumulate(Z.begin(), Z.end(), 0LL) + s.size();
     }
 };
-
 ```
 

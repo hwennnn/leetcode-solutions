@@ -2,13 +2,14 @@
 title: 932. Beautiful Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - divide-and-conquer
 date: 2022-03-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/beautiful-array/)
 
 ## Description
 
@@ -46,6 +47,5 @@ date: 2022-03-05
 class Solution:
     def beautifulArray(self, N: int) -> List[int]:
         return sorted(range(1, N + 1), key = lambda x : bin(x)[:1:-1])
-
 ```
 

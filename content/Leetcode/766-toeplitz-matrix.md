@@ -2,12 +2,13 @@
 title: 766. Toeplitz Matrix
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - matrix
 date: 2022-10-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/toeplitz-matrix/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class Solution:
         return True
                 
             
-
 ```
 

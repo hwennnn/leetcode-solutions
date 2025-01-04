@@ -2,6 +2,7 @@
 title: 535. Encode and Decode TinyURL
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - design
@@ -9,7 +10,7 @@ tags:
 date: 2022-04-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/encode-and-decode-tinyurl/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Codec:
 # Your Codec object will be instantiated and called as such:
 # codec = Codec()
 # codec.decode(codec.encode(url))
-
 ```
 

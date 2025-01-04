@@ -2,13 +2,14 @@
 title: 867. Transpose Matrix
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - matrix
   - simulation
 date: 2023-12-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/transpose-matrix/)
 
 ## Description
 
@@ -59,6 +60,5 @@ class Solution:
             res.append(col)
         
         return res
-
 ```
 

@@ -2,6 +2,7 @@
 title: 2601. Prime Subtraction Operation
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - binary-search
@@ -10,7 +11,7 @@ tags:
 date: 2024-11-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/prime-subtraction-operation/)
 
 ## Description
 
@@ -104,6 +105,5 @@ class Solution:
             nums[i] = curr
         
         return all(b > a for a, b in zip(nums, nums[1:]))
-
 ```
 

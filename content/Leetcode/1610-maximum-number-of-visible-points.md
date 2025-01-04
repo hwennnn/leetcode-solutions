@@ -2,6 +2,7 @@
 title: 1610. Maximum Number of Visible Points
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - math
   - geometry
@@ -10,7 +11,7 @@ tags:
 date: 2020-10-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-number-of-visible-points/)
 
 ## Description
 
@@ -94,6 +95,5 @@ class Solution:
             ans = max(ans, r - l + 1)
             
         return ans + extra
-
 ```
 

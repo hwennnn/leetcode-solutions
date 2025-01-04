@@ -2,12 +2,13 @@
 title: 2256. Minimum Average Difference
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - prefix-sum
 date: 2022-12-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-average-difference/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
                 index = i
         
         return index
-
 ```
 

@@ -2,12 +2,13 @@
 title: 2483. Minimum Penalty for a Shop
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - prefix-sum
 date: 2023-08-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-penalty-for-a-shop/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class Solution:
                 penalty, t = curr, i + 1
         
         return t
-
 ```
 

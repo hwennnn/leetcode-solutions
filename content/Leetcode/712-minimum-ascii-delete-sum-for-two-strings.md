@@ -2,12 +2,13 @@
 title: 712. Minimum ASCII Delete Sum for Two Strings
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - dynamic-programming
 date: 2024-08-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/)
 
 ## Description
 
@@ -71,7 +72,6 @@ class Solution:
                     dp[i + 1][j + 1] = min(dp[i][j + 1] + ord(s1[i]), dp[i + 1][j] + ord(s2[j]))
         
         return dp[M][N]
-
 
 ```
 

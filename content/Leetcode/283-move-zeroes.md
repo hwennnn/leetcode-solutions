@@ -2,12 +2,13 @@
 title: 283. Move Zeroes
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - two-pointers
 date: 2022-03-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/move-zeroes/)
 
 ## Description
 
@@ -51,6 +52,5 @@ class Solution:
             if x != 0:
                 nums[i], nums[zeroPos] = nums[zeroPos], nums[i]
                 zeroPos += 1
-
 ```
 

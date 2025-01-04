@@ -2,6 +2,7 @@
 title: 2352. Equal Row and Column Pairs
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - matrix
@@ -9,7 +10,7 @@ tags:
 date: 2023-06-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/equal-row-and-column-pairs/)
 
 ## Description
 
@@ -75,7 +76,6 @@ class Solution:
             res += v * C[k]
         
         return res
-
 
 
 ```

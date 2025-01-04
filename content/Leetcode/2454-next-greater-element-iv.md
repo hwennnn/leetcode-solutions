@@ -2,16 +2,17 @@
 title: 2454. Next Greater Element IV
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - stack
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
   - monotonic-stack
 date: 2022-10-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/next-greater-element-iv/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class Solution:
             stack.append(i)
 
         return res
-
 ```
 

@@ -2,6 +2,7 @@
 title: 1028. Recover a Tree From Preorder Traversal
 draft: false
 tags: 
+  - leetcode-hard
   - string
   - tree
   - depth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2022-01-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/)
 
 ## Description
 
@@ -100,6 +101,5 @@ class Solution:
             stack.pop()
         
         return stack.pop()
-
 ```
 

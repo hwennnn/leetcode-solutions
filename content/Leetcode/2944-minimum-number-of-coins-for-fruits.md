@@ -2,15 +2,16 @@
 title: 2944. Minimum Number of Coins for Fruits
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - queue
-  - heap-(priority-queue)
+  - heap-priority-queue
   - monotonic-queue
 date: 2023-11-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-coins-for-fruits/)
 
 ## Description
 
@@ -120,6 +121,5 @@ class Solution:
             return res
             
         return go(0, 0)
-
 ```
 

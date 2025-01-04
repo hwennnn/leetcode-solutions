@@ -2,13 +2,14 @@
 title: 1946. Largest Number After Mutating Substring
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - string
   - greedy
 date: 2023-08-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/largest-number-after-mutating-substring/)
 
 ## Description
 
@@ -89,6 +90,5 @@ class Solution:
                 num[i] = str(c)
         
         return "".join(num)
-
 ```
 

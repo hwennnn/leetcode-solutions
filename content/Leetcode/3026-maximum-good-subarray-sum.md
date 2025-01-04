@@ -2,13 +2,14 @@
 title: 3026. Maximum Good Subarray Sum
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - prefix-sum
 date: 2024-02-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-good-subarray-sum/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
                 pos[x] = i
         
         return res if res != -inf else 0
-
 ```
 

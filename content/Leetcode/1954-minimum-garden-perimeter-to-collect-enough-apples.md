@@ -2,12 +2,13 @@
 title: 1954. Minimum Garden Perimeter to Collect Enough Apples
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - binary-search
 date: 2021-08-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-garden-perimeter-to-collect-enough-apples/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
             i += 1
             
         return i * 8 
-
 ```
 

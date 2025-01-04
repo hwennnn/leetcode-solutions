@@ -2,6 +2,7 @@
 title: 146. LRU Cache
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - linked-list
   - design
@@ -9,7 +10,7 @@ tags:
 date: 2024-08-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/lru-cache/)
 
 ## Description
 
@@ -130,6 +131,5 @@ class LRUCache:
 # obj = LRUCache(capacity)
 # param_1 = obj.get(key)
 # obj.put(key,value)
-
 ```
 

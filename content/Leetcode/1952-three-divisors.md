@@ -2,13 +2,14 @@
 title: 1952. Three Divisors
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - enumeration
   - number-theory
 date: 2021-08-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/three-divisors/)
 
 ## Description
 
@@ -57,6 +58,5 @@ class Solution:
             if res > 3: return False
         
         return res == 3
-
 ```
 

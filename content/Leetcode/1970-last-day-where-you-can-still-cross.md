@@ -2,6 +2,7 @@
 title: 1970. Last Day Where You Can Still Cross
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - depth-first-search
@@ -11,7 +12,7 @@ tags:
 date: 2023-06-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/last-day-where-you-can-still-cross/)
 
 ## Description
 
@@ -110,7 +111,6 @@ class Solution:
                 right = mid - 1
         
         return left
-
 
 ```
 

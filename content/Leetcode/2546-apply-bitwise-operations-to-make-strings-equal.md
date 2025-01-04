@@ -2,12 +2,13 @@
 title: 2546. Apply Bitwise Operations to Make Strings Equal
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - bit-manipulation
 date: 2023-01-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/apply-bitwise-operations-to-make-strings-equal/)
 
 ## Description
 
@@ -65,6 +66,5 @@ class Solution:
         
             
             
-
 ```
 

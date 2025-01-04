@@ -2,12 +2,13 @@
 title: 2188. Minimum Time to Finish the Race
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
 date: 2022-02-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-time-to-finish-the-race/)
 
 ## Description
 
@@ -98,6 +99,5 @@ class Solution:
                 dp[i] = min(dp[i], dp[j] + changeTime + dp[i - j])
         
         return dp[numLaps]
-
 ```
 

@@ -2,12 +2,13 @@
 title: 1805. Number of Different Integers in a String
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - string
 date: 2021-03-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-different-integers-in-a-string/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
                 tmp = ""
 
         return len(s)
-
 ```
 

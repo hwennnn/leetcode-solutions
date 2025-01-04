@@ -2,14 +2,15 @@
 title: 2342. Max Sum of a Pair With Equal Sum of Digits
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2022-07-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
             
         
         return res
-
 ```
 

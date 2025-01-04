@@ -2,13 +2,14 @@
 title: 3222. Find the Winning Player in Coin Game
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - simulation
   - game-theory
 date: 2024-07-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-winning-player-in-coin-game/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
                 return "Bob" if alice else 'Alice'
             
             alice = not alice
-
 ```
 

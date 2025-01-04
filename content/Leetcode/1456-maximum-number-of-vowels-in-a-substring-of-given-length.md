@@ -2,12 +2,13 @@
 title: 1456. Maximum Number of Vowels in a Substring of Given Length
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - sliding-window
 date: 2023-05-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
                 res = count
         
         return res
-
 ```
 

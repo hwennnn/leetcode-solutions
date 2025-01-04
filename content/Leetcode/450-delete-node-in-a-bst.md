@@ -2,13 +2,14 @@
 title: 450. Delete Node in a BST
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - binary-search-tree
   - binary-tree
 date: 2021-11-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/delete-node-in-a-bst/)
 
 ## Description
 
@@ -102,6 +103,5 @@ class Solution:
             return node
                 
         return go(root, key)
-
 ```
 

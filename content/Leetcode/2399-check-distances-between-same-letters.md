@@ -2,13 +2,14 @@
 title: 2399. Check Distances Between Same Letters
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - string
 date: 2022-09-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-distances-between-same-letters/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
                     return False
             
         return True
-
 ```
 

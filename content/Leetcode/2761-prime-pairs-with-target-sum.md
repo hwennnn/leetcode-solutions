@@ -2,6 +2,7 @@
 title: 2761. Prime Pairs With Target Sum
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - enumeration
@@ -9,7 +10,7 @@ tags:
 date: 2023-07-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/prime-pairs-with-target-sum/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
                 res.append([x, target])
 
         return res
-
 ```
 

@@ -2,6 +2,7 @@
 title: 726. Number of Atoms
 draft: false
 tags: 
+  - leetcode-hard
   - hash-table
   - string
   - stack
@@ -9,7 +10,7 @@ tags:
 date: 2024-07-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-atoms/)
 
 ## Description
 
@@ -137,7 +138,6 @@ class Solution:
             i += 1
 
         return "".join([k + (str(v) if v > 1 else "") for k, v in sorted(stack[-1].items())])
-
 
 
 ```

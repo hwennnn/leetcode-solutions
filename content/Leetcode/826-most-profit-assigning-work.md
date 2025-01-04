@@ -2,6 +2,7 @@
 title: 826. Most Profit Assigning Work
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
   - binary-search
@@ -10,7 +11,7 @@ tags:
 date: 2024-06-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/most-profit-assigning-work/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
             res += maxProfit
 
         return res
-
 ```
 

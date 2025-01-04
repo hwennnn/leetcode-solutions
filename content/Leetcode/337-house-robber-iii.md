@@ -2,6 +2,7 @@
 title: 337. House Robber III
 draft: false
 tags: 
+  - leetcode-medium
   - dynamic-programming
   - tree
   - depth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2021-12-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/house-robber-iii/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
             return 0 + rob(node.left) + rob(node.right)
         
         return rob(root)
-
 ```
 

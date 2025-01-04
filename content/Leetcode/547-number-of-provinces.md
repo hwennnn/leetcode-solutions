@@ -2,6 +2,7 @@
 title: 547. Number of Provinces
 draft: false
 tags: 
+  - leetcode-medium
   - depth-first-search
   - breadth-first-search
   - union-find
@@ -9,7 +10,7 @@ tags:
 date: 2023-06-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-provinces/)
 
 ## Description
 
@@ -91,7 +92,6 @@ class Solution:
                     uf.union(i, j)
         
         return uf.connected
-
 
 ```
 

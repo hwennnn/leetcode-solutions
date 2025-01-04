@@ -2,6 +2,7 @@
 title: 845. Longest Mountain in Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
   - dynamic-programming
@@ -9,7 +10,7 @@ tags:
 date: 2020-11-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-mountain-in-array/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
             if A[i] > A[i + 1]: down[i] = down[i + 1] + 1
         return max([u + d + 1 for u, d in zip(up, down) if u and d] or [0])
         
-
 ```
 

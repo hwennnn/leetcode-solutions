@@ -2,11 +2,12 @@
 title: 2787. Ways to Express an Integer as Sum of Powers
 draft: false
 tags: 
+  - leetcode-medium
   - dynamic-programming
 date: 2023-07-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
             base += 1
             
         return dp[n]
-
 ```
 

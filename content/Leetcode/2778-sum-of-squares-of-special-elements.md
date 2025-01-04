@@ -2,12 +2,13 @@
 title: 2778. Sum of Squares of Special Elements 
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - enumeration
 date: 2023-07-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/sum-of-squares-of-special-elements/)
 
 ## Description
 
@@ -62,6 +63,5 @@ class Solution:
         
         return res
     
-
 ```
 

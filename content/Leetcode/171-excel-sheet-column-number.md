@@ -2,12 +2,13 @@
 title: 171. Excel Sheet Column Number
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - string
 date: 2022-02-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/excel-sheet-column-number/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
             res = res * 26 + ord(x) - ord('A') + 1
         
         return res
-
 ```
 

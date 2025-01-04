@@ -2,6 +2,7 @@
 title: 1671. Minimum Number of Removals to Make Mountain Array
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - dynamic-programming
@@ -9,7 +10,7 @@ tags:
 date: 2024-10-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array/)
 
 ## Description
 
@@ -86,6 +87,5 @@ class Solution:
         
         # The minimum removals needed to form a mountain array
         return N - max_mountain_len
-
 ```
 

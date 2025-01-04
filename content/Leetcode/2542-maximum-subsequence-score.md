@@ -2,14 +2,15 @@
 title: 2542. Maximum Subsequence Score
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2023-05-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-subsequence-score/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
                 res = max(res, total * mmin)
 
         return res
-
 ```
 

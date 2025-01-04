@@ -2,11 +2,12 @@
 title: 1281. Subtract the Product and Sum of Digits of an Integer
 draft: false
 tags: 
+  - leetcode-easy
   - math
 date: 2022-03-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)
 
 ## Description
 
@@ -58,6 +59,5 @@ class Solution:
             c += int(x)
         
         return p - c
-
 ```
 

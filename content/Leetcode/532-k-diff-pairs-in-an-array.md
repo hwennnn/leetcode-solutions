@@ -2,6 +2,7 @@
 title: 532. K-diff Pairs in an Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - two-pointers
@@ -10,7 +11,7 @@ tags:
 date: 2022-02-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/k-diff-pairs-in-an-array/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
                 res += 1
 
         return res
-
 ```
 

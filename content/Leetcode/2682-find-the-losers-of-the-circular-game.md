@@ -2,13 +2,14 @@
 title: 2682. Find the Losers of the Circular Game
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - simulation
 date: 2023-05-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-losers-of-the-circular-game/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
             m += 1
         
         return [x + 1 for x in range(n) if x not in vis]
-
 ```
 

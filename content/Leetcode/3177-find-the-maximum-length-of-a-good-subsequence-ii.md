@@ -2,13 +2,14 @@
 title: 3177. Find the Maximum Length of a Good Subsequence II
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - dynamic-programming
 date: 2024-06-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-maximum-length-of-a-good-subsequence-ii/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
             res = max(res, dp[i][k])
         
         return res
-
 ```
 

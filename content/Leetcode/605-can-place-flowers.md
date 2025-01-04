@@ -2,12 +2,13 @@
 title: 605. Can Place Flowers
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - greedy
 date: 2023-03-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/can-place-flowers/)
 
 ## Description
 
@@ -57,6 +58,5 @@ class Solution:
             if n == 0: return True
 
         return n == 0
-
 ```
 

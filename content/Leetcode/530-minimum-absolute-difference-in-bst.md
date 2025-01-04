@@ -2,6 +2,7 @@
 title: 530. Minimum Absolute Difference in BST
 draft: false
 tags: 
+  - leetcode-easy
   - tree
   - depth-first-search
   - breadth-first-search
@@ -10,7 +11,7 @@ tags:
 date: 2023-06-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
         
         go(root)
         return res
-
 ```
 

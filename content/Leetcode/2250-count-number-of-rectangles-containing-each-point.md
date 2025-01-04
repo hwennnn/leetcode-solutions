@@ -2,6 +2,7 @@
 title: 2250. Count Number of Rectangles Containing Each Point
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
   - binary-indexed-tree
@@ -9,7 +10,7 @@ tags:
 date: 2022-04-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)
 
 ## Description
 
@@ -94,6 +95,5 @@ class Solution:
             res.append(count)
         
         return res
-
 ```
 

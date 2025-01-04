@@ -2,6 +2,7 @@
 title: 2033. Minimum Operations to Make a Uni-Value Grid
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - sorting
@@ -9,7 +10,7 @@ tags:
 date: 2021-10-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class Solution:
         
         mid = n // 2
         return go(A[mid]) if n & 1 else min(go(A[mid - 1]), go(A[mid]))
-
 ```
 

@@ -2,11 +2,11 @@
 title: 2627. Debounce
 draft: false
 tags: 
-
+  - leetcode-medium
 date: 2023-05-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/debounce/)
 
 ## Description
 
@@ -115,6 +115,5 @@ function debounce(fn: F, t: number): F {
  * log('Hello'); // cancelled
  * log('Hello'); // Logged at t=100ms
  */
-
 ```
 

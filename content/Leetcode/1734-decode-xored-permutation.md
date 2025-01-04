@@ -2,12 +2,13 @@
 title: 1734. Decode XORed Permutation
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - bit-manipulation
 date: 2021-01-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/decode-xored-permutation/)
 
 ## Description
 
@@ -65,6 +66,5 @@ class Solution:
             res.append(res[-1] ^ x)
         
         return res
-
 ```
 

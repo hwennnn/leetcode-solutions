@@ -2,13 +2,14 @@
 title: 1588. Sum of All Odd Length Subarrays
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - math
   - prefix-sum
 date: 2022-03-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
             res += x * math.ceil(((i + 1) * (n - i)) / 2)
         
         return res
-
 ```
 

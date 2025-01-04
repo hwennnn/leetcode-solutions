@@ -2,12 +2,13 @@
 title: 2771. Longest Non-decreasing Subarray From Two Arrays
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
 date: 2023-07-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-non-decreasing-subarray-from-two-arrays/)
 
 ## Description
 
@@ -95,6 +96,5 @@ class Solution:
         
         return ans
         
-
 ```
 

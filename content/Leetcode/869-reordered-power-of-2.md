@@ -2,6 +2,7 @@
 title: 869. Reordered Power of 2
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - math
   - sorting
@@ -10,7 +11,7 @@ tags:
 date: 2022-08-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/reordered-power-of-2/)
 
 ## Description
 
@@ -52,6 +53,5 @@ class Solution:
         c = collections.Counter(str(N))
         
         return any([c == collections.Counter(str(1 << n)) for n in range(30)])
-
 ```
 

@@ -2,12 +2,13 @@
 title: 1913. Maximum Product Difference Between Two Pairs
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - sorting
 date: 2023-12-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/)
 
 ## Description
 
@@ -59,6 +60,5 @@ class Solution:
         nums.sort()
         
         return (nums[-1] * nums[-2]) - (nums[0] * nums[1])
-
 ```
 

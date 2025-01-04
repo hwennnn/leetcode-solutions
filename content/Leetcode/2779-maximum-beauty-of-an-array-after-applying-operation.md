@@ -2,6 +2,7 @@
 title: 2779. Maximum Beauty of an Array After Applying Operation
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
   - sliding-window
@@ -9,7 +10,7 @@ tags:
 date: 2024-12-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
             res = max(res, j - i + 1)
 
         return res
-
 ```
 

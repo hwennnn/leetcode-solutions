@@ -2,6 +2,7 @@
 title: 1690. Stone Game VII
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - dynamic-programming
@@ -9,7 +10,7 @@ tags:
 date: 2021-06-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/stone-game-vii/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
             return dp[i][j]
         
         return dfs(0, n - 1)
-
 ```
 

@@ -2,11 +2,12 @@
 title: 1780. Check if Number is a Sum of Powers of Three
 draft: false
 tags: 
+  - leetcode-medium
   - math
 date: 2021-04-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/)
 
 ## Description
 
@@ -60,6 +61,5 @@ class Solution:
             n //= 3
             
         return n == 1
-
 ```
 

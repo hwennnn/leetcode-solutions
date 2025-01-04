@@ -2,6 +2,7 @@
 title: 939. Minimum Area Rectangle
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - math
@@ -10,7 +11,7 @@ tags:
 date: 2022-02-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-area-rectangle/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
                     res = min(res, area)
                         
         return 0 if res == float('inf') else res
-
 ```
 

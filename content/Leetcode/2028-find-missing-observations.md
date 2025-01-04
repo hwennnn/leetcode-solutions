@@ -2,13 +2,14 @@
 title: 2028. Find Missing Observations
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - simulation
 date: 2024-12-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-missing-observations/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
             if rem == 0: break
 
         return res
-
 ```
 

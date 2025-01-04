@@ -2,16 +2,17 @@
 title: 2813. Maximum Elegance of a K-Length Subsequence
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - stack
   - greedy
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2023-09-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-elegance-of-a-k-length-subsequence/)
 
 ## Description
 
@@ -106,6 +107,5 @@ class Solution:
             res = max(res, profits + len(used) * len(used))
         
         return res
-
 ```
 

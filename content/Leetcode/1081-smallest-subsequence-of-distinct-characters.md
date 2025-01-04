@@ -2,6 +2,7 @@
 title: 1081. Smallest Subsequence of Distinct Characters
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - stack
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2022-03-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)
 
 ## Description
 
@@ -65,6 +66,5 @@ class Solution:
             put.add(x)
         
         return "".join(stack)
-
 ```
 

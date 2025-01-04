@@ -2,13 +2,14 @@
 title: 2294. Partition Array Such That Maximum Difference Is K
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
   - sorting
 date: 2022-06-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/partition-array-such-that-maximum-difference-is-k/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class Solution:
                 mmax = mmin = nums[i]
         
         return res
-
 ```
 

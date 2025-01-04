@@ -2,13 +2,14 @@
 title: 2011. Final Value of Variable After Performing Operations
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - string
   - simulation
 date: 2021-09-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
                 res -= 1
         
         return res
-
 ```
 

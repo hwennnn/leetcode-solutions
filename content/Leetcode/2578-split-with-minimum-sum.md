@@ -2,13 +2,14 @@
 title: 2578. Split With Minimum Sum
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - greedy
   - sorting
 date: 2023-03-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/split-with-minimum-sum/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
                 second = second * 10 + s[i]
         
         return first + second
-
 ```
 

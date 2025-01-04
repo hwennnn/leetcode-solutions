@@ -2,12 +2,13 @@
 title: 3180. Maximum Total Reward Using Operations I
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
 date: 2024-06-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-total-reward-using-operations-i/)
 
 ## Description
 
@@ -85,7 +86,6 @@ class Solution:
             return res
         
         return go(0, 0)
-
 
 
 ```

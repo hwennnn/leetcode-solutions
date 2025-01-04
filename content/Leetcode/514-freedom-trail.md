@@ -2,6 +2,7 @@
 title: 514. Freedom Trail
 draft: false
 tags: 
+  - leetcode-hard
   - string
   - dynamic-programming
   - depth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2024-04-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/freedom-trail/)
 
 ## Description
 
@@ -86,6 +87,5 @@ class Solution:
             return res
         
         return go(0, 0) + M
-
 ```
 

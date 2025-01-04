@@ -2,12 +2,13 @@
 title: 1886. Determine Whether Matrix Can Be Obtained By Rotation
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - matrix
 date: 2022-03-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
             if mat == target: return True
             
         return mat == target
-
 ```
 

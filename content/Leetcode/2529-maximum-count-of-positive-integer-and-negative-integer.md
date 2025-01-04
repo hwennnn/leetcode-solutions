@@ -2,13 +2,14 @@
 title: 2529. Maximum Count of Positive Integer and Negative Integer
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - binary-search
   - counting
 date: 2023-01-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
                 neg += 1
         
         return max(pos, neg)
-
 ```
 

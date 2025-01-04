@@ -2,6 +2,7 @@
 title: 2824. Count Pairs Whose Sum is Less than Target
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - two-pointers
   - binary-search
@@ -9,7 +10,7 @@ tags:
 date: 2023-08-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
                     res += 1
         
         return res
-
 ```
 

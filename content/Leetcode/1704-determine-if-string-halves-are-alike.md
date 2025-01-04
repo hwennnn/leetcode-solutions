@@ -2,12 +2,13 @@
 title: 1704. Determine if String Halves Are Alike
 draft: false
 tags: 
+  - leetcode-easy
   - string
   - counting
 date: 2024-01-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/determine-if-string-halves-are-alike/)
 
 ## Description
 
@@ -65,6 +66,5 @@ class Solution:
                     if last > first: return False
         
         return first == last
-
 ```
 

@@ -2,11 +2,12 @@
 title: 1269. Number of Ways to Stay in the Same Place After Some Steps
 draft: false
 tags: 
+  - leetcode-hard
   - dynamic-programming
 date: 2023-10-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
                 dp[i][j] = (stay + left + right) % MOD
         
         return dp[steps][0]
-
 ```
 

@@ -2,12 +2,13 @@
 title: 906. Super Palindromes
 draft: false
 tags: 
+  - leetcode-hard
   - math
   - enumeration
 date: 2021-05-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/super-palindromes/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
                 count += 1
         
         return count
-
 ```
 

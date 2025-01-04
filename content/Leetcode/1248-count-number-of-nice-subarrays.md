@@ -2,6 +2,7 @@
 title: 1248. Count Number of Nice Subarrays
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - math
@@ -10,7 +11,7 @@ tags:
 date: 2024-06-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-number-of-nice-subarrays/)
 
 ## Description
 
@@ -77,7 +78,6 @@ class Solution:
             return res
         
         return atMost(k) - atMost(k - 1)
-
 
 ```
 

@@ -2,6 +2,7 @@
 title: 2766. Relocate Marbles
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - sorting
@@ -9,7 +10,7 @@ tags:
 date: 2023-07-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/relocate-marbles/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
             s.add(b)
         
         return sorted(list(s))
-
 ```
 

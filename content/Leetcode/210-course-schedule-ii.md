@@ -2,6 +2,7 @@
 title: 210. Course Schedule II
 draft: false
 tags: 
+  - leetcode-medium
   - depth-first-search
   - breadth-first-search
   - graph
@@ -9,7 +10,7 @@ tags:
 date: 2024-08-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/course-schedule-ii/)
 
 ## Description
 
@@ -89,6 +90,5 @@ class Solution:
         if len(res) != n: return []
 
         return res
-
 ```
 

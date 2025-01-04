@@ -2,12 +2,13 @@
 title: 191. Number of 1 Bits
 draft: false
 tags: 
+  - leetcode-easy
   - divide-and-conquer
   - bit-manipulation
 date: 2023-11-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-1-bits/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
             n >>= 1
         
         return res
-
 ```
 

@@ -2,11 +2,12 @@
 title: 1287. Element Appearing More Than 25% In Sorted Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
 date: 2023-12-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/)
 
 ## Description
 
@@ -50,6 +51,5 @@ class Solution:
         for i in range(N - freq + 1):
             if arr[i] == arr[i + freq]:
                 return arr[i]
-
 ```
 

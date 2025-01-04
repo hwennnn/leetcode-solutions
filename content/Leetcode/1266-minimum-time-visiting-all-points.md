@@ -2,13 +2,14 @@
 title: 1266. Minimum Time Visiting All Points
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - math
   - geometry
 date: 2023-12-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-time-visiting-all-points/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
             res += max(abs(a[0] - b[0]), abs(a[1] - b[1]))
         
         return res
-
 ```
 

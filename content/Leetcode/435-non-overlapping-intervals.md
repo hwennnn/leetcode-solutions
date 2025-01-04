@@ -2,6 +2,7 @@
 title: 435. Non-overlapping Intervals
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2024-03-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/non-overlapping-intervals/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
                 last = intervals[i][1]
 
         return res
-
 ```
 

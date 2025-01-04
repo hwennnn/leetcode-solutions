@@ -2,6 +2,7 @@
 title: 354. Russian Doll Envelopes
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - dynamic-programming
@@ -9,7 +10,7 @@ tags:
 date: 2022-05-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/russian-doll-envelopes/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
             return len(stack)
         
         return lis(nums)
-
 ```
 

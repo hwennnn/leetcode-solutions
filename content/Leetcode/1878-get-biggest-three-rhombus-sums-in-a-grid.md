@@ -2,16 +2,17 @@
 title: 1878. Get Biggest Three Rhombus Sums in a Grid
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
   - matrix
   - prefix-sum
 date: 2021-05-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid/)
 
 ## Description
 
@@ -116,6 +117,5 @@ class Solution:
                 dfs(i, j, 0)
         
         return sorted(list(res))[::-1][:3]
-
 ```
 

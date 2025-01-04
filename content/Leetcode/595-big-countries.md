@@ -2,11 +2,12 @@
 title: 595. Big Countries
 draft: false
 tags: 
+  - leetcode-easy
   - database
 date: 2019-10-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/big-countries/)
 
 ## Description
 
@@ -76,6 +77,5 @@ World table:
 SELECT name, population, area
 FROM World
 WHERE area > 3000000 OR population > 25000000
-
 ```
 

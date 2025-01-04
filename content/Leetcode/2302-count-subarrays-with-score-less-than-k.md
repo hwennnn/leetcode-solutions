@@ -2,6 +2,7 @@
 title: 2302. Count Subarrays With Score Less Than K
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - sliding-window
@@ -9,7 +10,7 @@ tags:
 date: 2022-06-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-subarrays-with-score-less-than-k/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
             res += (j - i + 1)
 
         return res
-
 ```
 

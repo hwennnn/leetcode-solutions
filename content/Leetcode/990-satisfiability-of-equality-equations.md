@@ -2,6 +2,7 @@
 title: 990. Satisfiability of Equality Equations
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - string
   - union-find
@@ -9,7 +10,7 @@ tags:
 date: 2022-09-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/satisfiability-of-equality-equations/)
 
 ## Description
 
@@ -87,7 +88,6 @@ class Solution:
                 uf.union(x, y)
         
         return not any(e == "!" and uf.find(x) == uf.find(y) for x, e, _, y in equations)
-
 
 ```
 

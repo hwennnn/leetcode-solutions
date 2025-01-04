@@ -2,14 +2,15 @@
 title: 3209. Number of Subarrays With AND Value of K
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - bit-manipulation
   - segment-tree
-date: 2024-07-12
+date: 2024-07-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-subarrays-with-and-value-of-k/)
 
 ## Description
 
@@ -104,6 +105,27 @@ class Solution:
 
 
         return atLeast(k) - atLeast(k + 1)
+```
+### C++
+``` cpp title='number-of-subarrays-with-and-value-of-k'
+class Solution {
+public:
+    long long countSubarrays(vector<int>& nums, int k) {
+        map<int, int> prev;
+        int n = nums.size();
+        long long cnt = 0;
+        for (int num : nums){
+            map<int, int> cur;
+            for (auto [key, v] : prev)
+                cur[key & num] += v;
+            cur[num]++;
 
+            cnt += cur[k];
+
+            prev = cur;
+        }
+        return cnt;
+    }
+};
 ```
 

@@ -2,6 +2,7 @@
 title: 611. Valid Triangle Number
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
   - binary-search
@@ -10,7 +11,7 @@ tags:
 date: 2022-04-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/valid-triangle-number/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
         return res
             
                 
-
 ```
 

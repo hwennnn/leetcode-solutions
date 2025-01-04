@@ -2,13 +2,14 @@
 title: 2866. Beautiful Towers II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - stack
   - monotonic-stack
 date: 2023-09-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/beautiful-towers-ii/)
 
 ## Description
 
@@ -113,6 +114,5 @@ class Solution:
             stack.append(i)
 
         return max(left[i] + right[i] - maxHeights[i] for i in range(N))
-
 ```
 

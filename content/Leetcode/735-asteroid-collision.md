@@ -2,13 +2,14 @@
 title: 735. Asteroid Collision
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - stack
   - simulation
 date: 2023-07-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/asteroid-collision/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
                 stack.append(x)
         
         return stack
-
 ```
 

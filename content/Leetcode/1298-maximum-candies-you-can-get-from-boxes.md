@@ -2,13 +2,14 @@
 title: 1298. Maximum Candies You Can Get from Boxes
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - breadth-first-search
   - graph
 date: 2020-12-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class Solution:
         
         return sum([candies[v] for v in bfs])
                     
-
 ```
 

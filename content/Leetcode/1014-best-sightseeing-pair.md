@@ -2,12 +2,13 @@
 title: 1014. Best Sightseeing Pair
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
 date: 2024-12-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/best-sightseeing-pair/)
 
 ## Description
 
@@ -60,7 +61,6 @@ class Solution:
             left = max(left, values[j] + j)
 
         return res
-
 
 ```
 

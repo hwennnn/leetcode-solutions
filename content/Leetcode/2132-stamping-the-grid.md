@@ -2,6 +2,7 @@
 title: 2132. Stamping the Grid
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - greedy
   - matrix
@@ -9,7 +10,7 @@ tags:
 date: 2022-01-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/stamping-the-grid/)
 
 ## Description
 
@@ -99,6 +100,5 @@ class Solution:
                     return False
         
         return True
-
 ```
 

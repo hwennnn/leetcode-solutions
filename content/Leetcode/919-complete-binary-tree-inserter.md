@@ -2,6 +2,7 @@
 title: 919. Complete Binary Tree Inserter
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - breadth-first-search
   - design
@@ -9,7 +10,7 @@ tags:
 date: 2022-07-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/complete-binary-tree-inserter/)
 
 ## Description
 
@@ -109,6 +110,5 @@ class CBTInserter:
 # obj = CBTInserter(root)
 # param_1 = obj.insert(val)
 # param_2 = obj.get_root()
-
 ```
 

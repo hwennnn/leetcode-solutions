@@ -2,12 +2,13 @@
 title: 2827. Number of Beautiful Integers in the Range
 draft: false
 tags: 
+  - leetcode-hard
   - math
   - dynamic-programming
 date: 2023-08-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-beautiful-integers-in-the-range/)
 
 ## Description
 
@@ -107,6 +108,5 @@ class Solution:
         
         return a - b
         
-
 ```
 

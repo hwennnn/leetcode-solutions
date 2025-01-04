@@ -2,12 +2,13 @@
 title: 2369. Check if There is a Valid Partition For The Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
 date: 2023-08-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-there-is-a-valid-partition-for-the-array/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
             return False
         
         return go(0)
-
 ```
 

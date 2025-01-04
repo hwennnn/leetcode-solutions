@@ -2,6 +2,7 @@
 title: 2306. Naming a Company
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - string
@@ -10,7 +11,7 @@ tags:
 date: 2023-02-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/naming-a-company/)
 
 ## Description
 
@@ -93,6 +94,5 @@ class Solution:
         return res
                 
         
-
 ```
 

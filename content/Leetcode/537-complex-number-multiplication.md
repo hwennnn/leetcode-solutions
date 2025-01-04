@@ -2,13 +2,14 @@
 title: 537. Complex Number Multiplication
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - string
   - simulation
 date: 2021-08-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/complex-number-multiplication/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
         return "{}+{}i".format(n, i)
 
             
-
 ```
 

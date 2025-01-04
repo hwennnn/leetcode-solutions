@@ -2,6 +2,7 @@
 title: 3034. Number of Subarrays That Match a Pattern I
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - rolling-hash
   - string-matching
@@ -9,7 +10,7 @@ tags:
 date: 2024-02-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-i/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
                 res += 1
         
         return res
-
 ```
 

@@ -2,13 +2,14 @@
 title: 2086. Minimum Number of Food Buckets to Feed the Hamsters
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - dynamic-programming
   - greedy
 date: 2021-11-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-food-buckets-to-feed-the-hamsters/)
 
 ## Description
 
@@ -81,6 +82,5 @@ class Solution:
                 return -1
             
         return s.count("B")
-
 ```
 

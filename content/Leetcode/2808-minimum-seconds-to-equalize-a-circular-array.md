@@ -2,12 +2,13 @@
 title: 2808. Minimum Seconds to Equalize a Circular Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
 date: 2023-08-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-seconds-to-equalize-a-circular-array/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
             res = min(res, curr)
             
         return res
-
 ```
 

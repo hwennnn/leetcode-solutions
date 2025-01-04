@@ -2,6 +2,7 @@
 title: 3085. Minimum Deletions to Make String K-Special
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - greedy
@@ -10,7 +11,7 @@ tags:
 date: 2024-03-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-deletions-to-make-string-k-special/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class Solution:
             res = min(res, count)
         
         return res
-
 ```
 

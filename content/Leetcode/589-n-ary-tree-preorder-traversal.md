@@ -2,13 +2,14 @@
 title: 589. N-ary Tree Preorder Traversal
 draft: false
 tags: 
+  - leetcode-easy
   - stack
   - tree
   - depth-first-search
-date: 2022-07-13
+date: 2020-02-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)
 
 ## Description
 
@@ -77,6 +78,33 @@ class Solution:
         
         go(root)
         return res
-
+```
+### Python
+``` py title='n-ary-tree-preorder-traversal'
+"""
+# Definition for a Node.
+class Node(object):
+    def __init__(self, val=None, children=None):
+        self.val = val
+        self.children = children
+"""
+class Solution(object):
+    def preorder(self, root):
+        """
+        :type root: Node
+        :rtype: List[int]
+        """
+        temp = []
+        if root == None: return None
+        
+        def recursion(root,temp):
+            temp.append(root.val)
+            for child in root.children:
+                recursion(child,temp)
+                
+        
+        recursion(root,temp)
+        
+        return temp
 ```
 

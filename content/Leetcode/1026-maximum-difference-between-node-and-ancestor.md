@@ -2,13 +2,14 @@
 title: 1026. Maximum Difference Between Node and Ancestor
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - depth-first-search
   - binary-tree
 date: 2024-01-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
             return max(go(node.left, mmax, mmin), go(node.right, mmax, mmin))
         
         return go(root, root.val, root.val)
-
 ```
 

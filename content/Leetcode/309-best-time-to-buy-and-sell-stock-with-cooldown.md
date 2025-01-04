@@ -2,12 +2,13 @@
 title: 309. Best Time to Buy and Sell Stock with Cooldown
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
 date: 2022-12-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
 
 ## Description
 
@@ -61,6 +62,5 @@ class Solution:
             sold, hold, rest = hold + x, max(hold, rest - x), max(rest, sold)
         
         return max(sold, rest)
-
 ```
 

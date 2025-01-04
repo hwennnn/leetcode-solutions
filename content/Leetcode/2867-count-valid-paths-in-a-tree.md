@@ -2,6 +2,7 @@
 title: 2867. Count Valid Paths in a Tree
 draft: false
 tags: 
+  - leetcode-hard
   - math
   - dynamic-programming
   - tree
@@ -10,7 +11,7 @@ tags:
 date: 2023-09-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-valid-paths-in-a-tree/)
 
 ## Description
 
@@ -123,6 +124,5 @@ class Solution:
 
         dfs(1, -1)
         return res
-
 ```
 

@@ -2,13 +2,14 @@
 title: 1145. Binary Tree Coloring Game
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - depth-first-search
   - binary-tree
 date: 2021-05-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/binary-tree-coloring-game/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
         third = (n - left - right - 1) > (1 + left + right)
         
         return first or second or third
-
 ```
 

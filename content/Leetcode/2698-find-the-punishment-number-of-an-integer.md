@@ -2,12 +2,13 @@
 title: 2698. Find the Punishment Number of an Integer
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - backtracking
 date: 2023-05-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-punishment-number-of-an-integer/)
 
 ## Description
 
@@ -99,6 +100,5 @@ class Solution:
                 res += x * x
         
         return res
-
 ```
 

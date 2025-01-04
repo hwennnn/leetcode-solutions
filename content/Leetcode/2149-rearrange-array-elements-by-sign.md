@@ -2,13 +2,14 @@
 title: 2149. Rearrange Array Elements by Sign
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
   - simulation
 date: 2024-02-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/rearrange-array-elements-by-sign/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
                 ni += 2
     
         return res
-
 ```
 

@@ -2,16 +2,17 @@
 title: 767. Reorganize String
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - greedy
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
   - counting
 date: 2023-08-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/reorganize-string/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
                 heappush(pq, (-v, k))
         
         return "".join(res)
-
 ```
 

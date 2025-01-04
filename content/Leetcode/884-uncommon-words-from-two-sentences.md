@@ -2,13 +2,14 @@
 title: 884. Uncommon Words from Two Sentences
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - string
   - counting
 date: 2025-01-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/uncommon-words-from-two-sentences/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
                 res.append(x)
 
         return res
-
 ```
 

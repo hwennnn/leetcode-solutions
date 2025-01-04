@@ -2,13 +2,14 @@
 title: 4. Median of Two Sorted Arrays
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - divide-and-conquer
 date: 2023-09-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
                     right_min = min(A[i], B[j])
                 
                 return (left_max + right_min) / 2
-
 ```
 

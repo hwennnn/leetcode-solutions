@@ -2,14 +2,15 @@
 title: 938. Range Sum of BST
 draft: false
 tags: 
+  - leetcode-easy
   - tree
   - depth-first-search
   - binary-search-tree
   - binary-tree
-date: 2024-01-09
+date: 2020-12-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/range-sum-of-bst/)
 
 ## Description
 
@@ -68,6 +69,33 @@ class Solution:
             return node.val + go(node.left) + go(node.right)
         
         return go(root)
-
+```
+### C++
+``` cpp title='range-sum-of-bst'
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
+class Solution {
+public:
+    int rangeSumBST(TreeNode* root, int low, int high) {
+        return helper(root, low, high);
+    }
+    
+    int helper(TreeNode *node, int low, int high){
+        if (node == nullptr) return 0;
+        int left = helper(node->left, low, high);
+        int right = helper(node->right, low, high);
+        
+        return ((node->val >= low && node->val <= high) ? node->val : 0 ) + left + right;
+    }
+};
 ```
 

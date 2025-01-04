@@ -2,12 +2,13 @@
 title: 1906. Minimum Absolute Difference Queries
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
 date: 2021-06-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-absolute-difference-queries/)
 
 ## Description
 
@@ -88,6 +89,5 @@ class Solution:
             res.append(min([b - a for a,b in zip(A, A[1:])] or [-1]))
             
         return res
-
 ```
 

@@ -2,11 +2,12 @@
 title: 3099. Harshad Number
 draft: false
 tags: 
+  - leetcode-easy
   - math
 date: 2024-03-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/harshad-number/)
 
 ## Description
 
@@ -56,6 +57,5 @@ class Solution:
         d = sum(int(k) for k in str(x))
         
         return d if x % d == 0 else -1
-
 ```
 

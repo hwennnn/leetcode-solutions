@@ -2,6 +2,7 @@
 title: 783. Minimum Distance Between BST Nodes
 draft: false
 tags: 
+  - leetcode-easy
   - tree
   - depth-first-search
   - breadth-first-search
@@ -10,7 +11,7 @@ tags:
 date: 2023-02-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
         dfs(root)
         
         return min(b - a for a, b in zip(A, A[1:]))
-
 ```
 

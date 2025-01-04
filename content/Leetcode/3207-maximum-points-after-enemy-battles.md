@@ -2,12 +2,13 @@
 title: 3207. Maximum Points After Enemy Battles
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
 date: 2024-07-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-points-after-enemy-battles/)
 
 ## Description
 
@@ -105,6 +106,5 @@ class Solution:
                 j -= 1
         
         return res
-
 ```
 

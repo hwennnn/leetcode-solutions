@@ -2,13 +2,14 @@
 title: 16. 3Sum Closest
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
   - sorting
 date: 2022-10-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/3sum-closest/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
                     res = s
         
         return res
-
 ```
 

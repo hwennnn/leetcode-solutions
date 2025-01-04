@@ -2,14 +2,15 @@
 title: 2418. Sort the People
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - string
   - sorting
-date: 2024-07-22
+date: 2022-09-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/sort-the-people/)
 
 ## Description
 
@@ -75,6 +76,13 @@ public:
         return ans;
     }
 };
-
+```
+### Python
+``` py title='sort-the-people'
+class Solution:
+    def sortPeople(self, names: List[str], heights: List[int]) -> List[str]:
+        A = sorted([(a, b) for a, b in zip(names, heights)], key = lambda x : (-x[1]))
+        
+        return [a for a, _ in A]
 ```
 

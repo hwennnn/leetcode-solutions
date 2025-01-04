@@ -2,6 +2,7 @@
 title: 1876. Substrings of Size Three with Distinct Characters
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - string
   - sliding-window
@@ -9,7 +10,7 @@ tags:
 date: 2021-05-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/)
 
 ## Description
 
@@ -65,6 +66,5 @@ class Solution:
                 res += 1
         
         return res
-
 ```
 

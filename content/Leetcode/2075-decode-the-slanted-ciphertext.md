@@ -2,12 +2,13 @@
 title: 2075. Decode the Slanted Ciphertext
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - simulation
 date: 2021-11-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/decode-the-slanted-ciphertext/)
 
 ## Description
 
@@ -95,6 +96,5 @@ class Solution:
                 j += 1
         
         return res.rstrip()
-
 ```
 

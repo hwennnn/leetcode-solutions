@@ -2,13 +2,14 @@
 title: 1359. Count All Valid Pickup and Delivery Options
 draft: false
 tags: 
+  - leetcode-hard
   - math
   - dynamic-programming
   - combinatorics
 date: 2023-09-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
         
         return res
         
-
 ```
 

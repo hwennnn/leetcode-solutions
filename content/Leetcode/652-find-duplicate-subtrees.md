@@ -2,6 +2,7 @@
 title: 652. Find Duplicate Subtrees
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - tree
   - depth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2023-02-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-duplicate-subtrees/)
 
 ## Description
 
@@ -81,6 +82,5 @@ class Solution:
 
         go(root)
         return res
-
 ```
 

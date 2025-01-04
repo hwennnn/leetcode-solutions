@@ -2,6 +2,7 @@
 title: 1201. Ugly Number III
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - binary-search
   - combinatorics
@@ -9,7 +10,7 @@ tags:
 date: 2022-04-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/ugly-number-iii/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
                 left = mid + 1
             
         return left
-
 ```
 

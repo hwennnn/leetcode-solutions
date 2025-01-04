@@ -2,13 +2,14 @@
 title: 430. Flatten a Multilevel Doubly Linked List
 draft: false
 tags: 
+  - leetcode-medium
   - linked-list
   - depth-first-search
   - doubly-linked-list
-date: 2024-08-03
+date: 2021-11-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)
 
 ## Description
 
@@ -137,6 +138,44 @@ public:
         return res;
     }
 };
+```
+### Python
+``` py title='flatten-a-multilevel-doubly-linked-list'
+"""
+# Definition for a Node.
+class Node:
+    def __init__(self, val, prev, next, child):
+        self.val = val
+        self.prev = prev
+        self.next = next
+        self.child = child
+"""
 
+class Solution:
+    def flatten(self, head: 'Node') -> 'Node':
+        if not head: return
+        
+        dummy = Node(-1, None, head, None)
+        stack = [head]
+        prev = dummy
+        
+        while stack:
+            curr = stack.pop()
+            
+            curr.prev = prev
+            prev.next = curr
+            
+            if curr.next:
+                stack.append(curr.next)
+                curr.next = None
+            
+            if curr.child:
+                stack.append(curr.child)
+                curr.child = None
+                
+            prev = curr
+        
+        dummy.next.prev = None
+        return dummy.next
 ```
 

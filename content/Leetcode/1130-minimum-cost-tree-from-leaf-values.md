@@ -2,6 +2,7 @@
 title: 1130. Minimum Cost Tree From Leaf Values
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - stack
@@ -10,7 +11,7 @@ tags:
 date: 2021-05-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
             arr.pop(index)
         
         return res
-
 ```
 

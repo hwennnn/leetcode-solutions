@@ -2,6 +2,7 @@
 title: 1930. Unique Length-3 Palindromic Subsequences
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - bit-manipulation
@@ -9,7 +10,7 @@ tags:
 date: 2023-11-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/unique-length-3-palindromic-subsequences/)
 
 ## Description
 
@@ -96,7 +97,6 @@ class Solution:
                 res += len(unique)
         
         return res
-
 
 ```
 

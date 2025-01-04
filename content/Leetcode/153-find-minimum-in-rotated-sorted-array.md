@@ -2,12 +2,13 @@
 title: 153. Find Minimum in Rotated Sorted Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
 date: 2022-05-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
         return nums[left]
             
             
-
 ```
 

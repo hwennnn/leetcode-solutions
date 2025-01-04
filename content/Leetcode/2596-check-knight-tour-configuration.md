@@ -2,6 +2,7 @@
 title: 2596. Check Knight Tour Configuration
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - depth-first-search
   - breadth-first-search
@@ -10,7 +11,7 @@ tags:
 date: 2023-03-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-knight-tour-configuration/)
 
 ## Description
 
@@ -81,6 +82,5 @@ class Solution:
                 return False        
     
         return True
-
 ```
 

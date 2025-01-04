@@ -2,16 +2,17 @@
 title: 451. Sort Characters By Frequency
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
   - bucket-sort
   - counting
 date: 2024-02-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/sort-characters-by-frequency/)
 
 ## Description
 
@@ -67,6 +68,5 @@ class Solution:
         counter = Counter(s)
 
         return "".join([k * v for k, v in sorted(counter.items(), key = lambda x : -x[1])])
-
 ```
 

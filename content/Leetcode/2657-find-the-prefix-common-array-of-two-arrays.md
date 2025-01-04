@@ -2,13 +2,14 @@
 title: 2657. Find the Prefix Common Array of Two Arrays
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - bit-manipulation
 date: 2023-04-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
         
         return res
             
-
 ```
 

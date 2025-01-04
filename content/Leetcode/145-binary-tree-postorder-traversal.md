@@ -2,14 +2,15 @@
 title: 145. Binary Tree Postorder Traversal
 draft: false
 tags: 
+  - leetcode-easy
   - stack
   - tree
   - depth-first-search
   - binary-tree
-date: 2024-12-26
+date: 2020-12-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/binary-tree-postorder-traversal/)
 
 ## Description
 
@@ -92,6 +93,35 @@ class Solution:
         
         go(root)
         return res
-
+```
+### C++
+``` cpp title='binary-tree-postorder-traversal'
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
+class Solution {
+public:
+    void dfs(TreeNode* root, vector<int> &res){
+        if (root == nullptr) return;
+        
+        dfs(root->left, res);
+        dfs(root->right, res);
+        res.push_back(root->val);
+    }
+    vector<int> postorderTraversal(TreeNode* root) {
+        vector<int> res;
+        dfs(root, res);
+        
+        return res;
+    }
+};
 ```
 

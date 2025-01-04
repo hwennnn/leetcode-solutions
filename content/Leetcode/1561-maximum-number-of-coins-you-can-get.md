@@ -2,6 +2,7 @@
 title: 1561. Maximum Number of Coins You Can Get
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - greedy
@@ -10,7 +11,7 @@ tags:
 date: 2023-11-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
             res += piles[i]
         
         return res
-
 ```
 

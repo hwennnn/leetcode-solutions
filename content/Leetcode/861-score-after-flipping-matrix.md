@@ -2,6 +2,7 @@
 title: 861. Score After Flipping Matrix
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
   - bit-manipulation
@@ -9,7 +10,7 @@ tags:
 date: 2024-05-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/score-after-flipping-matrix/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
             res += (1 << (cols - j - 1)) * max(same, rows - same)
         
         return res
-
 ```
 

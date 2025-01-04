@@ -2,13 +2,14 @@
 title: 3115. Maximum Prime Difference
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - number-theory
 date: 2024-04-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-prime-difference/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
                     last = i
         
         return last - first
-
 ```
 

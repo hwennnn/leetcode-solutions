@@ -2,13 +2,14 @@
 title: 1424. Diagonal Traverse II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2023-11-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/diagonal-traverse-ii/)
 
 ## Description
 
@@ -56,6 +57,5 @@ class Solution:
                 
         return [v for key in mp for v in mp[key][::-1]]
         
-
 ```
 

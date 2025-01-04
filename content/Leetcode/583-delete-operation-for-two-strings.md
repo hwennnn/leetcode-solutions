@@ -2,12 +2,13 @@
 title: 583. Delete Operation for Two Strings
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - dynamic-programming
 date: 2022-06-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/delete-operation-for-two-strings/)
 
 ## Description
 
@@ -60,6 +61,5 @@ class Solution:
         
         return m + n - 2 * dp[-1][-1]
         
-
 ```
 

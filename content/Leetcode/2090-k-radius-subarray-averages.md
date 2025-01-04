@@ -2,12 +2,13 @@
 title: 2090. K Radius Subarray Averages
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - sliding-window
 date: 2023-06-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/k-radius-subarray-averages/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
                 curr += nums[i + k + 1]
         
         return res
-
 ```
 

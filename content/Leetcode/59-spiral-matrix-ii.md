@@ -2,13 +2,14 @@
 title: 59. Spiral Matrix II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - matrix
   - simulation
 date: 2023-05-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/spiral-matrix-ii/)
 
 ## Description
 
@@ -51,6 +52,5 @@ class Solution:
             #print('res:', res)
             res = [[i for i in range(lo, hi)]] + [list(j) for j in zip(*res[::-1])]
         return res
-
 ```
 

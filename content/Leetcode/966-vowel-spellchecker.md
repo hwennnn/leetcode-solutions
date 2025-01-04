@@ -2,13 +2,14 @@
 title: 966. Vowel Spellchecker
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - string
 date: 2022-02-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/vowel-spellchecker/)
 
 ## Description
 
@@ -123,6 +124,5 @@ class Solution:
             res.append("")
         
         return res
-
 ```
 

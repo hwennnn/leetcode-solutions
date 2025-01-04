@@ -2,11 +2,12 @@
 title: 3000. Maximum Area of Longest Diagonal Rectangle
 draft: false
 tags: 
+  - leetcode-easy
   - array
 date: 2024-01-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-area-of-longest-diagonal-rectangle/)
 
 ## Description
 
@@ -64,6 +65,5 @@ class Solution:
                 res[1] = max(res[1], x * y)
         
         return res[1]
-
 ```
 

@@ -2,15 +2,16 @@
 title: 1110. Delete Nodes And Return Forest
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - tree
   - depth-first-search
   - binary-tree
-date: 2024-07-18
+date: 2021-05-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/delete-nodes-and-return-forest/)
 
 ## Description
 
@@ -89,6 +90,35 @@ public:
         return res;
     }
 };
-
+```
+### Python
+``` py title='delete-nodes-and-return-forest'
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def delNodes(self, root: TreeNode, to_delete: List[int]) -> List[TreeNode]:
+        res = []
+        delete = set(to_delete)
+        
+        def dfs(node, is_root):
+            if not node: return None
+            
+            to_delete = node.val in delete
+            
+            if is_root and not to_delete:
+                res.append(node)
+            
+            node.left = dfs(node.left, to_delete)
+            node.right = dfs(node.right, to_delete)
+            
+            return None if to_delete else node
+                        
+        dfs(root, True)
+        
+        return res
 ```
 

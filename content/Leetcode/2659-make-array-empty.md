@@ -2,6 +2,7 @@
 title: 2659. Make Array Empty
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - greedy
@@ -12,7 +13,7 @@ tags:
 date: 2023-05-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/make-array-empty/)
 
 ## Description
 
@@ -159,6 +160,5 @@ class Solution:
                 res += N - i - 1
         
         return res
-
 ```
 

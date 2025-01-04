@@ -2,12 +2,13 @@
 title: 2569. Handling Sum Queries After Update
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - segment-tree
 date: 2023-02-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/handling-sum-queries-after-update/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
                 res.append(total)
         
         return res
-
 ```
 

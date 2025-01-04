@@ -2,12 +2,13 @@
 title: 967. Numbers With Same Consecutive Differences
 draft: false
 tags: 
+  - leetcode-medium
   - backtracking
   - breadth-first-search
-date: 2022-09-03
+date: 2020-08-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/numbers-with-same-consecutive-differences/)
 
 ## Description
 
@@ -65,6 +66,26 @@ class Solution:
             go(1, x)
         
         return res
-
+```
+### C++
+``` cpp title='numbers-with-same-consecutive-differences'
+class Solution {
+public:
+    vector<int> numsSameConsecDiff(int N, int K) {
+        vector<int> cur = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
+        for (int i = 2; i <= N; ++i) {
+            vector<int> cur2;
+            for (int x : cur) {
+                int y = x % 10;
+                if (x > 0 && y + K < 10)
+                    cur2.push_back(x * 10 + y + K);
+                if (x > 0 && K > 0 && y - K >= 0)
+                    cur2.push_back(x * 10 + y - K);
+            }
+            cur = cur2;
+        }
+        return cur;
+    }
+};
 ```
 

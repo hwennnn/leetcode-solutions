@@ -2,11 +2,11 @@
 title: 2637. Promise Time Limit
 draft: false
 tags: 
-
+  - leetcode-medium
 date: 2023-05-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/promise-time-limit/)
 
 ## Description
 
@@ -122,6 +122,5 @@ function timeLimit(fn: Fn, t: number): Fn {
  */
 
  
-
 ```
 

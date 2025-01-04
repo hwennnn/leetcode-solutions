@@ -2,12 +2,13 @@
 title: 1911. Maximum Alternating Subsequence Sum
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
 date: 2021-06-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-alternating-subsequence-sum/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
             return max(curr + go(not isPos, i + 1), go(isPos, i + 1))
         
         return go(True, 0)
-
 ```
 

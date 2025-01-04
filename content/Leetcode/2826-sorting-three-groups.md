@@ -2,13 +2,14 @@
 title: 2826. Sorting Three Groups
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
   - dynamic-programming
 date: 2023-08-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/sorting-three-groups/)
 
 ## Description
 
@@ -95,6 +96,5 @@ class Solution:
             res = min(res, go(0, k))
         
         return res
-
 ```
 

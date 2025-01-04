@@ -2,6 +2,7 @@
 title: 2745. Construct the Longest New String
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - dynamic-programming
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2023-08-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/construct-the-longest-new-string/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
         
         return max(go(x, y, z, True), go(x, y, z, False))
             
-
 ```
 

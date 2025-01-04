@@ -2,13 +2,14 @@
 title: 1598. Crawler Log Folder
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - string
   - stack
 date: 2024-07-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/crawler-log-folder/)
 
 ## Description
 
@@ -86,6 +87,5 @@ class Solution:
                 count += 1
 
         return count
-
 ```
 

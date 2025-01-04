@@ -2,13 +2,14 @@
 title: 1639. Number of Ways to Form a Target String Given a Dictionary
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - string
   - dynamic-programming
 date: 2024-12-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/)
 
 ## Description
 
@@ -97,7 +98,6 @@ class Solution:
             return res % MOD
         
         return go(0, 0)
-
 
 
 ```

@@ -2,13 +2,14 @@
 title: 70. Climbing Stairs
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - dynamic-programming
   - memoization
 date: 2024-01-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/climbing-stairs/)
 
 ## Description
 
@@ -64,6 +65,5 @@ class Solution:
             return go(steps + 1) + go(steps + 2)
         
         return go(0)
-
 ```
 

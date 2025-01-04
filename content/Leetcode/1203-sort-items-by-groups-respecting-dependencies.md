@@ -2,6 +2,7 @@
 title: 1203. Sort Items by Groups Respecting Dependencies
 draft: false
 tags: 
+  - leetcode-hard
   - depth-first-search
   - breadth-first-search
   - graph
@@ -9,7 +10,7 @@ tags:
 date: 2023-08-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/)
 
 ## Description
 
@@ -104,6 +105,5 @@ class Solution:
         
         return sum((group_orders[g] for g in group_order), [])
         
-
 ```
 

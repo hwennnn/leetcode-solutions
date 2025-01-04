@@ -2,12 +2,13 @@
 title: 2027. Minimum Moves to Convert String
 draft: false
 tags: 
+  - leetcode-easy
   - string
   - greedy
 date: 2021-10-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-moves-to-convert-string/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
                 i += 1
 
         return res
-
 ```
 

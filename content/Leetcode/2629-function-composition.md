@@ -2,11 +2,11 @@
 title: 2629. Function Composition
 draft: false
 tags: 
-
+  - leetcode-easy
 date: 2023-05-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/function-composition/)
 
 ## Description
 
@@ -84,6 +84,5 @@ function compose(functions: F[]): F {
  * const fn = compose([x => x + 1, x => 2 * x])
  * fn(4) // 9
  */
-
 ```
 

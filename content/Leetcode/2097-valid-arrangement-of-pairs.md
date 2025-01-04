@@ -2,13 +2,14 @@
 title: 2097. Valid Arrangement of Pairs
 draft: false
 tags: 
+  - leetcode-hard
   - depth-first-search
   - graph
   - eulerian-circuit
 date: 2024-11-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/valid-arrangement-of-pairs/)
 
 ## Description
 
@@ -100,6 +101,5 @@ class Solution:
         routes.reverse()
         
         return [[routes[i], routes[i + 1]] for i in range(len(routes) - 1)]
-
 ```
 

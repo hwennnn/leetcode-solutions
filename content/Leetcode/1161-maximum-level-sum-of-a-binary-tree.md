@@ -2,6 +2,7 @@
 title: 1161. Maximum Level Sum of a Binary Tree
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - depth-first-search
   - breadth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2023-06-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
             currLevel += 1
 
         return level
-
 ```
 

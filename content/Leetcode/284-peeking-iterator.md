@@ -2,13 +2,14 @@
 title: 284. Peeking Iterator
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - design
   - iterator
 date: 2022-04-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/peeking-iterator/)
 
 ## Description
 
@@ -126,6 +127,5 @@ class PeekingIterator:
 # while iter.hasNext():
 #     val = iter.peek()   # Get the next element but not advance the iterator.
 #     iter.next()         # Should return the same value as [val].
-
 ```
 

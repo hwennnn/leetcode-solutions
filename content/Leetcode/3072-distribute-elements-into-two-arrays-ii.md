@@ -2,6 +2,7 @@
 title: 3072. Distribute Elements Into Two Arrays II
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-indexed-tree
   - segment-tree
@@ -9,7 +10,7 @@ tags:
 date: 2024-03-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/distribute-elements-into-two-arrays-ii/)
 
 ## Description
 
@@ -108,6 +109,5 @@ class Solution:
                     res1.append(nums[i])
         
         return res1 + res2
-
 ```
 

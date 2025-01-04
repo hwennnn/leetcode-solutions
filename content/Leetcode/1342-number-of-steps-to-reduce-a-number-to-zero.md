@@ -2,12 +2,13 @@
 title: 1342. Number of Steps to Reduce a Number to Zero
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - bit-manipulation
-date: 2022-05-27
+date: 2020-09-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)
 
 ## Description
 
@@ -76,6 +77,23 @@ class Solution:
                 num -= 1
         
         return res
-
+```
+### C++
+``` cpp title='number-of-steps-to-reduce-a-number-to-zero'
+class Solution {
+public:
+    int numberOfSteps (int num) {
+        if (!num) return 0;
+        int res = 0;
+        
+        while (num){
+            res += (num&1) ? 2 : 1;
+            num >>= 1;
+        }
+        
+        return res - 1;
+        
+    }
+};
 ```
 

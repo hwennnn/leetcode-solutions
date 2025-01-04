@@ -2,13 +2,14 @@
 title: 2420. Find All Good Indices
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - prefix-sum
 date: 2022-09-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-all-good-indices/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
                 res.append(i)
         
         return res
-
 ```
 

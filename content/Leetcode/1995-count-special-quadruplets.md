@@ -2,13 +2,14 @@
 title: 1995. Count Special Quadruplets
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - enumeration
 date: 2021-09-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-special-quadruplets/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
                             res += 1
         
         return res
-
 ```
 

@@ -2,11 +2,12 @@
 title: 2264. Largest 3-Same-Digit Number in String
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2023-12-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/largest-3-same-digit-number-in-string/)
 
 ## Description
 
@@ -81,6 +82,5 @@ class Solution:
                 i += 1
         
         return res
-
 ```
 

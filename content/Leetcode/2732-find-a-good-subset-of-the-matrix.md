@@ -2,6 +2,7 @@
 title: 2732. Find a Good Subset of the Matrix
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - bit-manipulation
@@ -9,7 +10,7 @@ tags:
 date: 2023-06-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-a-good-subset-of-the-matrix/)
 
 ## Description
 
@@ -96,6 +97,5 @@ class Solution:
             mp[vals] = i
         
         return []
-
 ```
 

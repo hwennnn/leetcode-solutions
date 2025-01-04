@@ -2,12 +2,13 @@
 title: 1190. Reverse Substrings Between Each Pair of Parentheses
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - stack
 date: 2024-07-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/)
 
 ## Description
 
@@ -81,6 +82,5 @@ class Solution:
                     res.append(x)
         
         return "".join(res)
-
 ```
 

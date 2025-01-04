@@ -2,13 +2,14 @@
 title: 3111. Minimum Rectangles to Cover Points
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
   - sorting
 date: 2024-04-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-rectangles-to-cover-points/)
 
 ## Description
 
@@ -165,6 +166,5 @@ class Solution:
                 i += 1
             
         return res
-
 ```
 

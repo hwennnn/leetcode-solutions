@@ -2,13 +2,14 @@
 title: 1218. Longest Arithmetic Subsequence of Given Difference
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - dynamic-programming
 date: 2023-07-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/)
 
 ## Description
 
@@ -63,6 +64,5 @@ class Solution:
             dp[x] = 1 + dp.get(x - difference, 0)
         
         return max(dp.values())
-
 ```
 

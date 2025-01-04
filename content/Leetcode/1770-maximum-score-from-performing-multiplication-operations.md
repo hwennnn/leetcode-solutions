@@ -2,12 +2,13 @@
 title: 1770. Maximum Score from Performing Multiplication Operations
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
 date: 2022-09-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
             dp = pd
             
         return dp[0]
-
 ```
 

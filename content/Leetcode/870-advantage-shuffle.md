@@ -2,6 +2,7 @@
 title: 870. Advantage Shuffle
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2021-03-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/advantage-shuffle/)
 
 ## Description
 
@@ -52,6 +53,5 @@ class Solution:
                 
         return [(take[b] or A).pop() for b in B]
         
-
 ```
 

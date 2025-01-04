@@ -2,12 +2,13 @@
 title: 2825. Make String a Subsequence Using Cyclic Increments
 draft: false
 tags: 
+  - leetcode-medium
   - two-pointers
   - string
 date: 2024-12-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
                 break
 
         return j == M
-
 ```
 

@@ -2,12 +2,13 @@
 title: 1904. The Number of Full Rounds You Have Played
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - string
 date: 2021-06-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/the-number-of-full-rounds-you-have-played/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
         finish = fHH * 60 + fMM
         
         return max(0, finish // 15 - (start // 15 + (start % 15 > 0)))
-
 ```
 

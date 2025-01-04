@@ -2,12 +2,13 @@
 title: 345. Reverse Vowels of a String
 draft: false
 tags: 
+  - leetcode-easy
   - two-pointers
   - string
 date: 2022-11-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/reverse-vowels-of-a-string/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
             j -= 1
         
         return "".join(s)
-
 ```
 

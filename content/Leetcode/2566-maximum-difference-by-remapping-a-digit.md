@@ -2,12 +2,13 @@
 title: 2566. Maximum Difference by Remapping a Digit
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - greedy
 date: 2023-02-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-difference-by-remapping-a-digit/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
             A.append(y)
         
         return max(A) - min(A)
-
 ```
 

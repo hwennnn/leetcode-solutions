@@ -2,6 +2,7 @@
 title: 1838. Frequency of the Most Frequent Element
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
   - greedy
@@ -11,7 +12,7 @@ tags:
 date: 2023-11-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
             res = max(res, j - i + 1)
         
         return res
-
 ```
 

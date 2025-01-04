@@ -2,13 +2,14 @@
 title: 2018. Check if Word Can Be Placed In Crossword
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - matrix
   - enumeration
 date: 2021-09-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-word-can-be-placed-in-crossword/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
                             return True
         
         return False
-
 ```
 

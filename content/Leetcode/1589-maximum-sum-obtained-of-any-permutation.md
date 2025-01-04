@@ -2,6 +2,7 @@
 title: 1589. Maximum Sum Obtained of Any Permutation
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
   - sorting
@@ -9,7 +10,7 @@ tags:
 date: 2020-12-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-sum-obtained-of-any-permutation/)
 
 ## Description
 
@@ -89,6 +90,5 @@ class Solution:
             res %= M
         
         return res
-
 ```
 

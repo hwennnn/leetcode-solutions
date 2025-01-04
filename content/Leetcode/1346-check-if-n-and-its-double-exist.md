@@ -2,6 +2,7 @@
 title: 1346. Check If N and Its Double Exist
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - two-pointers
@@ -10,7 +11,7 @@ tags:
 date: 2024-12-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-n-and-its-double-exist/)
 
 ## Description
 
@@ -64,6 +65,5 @@ class Solution:
                         return True
         
         return False
-
 ```
 

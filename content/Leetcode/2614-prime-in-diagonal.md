@@ -2,6 +2,7 @@
 title: 2614. Prime In Diagonal
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - math
   - matrix
@@ -9,7 +10,7 @@ tags:
 date: 2023-04-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/prime-in-diagonal/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
                 res = max(res, nums[i][N - i - 1])
     
         return res
-
 ```
 

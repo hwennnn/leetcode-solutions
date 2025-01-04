@@ -2,15 +2,16 @@
 title: 2593. Find Score of an Array After Marking All Elements
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
   - simulation
 date: 2024-12-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
                 marked.add(index + 1)
         
         return res
-
 ```
 

@@ -2,14 +2,15 @@
 title: 3264. Final Array State After K Multiplication Operations I
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - math
-  - heap-(priority-queue)
+  - heap-priority-queue
   - simulation
 date: 2024-12-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/)
 
 ## Description
 
@@ -125,6 +126,5 @@ class Solution:
             heappush(pq, (x * multiplier, i))
         
         return nums
-
 ```
 

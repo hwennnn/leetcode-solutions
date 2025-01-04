@@ -2,6 +2,7 @@
 title: 1406. Stone Game III
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - math
   - dynamic-programming
@@ -9,7 +10,7 @@ tags:
 date: 2023-05-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/stone-game-iii/)
 
 ## Description
 
@@ -92,6 +93,5 @@ class Solution:
             return "Alice"
         else:
             return "Bob"
-
 ```
 

@@ -2,13 +2,14 @@
 title: 2482. Difference Between Ones and Zeros in Row and Column
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - matrix
   - simulation
 date: 2023-12-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/)
 
 ## Description
 
@@ -95,6 +96,5 @@ class Solution:
                 res[i][j] = rowCount[i] * 2 + colCount[j] * 2 - rows - cols
             
         return res
-
 ```
 

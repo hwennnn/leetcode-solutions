@@ -2,14 +2,15 @@
 title: 179. Largest Number
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - string
   - greedy
   - sorting
-date: 2025-01-01
+date: 2020-09-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/largest-number/)
 
 ## Description
 
@@ -63,6 +64,16 @@ class Solution:
         s = list(map(str, nums))
         s.sort(key = cmp_to_key(compare))
         return "".join(s)
+```
+### Python
+``` py title='largest-number'
+import functools 
 
+class Solution:
+    def largestNumber(self, nums):
+        compare = lambda a, b: 1 if a+b > b+a else -1 if a+b < b+a else 0
+        _nums = list(map(str, nums))
+        _nums.sort(key=functools.cmp_to_key(compare), reverse=True)
+        return str(int(''.join(_nums)))
 ```
 

@@ -2,13 +2,14 @@
 title: 2428. Maximum Sum of an Hourglass
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - matrix
   - prefix-sum
 date: 2022-10-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-sum-of-an-hourglass/)
 
 ## Description
 
@@ -64,6 +65,5 @@ class Solution:
                 res = max(res, grid[i][j - 1] + grid[i][j] + grid[i][j + 1] + grid[i + 1][j] + grid[i + 2][j - 1] + grid[i + 2][j] + grid[i + 2][j + 1])            
         
         return res
-
 ```
 

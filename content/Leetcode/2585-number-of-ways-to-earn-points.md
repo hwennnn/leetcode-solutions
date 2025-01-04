@@ -2,12 +2,13 @@
 title: 2585. Number of Ways to Earn Points
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
 date: 2023-03-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-ways-to-earn-points/)
 
 ## Description
 
@@ -102,6 +103,5 @@ class Solution:
             return res % M
         
         return go(0, 0) % M
-
 ```
 

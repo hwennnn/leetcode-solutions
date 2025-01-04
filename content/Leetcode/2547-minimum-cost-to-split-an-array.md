@@ -2,6 +2,7 @@
 title: 2547. Minimum Cost to Split an Array
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - dynamic-programming
@@ -9,7 +10,7 @@ tags:
 date: 2023-02-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-cost-to-split-an-array/)
 
 ## Description
 
@@ -119,6 +120,5 @@ class Solution:
             return res
         
         return go(0)
-
 ```
 

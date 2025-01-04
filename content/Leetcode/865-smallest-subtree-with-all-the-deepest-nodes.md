@@ -2,6 +2,7 @@
 title: 865. Smallest Subtree with all the Deepest Nodes
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - tree
   - depth-first-search
@@ -10,7 +11,7 @@ tags:
 date: 2020-12-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class Solution:
             return node, leftDepth
         
         return dfs(root,0)[0]
-
 ```
 

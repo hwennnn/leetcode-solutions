@@ -2,13 +2,14 @@
 title: 2952. Minimum Number of Coins to be Added
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
   - sorting
 date: 2023-12-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-coins-to-be-added/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
                 res += 1
         
         return res
-
 ```
 

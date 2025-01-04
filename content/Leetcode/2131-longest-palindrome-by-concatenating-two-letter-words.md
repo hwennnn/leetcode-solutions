@@ -2,6 +2,7 @@
 title: 2131. Longest Palindrome by Concatenating Two Letter Words
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - string
@@ -10,7 +11,7 @@ tags:
 date: 2022-11-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)
 
 ## Description
 
@@ -92,6 +93,5 @@ class Solution:
             res += 2
         
         return res
-
 ```
 

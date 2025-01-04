@@ -2,6 +2,7 @@
 title: 207. Course Schedule
 draft: false
 tags: 
+  - leetcode-medium
   - depth-first-search
   - breadth-first-search
   - graph
@@ -9,7 +10,7 @@ tags:
 date: 2023-07-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/course-schedule/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
                     queue.append(adj)
         
         return took == n
-
 ```
 

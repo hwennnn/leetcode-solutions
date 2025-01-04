@@ -2,6 +2,7 @@
 title: 705. Design HashSet
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - linked-list
@@ -10,7 +11,7 @@ tags:
 date: 2023-05-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/design-hashset/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class MyHashSet:
 # obj.add(key)
 # obj.remove(key)
 # param_3 = obj.contains(key)
-
 ```
 

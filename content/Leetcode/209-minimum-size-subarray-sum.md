@@ -2,6 +2,7 @@
 title: 209. Minimum Size Subarray Sum
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
   - sliding-window
@@ -9,7 +10,7 @@ tags:
 date: 2023-07-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-size-subarray-sum/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
                 i += 1
         
         return res if res != INF else 0
-
 ```
 

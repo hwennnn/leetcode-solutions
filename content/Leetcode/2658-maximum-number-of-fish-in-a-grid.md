@@ -2,6 +2,7 @@
 title: 2658. Maximum Number of Fish in a Grid
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - depth-first-search
   - breadth-first-search
@@ -10,7 +11,7 @@ tags:
 date: 2023-04-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-number-of-fish-in-a-grid/)
 
 ## Description
 
@@ -95,6 +96,5 @@ class Solution:
                     res = max(res, dfs(x, y))
         
         return res
-
 ```
 

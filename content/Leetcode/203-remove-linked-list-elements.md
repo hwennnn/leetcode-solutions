@@ -2,12 +2,13 @@
 title: 203. Remove Linked List Elements
 draft: false
 tags: 
+  - leetcode-easy
   - linked-list
   - recursion
-date: 2021-11-12
+date: 2020-12-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/remove-linked-list-elements/)
 
 ## Description
 
@@ -67,6 +68,34 @@ class Solution:
             curr = curr.next
         
         return res.next
-
+```
+### C++
+``` cpp title='remove-linked-list-elements'
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+class Solution {
+public:
+    ListNode* removeElements(ListNode* head, int val) {
+        ListNode *curr = new ListNode;
+        curr->next = head;
+        ListNode *res = curr;
+        
+        while (curr){
+            while (curr->next && curr->next->val == val)
+                curr->next = curr->next->next;
+            curr = curr->next;
+        }
+        
+        return res->next;
+    }
+};
 ```
 

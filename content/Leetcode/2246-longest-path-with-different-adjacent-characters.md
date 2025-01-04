@@ -2,6 +2,7 @@
 title: 2246. Longest Path With Different Adjacent Characters
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - string
   - tree
@@ -11,7 +12,7 @@ tags:
 date: 2023-01-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-path-with-different-adjacent-characters/)
 
 ## Description
 
@@ -93,6 +94,5 @@ class Solution:
             go(node, p)
         
         return res
-
 ```
 

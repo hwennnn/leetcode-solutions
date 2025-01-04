@@ -2,6 +2,7 @@
 title: 2271. Maximum White Tiles Covered by a Carpet
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
   - greedy
@@ -10,7 +11,7 @@ tags:
 date: 2022-06-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet/)
 
 ## Description
 
@@ -89,6 +90,5 @@ class Solution:
         
         
         
-
 ```
 

@@ -2,13 +2,14 @@
 title: 494. Target Sum
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - backtracking
 date: 2024-12-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/target-sum/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
             return neg + pos
         
         return go(0, 0)
-
 ```
 

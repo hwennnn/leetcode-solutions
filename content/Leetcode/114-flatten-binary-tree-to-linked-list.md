@@ -2,6 +2,7 @@
 title: 114. Flatten Binary Tree to Linked List
 draft: false
 tags: 
+  - leetcode-medium
   - linked-list
   - stack
   - tree
@@ -10,7 +11,7 @@ tags:
 date: 2022-07-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
         root.right = self.prev
         root.left = None
         self.prev = root
-
 ```
 

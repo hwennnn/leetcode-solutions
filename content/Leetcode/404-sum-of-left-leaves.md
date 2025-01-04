@@ -2,6 +2,7 @@
 title: 404. Sum of Left Leaves
 draft: false
 tags: 
+  - leetcode-easy
   - tree
   - depth-first-search
   - breadth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2024-04-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/sum-of-left-leaves/)
 
 ## Description
 
@@ -66,7 +67,6 @@ class Solution:
             return go(node.left, True) + go(node.right, False)
         
         return go(root, False)
-
 
 
 

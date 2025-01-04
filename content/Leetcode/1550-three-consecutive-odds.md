@@ -2,11 +2,12 @@
 title: 1550. Three Consecutive Odds
 draft: false
 tags: 
+  - leetcode-easy
   - array
 date: 2024-07-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/three-consecutive-odds/)
 
 ## Description
 
@@ -53,6 +54,5 @@ class Solution:
         
         return False
             
-
 ```
 

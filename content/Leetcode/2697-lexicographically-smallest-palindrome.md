@@ -2,13 +2,14 @@
 title: 2697. Lexicographically Smallest Palindrome
 draft: false
 tags: 
+  - leetcode-easy
   - two-pointers
   - string
   - greedy
 date: 2023-05-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/lexicographically-smallest-palindrome/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
                     s[i] = s[j]
         
         return "".join(s)
-
 ```
 

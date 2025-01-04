@@ -2,12 +2,13 @@
 title: 1882. Process Tasks Using Servers
 draft: false
 tags: 
+  - leetcode-medium
   - array
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2021-06-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/process-tasks-using-servers/)
 
 ## Description
 
@@ -93,6 +94,5 @@ class Solution:
             t = t + 1 if available else running[0][0]
         
         return res
-
 ```
 

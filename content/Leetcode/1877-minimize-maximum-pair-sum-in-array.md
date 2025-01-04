@@ -2,6 +2,7 @@
 title: 1877. Minimize Maximum Pair Sum in Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2023-11-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
             res = max(res, nums[~i] + nums[i])
         
         return res
-
 ```
 

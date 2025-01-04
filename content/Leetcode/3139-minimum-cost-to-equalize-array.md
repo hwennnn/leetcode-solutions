@@ -2,13 +2,14 @@
 title: 3139. Minimum Cost to Equalize Array
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - greedy
   - enumeration
 date: 2024-05-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-cost-to-equalize-array/)
 
 ## Description
 
@@ -153,6 +154,5 @@ class Solution:
             res = min(res, cost(left, isOdd))
 
         return res % MOD
-
 ```
 

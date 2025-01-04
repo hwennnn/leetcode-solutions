@@ -2,11 +2,12 @@
 title: 237. Delete Node in a Linked List
 draft: false
 tags: 
+  - leetcode-medium
   - linked-list
-date: 2024-05-05
+date: 2020-12-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/delete-node-in-a-linked-list/)
 
 ## Description
 
@@ -81,6 +82,22 @@ class Solution:
         """
         node.val = node.next.val
         node.next = node.next.next
-
+```
+### C++
+``` cpp title='delete-node-in-a-linked-list'
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
+class Solution {
+public:
+    void deleteNode(ListNode* node) {
+        *node = *node->next;
+    }
+};
 ```
 

@@ -2,12 +2,13 @@
 title: 1732. Find the Highest Altitude
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - prefix-sum
 date: 2023-06-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-highest-altitude/)
 
 ## Description
 
@@ -59,6 +60,5 @@ class Solution:
                 res = curr
         
         return res
-
 ```
 

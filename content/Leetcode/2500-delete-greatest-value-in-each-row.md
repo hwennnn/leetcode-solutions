@@ -2,15 +2,16 @@
 title: 2500. Delete Greatest Value in Each Row
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
   - matrix
   - simulation
 date: 2022-12-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/delete-greatest-value-in-each-row/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
             res += max(col)
         
         return res
-
 ```
 

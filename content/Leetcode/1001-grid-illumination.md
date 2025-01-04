@@ -2,12 +2,13 @@
 title: 1001. Grid Illumination
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
 date: 2022-02-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/grid-illumination/)
 
 ## Description
 
@@ -99,6 +100,5 @@ class Solution:
         
         return res
         
-
 ```
 

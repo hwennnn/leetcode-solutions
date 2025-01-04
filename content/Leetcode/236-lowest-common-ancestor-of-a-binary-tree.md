@@ -2,13 +2,14 @@
 title: 236. Lowest Common Ancestor of a Binary Tree
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - depth-first-search
   - binary-tree
 date: 2022-07-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
             return root if left and right else left or right
             
         return dfs(root)
-
 ```
 

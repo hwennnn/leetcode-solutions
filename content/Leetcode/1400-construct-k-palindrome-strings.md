@@ -2,6 +2,7 @@
 title: 1400. Construct K Palindrome Strings
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2020-10-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/construct-k-palindrome-strings/)
 
 ## Description
 
@@ -60,7 +61,6 @@ Some possible constructions &quot;anna&quot; + &quot;elble&quot;, &quot;anbna&qu
 class Solution:
     def canConstruct(self, s: str, k: int) -> bool:
         return sum(i & 1 for i in collections.Counter(s).values()) <= k <= len(s)
-
 
 ```
 

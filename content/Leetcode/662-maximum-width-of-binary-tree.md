@@ -2,6 +2,7 @@
 title: 662. Maximum Width of Binary Tree
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - depth-first-search
   - breadth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2023-04-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-width-of-binary-tree/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
                     queue.append((node.right, d * 2 + 1))
 
         return res
-
 ```
 

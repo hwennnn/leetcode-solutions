@@ -2,6 +2,7 @@
 title: 886. Possible Bipartition
 draft: false
 tags: 
+  - leetcode-medium
   - depth-first-search
   - breadth-first-search
   - union-find
@@ -9,7 +10,7 @@ tags:
 date: 2022-12-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/possible-bipartition/)
 
 ## Description
 
@@ -82,7 +83,6 @@ class Solution:
         
         return True
         
-
 
 ```
 

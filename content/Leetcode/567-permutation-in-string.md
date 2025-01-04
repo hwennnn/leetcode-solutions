@@ -2,6 +2,7 @@
 title: 567. Permutation in String
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - two-pointers
   - string
@@ -9,7 +10,7 @@ tags:
 date: 2025-01-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/permutation-in-string/)
 
 ## Description
 
@@ -64,6 +65,5 @@ class Solution:
                 return True
         
         return False
-
 ```
 

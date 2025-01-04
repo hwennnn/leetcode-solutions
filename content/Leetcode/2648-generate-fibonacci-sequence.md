@@ -2,11 +2,11 @@
 title: 2648. Generate Fibonacci Sequence
 draft: false
 tags: 
-
+  - leetcode-easy
 date: 2023-06-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/generate-fibonacci-sequence/)
 
 ## Description
 
@@ -67,6 +67,5 @@ function* fibGenerator(): Generator<number, any, number> {
  * gen.next().value; // 0
  * gen.next().value; // 1
  */
-
 ```
 

@@ -2,12 +2,13 @@
 title: 2749. Minimum Operations to Make the Integer Zero
 draft: false
 tags: 
+  - leetcode-medium
   - bit-manipulation
   - brainteaser
 date: 2023-08-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-operations-to-make-the-integer-zero/)
 
 ## Description
 
@@ -64,6 +65,5 @@ class Solution:
                 return k
         
         return -1
-
 ```
 

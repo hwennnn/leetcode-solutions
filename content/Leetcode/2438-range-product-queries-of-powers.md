@@ -2,13 +2,14 @@
 title: 2438. Range Product Queries of Powers
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - bit-manipulation
   - prefix-sum
 date: 2022-10-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/range-product-queries-of-powers/)
 
 ## Description
 
@@ -89,6 +90,5 @@ class Solution:
         return res
         
         
-
 ```
 

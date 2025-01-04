@@ -2,12 +2,13 @@
 title: 2608. Shortest Cycle in a Graph
 draft: false
 tags: 
+  - leetcode-hard
   - breadth-first-search
   - graph
 date: 2023-04-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/shortest-cycle-in-a-graph/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
                         res = min(res, dist[curr] + dist[adj] + 1)
         
         return -1 if res == inf else res
-
 ```
 

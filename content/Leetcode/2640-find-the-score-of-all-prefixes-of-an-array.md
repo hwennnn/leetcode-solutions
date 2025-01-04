@@ -2,12 +2,13 @@
 title: 2640. Find the Score of All Prefixes of an Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - prefix-sum
 date: 2023-04-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-score-of-all-prefixes-of-an-array/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
             curr += mmax + x
             
         return res
-
 ```
 

@@ -2,6 +2,7 @@
 title: 2311. Longest Binary Subsequence Less Than or Equal to K
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - dynamic-programming
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2022-07-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
         
         return res
         
-
 ```
 

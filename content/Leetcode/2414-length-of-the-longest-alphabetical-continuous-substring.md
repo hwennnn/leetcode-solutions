@@ -2,11 +2,12 @@
 title: 2414. Length of the Longest Alphabetical Continuous Substring
 draft: false
 tags: 
+  - leetcode-medium
   - string
 date: 2022-09-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/length-of-the-longest-alphabetical-continuous-substring/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
             prev = curr
         
         return res
-
 ```
 

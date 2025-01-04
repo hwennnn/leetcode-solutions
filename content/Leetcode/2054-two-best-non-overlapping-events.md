@@ -2,15 +2,16 @@
 title: 2054. Two Best Non-Overlapping Events
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
   - dynamic-programming
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2024-12-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/two-best-non-overlapping-events/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
                 currMax = max(currMax, x)
         
         return res
-
 ```
 

@@ -2,11 +2,12 @@
 title: 2644. Find the Maximum Divisibility Score
 draft: false
 tags: 
+  - leetcode-easy
   - array
 date: 2023-04-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-maximum-divisibility-score/)
 
 ## Description
 
@@ -105,6 +106,5 @@ class Solution:
     
         return res
                 
-
 ```
 

@@ -2,6 +2,7 @@
 title: 2266. Count Number of Texts
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - math
   - string
@@ -9,7 +10,7 @@ tags:
 date: 2022-05-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-number-of-texts/)
 
 ## Description
 
@@ -94,6 +95,5 @@ class Solution:
                 
             
             
-
 ```
 

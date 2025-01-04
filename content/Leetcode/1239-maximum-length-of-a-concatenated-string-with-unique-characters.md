@@ -2,6 +2,7 @@
 title: 1239. Maximum Length of a Concatenated String with Unique Characters
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - string
   - backtracking
@@ -9,7 +10,7 @@ tags:
 date: 2024-01-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)
 
 ## Description
 
@@ -99,6 +100,5 @@ class Solution:
                 res = max(res, length)
         
         return res
-
 ```
 

@@ -2,12 +2,13 @@
 title: 278. First Bad Version
 draft: false
 tags: 
+  - leetcode-easy
   - binary-search
   - interactive
 date: 2022-07-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/first-bad-version/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
                 left = mid + 1
         
         return left
-
 ```
 

@@ -2,12 +2,13 @@
 title: 115. Distinct Subsequences
 draft: false
 tags: 
+  - leetcode-hard
   - string
   - dynamic-programming
 date: 2024-08-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/distinct-subsequences/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
                     dp[i + 1][j + 1] += dp[i][j]
         
         return dp[n][m]
-
 ```
 

@@ -2,13 +2,14 @@
 title: 498. Diagonal Traverse
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - matrix
   - simulation
 date: 2020-12-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/diagonal-traverse/)
 
 ## Description
 
@@ -63,6 +64,5 @@ class Solution:
         
         return [c for key in mp for c in mp[key]]
         
-
 ```
 

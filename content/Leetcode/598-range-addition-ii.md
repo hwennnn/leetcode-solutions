@@ -2,12 +2,13 @@
 title: 598. Range Addition II
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - math
 date: 2021-08-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/range-addition-ii/)
 
 ## Description
 
@@ -65,6 +66,5 @@ class Solution:
             cols = min(cols, c)
         
         return rows * cols
-
 ```
 

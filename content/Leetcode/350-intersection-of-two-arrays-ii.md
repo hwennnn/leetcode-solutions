@@ -2,6 +2,7 @@
 title: 350. Intersection of Two Arrays II
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - two-pointers
@@ -10,7 +11,7 @@ tags:
 date: 2024-07-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/intersection-of-two-arrays-ii/)
 
 ## Description
 
@@ -67,6 +68,5 @@ class Solution:
             res += [k] * v
         
         return res
-
 ```
 

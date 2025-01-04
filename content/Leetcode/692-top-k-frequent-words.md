@@ -2,17 +2,18 @@
 title: 692. Top K Frequent Words
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - trie
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
   - bucket-sort
   - counting
 date: 2022-10-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/top-k-frequent-words/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
             res.append(heapq.heappop(heap).word)
         
         return res[::-1]
-
 ```
 

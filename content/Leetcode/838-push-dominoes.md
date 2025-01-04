@@ -2,13 +2,14 @@
 title: 838. Push Dominoes
 draft: false
 tags: 
+  - leetcode-medium
   - two-pointers
   - string
   - dynamic-programming
 date: 2022-09-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/push-dominoes/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
             i = j
         
         return res
-
 ```
 

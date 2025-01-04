@@ -2,12 +2,13 @@
 title: 2591. Distribute Money to Maximum Children
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - greedy
 date: 2023-03-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/distribute-money-to-maximum-children/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
         if d == children - 1 and m == 3: return children - 2
         
         return min(children - 1, d)
-
 ```
 

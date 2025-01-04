@@ -2,13 +2,14 @@
 title: 3070. Count Submatrices with Top-Left Element and Sum Less Than k
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - matrix
   - prefix-sum
 date: 2024-03-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
                     res += 1
         
         return res
-
 ```
 

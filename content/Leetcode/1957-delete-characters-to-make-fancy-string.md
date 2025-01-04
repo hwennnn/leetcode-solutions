@@ -2,11 +2,12 @@
 title: 1957. Delete Characters to Make Fancy String
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2024-11-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/delete-characters-to-make-fancy-string/)
 
 ## Description
 
@@ -72,6 +73,5 @@ class Solution:
                 deque.pop()
         
         return "".join(deque)
-
 ```
 

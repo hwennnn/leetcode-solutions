@@ -2,6 +2,7 @@
 title: 2680. Maximum OR
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
   - bit-manipulation
@@ -9,7 +10,7 @@ tags:
 date: 2023-05-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-or/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
             res = max(res, prefix[i] | nums[i] * pow(2, k) | suffix[i + 1])
         
         return res
-
 ```
 

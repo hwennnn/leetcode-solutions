@@ -2,13 +2,14 @@
 title: 1331. Rank Transform of an Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - sorting
 date: 2025-01-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/rank-transform-of-an-array/)
 
 ## Description
 
@@ -67,6 +68,5 @@ class Solution:
 
         return [mp[x] for x in arr]
         
-
 ```
 

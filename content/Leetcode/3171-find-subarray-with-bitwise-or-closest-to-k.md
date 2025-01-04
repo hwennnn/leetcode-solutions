@@ -2,6 +2,7 @@
 title: 3171. Find Subarray With Bitwise OR Closest to K
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - bit-manipulation
@@ -9,7 +10,7 @@ tags:
 date: 2024-07-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-subarray-with-bitwise-or-closest-to-k/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class Solution:
             prev = curr
 
         return res
-
 ```
 

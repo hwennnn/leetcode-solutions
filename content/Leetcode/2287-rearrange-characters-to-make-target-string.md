@@ -2,13 +2,14 @@
 title: 2287. Rearrange Characters to Make Target String
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - string
   - counting
 date: 2022-06-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/rearrange-characters-to-make-target-string/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
         sc = Counter(s)
         
         return min(sc[t] // tc[t] for t in tc)
-
 ```
 

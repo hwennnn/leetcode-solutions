@@ -2,12 +2,13 @@
 title: 82. Remove Duplicates from Sorted List II
 draft: false
 tags: 
+  - leetcode-medium
   - linked-list
   - two-pointers
 date: 2022-03-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
 
 ## Description
 
@@ -66,6 +67,5 @@ class Solution:
                 curr = curr.next
         
         return res.next
-
 ```
 

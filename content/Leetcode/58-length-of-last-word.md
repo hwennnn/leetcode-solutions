@@ -2,11 +2,12 @@
 title: 58. Length of Last Word
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2024-04-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/length-of-last-word/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
             j -= 1
         
         return res
-
 ```
 

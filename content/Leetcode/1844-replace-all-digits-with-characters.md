@@ -2,11 +2,12 @@
 title: 1844. Replace All Digits with Characters
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2021-05-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/replace-all-digits-with-characters/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
                 res.append(c)
         
         return "".join(res)
-
 ```
 

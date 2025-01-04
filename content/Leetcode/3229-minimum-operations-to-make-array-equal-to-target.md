@@ -2,6 +2,7 @@
 title: 3229. Minimum Operations to Make Array Equal to Target
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - stack
@@ -10,7 +11,7 @@ tags:
 date: 2024-07-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-operations-to-make-array-equal-to-target/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
                 res += abs(diff[i])
 
         return res
-
 ```
 

@@ -2,13 +2,14 @@
 title: 1010. Pairs of Songs With Total Durations Divisible by 60
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - counting
 date: 2022-02-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)
 
 ## Description
 
@@ -64,6 +65,5 @@ class Solution:
             mp[x % 60] += 1
         
         return res
-
 ```
 

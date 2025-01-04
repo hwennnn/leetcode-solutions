@@ -2,11 +2,11 @@
 title: 2636. Promise Pool
 draft: false
 tags: 
-
+  - leetcode-medium
 date: 2023-05-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/promise-pool/)
 
 ## Description
 
@@ -37,6 +37,5 @@ async function promisePool(functions: F[], n: number): Promise<any> {
  * promisePool([() => sleep(500), () => sleep(400)], 1)
  *   .then(console.log) // After 900ms
  */
-
 ```
 

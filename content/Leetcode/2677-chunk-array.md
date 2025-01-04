@@ -2,11 +2,11 @@
 title: 2677. Chunk Array
 draft: false
 tags: 
-
+  - leetcode-easy
 date: 2023-05-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/chunk-array/)
 
 ## Description
 
@@ -85,6 +85,5 @@ function chunk(arr: any[], size: number): any[][] {
 
     return res;
 };
-
 ```
 

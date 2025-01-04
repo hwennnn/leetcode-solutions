@@ -2,6 +2,7 @@
 title: 1700. Number of Students Unable to Eat Lunch
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - stack
   - queue
@@ -9,7 +10,7 @@ tags:
 date: 2024-04-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
                 ones -= 1
         
         return 0
-
 ```
 

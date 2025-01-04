@@ -2,13 +2,14 @@
 title: 1370. Increasing Decreasing String
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - string
   - counting
-date: 2020-10-16
+date: 2020-08-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/increasing-decreasing-string/)
 
 ## Description
 
@@ -87,6 +88,27 @@ class Solution:
         
         return "".join(res)
             
-
+```
+### C++
+``` cpp title='increasing-decreasing-string'
+class Solution {
+public:
+    string sortString(string s, string res = "") {
+        int cnt[26] = {};
+        for (auto ch : s)
+            ++cnt[ch - 'a'];
+        
+        while (res.length() != s.length()){
+            for (int i = 0; i < 26; i++)
+                res += string(--cnt[i] >= 0 ? 1 : 0, 'a' + i);
+            
+            for (int i = 25; i >= 0; i--)
+                res += string(--cnt[i] >= 0 ? 1 : 0, 'a' + i);
+        }
+        
+        return res;
+            
+    }
+};
 ```
 

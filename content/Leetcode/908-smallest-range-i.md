@@ -2,12 +2,13 @@
 title: 908. Smallest Range I
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - math
 date: 2020-12-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/smallest-range-i/)
 
 ## Description
 
@@ -63,6 +64,5 @@ date: 2020-12-22
 class Solution:
     def smallestRangeI(self, A: List[int], K: int) -> int:
         return max(0, max(A) - min(A) - 2*K)
-
 ```
 

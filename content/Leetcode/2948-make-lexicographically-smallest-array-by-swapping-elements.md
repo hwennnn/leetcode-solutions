@@ -2,13 +2,14 @@
 title: 2948. Make Lexicographically Smallest Array by Swapping Elements
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - union-find
   - sorting
 date: 2023-11-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/)
 
 ## Description
 
@@ -92,6 +93,5 @@ class Solution:
             i = j
         
         return res
-
 ```
 

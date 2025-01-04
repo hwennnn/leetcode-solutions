@@ -2,13 +2,14 @@
 title: 122. Best Time to Buy and Sell Stock II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - greedy
 date: 2024-08-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
             dp[i] = max(dp[i - 1], dp[i - 1] + prices[i] - prices[i - 1])
         
         return dp[-1]
-
 ```
 

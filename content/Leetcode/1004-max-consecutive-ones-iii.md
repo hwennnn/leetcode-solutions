@@ -2,6 +2,7 @@
 title: 1004. Max Consecutive Ones III
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
   - sliding-window
@@ -9,7 +10,7 @@ tags:
 date: 2022-02-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/max-consecutive-ones-iii/)
 
 ## Description
 
@@ -65,6 +66,5 @@ class Solution:
                 i += 1
         
         return j - i + 1
-
 ```
 

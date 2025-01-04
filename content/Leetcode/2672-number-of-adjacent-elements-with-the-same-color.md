@@ -2,11 +2,12 @@
 title: 2672. Number of Adjacent Elements With the Same Color
 draft: false
 tags: 
+  - leetcode-medium
   - array
 date: 2023-05-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-adjacent-elements-with-the-same-color/)
 
 ## Description
 
@@ -101,6 +102,5 @@ class Solution:
             res.append(curr)
         
         return res
-
 ```
 

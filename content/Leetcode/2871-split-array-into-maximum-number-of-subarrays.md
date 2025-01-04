@@ -2,13 +2,14 @@
 title: 2871. Split Array Into Maximum Number of Subarrays
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
   - bit-manipulation
 date: 2023-10-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/split-array-into-maximum-number-of-subarrays/)
 
 ## Description
 
@@ -93,6 +94,5 @@ class Solution:
                 res += 1
         
         return res
-
 ```
 

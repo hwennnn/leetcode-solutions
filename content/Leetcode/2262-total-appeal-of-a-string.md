@@ -2,13 +2,14 @@
 title: 2262. Total Appeal of A String
 draft: false
 tags: 
+  - leetcode-hard
   - hash-table
   - string
   - dynamic-programming
 date: 2022-05-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/total-appeal-of-a-string/)
 
 ## Description
 
@@ -88,6 +89,5 @@ class Solution:
             res += go(k)
             
         return res
-
 ```
 

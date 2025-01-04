@@ -2,13 +2,14 @@
 title: 1128. Number of Equivalent Domino Pairs
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - counting
 date: 2021-05-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-equivalent-domino-pairs/)
 
 ## Description
 
@@ -63,6 +64,5 @@ class Solution:
             mp[m] += 1
         
         return res
-
 ```
 

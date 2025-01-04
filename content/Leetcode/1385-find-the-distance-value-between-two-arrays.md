@@ -2,6 +2,7 @@
 title: 1385. Find the Distance Value Between Two Arrays
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - two-pointers
   - binary-search
@@ -9,7 +10,7 @@ tags:
 date: 2022-05-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
                 count += 1
 
         return count
-
 ```
 

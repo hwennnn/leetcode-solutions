@@ -2,11 +2,12 @@
 title: 2525. Categorize Box According to Criteria
 draft: false
 tags: 
+  - leetcode-easy
   - math
 date: 2023-01-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/categorize-box-according-to-criteria/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
             return "Bulky"
         elif isHeavy:
             return "Heavy"
-
 ```
 

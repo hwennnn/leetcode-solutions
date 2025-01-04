@@ -2,6 +2,7 @@
 title: 1034. Coloring A Border
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - depth-first-search
   - breadth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2021-09-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/coloring-a-border/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
         
         dfs(row, col)
         return grid
-
 ```
 

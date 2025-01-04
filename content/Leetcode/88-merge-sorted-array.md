@@ -2,13 +2,14 @@
 title: 88. Merge Sorted Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - two-pointers
   - sorting
 date: 2022-06-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/merge-sorted-array/)
 
 ## Description
 
@@ -98,6 +99,5 @@ class Solution:
             index -= 1
         
         return nums1
-
 ```
 

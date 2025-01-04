@@ -2,13 +2,14 @@
 title: 2304. Minimum Path Cost in a Grid
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - matrix
 date: 2022-06-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-path-cost-in-a-grid/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
         
         return res
         
-
 ```
 

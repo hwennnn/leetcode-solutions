@@ -2,13 +2,14 @@
 title: 2565. Subsequence With the Minimum Score
 draft: false
 tags: 
+  - leetcode-hard
   - two-pointers
   - string
   - binary-search
 date: 2023-02-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/subsequence-with-the-minimum-score/)
 
 ## Description
 
@@ -93,7 +94,6 @@ class Solution:
 
         return res
         
-
 
 ```
 

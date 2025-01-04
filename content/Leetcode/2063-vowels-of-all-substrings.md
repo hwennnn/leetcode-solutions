@@ -2,6 +2,7 @@
 title: 2063. Vowels of All Substrings
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - string
   - dynamic-programming
@@ -9,7 +10,7 @@ tags:
 date: 2021-11-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/vowels-of-all-substrings/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
                 res += ((n - i) * (i + 1))           
 
         return res
-
 ```
 

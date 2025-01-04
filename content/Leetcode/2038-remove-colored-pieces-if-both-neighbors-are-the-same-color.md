@@ -2,6 +2,7 @@
 title: 2038. Remove Colored Pieces if Both Neighbors are the Same Color
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - string
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2023-10-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/)
 
 ## Description
 
@@ -99,6 +100,5 @@ class Solution:
                     b += 1
         
         return a > b
-
 ```
 

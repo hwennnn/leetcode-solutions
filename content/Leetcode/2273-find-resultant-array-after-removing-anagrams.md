@@ -2,6 +2,7 @@
 title: 2273. Find Resultant Array After Removing Anagrams
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - string
@@ -9,7 +10,7 @@ tags:
 date: 2022-05-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
                 
         
         return words
-
 ```
 

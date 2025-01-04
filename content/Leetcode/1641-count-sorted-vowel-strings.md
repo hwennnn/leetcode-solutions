@@ -2,13 +2,14 @@
 title: 1641. Count Sorted Vowel Strings
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - dynamic-programming
   - combinatorics
 date: 2022-05-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-sorted-vowel-strings/)
 
 ## Description
 
@@ -64,6 +65,5 @@ class Solution:
             a, e, i, o, u = a + e + i + o + u, e + i + o + u, i + o + u, o + u, u
         
         return a + e + i + o + u
-
 ```
 

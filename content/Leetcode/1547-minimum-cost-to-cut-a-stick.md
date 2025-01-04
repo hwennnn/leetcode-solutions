@@ -2,13 +2,14 @@
 title: 1547. Minimum Cost to Cut a Stick
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - sorting
 date: 2023-05-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-cost-to-cut-a-stick/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
             return res
         
         return go(0, len(cuts) - 1)
-
 ```
 

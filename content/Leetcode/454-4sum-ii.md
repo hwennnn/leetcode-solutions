@@ -2,12 +2,13 @@
 title: 454. 4Sum II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
 date: 2022-02-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/4sum-ii/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
             res += v * mp2[-k]
         
         return res
-
 ```
 

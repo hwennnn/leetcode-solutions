@@ -2,13 +2,14 @@
 title: 2185. Counting Words With a Given Prefix
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - string
   - string-matching
 date: 2022-02-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/counting-words-with-a-given-prefix/)
 
 ## Description
 
@@ -60,6 +61,5 @@ class Solution:
                 res += 1
             
         return res
-
 ```
 

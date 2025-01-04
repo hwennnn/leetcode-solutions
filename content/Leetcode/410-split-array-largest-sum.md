@@ -2,6 +2,7 @@
 title: 410. Split Array Largest Sum
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - dynamic-programming
@@ -10,7 +11,7 @@ tags:
 date: 2022-03-31
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/split-array-largest-sum/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
                 left = mid + 1
         
         return left
-
 ```
 

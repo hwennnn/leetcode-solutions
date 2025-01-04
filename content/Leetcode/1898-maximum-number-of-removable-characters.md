@@ -2,6 +2,7 @@
 title: 1898. Maximum Number of Removable Characters
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
   - string
@@ -9,7 +10,7 @@ tags:
 date: 2022-04-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-number-of-removable-characters/)
 
 ## Description
 
@@ -100,6 +101,5 @@ class Solution:
         return rn - left
         
                 
-
 ```
 

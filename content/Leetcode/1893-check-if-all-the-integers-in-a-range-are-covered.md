@@ -2,13 +2,14 @@
 title: 1893. Check if All the Integers in a Range Are Covered
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - prefix-sum
 date: 2021-06-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/)
 
 ## Description
 
@@ -67,6 +68,5 @@ class Solution:
             if not ok: return False
         
         return True
-
 ```
 

@@ -2,15 +2,16 @@
 title: 2512. Reward Top K Students
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - string
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2022-12-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/reward-top-k-students/)
 
 ## Description
 
@@ -103,6 +104,5 @@ class Solution:
             res.append(sid)
         
         return res[::-1]
-
 ```
 

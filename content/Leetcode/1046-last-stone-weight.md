@@ -2,12 +2,13 @@
 title: 1046. Last Stone Weight
 draft: false
 tags: 
+  - leetcode-easy
   - array
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2023-04-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/last-stone-weight/)
 
 ## Description
 
@@ -71,6 +72,5 @@ class Solution:
                 heapq.heappush(heap, -(y - x))
         
         return -heap[0] if heap else 0
-
 ```
 

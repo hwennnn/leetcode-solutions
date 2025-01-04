@@ -2,12 +2,13 @@
 title: 689. Maximum Sum of 3 Non-Overlapping Subarrays
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
 date: 2024-12-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/)
 
 ## Description
 
@@ -89,6 +90,5 @@ class Solution:
             seqThreeIndex += 1
 
         return bestThreeSeq
-
 ```
 

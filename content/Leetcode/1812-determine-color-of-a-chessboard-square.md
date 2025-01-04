@@ -2,12 +2,13 @@
 title: 1812. Determine Color of a Chessboard Square
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - string
 date: 2021-04-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/determine-color-of-a-chessboard-square/)
 
 ## Description
 
@@ -64,6 +65,5 @@ class Solution:
         a, b = ord(coordinates[0]) - ord('a'), int(coordinates[1])
         
         return (a % 2 == 0 and b % 2 == 0) or (a & 1 and b & 1)
-
 ```
 

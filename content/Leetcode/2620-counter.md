@@ -2,11 +2,11 @@
 title: 2620. Counter
 draft: false
 tags: 
-
+  - leetcode-easy
 date: 2023-05-06
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/counter/)
 
 ## Description
 
@@ -65,6 +65,24 @@ function createCounter(n: number): () => number {
  * counter() // 11
  * counter() // 12
  */
+```
+### JavaScript
+``` js title='counter'
+/**
+ * @param {number} n
+ * @return {Function} counter
+ */
+var createCounter = function(n) {
+    return function() {
+        return n++;
+    };
+};
 
+/** 
+ * const counter = createCounter(10)
+ * counter() // 10
+ * counter() // 11
+ * counter() // 12
+ */
 ```
 

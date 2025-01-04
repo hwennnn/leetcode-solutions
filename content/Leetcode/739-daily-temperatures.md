@@ -2,13 +2,14 @@
 title: 739. Daily Temperatures
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - stack
   - monotonic-stack
 date: 2024-08-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/daily-temperatures/)
 
 ## Description
 
@@ -54,6 +55,5 @@ class Solution:
             stack.append(i)
 
         return res
-
 ```
 

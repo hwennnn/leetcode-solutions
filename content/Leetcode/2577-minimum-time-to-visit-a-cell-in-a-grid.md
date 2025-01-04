@@ -2,16 +2,17 @@
 title: 2577. Minimum Time to Visit a Cell In a Grid
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - breadth-first-search
   - graph
-  - heap-(priority-queue)
+  - heap-priority-queue
   - matrix
   - shortest-path
 date: 2024-11-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-time-to-visit-a-cell-in-a-grid/)
 
 ## Description
 
@@ -104,6 +105,5 @@ class Solution:
 
         return -1
         
-
 ```
 

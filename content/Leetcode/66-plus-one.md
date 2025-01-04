@@ -2,12 +2,13 @@
 title: 66. Plus One
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - math
 date: 2022-03-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/plus-one/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
             res.append(carry)
         
         return res[::-1]
-
 ```
 

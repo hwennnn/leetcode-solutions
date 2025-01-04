@@ -2,13 +2,14 @@
 title: 628. Maximum Product of Three Numbers
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - math
   - sorting
 date: 2020-08-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-product-of-three-numbers/)
 
 ## Description
 
@@ -48,6 +49,5 @@ class Solution:
         
         nums.sort()
         return max(nums[-1] * nums[-2] * nums[-3], nums[0] * nums[1] * nums[-1])
-
 ```
 

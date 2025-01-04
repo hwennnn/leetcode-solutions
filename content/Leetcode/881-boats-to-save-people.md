@@ -2,6 +2,7 @@
 title: 881. Boats to Save People
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2024-05-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/boats-to-save-people/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
             res += 1
 
         return res
-
 ```
 

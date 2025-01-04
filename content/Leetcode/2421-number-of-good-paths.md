@@ -2,6 +2,7 @@
 title: 2421. Number of Good Paths
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - tree
@@ -11,7 +12,7 @@ tags:
 date: 2023-01-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-good-paths/)
 
 ## Description
 
@@ -132,7 +133,6 @@ class Solution:
         
         return res
             
-
 
 
 ```

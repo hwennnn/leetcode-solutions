@@ -2,6 +2,7 @@
 title: 2092. Find All People With Secret
 draft: false
 tags: 
+  - leetcode-hard
   - depth-first-search
   - breadth-first-search
   - union-find
@@ -10,7 +11,7 @@ tags:
 date: 2024-02-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-all-people-with-secret/)
 
 ## Description
 
@@ -139,6 +140,5 @@ class Solution:
                 res.append(i)
         
         return res
-
 ```
 

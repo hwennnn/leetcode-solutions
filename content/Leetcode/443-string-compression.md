@@ -2,12 +2,13 @@
 title: 443. String Compression
 draft: false
 tags: 
+  - leetcode-medium
   - two-pointers
   - string
 date: 2023-03-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/string-compression/)
 
 ## Description
 
@@ -88,6 +89,5 @@ class Solution:
                     prev, count = chars[i], 1
 
         return index
-
 ```
 

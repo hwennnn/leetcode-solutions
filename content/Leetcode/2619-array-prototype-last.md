@@ -2,11 +2,11 @@
 title: 2619. Array Prototype Last
 draft: false
 tags: 
-
+  - leetcode-easy
 date: 2023-05-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/array-prototype-last/)
 
 ## Description
 
@@ -62,6 +62,5 @@ Array.prototype.last = function() {
  */
 
 export {};
-
 ```
 

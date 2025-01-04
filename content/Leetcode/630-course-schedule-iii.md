@@ -2,14 +2,15 @@
 title: 630. Course Schedule III
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - greedy
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2022-06-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/course-schedule-iii/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
                 curr += heappop(pq)
             
         return len(pq)
-
 ```
 

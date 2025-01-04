@@ -2,13 +2,14 @@
 title: 2126. Destroying Asteroids
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
   - sorting
 date: 2022-01-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/destroying-asteroids/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
                 return False
         
         return True
-
 ```
 

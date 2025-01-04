@@ -2,12 +2,13 @@
 title: 1744. Can You Eat Your Favorite Candy on Your Favorite Day?
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - prefix-sum
 date: 2021-02-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
                 res.append(False)
             
         return res
-
 ```
 

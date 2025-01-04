@@ -2,6 +2,7 @@
 title: 1296. Divide Array in Sets of K Consecutive Numbers
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2020-12-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
                     count[i] -= c
             
         return True
-
 ```
 

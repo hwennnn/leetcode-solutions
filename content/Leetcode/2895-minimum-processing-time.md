@@ -2,13 +2,14 @@
 title: 2895. Minimum Processing Time
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
   - sorting
 date: 2023-10-18
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-processing-time/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
             res = max(res, p + tasks[i * 4])
         
         return res
-
 ```
 

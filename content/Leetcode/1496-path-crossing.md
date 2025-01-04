@@ -2,12 +2,13 @@
 title: 1496. Path Crossing
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - string
 date: 2023-12-23
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/path-crossing/)
 
 ## Description
 
@@ -67,6 +68,5 @@ class Solution:
             visited.add((x, y))
         
         return False
-
 ```
 

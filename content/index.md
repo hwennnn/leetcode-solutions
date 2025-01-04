@@ -1,19 +1,18 @@
 ---
-title: LeetCode Solutions
-tags:
-  - leetcode
-  - algorithms
-  - data-structures
+title: Home
 date: 2025-01-04
 ---
 
-Welcome to my LeetCode solutions collection! This site contains my solutions to various LeetCode problems, organized and documented for easy reference.
+Welcome to my digital garden! 🌱
 
-## Resources
+This space is a growing collection of my Computer Science notes and LeetCode solutions. Here, you'll find:
 
-- [GitHub Repository](https://github.com/hwennnn/leetcode-solutions)
-- [LeetCode Profile](https://leetcode.com/theonepieceisreal/)
+- Various CS concepts and learnings
+- A comprehensive collection of [LeetCode problem solutions](/leetcode)
+- Regular updates with new content (I aim to contribute daily, if work permitting!)
+
+Feel free to explore and learn alongside me. Happy coding! 💻
 
 ---
 
-*Problems sourced from [LeetCode](https://leetcode.com/)*
+*Built with [Quartz](https://quartz.jzhao.xyz/), a fast, batteries-included static-site generator* 🪴

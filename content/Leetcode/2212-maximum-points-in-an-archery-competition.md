@@ -2,6 +2,7 @@
 title: 2212. Maximum Points in an Archery Competition
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - backtracking
   - bit-manipulation
@@ -9,7 +10,7 @@ tags:
 date: 2022-03-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-points-in-an-archery-competition/)
 
 ## Description
 
@@ -98,6 +99,5 @@ class Solution:
         res[0] += N - sum(res)
         
         return res
-
 ```
 

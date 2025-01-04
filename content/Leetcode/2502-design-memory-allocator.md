@@ -2,6 +2,7 @@
 title: 2502. Design Memory Allocator
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - design
@@ -9,7 +10,7 @@ tags:
 date: 2022-12-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/design-memory-allocator/)
 
 ## Description
 
@@ -119,6 +120,5 @@ class Allocator:
 # obj = Allocator(n)
 # param_1 = obj.allocate(size,mID)
 # param_2 = obj.free(mID)
-
 ```
 

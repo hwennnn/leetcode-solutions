@@ -2,12 +2,13 @@
 title: 69. Sqrt(x)
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - binary-search
 date: 2022-05-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/sqrtx/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
                 right = mid
         
         return left - 1
-
 ```
 

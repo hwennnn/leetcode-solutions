@@ -2,12 +2,13 @@
 title: 1688. Count of Matches in Tournament
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - simulation
 date: 2023-12-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-of-matches-in-tournament/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
                 n = (n - 1) // 2 + 1
         
         return res
-
 ```
 

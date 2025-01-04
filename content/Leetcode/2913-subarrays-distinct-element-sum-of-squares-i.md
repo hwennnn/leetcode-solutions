@@ -2,12 +2,13 @@
 title: 2913. Subarrays Distinct Element Sum of Squares I
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
 date: 2023-10-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
                 res += len(s) * len(s)
         
         return res
-
 ```
 

@@ -2,13 +2,14 @@
 title: 2267.  Check if There Is a Valid Parentheses String Path
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - matrix
 date: 2022-10-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/check-if-there-is-a-valid-parentheses-string-path/)
 
 ## Description
 
@@ -92,6 +93,5 @@ class Solution:
             return pos(x + 1, y) or pos(x, y + 1)
         
         return go(0, 0, 1)
-
 ```
 

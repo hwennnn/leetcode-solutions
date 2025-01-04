@@ -2,6 +2,7 @@
 title: 109. Convert Sorted List to Binary Search Tree
 draft: false
 tags: 
+  - leetcode-medium
   - linked-list
   - divide-and-conquer
   - tree
@@ -10,7 +11,7 @@ tags:
 date: 2023-03-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)
 
 ## Description
 
@@ -81,6 +82,5 @@ class Solution:
         
         return root 
         
-
 ```
 

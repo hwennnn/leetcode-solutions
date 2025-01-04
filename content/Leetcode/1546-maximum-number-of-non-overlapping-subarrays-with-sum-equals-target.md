@@ -2,6 +2,7 @@
 title: 1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2020-10-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/)
 
 ## Description
 
@@ -65,6 +66,5 @@ class Solution:
             d[s] = i
         
         return res
-
 ```
 

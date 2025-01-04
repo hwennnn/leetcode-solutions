@@ -2,6 +2,7 @@
 title: 2384. Largest Palindromic Number
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2022-08-27
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/largest-palindromic-number/)
 
 ## Description
 
@@ -92,6 +93,5 @@ class Solution:
 
         return part + mid + part[::-1]
                 
-
 ```
 

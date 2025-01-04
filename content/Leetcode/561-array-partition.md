@@ -2,6 +2,7 @@
 title: 561. Array Partition
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - greedy
   - sorting
@@ -9,7 +10,7 @@ tags:
 date: 2020-02-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/array-partition/)
 
 ## Description
 
@@ -62,6 +63,5 @@ class Solution:
             ans+=nums[i]
             
         return ans
-
 ```
 

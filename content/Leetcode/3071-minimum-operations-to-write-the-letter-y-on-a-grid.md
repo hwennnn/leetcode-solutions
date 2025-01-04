@@ -2,6 +2,7 @@
 title: 3071. Minimum Operations to Write the Letter Y on a Grid
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - matrix
@@ -9,7 +10,7 @@ tags:
 date: 2024-03-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-operations-to-write-the-letter-y-on-a-grid/)
 
 ## Description
 
@@ -114,6 +115,5 @@ class Solution:
                     res = min(res, go(a, b))
         
         return res
-
 ```
 

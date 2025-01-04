@@ -2,6 +2,7 @@
 title: 509. Fibonacci Number
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - dynamic-programming
   - recursion
@@ -9,7 +10,7 @@ tags:
 date: 2024-08-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/fibonacci-number/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
         if n == 1: return 1
         
         return self.fib(n - 1) + self.fib(n - 2)
-
 ```
 

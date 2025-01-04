@@ -2,6 +2,7 @@
 title: 85. Maximal Rectangle
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - dynamic-programming
   - stack
@@ -10,7 +11,7 @@ tags:
 date: 2024-04-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximal-rectangle/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class Solution:
                 res = max(res, (right[j] - left[j]) * heights[j])
 
         return res
-
 ```
 

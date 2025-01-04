@@ -2,13 +2,14 @@
 title: 3127. Make a Square with the Same Color
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - matrix
   - enumeration
 date: 2024-04-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/make-a-square-with-the-same-color/)
 
 ## Description
 
@@ -167,6 +168,5 @@ class Solution:
                     return True
         
         return False
-
 ```
 

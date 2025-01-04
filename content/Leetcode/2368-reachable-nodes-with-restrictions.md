@@ -2,6 +2,7 @@
 title: 2368. Reachable Nodes With Restrictions
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - tree
@@ -12,7 +13,7 @@ tags:
 date: 2022-09-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/reachable-nodes-with-restrictions/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
         
         dfs(0)
         return len(visited)
-
 ```
 

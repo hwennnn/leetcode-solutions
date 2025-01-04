@@ -2,6 +2,7 @@
 title: 654. Maximum Binary Tree
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - divide-and-conquer
   - stack
@@ -11,7 +12,7 @@ tags:
 date: 2022-02-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-binary-tree/)
 
 ## Description
 
@@ -94,6 +95,5 @@ class Solution:
             last = None
         
         return stack[0]
-
 ```
 

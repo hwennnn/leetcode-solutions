@@ -2,11 +2,12 @@
 title: 1800. Maximum Ascending Subarray Sum
 draft: false
 tags: 
+  - leetcode-easy
   - array
 date: 2023-11-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-ascending-subarray-sum/)
 
 ## Description
 
@@ -70,6 +71,5 @@ class Solution:
             res = max(res, curr)
         
         return res
-
 ```
 

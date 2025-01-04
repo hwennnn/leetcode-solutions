@@ -2,6 +2,7 @@
 title: 733. Flood Fill
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - depth-first-search
   - breadth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2024-08-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/flood-fill/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class Solution:
             
         dfs(sr, sc)
         return image
-
 ```
 

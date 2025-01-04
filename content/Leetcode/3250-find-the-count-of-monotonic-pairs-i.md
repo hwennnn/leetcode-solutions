@@ -2,6 +2,7 @@
 title: 3250. Find the Count of Monotonic Pairs I
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - math
   - dynamic-programming
@@ -10,7 +11,7 @@ tags:
 date: 2024-08-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-count-of-monotonic-pairs-i/)
 
 ## Description
 
@@ -97,6 +98,5 @@ class Solution:
 
 
         return go(0, -1)
-
 ```
 

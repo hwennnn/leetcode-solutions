@@ -2,11 +2,12 @@
 title: 1694. Reformat Phone Number
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2020-12-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/reformat-phone-number/)
 
 ## Description
 
@@ -94,6 +95,5 @@ class Solution:
             res.append(number[i:])
         
         return "-".join(res)
-
 ```
 

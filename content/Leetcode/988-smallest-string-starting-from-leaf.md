@@ -2,6 +2,7 @@
 title: 988. Smallest String Starting From Leaf
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - backtracking
   - tree
@@ -10,7 +11,7 @@ tags:
 date: 2024-04-17
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/smallest-string-starting-from-leaf/)
 
 ## Description
 
@@ -89,6 +90,5 @@ class Solution:
         go(root, "")
 
         return res
-
 ```
 

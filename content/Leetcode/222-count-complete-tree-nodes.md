@@ -2,6 +2,7 @@
 title: 222. Count Complete Tree Nodes
 draft: false
 tags: 
+  - leetcode-easy
   - binary-search
   - bit-manipulation
   - tree
@@ -9,7 +10,7 @@ tags:
 date: 2022-11-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-complete-tree-nodes/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
             return (1 << left) - 1
         else:
             return 1 + self.countNodes(root.left) + self.countNodes(root.right)
-
 ```
 

@@ -2,13 +2,14 @@
 title: 2848. Points That Intersect With Cars
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - prefix-sum
 date: 2023-09-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/points-that-intersect-with-cars/)
 
 ## Description
 
@@ -66,6 +67,5 @@ class Solution:
                 res += 1
 
         return res
-
 ```
 

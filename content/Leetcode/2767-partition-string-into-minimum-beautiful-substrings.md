@@ -2,6 +2,7 @@
 title: 2767. Partition String Into Minimum Beautiful Substrings
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
   - dynamic-programming
@@ -9,7 +10,7 @@ tags:
 date: 2023-07-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/partition-string-into-minimum-beautiful-substrings/)
 
 ## Description
 
@@ -99,6 +100,5 @@ class Solution:
         
         return ans if (ans := go(0)) != inf else -1
                 
-
 ```
 

@@ -2,12 +2,13 @@
 title: 441. Arranging Coins
 draft: false
 tags: 
+  - leetcode-easy
   - math
   - binary-search
 date: 2022-05-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/arranging-coins/)
 
 ## Description
 
@@ -50,6 +51,5 @@ class Solution:
     def arrangeCoins(self, n: int) -> int:
         return (int) (sqrt(1 + (8 * n)) - 1) // 2
     
-
 ```
 

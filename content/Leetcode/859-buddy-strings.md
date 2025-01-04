@@ -2,12 +2,13 @@
 title: 859. Buddy Strings
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - string
 date: 2023-07-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/buddy-strings/)
 
 ## Description
 
@@ -68,6 +69,5 @@ class Solution:
         diff = [(a,b) for a,b in zip(A,B) if a != b]
         
         return len(diff) == 2 and diff[0] == diff[1][::-1]
-
 ```
 

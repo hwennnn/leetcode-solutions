@@ -2,6 +2,7 @@
 title: 402. Remove K Digits
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - stack
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2024-04-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/remove-k-digits/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
             return "".join(stack[i:])
         
         return "0"
-
 ```
 

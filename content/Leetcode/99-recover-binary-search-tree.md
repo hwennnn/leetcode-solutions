@@ -2,6 +2,7 @@
 title: 99. Recover Binary Search Tree
 draft: false
 tags: 
+  - leetcode-medium
   - tree
   - depth-first-search
   - binary-search-tree
@@ -9,7 +10,7 @@ tags:
 date: 2022-04-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/recover-binary-search-tree/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution(object):
             self.dfs(root.left, res)
             res.append(root)
             self.dfs(root.right, res)
-
 ```
 

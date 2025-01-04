@@ -2,12 +2,13 @@
 title: 442. Find All Duplicates in an Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
 date: 2024-03-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
 
 ## Description
 
@@ -56,6 +57,5 @@ class Solution:
             nums[a - 1] = -nums[a - 1]
         
         return res
-
 ```
 

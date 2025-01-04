@@ -2,12 +2,13 @@
 title: 2293. Min Max Game
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - simulation
 date: 2022-06-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/min-max-game/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
             nums = temp
         
         return nums[0]
-
 ```
 

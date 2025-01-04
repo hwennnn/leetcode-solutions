@@ -2,6 +2,7 @@
 title: 837. New 21 Game
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - dynamic-programming
   - sliding-window
@@ -9,7 +10,7 @@ tags:
 date: 2023-05-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/new-21-game/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
             if 0 <= p - maxPts < k:
                 window -= dp[p - maxPts]
         return sum(dp[k:])
-
 ```
 

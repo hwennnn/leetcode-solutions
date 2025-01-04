@@ -2,12 +2,13 @@
 title: 3159. Find Occurrences of an Element in an Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
 date: 2024-05-25
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
                 res.append(-1)
         
         return res
-
 ```
 

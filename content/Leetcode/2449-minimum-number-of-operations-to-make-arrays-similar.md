@@ -2,13 +2,14 @@
 title: 2449. Minimum Number of Operations to Make Arrays Similar
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - greedy
   - sorting
 date: 2023-06-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-operations-to-make-arrays-similar/)
 
 ## Description
 
@@ -82,6 +83,5 @@ class Solution:
                 res += a - b
 
         return res // 2
-
 ```
 

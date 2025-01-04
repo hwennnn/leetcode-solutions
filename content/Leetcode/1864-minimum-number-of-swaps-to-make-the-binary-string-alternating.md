@@ -2,12 +2,13 @@
 title: 1864. Minimum Number of Swaps to Make the Binary String Alternating
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - greedy
 date: 2021-05-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating/)
 
 ## Description
 
@@ -84,6 +85,5 @@ class Solution:
             return countSwap('1')
         else:
             return min(countSwap('0'), countSwap('1'))
-
 ```
 

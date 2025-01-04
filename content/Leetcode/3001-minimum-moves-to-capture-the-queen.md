@@ -2,12 +2,13 @@
 title: 3001. Minimum Moves to Capture The Queen
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - enumeration
 date: 2024-01-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-moves-to-capture-the-queen/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
         
         return 2
         
-
 ```
 

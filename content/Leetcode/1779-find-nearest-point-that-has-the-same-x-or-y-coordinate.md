@@ -2,11 +2,12 @@
 title: 1779. Find Nearest Point That Has the Same X or Y Coordinate
 draft: false
 tags: 
+  - leetcode-easy
   - array
 date: 2022-03-02
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)
 
 ## Description
 
@@ -67,6 +68,5 @@ class Solution:
                     res = index
         
         return res if distance != float('inf') else -1
-
 ```
 

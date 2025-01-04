@@ -2,6 +2,7 @@
 title: 2013. Detect Squares
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - design
@@ -9,7 +10,7 @@ tags:
 date: 2021-09-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/detect-squares/)
 
 ## Description
 
@@ -99,6 +100,5 @@ class DetectSquares:
 # obj = DetectSquares()
 # obj.add(point)
 # param_2 = obj.count(point)
-
 ```
 

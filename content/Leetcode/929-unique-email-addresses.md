@@ -2,13 +2,14 @@
 title: 929. Unique Email Addresses
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
   - string
-date: 2022-03-04
+date: 2019-10-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/unique-email-addresses/)
 
 ## Description
 
@@ -88,6 +89,44 @@ class Solution:
             s.add(curr + "@" + provider)
         
         return len(s)
+```
+### Python
+``` py title='unique-email-addresses'
+class Solution(object):
+    def numUniqueEmails(self, emails):
+        """
+        :type emails: List[str]
+        :rtype: int
+        """
 
+        lst = []
+        for x in emails:
+ 
+            res = ""
+            a_index = x.index("@")
+            try:
+                var = x.index("+")
+            except:
+                var = None
+
+            for i in range(len(x)):
+                if var != None:
+                    if var<=i<a_index:
+                        continue
+                if i < a_index:
+                    if x[i] == "." :
+                        continue
+                    else:
+                        res+=x[i]
+
+                else:
+                    res+=x[i]
+
+            lst.append(res)
+            
+
+        return (len(set(lst)))
+                    
+                
 ```
 

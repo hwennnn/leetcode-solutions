@@ -2,11 +2,11 @@
 title: 2693. Call Function with Custom Context
 draft: false
 tags: 
-
+  - leetcode-medium
 date: 2023-05-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/call-function-with-custom-context/)
 
 ## Description
 
@@ -86,6 +86,5 @@ Function.prototype.callPolyfill = function(context, ...args): any {
  * function increment() { this.count++; return this.count; }
  * increment.callPolyfill({count: 1}); // 2
  */
-
 ```
 

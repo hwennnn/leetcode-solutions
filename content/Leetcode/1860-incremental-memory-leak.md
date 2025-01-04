@@ -2,12 +2,13 @@
 title: 1860. Incremental Memory Leak
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - simulation
 date: 2021-05-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/incremental-memory-leak/)
 
 ## Description
 
@@ -73,6 +74,5 @@ class Solution:
             
             t += 1
             
-
 ```
 

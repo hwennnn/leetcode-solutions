@@ -2,13 +2,14 @@
 title: 1705. Maximum Number of Eaten Apples
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
-  - heap-(priority-queue)
+  - heap-priority-queue
 date: 2020-12-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-number-of-eaten-apples/)
 
 ## Description
 
@@ -86,6 +87,5 @@ class Solution:
             i += 1
         
         return res
-
 ```
 

@@ -2,12 +2,13 @@
 title: 2120. Execution of All Suffix Instructions Staying in a Grid
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - simulation
 date: 2021-12-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/execution-of-all-suffix-instructions-staying-in-a-grid/)
 
 ## Description
 
@@ -104,6 +105,5 @@ class Solution:
             res.append(count)
         
         return res
-
 ```
 

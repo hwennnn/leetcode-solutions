@@ -2,6 +2,7 @@
 title: 1863. Sum of All Subset XOR Totals
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - math
   - backtracking
@@ -11,7 +12,7 @@ tags:
 date: 2024-05-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/sum-of-all-subset-xor-totals/)
 
 ## Description
 
@@ -96,6 +97,5 @@ class Solution:
             res += curr
         
         return res
-
 ```
 

@@ -2,13 +2,14 @@
 title: 2958. Length of Longest Subarray With at Most K Frequency
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - sliding-window
 date: 2024-03-28
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
             res = max(res, j - i + 1)
         
         return res
-
 ```
 

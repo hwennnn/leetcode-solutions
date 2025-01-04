@@ -2,13 +2,14 @@
 title: 2615. Sum of Distances
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - prefix-sum
 date: 2023-04-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/sum-of-distances/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
                 preSum += x
         
         return res
-
 ```
 

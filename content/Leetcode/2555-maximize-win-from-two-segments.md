@@ -2,13 +2,14 @@
 title: 2555. Maximize Win From Two Segments
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
   - sliding-window
 date: 2023-02-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximize-win-from-two-segments/)
 
 ## Description
 
@@ -80,6 +81,5 @@ class Solution:
             res = max(res, j - i + 1 + dp[i])
         
         return res
-
 ```
 

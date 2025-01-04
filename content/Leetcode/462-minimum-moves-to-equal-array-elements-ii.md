@@ -2,13 +2,14 @@
 title: 462. Minimum Moves to Equal Array Elements II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - sorting
 date: 2023-06-26
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)
 
 ## Description
 
@@ -59,6 +60,5 @@ class Solution:
         median = nums[N // 2]
 
         return sum(abs(x - median) for x in nums)
-
 ```
 

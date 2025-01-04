@@ -2,12 +2,13 @@
 title: 374. Guess Number Higher or Lower
 draft: false
 tags: 
+  - leetcode-easy
   - binary-search
   - interactive
 date: 2022-11-16
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/guess-number-higher-or-lower/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
                 left = mid + 1
         
         return left
-
 ```
 

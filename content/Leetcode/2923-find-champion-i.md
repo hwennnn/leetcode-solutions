@@ -2,12 +2,13 @@
 title: 2923. Find Champion I
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - matrix
 date: 2023-11-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-champion-i/)
 
 ## Description
 
@@ -78,6 +79,5 @@ class Solution:
                 return team
         
         return -1
-
 ```
 

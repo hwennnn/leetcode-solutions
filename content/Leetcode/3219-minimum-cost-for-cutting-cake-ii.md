@@ -2,13 +2,14 @@
 title: 3219. Minimum Cost for Cutting Cake II
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - greedy
   - sorting
 date: 2024-07-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-cost-for-cutting-cake-ii/)
 
 ## Description
 
@@ -113,7 +114,6 @@ class Solution:
                 vi += 1
 
         return res
-
 
 ```
 

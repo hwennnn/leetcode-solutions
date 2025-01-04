@@ -2,13 +2,14 @@
 title: 1567. Maximum Length of Subarray With Positive Product
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - greedy
-date: 2021-09-20
+date: 2020-08-30
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)
 
 ## Description
 
@@ -79,6 +80,79 @@ class Solution:
                 res = max(res, i - negPos)
         
         return res
+```
+### C++
+``` cpp title='maximum-length-of-subarray-with-positive-product'
+class Solution {
+public:
+    int getMaxLen(vector<int>& nums) {
+        int n = nums.size();
+        int lastZero = -1;
+        int firstNegative = -1;
+        int res = 0;
+        int neg = 0;
+        
+        for (int i = 0; i < n; i++){
+            if (nums[i] < 0){
+                 neg++;
+                if (firstNegative == -1){
+                    firstNegative = i;
+                }
+        
+            }
+            
+            if (nums[i] == 0){
+                neg = 0;
+                firstNegative = -1;
+                lastZero = i;
+            }else{
+                if (neg%2 == 0){
+                    res = max(res, i - lastZero);
+                }
+                else{
+                    res = max(res, i - firstNegative);
+                }
+            }
+            
+            
+               
+        }
+        
+        return res;
+            
+            
+            
+    }
+};
 
+```
+### Java
+``` java title='maximum-length-of-subarray-with-positive-product'
+class Solution {
+      public int getMaxLen(int[] nums) {
+        // sum is used to count the number of negative numbers from zeroPosition to current index
+        int firstNegative = -1, zeroPosition = -1, sum = 0, max = 0;
+        for(int i = 0;i < nums.length; i++){
+            if(nums[i] < 0){
+                sum++;
+				// we only need to know index of first negative number
+                if(firstNegative == -1) firstNegative = i;
+            }
+			// if current number is 0, we can't use any element from index 0 to i anymore, so update zeroPosition, and reset sum and firstNegative. If it is a game, we should refresh the game when we meet 0. 
+            if(nums[i] == 0){
+                sum = 0;
+                firstNegative = -1;
+                zeroPosition = i;
+            }
+            else{
+			    // consider index of zero
+                if(sum%2 == 0) max = Math.max(i - zeroPosition, max);
+				// consider index of first negative number
+                else max = Math.max(i - firstNegative, max);   
+            }
+        }
+        return max;
+    }
+}
 ```
 

@@ -2,13 +2,14 @@
 title: 563. Binary Tree Tilt
 draft: false
 tags: 
+  - leetcode-easy
   - tree
   - depth-first-search
   - binary-tree
 date: 2021-12-08
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/binary-tree-tilt/)
 
 ## Description
 
@@ -90,6 +91,5 @@ class Solution:
         
         go(root)
         return res
-
 ```
 

@@ -2,6 +2,7 @@
 title: 2439. Minimize Maximum of Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
   - dynamic-programming
@@ -10,7 +11,7 @@ tags:
 date: 2023-04-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimize-maximum-of-array/)
 
 ## Description
 
@@ -92,6 +93,5 @@ class Solution:
                 left = mid + 1
         
         return left
-
 ```
 

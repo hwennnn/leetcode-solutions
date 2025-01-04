@@ -2,13 +2,14 @@
 title: 2048. Next Greater Numerically Balanced Number
 draft: false
 tags: 
+  - leetcode-medium
   - math
   - backtracking
   - enumeration
 date: 2021-10-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/next-greater-numerically-balanced-number/)
 
 ## Description
 
@@ -85,6 +86,5 @@ class Solution:
             counter = collections.Counter(str(n))
         
         return n
-
 ```
 

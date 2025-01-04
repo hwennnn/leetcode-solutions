@@ -2,13 +2,14 @@
 title: 1408. String Matching in an Array
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - string
   - string-matching
 date: 2020-10-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/string-matching-in-an-array/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
                     res.add(w1)
         
         return list(res)
-
 ```
 

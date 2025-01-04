@@ -2,11 +2,11 @@
 title: 2700. Differences Between Two Objects
 draft: false
 tags: 
-
+  - leetcode-medium
 date: 2023-05-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/differences-between-two-objects/)
 
 ## Description
 
@@ -59,6 +59,5 @@ function objDiff(obj1: any, obj2: any): any {
     compare(obj1, obj2, [], result);
     return result;
 };
-
 ```
 

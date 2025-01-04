@@ -2,11 +2,12 @@
 title: 1417. Reformat The String
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2020-10-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/reformat-the-string/)
 
 ## Description
 
@@ -93,6 +94,5 @@ class Solution:
         
         
         return "".join(res)
-
 ```
 

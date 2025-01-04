@@ -2,6 +2,7 @@
 title: 2171. Removing Minimum Number of Magic Beans
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - greedy
   - sorting
@@ -10,7 +11,7 @@ tags:
 date: 2022-02-15
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/removing-minimum-number-of-magic-beans/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
             res = min(res, total - (n - i) * x)
         
         return res
-
 ```
 

@@ -2,12 +2,13 @@
 title: 1426. Counting Elements
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - hash-table
 date: 2020-04-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/counting-elements/)
 
 ## Description
 
@@ -24,6 +25,5 @@ class Solution:
         c = set(nums)
 
         return sum([1 for x in nums if x+1 in nums])
-
 ```
 

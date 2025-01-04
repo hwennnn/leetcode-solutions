@@ -2,13 +2,14 @@
 title: 2183. Count Array Pairs Divisible by K
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - math
   - number-theory
 date: 2022-02-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-array-pairs-divisible-by-k/)
 
 ## Description
 
@@ -75,6 +76,5 @@ class Solution:
                     count[divisor] += 1
         
         return res
-
 ```
 

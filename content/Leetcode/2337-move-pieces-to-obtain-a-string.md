@@ -2,12 +2,13 @@
 title: 2337. Move Pieces to Obtain a String
 draft: false
 tags: 
+  - leetcode-medium
   - two-pointers
   - string
 date: 2024-12-05
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/move-pieces-to-obtain-a-string/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
 
         
         return True
-
 ```
 

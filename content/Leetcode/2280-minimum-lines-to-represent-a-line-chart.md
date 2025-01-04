@@ -2,6 +2,7 @@
 title: 2280. Minimum Lines to Represent a Line Chart
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - math
   - geometry
@@ -10,7 +11,7 @@ tags:
 date: 2022-05-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-lines-to-represent-a-line-chart/)
 
 ## Description
 
@@ -83,6 +84,5 @@ class Solution:
                 dy = dy1
         
         return res
-
 ```
 

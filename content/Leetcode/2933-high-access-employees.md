@@ -2,6 +2,7 @@
 title: 2933. High-Access Employees
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - string
@@ -9,7 +10,7 @@ tags:
 date: 2023-11-12
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/high-access-employees/)
 
 ## Description
 
@@ -95,6 +96,5 @@ class Solution:
         
         return res
             
-
 ```
 

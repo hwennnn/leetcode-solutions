@@ -2,12 +2,13 @@
 title: 3069. Distribute Elements Into Two Arrays I
 draft: false
 tags: 
+  - leetcode-easy
   - array
   - simulation
 date: 2024-03-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/)
 
 ## Description
 
@@ -76,6 +77,5 @@ class Solution:
                 arr2.append(nums[i])
         
         return arr1 + arr2
-
 ```
 

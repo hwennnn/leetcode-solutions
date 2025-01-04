@@ -2,13 +2,14 @@
 title: 2350. Shortest Impossible Sequence of Rolls
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - hash-table
   - greedy
 date: 2022-07-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/shortest-impossible-sequence-of-rolls/)
 
 ## Description
 
@@ -77,6 +78,5 @@ class Solution:
                 seen.clear()
         
         return curr
-
 ```
 

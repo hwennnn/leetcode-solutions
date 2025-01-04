@@ -2,13 +2,14 @@
 title: 76. Minimum Window Substring
 draft: false
 tags: 
+  - leetcode-hard
   - hash-table
   - string
   - sliding-window
 date: 2024-08-13
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-window-substring/)
 
 ## Description
 
@@ -91,6 +92,5 @@ class Solution:
         if res[0] == inf: return ""
 
         return s[res[1] : res[2] + 1]
-
 ```
 

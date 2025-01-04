@@ -2,16 +2,17 @@
 title: 1985. Find the Kth Largest Integer in the Array
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - string
   - divide-and-conquer
   - sorting
-  - heap-(priority-queue)
+  - heap-priority-queue
   - quickselect
 date: 2021-08-29
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/)
 
 ## Description
 
@@ -74,6 +75,5 @@ class Solution:
         nums.sort(key = lambda x : int(x))
 
         return nums[len(nums) - k]
-
 ```
 

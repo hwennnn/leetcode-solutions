@@ -2,13 +2,14 @@
 title: 3122. Minimum Number of Operations to Satisfy Conditions
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - dynamic-programming
   - matrix
 date: 2024-04-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-operations-to-satisfy-conditions/)
 
 ## Description
 
@@ -110,6 +111,5 @@ class Solution:
             return res
         
         return go(0, -1)
-
 ```
 

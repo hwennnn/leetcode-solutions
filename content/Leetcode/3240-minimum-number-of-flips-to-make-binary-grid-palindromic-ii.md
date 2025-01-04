@@ -2,13 +2,14 @@
 title: 3240. Minimum Number of Flips to Make Binary Grid Palindromic II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
   - matrix
 date: 2024-08-04
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-number-of-flips-to-make-binary-grid-palindromic-ii/)
 
 ## Description
 
@@ -100,6 +101,5 @@ class Solution:
             return flips + 1
 
         return flips + (totalOnes % 4)
-
 ```
 

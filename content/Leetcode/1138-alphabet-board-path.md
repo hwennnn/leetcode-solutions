@@ -2,12 +2,13 @@
 title: 1138. Alphabet Board Path
 draft: false
 tags: 
+  - leetcode-medium
   - hash-table
   - string
 date: 2021-05-22
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/alphabet-board-path/)
 
 ## Description
 
@@ -88,6 +89,5 @@ class Solution:
         
         return res
         
-
 ```
 

@@ -2,6 +2,7 @@
 title: 2109. Adding Spaces to a String
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - two-pointers
   - string
@@ -9,7 +10,7 @@ tags:
 date: 2024-12-03
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/adding-spaces-to-a-string/)
 
 ## Description
 
@@ -86,6 +87,5 @@ class Solution:
             count += 1
 
         return "".join(res)
-
 ```
 

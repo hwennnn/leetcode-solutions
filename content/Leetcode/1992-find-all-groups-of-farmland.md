@@ -2,6 +2,7 @@
 title: 1992. Find All Groups of Farmland
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - depth-first-search
   - breadth-first-search
@@ -9,7 +10,7 @@ tags:
 date: 2024-04-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-all-groups-of-farmland/)
 
 ## Description
 
@@ -94,6 +95,5 @@ class Solution:
                     res.append(dfs(x, y))
         
         return res
-
 ```
 

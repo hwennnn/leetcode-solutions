@@ -2,13 +2,14 @@
 title: 2522. Partition String Into Substrings With Values at Most K
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - dynamic-programming
   - greedy
 date: 2023-01-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/partition-string-into-substrings-with-values-at-most-k/)
 
 ## Description
 
@@ -93,6 +94,5 @@ class Solution:
         return res + 1
             
             
-
 ```
 

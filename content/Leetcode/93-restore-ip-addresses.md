@@ -2,12 +2,13 @@
 title: 93. Restore IP Addresses
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - backtracking
 date: 2023-01-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/restore-ip-addresses/)
 
 ## Description
 
@@ -79,6 +80,5 @@ class Solution:
         
         go(0, [])
         return res
-
 ```
 

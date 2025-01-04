@@ -2,6 +2,7 @@
 title: 911. Online Election
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - binary-search
@@ -9,7 +10,7 @@ tags:
 date: 2022-04-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/online-election/)
 
 ## Description
 
@@ -88,6 +89,5 @@ class TopVotedCandidate:
 # Your TopVotedCandidate object will be instantiated and called as such:
 # obj = TopVotedCandidate(persons, times)
 # param_1 = obj.q(t)
-
 ```
 

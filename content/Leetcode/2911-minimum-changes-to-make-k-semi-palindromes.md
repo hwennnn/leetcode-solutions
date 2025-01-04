@@ -2,13 +2,14 @@
 title: 2911. Minimum Changes to Make K Semi-palindromes
 draft: false
 tags: 
+  - leetcode-hard
   - two-pointers
   - string
   - dynamic-programming
 date: 2024-03-21
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/minimum-changes-to-make-k-semi-palindromes/)
 
 ## Description
 
@@ -137,6 +138,5 @@ class Solution:
             return res
         
         return go(0, k)
-
 ```
 

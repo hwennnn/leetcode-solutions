@@ -2,6 +2,7 @@
 title: 2179. Count Good Triplets in an Array
 draft: false
 tags: 
+  - leetcode-hard
   - array
   - binary-search
   - divide-and-conquer
@@ -12,7 +13,7 @@ tags:
 date: 2022-02-20
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-good-triplets-in-an-array/)
 
 ## Description
 
@@ -87,6 +88,5 @@ class Solution:
         
         return res
         
-
 ```
 

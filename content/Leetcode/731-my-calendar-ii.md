@@ -2,6 +2,7 @@
 title: 731. My Calendar II
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - binary-search
   - design
@@ -11,7 +12,7 @@ tags:
 date: 2025-01-01
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/my-calendar-ii/)
 
 ## Description
 
@@ -92,6 +93,5 @@ class MyCalendarTwo:
 # Your MyCalendarTwo object will be instantiated and called as such:
 # obj = MyCalendarTwo()
 # param_1 = obj.book(start,end)
-
 ```
 

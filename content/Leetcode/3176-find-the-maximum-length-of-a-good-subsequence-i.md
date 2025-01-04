@@ -2,13 +2,14 @@
 title: 3176. Find the Maximum Length of a Good Subsequence I
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - dynamic-programming
 date: 2024-06-09
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/find-the-maximum-length-of-a-good-subsequence-i/)
 
 ## Description
 
@@ -77,6 +78,56 @@ class Solution:
             res = max(res, dp[i][k])
         
         return res
+```
+### C++
+``` cpp title='find-the-maximum-length-of-a-good-subsequence-i'
+#include <vector>
+#include <cstring>
+#include <algorithm>
+using namespace std;
+
+class Solution {
+public:
+    int N;
+    int cache[505][505][26];
+
+    int dp(int index, int prev, int count, vector<int>& nums, int k) {
+        if (index == N) return 0;
+
+        // Check the cache
+        if (cache[index][prev + 1][count] != -1) {
+            return cache[index][prev + 1][count];
+        }
+
+        int res = INT_MIN;
+
+        // Case 1: skip the current element
+        res = dp(index + 1, prev, count, nums, k);
+
+        // Case 2: take the current element
+        if (prev != -1) {
+            if (nums[index] != nums[prev]) {
+                if (count + 1 <= k) {
+                    res = max(res, 1 + dp(index + 1, index, count + 1, nums, k));
+                }
+            } else {
+                res = max(res, 1 + dp(index + 1, index, count, nums, k));
+            }
+        } else {
+            res = max(res, 1 + dp(index + 1, index, count, nums, k));
+        }
+
+        // Store the result in the cache and return
+        cache[index][prev + 1][count] = res;
+        return res;
+    }
+
+    int maximumLength(vector<int>& nums, int k) {
+        N = nums.size();
+        memset(cache, -1, sizeof(cache));
+        return dp(0, -1, 0, nums, k);
+    }
+};
 
 ```
 

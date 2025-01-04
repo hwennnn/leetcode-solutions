@@ -2,12 +2,13 @@
 title: 2062. Count Vowel Substrings of a String
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - string
 date: 2021-11-07
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-vowel-substrings-of-a-string/)
 
 ## Description
 
@@ -92,6 +93,5 @@ class Solution:
                     res += 1
 
         return res
-
 ```
 

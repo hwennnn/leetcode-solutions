@@ -2,6 +2,7 @@
 title: 449. Serialize and Deserialize BST
 draft: false
 tags: 
+  - leetcode-medium
   - string
   - tree
   - depth-first-search
@@ -12,7 +13,7 @@ tags:
 date: 2020-10-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/serialize-and-deserialize-bst/)
 
 ## Description
 
@@ -74,7 +75,6 @@ class Codec:
                 return node
 
         return build(float('-infinity'), float('infinity'))
-
 
 ```
 

@@ -2,6 +2,7 @@
 title: 1775. Equal Sum Arrays With Minimum Number of Operations
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - greedy
@@ -9,7 +10,7 @@ tags:
 date: 2021-04-10
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/equal-sum-arrays-with-minimum-number-of-operations/)
 
 ## Description
 
@@ -89,6 +90,5 @@ class Solution:
             res += 1
             
         return res
-
 ```
 

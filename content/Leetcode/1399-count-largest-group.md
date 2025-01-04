@@ -2,12 +2,13 @@
 title: 1399. Count Largest Group
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - math
 date: 2020-10-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/count-largest-group/)
 
 ## Description
 
@@ -57,7 +58,6 @@ class Solution:
             t = sum(map(int, list(str(i))))
             d[t] += 1
         return sum(1 for i in d.values() if i >= max(d.values()))
-
 
 ```
 

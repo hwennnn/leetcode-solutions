@@ -2,6 +2,7 @@
 title: 3143. Maximum Points Inside the Square
 draft: false
 tags: 
+  - leetcode-medium
   - array
   - hash-table
   - string
@@ -10,7 +11,7 @@ tags:
 date: 2024-05-11
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-blue.svg)
+[Problem Link](https://leetcode.com/problems/maximum-points-inside-the-square/)
 
 ## Description
 
@@ -117,6 +118,5 @@ class Solution:
             
         
         return res
-
 ```
 

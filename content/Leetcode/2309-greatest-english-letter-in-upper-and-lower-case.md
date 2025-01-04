@@ -2,13 +2,14 @@
 title: 2309. Greatest English Letter in Upper and Lower Case
 draft: false
 tags: 
+  - leetcode-easy
   - hash-table
   - string
   - enumeration
 date: 2022-06-19
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/)
 
 ## Description
 
@@ -69,6 +70,5 @@ class Solution:
                 return chr(ord("A") + j)
         
         return ""
-
 ```
 

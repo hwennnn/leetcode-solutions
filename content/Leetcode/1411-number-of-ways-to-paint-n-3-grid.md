@@ -2,11 +2,12 @@
 title: 1411. Number of Ways to Paint N × 3 Grid
 draft: false
 tags: 
+  - leetcode-hard
   - dynamic-programming
 date: 2020-10-14
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/)
 
 ## Description
 
@@ -51,7 +52,6 @@ class Solution:
         for i in range(n - 1):
             a121, a123 = a121 * 3 + a123 * 2, a121 * 2 + a123 * 2
         return (a121 + a123) % mod
-
 
 ```
 

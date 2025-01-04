@@ -2,11 +2,12 @@
 title: 2047. Number of Valid Words in a Sentence
 draft: false
 tags: 
+  - leetcode-easy
   - string
 date: 2021-10-24
 ---
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue.svg)
+[Problem Link](https://leetcode.com/problems/number-of-valid-words-in-a-sentence/)
 
 ## Description
 
@@ -92,6 +93,5 @@ class Solution:
             res += 1
             
         return res
-
 ```
 
