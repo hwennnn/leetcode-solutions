@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Home | Houman's Digital Garden
 date: 2025-01-04
 ---
 
