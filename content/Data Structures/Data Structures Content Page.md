@@ -62,7 +62,7 @@ date: 2025-01-04
 - [ ] Adjacency Matrix
 - [ ] Adjacency List
 - [ ] Edge List
-- [ ] Disjoint Set (Union Find)
+- [ ] [[Disjoint Set (Union Find)]]
 
 ## Hash-Based Structures
 
