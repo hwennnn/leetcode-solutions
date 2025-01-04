@@ -13,6 +13,24 @@ This space is a growing collection of my Computer Science notes and LeetCode sol
 
 Feel free to explore and learn alongside me. Happy coding! 💻
 
----
+## Table of Contents
 
-*Built with [Quartz](https://quartz.jzhao.xyz/), a fast, batteries-included static-site generator* 🪴
+## 🧠 Data Structures
+
+## ⚡ [[Algorithms]]
+
+## 🖥️ Backend Stuff
+
+## 🏗️ System Design
+
+## ➗ Math
+
+## 📝 Resume Writing
+
+## 🤖 GPT Prompting
+
+- [Useful Prompting Techniques](./GPT%20Prompting/Useful%20Prompting%20Techniques.md)
+
+## 👨‍💻 LeetCode Solutions
+
+> ⚠️ **Note**: Please visit [leetcode.hwendev.com](https://www.leetcode.hwendev.com/) for my complete collection of LeetCode solutions.

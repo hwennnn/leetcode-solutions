@@ -1,0 +1,16 @@
+{
+	"Markdown Frontmatter Template": {
+		"prefix": "fm",
+		"body": [
+			"---",
+			"title: $1",
+			"tags:",
+			"  - $2",
+			"date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE",
+			"---",
+			"",
+			"$0"
+		],
+		"description": "Insert frontmatter template with today's date"
+	}
+} 
