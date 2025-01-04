@@ -33,7 +33,9 @@ export default {
       title: "探索",
     },
     footer: {
+      createdBy: "Created by",
       createdWith: "Created with",
+      poweredBy: "Powered by",
     },
     graph: {
       title: "关系图谱",

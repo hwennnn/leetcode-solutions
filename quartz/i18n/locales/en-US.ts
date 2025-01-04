@@ -33,7 +33,9 @@ export default {
       title: "Explorer",
     },
     footer: {
+      createdBy: "Created by",
       createdWith: "Created with",
+      poweredBy: "Powered by",
     },
     graph: {
       title: "Graph View",

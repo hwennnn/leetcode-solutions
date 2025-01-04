@@ -1,7 +1,7 @@
-import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import style from "./styles/footer.scss"
 import { version } from "../../package.json"
 import { i18n } from "../i18n"
+import style from "./styles/footer.scss"
+import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
 interface Options {
   links: Record<string, string>
@@ -14,7 +14,9 @@ export default ((opts?: Options) => {
     return (
       <footer class={`${displayClass ?? ""}`}>
         <p>
-          {i18n(cfg.locale).components.footer.createdWith}{" "}
+          {i18n(cfg.locale).components.footer.createdBy}{" "}
+          <a href="https://www.linkedin.com/in/houmanwai">Houman Wai</a> |{" "}
+          {i18n(cfg.locale).components.footer.poweredBy}{" "}
           <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> © {year}
         </p>
         <ul>
