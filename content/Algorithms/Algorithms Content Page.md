@@ -25,6 +25,7 @@ date: 2025-01-04
 
 ---
 
+- [ ] [[Dynamic Programming]]
 - [ ] [[Digit DP]]
 - [ ] [[Binary Lifting]]
 - [ ] [[9 Different Types of 01 Knapsack]]
