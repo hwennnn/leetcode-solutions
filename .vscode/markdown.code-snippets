@@ -12,5 +12,12 @@
 			"$0"
 		],
 		"description": "Insert frontmatter template with today's date"
-	}
+	},
+	"Quick Note": {
+		"prefix": "note",
+		"body": [
+			"> ⚠️ **Note**: $0",
+		],
+		"description": "Insert a note"
+	},
 } 

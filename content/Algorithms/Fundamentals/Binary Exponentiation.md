@@ -8,7 +8,7 @@ date: 2023-10-22
 
 ## Introduction
 
-Binary exponentiation (also known as exponentiation by squaring) is a trick which allows to calculate $a^n$ using only $O(\log n)$ multiplications (instead of $O(n)$ multiplications required by the naive approach).
+**Binary exponentiation** (also known as exponentiation by squaring) is a trick which allows to calculate $a^n$ using only $O(\log n)$ multiplications (instead of $O(n)$ multiplications required by the naive approach).
 
 The following recursive approach expresses the same idea:
 

@@ -17,11 +17,15 @@ Feel free to explore and learn alongside me. Happy coding! 💻
 
 ## 🧠 Data Structures
 
-## ⚡ [[Algorithms]]
+- [[Data Structures Content Page]]
 
-## 🖥️ Backend Stuff
+## ⚡ Algorithms
 
-## 🏗️ System Design
+- [[Algorithms Content Page]]
+
+## 🖥️ [[Backend]]
+
+## 🏗️ [[System Design]]
 
 ## ➗ Math
 

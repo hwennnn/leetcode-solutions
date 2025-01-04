@@ -1,5 +1,5 @@
 ---
-title: Bellman Ford
+title: Bellman-Ford Algorithm
 tags:
   - algorithms
   - graph
@@ -9,7 +9,7 @@ date: 2024-05-10
 
 ## Introduction
 
-The Bellman-Ford algorithm finds shortest paths from a starting node to all nodes of the graph. It can be also used to find if the graph contains a negative cycle.
+The **Bellman-Ford algorithm** finds shortest paths from a starting node to all nodes of the graph. It can be also used to find if the graph contains a negative cycle.
 
 ## Implementation
 
@@ -18,12 +18,12 @@ def bellmanFord(N, start, edges):
     distance = [inf] * N
     distance[start] = 0
 
-    for _ in range(N - 1):  
+    for _ in range(N - 1):
         for a, b, w in edges:
             distance[b] = min(distance[b], distance[a] + w)
 ```
 
-The algorithm consists of ${n-1}$ rounds and iterates through all ${m}$ edges during a round. In practice, the final distances can usually be found faster than in ${n - 1}$ rounds. Thus,  a possible way to make the algorithm more efficient is to stop the algorithm if no distance can be reduced during a round.
+The algorithm consists of ${n-1}$ rounds and iterates through all ${m}$ edges during a round. In practice, the final distances can usually be found faster than in ${n - 1}$ rounds. Thus, a possible way to make the algorithm more efficient is to stop the algorithm if no distance can be reduced during a round.
 
 ## Detect a negative cycle using Bellman-Ford algorithm
 
