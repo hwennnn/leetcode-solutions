@@ -11,7 +11,7 @@ Welcome to my LeetCode solutions collection! This site contains my solutions to 
 
 ## Resources
 
-- [GitHub Repository](https://github.com/hwennnn/leetcode-solutions)
+- [GitHub Repository](https://github.com/hwennnn/digital-garden/tree/master/content/Leetcode)
 - [LeetCode Profile](https://leetcode.com/theonepieceisreal/)
 
 ---
