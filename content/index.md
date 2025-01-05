@@ -1,5 +1,5 @@
 ---
-title: Home | Houman's Digital Garden
+title: Home
 date: 2025-01-04
 ---
 
@@ -15,13 +15,9 @@ Feel free to explore and learn alongside me. Happy coding! 💻
 
 ## Table of Contents
 
-## 🧠 Data Structures
+## 🧠 [Data Structures](./Data%20Structures/Data%20Structures%20Content%20Page.md)
 
-- [[Data Structures Content Page]]
-
-## ⚡ Algorithms
-
-- [[Algorithms Content Page]]
+## ⚡ [Algorithms](./Algorithms/Algorithms%20Content%20Page.md)
 
 ## 🖥️ [[Backend]]
 

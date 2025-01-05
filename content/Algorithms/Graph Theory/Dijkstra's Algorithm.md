@@ -29,7 +29,8 @@ def dijkstra(N, start, graph):
                 heappush(pq, (newDist, adj))
 ```
 
-> ⚠️ **Note**: It is important to check `if w != distance[node]` to avoid processing the same node multiple times.
+> [!note]
+> It is important to check `if w != distance[node]` to avoid processing the same node multiple times.
 
 ## Complexity
 

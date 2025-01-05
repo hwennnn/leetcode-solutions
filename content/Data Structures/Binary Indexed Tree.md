@@ -95,7 +95,8 @@ class BIT:
 - Time complexity: $O(\lg n)$ for both query and modify operations.
 - Space complexity: $O(n)$
 
-> ⚠️ **Note**: While Fenwick Tree does not support arbitrary range updating/querying value for min/max operations, it does support prefix min/max query.
+> [!note]
+> While Fenwick Tree does not support arbitrary range updating/querying value for min/max operations, it does support prefix min/max query.
 
 ## Resources
 

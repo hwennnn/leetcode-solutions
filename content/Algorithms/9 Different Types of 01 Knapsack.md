@@ -1,5 +1,5 @@
 ---
-title: 9 Different Types of 01 Knapsack
+title: 9 Different Types of 0/1 Knapsack
 tags:
   - algorithms
   - dynamic-programming
@@ -19,4 +19,5 @@ date: 2025-01-05
 8. Generalized Knapsack
 9. How to recognize a knapsack problem
 
-> ⚠️ **Note**: This article is not finished yet.
+> [!info]
+> This article is not finished yet.

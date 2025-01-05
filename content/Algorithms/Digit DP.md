@@ -43,7 +43,8 @@ class Solution:
         return dp(0, True, 0)
 ```
 
-> ⚠️ **Note**: Depends on the problems, sometimes the variables such as **isLeading**, **isZero** will need to be included in the DP state.
+> [!note]
+> Depends on the problems, sometimes the variables such as **isLeading**, **isZero** will need to be included in the DP state.
 
 ### More examples
 
