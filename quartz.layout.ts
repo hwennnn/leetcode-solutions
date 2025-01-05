@@ -28,16 +28,18 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.RecentNotes({
-      linkToMore: "tags/" as SimpleSlug,
-      showTags: false,
-    }),
+    Component.DesktopOnly(
+      Component.RecentNotes({
+        linkToMore: "tags/" as SimpleSlug,
+        showTags: false,
+      }),
+    ),
     Component.DesktopOnly(Component.Explorer()),
   ],
   right: [
-    Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
+    Component.Graph(),
   ],
 }
 
