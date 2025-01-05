@@ -1,13 +1,13 @@
 ---
 title: 2583. Kth Largest Sum in a Binary Tree
 draft: false
-tags: 
+tags:
   - leetcode-medium
   - tree
   - breadth-first-search
   - sorting
   - binary-tree
-date: 2024-10-22
+date: 2025-01-05
 ---
 
 [Problem Link](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/)
@@ -15,6 +15,7 @@ date: 2024-10-22
 ## Description
 
 ---
+
 <p>You are given the <code>root</code> of a binary tree and a positive integer <code>k</code>.</p>
 
 <p>The <strong>level sum</strong> in the tree is the sum of the values of the nodes that are on the <strong>same</strong> level.</p>
@@ -55,12 +56,13 @@ The 2<sup>nd</sup> largest level sum is 13.
 	<li><code>1 &lt;= k &lt;= n</code></li>
 </ul>
 
-
 ## Solution
 
 ---
+
 ### Python3
-``` py title='kth-largest-sum-in-a-binary-tree'
+
+```py title='kth-largest-sum-in-a-binary-tree'
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -70,28 +72,27 @@ The 2<sup>nd</sup> largest level sum is 13.
 class Solution:
     def kthLargestLevelSum(self, root: Optional[TreeNode], k: int) -> int:
         queue = deque([root])
-        levels = []
-        
+        minHeap = []
+
         while queue:
             N = len(queue)
-            curr = 0
-            
+            count = 0
+
             for _ in range(N):
                 node = queue.popleft()
-                curr += node.val
-                
-                for child in (node.left, node.right):
-                    if child:
-                        queue.append(child)
-            
-            levels.append(curr)
-        
-        levels.sort()
-        if len(levels) < k: return -1
-        
-        return levels[-k]
-                
-        
-        
-```
+                count += node.val
 
+                for adj in filter(None, (node.left, node.right)):
+                    queue.append(adj)
+
+            if len(minHeap) < k:
+                heappush(minHeap, count)
+            else:
+                heappushpop(minHeap, count)
+
+        if len(minHeap) != k:
+            return -1
+
+        return heappop(minHeap)s
+
+```

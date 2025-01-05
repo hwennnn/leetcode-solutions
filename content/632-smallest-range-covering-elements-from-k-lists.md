@@ -1,7 +1,7 @@
 ---
 title: 632. Smallest Range Covering Elements from K Lists
 draft: false
-tags: 
+tags:
   - leetcode-hard
   - array
   - hash-table
@@ -9,7 +9,7 @@ tags:
   - sliding-window
   - sorting
   - heap-priority-queue
-date: 2024-10-13
+date: 2025-01-05
 ---
 
 [Problem Link](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/)
@@ -17,6 +17,7 @@ date: 2024-10-13
 ## Description
 
 ---
+
 <p>You have <code>k</code> lists of sorted integers in <strong>non-decreasing&nbsp;order</strong>. Find the <b>smallest</b> range that includes at least one number from each of the <code>k</code> lists.</p>
 
 <p>We define the range <code>[a, b]</code> is smaller than range <code>[c, d]</code> if <code>b - a &lt; d - c</code> <strong>or</strong> <code>a &lt; c</code> if <code>b - a == d - c</code>.</p>
@@ -51,44 +52,48 @@ List 3: [5, 18, 22, 30], 22 is in range [20,24].
 	<li><code>nums[i]</code>&nbsp;is sorted in <strong>non-decreasing</strong> order.</li>
 </ul>
 
-
 ## Solution
 
 ---
+
 ### Python3
-``` py title='smallest-range-covering-elements-from-k-lists'
+
+```py title='smallest-range-covering-elements-from-k-lists'
 class Solution:
     def smallestRange(self, nums: List[List[int]]) -> List[int]:
-        # Min-heap to track the smallest element across all lists
-        min_heap = []
-        current_max = float('-inf')  # Track the current largest element in the window
-        
-        # Initialize the heap with the first element from each list
-        for i in range(len(nums)):
-            heapq.heappush(min_heap, (nums[i][0], i, 0))  # (value, list_index, element_index)
-            current_max = max(current_max, nums[i][0])  # Update the max value
-        
-        # Initialize the result range to a very large one
-        result_range = [-10**5, 10**5]
-        
-        while min_heap:
-            current_min, list_idx, elem_idx = heapq.heappop(min_heap)  # Pop the smallest element
-            
-            # Check if the current range [current_min, current_max] is smaller
-            if current_max - current_min < result_range[1] - result_range[0]:
-                result_range = [current_min, current_max]
-            
-            # If we have reached the end of one of the lists, break the loop
-            if elem_idx + 1 == len(nums[list_idx]):
-                break
-            
-            # Otherwise, push the next element from the same list into the heap
-            next_elem = nums[list_idx][elem_idx + 1]
-            heapq.heappush(min_heap, (next_elem, list_idx, elem_idx + 1))
-            
-            # Update the max value
-            current_max = max(current_max, next_elem)
-        
-        return result_range
-```
+        N = len(nums)
+        res = [-inf, inf]
+        pq = []
+        curr = []
+        count = [0] * N
+        covered = 0
+        currMax = -inf
 
+        for i, arr in enumerate(nums):
+            heappush(pq, (arr[0], 0, i))
+
+        while pq:
+            x, arrIndex, numsIndex = heappop(pq)
+
+            if count[numsIndex] == 0:
+                covered += 1
+            count[numsIndex] += 1
+            heappush(curr, (x, arrIndex, numsIndex))
+            currMax = max(currMax, x)
+
+            while covered == N:
+                a, b = curr[0][0], currMax
+                c, d = res
+
+                if b - a < d - c or (b - a == d - c and a < c):
+                    res = [a, b]
+
+                _, arrIndex2, numsIndex2 = heappop(curr)
+                count[numsIndex2] -= 1
+                if count[numsIndex2] == 0:
+                    covered -= 1
+                if arrIndex2 + 1 < len(nums[numsIndex2]):
+                    heappush(pq, (nums[numsIndex2][arrIndex2 + 1], arrIndex2 + 1, numsIndex2))
+
+        return res
+```

@@ -1,12 +1,12 @@
 ---
 title: 1405. Longest Happy String
 draft: false
-tags: 
+tags:
   - leetcode-medium
   - string
   - greedy
   - heap-priority-queue
-date: 2024-10-16
+date: 2025-01-05
 ---
 
 [Problem Link](https://leetcode.com/problems/longest-happy-string/)
@@ -14,6 +14,7 @@ date: 2024-10-16
 ## Description
 
 ---
+
 <p>A string <code>s</code> is called <strong>happy</strong> if it satisfies the following conditions:</p>
 
 <ul>
@@ -53,40 +54,44 @@ date: 2024-10-16
 	<li><code>a + b + c &gt; 0</code></li>
 </ul>
 
-
 ## Solution
 
 ---
+
 ### Python3
-``` py title='longest-happy-string'
+
+```py title='longest-happy-string'
 class Solution:
     def longestDiverseString(self, a: int, b: int, c: int) -> str:
-        size = a + b + c
-        A, B, C = 0, 0, 0
-        res = ""
-        
-        for i in range(size):
-            if (a >= b and a >= c and A != 2) or (B == 2 and a > 0) or (C == 2 and a > 0):
-                res += "a"
-                a -= 1
-                A += 1
-                B = 0
-                C = 0
-            
-            elif (b >= a and b >= c and B != 2) or (A == 2 and b > 0) or (C == 2 and b > 0):
-                res += "b"
-                b -= 1
-                B += 1
-                A = 0
-                C = 0
-            
-            elif (c >= a and c >= b and C != 2) or (A == 2 and c > 0) or (B == 2 and c > 0):
-                res += "c"
-                c -= 1
-                C += 1
-                A = 0
-                B = 0
-        
-        return res
-```
+        res = []
+        pq = []
+        if a > 0:
+            heappush(pq, (-a, "a"))
+        if b > 0:
+            heappush(pq, (-b, "b"))
+        if c > 0:
+            heappush(pq, (-c, "c"))
 
+        while pq:
+            count, char = heappop(pq)
+            count = -count
+
+            if len(res) >= 2 and res[-2] == res[-1] == char:
+                if not pq: return "".join(res)
+
+                count2, char2 = heappop(pq)
+                count2 = -count2
+
+                res.append(char2)
+                if count2 - 1 > 0:
+                    heappush(pq, (-(count2 - 1), char2))
+
+                heappush(pq, (-count, char))
+                continue
+            else:
+                res.append(char)
+                if count - 1 > 0:
+                    heappush(pq, (-(count - 1), char))
+
+        return "".join(res)
+```

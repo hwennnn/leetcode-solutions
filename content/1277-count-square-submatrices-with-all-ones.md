@@ -1,12 +1,12 @@
 ---
 title: 1277. Count Square Submatrices with All Ones
 draft: false
-tags: 
+tags:
   - leetcode-medium
   - array
   - dynamic-programming
   - matrix
-date: 2024-10-27
+date: 2025-01-05
 ---
 
 [Problem Link](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)
@@ -14,6 +14,7 @@ date: 2024-10-27
 ## Description
 
 ---
+
 <p>Given a <code>m * n</code> matrix of ones and zeros, return how many <strong>square</strong> submatrices have all ones.</p>
 
 <p>&nbsp;</p>
@@ -59,17 +60,23 @@ Total number of squares = 6 + 1 = <b>7</b>.
 	<li><code>0 &lt;= arr[i][j] &lt;= 1</code></li>
 </ul>
 
-
 ## Solution
 
 ---
+
 ### Python3
-``` py title='count-square-submatrices-with-all-ones'
+
+```py title='count-square-submatrices-with-all-ones'
 class Solution:
     def countSquares(self, A: List[List[int]]) -> int:
-        for i in range(1, len(A)):
-            for j in range(1, len(A[0])):
-                A[i][j] = (min(A[i - 1][j - 1], A[i - 1][j], A[i][j - 1]) + 1 if A[i][j] == 1 else 0)
+        rows, cols = len(A), len(A[0])
+
+        for i in range(1, rows):
+            for j in range(1, cols):
+                m = min(A[i - 1][j], A[i][j - 1], A[i - 1][j - 1])
+
+                if A[i][j] == 1:
+                    A[i][j] = m + 1
+
         return sum(map(sum, A))
 ```
-

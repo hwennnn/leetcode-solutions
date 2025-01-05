@@ -1,12 +1,12 @@
 ---
 title: 2684. Maximum Number of Moves in a Grid
 draft: false
-tags: 
+tags:
   - leetcode-medium
   - array
   - dynamic-programming
   - matrix
-date: 2024-10-29
+date: 2025-01-05
 ---
 
 [Problem Link](https://leetcode.com/problems/maximum-number-of-moves-in-a-grid/)
@@ -14,6 +14,7 @@ date: 2024-10-29
 ## Description
 
 ---
+
 <p>You are given a <strong>0-indexed</strong> <code>m x n</code> matrix <code>grid</code> consisting of <strong>positive</strong> integers.</p>
 
 <p>You can start at <strong>any</strong> cell in the first column of the matrix, and traverse the grid in the following way:</p>
@@ -56,33 +57,39 @@ It can be shown that it is the maximum number of moves that can be made.</pre>
 	<li><code>1 &lt;= grid[i][j] &lt;= 10<sup>6</sup></code></li>
 </ul>
 
-
 ## Solution
 
 ---
+
 ### Python3
-``` py title='maximum-number-of-moves-in-a-grid'
+
+```py title='maximum-number-of-moves-in-a-grid'
 class Solution:
     def maxMoves(self, grid: List[List[int]]) -> int:
         rows, cols = len(grid), len(grid[0])
         visited = [[False] * cols for _ in range(rows)]
         res = 0
 
-        @cache
-        def go(i, j):
-            visited[i][j] = True
-            count = 0
+        def dfs(x, y):
+            nonlocal res
 
-            for di, dj in [(i - 1, j + 1), (i, j + 1), (i + 1, j + 1)]:
-                if 0 <= di < rows and 0 <= dj < cols and grid[di][dj] > grid[i][j] and not visited[di][dj]:
-                    count = max(count, 1 + go(di, dj))
+            if visited[x][y]: return
 
-            return count
+            queue = deque([(x, y, 0)]) # (x, y, steps)
+            visited[x][y] = True
 
-        for i in range(rows):
-            if not visited[i][0]:
-                res = max(res, go(i, 0))
-        
+            while queue:
+                x, y, steps = queue.popleft()
+                res = max(res, steps)
+
+                for dx, dy in [(x - 1, y + 1), (x, y + 1), (x + 1, y + 1)]:
+                    if 0 <= dx < rows and 0 <= dy < cols and grid[dx][dy] > grid[x][y] and not visited[dx][dy]:
+                        visited[dx][dy] = True
+                        queue.append((dx, dy, steps + 1))
+
+        for x in range(rows):
+            dfs(x, 0)
+
         return res
-```
 
+```

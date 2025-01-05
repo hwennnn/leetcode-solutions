@@ -1,12 +1,12 @@
 ---
 title: 1106. Parsing A Boolean Expression
 draft: false
-tags: 
+tags:
   - leetcode-hard
   - string
   - stack
   - recursion
-date: 2024-10-20
+date: 2025-01-06
 ---
 
 [Problem Link](https://leetcode.com/problems/parsing-a-boolean-expression/)
@@ -14,6 +14,7 @@ date: 2024-10-20
 ## Description
 
 ---
+
 <p>A <strong>boolean expression</strong> is an expression that evaluates to either <code>true</code> or <code>false</code>. It can be in one of the following shapes:</p>
 
 <ul>
@@ -66,27 +67,39 @@ Then, evaluate !(f) --&gt; NOT false --&gt; true. We return true.
 	<li>expression[i] is one following characters: <code>&#39;(&#39;</code>, <code>&#39;)&#39;</code>, <code>&#39;&amp;&#39;</code>, <code>&#39;|&#39;</code>, <code>&#39;!&#39;</code>, <code>&#39;t&#39;</code>, <code>&#39;f&#39;</code>, and <code>&#39;,&#39;</code>.</li>
 </ul>
 
-
 ## Solution
 
 ---
+
 ### Python3
-``` py title='parsing-a-boolean-expression'
+
+```py title='parsing-a-boolean-expression'
 class Solution:
     def parseBoolExpr(self, expression: str) -> bool:
         stack = []
-        
-        for c in expression:
-            if c == ")":
-                seen = set()
+
+        for x in expression:
+            if x == ")":
+                curr = set()
                 while stack and stack[-1] != "(":
-                    seen.add(stack.pop())
-                stack.pop()
-                operator = stack.pop()
-                stack.append(all(seen) if operator == "&" else any(seen) if operator == "|" else not seen.pop())
-            elif c != ",":
-                stack.append(True if c == 't' else False if c == 'f' else c)
-        
+                    curr.add(stack.pop())
+                stack.pop() # pop out "("
+                expr = stack.pop()
+
+                if expr == '!':
+                    assert(len(curr) == 1)
+                    stack.append(not all(curr))
+                elif expr == "&":
+                    stack.append(all(curr))
+                else:
+                    stack.append(any(curr))
+            elif x != ",":
+                if x == 't':
+                    stack.append(True)
+                elif x == 'f':
+                    stack.append(False)
+                else:
+                    stack.append(x)
+
         return stack.pop()
 ```
-
