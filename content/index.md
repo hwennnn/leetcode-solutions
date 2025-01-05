@@ -9,7 +9,7 @@ date: 2025-01-04
 
 Welcome to my LeetCode solutions collection! This site contains my solutions to various LeetCode problems, organized and documented for easy reference.
 
-[Back to Home](https://www.hwendev.com)
+[Back to Digital Garden](https://www.hwendev.com)
 
 ## Resources
 
@@ -18,4 +18,4 @@ Welcome to my LeetCode solutions collection! This site contains my solutions to 
 
 ---
 
-*Problems sourced from [LeetCode](https://leetcode.com/)*
+_Problems sourced from [LeetCode](https://leetcode.com/)_
