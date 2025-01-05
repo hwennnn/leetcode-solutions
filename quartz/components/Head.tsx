@@ -1,13 +1,13 @@
+import fs from "fs"
+import satori, { SatoriOptions } from "satori"
+import sharp from "sharp"
 import { i18n } from "../i18n"
+import { unescapeHTML } from "../util/escape"
+import { ImageOptions, SocialImageOptions, defaultImage, getSatoriFont } from "../util/og"
 import { FullSlug, joinSegments, pathToRoot } from "../util/path"
 import { CSSResourceToStyleElement, JSResourceToScriptElement } from "../util/resources"
 import { googleFontHref } from "../util/theme"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import satori, { SatoriOptions } from "satori"
-import fs from "fs"
-import sharp from "sharp"
-import { ImageOptions, SocialImageOptions, getSatoriFont, defaultImage } from "../util/og"
-import { unescapeHTML } from "../util/escape"
 
 /**
  * Generates social image (OG/twitter standard) and saves it as `.webp` inside the public folder
@@ -75,7 +75,7 @@ export default (() => {
     // Get file description (priority: frontmatter > fileData > default)
     const fdDescription =
       fileData.description?.trim() ?? i18n(cfg.locale).propertyDefaults.description
-    const titleSuffix = cfg.pageTitleSuffix ?? ""
+    const titleSuffix = fileData.slug === "index" ? "" : (cfg.pageTitleSuffix ?? "")
     const title =
       (fileData.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title) + titleSuffix
     let description = ""
