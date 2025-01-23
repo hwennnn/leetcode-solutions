@@ -6,7 +6,7 @@ tags:
   - array
   - matrix
   - prefix-sum
-date: 2021-09-30
+date: 2025-01-21
 ---
 
 [Problem Link](https://leetcode.com/problems/grid-game/)
@@ -71,11 +71,11 @@ The second robot will collect 0 + 1 + 3 + 3 + 0 = 7 points.
 ``` py title='grid-game'
 class Solution:
     def gridGame(self, grid: List[List[int]]) -> int:
-        n = len(grid[0])
+        cols = len(grid[0])
         res = top = sum(grid[0])
         bottom = 0
         
-        for i in range(n):
+        for i in range(cols):
             top -= grid[0][i]
             res = min(res, max(top, bottom))
             bottom += grid[1][i]

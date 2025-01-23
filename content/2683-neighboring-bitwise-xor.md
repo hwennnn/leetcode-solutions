@@ -5,7 +5,7 @@ tags:
   - leetcode-medium
   - array
   - bit-manipulation
-date: 2023-05-14
+date: 2025-01-23
 ---
 
 [Problem Link](https://leetcode.com/problems/neighboring-bitwise-xor/)
@@ -77,11 +77,15 @@ derived[1] = original[1] &oplus; original[0] = 1
 ``` py title='neighboring-bitwise-xor'
 class Solution:
     def doesValidArrayExist(self, derived: List[int]) -> bool:
-        xor = 0
-        
+        # d[0] = o[0] ^ o[1]
+        # d[1] = o[1] ^ o[2]
+        # d[2] = o[2] ^ o[0]
+        # XOR of derived must be zero as every number is repeated twice
+
+        res = 0
         for x in derived:
-            xor ^= x
+            res ^= x
         
-        return xor == 0
+        return res == 0
 ```
 

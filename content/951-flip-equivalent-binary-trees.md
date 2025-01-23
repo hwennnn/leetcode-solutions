@@ -1,7 +1,7 @@
 ---
 title: 951. Flip Equivalent Binary Trees
 draft: false
-tags:
+tags: 
   - leetcode-medium
   - tree
   - depth-first-search
@@ -14,7 +14,6 @@ date: 2025-01-05
 ## Description
 
 ---
-
 <p>For a binary tree <strong>T</strong>, we can define a <strong>flip operation</strong> as follows: choose any node, and swap the left and right child subtrees.</p>
 
 <p>A binary tree <strong>X</strong>&nbsp;is <em>flip equivalent</em> to a binary tree <strong>Y</strong> if and only if we can make <strong>X</strong> equal to <strong>Y</strong> after some number of flip operations.</p>
@@ -52,13 +51,12 @@ date: 2025-01-05
 	<li>Each tree will have <strong>unique node values</strong> in the range <code>[0, 99]</code>.</li>
 </ul>
 
+
 ## Solution
 
 ---
-
 ### Python3
-
-```py title='flip-equivalent-binary-trees'
+``` py title='flip-equivalent-binary-trees'
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -70,20 +68,21 @@ class Solution:
         def compare(root1, root2):
             if not root1 and not root2:
                 return True
-
+            
             if not root1 or not root2:
                 return False
-
+            
             if root1.val != root2.val:
                 return False
-
+            
             if compare(root1.left, root2.left) and compare(root1.right, root2.right):
                 return True
-
+            
             if compare(root1.left, root2.right) and compare(root1.right, root2.left):
                 return True
-
+            
             return False
-
+        
         return compare(root1, root2)
 ```
+

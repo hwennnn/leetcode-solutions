@@ -8,7 +8,7 @@ tags:
   - binary-search
   - dynamic-programming
   - sorting
-date: 2024-10-28
+date: 2025-01-05
 ---
 
 [Problem Link](https://leetcode.com/problems/longest-square-streak-in-an-array/)
@@ -65,14 +65,16 @@ It can be shown that every subsequence of length 4 is not a square streak.
 class Solution:
     def longestSquareStreak(self, nums: List[int]) -> int:
         nums.sort(reverse = 1)
-        count = {}
-        
+        mp = defaultdict(int)
+        res = -1
+
         for x in nums:
-            count[x] = count.get(x * x, 0) + 1
+            nxt = x * x
+            mp[x] = max(1, mp[nxt] + 1)
+
+            if mp[x] > 1:
+                res = max(res, mp[x])
         
-        res = max(count.values())
-        
-        return res if res >= 2 else -1
-        
+        return res
 ```
 

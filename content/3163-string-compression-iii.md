@@ -4,7 +4,7 @@ draft: false
 tags: 
   - leetcode-medium
   - string
-date: 2024-11-04
+date: 2025-01-08
 ---
 
 [Problem Link](https://leetcode.com/problems/string-compression-iii/)
@@ -75,20 +75,25 @@ date: 2024-11-04
 ``` py title='string-compression-iii'
 class Solution:
     def compressedString(self, word: str) -> str:
-        stack = list(word)
-        stack.reverse()
-        res = ""
-        
-        while stack:
-            curr = stack.pop()
-            count = 1
-            
-            while stack and count < 9 and stack[-1] == curr:
+        N = len(word)
+        res = []
+        curr = word[0]
+        count = 1
+
+        for i in range(1, N):
+            if word[i] == curr:
                 count += 1
-                stack.pop()
+            else:
+                res.append(str(count) + curr)
+                count = 1
+                curr = word[i]
             
-            res += str(count) + curr
-        
-        return res
+            if count == 10:
+                res.append("9" + curr)
+                count = 1
+
+        res.append(str(count) + curr)
+
+        return "".join(res)
 ```
 

@@ -9,7 +9,7 @@ tags:
   - rolling-hash
   - string-matching
   - hash-function
-date: 2024-02-18
+date: 2025-01-08
 ---
 
 [Problem Link](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/)
@@ -79,10 +79,26 @@ class Solution:
     def countPrefixSuffixPairs(self, words: List[str]) -> int:
         N = len(words)
         res = 0
-        
+
         def good(s1, s2):
-            return s2.startswith(s1) and s2[::-1].startswith(s1[::-1])
-        
+            A, B = len(s1), len(s2)
+
+            i = j = 0
+            while i < A and j < B and s1[i] == s2[j]:
+                i += 1
+                j += 1
+            
+            if i != A: return False
+
+            i, j = A - 1, B - 1
+            while i >= 0 and j >= 0 and s1[i] == s2[j]:
+                i -= 1
+                j -= 1
+            
+            if i != -1: return False
+
+            return True
+
         for i in range(N):
             for j in range(i + 1, N):
                 if good(words[i], words[j]):

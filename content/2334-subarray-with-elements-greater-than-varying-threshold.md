@@ -1,7 +1,7 @@
 ---
 title: 2334. Subarray With Elements Greater Than Varying Threshold
 draft: false
-tags:
+tags: 
   - leetcode-hard
   - array
   - stack
@@ -15,7 +15,6 @@ date: 2025-01-23
 ## Description
 
 ---
-
 <p>You are given an integer array <code>nums</code> and an integer <code>threshold</code>.</p>
 
 <p>Find any subarray of <code>nums</code> of length <code>k</code> such that <strong>every</strong> element in the subarray is <strong>greater</strong> than <code>threshold / k</code>.</p>
@@ -52,13 +51,12 @@ Therefore, 2, 3, 4, or 5 may also be returned.</pre>
 	<li><code>1 &lt;= nums[i], threshold &lt;= 10<sup>9</sup></code></li>
 </ul>
 
+
 ## Solution
 
 ---
-
 ### Python3
-
-```py title='subarray-with-elements-greater-than-varying-threshold'
+``` py title='subarray-with-elements-greater-than-varying-threshold'
 class Solution:
     def validSubarraySize(self, nums: List[int], threshold: int) -> int:
         N = len(nums)
@@ -71,15 +69,15 @@ class Solution:
         for i, x in enumerate(nums):
             while stack and x < nums[stack[-1]]:
                 nextSmaller[stack.pop()] = i
-
+            
             stack.append(i)
-
+        
         # construct prevSmaller array
         stack = []
         for i in range(N - 1, -1, -1):
             while stack and nums[i] < nums[stack[-1]]:
                 prevSmaller[stack.pop()] = i
-
+            
             stack.append(i)
 
         for i, x in enumerate(nums):
@@ -89,5 +87,5 @@ class Solution:
                 res = max(res, length)
 
         return res
-
 ```
+

@@ -6,7 +6,7 @@ tags:
   - array
   - dynamic-programming
   - breadth-first-search
-date: 2024-08-13
+date: 2025-01-23
 ---
 
 [Problem Link](https://leetcode.com/problems/coin-change/)
@@ -64,13 +64,14 @@ class Solution:
         dp = [inf] * (amount + 1)
         dp[0] = 0
 
-        for x in range(1, amount + 1):
-            for coin in coins:
-                if x - coin >= 0:
-                    dp[x] = min(dp[x], dp[x - coin] + 1)
+        for t in range(1, amount + 1):
+            for x in coins:
+                if t >= x:
+                    dp[t] = min(dp[t], dp[t - x] + 1)
+        
+        if dp[amount] == inf:
+            return -1
 
-        ans = dp[-1]
-
-        return -1 if ans == inf else ans
+        return dp[amount]
 ```
 

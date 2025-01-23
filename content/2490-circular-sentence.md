@@ -4,7 +4,7 @@ draft: false
 tags: 
   - leetcode-easy
   - string
-date: 2024-11-02
+date: 2025-01-06
 ---
 
 [Problem Link](https://leetcode.com/problems/circular-sentence/)
@@ -79,19 +79,20 @@ The sentence is <strong>not</strong> circular.</pre>
 ### Python3
 ``` py title='circular-sentence'
 class Solution:
-    def isCircularSentence(self, s: str) -> bool:
-        s = s.split(" ")
+    def isCircularSentence(self, sentence: str) -> bool:
+        s = sentence.split(" ")
         N = len(s)
-        prev = s[0][-1]
-        
+
+        if s[0][0] != s[-1][-1]:
+            return False
+
+        last = s[0][-1]
+
         for i in range(1, N):
-            start = s[i][0]
+            if s[i][0] != last:
+                return False
             
-            if start != prev: return False
-            
-            prev = s[i][-1]
-        
-        if s[0][0] != prev: return False
+            last = s[i][-1]
         
         return True
 ```

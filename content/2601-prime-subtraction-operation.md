@@ -8,7 +8,7 @@ tags:
   - binary-search
   - greedy
   - number-theory
-date: 2024-11-11
+date: 2025-01-13
 ---
 
 [Problem Link](https://leetcode.com/problems/prime-subtraction-operation/)
@@ -81,29 +81,22 @@ def generate_primes(n):
     
     return [i for i in range(n) if primes[i]]
 
-primes = generate_primes(1000)
+PRIMES = generate_primes(1000)
 
 class Solution:
     def primeSubOperation(self, nums: List[int]) -> bool:
         N = len(nums)
+        prev = 0
+
+        for x in nums:
+            if x <= prev: return False
+
+            i = bisect_left(PRIMES, x - prev) - 1
+            if i != -1:
+                x -= PRIMES[i]
+            
+            prev = x
         
-        for i, x in enumerate(nums):
-            prev = -1 if i == 0 else nums[i - 1]
-            
-            pIndex = bisect_left(primes, x) - 1
-            
-            curr = x - primes[pIndex]
-            
-            if curr <= prev:
-                while pIndex >= 0 and x - primes[pIndex] <= prev:
-                    pIndex -= 1
-                
-                if pIndex == -1: continue
-                
-                curr = x - primes[pIndex]
-                
-            nums[i] = curr
-        
-        return all(b > a for a, b in zip(nums, nums[1:]))
+        return True
 ```
 

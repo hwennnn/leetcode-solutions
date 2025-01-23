@@ -9,7 +9,7 @@ tags:
   - union-find
   - matrix
   - counting
-date: 2021-01-01
+date: 2025-01-23
 ---
 
 [Problem Link](https://leetcode.com/problems/count-servers-that-communicate/)
@@ -71,21 +71,23 @@ Return the number of servers&nbsp;that communicate with any other server.</p>
 class Solution:
     def countServers(self, grid: List[List[int]]) -> int:
         rows, cols = len(grid), len(grid[0])
-        rc, cc = Counter(), Counter()
-        
+        R = [0] * rows
+        C = [0] * cols
+        total = 0
+        unreachable = 0
+
         for i in range(rows):
-            for j,c in enumerate(grid[i]):
-                if c == 1:
-                    rc[i] += 1
-                    cc[j] += 1
-        
-        res = 0
+            for j in range(cols):
+                if grid[i][j] == 1:
+                    total += 1
+                    R[i] += 1
+                    C[j] += 1
+
         for i in range(rows):
-            for j,c in enumerate(grid[i]):
-                if c == 1 and (rc[i] > 1 or cc[j] > 1):
-                    res += 1
-        
-        return res
-        
+            for j in range(cols):
+                if grid[i][j] == 1 and R[i] <= 1 and C[j] <= 1:
+                    unreachable += 1
+
+        return total - unreachable
 ```
 

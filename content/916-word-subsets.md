@@ -6,7 +6,7 @@ tags:
   - array
   - hash-table
   - string
-date: 2022-07-30
+date: 2025-01-10
 ---
 
 [Problem Link](https://leetcode.com/problems/word-subsets/)
@@ -59,27 +59,33 @@ date: 2022-07-30
 ``` py title='word-subsets'
 class Solution:
     def wordSubsets(self, words1: List[str], words2: List[str]) -> List[str]:
-        counter = Counter()
-        
-        for word in words2:
-            cnt = Counter(word)
-            
-            for x, value in cnt.items():
-                counter[x] = max(counter[x], value)
-        
         res = []
-        
-        for word in words1:
-            curr = Counter(word)
+        counter = [0] * 26
+
+        for word in words2:
+            count = [0] * 26
+
+            for c in word:
+                count[ord(c) - ord('a')] += 1
             
-            for x, value in counter.items():
-                if curr[x] < value:
-                    flag = False
+            for i in range(26):
+                counter[i] = max(counter[i], count[i])
+
+        for word in words1:
+            count = [0] * 26
+
+            for c in word:
+                count[ord(c) - ord('a')] += 1
+            
+            ok = True
+            for i in range(26):
+                if counter[i] > count[i]:
+                    ok = False
                     break
-            else:
+            
+            if ok:
                 res.append(word)
-                
+
         return res
-        
 ```
 

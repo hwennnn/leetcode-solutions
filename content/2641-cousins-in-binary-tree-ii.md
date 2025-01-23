@@ -8,7 +8,7 @@ tags:
   - depth-first-search
   - breadth-first-search
   - binary-tree
-date: 2024-10-23
+date: 2025-01-05
 ---
 
 [Problem Link](https://leetcode.com/problems/cousins-in-binary-tree-ii/)
@@ -72,33 +72,32 @@ date: 2024-10-23
 #         self.right = right
 class Solution:
     def replaceValueInTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
-        levels = defaultdict(int)
+        # total[level] = sum
+        total = defaultdict(int)
+        # parents[parent] = sum
         parents = defaultdict(int)
         
-        def go(node, parent, level):
+        def dfs1(node, level, parent):
             if not node: return
-            
-            val = node.val
-            parents[parent] += val
-            levels[level] += val
-            
-            go(node.left, node, level + 1)
-            go(node.right, node, level + 1)
+
+            parents[parent] += node.val
+            total[level] += node.val
+
+            dfs1(node.left, level + 1, node)
+            dfs1(node.right, level + 1, node)
         
-        go(root, None, 0)
-        
-        def go2(node, parent, level):
+        dfs1(root, 0, -1)
+
+        def dfs2(node, level, parent):
             if not node: return None
-            
-            curr = levels[level] - parents[parent]
-            
-            node.val = curr
-            node.left = go2(node.left, node, level + 1)
-            node.right = go2(node.right, node, level + 1)
-            
+
+            node.left = dfs2(node.left, level + 1, node)
+            node.right = dfs2(node.right, level + 1, node)
+
+            node.val = total[level] - parents[parent]
+
             return node
         
-        return go2(root, None, 0)
-            
+        return dfs2(root, 0, -1)
 ```
 

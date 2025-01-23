@@ -6,7 +6,7 @@ tags:
   - string
   - stack
   - greedy
-date: 2021-12-26
+date: 2025-01-12
 ---
 
 [Problem Link](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/)
@@ -75,35 +75,34 @@ Changing s[0] to either &#39;(&#39; or &#39;)&#39; will not make s valid.
 ``` py title='check-if-a-parentheses-string-can-be-valid'
 class Solution:
     def canBeValid(self, s: str, locked: str) -> bool:
-        n = len(s)
+        N = len(s)
         s = list(s)
-        
-        if n & 1: return False
-        
-        for i in range(n):
-            if locked[i] == '0':
-                s[i] = '#'
+
+        if N & 1: return False
+
+        for i in range(N):
+            if locked[i] == "0":
+                s[i] = "#"
         
         opened = closed = 0
         for x in s:
-            if x == '#' or x == '(':
+            if x == "(" or x == "#":
                 opened += 1
             else:
                 closed += 1
             
-            if closed > opened:
-                return False
+            if closed > opened: return False
         
         opened = closed = 0
-        for i in range(n - 1, -1, -1):
-            if s[i] == '#' or s[i] == ')':
+        for i in range(N - 1, -1, -1):
+            if s[i] == ")" or s[i] == "#":
                 closed += 1
             else:
                 opened += 1
             
-            if opened > closed:
-                return False
-        
+            if opened > closed: return False
+
         return True
+
 ```
 

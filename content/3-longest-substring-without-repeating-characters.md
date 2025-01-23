@@ -59,16 +59,17 @@ Notice that the answer must be a substring, &quot;pwke&quot; is a subsequence an
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         N = len(s)
-        i = 0
+        count = Counter()
         res = 0
-        seen = set()
+        i = 0
 
         for j, x in enumerate(s):
-            while x in seen:
-                seen.remove(s[i])
+            count[x] += 1
+
+            while count[x] > 1:
+                count[s[i]] -= 1
                 i += 1
             
-            seen.add(x)
             res = max(res, j - i + 1)
 
         return res

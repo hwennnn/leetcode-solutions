@@ -6,7 +6,7 @@ tags:
   - array
   - greedy
   - heap-priority-queue
-date: 2024-10-14
+date: 2025-01-05
 ---
 
 [Problem Link](https://leetcode.com/problems/maximal-score-after-applying-k-operations/)
@@ -65,22 +65,21 @@ The final score is 10 + 4 + 3 = 17.
 ``` py title='maximal-score-after-applying-k-operations'
 class Solution:
     def maxKelements(self, nums: List[int], k: int) -> int:
-        heap = []
+        pq = []
         res = 0
-        
+
         for x in nums:
-            heappush(heap, -x)
+            heappush(pq, -x)
         
         for _ in range(k):
-            if not heap: break
-                
-            x = -heappop(heap)
-            
+            if not pq: break
+
+            x = -heappop(pq)
             res += x
-            
-            new = ceil(x / 3)
-            if new > 0:
-                heappush(heap, -new)
+
+            nxt = ceil(x / 3)
+            if nxt > 0:
+                heappush(pq, -nxt)
         
         return res
 ```

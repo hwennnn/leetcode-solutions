@@ -6,7 +6,7 @@ tags:
   - array
   - hash-table
   - bit-manipulation
-date: 2023-04-30
+date: 2025-01-14
 ---
 
 [Problem Link](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/)
@@ -62,16 +62,16 @@ At i = 2: 1, 2, and 3 are common in A and B, so C[2] = 3.
 class Solution:
     def findThePrefixCommonArray(self, A: List[int], B: List[int]) -> List[int]:
         N = len(A)
-        mp = defaultdict(int)
+        count = [0] * N
         res = []
         
         for a, b in zip(A, B):
-            mp[a] += 1
-            mp[b] += 1
+            count[a - 1] += 1
+            count[b - 1] += 1
             
-            count = sum(1 for v in mp.values() if v == 2)
+            cnt = sum(1 for v in count if v == 2)
             
-            res.append(count)
+            res.append(cnt)
         
         return res
             

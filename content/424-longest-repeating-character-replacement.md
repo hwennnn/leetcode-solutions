@@ -6,7 +6,7 @@ tags:
   - hash-table
   - string
   - sliding-window
-date: 2024-08-13
+date: 2025-01-23
 ---
 
 [Problem Link](https://leetcode.com/problems/longest-repeating-character-replacement/)
@@ -54,15 +54,15 @@ There may exists other ways to achieve this answer too.</pre>
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
         N = len(s)
-        counter = [0] * 26
-        i = res = maxCount = 0
+        count = Counter()
+        i = maxCount = res = 0
 
         for j, x in enumerate(s):
-            counter[ord(x) - ord('A')] += 1
-            maxCount = max(maxCount, counter[ord(x) - ord("A")])
+            count[x] += 1
+            maxCount = max(maxCount, count[x])
 
-            while (j - i + 1) - maxCount > k:
-                counter[ord(s[i]) - ord('A')] -= 1
+            while ((j - i + 1) - maxCount) > k:
+                count[s[i]] -= 1
                 i += 1
             
             res = max(res, j - i + 1)

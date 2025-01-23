@@ -6,7 +6,7 @@ tags:
   - array
   - binary-search
   - sorting
-date: 2024-11-12
+date: 2025-01-13
 ---
 
 [Problem Link](https://leetcode.com/problems/most-beautiful-item-for-each-query/)
@@ -73,23 +73,20 @@ Hence, the answer to the query is 0.
 ``` py title='most-beautiful-item-for-each-query'
 class Solution:
     def maximumBeauty(self, items: List[List[int]], queries: List[int]) -> List[int]:
-        n = len(items)
-        items.sort(key = lambda x : (x[0], -x[1]))
-        res = []
-        A = [(0, 0)]
+        N, M = len(items), len(queries)
+        items.sort()
+        Q = sorted([(x, i) for i, x in enumerate(queries)])
+        res = [0] * M
+        index = 0
         curr = 0
 
-        for i, (price, beauty) in enumerate(items):
-            if i > 1 and price == items[i - 1][0]: continue
-                
-            curr = max(curr, beauty)
-            A.append((price, curr))
+        for q, i in Q:
+            while index < N and items[index][0] <= q:
+                curr = max(curr, items[index][1])
+                index += 1
+            
+            res[i] = curr
 
-        for q in queries:
-            index = bisect.bisect(A, (q + 1, )) - 1
-            res.append(A[index][1])
-            
         return res
-            
 ```
 

@@ -56,10 +56,9 @@ class Solution:
         rob = skip = 0
 
         for x in nums:
-            rob, skip = max(rob, skip + x), max(rob, skip)
-        
+            rob, skip = max(rob, skip + x), rob
+
         return max(rob, skip)
-        
 ```
 ### Python
 ``` py title='house-robber'

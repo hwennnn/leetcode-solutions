@@ -9,7 +9,7 @@ tags:
   - binary-search
   - bit-manipulation
   - sorting
-date: 2024-02-20
+date: 2025-01-23
 ---
 
 [Problem Link](https://leetcode.com/problems/missing-number/)

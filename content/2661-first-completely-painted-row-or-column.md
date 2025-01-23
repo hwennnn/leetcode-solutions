@@ -6,7 +6,7 @@ tags:
   - array
   - hash-table
   - matrix
-date: 2023-04-30
+date: 2025-01-20
 ---
 
 [Problem Link](https://leetcode.com/problems/first-completely-painted-row-or-column/)
@@ -60,20 +60,20 @@ date: 2023-04-30
 class Solution:
     def firstCompleteIndex(self, arr: List[int], mat: List[List[int]]) -> int:
         rows, cols = len(mat), len(mat[0])
-        mp = {}
-        R, C = defaultdict(int), defaultdict(int)
-        
+        R, C = {}, {}
+
         for i in range(rows):
             for j in range(cols):
-                mp[mat[i][j]] = (i, j)
+                R[mat[i][j]] = i
+                C[mat[i][j]] = j
         
-        for index, x in enumerate(arr):
-            i, j = mp[x]
-            R[i] += 1
-            C[j] += 1
-            
-            if R[i] == cols or C[j] == rows:
-                return index
+        currRow, currCol = [0] * rows , [0] * cols
+        for i, x in enumerate(arr):
+            currRow[R[x]] += 1
+            currCol[C[x]] += 1
+
+            if currRow[R[x]] == cols or currCol[C[x]] == rows:
+                return i
         
         return -1
 ```

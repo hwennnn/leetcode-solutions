@@ -6,7 +6,7 @@ tags:
   - hash-table
   - string
   - counting
-date: 2024-07-21
+date: 2025-01-13
 ---
 
 [Problem Link](https://leetcode.com/problems/minimum-length-of-string-after-operations/)
@@ -71,15 +71,15 @@ We cannot perform any operations, so we return the length of the original string
 class Solution:
     def minimumLength(self, s: str) -> int:
         N = len(s)
-        counter = Counter()
-        
-        for x in s:
-            if counter[x] >= 2:
-                counter[x] = 1
-            else:
-                counter[x] += 1
-        
-        return sum(v for v in counter.values())
+        count = [0] * 26
+
+        for i, x in enumerate(s):
+            k = ord(x) - ord('a')
+            if count[k] >= 2:
+                count[k] -= 2
             
+            count[k] += 1
+        
+        return sum(count)
 ```
 

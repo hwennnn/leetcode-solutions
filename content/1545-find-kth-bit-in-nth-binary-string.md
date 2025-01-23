@@ -6,7 +6,7 @@ tags:
   - string
   - recursion
   - simulation
-date: 2024-10-19
+date: 2025-01-05
 ---
 
 [Problem Link](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/)

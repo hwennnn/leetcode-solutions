@@ -58,17 +58,18 @@ Total amount you can rob = 1 + 3 = 4.
 ``` py title='house-robber-ii'
 class Solution:
     def rob(self, nums: List[int]) -> int:
-        if len(nums) == 1: return nums[0]
+        N = len(nums)
+        if N == 1: return nums[0]
+
+        def helper(i, j):
+            rob = skip = 0
+
+            for index in range(i, j + 1):
+                rob, skip = max(rob, skip + nums[index]), rob
+
+            return max(rob, skip)
         
-        def rob_helper(start, end):
-            rob = not_rob = 0
-            
-            for i in range(start, end):
-                rob, not_rob = not_rob + nums[i], max(not_rob, rob)
-            
-            return max(rob, not_rob)
-        
-        return max(rob_helper(0, len(nums) - 1), rob_helper(1, len(nums)))
+        return max(helper(0, N - 2), helper(1, N - 1))
 ```
 ### C++
 ``` cpp title='house-robber-ii'

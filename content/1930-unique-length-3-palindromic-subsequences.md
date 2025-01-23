@@ -7,7 +7,7 @@ tags:
   - string
   - bit-manipulation
   - prefix-sum
-date: 2023-11-14
+date: 2025-01-05
 ---
 
 [Problem Link](https://leetcode.com/problems/unique-length-3-palindromic-subsequences/)
@@ -76,27 +76,26 @@ date: 2023-11-14
 class Solution:
     def countPalindromicSubsequence(self, s: str) -> int:
         N = len(s)
-        mp = [[-1, -1] for _ in range(26)]
+        first = [-1] * 26
+        last = [-1] * 26
         res = 0
 
         for i, x in enumerate(s):
             k = ord(x) - ord('a')
-            if mp[k][0] == -1:
-                mp[k][0] = i
-            else:
-                mp[k][1] = i
-        
-        for k in range(26):
-            first, last = mp[k]
+            if first[k] == -1:
+                first[k] = i
             
-            if first != -1 and last != 1:
-                unique = set()
-                for index in range(first + 1, last):
-                    unique.add(s[index])
-                
-                res += len(unique)
+            last[k] = i
         
-        return res
+        for i in range(26):
+            A = [0] * 26
 
+            if first[i] != -1 and first[i] != last[i]:
+                for j in range(first[i] + 1, last[i]):
+                    A[ord(s[j]) - ord('a')] = 1
+            
+            res += sum(A)
+
+        return res
 ```
 

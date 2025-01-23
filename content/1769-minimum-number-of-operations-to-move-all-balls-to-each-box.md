@@ -6,7 +6,7 @@ tags:
   - array
   - string
   - prefix-sum
-date: 2021-04-10
+date: 2025-01-06
 ---
 
 [Problem Link](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/)
@@ -57,22 +57,23 @@ date: 2021-04-10
 ``` py title='minimum-number-of-operations-to-move-all-balls-to-each-box'
 class Solution:
     def minOperations(self, boxes: str) -> List[int]:
-        n = len(boxes)
-        res = []
+        N = len(boxes)
+        res = [0] * N
+        moves = count = 0
+
+        for i in range(N):
+            res[i] += moves
+            if boxes[i] == '1':
+                count += 1
+            moves += count
         
-        for i in range(n):
-            moves = 0
-            for k in range(i):
-                if boxes[k] == "1":
-                    moves += i - k
-            
-            for k in range(i+1, n):
-                if boxes[k] == "1":
-                    moves += k - i
-            
-            res.append(moves)
+        moves = count = 0
+        for i in range(N - 1, -1, -1):
+            res[i] += moves
+            if boxes[i] == '1':
+                count += 1
+            moves += count
         
         return res
-            
 ```
 

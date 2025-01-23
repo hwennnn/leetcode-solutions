@@ -6,7 +6,7 @@ tags:
   - array
   - binary-search
   - greedy
-date: 2024-11-14
+date: 2025-01-13
 ---
 
 [Problem Link](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/)
@@ -76,18 +76,20 @@ The maximum number of products given to any store is max(100000) = 100000.
 ``` py title='minimized-maximum-of-products-distributed-to-any-store'
 class Solution:
     def minimizedMaximum(self, n: int, quantities: List[int]) -> int:
-        total = sum(quantities)
-        
-        def good(x):
-            return sum(ceil(quantity / x) for quantity in quantities) <= n
-        
-        left, right = 1, max(quantities)
-        
-        while left < right:
-            mid = left + (right - left) // 2
-            x = good(mid)
+        left, right = 1, 10 ** 5 + 1
 
-            if x:
+        def good(k):
+            count = 0
+
+            for x in quantities:
+                count += ceil(x / k)
+            
+            return count <= n
+
+        while left < right:
+            mid = (left + right) // 2
+
+            if good(mid):
                 right = mid
             else:
                 left = mid + 1

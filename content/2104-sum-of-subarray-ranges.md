@@ -1,7 +1,7 @@
 ---
 title: 2104. Sum of Subarray Ranges
 draft: false
-tags:
+tags: 
   - leetcode-medium
   - array
   - stack
@@ -14,7 +14,6 @@ date: 2025-01-23
 ## Description
 
 ---
-
 <p>You are given an integer array <code>nums</code>. The <strong>range</strong> of a subarray of <code>nums</code> is the difference between the largest and smallest element in the subarray.</p>
 
 <p>Return <em>the <strong>sum of all</strong> subarray ranges of </em><code>nums</code><em>.</em></p>
@@ -70,13 +69,12 @@ So the sum of all ranges is 0 + 0 + 0 + 2 + 0 + 2 = 4.
 <p>&nbsp;</p>
 <p><strong>Follow-up:</strong> Could you find a solution with <code>O(n)</code> time complexity?</p>
 
+
 ## Solution
 
 ---
-
 ### Python3
-
-```py title='sum-of-subarray-ranges'
+``` py title='sum-of-subarray-ranges'
 class Solution:
     def subArrayRanges(self, nums: List[int]) -> int:
         N = len(nums)
@@ -91,16 +89,16 @@ class Solution:
         for i, x in enumerate(nums):
             while stack and x < nums[stack[-1]]:
                 nextSmaller[stack.pop()] = i
-
+            
             stack.append(i)
-
+        
         # construct prevSmaller array
         stack = []
         for i in range(N - 1, -1, -1):
             # add equal sign here to prevent double counting
             while stack and nums[i] <= nums[stack[-1]]:
                 prevSmaller[stack.pop()] = i
-
+            
             stack.append(i)
 
         # construct nextLarger array
@@ -108,18 +106,18 @@ class Solution:
         for i, x in enumerate(nums):
             while stack and x > nums[stack[-1]]:
                 nextLarger[stack.pop()] = i
-
+            
             stack.append(i)
-
+        
         # construct prevLarger array
         stack = []
         for i in range(N - 1, -1, -1):
             # add equal sign here to prevent double counting
             while stack and nums[i] >= nums[stack[-1]]:
                 prevLarger[stack.pop()] = i
-
+            
             stack.append(i)
-
+        
         for i, x in enumerate(nums):
             leftMin, rightMin = i - prevSmaller[i], nextSmaller[i] - i
             leftMax, rightMax = i - prevLarger[i], nextLarger[i] - i
@@ -128,7 +126,7 @@ class Solution:
             mmax = leftMax * rightMax
 
             res += x * (mmax - mmin)
-
+        
         return res
-
 ```
+

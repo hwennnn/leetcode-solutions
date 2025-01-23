@@ -5,7 +5,7 @@ tags:
   - leetcode-easy
   - string
   - string-matching
-date: 2024-11-03
+date: 2025-01-08
 ---
 
 [Problem Link](https://leetcode.com/problems/rotate-string/)
@@ -44,8 +44,7 @@ date: 2024-11-03
 ### Python3
 ``` py title='rotate-string'
 class Solution:
-    def rotateString(self, A: str, B: str) -> bool:
-        
-        return len(A) == len(B) and B in A+A
+    def rotateString(self, s: str, goal: str) -> bool:
+        return len(s) == len(goal) and s in goal + goal
 ```
 

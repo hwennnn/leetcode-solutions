@@ -1,14 +1,11 @@
 ---
 title: 2381. Shifting Letters II
 draft: false
-tags:
+tags: 
   - leetcode-medium
   - array
   - string
   - prefix-sum
-  - binary-indexed-tree
-  - fenwick-tree
-  - line-sweep
 date: 2025-01-05
 ---
 
@@ -17,7 +14,6 @@ date: 2025-01-05
 ## Description
 
 ---
-
 <p>You are given a string <code>s</code> of lowercase English letters and a 2D integer array <code>shifts</code> where <code>shifts[i] = [start<sub>i</sub>, end<sub>i</sub>, direction<sub>i</sub>]</code>. For every <code>i</code>, <strong>shift</strong> the characters in <code>s</code> from the index <code>start<sub>i</sub></code> to the index <code>end<sub>i</sub></code> (<strong>inclusive</strong>) forward if <code>direction<sub>i</sub> = 1</code>, or shift the characters backward if <code>direction<sub>i</sub> = 0</code>.</p>
 
 <p>Shifting a character <strong>forward</strong> means replacing it with the <strong>next</strong> letter in the alphabet (wrapping around so that <code>&#39;z&#39;</code> becomes <code>&#39;a&#39;</code>). Similarly, shifting a character <strong>backward</strong> means replacing it with the <strong>previous</strong> letter in the alphabet (wrapping around so that <code>&#39;a&#39;</code> becomes <code>&#39;z&#39;</code>).</p>
@@ -54,59 +50,28 @@ Finally, shift the characters from index 1 to index 1 forward. Now s = &quot;cat
 	<li><code>s</code> consists of lowercase English letters.</li>
 </ul>
 
+
 ## Solution
 
 ---
-
 ### Python3
-
-#### Implementation with Line Sweep
-
-```py title='shifting-letters-ii'
-class Solution:
-    def shiftingLetters(self, s: str, shifts: List[List[int]]) -> str:
-        N = len(s)
-        prefix = [0] * (N + 1)
-
-        for a, b, direction in shifts:
-            d = 1 if direction == 1 else -1
-
-            prefix[a] += d
-            prefix[b + 1] -= d
-
-        res = []
-        curr = 0
-        for i in range(N):
-            k = ord(s[i]) - ord('a')
-            curr += prefix[i]
-            curr %= 26
-
-            k = (k + curr) % 26
-
-            res.append(chr(ord('a') + k))
-
-        return "".join(res)
-```
-
-#### Implementation with BIT
-
-```py title='shifting-letters-ii'
+``` py title='shifting-letters-ii'
 class BIT:
     def __init__(self, N):
         self.stree = [0] * (N + 2)
-
+ 
     def change(self, i, x):
         while i < len(self.stree):
             self.stree[i] += x
             i += i & (-i)
-
+ 
     def query(self, i):
         s = 0
-
+ 
         while i >= 1:
             s += self.stree[i]
             i -= i & (-i)
-
+ 
         return s
 
 class Solution:
@@ -119,7 +84,7 @@ class Solution:
 
             tree.change(a + 1, d)
             tree.change(b + 2, -d)
-
+        
         res = []
         for i in range(N):
             k = (ord(s[i]) - ord('a') + tree.query(i + 1)) % 26
@@ -128,3 +93,4 @@ class Solution:
         return "".join(res)
 
 ```
+

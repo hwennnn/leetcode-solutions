@@ -7,7 +7,7 @@ tags:
   - string
   - greedy
   - counting
-date: 2020-10-14
+date: 2025-01-11
 ---
 
 [Problem Link](https://leetcode.com/problems/construct-k-palindrome-strings/)
@@ -60,7 +60,13 @@ Some possible constructions &quot;anna&quot; + &quot;elble&quot;, &quot;anbna&qu
 ``` py title='construct-k-palindrome-strings'
 class Solution:
     def canConstruct(self, s: str, k: int) -> bool:
-        return sum(i & 1 for i in collections.Counter(s).values()) <= k <= len(s)
+        counter = Counter(s)
+        oddCount = 0
 
+        for v in counter.values():
+            if v & 1:
+                oddCount += 1
+        
+        return oddCount <= k <= len(s)
 ```
 

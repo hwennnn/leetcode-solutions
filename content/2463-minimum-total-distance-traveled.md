@@ -1,12 +1,12 @@
 ---
 title: 2463. Minimum Total Distance Traveled
 draft: false
-tags:
+tags: 
   - leetcode-hard
   - array
   - dynamic-programming
   - sorting
-date: 2025-01-05
+date: 2025-01-06
 ---
 
 [Problem Link](https://leetcode.com/problems/minimum-total-distance-traveled/)
@@ -14,7 +14,6 @@ date: 2025-01-05
 ## Description
 
 ---
-
 <p>There are some robots and factories on the X-axis. You are given an integer array <code>robot</code> where <code>robot[i]</code> is the position of the <code>i<sup>th</sup></code> robot. You are also given a 2D integer array <code>factory</code> where <code>factory[j] = [position<sub>j</sub>, limit<sub>j</sub>]</code> indicates that <code>position<sub>j</sub></code> is the position of the <code>j<sup>th</sup></code> factory and that the <code>j<sup>th</sup></code> factory can repair at most <code>limit<sub>j</sub></code> robots.</p>
 
 <p>The positions of each robot are <strong>unique</strong>. The positions of each factory are also <strong>unique</strong>. Note that a robot can be <strong>in the same position</strong> as a factory initially.</p>
@@ -74,13 +73,12 @@ The total distance is |2 - 1| + |(-2) - (-1)| = 2. It can be shown that we canno
 	<li>The input will be generated such that it is always possible to repair every robot.</li>
 </ul>
 
+
 ## Solution
 
 ---
-
 ### Python3
-
-```py title='minimum-total-distance-traveled'
+``` py title='minimum-total-distance-traveled'
 class Solution:
     def minimumTotalDistance(self, robot: List[int], factory: List[List[int]]) -> int:
         N, M = len(robot), len(factory)
@@ -95,12 +93,12 @@ class Solution:
 
             if limit > 0:
                 res = min(res, go(index + 1, factoryIndex, limit - 1) + abs(robot[index] - factory[factoryIndex][0]))
-
+            
             if factoryIndex + 1 < M:
                 res = min(res, go(index, factoryIndex + 1, factory[factoryIndex + 1][1]))
 
             return res
-
+        
         return go(0, 0, factory[0][1])
-
 ```
+

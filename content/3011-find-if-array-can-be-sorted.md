@@ -6,7 +6,7 @@ tags:
   - array
   - bit-manipulation
   - sorting
-date: 2024-11-06
+date: 2025-01-08
 ---
 
 [Problem Link](https://leetcode.com/problems/find-if-array-can-be-sorted/)
@@ -69,24 +69,23 @@ Note that there may be other sequences of operations which also sort the array.
 class Solution:
     def canSortArray(self, nums: List[int]) -> bool:
         N = len(nums)
-        s = sorted(nums)
-        mp = defaultdict(list)
-        
-        def f(x):
-            return x.bit_count()
-        
-        i = 0
-        while i < N:
-            j = i + 1
-            curr = f(nums[i])
-            
-            while j < N and f(nums[j]) == curr:
-                j += 1
-            
-            nums[i : j] = sorted(nums[i : j])
-            
-            i = j
+        target = sorted(nums)
 
-        return all(a == b for a, b in zip(nums, s))
+        for i in range(N):
+            if nums[i] == target[i]: continue
+
+            j = i + 1
+            curr = nums[i].bit_count()
+
+            while j < N and curr == nums[j].bit_count():
+                if nums[j] == target[i]:
+                    nums[i], nums[j] = nums[j], nums[i]
+                    break
+                else:
+                    j += 1
+            
+            if nums[i] != target[i]: return False
+        
+        return True
 ```
 

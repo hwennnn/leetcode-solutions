@@ -67,8 +67,9 @@ class Solution:
             nxt = head.next
             head.next = prev
             prev = head
-            head = nxt
 
+            head = nxt
+        
         return prev
 ```
 ### C++

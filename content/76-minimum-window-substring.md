@@ -1,7 +1,7 @@
 ---
 title: 76. Minimum Window Substring
 draft: false
-tags:
+tags: 
   - leetcode-hard
   - hash-table
   - string
@@ -14,7 +14,6 @@ date: 2025-01-23
 ## Description
 
 ---
-
 <p>Given two strings <code>s</code> and <code>t</code> of lengths <code>m</code> and <code>n</code> respectively, return <em>the <strong>minimum window</strong></em> <span data-keyword="substring-nonempty"><strong><em>substring</em></strong></span><em> of </em><code>s</code><em> such that every character in </em><code>t</code><em> (<strong>including duplicates</strong>) is included in the window</em>. If there is no such substring, return <em>the empty string </em><code>&quot;&quot;</code>.</p>
 
 <p>The testcases will be generated such that the answer is <strong>unique</strong>.</p>
@@ -58,13 +57,12 @@ Since the largest window of s only has one &#39;a&#39;, return empty string.
 <p>&nbsp;</p>
 <p><strong>Follow up:</strong> Could you find an algorithm that runs in <code>O(m + n)</code> time?</p>
 
+
 ## Solution
 
 ---
-
 ### Python3
-
-```py title='minimum-window-substring'
+``` py title='minimum-window-substring'
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
         N, M = len(s), len(t)
@@ -78,22 +76,22 @@ class Solution:
                 counter[x] -= 1
                 if counter[x] == 0:
                     curr -= 1
-
+            
             while curr == 0:
                 length = j - i + 1
                 if length < res[1]:
                     res = (i, length)
-
+                
                 if s[i] in counter:
                     counter[s[i]] += 1
                     if counter[s[i]] == 1:
                         curr += 1
-
+                
                 i += 1
-
+        
         start, length = res
         if start == -1: return ""
 
         return s[start : start + length]
-
 ```
+

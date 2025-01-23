@@ -5,7 +5,7 @@ tags:
   - leetcode-medium
   - linked-list
   - recursion
-date: 2023-05-16
+date: 2025-01-15
 ---
 
 [Problem Link](https://leetcode.com/problems/swap-nodes-in-pairs/)
@@ -79,8 +79,7 @@ class Solution:
             first, second = curr.next, curr.next.next
             following = curr.next.next.next
 
-            curr.next, second.next, first.next = second, first, following
-
+            first.next, second.next, curr.next = following, first, second
             curr = first
 
         return res.next

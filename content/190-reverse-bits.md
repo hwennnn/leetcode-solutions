@@ -5,7 +5,7 @@ tags:
   - leetcode-easy
   - divide-and-conquer
   - bit-manipulation
-date: 2021-10-01
+date: 2025-01-23
 ---
 
 [Problem Link](https://leetcode.com/problems/reverse-bits/)
@@ -60,7 +60,7 @@ class Solution:
         res = 0
         
         for i in range(32):
-            res = (res << 1) + (n & 1)
+            res = res * 2 + (n & 1)
             n >>= 1
         
         return res

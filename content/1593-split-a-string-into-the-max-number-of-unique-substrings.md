@@ -1,7 +1,7 @@
 ---
 title: 1593. Split a String Into the Max Number of Unique Substrings
 draft: false
-tags:
+tags: 
   - leetcode-medium
   - hash-table
   - string
@@ -14,7 +14,6 @@ date: 2025-01-05
 ## Description
 
 ---
-
 <p>Given a string&nbsp;<code>s</code><var>,</var>&nbsp;return <em>the maximum&nbsp;number of unique substrings that the given string can be split into</em>.</p>
 
 <p>You can split string&nbsp;<code>s</code> into any list of&nbsp;<strong>non-empty substrings</strong>, where the concatenation of the substrings forms the original string.&nbsp;However, you must split the substrings such that all of them are <strong>unique</strong>.</p>
@@ -58,13 +57,12 @@ date: 2025-01-05
 	</li>
 </ul>
 
+
 ## Solution
 
 ---
-
 ### Python3
-
-```py title='split-a-string-into-the-max-number-of-unique-substrings'
+``` py title='split-a-string-into-the-max-number-of-unique-substrings'
 class Solution:
     def maxUniqueSplit(self, s: str) -> int:
         N = len(s)
@@ -82,11 +80,12 @@ class Solution:
                 used.add(add)
                 backtrack(index + 1, "", count + 1)
                 used.remove(add)
-
+            
             backtrack(index + 1, add, count)
-
+        
         backtrack(0, "", 0)
 
         return res
 
 ```
+

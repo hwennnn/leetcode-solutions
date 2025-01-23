@@ -4,7 +4,7 @@ draft: false
 tags: 
   - leetcode-easy
   - string
-date: 2024-11-01
+date: 2025-01-06
 ---
 
 [Problem Link](https://leetcode.com/problems/delete-characters-to-make-fancy-string/)
@@ -64,14 +64,14 @@ No three consecutive characters are equal, so return &quot;aabaa&quot;.
 ``` py title='delete-characters-to-make-fancy-string'
 class Solution:
     def makeFancyString(self, s: str) -> str:
-        deque = collections.deque()
-        
-        for c in s:
-            deque.append(c)
+        stack = []
+
+        for x in s:
+            if len(stack) >= 2 and x == stack[-1] == stack[-2]:
+                pass # do nothing
+            else:
+                stack.append(x)
             
-            while len(deque) >= 3 and deque[-1] == deque[-2] == deque[-3]:
-                deque.pop()
-        
-        return "".join(deque)
+        return "".join(stack)
 ```
 

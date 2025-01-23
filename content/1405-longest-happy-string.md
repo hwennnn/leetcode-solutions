@@ -1,7 +1,7 @@
 ---
 title: 1405. Longest Happy String
 draft: false
-tags:
+tags: 
   - leetcode-medium
   - string
   - greedy
@@ -14,7 +14,6 @@ date: 2025-01-05
 ## Description
 
 ---
-
 <p>A string <code>s</code> is called <strong>happy</strong> if it satisfies the following conditions:</p>
 
 <ul>
@@ -54,13 +53,12 @@ date: 2025-01-05
 	<li><code>a + b + c &gt; 0</code></li>
 </ul>
 
+
 ## Solution
 
 ---
-
 ### Python3
-
-```py title='longest-happy-string'
+``` py title='longest-happy-string'
 class Solution:
     def longestDiverseString(self, a: int, b: int, c: int) -> str:
         res = []
@@ -85,7 +83,7 @@ class Solution:
                 res.append(char2)
                 if count2 - 1 > 0:
                     heappush(pq, (-(count2 - 1), char2))
-
+                
                 heappush(pq, (-count, char))
                 continue
             else:
@@ -95,3 +93,4 @@ class Solution:
 
         return "".join(res)
 ```
+

@@ -6,7 +6,7 @@ tags:
   - array
   - bit-manipulation
   - brainteaser
-date: 2022-10-07
+date: 2025-01-16
 ---
 
 [Problem Link](https://leetcode.com/problems/bitwise-xor-of-all-pairings/)
@@ -57,17 +57,32 @@ Thus, one possible nums3 array is [2,5,1,6].
 ``` py title='bitwise-xor-of-all-pairings'
 class Solution:
     def xorAllNums(self, nums1: List[int], nums2: List[int]) -> int:
-        n1, n2 = len(nums1), len(nums2)
+        M, N = len(nums1), len(nums2)
 
-        xor = 0
-        if n2 % 2 != 0:
+        if M % 2 == 0:
+            # even, even
+            if N % 2 == 0: return 0
+
+            # even, odd
+            res = 0
             for x in nums1:
-                xor ^= x
-        
-        if n1 % 2 != 0:
-            for x in nums2:
-                xor ^= x
-        
-        return xor
+                res ^= x
+            
+            return res
+        else:
+            # odd, even
+            if N % 2 == 0:
+                res = 0
+                for x in nums2:
+                    res ^= x
+                
+                return res
+
+            # odd, odd
+            res = 0
+            for x in nums1 + nums2:
+                res ^= x
+            
+            return res
 ```
 

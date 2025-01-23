@@ -1,7 +1,7 @@
 ---
 title: 632. Smallest Range Covering Elements from K Lists
 draft: false
-tags:
+tags: 
   - leetcode-hard
   - array
   - hash-table
@@ -17,7 +17,6 @@ date: 2025-01-05
 ## Description
 
 ---
-
 <p>You have <code>k</code> lists of sorted integers in <strong>non-decreasing&nbsp;order</strong>. Find the <b>smallest</b> range that includes at least one number from each of the <code>k</code> lists.</p>
 
 <p>We define the range <code>[a, b]</code> is smaller than range <code>[c, d]</code> if <code>b - a &lt; d - c</code> <strong>or</strong> <code>a &lt; c</code> if <code>b - a == d - c</code>.</p>
@@ -52,13 +51,12 @@ List 3: [5, 18, 22, 30], 22 is in range [20,24].
 	<li><code>nums[i]</code>&nbsp;is sorted in <strong>non-decreasing</strong> order.</li>
 </ul>
 
+
 ## Solution
 
 ---
-
 ### Python3
-
-```py title='smallest-range-covering-elements-from-k-lists'
+``` py title='smallest-range-covering-elements-from-k-lists'
 class Solution:
     def smallestRange(self, nums: List[List[int]]) -> List[int]:
         N = len(nums)
@@ -71,7 +69,7 @@ class Solution:
 
         for i, arr in enumerate(nums):
             heappush(pq, (arr[0], 0, i))
-
+        
         while pq:
             x, arrIndex, numsIndex = heappop(pq)
 
@@ -97,3 +95,4 @@ class Solution:
 
         return res
 ```
+

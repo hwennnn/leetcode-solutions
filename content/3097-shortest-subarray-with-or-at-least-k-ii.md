@@ -6,7 +6,7 @@ tags:
   - array
   - bit-manipulation
   - sliding-window
-date: 2024-11-10
+date: 2025-01-13
 ---
 
 [Problem Link](https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii/)
@@ -73,41 +73,40 @@ date: 2024-11-10
 ### Python3
 ``` py title='shortest-subarray-with-or-at-least-k-ii'
 class Solution:
-    def minimumSubarrayLength(self, nums, k) -> int:
+    def minimumSubarrayLength(self, nums: List[int], k: int) -> int:
         N = len(nums)
-        curr = 0
         res = inf
-        i = 0
-        A = [0] * 32
+        count = [0] * 32
+        curr = 0
 
         def inc(x):
-            nonlocal curr, A
-
-            for k in range(32):
-                if x & (1 << k):
-                    if A[k] == 0:
-                        curr |= (1 << k)
-                    A[k] += 1
-
+            nonlocal curr, count
+            for p in range(32):
+                if x & (1 << p):
+                    if count[p] == 0:
+                        curr += 1 << p
+                    count[p] += 1
+        
         def dec(x):
-            nonlocal curr, A
-
-            for k in range(32):
-                if x & (1 << k):
-                    A[k] -= 1
-                    if A[k] == 0:
-                        curr ^= (1 << k)
-
+            nonlocal curr, count
+            for p in range(32):
+                if x & (1 << p):
+                    count[p] -= 1
+                    if count[p] == 0:
+                        curr -= 1 << p
+        
+        i = 0
         for j, x in enumerate(nums):
-            if x >= k: return 1
-
             inc(x)
 
-            while curr >= k:
+            while i <= j and curr >= k:
                 res = min(res, j - i + 1)
                 dec(nums[i])
                 i += 1
 
-        return -1 if res == inf else res
+
+        if res == inf: return -1
+
+        return res
 ```
 

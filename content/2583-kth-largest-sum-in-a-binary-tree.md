@@ -1,7 +1,7 @@
 ---
 title: 2583. Kth Largest Sum in a Binary Tree
 draft: false
-tags:
+tags: 
   - leetcode-medium
   - tree
   - breadth-first-search
@@ -15,7 +15,6 @@ date: 2025-01-05
 ## Description
 
 ---
-
 <p>You are given the <code>root</code> of a binary tree and a positive integer <code>k</code>.</p>
 
 <p>The <strong>level sum</strong> in the tree is the sum of the values of the nodes that are on the <strong>same</strong> level.</p>
@@ -56,13 +55,12 @@ The 2<sup>nd</sup> largest level sum is 13.
 	<li><code>1 &lt;= k &lt;= n</code></li>
 </ul>
 
+
 ## Solution
 
 ---
-
 ### Python3
-
-```py title='kth-largest-sum-in-a-binary-tree'
+``` py title='kth-largest-sum-in-a-binary-tree'
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -84,15 +82,15 @@ class Solution:
 
                 for adj in filter(None, (node.left, node.right)):
                     queue.append(adj)
-
+            
             if len(minHeap) < k:
                 heappush(minHeap, count)
             else:
                 heappushpop(minHeap, count)
-
+        
         if len(minHeap) != k:
             return -1
 
-        return heappop(minHeap)s
-
+        return heappop(minHeap)
 ```
+

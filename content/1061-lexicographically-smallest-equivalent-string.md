@@ -5,7 +5,7 @@ tags:
   - leetcode-medium
   - string
   - union-find
-date: 2023-01-14
+date: 2025-01-14
 ---
 
 [Problem Link](https://leetcode.com/problems/lexicographically-smallest-equivalent-string/)
@@ -76,54 +76,54 @@ So only the second letter &#39;o&#39; in baseStr is changed to &#39;d&#39;, the 
 ---
 ### Python3
 ``` py title='lexicographically-smallest-equivalent-string'
-class UnionFind:
-    def __init__(self):
-        self._parent = {}
-        self._size = {}
-
-    def union(self, a, b):
-        a, b = self.find(a), self.find(b)
-        if a == b:
-            return
-        if self._size[a] < self._size[b]:
-            a, b = b, a
-        self._parent[b] = a
-        self._size[a] += self._size[b]
-
+class DSU:
+    def __init__(self, n):
+        self.parent = [i for i in range(n)]
+        self.rank = [0] * n
+ 
     def find(self, x):
-        if x not in self._parent:
-            self._parent[x] = x
-            self._size[x] = 1
-        while self._parent[x] != x:
-            self._parent[x] = self._parent[self._parent[x]]
-            x = self._parent[x]
-        return x
+        if self.parent[x] == x:
+            return self.parent[x]
+        self.parent[x] = self.find(self.parent[x])
+        return self.parent[x]
+ 
+    def union(self, u, v):
+        pu = self.find(u)
+        pv = self.find(v)
+ 
+        if (pu == pv): return
+ 
+        if self.rank[pu] < self.rank[pv]:
+            pu, pv = pv, pu
+ 
+        # ensure self.rank[pu] >= self.rank[pv]
+        self.parent[pv] = pu
+        if self.rank[pu] == self.rank[pv]:
+            self.rank[pu] += 1
 
 class Solution:
     def smallestEquivalentString(self, s1: str, s2: str, baseStr: str) -> str:
-        uf = UnionFind()
+        N = len(s1)
+        uf = DSU(26)
 
         for a, b in zip(s1, s2):
-            uf.union(a, b)
+            uf.union(ord(a) - ord('a'), ord(b) - ord('a'))
         
-        parents = defaultdict(list)
-
-        for x in s1 + s2:
-            parent = uf.find(x)
-            parents[parent].append(x)
-        
-        for key in parents.keys():
-            parents[key].sort()
-
-        res = []
-
-        for x in baseStr:
-            parent = uf.find(x)
-            if parent not in parents:
-                res.append(x)
+        mp = {}
+        for k in range(26):
+            p = uf.find(k)
+            if p not in mp:
+                mp[p] = k
             else:
-                res.append(parents[parent][0])
+                mp[p] = min(mp[p], k)
+        
+        res = []
+        for x in baseStr:
+            k = ord(x) - ord('a')
+            p = uf.find(k)
 
+            res.append(chr(ord('a') + mp[p]))
+        
         return "".join(res)
 ```
 

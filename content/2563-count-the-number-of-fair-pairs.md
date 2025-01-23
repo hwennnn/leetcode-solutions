@@ -7,7 +7,7 @@ tags:
   - two-pointers
   - binary-search
   - sorting
-date: 2024-11-13
+date: 2025-01-13
 ---
 
 [Problem Link](https://leetcode.com/problems/count-the-number-of-fair-pairs/)
@@ -57,20 +57,20 @@ date: 2024-11-13
 ---
 ### Python3
 ``` py title='count-the-number-of-fair-pairs'
-from sortedcontainers import SortedList
-
 class Solution:
     def countFairPairs(self, nums: List[int], lower: int, upper: int) -> int:
+        N = len(nums)
+        nums.sort()
         res = 0
-        sl = SortedList()
-        
-        for x in nums:
-            left = sl.bisect_left(lower - x)
-            right = sl.bisect(upper - x)
-            res += right - left
-            
-            sl.add(x)
 
+        for i, x in enumerate(nums):
+            start = lower - x
+            end = upper - x
+
+            s = bisect_left(nums, start, 0, i)
+            e = bisect_right(nums, end, 0, i)
+            res += e - s
+        
         return res
 ```
 

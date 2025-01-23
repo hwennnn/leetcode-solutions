@@ -6,7 +6,7 @@ tags:
   - array
   - divide-and-conquer
   - dynamic-programming
-date: 2024-08-13
+date: 2025-01-23
 ---
 
 [Problem Link](https://leetcode.com/problems/maximum-subarray/)
@@ -61,10 +61,9 @@ date: 2024-08-13
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         N = len(nums)
-        # Kadane's
         res = -inf
         curr = 0
-        
+
         for x in nums:
             curr = max(x, curr + x)
             res = max(res, curr)

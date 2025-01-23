@@ -6,7 +6,7 @@ tags:
   - array
   - breadth-first-search
   - matrix
-date: 2021-04-11
+date: 2025-01-22
 ---
 
 [Problem Link](https://leetcode.com/problems/map-of-highest-peak/)
@@ -77,25 +77,25 @@ Any height assignment that has a maximum height of 2 while still meeting the rul
 ### Python3
 ``` py title='map-of-highest-peak'
 class Solution:
-    def highestPeak(self, water: List[List[int]]) -> List[List[int]]:
-        rows, cols = len(water), len(water[0])
+    def highestPeak(self, isWater: List[List[int]]) -> List[List[int]]:
+        rows, cols = len(isWater), len(isWater[0])
         res = [[-1] * cols for _ in range(rows)]
-        deq = collections.deque()
-        
+        queue = deque()
+
         for i in range(rows):
             for j in range(cols):
-                if water[i][j] == 1:
-                    deq.append((i, j))
+                if isWater[i][j] == 1:
                     res[i][j] = 0
+                    queue.append((i, j, 1))
         
-        while deq:
-            x, y = deq.popleft()
+        while queue:
+            i, j, height = queue.popleft()
 
-            for dx,dy in ((x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)):
-                if 0 <= dx < rows and 0 <= dy < cols and res[dx][dy] == -1:
-                    res[dx][dy] = res[x][y] + 1
-                    deq.append((dx, dy))
-        
+            for di, dj in [(i + 1, j), (i - 1, j), (i, j + 1), (i, j - 1)]:
+                if 0 <= di < rows and 0 <= dj < cols and res[di][dj] == -1:
+                    res[di][dj] = height
+                    queue.append((di, dj, height + 1))
+
         return res
 ```
 

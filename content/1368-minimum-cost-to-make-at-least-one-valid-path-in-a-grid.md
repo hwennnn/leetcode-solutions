@@ -1,7 +1,7 @@
 ---
 title: 1368. Minimum Cost to Make at Least One Valid Path in a Grid
 draft: false
-tags:
+tags: 
   - leetcode-hard
   - array
   - breadth-first-search
@@ -17,7 +17,6 @@ date: 2025-01-23
 ## Description
 
 ---
-
 <p>Given an <code>m x n</code> grid. Each cell of the grid has a sign pointing to the next cell you should visit if you are currently in this cell. The sign of <code>grid[i][j]</code> can be:</p>
 
 <ul>
@@ -71,13 +70,12 @@ The total cost = 3.
 	<li><code>1 &lt;= grid[i][j] &lt;= 4</code></li>
 </ul>
 
+
 ## Solution
 
 ---
-
 ### Python3
-
-```py title='minimum-cost-to-make-at-least-one-valid-path-in-a-grid'
+``` py title='minimum-cost-to-make-at-least-one-valid-path-in-a-grid'
 class Solution:
     def minCost(self, grid: List[List[int]]) -> int:
         rows, cols = len(grid), len(grid[0])
@@ -93,7 +91,7 @@ class Solution:
                 return (x + 1, y)
             else:
                 return (x - 1, y)
-
+        
         pq = [(0, 0, 0)]
 
         while pq:
@@ -113,7 +111,7 @@ class Solution:
                     if new < old:
                         dist[dx][dy] = new
                         heappush(pq, (new, dx, dy))
-
+        
         return dist[-1][-1]
-
 ```
+

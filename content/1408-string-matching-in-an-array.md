@@ -6,7 +6,7 @@ tags:
   - array
   - string
   - string-matching
-date: 2020-10-14
+date: 2025-01-07
 ---
 
 [Problem Link](https://leetcode.com/problems/string-matching-in-an-array/)

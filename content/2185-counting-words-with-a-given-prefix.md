@@ -6,7 +6,7 @@ tags:
   - array
   - string
   - string-matching
-date: 2022-02-27
+date: 2025-01-09
 ---
 
 [Problem Link](https://leetcode.com/problems/counting-words-with-a-given-prefix/)
@@ -54,12 +54,6 @@ date: 2022-02-27
 ``` py title='counting-words-with-a-given-prefix'
 class Solution:
     def prefixCount(self, words: List[str], pref: str) -> int:
-        res = 0
-        
-        for word in words:
-            if word.startswith(pref):
-                res += 1
-            
-        return res
+        return sum(1 for word in words if word.startswith(pref))
 ```
 
