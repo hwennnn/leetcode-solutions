@@ -1,13 +1,13 @@
 ---
 title: 907. Sum of Subarray Minimums
 draft: false
-tags: 
+tags:
   - leetcode-medium
   - array
   - dynamic-programming
   - stack
   - monotonic-stack
-date: 2024-01-21
+date: 2025-01-23
 ---
 
 [Problem Link](https://leetcode.com/problems/sum-of-subarray-minimums/)
@@ -15,6 +15,7 @@ date: 2024-01-21
 ## Description
 
 ---
+
 <p>Given an array of integers arr, find the sum of <code>min(b)</code>, where <code>b</code> ranges over every (contiguous) subarray of <code>arr</code>. Since the answer may be large, return the answer <strong>modulo</strong> <code>10<sup>9</sup> + 7</code>.</p>
 
 <p>&nbsp;</p>
@@ -44,49 +45,45 @@ Sum is 17.
 	<li><code>1 &lt;= arr[i] &lt;= 3 * 10<sup>4</sup></code></li>
 </ul>
 
-
 ## Solution
 
 ---
+
 ### Python3
-``` py title='sum-of-subarray-minimums'
+
+```py title='sum-of-subarray-minimums'
 class Solution:
     def sumSubarrayMins(self, arr: List[int]) -> int:
         N = len(arr)
+        MOD = 10 ** 9 + 7
+        prevSmaller = [-1] * N
+        nextSmaller = [N] * N
         res = 0
-        M = 10 ** 9 + 7
 
-        left = []
+        # construct nextSmaller array
         stack = []
         for i, x in enumerate(arr):
             while stack and x < arr[stack[-1]]:
-                stack.pop()
-            
-            if stack:
-                left.append(i - stack[-1])
-            else:
-                left.append(i + 1)
-            
+                nextSmaller[stack.pop()] = i
+
             stack.append(i)
-        
-        right = []
+
+        # construct prevSmaller array
         stack = []
         for i in range(N - 1, -1, -1):
+            # less than or equal here to prevent double counting
             while stack and arr[i] <= arr[stack[-1]]:
-                stack.pop()
-            
-            if stack:
-                right.append(stack[-1] - i)
-            else:
-                right.append(N - i)
-            
-            stack.append(i)
-        right.reverse()
-        
-        for i, x in enumerate(arr):
-            res += x * left[i] * right[i]
-            res %= M
-        
-        return res
-```
+                prevSmaller[stack.pop()] = i
 
+            stack.append(i)
+
+        for i, x in enumerate(arr):
+            # fix x as the smallest in the subarray
+            left = i - prevSmaller[i]
+            right = nextSmaller[i] - i
+            res += x * left * right
+            res %= MOD
+
+        return res
+
+```

@@ -1,13 +1,13 @@
 ---
 title: 2334. Subarray With Elements Greater Than Varying Threshold
 draft: false
-tags: 
+tags:
   - leetcode-hard
   - array
   - stack
   - union-find
   - monotonic-stack
-date: 2024-08-14
+date: 2025-01-23
 ---
 
 [Problem Link](https://leetcode.com/problems/subarray-with-elements-greater-than-varying-threshold/)
@@ -15,6 +15,7 @@ date: 2024-08-14
 ## Description
 
 ---
+
 <p>You are given an integer array <code>nums</code> and an integer <code>threshold</code>.</p>
 
 <p>Find any subarray of <code>nums</code> of length <code>k</code> such that <strong>every</strong> element in the subarray is <strong>greater</strong> than <code>threshold / k</code>.</p>
@@ -51,41 +52,42 @@ Therefore, 2, 3, 4, or 5 may also be returned.</pre>
 	<li><code>1 &lt;= nums[i], threshold &lt;= 10<sup>9</sup></code></li>
 </ul>
 
-
 ## Solution
 
 ---
+
 ### Python3
-``` py title='subarray-with-elements-greater-than-varying-threshold'
+
+```py title='subarray-with-elements-greater-than-varying-threshold'
 class Solution:
     def validSubarraySize(self, nums: List[int], threshold: int) -> int:
         N = len(nums)
         prevSmaller = [-1] * N
         nextSmaller = [N] * N
+        res = -1
 
+        # construct nextSmaller array
         stack = []
         for i, x in enumerate(nums):
             while stack and x < nums[stack[-1]]:
                 nextSmaller[stack.pop()] = i
-            
+
             stack.append(i)
-        
+
+        # construct prevSmaller array
         stack = []
         for i in range(N - 1, -1, -1):
             while stack and nums[i] < nums[stack[-1]]:
                 prevSmaller[stack.pop()] = i
-            
-            stack.append(i)
-        
-        for i, x in enumerate(nums):
-            left, right = prevSmaller[i], nextSmaller[i]
-        
-            N = right - left - 1
 
-            if x > threshold // N:
-                return N
-        
-        return -1
+            stack.append(i)
+
+        for i, x in enumerate(nums):
+            # fix x as the smallest element in the subarray
+            length = nextSmaller[i] - prevSmaller[i] - 1
+            if x > threshold // length:
+                res = max(res, length)
+
+        return res
 
 ```
-

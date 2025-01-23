@@ -1,12 +1,12 @@
 ---
 title: 2104. Sum of Subarray Ranges
 draft: false
-tags: 
+tags:
   - leetcode-medium
   - array
   - stack
   - monotonic-stack
-date: 2021-12-12
+date: 2025-01-23
 ---
 
 [Problem Link](https://leetcode.com/problems/sum-of-subarray-ranges/)
@@ -14,6 +14,7 @@ date: 2021-12-12
 ## Description
 
 ---
+
 <p>You are given an integer array <code>nums</code>. The <strong>range</strong> of a subarray of <code>nums</code> is the difference between the largest and smallest element in the subarray.</p>
 
 <p>Return <em>the <strong>sum of all</strong> subarray ranges of </em><code>nums</code><em>.</em></p>
@@ -69,27 +70,65 @@ So the sum of all ranges is 0 + 0 + 0 + 2 + 0 + 2 = 4.
 <p>&nbsp;</p>
 <p><strong>Follow-up:</strong> Could you find a solution with <code>O(n)</code> time complexity?</p>
 
-
 ## Solution
 
 ---
-### Python3
-``` py title='sum-of-subarray-ranges'
-from sortedcontainers import SortedList
 
+### Python3
+
+```py title='sum-of-subarray-ranges'
 class Solution:
     def subArrayRanges(self, nums: List[int]) -> int:
+        N = len(nums)
         res = 0
-        n = len(nums)
-        
-        for i in range(n):
-            smallest = largest = nums[i]
-            for j in range(i + 1, n):
-                smallest = min(smallest, nums[j])
-                largest = max(largest, nums[j])
-                
-                res += largest - smallest
-        
-        return res
-```
+        prevSmaller = [-1] * N
+        nextSmaller = [N] * N
+        prevLarger = [-1] * N
+        nextLarger = [N] * N
 
+        # construct nextSmaller array
+        stack = []
+        for i, x in enumerate(nums):
+            while stack and x < nums[stack[-1]]:
+                nextSmaller[stack.pop()] = i
+
+            stack.append(i)
+
+        # construct prevSmaller array
+        stack = []
+        for i in range(N - 1, -1, -1):
+            # add equal sign here to prevent double counting
+            while stack and nums[i] <= nums[stack[-1]]:
+                prevSmaller[stack.pop()] = i
+
+            stack.append(i)
+
+        # construct nextLarger array
+        stack = []
+        for i, x in enumerate(nums):
+            while stack and x > nums[stack[-1]]:
+                nextLarger[stack.pop()] = i
+
+            stack.append(i)
+
+        # construct prevLarger array
+        stack = []
+        for i in range(N - 1, -1, -1):
+            # add equal sign here to prevent double counting
+            while stack and nums[i] >= nums[stack[-1]]:
+                prevLarger[stack.pop()] = i
+
+            stack.append(i)
+
+        for i, x in enumerate(nums):
+            leftMin, rightMin = i - prevSmaller[i], nextSmaller[i] - i
+            leftMax, rightMax = i - prevLarger[i], nextLarger[i] - i
+
+            mmin = leftMin * rightMin
+            mmax = leftMax * rightMax
+
+            res += x * (mmax - mmin)
+
+        return res
+
+```
