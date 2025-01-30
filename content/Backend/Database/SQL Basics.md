@@ -93,6 +93,7 @@ INSERT INTO games VALUES ('Game 1', '1.0', NULL);
 
 > [!error]
 > Both statements will be rejected. With a `NOT NULL` constraint, you can't insert a row without providing a value for the field.
+
 > [!note]
 > If there is a `default` value, you can insert a row without providing a value for the `NOT NULL` field. But still, you can't insert a row with explicit `NULL`.
 
@@ -159,6 +160,67 @@ CREATE TABLE downloads (
 ```
 
 > [!note] `ON UPDATE CASCADE` and `ON DELETE CASCADE` propagate the update or deletion.
+
+## `CASE` keyword
+
+We can do this but not preferrable.
+
+```sql
+    SELECT name || ' ' || version,
+    CASE
+        WHEN price * 0.09 >= 0.3 THEN ROUND(price * 1.09, 2)
+        ELSE price
+    END AS price
+    FROM games;
+```
+
+## `COALESCE` keyword
+
+`COALESCE(x1, x2, x3, ...)` returns the first `non-NULL` (from left-to-right) of its argument.
+
+- `COALESCE(NULL, 1, NULL, 2)` is `1`.
+- `COALESCE(NULL, NULL, NULL)` is `NULL`.
+
+## Counting with `NULL`
+
+- `COUNT(*)` counts `NULL` values.
+- `COUNT(att)`, `AVG(att)`, `MAX(att)`, `MIN(attt)` eliminate `NULL` values.
+
+## `JOIN` keyword
+
+### CROSS JOIN vs INNER JOIN
+
+While **inner join** is a popular construct, there is no added expressiveness or performance in **INNER JOIN**.
+The two queries below are equivalent.
+
+```sql
+-- Inner Join
+SELECT *
+FROM customers c
+    INNER JOIN downloads d
+        ON d.customerid = c.customerid
+    INNER JOIN games g
+        ON d.name = g.name AND d.version = g.version;
+```
+
+```sql
+-- Cross Join
+SELECT *
+FROM customers c, downloads d, games g
+WHERE d.customerid = c.customerid
+    AND d.name = g.name
+    AND d.version = g.version;
+```
+
+### Natural Join
+
+If we managed to give the same name to columns with the same meaning across the tables, we can use
+**natural join**. **NATURAL JOIN** joins rows that have the **same values** for columns with the **same name**. It
+also **prints only one** of the two columns.
+
+### Outer Join
+
+WIP
 
 ## Good Practices
 
